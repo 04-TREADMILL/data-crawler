@@ -1,0 +1,100 @@
+21501|反复弹出信息：在过去5分钟，TypeScript语言服务以外中止了5次
+21502|firstLine in Language Requires Entire line to match
+21503|Referencing variables in settings
+21504|[ Server response code is 404 ] keep poping on top of vscode
+21505|Force quit with the ability to revert changes silently
+21506|Debug toolbar and tab row overlap
+21507|proxy not working
+21508|Git push/pull process loader is keeping moving if internet is disconnected in between the process.
+21509|Ben/next
+21510|JSDoc snippet has some spacing issues
+21511|Please support skipfiles and entries starting with '!'
+21512|Show TS/JS File and Folder Suggestions using Trigger Characters
+21513|Creating a new folder in open dialog needs a manual refresh (like F5) to show up
+21514|VSCode crashes when closing developer tools at the second time
+21515|First save of a file takes too long
+21516|White spaces before open bracket is removed
+21517|Add API to force quit with the ability to revert changes silently
+21518|Add option to let new windows cascade when set to inherit
+21519|Regression: hover no longer shows source preview
+21520|'Open recent' list should be longer
+21521|Word wrap  now won't 'unwrap'
+21522|Ruby 2.3 tilda (squiggly) heredoc not recognised as a string
+21523|aparece un mensaje contiuno y se cierra y vuelve aparecer
+21524|Linux: vscode can't be display correct
+21525|VSCode Causes Windows 10 to Freeze and Crash
+21526|m
+21527|Feature Request: Built-in NuGet Package Manager
+21528|I don't like the font that VS Code is using
+21529|Watch expressions and function breakpoints input box left / right navigation broken
+21530|Ability to navigate between changed sections of a file according to git
+21531|formatOnPaste: true pastes the rest of the line in SCSS files
+21532|Add telemetry to new git.clone action
+21533|Pressing Enter should not force tokenization in very large files
+21534|startup profiler
+21535|Collapse all children in explorer tree?
+21536|git.clone fails if parent folder does not exist
+21537|material icon theme  does not work :(
+21538|React Native packager still running in the background when debugger exists
+21539|VSCode does not hint or autocomplete event.target.parentNode;
+21540|Cannot multi-select items in SCM / Git Viewlet
+21541|Css mso-height-rule:
+21542|[css] Propose list of available values after property
+21543|Wordrap toggle not working correctly after the the most recent update
+21544|Red bar spanning the editor where my cursor is
+21545|Windows npm.bat pathname bug prevents build with unclear errors (with verified bug fix )
+21546|Blurry default font on Mac with non-high-dpi display
+21547|Use common TS install for both the TS Extension and Html Extension
+21548|Build vscode with conda
+21549|Main + Code Helper processes take 100% CPU
+21550|Offer to open settings when php path not set / invalid
+21551|Refactor to use Promise
+21552|Offer to open changelog when an extension is updated
+21553|copy/paste problems in 1.10
+21554|Vscode cannot open external terminal debugging by setting the console
+21555|Relax Language First Line Match
+21556|Cannot find runtime 'node' on PATH.
+21557|type script language service died
+21558|typescript language service died!
+21559|Cannot fully copy the output from DEBUG CONSOLE
+21560|"""),"" is being linkified in the editor"
+21561|JSDoc intellisense & highlight not work for properties with hyphen in it
+21562|Add API to force quit with the ability to revert changes silently
+21563|The cursor location in Terminal is incorrect
+21564|add properties to indicates OutputChannel visibility status
+21565|Wrong warning shown for 'node2'
+21566|[json] deprecation warning indicator should be shown under attribute name, not value
+21567|TypeScript语言服务意外终止
+21568|Switch Objective-C Builtin Extension to Use the Atom Objective-C Grammar
+21569|Clearing search results - first history item is wrong
+21570|error: the internet connection appears to be offline
+21571|Go to implementation should show all implementations if there are multiple
+21572|to save the last command in the command palette
+21573|FileService.resolveContent() should check for not modified since as first thing
+21574|Can't Install any extensions
+21575|Opening using context menu starts two copies of VSCode
+21576|Add bread crumbs support
+21577|vscode 1.9.1 ctrl+j is not working with the terminal
+21578|debug icons hide tabs
+21579|In the fedora to install the vscode failure
+21580|Add option to always show word based suggestions
+21581|jsdoc completions in glob patterns
+21582|Explorer: Collapse all subfolders when collapsing a folder
+21583|Adopt & review ITextSource2
+21584|False statement in warning
+21585|Make Terminal hyperlinks configurable
+21586|Can editors be closed by an extension?
+21587|1.
+21588|format
+21589|Running debugger with yarn
+21590|Bug when processing the afterthought of a for loop in a macro
+21591|VSCode Version: Code 1.9.1 (f9d0c687ff2ea7aabd85fb9a43129117c0ecf519, 2017-02-09T00:26:45.394Z)
+21592|- VSCode Version: Code 1.9.1 (f9d0c687ff2ea7aabd85fb9a43129117c0ecf519, 2017-02-09T00:26:45.394Z) - OS Version: Windows_NT ia32 10.0.14393
+21593|VSCode
+21594|mac os 10.12.3  dlv
+21595|A issue of using Mono Debug to debug a example with gui.
+21596|PHP with HTML problem
+21597|Feature request: Add number of selected lines to status bar
+21598|Markdown highlighting bug when code block starts from beginning of line
+21599|Typescript intellisense not working
+21600|add --prof-startup flag

@@ -1,0 +1,100 @@
+22301|Expose list of valid language ids to extensions
+22302|Automatically detect .ejs templates (and other common template extensions) as HTML file
+22303|[Feature Request]: Expose IQuickOpenService as public api
+22304|An explicit way to restart TypeScript service (tsserver)
+22305|Bad fonts rendering in editor
+22306|Emmet doesn't works with multicursors
+22307|alt+tab needs to open any editor regardless of group
+22308|C++14 digit separators are not properly highlighted
+22309|Don't show delete git branches in command pallet
+22310|Access notification actions via keyboard
+22311|Closing editors (tabs) can repeatedly prompt on unsaved changes
+22312|Buit-in PHP docs and intellisence
+22313|VSCode hangs randomly while idling
+22314|Allow to use as Code as commit message editor in running instance
+22315|Feature request: highlight problem indicator with color when problems exist
+22316|Integrated Terminal Touch Scrolling Does Not Work
+22317|ReferenceWidget does not dispose _previewModelReference on dipose
+22318|Lua Symbols not support!!!
+22319|custom snippets not load
+22320|Partially Broken Complex Script Rendering of Tamil
+22321|Allow arguments for status bar item commands
+22322|Update PHP snippets
+22323|Error: Failed to execute git
+22324|List: inactive list should use inactive colors for selection
+22325|Open type: sometimes hard to distinguish different types
+22326|Pick up new c/c++ grammar
+22327|Expose a location for extensions to add to the main menu bar
+22328|Provide command to toggle minimap in the menu
+22329|Editor background color is no longer coming from the theme
+22330|Could the keybindings  shortkeys internationalized
+22331|An update is ready to install. Visual Studio Code is trying to add a new helper tool
+22332|Alt + Numpad keybindings insert characters into editor
+22333|command 'extension.vim_backspace' not found
+22334|macOS: BundleIdentifier present on my .zshrc file
+22335|Tasks lint and intellisense have conflicting suggestions
+22336|Terminal: Cannot read focus of null
+22337|Handle proxy authentication
+22338|"Support for live preview and/or ""open in browser"" shortcut and Format support for PHP"
+22339|Visual Code will no longer launch under Centos7+SSH
+22340|Hide interface suggestion in intellisense
+22341|SCM: unable to open file from a change on the index
+22342|Add environment setup support for tasks configuration
+22343|"How to use ""oneOf"" extension configuration?"
+22344|tasks.json TypeScript build produces different errors than `tsc` on command line
+22345|Tasks echoCommand does not show command in Terminal
+22346|Debugger setup tuning for using VS Code with the mern.io starter kit
+22347|Launch config intellisense completion for `processId` inserts deprecated variable format
+22348|Selecting text using column select then moving lines up/down with ALT+arrow inconsistently affects lines
+22349|"Only show ""The internet connection appears to be offline"" message when relevant"
+22350|Move line down is not multi cursor aware
+22351|Is there a 64-bit version of VSCode for Windows?
+22352|Open the html in either Finder or specific Browser
+22353|Go to definition does not find a definition in typescript
+22354|"Feature Request - Add ""Copy Relative Path"" to Explorer"
+22355|Make update notifications less intrusive
+22356|UI - explore improved notification UX
+22357|Implement join editors command
+22358|Git - terse error message when doing a git commit
+22359|Is it possible to use wsl bash php for php.validate.executablePath
+22360|A recommended important extension should be shown on top of the recommendation list
+22361|Path file not correct.
+22362|formatting document clears my code in the latest update
+22363|Allow user to perform terminal operations relative to project root
+22364|Insider's Update unable to close ExtensionHost during Update on Windows
+22365|Show included (php) or referenced (css, or js) file as separate tabs
+22366|Let StoppedEvent's 'description' attribute override 'reason'
+22367|No keybindings in menu when running with Brazilian Portuguese layout
+22368|VSCode not picking up all Environmental variables when launched
+22369|Search in settings editor is showing invalid results for search term '4'
+22370|zh-CN welcome page translation issues.
+22371|Split documents (e.g. diffs) with focus on left switches to the right on focus loss
+22372|CSS @media in HTML file breaks syntax highlighting
+22373|Extension Pack dependencies are not being installed
+22374|Hex/Binary display of debug variables in C++
+22375|"[Debug] VSCode is sending empty ""hover"" evaluate requests to debug adapters."
+22376|Strange search behavior in default settings.json
+22377|Debug in terminal broken in Insiders
+22378|[Theme] allow to set editor gutter background
+22379|"""Run To Cursor"" does nothing in run mode"
+22380|Provide a way (command) to switch between panes of a diff view
+22381|Don't underline terminal link on hover unless ctrl is held
+22382|Cannot open new window from task bar
+22383|Allow to assign multiple languages for one file extension
+22384|"Protocol ""auto"" suddenly required to debug simple node script. Why?"
+22385|"Docs opened by ""Open loaded scripts"" are blank after debug session"
+22386|"""Open Loaded Scripts"" often doesn't work on second run"
+22387|some C++ keywords not colorized correctly
+22388|Keep and restore scroll position for readonly documents
+22389|Prototype Allowing Extensions to Extend the Builtin Markdown Extension
+22390|"Provide ""terminal.integrated.enableBold"" setting"
+22391|Add Toggle MiniMap to View Menu
+22392|Add keyboard shortcut for Settings on Windows
+22393|debugging: switch to console/terminal after preLaunchTask
+22394|Git: Support cherry-pick
+22395|hygiene.js Development use/options (eg commit without hygiene)
+22396|Saving settings.json writes an empty file.
+22397|Editor window does not activate when breakpoint hit.
+22398|window offset vertically after unplugging then plugging external monitor
+22399|Command+I selection on Mac mistakenly place the cursor at the beginning of the next line
+22400|Toggle Skipping This File does not work

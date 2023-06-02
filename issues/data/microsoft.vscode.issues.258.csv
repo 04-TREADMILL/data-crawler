@@ -1,0 +1,100 @@
+25701|"Support ""external files"" provided from TypeScript LS plugins"
+25702|Escape literal dollar sign in snippet shows as error
+25703|Monokai and monokai dark backgrounds (+workbench colors) have changed
+25704|Feature Request: Support TFS Version Control
+25705|Red Theme - Badges Should Be Darker
+25706|Automatic Type Acquisition not working on Windows 10 x64
+25707|Reload syntax when shebang is added
+25708|Add .mjs to known JavaScript file extensions
+25709|Intellisense including jsdoc typedef definitions
+25710|"Documentation for ""How to setup VSCODE for Angular2 via Typescript debugging"""
+25711|[WelcomeUX] Windows: Filter current folder from Recent section
+25712|Find in selection button doesn't have blue border when selected
+25713|no generating lauch.json when selecting a debugger
+25714|Use TypeScript 2.3.2 for building VSCode
+25715|Use TypeScript 2.3 to build VSCode
+25716|Fixes #23005
+25717|Fix - #24242 #24550
+25718|Touch screen doesn't work in the Terminal window
+25719|Invalid property descriptor error from message service
+25720|Code helper issue cpu issue...
+25721|"script type=""module"" doesn't highlights as javascript"
+25722|autoClosingPairs doesn't always auto close
+25723|Keybindings are not highlighted in Keyboard shortcuts editor
+25724|Option for always visible collapse button
+25725|missing Go To Definition and Peek Definition
+25726|Theme: Generate Color Theme creates file in fs root
+25727|Expose range stage commands in editor context menu
+25728|[theme] Workbench button.foreground doens't work
+25729|[folding] Option for single line collapse like in visual studio
+25730|Loading issue when bundling tslint language server plugin as a VS Code extension
+25731|VScode not working on Mac
+25732|Use Node#classList when supported
+25733|VS Code does not update the program in a custom installation path.
+25734|JSON Language Server server crashes if any inline `$schema` is specified.
+25735|Support for list.inactiveSelectionForeground
+25736|Strange boxes
+25737|Expose Stickiness API #15758
+25738|Exception widget: overlapping upon code folding
+25739|macOS ColorSync profiles cause blocky backgrounds
+25740|Could not install typings files for JavaScript language features.
+25741|Remove ArraySet
+25742|Enhancement - search project dir by filename
+25743|"Unable to middle-click to paste in ""Find"""
+25744|"Unable to middle-click to paste in ""Find"" box on Linux"
+25745|'Namespace 'vscode' has no exported member 'Task'
+25746|Maintain scroll position for content provided by TextDocumentContentProvider
+25747|Add `${relativeFileNoExtension}` to 'predefined common variables'
+25748|扩展主机意外终止。请重新加载窗口以恢复。
+25749|`list.activeSelectionBackground` seems to have no effect for custom themes when contrastBorder and contrastActiveBorder are set
+25750|Can't split file when dragging from explorer
+25751|Closing script tags not colored not using ligatures
+25752|Best way to run gulpfile.js in VSC?
+25753|New extension throws uncaught exception when start debug
+25754|Edits lost because vscode reloads the file while editing it
+25755|"VSCode update popup never disappears, forcing the user to click on ""Later"" (for the popup to disappear)"
+25756|inherit default behaviour for custom language extension
+25757|IDE loops and memory leaks causes Linux to freeze
+25758|Neo keyboard 4'th layer backspace not working
+25759|Workbench colors for Welcome/Playground
+25760|Parameter Helper showing incorrect signature in JavaScript
+25761|Can release notes only open in the active window?
+25762|workspace.openTextDocument opens second editor window
+25763|"""markdown.preview.markEditorSelection"": true is not working"
+25764|React lifecycle method suggestions aren't work with es6
+25765|关闭并重启VSCode，折叠的代码，全部展开了
+25766|input character when region selection, the selected region is not overwritten like other editors
+25767|Add Suggestion Provider For TS Directives
+25768|TSServer Can Hang When Restarting With Ongoing Requests
+25769|Fix a potential hang when tsserver exits improperly
+25770|TS2.3 JS type check on HTML inline script?
+25771|Vscode second instance is not opening on windows
+25772|macOS: Add a setting to reopen last opened window after closing it
+25773|Expand docs on the side in the suggest widget
+25774|Feature Request: Add line number when copying to word!!!
+25775|User Snippet cannot escape $
+25776|Column breakpoints don't work with TypeScript sourcemaps
+25777|Diff sometimes errors on unicode characters
+25778|Default launch configuration for launching node in docker/docker-compose file
+25779|show column number in CALL STACK view
+25780|sort breakpoints by file,line,column
+25781|top stack frame column heuristic should not look at stack frame column
+25782|Debugger leaves Mocha running forever with Inspector protocol
+25783|Working Tree sometimes doesn't show changes
+25784|Make VS Code compatible with windows VSS
+25785|Filter folders for formatOnSave
+25786|GIT Quick Open Command
+25787|VS Code Does Not Reopen in the Same State
+25788|use tslib
+25789|Feature Request: Add a menu to copy the search result to the clipboard
+25790|Sidebar is not clickable after changing Date & Time
+25791|Hot exit should preserve language mode for untitled files
+25792|Code using 99%-100% CPU and doesn't allow me to do anything (cursor still blinking slowly) - Not frozen or crashed
+25793|"FreatureRequest: Select and copy text from the ""About Microsoft Visual Studio"" box"
+25794|FeatureRequest: Using the immediate window without building
+25795|Allow to configure how to increase file name suffix
+25796|Updating from 1.9.1 to 1.11.2
+25797|No intellisense for Javascript project files that use 'require'
+25798|Extensions: An `official` way to query for the current workspace SCM provider
+25799|"""Generate Theme"" json process confused by newlines"
+25800|Drag filename from explorer to editor pane broken in 1.11.2

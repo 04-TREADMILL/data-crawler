@@ -1,0 +1,100 @@
+4001|Steps to repro: - new window (ctrl+shift+n) - open keyboard preferences
+4002|@dbaeumer https://github.com/Microsoft/vscode/issues/703#issuecomment-162473700
+4003|"This should be a basic feature for an ""out of the box"" experience."
+4004|But turquise we still use in light theme. Maybe bring back turquise, since now interface names are colored in dark theme but not in light -> inconsistent
+4005|@joaomoreno I guess these are fine?  ![screen shot 2015-12-16 at 12 28 19](https://cloud.githubusercontent.com/assets/1926584/11839745/86db636e-a3f0-11e5-97ec-5dc638e4d921.png)
+4006|Oopsy ofc they are fine you added a .done
+4007|This issue was moved to Microsoft/vscode-node-debug#25
+4008|This issue was moved to Microsoft/vscode-mock-debug#2
+4009|@aeschli steps or more details on how to verify this would be great
+4010|This issue was moved to Microsoft/vscode-node-debug#26
+4011|verified I am seeing: https://github.com/Microsoft/node-native-keymap
+4012|@bpasero How can I verify this? Is that with parent folders outside of the VS Code scope?
+4013|Steps: - switch to different keyboard layout (e.g. German-Swiss) - close and reopen code - top level menu & context menu should either render what you need to actually press or nothing at all  Note: under windows Electron does the right thing and only mac & linux are really impacted
+4014|Nice catch!
+4015|Make a file dirty and rename its parent from the explorer inside VS Code. I have actually not checked with a folder outside the workspace, but that should not make a difference.
+4016|I removed turquise from the light theme as well. We are now consistent to what we had in 0.9.0.
+4017|@isidorn In a css file, type `grad` and do intellisense. Pick the gradient snippet.
+4018|Awesome. Thanks!
+4019|I believe it's for the same reason we use `lint` programs. To make sure no one breaks anything. This is super helpful in case you are working on multiple projects with different targets. It's like a safety check to make sure that you (or anyone else) won't break anything by accident.
+4020|Ok, understood. Tho I believe this bug is valid, cos it's hardly ever wanted behaviour: - have a dirty - rename parent folder - the changes aren't moved onto the new model but sit on the old - saving the old file restores the old folder.   We should either not allow to rename or just know what happens and make the changes on the 'new' file.
+4021|:+1: , also think we can be smarter about the parent chain and update it, but it is not data loss.
+4022|It never stops for me on the last line, neither as described, nor with stop on entry, nor with setting the entry to app2_.ts_ instead of app2_.js_.
+4023|@jrieken we changed this for December. Right?
+4024|@jrieken
+4025|Nice catch will fix for January
+4026|Should revisit the scoring algorithm for this case, maybe upper case bonus should not be given to beginning of word or segments.
+4027|When TS isn't launched yet, you get this error  ![screen shot 2015-12-16 at 14 23 23](https://cloud.githubusercontent.com/assets/1794099/11841929/a857888c-a400-11e5-80bc-97ba26f2c9b9.png)
+4028|"I'm not sure if it's related but I wrote a plugin and everything is fine except that when the user is idle from vscode for some time (10-30minutes maybe) there is a message in the console ""provideSignatureHelp"" and then the plugin do not respond.  In ""do not respond"" I mean that you can't click on the status bar (well, you can but nothing happens) and all setInterval launched by the plugin have stopped (I added some console.log to debug and they are not showing)  ps: This ""provideSignatureHelp"" message do not come from my code, i made a search for it."
+4029|"@dbaeumer  I don't think this is about why ""es6"" isn't the default target, if that's what you mean. It's more about why doesn't vscode predicts which version of js is being used automatically."
+4030|@massimocode furthermore, it's not possible to find out which version is being used just by analysing a file. All ES5 code is valid ES6, but not vice versa, so an ES6 file might be incorrectly flagged as an ES5 one if it doesn't use any features of ES6.
+4031|I'm wondering if it's because I don't dispose correctly of my all commands... Still looking for the problem.
+4032|You're probably missing Props & State interface types.  ``` interface Props { /*...*/ } interface State { /*...*/ } class MyComponent extends React.Component<Props, State> {   // ... } ```  See its [declarations file](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/react/react.d.ts#L118-L130).
+4033|@bpasero I get `numpad_decimal` when pressing the numpad `.` (`Del`) key under Lubuntu based on Ubuntu 15.10 and under Ubuntu 14.04.3 LTS.  Can you please try `lsb_release -a` and add the version you have.
+4034|@jrieken I could repro your original problem on node >= 0.12.9 and my fix works on all versions <= 5.1.1 but 5.2.0 breaks it.
+4035|No LSB modules are available. Distributor ID: Ubuntu Description:    Ubuntu 15.04 Release:    15.04 Codename:   vivid  Maybe this is a parallels issue?
+4036|duplicate of #140
+4037|yes, the new default is ES6. if your target platform doesn't support ES6 (think of old browser etc) set the option to be notified when you stuff that isn't supported.
+4038|Verified via code.bat that now ctrl + I selects selects one visual line of the whole wrapped line - which is what I would expect.
+4039|@bpasero fyi.
+4040|I think sublime will just name your untitled file whatever you put into the first line of the file. Not sure I like that in all cases.
+4041|Created #1383
+4042|Closing.
+4043|Couldn't reproduce either.
+4044|@karlti thank you for verifying :+1:. Let's track searching for `\r` and `\n` in #313
+4045|@joaomoreno I tested this several times and it takes around 8 seconds to show the list. Progress is shown as well.   Since the issue doesn't state what the expected timing is I will leave it up to you to decide whether there is a regression here or not.
+4046|my Lenovo's w530 trackpad scrolls horizontally instead of moving cursor.  @aroemen What happens if you open a webpage with a native textarea with a horizontal scrollbar in Chrome and use the horizontal scroll gesture? I've made such an example at https://jsfiddle.net/n5ego3fs/  Does Chrome move the cursor too or just scrolls? What do other browsers do? (it might be a Chrome bug)
+4047|To verify: - switch to German (Swiss) on Windows - reload window - press F1, search for `Split Editor` - check that it is rendered as `Ctrl+ä` and not `Ctrl+´ä`
+4048|copy line up suffered from the same bug, please verify that too
+4049|"It seems like I don't get any link anymore...  That's my app  ```  console.log('Console: Fri, 12 Nov'); console.log(""e:\\files\\folder""); console.log(""c:\\files\\folder""); console.log(""d:\\files\\folder""); console.log('/users/jrieken/'); console.log('http://test.ing');  function fn(...args: any[]) {     console.log(args); }  fn(1, 2, true, {}); ```  ![screen shot 2015-12-16 at 15 57 38](https://cloud.githubusercontent.com/assets/1794099/11844212/d4b82294-a40d-11e5-9ba9-3f90fe8fa7df.png)"
+4050|@aeschli can you please provide steps to verify.
+4051|@bpasero Opening a folder from the command line doesn't work for me.  ![image](https://cloud.githubusercontent.com/assets/5047891/11844468/4245c004-a40f-11e5-8089-b4a4c9f53bbc.png)  When I run that I get a new window without any folder opened.
+4052|@bpasero If I change the unit test to check that the doc isn't dirty after save it still fails. Am I missing something?
+4053|![screen shot 2015-12-16 at 16 09 02](https://cloud.githubusercontent.com/assets/1794099/11844487/57371f58-a40f-11e5-9dac-e61e6f574cc0.png)
+4054|@jrieken Since this fix is good for node <= 5.1.1 I do not want to revert it. Instead I created a new bug for addressing the issue with node 5.2.
+4055|@joaomoreno Dude still ~2sec for me
+4056|[Untitled.mov.zip](https://github.com/Microsoft/vscode/files/64180/Untitled.mov.zip)
+4057|I was reusing a command prompt where I ran code.bat out of development. When using a fresh command prompt I could open folders and verify the issue is fixed
+4058|@alexandrudima check latest commit
+4059|Yep. Better than 10 seconds, which was the before time. Also, from the office it always takes longer, don't really know why.
+4060|works for me. I did the following: - new untitled file - typed in it - Ctrl+S and typed README - the file got saved
+4061|:+1:
+4062|For verification: - use Hack font on mac - change theme to Quiet Light - save file from comment as Makefile - verify the file is not all red - verify that selecting a bold region gets rendered correctly
+4063|@jrieken so from the UI I see that things look ok to me, there is no untitled file left around after the save completes. However the underlying text document is different from the untitled document to the saved document, they have different URIs so they end up to be different models in the model service.   When an untitled file gets saved, I emit the `UNTITLED_FILE_DELETED` and dispose the untitled document and it is replaced with the file document.  I guess on the PH side what would need to happen is that the untitled document is wired up to the text file document after the save has completed.
+4064|this was in the test plan
+4065|Just  did it from home and it took between 1-2 seconds.
+4066|Marking as verified based on the comment from @alexdresko. @dbaeumer If you want me to verify this as well then I need steps.
+4067|For verification:  ``` javascript var x = (3 + (5-7)) ```  position cursor in every possible position around brackets. Use jump to bracket, it should not get stuck or start jumping to other bracket pair.
+4068|@isidorn This is the long line with multi byte characters case that you also hit some time ago
+4069|can it be a server side problem?
+4070|@joaomoreno   :+1:  LGTM
+4071|"this took around 13 sec for me:  ``` curl ""https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery"" --data '{""filters"":[{""criteria"":[{""filterType"":1,""value"":""vscode""}]}],""flags"":133}' -H ""Accept: application/json;api-version=3.0-preview.1"" -H ""Content-Type: application/json"" --compress -v ```"
+4072|`.04s user 0.01s system 2% cpu 1.899 total` here  Depends very much on the moment, time of day, location, etc.
+4073|"@jrieken hehe, took me also a while to find out, I am only supporting file paths with line/column information (line:number).  <img width=""497"" alt=""screen shot 2015-12-16 at 17 43 41"" src=""https://cloud.githubusercontent.com/assets/900690/11847231/b672755a-a41c-11e5-8244-772e4e72407e.png"">  I think I chose this to avoid too many false positives because there can be many things starting with ""/"" that are not file paths."
+4074|@alexandrudima in Chrome, it is scrolling the viewing area. Here is a screencast showing the differences between jsfiddle page and vscode.http://screencast.com/t/CFbXK1wv
+4075|+1
+4076|Complained about this very issue [here](https://visualstudio.uservoice.com/forums/293070-visual-studio-code/suggestions/9009457-list-move-files-per-editor-window).  If the team is still using Uservoice, maybe also add votes there?
+4077|- 1
+4078|@egamma ah the release notes is a good place for now. Let's pull back on that (edited the original description).   Yes its possible that we could move what we want to be shown on the welcome page to the release notes page.   Our idea was to encourage more extensions installs by making developers more aware that they could install extensions. We've seen a drop in the number of installs and so we were looking for places to prompt them to install extensions. The welcome page seemed to be a good place.   On further discussion with the team, we have come up with better ideas and aren't sure this is the route we want to go.   Let's table this issue for now.
+4079|Ok, it _is_ supported, just not documented. :)
+4080|Closing this issue.   I've added the following sentence in the [release notes](https://github.com/Microsoft/vscode-docs/blob/vnext/release-notes/latest.md):  These release notes only capture whats new in the core of Visual Studio Code. Do not forget to checkout the [marketplace](https://marketplace.visualstudio.com/#VSCode) for extensions.
+4081|@cfjedimaster This is what I thought :smile:   @aeschli can you look into updates in the doc.
+4082|If you restart VS Code, the extension is not shown as installed.   If you try to install the extension (new version) from the gallery, this also hangs and the extension is not installed. It appears that the extension directory can't be removed and this blocks update and installation.
+4083|Would be cool if this was exposed as an extension in some way.  I worry that in some cases, the tree can be a bit polluted with color and look like a Christmas tree.  Or if not, at least have the option to toggle it on and off.
+4084|Cool idea. @bgashler1 and @stevencl maybe something to explore soon?
+4085|@bpasero I've tried this out for the Go extension.  It seems to be working. - Travis: https://travis-ci.org/Microsoft/vscode-go/builds - PR for `vscode-go` with the Travis configuration: https://github.com/Microsoft/vscode-go/pull/161  Any feedback on whether these looks correct?  Also - is it safe to adopt `vscode: next` for an extension that is still being used on VS Code 0.10.3?  I assume there is no problem with that?  One thing I did noticed while setting this up - running these tests locally is a little rough right now - three issues: - Always downloads VSCode - there is no caching. - Files are downloaded into a local `.vscode-test` folder which must be added to all ignore files - The inability to run tests from the command line while other instances of Code are open
+4086|This issue repro's on both 0.10.3 and 0.10.4 releases.
+4087|The workaround is to uninstall the extension first (succeeds) then install the update.
+4088|This is a good test case for the update extensions improvements that will go into 0.10.5
+4089|Yes I agree. I created a separate issue to have this exposed in extension API (see #1394).
+4090|This reproduces for simple extensions as well such as a theme with no code nor npm modules.  The .vsixmanifest file is the only thing left in the extension folder.
+4091|"@bpasero True, I totally agree with you and that's why I said ""not saying to copycat sublime 100%"", but I still think currently there is no easy to to save a file in a convenient way. See, the first file type is *.txt but most developers won't write .txt files too often."
+4092|@louy I wasn't using typescript. I just wrote some ES6 + React.
+4093|+1 I occasionally need to exit my editor quickly and like not having to think about saving when I do.
+4094|+1 additionally I'd love to be able to drag and drop my files around.
+4095|Looks like there are a couple of extensions that do this.  - https://marketplace.visualstudio.com/items/yuichinukiyama.TabSpacer - https://marketplace.visualstudio.com/items/ilich8086.Untabify
+4096|It happened again... code.exe is locking the file according to handle
+4097|"I am trying to debug suggestion Intellisense and i choose debug config option ""Attach to Extension host""."
+4098|@Codemaverick Voted there as well.
+4099|Whoops, so [this was actually a typo in v0.10.3](https://github.com/Microsoft/vscode/blob/0.10.3/src/vs/workbench/parts/tasks/electron-browser/task.contribution.ts) (search `'programm.'`), but it's OK in master (@gluck [fixed it](https://github.com/Microsoft/vscode/commit/f21fd8f468ae76e99bda5ee8492da01bfd3a1b3c#diff-8fafdebc873f39452d7d7d55b03b8aba)), so I'll just close this out.
+4100|Duplicate of #1330 which has been fixed.

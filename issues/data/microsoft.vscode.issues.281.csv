@@ -1,0 +1,100 @@
+28001|Markdown Snippet Prefix Does Not Trigger Snippet
+28002|Slower loading of VS code
+28003|Color Pixels When Opening VSCode
+28004|[SCM] Allow provider to contribute to Rename and Delete file operations
+28005|"Menu item for ""view/item/context"" with group ""navigation"" does not show"
+28006|Enable auto closing the } bracket inside string templates
+28007|Find widget doesn't leave enough room when opened as find/replace
+28008|vscode slow startup
+28009|Adopt TS 2.4
+28010|Certain zoom levels cause weird suggest box layout
+28011|zoom level -4 stacks suggestion list and docs instead of placing them side by side and shifts the widget up and down
+28012|Pass args in launch.json without wrapping them in quotation marks?
+28013|Report generated from slow startup
+28014|Cannot launch debug target (spawn nodemon ENOENT).
+28015|[Loc] Request to add Turkish language in VS Code
+28016|VSCode crashes when breaking from a PoSH window used to launch it.
+28017|Cannot edit any file with Window Zoom level -4
+28018|Stringify Telemetry Fields in the TS Extension
+28019|Make a convenient way to stop `preLaunchTask`
+28020|No codelens in VS code Insiders latest
+28021|Make an option to launch debugging session before `preLaunchTask` is finished
+28022|Fix uncaught exception while opening file that does not exist
+28023|Don't pass `--debug-brk` if `inspector` debug protocol is selected in config
+28024|"JavaScript IntelliSense doesn't recognize ""this"" inside the functions of literal objects"
+28025|Typescript failed after install
+28026|Consider `afterLaunchTask` debug configuration option
+28027|Node.js Debug: don't pass additional `--inspect=5858` arg if one's explicitly set in config
+28028|Using tab instead of tab as spaces!!!
+28029|Windows download velocity related to VSCode window size
+28030|Insiders build sends duplicate textDocument/didChange with 0 changes on 1st edit, active doc change, and save
+28031|Unable to open 'bug-infra (Working Tree)': File is directory (c:_BitBocket\bug-infra).
+28032|[decorators] Support before/after font-weight control
+28033|[decorations] Support hover decorations over the line numbers (i.e. gutter)
+28034|typescript died several times
+28035|Extension host terminated unexpectedly. Please reload the window to recover.
+28036|Add support to display images in the code editor
+28037|regression: copy/pasting HTML removes whitespace
+28038|unable to open file in new tab
+28039|Performance Report
+28040|fix casing
+28041|macOSX: `Toggle Terminal` command will be unbound after changing system input source
+28042|Ubuntu bash not working from scripts\code.bat
+28043|Feature: Expand button in search
+28044|"[less] mixins with @keyframes ""identifier expected"" errors"
+28045|command 'ForceCode.showMenu' not found
+28046|Running find all references and expanding a node removes minimap in outer editor
+28047|Feature: Copy all in debug console as plain text
+28048|CancellationErrors
+28049|Add J-link Live debugger
+28050|Experimental Decorators error present with option set in config
+28051|Debug: callstack focus/selection weirdness
+28052|Keybindings editor gets focus when making changes in keybindings.json
+28053|launching from node launch-configs: find executables in ./node_modules/.bin
+28054|fix some typos
+28055|Debugger couldn't reconnect to Node.js after restart
+28056|Stop Node.js process after debugger stops if `integratedTerminal` is selected
+28057|macOS: VS Code running from symlink crash on launch
+28058|"""Format document"" for xml documents"
+28059|cleanup duplicate semicolons in minimapCharRenderer
+28060|add up arrow and down arrow to navigate between the two input while replacing text
+28061|Node.js debug: New process is being created after each debugger restart
+28062|support custom cursor height
+28063|remove double semicolons
+28064|Retain last searched string & last selected item position in the results when reopening the search symbol dialog
+28065|TypeScript server crashes faster than ever
+28066|Integrated console using git bash got stuck after some commands
+28067|Cannot push to git-lfs Gitlab repo
+28068|Don't hardcode number of result providers
+28069|Stylefmt reports error whenever something is pasted in
+28070|[theme] Icon for linked folders & files
+28071|VS Code with Node V8
+28072|VSCode 2017(1.12.2) are not showing  errors or suggestions to fix the error
+28073|Update C# TextMate grammar with latest fixes from csharp-tmLanguage
+28074|Visual studio crashes for 735K cursors
+28075|Activate extension with workspaceContains when a matching file is added to the workspace
+28076|node debugger with 'inspector' crashes when a number is logged
+28077|slow startup time
+28078|Show update notification when activity bar is hidden
+28079|vscode crashes if --user-data-dir specifies a mounted windows folder on docker
+28080|VS Code check JS
+28081|Fix TS 2.4 Errors in editorPart.ts
+28082|Fix TS 2.4 Errors in preferencesService.ts
+28083|Fix TS 2.4 Errors in fileCommands.ts
+28084|Fix TS 2.4 Errors in sidebarPart.ts
+28085|Fix TS 2.4 Errors in rawSearchService.ts
+28086|Fix TS 2.4 Errors in mockDebug.ts
+28087|Fix TS 2.4 Errors in diffEditorInput.ts
+28088|Fix TS 2.4 Errors in textFileEditorModelManager.ts
+28089|Go to Definition not working as expected for JSX tag
+28090|Terminals created before panel is initialized have the wrong width
+28091|Fix TS 2.4 Errors in extHostTask.ts
+28092|Suggest menu is not stable when near the bottom of the page
+28093|Fix TS 2.4 Errors in extHostQuickOpen.ts
+28094|Fix TS 2.4 Errors in splitview.ts
+28095|Debug > Enable All Breakpoints missing?
+28096|Fix more TS 2.4 Errors in VS Code codebase
+28097|html loses auto-indent when using custom grammars
+28098|Cannot Prepend RegEx Match Group Replacement with a $
+28099|VScode shows this error: [js] Expression expected
+28100|Explicit return type on openResources

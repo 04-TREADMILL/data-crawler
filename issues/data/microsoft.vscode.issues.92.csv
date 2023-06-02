@@ -1,0 +1,100 @@
+9101|';' will be removed after executing formatting
+9102|Duplicate copy of file created when renaming the containing folder and changes to file not saved.
+9103|Addition of GO INTO T-SQL syntax
+9104|Create additional syntaxes/grammars for catering for the various SQL variants
+9105|cant drag the folder to the editor.
+9106|GoTo Definition not working for Ruby
+9107|how to debug vscode from full compile output?
+9108|Support Format SQL Code
+9109|The behavior of ctrl+f was changed in June_2016
+9110|Allow to 'resolve' a SymbolInformation
+9111|Autocomplete (intellisense) suggestions - lower priority for code snippets
+9112|Double click after curly brace to select the content
+9113|TypeScript Intellisense sometimes lose track of project definitions.
+9114|Pyqt-program condn't display icon in toolbar in VSCode.
+9115|Search does not have memory.
+9116|Can't install extensions on 1.3.0
+9117|I can't to see  the plus icon to expand my code, when it's collapsed
+9118|feature parity between DecorationRenderOptions and ThemableDecorationAttachmentRenderOptions
+9119|TypeScript generic syntax highlighting is incorrect
+9120|Can't install, update, delete, view extentions
+9121|[CSS] Current color indicator freezes on old color
+9122|This is an interesting and convenient experience.
+9123|Issue with terminal.integrated.fontSize not displaying anything in terminal
+9124|Go To Definition should support Webpack resolve paths
+9125|Suggestion: Markdown settings for highlightjs theme
+9126|Can't enable vscode-icons
+9127|Let showTextDocument always create a new tab
+9128|Missing icons
+9129|Replace doesn't work with regex lookahead or lookbehind
+9130|Cannot download extensions
+9131|Submodule Gutter Indicators
+9132|Introduce a move command for moving cursor in the editor
+9133|Git diff traversing buttons are missing
+9134|Support 'Restart Frame'
+9135|Submodule Gutter Indicators
+9136|Submodule Gutter Indicators
+9137|Feature: Focus Tab by Number
+9138|Debug adapter 'continued' event not working
+9139|Must use 8.3 format with cmd /c when concatenating args
+9140|auto-update not working on mac
+9141|Typography tune-up needed
+9142|Support group ordering
+9143|Add mouse-keyboard event crossover to prevent menu bar from showing up after multi-selecting.
+9144|Cant install extension - Regresion
+9145|Cannot reopen folders closed by Cmd+W in 1.3
+9146|files.exclude **/.hg
+9147|Add support for symlinks in remoteRoot of launch configuration for remote debugging
+9148|UX meeting agenda July 13, 2016
+9149|React Stateless function don't get syntax coloring
+9150|Auto update always installs in 'C:\Program Files (x86)' even though VS Code was installed in different drive.
+9151|Realtime preview (with Split Editor) by one-click
+9152|vscode-icon is disabled after update VS code
+9153|when go to decalre file error info
+9154|Right Alt + Left Arrow doesn't work
+9155|Go to symbol filters on truncated symbol name, not actual symbol name
+9156|Menu Becomes Invisible in Full Screen Mode
+9157|[scss] Auto complete bug when editing a SASS file
+9158|Support the vscode-icons extension out of the box
+9159|Use proper SVG icons for tree twistie
+9160|issue with package.json
+9161|Intellisense unusably slow for large (node.js) project on linux
+9162|Keyboard arrows keys don't scroll in the Extensions window
+9163|Breakpoint on first line of Nodejs code is not hit upon Debug Launch
+9164|Allow to scroll all opened editors at the same time
+9165|Setting extensionHomePath does not install extensions into there
+9166|Lots of functions don't work
+9167|Treat erb files as ruby files
+9168|Editor should not handle all draggable objects
+9169|Migrate EditorActions wrt context menu
+9170|Chinese input is broken on windows
+9171|Several problems encountered on expanding Workbench Parts
+9172|Mac - Unable to connect to the runtime process
+9173|Horizontal scrollbar goes behind overlay widgets
+9174|Add editor description to tab titles
+9175|Fix debounceEvent
+9176|when i drop a file to vscode,editor is unable to work.
+9177|Debug variable overlay disappears when mouse not over text editor
+9178|Task 'New Window' doesn't work
+9179|Unneeded menu separator in the diff editor
+9180|Not able to launch Code Editor
+9181|"Archlinux - ms-vscode.csharp - ""Error while installing .NET Core Debugger"""
+9182|Tilde (~) character not available in integrated terminal
+9183|Clean up side by side container
+9184|Refactoring the name of local variable is not updated
+9185|Why does Ctrl + Shift + W close the VSCode
+9186|Freezes and slow performance
+9187|Feature Request: Left Side Panel showing Opened Folder should have a shortcut to launch File Explorer and Command-line tool
+9188|"""Feature can only be used in a .ts file."" when switching the language mode to TypeScript in a .js file"
+9189|CSS Class Completion Extension locks up whole of VS Code v1.3 or v1.3.1
+9190|Paste doesn't work in terminal in VSCode windows
+9191|Discuss about the clickBehavior on explorer to open editor
+9192|Please Tag v1.3.1
+9193|Issue with Unity Debugger using VSCode - error while processing request 'setBreakpoints' (exception: Cannot perform member binding on null'
+9194|Problem with polish letter
+9195|View file History of file changes (local history)
+9196|CSS color preview gets hidden or moves when moving a line around it using shortcuts
+9197|Feature request: terminal cursor that matches editor cursor style
+9198|Offer code mark styles and gutter marks
+9199|Closing a duplicate view of an unsaved file closes both views
+9200|[Feature Request] NPM panel (similar to Visual Studio nuget package manager)

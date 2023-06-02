@@ -1,0 +1,100 @@
+22801|Extension(Markdown PDF0.1.6) cause exception !!!
+22802|[css] selector-hover: The first child selector is not nested in tooltip
+22803|Second prototype of markdown extensions API
+22804|Too many processes created when launching VS code
+22805|Switch to inline View in the git view doesn't persist
+22806|Remember suggestion selections
+22807|Add cursorHardHome
+22808|Support open on fullscreen when open vscode via CLI
+22809|Transform :emojis: to real emojis in commit messages
+22810|Extension's detail page doesn't support touch screen scroll while other parts of the editor do
+22811|Fixes #18990, #21693 - Shutdown terminal pty process more gracefully
+22812|⌘-clicking on path:line:col in iTerm2 opens a new window and ignores :line:col.
+22813|Error: getaddrinfo EAI_AGAIN ms-vscode.gallery.vsassets.io:443
+22814|Allow extensions to open editors in the background
+22815|htmlPreview background rendering broken
+22816|"Support of ""duplicate selection"" functionality"
+22817|Preview layout is indented when displaying Release Notes
+22818|How to change vscode powershell's default codepage?
+22819|Allow Moving between File Explorer and Open Editors with Keyboard
+22820|Add multi-select to Quick Pick extension API
+22821|Cannot download vs code for days now from multiple locations
+22822|node2 debugging step over repeatedly throws errors in console
+22823|Subárbol para archivos generados de otros archivos
+22824|Task con`t show
+22825|Terminal gets ERROR when query data in table from PSQL version 9.6
+22826|Format document on C++ bad indent (Tab vs spaces)
+22827|'Hostname could not be found' error always pops up when on a LAN without internet
+22828|Feature/part resize: Add key bindings to resize focused view
+22829|"""files.autoSave"": ""onFocusChange"""
+22830|Permitir trabajar con multiples lenguajes
+22831|Request for tabbing past matching brackets similar to VS
+22832|Lack of project management!
+22833|Show enabled extensions only in the extension viewlet
+22834|Send telemetry only to vortex
+22835|The translation of the welcome page is weird
+22836|Document link provider API stopped working for output channels
+22837|say the txt file is a binary file :(
+22838|Tasks 2.0.0 - tasks from tasks.json not suggested in command popup
+22839|Integrated Terminal cmd.exe does not support UNC path
+22840|"""Open with code"" context menu option on folder should open a new instance of VS Code"
+22841|unable to verify the first certificate
+22842|Delay between key-press and rendering
+22843|Duplication of file with a number as filename
+22844|Spell Check Feature Missing
+22845|Inconsistent coloring of JSON formatted content files in default editor
+22846|Update all extensions with single click
+22847|[loc][Query][VSCode] Please confirm whether source is correct
+22848|Integrated terminal not working properly
+22849|Go To Definition centers the definition in the editor viewport
+22850|Opening file from right-click ends with a wrong file name
+22851|fuzzyScore
+22852|[RFC] Show Problems Panel API
+22853|[loc][Query][VSCode] Please clarify meaning
+22854|Terminal: problems when pasting multiple lines of text
+22855|Uri.file fix
+22856|Keyboard shortcuts not updated when keyboard language is changed
+22857|[loc][Query][VSCode] Please clarify context
+22858|"[loc][Query][VSCode] Localizability of ""inspector"""
+22859|Find all references shows bogus results
+22860|"Using ""auto"" or ""inspector"" protocol skips breakpoints in mocha test"
+22861|Switch to using new keyboard mappers
+22862|Markdown H1 (===) and H2 (---) should bold and/or otherwise highlight the text above it.
+22863|Cmd + click -> selects the whole match
+22864|Git clone resource is not available
+22865|Cannot create a file inside a folder with backslash in its name
+22866|Cannot create a file/folder with backslash in its name
+22867|CPU usage even when idle (due to cursor rendering)
+22868|Automatically switch to next line on comment
+22869|TypeScript server restart does not seem to work
+22870|Is there a tutorial or guidance on how to debug xunit tests from within vs code?
+22871|Line thickness (cursor, indent guides) changes randomly when zoomed in/out
+22872|VSCode Insiders: Command Line Extension Management doesn't work
+22873|- Memory (System): <code>3.88GB (1.98GB free)</code>
+22874|Correctly duplicate files with numbers in filename
+22875|Unity debugging
+22876|Rename open new tab and make save conflicts
+22877|Unexpected render request
+22878|Cannot read property 'length' of undefined
+22879|German translation error
+22880|Uncaught TypeError: Cannot read property 'write' of null
+22881|Add TSServer Log Collection Commands
+22882|Simplify Collection of TSS Logs
+22883|Markdown Preview Extensions Exploration
+22884|`editor.fontFamily` in settings should suggest list of available monospace fonts
+22885|Initial Prototype of Find in HtmlPreviewPart
+22886|JS syntax highlighting breaks after destructure and annotated variable
+22887|Settings provides examples that use single quotes for properties, even though property keys must be doublequoted
+22888|Fixed typo
+22889|Unsaved modifications to output files being inserted into other tabs
+22890|tab键快速写代码有问题
+22891|Invalid arguments
+22892|Cannot read property 'length' of undefined
+22893|Model is disposed!
+22894|Unexpected render request
+22895|e.charCodeAt is not a function
+22896|Cannot read property 'reason' of undefined
+22897|Cannot read property 'getId' of null
+22898|Cannot read property 'length' of undefined
+22899|Cannot read property 'reason' of undefined
+22900|ordering snippets. user snippets first.

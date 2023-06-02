@@ -1,0 +1,100 @@
+1601|updating to vscode 0.10.5 issue with csharp-o
+1602|highlight matches in marker list
+1603|Keyboard shortcuts doesn't Prevent Default Action
+1604|Jungle of editor abstractions and services
+1605|Wrong indentation of block comments.
+1606|Improve auto save
+1607|Conditional breakpoint icon
+1608|No coloring of function return value types in interfaces
+1609|Avoid computing end condition on each iteration
+1610|Allow to save files that need user elevation
+1611|Relative HTML image tags in markdown are not working
+1612|Launch/Debug multiple configurations at once
+1613|Snippet for Markdown File
+1614|0.10.3 build
+1615|Toggle Whitespace Visibility (editor.renderWhitespace command)
+1616|Line indent doesn't handle leading whitespace properly
+1617|"adopt new Source attribute ""origin"""
+1618|Output window sometimes doesn't display output
+1619|Tab in CSS editor after colon creates errant autocomplete
+1620|Debugger does not function correctly when file is not selected
+1621|Suggestions for search function in vscode
+1622|Platform and Configuration selectboxes
+1623|Native debugging
+1624|OSX system services shortcuts not  recognized
+1625|Allow to set a default language mode for file without extension
+1626|word moved the direction when arrow key pressed after type Korean letter
+1627|can css editor expend/un-expend code?
+1628|javascript code analysis error by comment
+1629|Shortcut zoom doesn't work
+1630|[sql] syntax highlighting error
+1631|"""files.trimTrailingWhitespace"" setting ignores the current line"
+1632|Selection and selection matches highlight color
+1633|Better defaults for files.trimTrailingWhitespace
+1634|Why my VS Code version is consuming too much memory?
+1635|VS CODE not Compiling My Code..
+1636|Why is spread operator marked as error?
+1637|Fix debugging debugAdapters when offline
+1638|gulpfile.hygiene on Windows
+1639|Python loop syntax highlight.
+1640|Auto generate triple slash comments with parameters
+1641|I think VS Code  C++ synatax don't good
+1642|Disabling windows' recycling bin causes file deleting to fail
+1643|IntelliSense breaks when joining 'var' declarations with 'yield' keyword.
+1644|How to configure IntelliSense in Visual Studio Code?
+1645|Execute a program (Node.js)
+1646|[jsx] Mark occurrences on embeddded html: Select open and closing tag
+1647|Detect Language Mode from Modeline Comment
+1648|branch: toggleWordWrap_1a
+1649|Toggle word wrap 1b
+1650|[css] calc() is not in IntelliSense or syntax highlight
+1651|[CSS] Vendor prefixes are not syntax highlighted in property names
+1652|[CSS] Syntax highlighting no longer works for property keyword values and functions
+1653|Don't try to content assist in comments
+1654|Patch gave me issues that persist in fresh install...
+1655|[css] @namespace is not syntax highlighted
+1656|Hope: Add a generic function && enhance
+1657|Issue in indentation when formatting consecutive objects
+1658|Provide a way to clear the recent documents list
+1659|"Changing some for loops from ""for (let i= ... i++)"" to ""for (let el o…"
+1660|[Typescript React] tsconfig.json is ignored
+1661|Some releases have a __MACOSX folder inside
+1662|Provide an option to insert a final newline
+1663|${file} variable should change when active editor pane switches to a different file
+1664|Markdown previewing for code blocks breaks when 1st line is square bracket
+1665|[C++] final and override keywords are not correctly identified
+1666|Ability to escape $ and { characters in snippets
+1667|adopt conditional breakpoint support
+1668|something wrong with the Syntax highlighting (javascript)
+1669|Supporting ruler settings
+1670|Allow to customise content of completion items
+1671|Can not place breakpoints in .tsx files
+1672|Isidorn/conditional breakpoints
+1673|ES6 Intellisense in TypeScript file?
+1674|[bat] Fix batch syntax
+1675|Trim Trailing Whitespace Breaks Markdown
+1676|There is constant error that VS Code can not read file csharp-o
+1677|Full support for Java
+1678|File Explorer file-sorting seems wrong?
+1679|[C#] Syntax Highlighting not working fully
+1680|The text goes beyond the window
+1681|customer javascript object.it's properties isn't in suggestions.
+1682|[c#] Storage type highlighting not working for my classes
+1683|VSC 10.6 does not allow to attach debugger to running Electron app (working great with 10.3)
+1684|Diagnostics for empty lines hard to discover
+1685|extending a language with another
+1686|Add find and replace in files/project
+1687|Activated linter does not go away when switching language mode
+1688|shift+tab should only deindent when multiple lines are selected or the cursor in the line's starting whitespace
+1689|Assign accelerator keys to dialog buttons
+1690|Error while loading shared libraries:  libnss3.so
+1691|Make soft text wrapping easier discoverable
+1692|Debugger API for extensions needs to support selection of 32-bit or 64-bit debug host
+1693|"support arbitrary requests, not only ""launch"" and ""attach"""
+1694|Extension broke 10.3 to 10.5 => Objects passed as command arguments are now stripped of functions
+1695|Feature negotiation between debug adapters and Code
+1696|VS Code does not honor success: false for VariableRequests
+1697|Break reason is shared between threads
+1698|buffer newly created breakpoints until initialize request is received
+1699|Thread exited event ignored
+1700|cannot launch code from command line using Git Bash on Windows

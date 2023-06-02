@@ -1,0 +1,100 @@
+27801|Feature Request: Add up arrow key to move to previous search term
+27802|Show extension recommendation in the gear-menu
+27803|Reveal selected launch config when selecting configure
+27804|Outdent / indent problem with whitespace significant languages
+27805|--prof-startup stop too early
+27806|workbench.actions.view.problems should be workbench.action.view.problems (action not plural)
+27807|Should be possible to remove gear-menu from activity bar
+27808|prevent Jasmine from autofilling from intellisense when mocha/chai is framework
+27809|Debug Repl: output of same value no longer aggregated
+27810|Feature Request: Terminal panel open to new window
+27811|"""scripts\npm.bat install"" fails to install v8-profiler using npm 5"
+27812|git: Needlessly verbose list of  files on adding single folder
+27813|Support multiple terminals at once w/ Integrated Terminal
+27814|Need to be able to do the equivalent of File->New Window by shift-clicking the task icon (Windows)
+27815|Typescript Intellisense hangs after Code has been open for awhile
+27816|Sidebar misses 'current' viewlet indication
+27817|Can't search extensions from extensions sidebar
+27818|Markdown syntax highlighting should ignore math inside $$
+27819|Error underlines when they are not supposed to be (Javascript ES6)
+27820|Bad padding at top of intellisense
+27821|Intellisense popup should reevaluate position if the detail is not valid anymore
+27822|Intellisense doc detail sometimes appears at bottom when there is sufficient horizontal room
+27823|Theme preview does not show all decorations
+27824|Feature Request: Option to close debug panel on success
+27825|dotnet new MVC - No build task defined. Mark a task with 'isBuildCommand' in the tasks.json file
+27826|launch: launch.json must be configured. Change 'program' to the path to the executable file that you would like to debug.
+27827|Emmet toggle comment on multiple cursors should not comment nodes that are children of other nodes being commented
+27828|The type initializer for 'System.Xml.Serialization.XmlSerializationReader' threw an exception. when debugging.
+27829|Typography is not consistent on welcome page and interactive playground
+27830|No references found for JS/TS unicode identifier
+27831|Emmet unexpected
+27832|Default text not acting as tab stop
+27833|JS Debug not updating
+27834|Emmet JSX className expansion not working
+27835|For 'conflict (add/add)' and 'conflict (modify/delete)' issues
+27836|Day/Night mode
+27837|"Playground needs to adapt do ""editor.multiCursorModifier"" setting"
+27838|allow root to run vscode without complaints
+27839|Render reference results as they are returned by reference providers.
+27840|I want to add my account sync to save my plugins and Settings so that I can continue to use my favorite environment
+27841|When update to windows 10 anniversary update, vs code terminal display looks like width not enough
+27842|Language Service crash & restart doesn't trigger Language Server's onExit and onShutdown, and register provider multiple times
+27843|Show Emmet Commands doesn't show emmet commands when in the Interactive Playground
+27844|Scrolling sooooo slowly
+27845|[html] Allow navigating to CSS class definitions
+27846|"""Screen Reader detected"" appears without using a screen reader"
+27847|[theme] make token colors user customizable
+27848|"I hope that the left side of the VS menu bar can be the same as sublime is white | code area is the background is black | that will be comfortable to see a lot; and when the code is selected when the rest of the code can be displayed as a white border instead of background color | Well, debugging"
+27849|样式乱了
+27850|"Extension details page does not generate correct ""id"" for non-English headers"
+27851|Nested snippets without final placeholder jumps to next outer placeholder
+27852|Proposal: setting flag to disable js native interfaces
+27853|Tree: set aria-setsize and aria-posinset
+27854|Git: cannot undo a change in this folder
+27855|--prof-startup puts absolute file paths in template issue
+27856|Exception peek widget only shows for top stack frame
+27857|advise on using drag&drop feature
+27858|Have ctrl+click work the same way as in Visual Studio
+27859|Explore binding between DOM elements in VS Code to the smoke test DOM element selectors
+27860|Can you make vscode to run inside the terminal like vim and neovim.
+27861|Don't parse snippets eagerly
+27862|Pasting text from the web sometimes brings unneeded special characters as well
+27863|Feature - Searching for text into terminal
+27864|Slow startup detected
+27865|Use capital casing for status bar entries
+27866|Menubar font is too tiny and unreadable
+27867|"""Screen reader detected"": guide the user how to get out of this mode"
+27868|Terminal doesn't launch under 64 bit
+27869|Alt-selection doesnt work
+27870|Welcome: links to install extension could read a little more (aria)
+27871|Ctrl-drag'n'drop doesn't work
+27872|Random switch to 4 spaces per tab
+27873|VS Code constantly freezing
+27874|Automated smoke test should disable all external extensions
+27875|Automated smoke tests depends on installed NodeJS
+27876|Npm task autodetect should contribute install & update even if no script section is present
+27877|A JavaScript error occurred in the main process
+27878|"Guides extension has detected that you are using ""editor.renderIndentGuides"" settings. Guides will now disable all indentation guides by override the style to ""none""."
+27879|Extension documentation view scrolls to top on focus
+27880|Specifying an alternate dotfile (rcs) for zsh in integrated terminal causes failure to launch terminal.
+27881|Code won't update on macOS
+27882|Debugging does not work in Node 6.5 with inspector protocol
+27883|Automated smoke test: css tests fails with open file dialog
+27884|Configure cursor height
+27885|Can't debug after rename project directory
+27886|Absolute imports don't work in JavaScript in a mixed TS + JS project
+27887|Feature Request: Let Collape/Uncollapse commands work on tree
+27888|Show build-in extensions in extension list
+27889|Symbol tooltips can't handle at-sign inside markdown block
+27890|Trying to add an item to the front of a list is cumbersome
+27891|Erroneous path missing issue in debugger
+27892|terminal.sendText not sending text
+27893|VsCode doesn't auto-update on restart
+27894|Integrated Terminal show duplicate folder name
+27895|Opening a folder with an unsaved file prompts to save/discard the file
+27896|Find/Replace Usability: Tabbing between fields should select all text
+27897|New emmet can't resolve everything
+27898|Find/Replace Usability: Enter and Ctrl+Enter shortcuts
+27899|"Context for ""scm/resourceState/context"" when clauses."
+27900|Ignored files still being watched/processed

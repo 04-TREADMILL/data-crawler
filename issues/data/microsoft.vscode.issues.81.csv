@@ -1,0 +1,100 @@
+8001|Ctrl+Shift+M doesn't toggle Problems panel
+8002|Ctrl+T does not list exported variables
+8003|[decorators] :after decoration breaks other overlapping decorations
+8004|Poor Markdown list syntax highlighting
+8005|window is no longer responding issue
+8006|Inconsistent weight and use of color in iconography throughout UI
+8007|"Consider changing ""Close"" panel button to be ""Hide"""
+8008|Treat `.webmanifest` files as JSON
+8009|Feature Request: Hide workbench view via keyboard shortcut
+8010|"""ext install"" broken on Insiders build"
+8011|Other sort orders for extensions
+8012|Support `ext install`
+8013|Extensions Commands Missing/Confusion from Marketplace
+8014|TypeScript Syntax Highlighting works incorrectly with non-English identifiers
+8015|"Suggestion: Rename ""Keep Editor"" command to ""Keep Open"""
+8016|IntelliSense based on type inference not working in node_modules?
+8017|Fix typo
+8018|Update check reports no updates available when unable to access internet
+8019|"In search panel ""files to include"", ""*.ts"" doesn't search all ts files, but ""**/*.ts""."
+8020|Add command deprecation
+8021|editor format configure
+8022|Uninstall extension button text incomplete
+8023|Extansion uninstall button bottom cut off
+8024|terminal cannot display Chinese correctly
+8025|Test Tour: TypeScript- React - WebPack
+8026|Unexpected space when formatting code
+8027|InstantiationService might create two service instances
+8028|Copy and paste doesn't work properly in Debug Console
+8029|show variable type on hover
+8030|ESC in search box doesn't work
+8031|RFE - Provide ability to expose/share settings form settings.json to the launch.json
+8032|Can't select adjacent strings as multiple selection
+8033|zip extract bug
+8034|Syntax highlight issue in .tsx files using generics
+8035|Addition of USE EXEC OPENQUERY syntax
+8036|translate to new locale
+8037|File compares hidden in recently opened
+8038|Problem viewing auto-generated, updated jsconfig file via Problems panel
+8039|additional options for `editor.selectionHighlight`
+8040|Allow Windows cmd / Powershell to run as administrator
+8041|Allow debugging multiple projects in one debug session
+8042|Don't automatically fetch when there are no remotes available
+8043|Enable to write to files that need user elevation
+8044|Set variable value: on error do not restore original value if error box is open
+8045|find free port based on node-portfinder package
+8046|Monaco Editor API feedback
+8047|Errors and Warnings in the status bar show negative count
+8048|refine menu contributions
+8049|Close all extension resources when extension viewlet goes away
+8050|Extensions: show License link
+8051|Debugging relay todo example es6 code using Attach does not work correctly
+8052|codetree symbol disappears when zooming
+8053|Create test for this method
+8054|wordBasedSuggestions: false doesn't work in Markdown files
+8055|warnings in file default settings
+8056|JSON schema file doesn't provide intellisense until the initial save of a .json file
+8057|[json] hover in JSON documents hides '*'
+8058|experimentalDecorators Typescript warning always present
+8059|Make snippet selection case sensitive
+8060|Error
+8061|Test issue
+8062|UI and UX overhaul
+8063|[php] 'use' statement breaks coloring
+8064|Code does not prompt for restart when installing a .vsix file.
+8065|can not use [save all] from UI, when showTabs is true
+8066|VSCode should only reset breakpoints after save when already debugging
+8067|Allow extensions to run custom terminals
+8068|Extensions icon
+8069|Drag and resize broken for terminal / while terminal is open
+8070|"""Open Symbol By Name"" is not working properly in multipy typescript projects."
+8071|C# is missing from language mode
+8072|Hollow terminal cursor is only present after the first focus
+8073|Improve TypeScript syntax highlighting
+8074|Cursor should only blink when terminal has focus
+8075|Middle click to paste selection in terminal does not work when middle clicking the selection itself
+8076|Unexpected terminal related behaviour
+8077|"Why is ""editor.cursorBlinking"":""hidden"" a thing?"
+8078|multi line edit
+8079|how to use integrated terminal to debug my program？
+8080|Find all references doesn't work in default exports
+8081|Terminal inside Code
+8082|Add 'Reason' to SelectionChangeEvent
+8083|API request: Live Positions
+8084|API request: Tab-Complete event
+8085|API Request: Control over history
+8086|js validation doesn't work ?
+8087|Extensions view is not listed under Views menu
+8088|no intellisense for objects
+8089|Terminal: resizing the panel clears the display
+8090|not reopening previous session
+8091|Feature Request - Project-level extensions and snippets
+8092|Visual Studio Code shouldn't hijack .config extension association
+8093|Intellisense sees exported `exports.property`, but not `module.exports.property`
+8094|files.trimTrailingWhitespace is inverted
+8095|Color issue
+8096|Proposal: Let users set the Height of sidebar areas
+8097|cannot use operator mono light italic font.
+8098|Several perl blocks looking as commented regions
+8099|Can't search for extensions
+8100|"Need an icon for ''show preview to side"""

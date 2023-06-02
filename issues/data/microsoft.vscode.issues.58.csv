@@ -1,0 +1,100 @@
+5701|TextDocumentContentProvider sample extension broken
+5702|Is there any way to have extension specific setting?
+5703|Enable support for opening multiple folders in workspace
+5704|Error when opening explorer context menu
+5705|Improve links
+5706|Zero Intellisense for super-simple, valid, modular Node.js program
+5707|Add selectAllMatches command in column selection mode.
+5708|Automatically generating getter and setter
+5709|rename case sensitive fail
+5710|Unable to paste text by mouse middle button on Linux
+5711|"""format code"" formats the attribute of element in html file uncorrectly"
+5712|File Search - Prioritise File Path Match Over Fuzzy
+5713|[folding] Added fold and unfold recursively to foldings
+5714|VS Code does not honour the 'expensive' flag for all scopes
+5715|After closing a scope, another stopped event should not open it again
+5716|Fix a typo in Contributing.md prose
+5717|Scroll when selecting text inside debug console
+5718|Detect large images and show progress while opening them
+5719|Find and replace ctrl+enter only works when focus is in replace text box
+5720|Debugging with babel-register + NodeJs does not work
+5721|git.enabled should hide the Git icon and disable ctrl+shift+g
+5722|html <img> tag not working in markdown preview
+5723|html format add </html>
+5724|Failed to launch external program dot net . spawn dotnet ENOENT
+5725|Support latex and toc. etc..
+5726|Side Bar UI problem
+5727|We need a API - positionAt(byte offset)
+5728|Webview does not work in built version of VS Code
+5729|Webview: allow me to adjust my content based on theme
+5730|Debug: repl shows up everytime when I press F5
+5731|Compare not working for large XML files?
+5732|Jump to definition opens Peek Definition windows
+5733|Upgrade minimatch in npm-shinkwrap.json
+5734|Default font on Ubuntu looks terrible (should we ship a font with vscode?)
+5735|MenuItem#isCloseAffordance
+5736|Dreamweaver Theme is not working
+5737|Webview: apply window.zoomLevel too
+5738|API - Test env.appName
+5739|Test virtual document links
+5740|Test previewHtml
+5741|apply file.exclude rules to reference search and go to declaration
+5742|screen cheese with peek views
+5743|Tab not quite as expected when using snippets within snippets
+5744|debt - storage service shouldn't be an event emitter
+5745|Test: JSON completion for package.json and bower.json
+5746|Use minimist for argv handling
+5747|Test add onDebug activation event
+5748|Emmet: support to disable expansion on TAB
+5749|Test notify Linux user when a new update is available
+5750|Test TS lint new features
+5751|Test JSHint new features
+5752|Test jscs new features
+5753|Test: Install: Support to install an extension from command line
+5754|Debugging mocha breakpoints not working right and value inspector not showing right info.
+5755|Provide an option to stop scrolling revealing active file in explorer
+5756|Test I18N: Support to filter the Command Palette by English name
+5757|Test API: Add support for internal links in previewHtml
+5758|Test Git: Commit in the command palette
+5759|Test: New extension/Marketplace query support to filter extensions
+5760|Test: API - Use web view for html preview part
+5761|JSON seems to keep diagnostics around when document closes
+5762|Git: Use VS Code as merge editor
+5763|Test: IPC refactoring
+5764|[html] Allow to drag CSS or JS files into HTML to generate <link> tag or <script> tag
+5765|Debug console does not allow empty input string to be executed
+5766|Update embedded node version from 4.1.1 to 4.4.3
+5767|Highlight HTML/CSS/JS in different language
+5768|Intellisense is extremely slow to load
+5769|Keybinding shortcuts in all capitals for some languages
+5770|VSCode fails to process paths with back slashes returned from debug adapter
+5771|where should i put my global tasks.json file vscode keeps creating it locally
+5772|Come up with better external terminal defaults on Linux
+5773|Graphics artifact when scrolling through intellisense list
+5774|"Getting error ""Node.js did not repond to request 'continue' in a reasonable amount of time."""
+5775|Manually restoring modified file back to saved state requires save
+5776|Clicking a stack frame with no source causes all other thread stacks to collapse
+5777|Feature Request: Browser debugging with javascript coming off different subdomain
+5778|Delete the mention (#5412)
+5779|suggest
+5780|Menu interface shows glitches when hovering files in split editor
+5781|On problem mach there always is Add to include path bulb when pointing to problem line
+5782|api - expose configurations folder
+5783|Repetitive problem message when pointing to problem line
+5784|Extensions: Download counter font seems serif
+5785|Extensions: items should be removed when new query starts
+5786|debug - paused at invisible breakpoints
+5787|Open file/folder dialog needs to know its target window
+5788|Dismissing a workbench message doesn't wrap up API promise
+5789|Any way to add google analytics code in extension to get manually reports
+5790|dataloss with vscode.openFolder
+5791|command palette shows english on top of german
+5792|debug hover doesn't break
+5793|debug - output doesn't show cos it's too large
+5794|debug - no truncation?
+5795|Debug hover crops too much info
+5796|ux - merge debug output into output
+5797|"Sort results in ""Go to file"" by how close they are to the working file (usability)"
+5798|Debug threads need more UI affordances
+5799|Debug hover doesn't show 'Generator'
+5800|debug - large array not abbreviated

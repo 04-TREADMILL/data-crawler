@@ -1,0 +1,100 @@
+7501|Can not easily repro -> feb @bpasero I need reproducable steps for this to figure out what is going on. Can you ping me once you get his setup on your machine so I take a look.
+7502|Related to #2280
+7503|the html preview part needs to know what the current theme is, it also needs to know when a theme changes. also the SelectThemeAction would benefit from this.   this is a debt, there should be something better than `let currentTheme = this.storageService.get(Constants.Preferences.THEME, StorageScope.GLOBAL, Themes.DEFAULT_THEME_ID);`
+7504|> We also have a shortcut for toggling the whole panel (Ctrl-J) which brings the panel up in the same state it was in when it was closed (ie, showing debug or output).  Yes, I know and it's similar to Ctrl-B for the sidebar. That I use a lot and I can see myself using Ctrl-J in the future but the issue that I never use the keybinding to reveal the sidebar and jump right to the debug view. I always use the buttons for that.
+7505|@egamma This took quite some code to get running. It would be great if you could reproduce this and test it properly for verification.
+7506|Renamed this issue, I am sorry because I wasn't really clear on what I wanted to report. Apologies.
+7507|Hey I found a hack to make that annoying dialog box disappear to the class `global-message-list` I add the following css property in the dev tools `display: none;`
+7508|If this is not configurable currently it should be, perhaps scaling with `editor.fontSize`?
+7509|I don't think we can save much more space as there are a set of actions on the right hand side. We don't want to push those too close to the panel edge as then users could accidentally invoke an action (such as close) when they really wanted to drag and resize the panel.  As for the title, yes, I think centring it vertically would be good.
+7510|@dbaeumer that was a driver letter case difference...
+7511|@dbaeumer node 4.2.6 crashes when hitting the second console.log(). It is independent from the operating system and I can reproduce this in node-inspector.
+7512|In the existing Code JS language service we gave warnings for the first example above and we didn't receive complaints.  ![errors](https://cloud.githubusercontent.com/assets/172399/12623429/6f551a9a-c52a-11e5-87bb-98d3e0830fa8.png)  We have also warned about undefined variables, which had issues when users where also using a linter in their project and they defined a global as a global in their linter configuration. The confusion was that they define the global in linter configuration, but our JS service still warned about the global.
+7513|This issue was moved to Microsoft/TypeScript#6658
+7514|This issue was moved to Microsoft/TypeScript#6659
+7515|This issue was moved to Microsoft/TypeScript#6660
+7516|This issue was moved to Microsoft/TypeScript#6661
+7517|Duplicate of Microsoft/TypeScript#6566
+7518|This issue was moved to Microsoft/TypeScript#6662
+7519|This issue was moved to Microsoft/TypeScript#6663
+7520|I'd like to see this feature as well, much please and thanks!
+7521|This issue was moved to Microsoft/TypeScript#6664
+7522|This issue was moved to Microsoft/TypeScript#6665
+7523|This issue was moved to Microsoft/TypeScript#6666
+7524|This issue was moved to Microsoft/TypeScript#6667
+7525|This issue was moved to Microsoft/TypeScript#6668
+7526|This issue was moved to Microsoft/TypeScript#6669
+7527|This issue was moved to Microsoft/TypeScript#6670
+7528|@jrieken I'm not using typescript, so I haven't *.d.ts files. Also I haven't any files where I've already declared class Node.  So it can be reproduced just create new .js file and declare class Node.
+7529|I've filed this issue against node: https://github.com/nodejs/node/issues/4917
+7530|Lol! I was in the process of taking heap snapshot and VS crashed.  ![](https://i.imgur.com/PQDIqPk.png)  I will try again and see if I have better luck tomorrow.  Is there a way to tell vscode to increase its memory limit so it doesn't crash while trying to take a heap snapshot ?
+7531|"@bpasero @alexandrudima my suggestion: The enabled **File | Auto Save** menu option has become a setting **files.autoSave** with the value **afterDelay**."
+7532|@mousetraps would be great if you can verify :)
+7533|@joaomoreno I've been having a bit of difficulty building the Linux client without errors, the windows-mutex error is the first so it seems like that's the culprit. Isn't there a way to only attempt it on operating systems that support it?  Also is building the prod Linux executable documented anywhere?
+7534|"Yes, alt-tab works well enough, I guess, but it's kinda fumbly, if you take my technical talk ;-)   To rephrase: while that is an option, it's not as easy or precise as I would like. I can alt-tab, but the focus hits the icons on the left first (they ""highlight"" or turn from grey to white, one at a time), then the focus disappears for a few key strokes, then the Working Files area gets the focus. Once I'm there I can then up-arrow/down-arrow to choose the file that I want...but that's a lot of fumbling around to get where I want to go."
+7535|Followed the sharedProcessMain.js hack from @joaomoreno and I still get the timeout for both the extension list and the install.  I've tried true and false for http.proxyStrictSSL.  Using 0.10.6.
+7536|"Removing `""postinstall"": ""node ./node_modules/vscode/bin/install""` from `extensions/vscode-api-tests` locally gets past this error."
+7537|I don't think this is so much of an accessibility spec question but a usage question.  If I turn on accessibility mode because that is the mode in which i will use VS Code, I expect that mode to persist between sessions. It is similar to picking a theme that I like to work in, I expect that theme to be persisted between sessions, and it is. So yes, this should be persistent.
+7538|@dbaeumer, the command I was running was `git checkout` to switch branches.
+7539|+1 for this feature built into vscode
+7540|I think what happens is that taking the snapshot you caused an out of memory exception :-/. There is no way to change the memory limit, it is hardcoded in V8.
+7541|@rhires I meant Cmd+Tab, leave Cmd key down, use Tab to navigate up and down, release to open.
+7542|Maybe try to take the snapshot a bit earlier, before memory usage grows so high? Is it a gradual increase?  I've not been able to reproduce (no crashes, reasonable memory usage) for the last two weeks or so. Only difference I can think of is the PowerShell extension updating from 0.1.0 to 0.3.1 -- but I don't have any PS files in the workspace anyway, and it crashed with extensions disabled at the time.
+7543|+1
+7544|The installation of `windows-mutex` will fail but `npm` itself will succeed. It will just spit out this message:  ``` -npm WARN optional dep failed, continuing windows-mutex@0.2.0 ```  If your build is failing there is something else happening, maybe you can send me the log?
+7545|@ZodmanPerth there have been more changes, despite the hack. Please let me know if you still see the issue with `0.10.7` which will be released next week. Thanks!
+7546|[There was something else happening](https://github.com/Microsoft/vscode/issues/2474), I guess the error only shows when something else fails? Not ideal but I guess that's alright, it was a bit misleading is all.
+7547|"#105  Edit: Also, you don't need `type=""text/javascript""` in HTML 5."
+7548|Hi **@Tyriar**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+7549|+1
+7550|After merging from upstream/master the tests passed, I think this might have been a flaky test?
+7551|Verify quick open is declared as dropdown list and the currently selected item is being read to you.
+7552|:+1: thanks
+7553|True that!
+7554|@bpasero maybe related to npm 3?
+7555|Hey guys, my two cents - in the viewlet case, it is hide/show, which is more of a preference on your overall UI layout.  For the bottom panel, the idea is that the user is closing the panel because they no longer need it, similar to tool windows in Visual Studio and even the dev tools in browsers.  So for close actions, we use X.  For hide/show, you could use an icon of sorts like a < or > but it may not be necessary.  Now, you could technically argue that hide/show/open/close/expand/collapse are all one-in-the-same.  I think the important thing to think about is what is the intention behind having the panel gone and not gone.  But overall, I agree with Steven about introducing an icon for controlling the presence of the bottom panel because this can lead to other questions like will that scale if we say introduce other panels in the future.  Then you start to get into a longer conversation about controlling the proliferation of tool windows/panels.  It can also lead to adding more view management controls which may honestly not be necessary.  We have this problem in VS with all the options to close, hide, float, auto-hide, dock tool windows.  Food for thought.  Anyway, just my thoughts.  Looks like everything is going well.  Love the progress. :+1:
+7556|thank you。。。。 This would have to wait for a while.
+7557|Thanks, I made the change.
+7558|This issue was moved to Microsoft/vscode-go#185
+7559|duplicate of #105
+7560|This is a duplicate of https://github.com/Microsoft/TypeScript-TmLanguage/issues/11
+7561|@SteveALee can you please elaborate? You want the F10 and F11 to step and stop while you are not in a debug session?
+7562|This issue was moved to OmniSharp/omnisharp-vscode#24
+7563|Good point. Intellisense should pick up `editor.fontSize` and `editor.lineHeight`.
+7564|Things like tab/space and line ending conversion is really a core editor feature in my mind.
+7565|Thanks, sorry for the delay!
+7566|@SteveALee which version of VSCode and node is this and which platform?
+7567|Since we will switch to Salsa in February, the temporary fix is good enough.
+7568|The primary reason I switched from Atom to Code was that I would no longer need to install an extension for every little editor feature I used daily. To me, space / tab conversion is a fundamental code editing requirement that belongs in the core product.
+7569|"> @SteveALee which version of VSCode and node is this and which platform?  @weinand When will @GitHub implement those ISSUE templates!!!  VSCode 0.10.6 (would be helpful if could copy text from ""About"") Node 4.2.5 (using nvm-windows but that should have no impact) Windows 10 Pro 1511"
+7570|Yeah, npm@2 works.   @Tyriar if you can find out why it fails, please ping me. Maybe there is a verbose option that prints why npm 3 is stupid and 2 is not. The related package.json entry that causes this is:  npm --prefix extensions/vscode-api-tests/ install extensions/vscode-api-tests/
+7571|fixed by #2446
+7572|Thanks :+1:
+7573|Obsolete
+7574|Nice catch!
+7575|@LittleBrainz Exactly. Code provides a lot of functionality out of the box as compared to Atom and that was my reason for the switch too.
+7576|"@isidorn  Sorry - that was a rubbish bug  VSCode 0.10.6 (would be helpful if could copy text from ""About"") Node 4.2.5 (using nvm-windows but that should have no impact) Windows 10 Pro 1511  Steps 1) Select the debug icon so the debug view is open 2) Press F10 or F11  Expected results - The debugger is started and execution stopped on the first line of program - Perhaps stop on first line of the open file if the 'main' file of the program is not known - See Visual Studio for reference  Actual Results F10 does nothing and F11 goes full screen."
+7577|@alexandrudima Thanks for fixing this.  Ciao, Trevor Sullivan
+7578|Thanks!
+7579|Thanks for more details. However that is expected behavior. F10 and F11 are only active once you start a debug session. We can not change the behavior of F11 -> full screen since that might break some people's flow. For the debug to stop on the first line we would have to modify the user's launch.json which we do not touch automatically (set stopOnEntry:true).  Due to this two things I am closing this feature request as will not be supported
+7580|OK. Disappointing but I understand
+7581|NOte if the first line is a comment then the debugger stops on the second line which is the first code line. Thus the problem is with line 1 itself
+7582|"We should not use ""display: none"" but some other CSS property to hide actions (e.g. width). I implemented this for split view actions, but not yet for trees."
+7583|@SteveALee I could reproduce the problem only with node 4.2.5. Upgrading to node 4.2.6 LTS fixed it.
+7584|@bpasero I think this might be a workbench problem.  The suggestWidget already has a z-index of 40 that makes it: - render on top of the next editor (first screenshot) - render on top of normal text following the standalone editor (second screenshot) - I have tried a value of z-index up to 50k -- does the workbench use more than that? - I don't know how the workbench layouts the things in the bottom area in such a way that z-index has no effect on them.  ![image](https://cloud.githubusercontent.com/assets/5047891/12641955/13d60fe2-c5b3-11e5-9ed0-f97e1e69b5fb.png)  ![image](https://cloud.githubusercontent.com/assets/5047891/12642003/5d3cead4-c5b3-11e5-84e3-50ee0d948a8e.png)
+7585|There is a confusion regarding the naming -- the thing is not accessibility mode -- the toggle is that Tab allows focusing out of the editor -- I will soon push a change to change the wording in the status bar  (It is a similar concept to toggling overwrite with <kbd>Insert</kbd> -- which we don't currently support)
+7586|@isidorn I am sure you did something very powerful there ;)?
+7587|@weinand Thanks. Will try. nvm-windows doesn't offer that version but that's my problem and easy to fix.
+7588|![jan 28 2016 11 42](https://cloud.githubusercontent.com/assets/1794099/12642144/35084f3a-c5b4-11e5-9ef2-7f8de1194e74.gif)
+7589|@joaomoreno Awesome, finally my greatest usability issue with VS Code is gone ;-)
+7590|"+1   When opening ""foreign"" files a simple core option would be much better than ext replace or beeing forced to install an extension"
+7591|"Just delivered a new label for the `tabFocusMode`: `""Tab moves focus""`. I hope this clears things up what this feature is: a toggle for inserting a tab character or moving focus when pressing <kbd>Tab</kbd>  ![image](https://cloud.githubusercontent.com/assets/5047891/12642701/c03eae70-c5b7-11e5-9181-455b545966c2.png)"
+7592|Fixed in the language server.
+7593|As suggested I address this by updating the corresponding documentation.
+7594|Fixed.
+7595|Yes, I thought you did, but on Macs cmd-tab is the same as alt-tab on Windows (the keys are in the same places) - it changes the window/program. I didn't acknowledge that difference in my previous response. I also want to acknowledge how wonderful and awesome it is to be able to develop on my Mac using all the tools that Microsoft has provided. VSCode is a great tool and I'm very happy to have it!
+7596|@joaomoreno I believe this is you. It looks like we are stopping signature help when a different set of signatures comes in `this.hash && hash !== this.hash` (https://github.com/Microsoft/vscode/blob/master/src/vs/editor/contrib/parameterHints/browser/parameterHintsModel.ts#L101) and I don't know why that is.
+7597|and that SHA-1 usage... despite being ingenious
+7598|@rhires a sorry man, I am so used to Ctrl+Tab, it is of course that, not Cmd+Tab !
+7599|For some reason `z-index=1` was too strong, so now I set it to `initial`. I did not change this for the sidebar, only panel (suggest widget already goes nicely on top of sidebar)
+7600|It's the post install trying to run `extensions/vscode-api-tests/node_modules/vscode/bin/install`.   Is this file generated by something? I managed to run the app tests by pulling this postinstall step out completely.

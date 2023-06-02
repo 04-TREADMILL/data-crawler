@@ -1,0 +1,100 @@
+25101|Wrong JS references
+25102|Support dynamic QuickPickItem items
+25103|Ctrl +KS Does Not Save All Files, But Opens Keyboard Shortcut Page
+25104|Feature Request - Add GUI for installation of previous extension versions
+25105|VSC displays commented html-code wrongly
+25106|Duplicate lines at end of file on save
+25107|Switch Window
+25108|Install/remove package after adding or removing a line in package.json
+25109|don't allow actions on array chunk nodes
+25110|Display of frames without 'source' has regressed in more recent versions of VS Code
+25111|Relax quickfix action to select any problem marker on the current line
+25112|Files on OneDrive will not open.
+25113|Can't install php intellisense extension
+25114|Left over Code Helper at 100%, even though Code not running
+25115|Faced problem with dangerous Git COMMAND
+25116|Problem with embedding C# syntax between delimiters
+25117|Cannot select link in terminal
+25118|f
+25119|scss warning message when using 'display: inline-block' and float seems incorrect
+25120|Markdown preview does not update when file is untitled/unsaved
+25121|Support development extension installations
+25122|Allow to configure foreground color of icons inside activity bar
+25123|Declare watching tasks without endsPattern
+25124|Suggestion: Don't center justify 'label' call stack frames
+25125|Find-in-files regexp search limited to open files
+25126|Lazily Fetch Supported TypeScript Code Actions
+25127|Allow notion of NoSideEffects during watch window evaluation for during step
+25128|remove heuristic for calculating evaluation expression for variable access
+25129|Pass Source and Level For TS/JS Diagnostics
+25130|Improve TS Extension Logic for Handling Configuration Changes
+25131|Info dialog broken
+25132|Vs code using emmet syntax, when many times will be vscode automatically prompt interference, how to do
+25133|VS Code hang after loading
+25134|Expose WebRTC API to extensions
+25135|feature request: add a TM_FILENAME_BASE and TM_FILENAME_EXT or similar variables for snippets
+25136|can't create breakpoint on current line because light bulb is in the way
+25137|Extension host terminated unexpectedly
+25138|The keyboard shortcuts for Add Cursor Below/Above (Ctrl + Alt + DownArrow/UpArrow) do not work anymore.
+25139|Undo and redo keys are swapped in linux, keyboard settings: HU
+25140|the chinese characters in its application often garbled.
+25141|cannot update config value which isn't defined via a schema
+25142|disable the default js linter
+25143|Property initializer should get the same completion as property assignment
+25144|svg support?
+25145|The editor cannot be used while compiling
+25146|IP list for proxy exception
+25147|Words position from terminal panel is incorrect
+25148|vscode doesnt open a new tab, but override the existing tab
+25149|Wrong IntelliSense with `chalk` package
+25150|""".vscode"" is the bull's testicles, why can't it be "".code""."
+25151|Key bindings not working in embedded syntaxes as expected
+25152|Menu cannot show labels that contain ( or ) when they also have chords
+25153|Prominently indicate whether an editor or the panel has focus
+25154|VSCode settings overwrite first lines of code
+25155|intergraded console thows error when typing ' cd '
+25156|Test column breakpoints in node2
+25157|Ctrl+C does not stop node server in external Command Line
+25158|Drag and drop from FTP folder in explorer into editor DELETES the file on FTP server
+25159|Incorrect tool-tip and definition path for import statements in js file
+25160|C/C++ preprocessor defines syntax colors are wrong
+25161|Cloud version (electron-less)
+25162|Source Control Spinner No Longer Animates
+25163|Add greying out of unactive C/C++ pre-processor block
+25164|Check for Updates should be on the Help Menu
+25165|扩展机失败，请重新加载什么原因形成的呢
+25166|Some bugs
+25167|feature-request explorer-files Delete .js file from file system when deleting .ts file
+25168|Maximum setLocal recurssion reached.
+25169|should use system proxy on windows
+25170|Moving cursor using Ctrl+(left/right arrow) in Chinese and English mixed text
+25171|How to change all files' default eol to LF in windows?
+25172|Lightbulb Gets in the Way of Breakpoint
+25173|Test issue please ignore
+25174|Persistent result view for Find All References
+25175|indentation of multiple var definitions should follow alignment of first line
+25176|js code completion not working
+25177|TS language service reported errors in fileService.ts
+25178|Update Go grammar to atom/language-go@6de3f61
+25179|Cannot read property 'Symbol(tokens)' of undefined
+25180|why does Code assume that *everything* i'm typing/about to expand is going to be PHP?
+25181|TypeScript validations occur even though javascript.validate.enable is false
+25182|Brackets cannot be copied to terminal running python with German keyboard as default
+25183|Render current line highlight in the gutter for multiple selections
+25184|Feature Request - Transform to Titlecase Option
+25185|Editor. Formatting. not working
+25186|fix: #25222 - transform to titlecase
+25187|git.stage no longer working in 1.11
+25188|Closing confirmation window when discarding changes confirms action
+25189|Wrong TypeScript version is shown when using a workspace version
+25190|Cannot install any extensions.
+25191|Use node cached data for node_modules
+25192|I think one feature is missing. when i hover a mouse in a function calling then in sublime it will send to that function but in vscode this is not happen..
+25193|Feature Request — Support for doxygen Documentation
+25194|Improve keyboard shortcut editor search
+25195|no suppoerted authentication methods using git
+25196|Cannot search for paths
+25197|JSON schema validation error is unclear
+25198|for help
+25199|cmd+c cmd+v macos terminal
+25200|Autocomplete for folders macOS

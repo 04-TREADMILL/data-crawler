@@ -1,0 +1,100 @@
+11701|Issue with using Tab or Enter when performing short hand code (not for sure if short hand is the way to put it but it works)
+11702|Mac OSX Command E searches files, not open them
+11703|Extension tests failing on Linux since 1.5 was released
+11704|Add version information to Mac and Windows distributables
+11705|Allow to minimize VS Code to tray
+11706|Disable format of plain text in HTML
+11707|Autocomplete for file path
+11708|Peek/goto definition for C/C++ stop working after upgrading to 1.5
+11709|Goto declaration should store current cursor in navigation history
+11710|Add a setting to reveal a opened file in any window if opening from outside VS Code
+11711|Treat hyphen as part of word
+11712|1.5 Release breaking React ES6
+11713|Cannot use --goto parameter with paths that include a drive letter with a colon :
+11714|Ctrl+K, Ctrl+U does not work
+11715|Spurious error: [ts] Duplicate function implementation
+11716|Add a Duplicate to the click-menu in the explorer pane
+11717|--user-data-dir does not allow relative paths on Windows
+11718|"Hope the default User Settings allow to use the "","" in the last sentence"
+11719|Simple pattern of all other files
+11720|Missing generic font name
+11721|Run VS Code with admin privileges so the changes can be applied
+11722|[file icon themes]Config to assign a separate icon to *.d.ts instead of *.ts
+11723|Search within installed extensions returns results from the online lists
+11724|Bug in cursor location within user snippets
+11725|Please tag v1.5.1
+11726|No connection behind proxy since update 1.5.0
+11727|A version mismatch between the globally installed tsc compiler (1.0.3.0) and VS Code's language service (1.8.10) has been detected. This might result in inconsistent compile errors.
+11728|不能识别出jsx的react文件，其中jsx格式的语言显示不正确。javascript react才是正确的，需要手动选择
+11729|floting panels; undock panels and move them around
+11730|Feature Request: Support for Multiple Integrated Terminals
+11731|Show errors in the files explorer
+11732|Why not me the updated version
+11733|Support to show icons in more places (tabs, open editors, quick open)
+11734|Crashes on opening a specific 700kb png file
+11735|Regression: --goto feature should accept empty line and column numbers
+11736|ShowQuickPick does not fulfil the promises
+11737|md file preview broken with more than one file
+11738|Incorrect handling of git commit message template
+11739|Settings are not universal, they are specific to Workspace
+11740|Add common C++ file extensions .cxx, .hxx, and .hpp to seti theme
+11741|[jade/pug] Correct highlighting for string with inline tags
+11742|Debugging both cilent side JavaScript and NodeJS at the same time
+11743|[jade/pug] Correct highlighting when including CSS/JS
+11744|[themes] confusing alignment of file in folders in folder-less themes
+11745|Tab stops at user snippets not working
+11746|[jade/pug] Support for HTML comments
+11747|Merge in translations
+11748|Go to definition broken in latest version of VS Code (1.5) + older TypeScript
+11749|Add folder icons to seti theme
+11750|Debug stopped work in 1.5.1
+11751|Don't remove extra spaces at the end of a line for Markdown
+11752|Support for RTL languages
+11753|Promise.as/is wrongly typed
+11754|TSC / TS language server version mismatch can only be 'ignored' globally
+11755|circular symlink breaks typescript intellisense
+11756|SSL errors after 1.5.1 update
+11757|Terminal API: Terminal object should include PID of the launched terminal
+11758|File Icon Theme: Better icon for HTML file
+11759|self signed certificate in certificate chain
+11760|Can't debug node.js with `integratedTerminal` setting using MINGW64
+11761|Add error reason to Marketplace telemetry events
+11762|".CS file type description changed to ""URL:vscode"" after upgrade to 1.5.1 (or 1.5.0)"
+11763|"Syntax highlighting doesn't work with ""text/babel"" script tags"
+11764|Cursor not between quotes after autocomplete
+11765|Cannot install/update VSCode to 9/8/2016 version
+11766|indicator for VS code update download ?
+11767|Add Powershell as integrated terminal in VSC for Windows? [Feature Request]
+11768|code auto completion
+11769|Seti File Icon Theme: Show custom icon for files with no file extension in the file name
+11770|Custom code completion does not show anymore
+11771|Quick opened files should be kept open, not previewed
+11772|It doesn't open anything of my project, there's just the menu and a black screen
+11773|tsx attribute formatting removes bracket spacing
+11774|Build still broken on ARM linux
+11775|Feature Request: Perforce Support
+11776|Explorer scrolls to top after deleting a file
+11777|Invalidating stale cache entries
+11778|Publicly accessible previous versions of VS Code
+11779|VS Code won't update (Macbook Pro 2012 i5 )
+11780|Always visible file path
+11781|`angular` syntax profile from emmet doesn't work after 1.5.0 update
+11782|Request for searching all texts or references
+11783|[Themes] - The themes affect the environment in total.
+11784|Show errors from OpenerService
+11785|1.5 update crashed VS Code; required 'stable' reinstall
+11786|"""Open with Code"" context menu is not localized"
+11787|A blocking process freezes entire ide.
+11788|Update icons when language of file is changed
+11789|UWP Application - Feature request
+11790|tabCompletion not correctly set
+11791|Move line up/down should support multiple cursors
+11792|Format Code dosn't work with Javascript on OSX
+11793|program is slowing down after 10,000 lines of code written.
+11794|Markdown simultaneous edit and preview
+11795|Add support to get image size (width and height)
+11796|Files opening in different windows
+11797|freezes opening passphrase-protected ssh git repository
+11798|How to specify CompletionItem order?
+11799|Pressing escape should always set focus to the text
+11800|OmniSharp will never start under macOS 10.12 Sierra!

@@ -1,0 +1,100 @@
+8501|Selection color uses different blue in list compared to tree
+8502|Watch task indicator
+8503|Consider another color (blue) for Extension view Enable button
+8504|Search: Clean up and simplify
+8505|Inline all SVGs for the workbench when building
+8506|GIT Viewlet has left-hand focus indicator, but no other viewlet does
+8507|Replace All should run search if no search ran before
+8508|Search and replace boxes should place caret in same place
+8509|Cutting off the error text
+8510|Multiple text cursors after dropping from file explorer
+8511|Editor tab dropped before mouse up
+8512|Tab under dragged tab flickers
+8513|Text selected in editor while dragging debug toolbar
+8514|Use old style terminal/panel icons
+8515|Linux: application stopped painting
+8516|Replace All should be disabled while search is still running
+8517|Cancel Replace All confirmation dialog while search is running resets the search progress
+8518|Massive replace makes window unresponsible and then crashes the window
+8519|Block travel
+8520|Regression: settings.json intellisense not working within quotes
+8521|VS code launch problem
+8522|Alternative command discoverability issue
+8523|Debugger: Wrong current line in source map with inlined source
+8524|Don't push one line at a time in the sha1 computation
+8525|autoClosingBrackets and bracket surround should be two features
+8526|Should Goto > Switch Editor Group > Side Group be Center Group?
+8527|"Goto menu title should be ""Go to"""
+8528|Creating a closing quote when typing a contraction in a comment
+8529|Respect metered connections on Windows 10
+8530|Feature request: add confirmation dialog to `Synchronize Changes` button
+8531|Emmet: guaranteed applying new preferences
+8532|Feature Request: Command line flag to disable files.autosave setting
+8533|"Tab dragging should show where the tab will be inserted, not which tab it will be ""replacing"""
+8534|Breakpoints in Coffeescript
+8535|Microsoft C# extension not wokring in Ubuntu x64
+8536|Investigate why configuration via symlinks no longer update
+8537|powershell ext - processing of quoted string that contains @ doesn't recognize terminating quote
+8538|Pinch to zoom causes UI confusion
+8539|Tabs in high contrast are difficult to differentiate when the editor is not active
+8540|Tab high contrast border shifts tab text when active
+8541|Explorer high contrast theme active item border pushes text 1px down and to the right
+8542|Integrated terminal should use orange to indicate it's focused when using the high contrast theme
+8543|Cannot find toString of null
+8544|ability to evaluate variables in user/workspace settings
+8545|Installing VS Code can break DNF
+8546|Extension incorrectly reporting an update available
+8547|workbench.view.git should show and focus git panel
+8548|extensionManagementService depends on telemetryService which is NOT registered
+8549|Use old-style icons for terminal and panel
+8550|Many icons are shifted down and to the right on the high contrast theme
+8551|Problem matcher should use unique onwer if omitted
+8552|Investigate removing Max results limitation for Search and replace results
+8553|Tabs: Coloring issues
+8554|Find newline with regex does not highlight all matches
+8555|VSC performance and feature issues when multi langage usage (ReactJS/Golang)
+8556|Current open file relative path variable
+8557|"Wrong deDE keybind mapping ( key: ""... ["" -> key: ""... ü"" )"
+8558|Emmet: saving a file outside the current directory in the case of using Encode/Decode command
+8559|Extensions are not npm_shrinkwrap'ed
+8560|Snippets are not always on top of the context menu
+8561|Extension api: process.env doesn't contain all of my .bash_profile environment variables
+8562|Enable tabs by default
+8563|Ctrl-t (transpose) command inserts extra character.
+8564|Ctrl-k (kill to end of line) does not delete empty line.
+8565|"Provide a way to Show Command Search Palette on ""empty"" backdrop view"
+8566|Chrome thinks my javascript (written in vscode) is chinese characters
+8567|Restore target environments in common & browser
+8568|Allow to have scoped instantiation service per editor slot
+8569|VS code launch problem
+8570|Open preview action on a markdown file opens the preview again if it is already opened in a different editor group
+8571|[json] improve anyof handling
+8572|Markdown Preview is not using complete editor space
+8573|Extension Ratings in New Experience
+8574|Strange CLI behavior: CLI does not seem to write to either stdout (FD 1) or stderr (FD 2), making output impossible to redirect.
+8575|Emmet: show error when the path is located outside the current workspace
+8576|Bgashler1/color b
+8577|Integrated terminal wrapping issue
+8578|Use Sass for vscode's styles
+8579|Doesn't reverse multiple files in git
+8580|Rendering issues with VSCode on Ubuntu in VirtualBox
+8581|No 'Stage Selected Lines
+8582|Ctrl+k Ctrl+P not mapped to showAllEditors
+8583|Should be able to right-click and Copy Path from search results
+8584|Improve the Code update experience
+8585|VSCode should display information regarding languages' versions
+8586|Debugger issue with Node.js/TypeScript code
+8587|Integrated terminal, chinese word has a bug
+8588|Extensions search box not centered nicely in viewlet
+8589|JSON: this._ruleStack.equals is not a function
+8590|Introduce an universal newline character like \R
+8591|Search: do not show preview when replace is empty?
+8592|Remove the emmet encode/decode action for June
+8593|Unable to install extensions
+8594|Can not view installed and outdated extensions
+8595|Sensible settings of windows.zoomLevel result in jittery scrolling
+8596|C grammar pushes states and does not pop them for sqlite3.c
+8597|About vscode Integration
+8598|html in php not highlight elements
+8599|No syntax highlighting for JS functions
+8600|build error

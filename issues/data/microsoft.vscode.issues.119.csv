@@ -1,0 +1,100 @@
+11801|Open new file
+11802|How to tell vscode do not sort my CompletionItems?
+11803|Syntax prompts no
+11804|personal key binding doesn't work
+11805|Add option to sort files in Explorer side-bar by date modified
+11806|Typing a dot in a string literal selects first item in auto-suggest
+11807|Text selection finished above Terminal Window makes loosing focus on Editor Window
+11808|Ability to add multiple open folders to a single project
+11809|git repos not detected in sub-folders of the open folder
+11810|[json] validation doesn't work offline
+11811|`ESC` key no longer closes the output window
+11812|Column mode selection behavior is inconsistent with user expectations
+11813|Icon alignment in directory tree on mac
+11814|Linux version cannot autofill DOCTYPE
+11815|Debug Console doesn't scroll when starting empty
+11816|freeses after latest update
+11817|1.5.1 .deb package misses depencies
+11818|make suggest list supports fuzzy matching
+11819|Prevent startup access to 238.172.191
+11820|Trigger language auto detection mechanism
+11821|Refactor terminal to enable processes to exist without the panel
+11822|Dislike default toggled find in selection
+11823|Strange cursor behavior after workspace.applyEdit();
+11824|File search can exceed max string length
+11825|wrapping column not always shown depending on zoom level
+11826|JSX Comments (mixed modes)
+11827|How to increase the font size of IntelliSense panel?
+11828|"Show known file types for file ""open"" dialog boxes"
+11829|Ability to add links to diagnostics and render them as links in problems view
+11830|Expose an API to launch a url in browser
+11831|Alt-H2 Preview and Syntax Highlighting Issues
+11832|Investigate better synchronization between diagnostic request and auot code complete
+11833|Embedded language support in Markdown
+11834|Question: How does one make a custom tab view (something like preview markdown)
+11835|Search: Replace, match previous case
+11836|Enable c# object dump in debugger console from code
+11837|终端可选ProwerShell
+11838|Bracket matching does not work as expected if the opening brace symbol is contained in the closing brace symbol (e.g. sequence endsequence)
+11839|Provide the code hint for css(include inline css) & javascript in HTML files plz...
+11840|Add optional timeout to MessageBox (Information, Error, Warning)
+11841|Block cursor width is not correct with CJK characters
+11842|Installing extensions in Linux through authenticated proxy fails (Server returned 407)
+11843|Can't work in ubuntu16.04 - vagrant
+11844|VS freezing every five minutes on CSS file
+11845|VSCode Marketplace site does not support internal links in Readme markdown
+11846|Quitting Code in fullscreen mode forgets previous windows state
+11847|file tree view disorder
+11848|Synchronize dirty files across multiple windows
+11849|WinSCP open files in VSCode but don't show VSCode window
+11850|Invalid keyboard bindings file causes editor to not load
+11851|Too many selections with intellisense lead to crash
+11852|"Enable ""Open with Code"" on drive roots in Windows Explorer"
+11853|Inconsistent Toggling
+11854|Ctrl + Click to Go To Definition
+11855|Won't run in a xrdp session
+11856|File search slow with many excluded files
+11857|Consider wrapping hover in 80 chars
+11858|VS Code tries to read 'range' field from TextEdit which is null
+11859|Provide API to return formatted content from suggest and parameter hints
+11860|.JS files no longer open as Javascript after latest update
+11861|Allow to configure settings per file type
+11862|Bug in How-to-Contribute#build-and-run-from-source documentation
+11863|Multiline select
+11864|Unable to jump to first element in quick open with Arrow-Down and filtered
+11865|El host de extensiones finalizó inesperadamente. Recargue la ventana para recuperarlo.
+11866|增加设置class后光标位置自动位于最后方
+11867|Add File Explorer Setting to hide files .extensions ( not always necessary with icons )
+11868|Visual Code Freezes always now since last update
+11869|possible regression in 1.5.1 with self-signed certificates?
+11870|"Unable to open workspace settings if ""workbench.settings.openDefaultSettings"": false"
+11871|Allow to show multiple panels at the same time (split pane)
+11872|Bad cursor position after snippet insertion
+11873|While adopting the new const enum CharCode, I noticed this weird thing
+11874|Indent guides look funny
+11875|Javascript now reads as Plain Text
+11876|Integrated Terminal createNew command throws an error on Insiders
+11877|Deactivating extensions do not always have enough time to clean up
+11878|Debugger runtime shown against an extension seems confusing
+11879|Provide command to focus most recently used editor group
+11880|Poor recognizability of folder structure with icons
+11881|UI tricks me into allowing large git repos
+11882|Linux Debugging (gdb) - Debug Console should reappear after prelaunch task output
+11883|Markdown preview not working
+11884|Feature Request: Add Guide lines to indicate folder structure
+11885|VS Icons are not displaying
+11886|Implement focus active editor group command
+11887|Up/down after selecting text moves text cursor corresponding to end of selection, not its current position
+11888|Markdown: Code blocks lose colorization sometimes
+11889|Feature Request: Drag item to terminal to paste path
+11890|ALT + Arrows does not work in integrated terminal
+11891|Auto-indent for Python spotty
+11892|my project's config.json file empty
+11893|Icon overlay support
+11894|"Tab key indention not working properly on sections that contain ""loop"" tag"
+11895|Review handling of extraFiles with caches
+11896|"Consider renaming ""extension.update-all"" to ""workbench.extensions.action.updateAll"""
+11897|Add root for intellisense to workspace settings
+11898|VS Code locks after selecting a file in search in files
+11899|September Iteration Plan
+11900|Visual Studio code shouldn't attempt to update git until it has focus

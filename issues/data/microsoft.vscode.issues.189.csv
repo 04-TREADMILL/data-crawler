@@ -1,0 +1,100 @@
+18801|Exception in new settings
+18802|Feature Request: Remote Operations
+18803|Viewing images: limit background (check pattern) to image size
+18804|"Showing ""end of central directory record signature not found"" while installing extensions - Fedora 25, Proxy: None"
+18805|Caret at wrong position when editing
+18806|Integrated Terminal can't paste anything(1.9.0-insider)
+18807|WIN 10 SYNC ERROR
+18808|createTerminal shellArgs seems no effect
+18809|cannot open settings
+18810|Do not fs.realpath workspace paths so that symlinks are left intact
+18811|Cannot run tasks
+18812|[1.9.0-insider] text/x-code-output no longer works to identify identify output
+18813|Git - viewlet doesn't update after a git init
+18814|Search: selection lags behind focus
+18815|Add ability to run multiple background/watching tasks
+18816|F1 list is totally broken now
+18817|Panel title background looks too heavy
+18818|Git undo confirmation is killing me
+18819|Keep commit box input while committing
+18820|Mutli select in scm viewlet
+18821|Stage selected lines missing
+18822|Undo last commit action
+18823|TypeScript confused?
+18824|Command Line: -r option doesn't work ?
+18825|Paste not working correctly in Terminal
+18826|Cannot add a launch configuration snippet when there is no launch.json
+18827|[WelcomeUX] Overlay moved up in OSX insider
+18828|[WelcomeUX] Welcome page design
+18829|[WelcomeUX] Could not resolve any model with uri 'javascript:void%280%29'
+18830|[WelcomeUX] 'Clone git repository' errors when new SCM is enabled
+18831|[WelcomeUX] Elements get cut off when resize window
+18832|"[WelcomeUX] ""Open folder"" does not work on Linux, Windows"
+18833|[WelcomeUX] File icon for welcome page tab is the html icon
+18834|[WelcomeUX] Help overlay is misaligned
+18835|[WelcomeUX] Unable to open 'workbench.action.openVideoUrl'
+18836|"[WelcomeUX] ""walk-thru"" should be ""walk-through"""
+18837|[WelcomeUX] Can't scroll after using anchor link in walkthrough
+18838|[WelcomeUX] `Open folder...` and `Clone git repository` buttons don't work
+18839|[WelcomeUX] `Help` text cut off
+18840|[WelcomeUX] Walk-through in-document links do not update scrollbar
+18841|[WelcomeUX] Walk-through vertical scroll position resets when switching editors
+18842|[WelcomeUX] Welcome screen should go away after attempting actions
+18843|[WelcomeUX] Open Errors and Warnings overlay points at git
+18844|[WelcomeUX] Pressing esc should exit welcome overlay
+18845|[WelcomeUX] esc should hide interface overlay
+18846|[WelcomeUX] Arrows have different font weight than rest of overlay text
+18847|[WelcomeUX] Serif font looks out of place
+18848|[WelcomeUX] Find all references looks weird in walkthrough
+18849|Error Load
+18850|[WelcomeUX] Welcome page should have a max width
+18851|[WelcomeUX] Can blue links on welcome screen have hover feedback?
+18852|[WelcomeUX] Checkbox should be aligned with text
+18853|[WelcomeUX] Open folder/clone git throws an error
+18854|[WelcomeUX] Walkthrough should be one word
+18855|[WelcomeUX] Scrollbar temporarily can't scroll up in editor walkthrough
+18856|[WelcomeUX] Do the welcome and editor walkthrough icons make sense?
+18857|[WelcomeUX] Clicking relative link doesn't update scrollbar
+18858|[WelcomeUX] Recent paths would be better truncated from left side
+18859|[WelcomeUX] Overlay should include an example of the command palette
+18860|[WelcomeUX] Walk-through: ATA does not work when .ts without tsconfig present
+18861|[WelcomeUX] Interface overview doesn't update when sidebar icons are rearranged
+18862|[WelcomeUX] Open Errors and Warnings is not always in the same position
+18863|[WelcomeUX] Introductory videos doesn't work
+18864|[WelcomeUX] Editor theme button refers to the theme using two words
+18865|[WelcomeUX] command palette and sidebar behavior inconsistent in interface overview
+18866|[WelcomeUX] Scrollbars don't disappear after undoing all text changes
+18867|[WelcomeUX] Change default keyboard shortcuts button wording could use some work
+18868|[WelcomeUX] Pressing ESC should hide the overlay
+18869|[WelcomeUX] The bottom 50% of the bottom embedded editor lines cannot be clicked
+18870|[WelcomeUX] Editor walkthrough errors pollute workspace problems view
+18871|[WelcomeUX] Why are the embedded editors using rounded selections when I don't have that set
+18872|[WelcomeUX] Editor height in Walk-Through
+18873|[WelcomeUX] Emmet cheat sheet URL is wrong
+18874|[WelcomeUX] Add empty spaces in editors for ppl to play around in Walk-Through
+18875|[WelcomeUX] Walkthrough gives bad keybinding advice on some platforms
+18876|"[WelcomeUX] Rename example isn't ""play-friendly"""
+18877|[WelcomeUX] Not sure what I did but CSS color swatches disappeared
+18878|[WelcomeUX] Why is the editor walkthrough background color fixed?
+18879|[WelcomeUX]  Go To Definition opens a new tab
+18880|[WelcomeUX] Scrollbar is not a good thing for playaround sometimes
+18881|[WelcomeUX] Avoid 'thru'
+18882|[WelcomeUX] Go-to-definition opens file in separate tab rather than navigating within embedded editor
+18883|[WelcomeUX] Peek and Find All References don't seem to like small spaces
+18884|[WelcomeUX] Improve welcome screen on smaller screens
+18885|[WelcomeUX] Should be able to search editor walkthrough
+18886|[WelcomeUX] Editor walkthrough problems persist even when it's closed
+18887|[WelcomeUX] Welcome preview should have pointers to other resources
+18888|"[WelcomeUX] ""View Local Changes"" in overlay doesn't do justice to the viewlet"
+18889|[WelcomeUX] text should be selectable in editor walkthrough
+18890|[WelcomeUX] Console error while opening any of the recent folders
+18891|Markdown preview doesn't resize properly on zoom (Ctrl++)
+18892|[WelcomeUX] Disable extensions or not in Playground
+18893|Failed to load Extensions gallery behind proxy with ERR_INSECURE_RESPONSE
+18894|[WelcomeUX] Keyboard focus on links gives box with uneven border width
+18895|[WelcomeUX] Page Up/Down in Playground
+18896|[WelcomeUX] When settings.json not valid JSON: Console error while checking/unchecking check box
+18897|[WelcomeUX] Recent folders that no longer exist should be handled more gracefully
+18898|"[WelcomeUX] ""StackOverflow"" should be ""Stack Overflow"""
+18899|[WelcomeUX] Search not working in settings window
+18900|[WelcomeUX] Focus issues while navigating using keyboard

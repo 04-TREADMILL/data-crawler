@@ -1,0 +1,100 @@
+10901|@joaomoreno I think you changed this recently. I wonder if we ever patched console.info or just log/error/warn?
+10902|:+1:
+10903|Also @jrieken fyi
+10904|Well we could still allow to swap the positions of source/preview.
+10905|@joaomoreno I believe this is an Electron issue?
+10906|@bpasero well I assume that is happening again, not being able to open folders seems far worse though. Maybe something like this would be better:  ``` if windows   path = normalize(path)   is path is not a directory     trim '.' from path ```  I'll reopen #1579 to fix again.
+10907|"@Tyriar but if the condition is to only trim ""."" if there is a non-dot before the dot, you would still be able to open ""."" and ""..""?"
+10908|@bpasero That's correct, Windows 10.
+10909|@be5invis it seems to be standard windows behavior to show a hidden menu when you press the alt key. I do not think we could prevent that.
+10910|Duplicate of https://github.com/Microsoft/vscode/issues/55
+10911|We do show search results as we find them. As for search performance, we already track that in https://github.com/Microsoft/vscode/issues/55
+10912|@warpdesign is that a real disk or a subst thing on windows?
+10913|Ok, closing thereby. Search performance is tracked in https://github.com/Microsoft/vscode/issues/55
+10914|:+1: , maybe in combination with allowing per-language settings.
+10915|Good catch, will see if I can do something about it for March.
+10916|#2946
+10917|@mousetraps we actually reopen the last file that was selected in the explorer. If GH had a way for me to search for duplicates, I could dig up the # for you where the bug is reported a while ago.
+10918|Would indeed be very nice to preserve the undo history even for changes outside Code.
+10919|@NullScope is this on Windows or OSX? Can you provide steps how you setup the junctions?
+10920|I do :-).  Fixed. To be clear: we still need the reload project since there are cases where the tsserver can only recover from changes if you reload the project.
+10921|@dbaeumer @egamma @alexandrudima I think my motivation for this change was to support the Flow language case where the extension is JS but a first line header indicates it should be treated by the Flow language service.  If you guys have an idea how to still support that scenario, please let me know.
+10922|@bpasero normalizing the path beforehand would transform `path` from `c:\foo\bar\..` to `c:\foo` and `c:\foo\bar\.` to `c:\foo/bar`?
+10923|@bpasero it's a real disk (ie: mounted ntfs partition).
+10924|@stevencl did you try ctrl + k, ctrl + i. Can you move focus using the same keyboard shortuct to the regular, non debug hover? Can you move focus inside a simple debug hover? This works fine for me on the mac
+10925|Verifying marked as duplicate
+10926|"@Tyriar I would trim all ""."" from a path on windows, but I see the issue. Why would someone actually type the full path and append "".."" at the end? Is that a use case?"
+10927|No, currently we do not support language specific settings, but we should.
+10928|Reopening and reverting the commit. The problem here is that if the autodetection fails output is shown in the console. Now the user is blind.
+10929|This issue was moved to Microsoft/TypeScript#7295
+10930|I am pretty sure that this is already possible. But need to check.
+10931|This issue was moved to Microsoft/vscode-nls#6
+10932|Need to investigate. But could be an issue with command line args. There is nothing I do special with --locale.
+10933|@egamma To my knowledge the readme show in the market place UI and when we click on the readme button in the install extensions list then we open a web browser. So there is not much I can do since the nls story has to come from the market place. All we need to do to pass may be an argument to the market place when opening the extension in the browser. So IMO there is nothing we need to do here.
+10934|I get it. Irrelevant to this particular issue, I would actually like to argue against using descriptors. Here's what I observe:  With descriptors: - We end up having more code overall - All that code is loaded into memory on startup, since we're talking about sync descriptors. That is the action, its descriptor, the descriptor registry, and the action cache. All of that gets loaded into memory. - An action, in its essence, is a simple JS object. The descriptor is another. You end up having 2 objects in memory. They last forever. - We seem to optimize for time by not calling all the instantiation services into the actions before they are actually needed. We end up allocating twice the memory we need. It's the trade-off.  Without descriptors: - All the code you need to write is the action itself - Only the action code is loaded into memory - The instantiation itself would happen at startup, possibly being intensive  I'm not really sure the performance benefits are so clear that the descriptors end up being the obvious choice. I might be wrong, but it would be a nice benchmark to test.
+10935|Can everyone suddenly speak Chinese?  Closing as duplicate of #821.
+10936|:+1:
+10937|Don't think you ever patched the `info`:  https://github.com/Microsoft/vscode/blob/master/src/bootstrap.js#L81
+10938|I am all up for not having sync descriptors at all, I was just describing our status quo.
+10939|Ah right, we still have this code, I can take care of console.info
+10940|I can still reproduce this on the latest alpha (Windows 10) using theme Dark (Visual Studio). Despite your diff, the classes for `var` are `token expr meta storage type var js`
+10941|+1
+10942|Since the error counts drops to zero I suspect this being a problem in OmniSharp land
+10943|@geelus would it be possible to share the project that shows the problem. I tried to reproduce but wasn't able to do so.
+10944|@bpasero Maybe you can hide the entire menu by setting the windows' menus to `null` by the `BrowserWindow::setMenu` method, instead of using `setMenuBarVisibility`?
+10945|@bpasero regardless, it should still open the path that's provided, not the path with `.`'s trimmed. `code foo\..` should open `.`, regardless of whether it's the typical use case. Example usages of where someone would want to do this: - Opening via a script - If they have typed a path and changed their mind, adding `\..` is faster than backspacing  Not doing so will likely result in another issue down the track.
+10946|@riclf Thank you for your input, I am really just trying to understand how the feature should work, I'm not trying to sell anything :).  I have pushed a change just now that adds column select with the mouse with the same modifiers as Visual Studio (Shift and Alt pressed), the key difference being currently our cursors cannot float on air (they get bounded by the text shape).  To better explain, here is VS: ![column-mouse-vs](https://cloud.githubusercontent.com/assets/5047891/13401144/47e9ea9e-df0b-11e5-8552-f2646376d763.gif)  Here is VSCode on master: ![column-mouse-vscode](https://cloud.githubusercontent.com/assets/5047891/13401213/8b01ad4e-df0b-11e5-9ef7-ff8cf3c14a1c.gif)  Is this different behaviour a deal-breaker when it comes to using column selection? Again, I am asking to understand how the feature should work and how it is being used so I can figure out how to implement it.
+10947|@Tyriar makes sense, I am also easy leaving it without the trimming code.
+10948|@be5invis I will not do that. Alt should bring back the menu in any case.
+10949|Hi,  Just saw the new release changelog, good work so far. I want to stress-test the system a little. See where accessibility is still not optimal and create issues for the stuff i find. Please let me know a fitting strategy for this? Is there a tag I should group them under, put them all in one issue or ...?
+10950|Also it fails in the reverse as well. If I perform the refactor on the shape declaration, it does not change the corresponding symbols in the parameter object, nor in the function body.
+10951|I think I have a workaround here where we stash the launch parameter info and defer launching of the requested script until we receive the configurationDone request message.  Is this how the protocol is supposed to work?
+10952|I pushed another fix for https://github.com/Microsoft/vscode/issues/1579, I omitted the dir check, not really needed after normalizing. Needs to be verified on Windows.
+10953|New fix needs to be re-verified on Windows.
+10954|@bpasero I think you misunderstood my meaning. I think you can hide the menu by “disabling” it, and use custom event handlers to bring it back. And maybe you can also try to prevent the default behavior of <kbd>alt</kbd> to prevent mis-popup when multi-selecting.
+10955|just downloaded 0.10.10-insiders --- and it expands to function definition. But there is another problem --- *.js files with jsx inside are opened as `JavaScript` and emmet does not work. But if I switch language to `JavaScript React` emmet works.  Is there any possibility to enable emmet in files with *.js extension?
+10956|Yes, I now removed the ts from the js grammars again, but instead have now all the suffices in our default themes. Coloring should look fine. Can you confirm?
+10957|Coloring is fine in Dark+, not Dark (Visual Studio) though which many people still have as their default. We seem to get a lot of issues filed for this theme. Is it being kept up to date or being phased out?
+10958|"@zersiax thanks much for willing to help! we will soon release a new insider drop with all our changes that you can use.   We typically file individual issues here around accessibility with the label ""accessibility"". We will take care of the triaging from then on!"
+10959|Fair enough, I still think that is a lot of juggling for something that Electron framework should just take care of...
+10960|Thanks :+1:
+10961|Or maybe you can change the key used for multi-selecting? Sublime Text uses <kbd>ctrl</kbd>, which does not introduce such conflict.
+10962|@be5invis well there was another bug that the menu shows up when you press Alt+Tab, which is rather common.
+10963|@zersiax actually I think the insiders build (0.10.10-insiders) is already out!
+10964|@alexandrudima fyi, not sure what to do here, e.g. if we want to safe guard against circular references. I do not think we did so before I adopted node process as plugin host.
+10965|"With `Process Explorer` I was able to find which app locks the file: It is a `git` process.  The thing is I have not git running right now, although I ran some git commands earlier.  Killing the git process and clicking ""try again"" fixes the problem."
+10966|A tabIndex solution would not work because tabIndex is, similar to id, a global property.  E.g. if an editor is on slot 1 and it uses tabIndex from 1 to 10 for different things, then the editor on slot 2 would need to use tabIndex 11 to 20, etc. This would also need to be aligned with our other usages of tabIndex = 0, otherwise you would loop for a long time amongst all the things with tabIndex = 0.  So you'd expect when tabbing from the explorer to drop in the editor's text?
+10967|I think the bug happens with the English locale?
+10968|@joaomoreno That was the issue. Want me to close this or do you want it open for the schema fix?
+10969|Would it be possible to add the contents of prerm/postrm scripts in the zip files for Linux? People not using packages might also want to do such registration manually.
+10970|Not sure either, the accessibility docs ask that a widget that traps focus must allow for a way to escape it. It doesn't specify how this should be implemented  @stevencl Do you know what VS does?
+10971|I understand there's no functional bug, but check out other json files where we represent paths, such as `package.json`, `settings.json`, etc.  For consistency I believe we should generate `.json` files with `/`.
+10972|@tinganho are you using an english keyboard with english locale?
+10973|@bpasero I am only able to focus the header of the panel not the file list. In order to focus the files in working file I have to `tab` it through. Was wondering if it could behave similar to ⇧⌘E. ![cmd-k-e](https://cloud.githubusercontent.com/assets/949380/13405172/07f9eb70-ded2-11e5-999a-d667f6fc7560.gif)
+10974|Good point regarding multiple editors. When you tab out of the explorer we first tab into the editor tool bar. After that you end up tabbing into the find widget if that is open and then to the editor.  As you say, since the textarea comes after the widgets, it makes sense. Can we not move the textarea before the editor widgets container?
+10975|Looks like I fixed this only for February release which we will get out this week.
+10976|Awesome!! Thanks @bpasero.
+10977|@borgdylan once the deb file is available you can always just download that and extract it, it contains the contents of the zip as well as the launcher, .desktop file, and (un)installation scripts.
+10978|:+1:
+10979|Actions are now only enabled when the file is dirty, otherwise not. They also only show up when auto save is disabled.
+10980|I happen to install manually, are these file available separately here on github as well?
+10981|"For the item, ""HTML Preview run from a WebView and support executing JS"", is there any plans to add support for jade templates also?  Like jade to html on the fly and render?"
+10982|@Tyriar fyi
+10983|@borgdylan an official build of the deb package won't be available until the March release. Is there any reason you would opt for manual once this is available over an official apt package?
+10984|@aeschli I thought the default behavior was to merge, I would prefer this. If you plan to do that for GA then please take over, otherwise I can fix this by introducing a different section.
+10985|@chrisdias how critical is this? I am trying to triage my bugs?
+10986|haha, yes you do @joaomoreno
+10987|@felixfbecker thanks for the additional info. I suspect that the working directory of the process is different when started from the start menu which makes client then relative to that directory. I change the title since the right fix would be to either forbid relative values or make the predictable (e.g relative to the workspace root).
+10988|Thanks @bpasero. The 'Close File' command solves my problem. If this feature gets implemented, it would still make managing the recent list more efficient and intuitive.   It seems odd that clicking to remove files from the 'Working Files' list does not remove the files from the recently used list.
+10989|Ok, I tuned the wording and I now show the default value.  Please note that I decided to initially select the tab size value for the current editor, but I put the 'default' description for the tab size that is specified in the configuration file. Let me know how you feel about it
+10990|@codyrigney92 There is an [extension](https://marketplace.visualstudio.com/items?itemName=wmaurer.html2jade) to convert jade to html, you could use this in combination with [HTML preview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode) to achieve this?
+10991|"@bpasero This is on Windows.   Here are the steps to reproduce the bug: - Create one folder called FolderTest ( e.g C:/FolderTest ) - Create two child folders called FolderOne and FolderTwo ( e.g C:/FolderTest/FolderOne & C:/FolderTest/FolderTwo ) - Fill both folders with random files ( e.g C:/FolderTest/FolderOne/random.txt ) - Create one folder somewhere else called JunctionFolder ( e.g Documents/JunctionFolder ) - Use mklink in cmd with administrative rights and create two junctions inside the folder  In my case the commands were:  mklink /D ""D:\Users\Bruno Ribeiro\Documents\JunctionFolder\FolderOne"" ""C:\FolderTest\FolderOne""  mklink /D ""D:\Users\Bruno Ribeiro\Documents\JunctionFolder\FolderTwo"" ""C:\FolderTest\FolderTwo"" - Now open a brand new window in Visual Studio Code without any project folders - Drag-in JunctionFolder into Visual Studio Code  Now try to open a random file inside FolderOne using ""Go to File"" ( or Ctrl+P ) and Visual Code Studio will say there were no results found, however the sidemenu can navigate the files just fine. - Now open again a brand new window - Drag-in JunctionFolder/FolderOne  Doing the exact same search using ""Go to File"" ( or Ctrl+P ) and Visual Code Studio will be able to find the file instantly.  My project is much more complicated than this obviously as it works under an framework with a lot more child folders. But for git it has to be setup as the two top folders while my project is sitting as one of the many child folders inside those two folders."
+10992|@tht13 Thanks, I'll have to give that a try.
+10993|`--help` is being added in Feb release https://github.com/Microsoft/vscode/pull/2650  I wasn't actually aware of the doc page you linked, I've created a new issue to add the remaining command line args for the March release https://github.com/Microsoft/vscode/issues/3565. Thanks!
+10994|"Just noticed this issue.  I agree with @stevencl and @csinco due to the fact that the clicking the ""X"" is actually causing the panel to close and not collapse."
+10995|Please note that I no longer manually set 'all', 'uncaught' in case the adapter is not sending exception breakpoints as part of capabalities.  Due to this all adapters should send a list of exception breakpoints that they support as part of capabilities returned by the initialise call. [Debug Protocol Capabilites](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/debug/common/debugProtocol.d.ts#L498) [Example how node debug does it](https://github.com/Microsoft/vscode-node-debug/blob/master/src/node/nodeDebug.ts#L315)  @daviwil @roblourens @lukehoban @gregg-miskelly @felixfbecker
+10996|We also should explore allowing users to toggle editors and panels from being vertically or horizontally split.
+10997|We are not going to change this is the //build timeframe so I would be ok pushing it out.  From: Sofian Hnaide <notifications@github.com<mailto:notifications@github.com>> Reply-To: Microsoft/vscode <reply@reply.github.com<mailto:reply@reply.github.com>> Date: Monday, February 29, 2016 at 8:41 PM To: Microsoft/vscode <vscode@noreply.github.com<mailto:vscode@noreply.github.com>> Cc: Chris Dias <Chris.Dias@microsoft.com<mailto:Chris.Dias@microsoft.com>> Subject: Re: [vscode] Sidebar remains in debug section after terminating a debug session (#1931)  @chrisdiashttps://github.com/chrisdias how critical is this? I am trying to triage my bugs?  — Reply to this email directly or view it on GitHubhttps://github.com/Microsoft/vscode/issues/1931#issuecomment-190350707.
+10998|Xamarin is supported in Visual Studio. Would be sweet to have it in VSCode!
+10999|I opted for that since I used to customize the install myself to support my own programming language.
+11000|The plan is to keep both. 'function' not being colored has to do with Microsoft/TypeScript-TmLanguage#44. I hope we can fix that this week.

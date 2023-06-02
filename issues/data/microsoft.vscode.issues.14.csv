@@ -1,0 +1,100 @@
+1301|Alt-tabbing to another application underlines the first letter of items in the menu bar (file, edit etc)
+1302|Inconsistent matching when typing quickly with Go To File
+1303|Surround a text/word with special characters
+1304|API for extensions previewing in HTML
+1305|"""Set/Override Syntax"" command"
+1306|Move native-keymap node module to Microsoft/
+1307|[css] at-rules in CSS no longer distinguished from selectors in dark theme
+1308|Watched tasks do not terminate (sometimes)
+1309|I can open jpg ,but can not open JPG(upper)
+1310|tasks.json suppressTaskName doesn't work
+1311|How can I run more than one node project at sametime?
+1312|Encoding detection from XML header
+1313|Word wrap implementation for text editor (f.e like in SublimeText)
+1314|Octal literal syntax error is not handled for all cases
+1315|How to debug vscode source code for one specific feature?
+1316|Can't install extensions through proxy on windows
+1317|HTML Format does not work
+1318|Move line up is broken
+1319|Cannot read property 'getStatus' of null
+1320|[css] Word highlight is computed wrong when in CSS comments
+1321|Extensions Status: improve hover message
+1322|Extensions Status: Uninstall action does not tell me what is being uninstalled
+1323|Extensions Status: The number after the icon does not help me at all
+1324|Extensions Status: The image is too large compared to the others
+1325|Git checkout should create a tracking branch, if any remote contains a matching branch
+1326|VSCode will not close if attempting to discard an unsaved file
+1327|Typescript intellisense looks broken after dot completion
+1328|All of the sudden today I keep getting a prompt to reinstall VSCode and it keeps failing
+1329|Can't format HTML code
+1330|Visual Studio Code Icons and Text looks blurry
+1331|breakpoint verification status not updated if program runs to termination w/o hitting a breakpoint
+1332|Insert cursor below on last line adds a cursor to the end of the current line
+1333|Multiselect for explorer
+1334|suggestion screen cheese
+1335|ES6 String Templates syntax highlighting
+1336|Whenever I do any type of git operation I lose typescript intellisense
+1337|Comments in a .json file should be highlighted as invalid syntax
+1338|Typescript suggestions are very often broken
+1339|gitActions.ts - cannot read property length of undefined
+1340|References not working in C#
+1341|Too many icons due to too many tokens
+1342|Close dialog for new files Don't Save and Cancel are swapped
+1343|cannot start code via command line on windows 10
+1344|Zoom In/Out should not modify whole window.
+1345|[ruby] Ruby language support does not include %() string syntax
+1346|Update path when renaming the parent of a dirty file
+1347|Welcome Page is Missing a link to Extensions
+1348|Show welcome page after update
+1349|Extensibility API: openTextDocument() inconsistent dirty state with working files if document is inside workspace.rootPath
+1350|Uncaught SyntaxError: Unexpected end of input
+1351|Add shortcuts for nextDiff and prevDiff in DiffEditor
+1352|Make mock-debug a yeoman generator, publish /common as NPM module
+1353|Odd keybindings
+1354|Try to use different method for getting key physical label
+1355|Please add support for  FreeBSD
+1356|Add invokeSnippetForCurrentWord command.
+1357|[php] highlighting  for mysql in php file
+1358|Debug Call Stack viewport vertical scroll cuts off the bottom item
+1359|Keyboard shortcut to navigate Working files
+1360|Will show code of old function object which steped before while step in at second function object
+1361|[css] cssParser incomplete for at-rules
+1362|Error: cannot connect to runtime process (timeout after 5000ms) when debug vscode
+1363|Fix: Upgrading Extensions Blows Up
+1364|Intellisense CPU usage high
+1365|Do not give Electron accelerators that change with keyboard layout under Mac/Linux
+1366|Accelerators in menu do not update btw restarts
+1367|Keybinding widget: Opening up empty shows last key used as label
+1368|"Keybinding widget: treat ""unknown"" special?"
+1369|Jade colors strings in light blue in light theme
+1370|Why do we have to specify ES5/ES6 target?
+1371|Add to watch adds an invalid expression
+1372|Changing casing of file name shows the file as unsaved even though autoSave: on
+1373|quickPick ranking gives priority to class name then to file
+1374|React is poorly supported (especially .js file)
+1375|Read first line of file and use as filename when saving
+1376|PHP should not offer 24x7 intellisense after <?php
+1377|Feat.Req.: API: showInputBox() user input validation and feedback
+1378|Spourious test failures in ExtHostLanguageFeatureCommands
+1379|Reload Project fails if TS extension is not loaded yet.
+1380|breakpoint not hit in node 5.2
+1381|Cannot read property 'trigger' of null: TypeError
+1382|"[0.10.4] editor.insertSpaces ""auto"" not being detected"
+1383|API request: Install extensions
+1384|how to set the current folder for visual studio code from vscode API
+1385|Split view, Split Working file
+1386|Typescript file resolving issue
+1387|When replacing folders, offer an option to merge the files
+1388|Document how to disable CSS linting
+1389|Syntax highlighting for batch is broken.
+1390|Extension API - Modify file name colors / opacity
+1391|Update extension hangs
+1392|Allow extensions to set configuration options.
+1393|problem matcher that clears only for changed files
+1394|"On exit with modified file, ""don't save"" and ""cancel"" actions are swapped"
+1395|"typo in tooltip for ""isShellCommand"" in tasks.json"
+1396|Line endings aren't copy/pasted correctly from VS Code
+1397|Error in the SASS/LESS -> CSS guide
+1398|[html] typos of angularjs attributes(directives)
+1399|How to get custom sort order for CompletionItem list
+1400|SaveDialog for new Files: Actions Cancel and Don't Save are switched

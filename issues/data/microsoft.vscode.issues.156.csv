@@ -1,0 +1,100 @@
+15501|Feature Requet: Open git integration for usage from commands-api
+15502|Restore untitled files from within UntitledEditorModel
+15503|[java] Javadoc Syntax highlighting
+15504|Hot Exit Does not Open Unsaved File on Launch
+15505|curl latest deb file
+15506|Code asks for git credentials even with a credential helper set up
+15507|vscode configuring new shell to open in the current project directory
+15508|matching bracktes and quotes auto replace
+15509|"Create a ""TypeHierarchyProvider"" api for visualising type hierarchies"
+15510|Align git command palette interaction with command line
+15511|Adapt TSServer 2.1.x
+15512|Explorer if we should pre-seed TS typings with the tsserver
+15513|Translations in Debug viewlet
+15514|Menu item not translated
+15515|Show horizontal scrollbar in the files explorer
+15516|Menu Item has wrong text for toggling Status Bar
+15517|Open Recent should show exact match first
+15518|Markdown preview doesn't work correctly when zoomed in
+15519|Adapt TSServer 2.0.10.
+15520|Disconnect icon rendered large under Windows in High DPI mode
+15521|Improve Typography of Markdown Preview
+15522|Hexadecimal integer match capitalized prefix `0x`
+15523|Update watermark with commands relevant in context
+15524|Css linting not showing errors/warnings
+15525|Feature request - Keyboard binding for run tasks popup menu
+15526|Emit first key chord when timeout or wrong second key chord
+15527|Code Lens - Left Align (# references)
+15528|getConfiguration fails regression test 1.7.1 -> 1.8
+15529|Error on run code from source
+15530|Merge pull request #1 from Microsoft/master
+15531|Sometimes, don't support using the TAB indent style format js code
+15532|More performance telemetry (for #15559)
+15533|Adopt latest Marketplace CDN changes
+15534|Layer breakers in our code
+15535|Include more performance details in telemetry on startup
+15536|Multiple cursor shortcuts don't work in 1.8.0
+15537|"Linux/Mac: Navigate on text and files by mouse ""prev/next"" button"
+15538|Highlighting bug?
+15539|Is it possible to define cursor position during autocompletion
+15540|Include newline when expanding line selection
+15541|[Feature-request] File Explorer extensions API
+15542|"Enable ""Find in selection"" within single lines"
+15543|The terminal process terminated with exit code: 2147483651 in visual code studio
+15544|React Js, js/jsx Classname intellisense support not available
+15545|AutoSave ignores TabSize setting
+15546|Question: How to access the DOM with vscode.previewHtml
+15547|getting two windows of the workbench after running tests
+15548|"Very high CPU + memory usage by ""watcherService"" service process + possible cause"
+15549|Track usage of internal snippet syntax
+15550|Selected File in Search opens after closing and files and coming back to search
+15551|Synchronization for settings
+15552|Callback in jsdoc
+15553|Adopt Snippet support in completion items in LSP
+15554|Render whitespaces only when text is selected
+15555|Regex search issue
+15556|Regular expression multiple cursors bug
+15557|Diff indication for wrapped lines should only show in last line
+15558|Two divisions in the same line tricks the code highlighting into thinking there's a regex.
+15559|Expose a terminal API option to pause when the shell is exited
+15560|Support moving the tasks framework to use the integrated terminal
+15561|DiagnosticCollection.set([Uri, [Diagnostic[]][]) is not reliable
+15562|CSS/SCSS intellisense: pseudo element adds extra colon
+15563|How to assign keyboard shortcut to command with argument?
+15564|Enhanced diff view
+15565|"""Go to file"" when one name is a subset of another"
+15566|Show enabled extensions isolated
+15567|electron-main/main.ts: Improve structure in the massive `main` method.
+15568|Emmet Expansion of `php` has unexpected behavior in `.php` files
+15569|Disable backups when extensions are being debugged
+15570|Workbench doesn't open without opening a folder
+15571|Crash upon startup, fresh install, no extensions.
+15572|Add custom ordering to title menu items.
+15573|Cannot read property 'state' of null
+15574|Multi-line indents do not preserve partial indents
+15575|Unable to open a separate file
+15576|Insiders will not load editors when not in a folder workspace
+15577|Switching editor loses scroll (caret) position
+15578|A way to pause rolling out a new version
+15579|Update error telemetry site to add callstacks as comments to existing issues
+15580|Simple way to temporarily turn off exclusions for QuickOpen files
+15581|Clicking failed mocha test file (via VSC debug) doesn't open the file.
+15582|"offline install and ""last disk of Multi-Volume set"""
+15583|Add Find Command To Public Command API
+15584|enlarge
+15585|I want to copy the file bower path when copying the path in the File menu bar right mouse button.
+15586|JS Large Project Warning Action Fails For Implicit Projects With TypeScript 2.1+
+15587|Ability to enable extensions only on specific workspaces
+15588|Implements current line highlighting with modes 'line', 'gutter' and 'all'
+15589|If No Staged Files, Changed Files are Added to Commit
+15590|[Feature request]Hot reload for extensions
+15591|VSCode is running very poorly all of a sudden, regardless of what project I have open.
+15592|Error debuging an ES6 Proxy
+15593|Multiple versions of node.js (Feature request)
+15594|I have these files,but they can't be found.
+15595|Server returned 407
+15596|Console.ReadLine Not Working
+15597|Cannot read property 'activeParameter' of null
+15598|Incorrect handling of unicode combining markers - Backspace splits Ideographic Variation Sequence
+15599|Preview pane does not show output [SQL Results, Markdown Preview, etc]
+15600|"Pressing ""v"" on DVORAK layout commits autocorrect"

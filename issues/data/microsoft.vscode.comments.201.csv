@@ -1,0 +1,100 @@
+20001|@isidorn I'm not able to verify this fix in the latest alpha. With the breakpoint set in the now nonexistent original DebugTest.ps1 I am also not able to debug other files.
+20002|No difference, internet works within virtualbox, but installing extensions in VSCode always throws an error.  Reinstall also didn't work.  Can I download marketplace-extensions manually (to test if downloading is the problem). What more can I do?  Thanks!
+20003|@isidorn Are translations available for this yet? Still showing `<none>` for all langs in commit [7f7c50af30205e0f3d62866dd758f6fddb63f3c0](https://github.com/Microsoft/vscode/commit/7f7c50af30205e0f3d62866dd758f6fddb63f3c0)
+20004|@vsccarl the issue with not being able to debug with the PowerShell is a known issue with the PowerShell extension.  We should have a fixed version (0.6.0) released in a week or so.  For now, you can work around this by setting a breakpoint in your program and then you should be able to debug.  That said I'm not seeing this issue as fixed on my machine at work with today's alpha build.  I will need to check later tonight on my home dev machine with daily 0.6.0 PS extension bits.
+20005|Are y'all working on this right now? I have VS code insiders, and the Alt + F won't bring up the menu at all (I'm not in any kind of localized scenario). VS code insiders 1.1.0-insider. (My 1.0.0 works fine btw).
+20006|That does look like the problem wasn't fixed yet. Thanks for the repo, I'll keep looking.
+20007|@aeschli yes, that's what I was seeing.  Thanks for checking!
+20008|I was experiencing the same issue on Windows 7 with 150% scale.  In my case the fonts are now sharper with the latest insiders build when running with the `--enable-use-zoom-for-dsf` switch. I'm using the same switch (as a flag) on Chrome browser too, to fix the (probably) same issue ([crbug.com/485650](http://crbug.com/485650)).  If I add the `--disable-gpu` switch too, the code editor font is even sharper (subpixel antialiased!), but reverts back to grayscale antialiased when I scroll.  Also, there is an additional tiny blur that alternates on and off with each pixel scrolled (probably an unrelated round off error with translate transform).  Anyway, things are definitely better.
+20009|Thanks @alexandrudima for the heads up.  Tagging the possibly related issue #2352 (for reference)
+20010|This may or may not be related to this issue - while most of the time the editor feels very responsive, I've  noticed that sometimes it becomes sluggish and responds to keystrokes with about a half-second delay. It doesn't happen often (once every few days maybe). Sometimes the slowness goes away by itself, and other times I have to restart it.
+20011|"I think the most conservative move is ""A,"" because it avoids changing the look while still fixing the problem, but only if it would not make it harder to click the buttons in the status bar in a situation like below. <img width=""304"" alt=""untitled"" src=""https://cloud.githubusercontent.com/assets/11839736/14903356/5f90472e-0d55-11e6-9c86-9b78ccfdd8ad.png""> It seems like whenever the drag cursor is active I can't click a status bar button, even if my cursor is technically over it (not pictured above, but you get the idea).  I like leaving the horizontal scrollbar its current size because we make it subordinate to the vertical one which is larger (the vertical one carries more information about the document as a whole).  My two cents.  Totally open to other ideas, though."
+20012|@bbenoist by attach do you mean you want the output from Chromium and/or want the process to continue running (`-w`)?
+20013|@bill-mybiz this issue is specifically about when an IME is active. If you're not using one you should create a new issue and provide OS and other relevant details about your configuration that could affect it.
+20014|@bbenoist I've written a gist for conemu here - https://gist.github.com/pflannery/8d28d1d5e17cc3b15ab5861639fa2e5a
+20015|I think @bbenoist means having vscode contained within conemu like  ![image](https://cloud.githubusercontent.com/assets/1727302/14904465/367d0c0a-0da0-11e6-82b5-f2e8d44e0e79.png)  I have a gist that shows how to setup a conemu task that always launches vscode inside conemu https://gist.github.com/pflannery/8d28d1d5e17cc3b15ab5861639fa2e5a  Not sure what the cmd line would be though. Probably a question for https://github.com/Maximus5/ConEmu
+20016|@weinand
+20017|[editorconfig-vscode](https://github.com/editorconfig/editorconfig-vscode) addressed my concern.
+20018|@isidorn OK, checked the PSES ext daily bits and I still don't see the breakpoint grayed out and there is no hover tip.  Now I am checking this in the BREAKPOINTS viewlet which I assume is what you're talking about, right?  Because the breakpoints in question are for files that no longer exist so it would be impossible to see the grayed out breakpoint in the editor window.  :-)
+20019|@alexandrudima  It is a great shame I have to use sublime text,right now.I need to open a huge log file to search something.
+20020|@isidorn this doesn't sound like a C# extension issue, so I am closing our side.
+20021|@vsccarl I have just pushed the translations which means the next alpha will have them
+20022|@gregg-miskelly ok, then I will reopen on our side to investigate
+20023|@isidorn assigning to you if you want to experiment with A.
+20024|I'm only new to this thread but my 2p as a full VS2015 user:  Looking forward to having tabs in vscode, as working files never fit with me (though I now see that hitting ctrl-f4 does not remove from that set as I had assumed it did).  Big fan of preview tab, glad to see it coming in.  Curious as to why new tabs will open to the right of active tab. I expect 'because web browsers' or 'because sublime' is the answer, but it seems counterintuitive to me, especially if tabs overflow by hiding from the left (into the chevron at the right).  I'm hoping to see right click menus for tabs as per VS... 'Close all' (for group) most importantly, not fussed about 'Close all except this'. A VS style save box for all modified files would be useful here.  The close button on the left is odd to me - I assume it is some mac/linux convention - but as long as 'middle button click' on tab closes an editor (prompt to save if applicable), then no bother. I can see why it is on left to rapidly close a bunch of files in succession, but middle click is better for that anyway (though maybe not for macs or notebooks with no scrollwheel?).  Chevron file picker should allow typing for quick jump to a file. Not that I personally plan to have enough files open to display the chevron, (and when I do I will no doubt use ctrl-p) but it happens.  Chevron number - is this a count of _hidden_ tabs/files/editors in this group, or a count of _all_ including visible files? I would argue only the hidden items, especially if you only show the chevron (and thus the count) when something overflows off the tab row.  On a slightly related note, if I ctrl-f4 (or ctrl-w? It seems to be the non-windows version of ctrl-f4 unless I am mistaken), I expect that if the tab is going away, it is closing the editor and should prompt for save/discard and remove it from ctrl-tab/ctrl-alt-tab/working files... I can see there is some keybind change I can do at the moment for enabling this functionality, but I struggle to see why in a tab based interface the existence of a tab is not directly related to the 'current'-/open-ness of the file/editor.   Loving what you all are doing on vscode, it's looking amazing ☺
+20025|@isidorn happy to hear that, I will fix the issue in May, so closing as duplicate of https://github.com/Microsoft/vscode/issues/5904
+20026|Well that was the initial motivation to file this bug.
+20027|@isidorn nice!
+20028|@alexandrudima yup, let me play around with that
+20029|@alexandrudima well might be, though from another issue we have (if you run with CJK languages you might have some custom fonts installed on the system that you might want to use over the default ones we have) I thought it would also be nice to allow to set the font-family. But being able to set both seems good to me too.
+20030|@zersiax so you say the fact that you click back into the editor quickly after the alert pops up might have caused the screen reader to stop reading out the alert?
+20031|We use the Electron crash reporter to collect crashes on all OS though I am unsure if this service also collects the crashes from forked processes.
+20032|@bpasero I've created #5972 to look into setting the editor font only on the dom nodes that really need it instead of the top level editor dom node. This should help with not needing to reset the font again in places such as the find widget.
+20033|this is #508 then
+20034|@alexandrudima that is very cool, thanks!
+20035|We might want to have a setting to exclude *.d.ts files from this list.
+20036|@codyrigney92 are you using an extension for this? which one?
+20037|I cannot reproduce on Mac nor Windows.
+20038|@jrieken @alexandrudima can you chime in
+20039|@dbaeumer @isidorn fyi. maybe this issue should be moved to the omnisharp repository.
+20040|@Tyriar Yes, @pflannery is right, I want to redirect vscode window into ConEmu via command-line. The `-w` option was just a desperate attempt; I actually don't need it..  ![image](https://cloud.githubusercontent.com/assets/2091902/14909639/42cfbca0-0de6-11e6-8216-50e395645ffe.png)  Replace gitk by vscode and you get the idea :wink:   @Maximus5 I'm afraid my problem is due to vscode process forking at startup. Do you have any ConeEmu-side workaround which would not require manual operations at each new call?
+20041|Hm I cannot reproduce. @dilijev are you using an extension? Can you try without?  Can you try to run VS Code without extensions? From the command line, execute: `code --disable-extensions`
+20042|"Should now work e.g.:  ``` {         ""key"": ""ctrl+pausebreak"",         ""command"": ""actions.find"",         ""when"": ""editorTextFocus""     } ```"
+20043|@nbosco this is due to the installed C++ extension and was reported already.
+20044|Please see http://code.visualstudio.com/docs/extensions/our-approach
+20045|@softshape make sure you run code from the C:\Program Files\VS Code\bin folder.  @joaomoreno given the amount of issues we get from this I suggest you add an entry to our FAQ :)
+20046|@isidorn please see the code here: https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/files/browser/fileActions.ts#L2348  We always open the explorer in both cases, so maybe you got that. And if the file is not inside the workspace we just expand the working files view because that one always is centered around the active file.   Please reopen if you see an issue with the implementation there.
+20047|Yes, we should and it will probably fix https://github.com/Microsoft/vscode/issues/5688. I am merging this issue into https://github.com/Microsoft/vscode/issues/5688
+20048|@softshape `Code.exe` will output much garbage to the console, we can't seem to prevent it. If you use the `.zip` distributable, you are stuck. If you use the `Setup.exe` one, make sure you launch Code from `C:\Program Files (x86)\Microsoft VS Code\bin\code.cmd`.  @bpasero What would that entry contain? 😕
+20049|Did you find the root cause?
+20050|The link would've been helpful. It is clear to me now.
+20051|Nice 👍
+20052|"I just use the shortcut which VS Code installer adds to Windows Start menu. It points to ""C:\Program Files (x86)\Microsoft VS Code\Code.exe""."
+20053|Seems to not be network related.  Does the user under which Code runs have permissions to write to the following paths? - `$TMPDIR` - `~/.vscode` - `~/.vscode/extensions`  Is there something inside `~/.vscode/extensions`?
+20054|@pcgeek86 I also cannot reproduce. I get all the tooltips on WIndows 10, even for disabled (greyed out) buttons.
+20055|Yeah that's the one that won't work. If you want to launch it from the command line, you should use `C:\Program Files (x86)\Microsoft VS Code\bin\code.cmd`. Setup adds `C:\Program Files (x86)\Microsoft VS Code\bin` to your `%PATH%` for that reason.
+20056|Well I have managed to make it work again by copying code and dependencies of old version. This issue can be closed.
+20057|I launch VS Code from Start menu, not from FAR Manager. It's just opened on my computer all the time.
+20058|You mean right click on your file system right? Works perfectly fine here to be honest. Does it work with another file type like `json` or `html`? Have you tested it with a minimal `xml` file of only 1 line?
+20059|This is strange. Let me see if I get this straight: you have Far Manager running on some terminal window; you then, using the mouse, go to the start menu, open Code and suddenly Code's output appears in Far Manager's terminal window?
+20060|I verified that for the explorer we now use a 'zh-Hans' specific font.
+20061|@Janne252 Given it is always possible to write extension code that leads to crashing the extension host, and most likely the extension host crashes with OOM, and that you've refactored your code and it no longer crashes, I don't know what we could do more on our side. I'm opting to close this issue for now.
+20062|@joaomoreno ok sorry. yes, we do have some manual code here and there to workaround this issue, I think Dirk is not the only one there.
+20063|@anyong The latest insider build already contains the update to Electron v0.37.6
+20064|Just found the reason. I use VS Code as an alternative editor on Far Manager. This is the case when VS Code is actually started from command line. After updating Far editor settings to C:\Program Files (x86)\Microsoft VS Code\bin\code.cmd the problem solved. Thank you!!!!
+20065|I'd like to reopen this to try to reproduce myself. If you have any more pointers on how to repro, please let me know. My concern is that a bad extension should not lead to an unresponsive window, it should at most crash the extension host.
+20066|Might be missing something here but why do you need the `tasks.json` file? `gulp` tasks are automatically picked up by VS Code.  As you can see, I didn't define a `tasks.json` file, I only have a `gulpfile.js`.  ![task](https://cloud.githubusercontent.com/assets/1913805/14910248/09a99b52-0dec-11e6-8b31-478276e4ec2c.gif)
+20067|So is this a setting problem or a bug ? tks
+20068|Thank you for the heads up!
+20069|This issue was moved to Microsoft/TypeScript-TmLanguage#157
+20070|@bpasero Verified, but should't we open a terminal even if there is no open file? We could just open it at `~`. What do you think?
+20071|"@sinaku-developer We do not layout the individual characters, we leave it up to Chromium, which layouts them based on the font. May I suggest that you use the ""editor.fontFamily"" setting to change the font to one that does monospaced CJK characters"
+20072|Yup, https://github.com/Microsoft/vscode/issues/5977
+20073|tsc would not throw any error. so i believe my tsconfig.json is correct.
+20074|"My settings:  ```     , ""editor.fontFamily"": ""Hack""     , ""editor.renderWhitespace"": true     , ""editor.fontSize"": 16     , ""editor.lineHeight"": 22 ```"
+20075|> we check if Array.isArray(marker.message) in there.  I believe that's because the standalone editor would support html formatted [messages](https://github.com/Microsoft/vscode/blob/master/src/vs/base/common/htmlContent.ts#L13) at one point?
+20076|Yeah I did change something... Thanks for your settings, I'll take a look.
+20077|@mquandalle Your string misses a `$` proceeding the curly bracket. For details see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+20078|:eyes: Wasn't me
+20079|There was a typo in the doc and in one place we use `AllowJS` which I have fixed.
+20080|@bpasero Why not implement file copying natively now that we use electron (`require('electron').clipboard`). That would allow copying/pasting integration with the Explorer / Finder.
+20081|Dup of #5325
+20082|This comes from #2465, in which the suggest widget picks up on the line height and font size of the editor itself. I've pushed some changes to alleviate the line height difference in your case. Hope this solves it in the meantime. Would you rather have additional settings, `suggest.fontSize` and `suggest.lineHeight`?  I'll leave this issue open since the suggest does need some layout work to fix the vertical alignment of the icon et al.
+20083|"@alexandrudima I thought about that but we need the ""file"" clipboard transfer for this (afaik) and not the text one."
+20084|Trust me to pick the incorrect 'allowJS'. I make a great Gorilla tester :)  So can you confirm if we should or should not use allowJs for Javascript projects?
+20085|Dup of #5479
+20086|To verify: - Use Code in Windows. Wait for an update, click `Later` - Open `%TEMP%\vscode-update`  The setup package in there should have `-${ quality }` in the name.
+20087|Can you point me to the commit?
+20088|#2809 covers also variables we introduce.
+20089|@isidorn I actually started to clean up error messages from failing saves to files once the file gets saved successfull, so I would not think this is a pattern (not cleaning up errors). If we can automatically remove errors, I would do it!
+20090|Reverted the changes from #2465, since it needs more work. 👍
+20091|Had to revert this, since it needs a bit more layout work. Pushing to May, sorry!
+20092|yep, still happens
+20093|https://github.com/Microsoft/vscode-node-debug/commit/c2c41f3647c653b780497cdccf7e85cafd43f546
+20094|Not critical, moving to may, probably need a  lower limit (chrome seems to support 1024 for title limit on win)
+20095|Only use it if the project file is `tsconfig.json` and you want to mix TypeScript and JavaScript development - like when migrating your project form JS to TS.
+20096|![image](https://cloud.githubusercontent.com/assets/22350/14911898/caba3b9c-0df8-11e6-8a7d-32589437cb09.png)
+20097|@bgashler1 thanks for looking into this.  **tl;dr:** Change indicators are good for smaller changes then one normally includes into git commit.  Ok, will try to give an example. If I want to change the behavior of a class restyle an element in the certain way, I open the file and to achieve desired behavior I know that I need to do X steps; change that, remove this, add that. Before I will go and try to test it I do a little validation/review thing. I look at the lines I've touched and map those to my initial (or final) mental model of the changes required.  Change indicators (VS201X implementation) are good for a single to-do item, while git commit is good for an entire to-do list (bug/feature).  Frankly I didn’t know that there are those quick diff indicators in place. Since it's in place and people already using it, my suggestion does not have space for existence. Besides, since VS201X indicators implementation is bound to the moment when file was opened in the tab; it may not translate well to vscode; the way one opens a file in vscode is completely different with tabless UI model.  In my opinion current implementation was a couple of rough edges both from UX and ideological points of view.  Tying the indicators to git status creates modes, user have one experience with versioned files and completely another with unversioned. I guess people are having hard times figuring out why in some cases indicators are present and in some not. Ideologically I'm not sure why editor should know about git at all. Besides, there is a good way to check changes since last commit. `>Git: Open Change.`  It feels like vscode is dictating how one should work (use git and commit often) and I think that it is not that good for vscode and users.
+20098|#637
+20099|Thanks!
+20100|Still broken:  ![image](https://cloud.githubusercontent.com/assets/22350/14912162/b38a557c-0dfa-11e6-9ca1-8e82a196c0a7.png)

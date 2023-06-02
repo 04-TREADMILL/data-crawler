@@ -1,0 +1,100 @@
+23901|The terminal uses the PowerShell and cursor have offset
+23902|HTML minification doesn't work on child content that isn't tabbed within
+23903|Cannot modify opened git change
+23904|Use different badge colors for modified and renamed files in git sidebar
+23905|Add File Path to the Info Bar
+23906|typescript class jump to detention when there is constructor function
+23907|Merge pull request #1 from Microsoft/master
+23908|Discarding many changes in SCM fails with ENAMETOOLONG
+23909|Improve the 'drag 'n drop' feature to up 'n down selected text
+23910|Can't use mouse to select terminal text outside of current scroll position
+23911|Tooltip is sometime broken
+23912|Panel action focus border is missing bottom in high contrast theme
+23913|Release notes shown in wrong font
+23914|Fix #23194
+23915|Dirty indicator missing when changing a file
+23916|Disable git.autofetch by default
+23917|[scss] error on string concatenation in URL
+23918|Warning: skipFiles entries starting with '!' aren't supported and will be ignored.
+23919|Windows: changes to node_modules folder are ignored due to watcherExclude setting
+23920|Code OSS build tslint rules extension (and add tslint-eslint-rules and unified rules file)
+23921|[SCM] 'when clause' for when SCResourceGroup has multiple selections
+23922|[Feature] Option to disable cmd+click trigger for goToDefinition
+23923|VSCode hangs when using (recursive?) JSDoc @typedef s
+23924|Bring open website (ftp, sftp) feature from webmatrix to VScode
+23925|Crash in latest update (1.11.x, out of memory)
+23926|Allow string to be passed to packge.json's configurationSnippets to execute a command like initialConfigurations
+23927|TS/JS Path Quick Suggestion IntelliSense Does Not Work Unless QuickSuggestions.strings is enabled
+23928|editor.action.clipboardCopyWithSyntaxHighlightingAction does not work on the preview side
+23929|Dvorak - QWERTY Keyboard Layout: In 1.11, keyboard shortcuts don't work as expected on Mac OS
+23930|extension.node-debug.startSession failed - linux, nvm and quick launch
+23931|Integrated Terminal got smaller
+23932|Scm css fix for keyboard navigation and actions Issue
+23933|Strange white line in status bar
+23934|无法 向上移动行 向下移动行
+23935|the native path intelligence seems broken
+23936|Messages in the panel terminal not responsive after resizing window.
+23937|Can't get static syntax error info with typescript
+23938|Could not correctly recognize javascript file in Version 1.11
+23939|High CPU usage with Git enabled
+23940|status bar git sync icon no spin.
+23941|Extension host terminated unexpectedly. Please reload the window to recover. (Huge repo)
+23942|Git: hangs when opening git diff
+23943|"ctrl+click link sometimes shows ""no definition found for ..."""
+23944|VS Code Profile from Kubuntu 16.10 - 64 bit
+23945|Launch List can not be displayed correctly
+23946|Shortcut key for new menu in new features is wrong display
+23947|Vibration occurs when autocomplete items are selected.
+23948|Changing End of Line Sequence Moves Caret / Cursor
+23949|Overwhelming number files in the source control hub for git (~72000) causing software to freeze
+23950|Release-Notes panel not sized correctly when zoomed in
+23951|Regression: dvorak-qwerty commands keyboard layout no longer works correctly
+23952|Alt Shift Drag select delete broken when wordwrap on
+23953|[Feature] Preserve case in Find and replace
+23954|Symbol lookup works incorrect.
+23955|Find all references shows only empty peek window
+23956|Keyboard mappings with `setxkbmap` on Linux not working
+23957|Proposal for improved go to definition functionality
+23958|integrated terminal display incorrectly
+23959|VSCode 1.11 - Performance Profile
+23960|DnD copy text conflicts with looking up var origin
+23961|Opening multiple files via Ctrl+P, closes the currently opened file in VSCode
+23962|cp1252 encoding not detected in this case
+23963|"Global Search finds string only in current file by ""files.encoding"": ""utf8bom"" in Settings"
+23964|Hot exit: Lost editor contents on upgrade
+23965|Copy on drag drop not working
+23966|Insider version wrongly reports available update
+23967|Code eats my CTRL + PrtScn keyboard shortcut
+23968|File from UNC-folders twice time opened in same instance after changes
+23969|1111
+23970|Typescript language service died unexpectedly 5 times in the last 5 minutes
+23971|Multiple cursors on next reference?
+23972|Feature request: multifile searches and files to include should be saved and navigable with cursor key
+23973|"Feature request: allow ""files to include/exclude"" groups for multifile search to be saved in user settings"
+23974|SCM progress API is still in proposed state
+23975|Feature request: Input available in the debug console
+23976|ripreg does not find anything
+23977|Arrows and NumPad don't work properly with MobaXtermX Server
+23978|provide a EJS formatter
+23979|Remove old Git world
+23980|Immediately submit file search
+23981|GIT sync icon has no animation.
+23982|php user snippets don't work in format example.blade.php
+23983|扩展主机意外终止。请重新加载窗口以恢复。
+23984|markdown + .html
+23985|The upgrade from 1.10 (1.10.2 I think) was not as smooth as before and went through several crashes....
+23986|Keybinding conflict with Tasks
+23987|Git branch creation broken in 1.11
+23988|Link recognition is broken in a large file
+23989|git is not found in v1.11
+23990|Git setting `git.countBadge` is broken
+23991|Support relative links to files in output tab
+23992|VSCode stopped workeing at all
+23993|Why intellesense for installed node modules  is not showing until I press Ctrl + space for typescript in vs code version : 1.11.0
+23994|"""search.useIgnoreFilesByDefault"" usage unclear"
+23995|Feature request: git checkout command with given branch/ref
+23996|Errors in files of the workspace not counted in the status bar
+23997|Git resources file paths end with `.git`
+23998|Could I change the color of occurrences highlight?
+23999|Folder unfolds can't see the inside of the content
+24000|Create new branch dialog not working

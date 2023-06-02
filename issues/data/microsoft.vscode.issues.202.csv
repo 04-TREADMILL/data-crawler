@@ -1,0 +1,100 @@
+20101|Implement HLSL syntax highlighting, and use HLSL grammar to highlight Cg blocks in ShaderLab files
+20102|[Feature Request] Format option to not insert space between non-empty curly braces in TS/JS
+20103|[WelcomeUX] Welcome editor icon
+20104|Issues with terminal flowControl
+20105|Change focus to terminal panes via number keyboard shortcut
+20106|[Feature Request] To support IntelliSense when implementing interface or abstract class
+20107|Allow to copy/paste file between windows
+20108|Picker is slow when used with many thousand elements
+20109|[decorators] Unicode characters are no longer rendered properly
+20110|Command palette search relevance
+20111|error FS0010: Unexpected character '' in interaction
+20112|Launching VScode from the quick access menu does not correctly inherit system environment variable if a change has been made since first launch.
+20113|Default text color is orange, should be white
+20114|Tree cheese
+20115|Copying from the terminal does not copy across scrolls
+20116|Solarized coloration does not work on a diff file
+20117|Default Configuration Change: Integrated Terminal Defaults OSX/Linux
+20118|Markdown Preview Window Shrink on Zoom
+20119|Changing a theme on a second window also changes the first.
+20120|Toggle Line Comment does not work correctly
+20121|Handle root, network path or disk drive letter
+20122|"""Scroll lock"" in Output doesn't work"
+20123|Markdown Preview is cut off
+20124|Run build task fails
+20125|Right click to open specific folder opens multiple instances
+20126|Clean Current File, Clean All Files in Command Palette
+20127|"Show ""Debug Console"" automatically when a new debugging session is started"
+20128|Added support for home/end key in IntelliSense
+20129|Use @types for a few d.ts files in src
+20130|"showOutput: ""never"" option in tasks.json is not respected"
+20131|Use @types a few more places
+20132|Transfer tmGrammar ownership
+20133|Explore improved language support inside JSDoc comments, provide Intellisense for markup and symbols
+20134|Adopt TypeScript 2.2
+20135|Ensure the tsconfig.json validation is exposed
+20136|Adopt @ types in our code
+20137|how can i go to the last edit position
+20138|Latest monaco editor build likely broken
+20139|add search function to quick go to functions in php classes
+20140|ERROR starting extension host
+20141|"Code formatting (""Format Document"") got broken in  1.9.0"
+20142|4-byte UTF8 code point reported as 2 chars in textDocument/didChange
+20143|error
+20144|"""Go to Next Error or Warning"" across files"
+20145|在过去5分钟内内，TypeScript语言服五意外终止了5次
+20146|"Feature ""Toggle Word Wrap"" broken in version 1.9.0"
+20147|Custom theme dosen't work after 1.9 update
+20148|add command to toggle line numbers
+20149|emmet is not working
+20150|implement pull/push commands
+20151|Tab key no longer works in HTML or CSS or LESS files
+20152|Cannot set property 'value' of undefined
+20153|Cannot read property 'done' of undefined
+20154|Text clipping end in tabs when file is in preview mode (italic font)
+20155|Show current error in status bar
+20156|The glob pattern given to createFileSystemWatcher is matched against the full fs path
+20157|[feature-request] Support removing spaces after opening and before closing curly braces when formatting
+20158|Menubar always visible on startup, regardless of setting
+20159|last edit date of each files of a dir or project
+20160|Ctrl+Space support for the integrated terminal
+20161|Hot exit doesn't retain custom language selections between sessions
+20162|Retrieving per-language settings with the extensions API
+20163|Html tag pair <input> and </input> is not highlighted when clicked.
+20164|Test: column breakpoints
+20165|[json] Improve combining schemas not working with 'additionalProperties: false'
+20166|Proposal: More flexible task definition
+20167|DEL key doesn't work when renaming a file
+20168|Why is Mac terminal complaining “-bash: export: `PATH;': not a valid identifier”
+20169|"Support underscore templates in ""html.format.enable"""
+20170|Linting issue
+20171|Typing `<p` in markdown outputs unexpected preview text
+20172|Hello world extension doesn`t work
+20173|Automatic Type Acquisition doesn't work consistently
+20174|Go to symbol not working for .js files
+20175|Markdown problems and flaws.
+20176|HTML formatting broken when tag is too long
+20177|IntelliSense requires ATA definitions instead of local module
+20178|Tab completion (e.g. Emmet) stopped working
+20179|Netwok: Folder appears empty when using a network drive
+20180|The TypeScript shit is still going on
+20181|Tab is broken in the latest insider release
+20182|Tab key does nothing on html file
+20183|The TypeScript Language Service died 5 times in the last 5 minutes.
+20184|keyboard shortcuts wonky with caps lock on
+20185|Add a openFilesInNewWindow setting that opens depending on being inside VS Code or not
+20186|Markdown doesn't sync when folder isn't open
+20187|fail to format javascript when inside an html file.
+20188|"""Open Recent"" selects an item out of the viewport after filtering"
+20189|[folding] Fold All at same level as cursor
+20190|Key Tab is not working
+20191|"API Request: Support for ""faded"" code"
+20192|Run ts server using ubuntu bash (WSL)
+20193|Feature Request: Add VCS color for files in tree view and tabs
+20194|Adding support for compare 2 branches
+20195|Terminal should propagate not handled shortcut key combo
+20196|search results in a tree view
+20197|Fish shell history completion gets munged
+20198|New window size doesn't match size of existing, open windows
+20199|Git diff is not working when VS Code is opened on a sub folder
+20200|Android version of winulate windows emulation web based

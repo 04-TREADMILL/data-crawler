@@ -1,0 +1,100 @@
+1701|[themes] Multiline comment always green no matter what theme
+1702|Add slim template engine support
+1703|Markdown preview doesn't correctly parse escaped parenthesis
+1704|workspace.applyEdit fails in git view
+1705|CPU usage skyrockets when holding down an input button
+1706|Diagnostics with severity Hint and Information have no visual indication in UI
+1707|Enable specifying installation directories in npm.sh
+1708|IntelliSense: most relevant result is not revealed
+1709|Search: Investigate into native commands for recursive file listing
+1710|Is it possible to have an extension with debugger contribution along with other contribution types
+1711|[php] PHP Intellisense Slow
+1712|Muli-line strings in JavaScript not colored, code following multi-line string not colored
+1713|Format Multi-Line Assignment Alignment
+1714|throng module is not possible to debug
+1715|VS code doesnot display some UTF-8 characters
+1716|launching electron app produces module not found
+1717|File picker: can end up showing the same file twice
+1718|Support quick outline for PHP?
+1719|Allow to configure title bar information
+1720|Renaming a .cs file when updating a .csproj file reference
+1721|change to launch.json is not reflected when I press f5
+1722|"Unable to input ""line break"" character in search box"
+1723|Monospacing broken by certain Unicode characters
+1724|replace case with proper type declaration
+1725|ProblemMatcher freezes VSCode on multiline problem output
+1726|Experimental Decorator error even after specifying in tsconfig.json
+1727|Prevent to show install message for installed extensions (fixes #1411)
+1728|problem with tasks.json and typescript compiler under Ubuntu 14.04
+1729|problem when launching vs code from terminal on a folder in Ubuntu 14
+1730|Added development instructions to tests README
+1731|Support format for handlebars file
+1732|Please change Setting Up Visual Studio Code Mac OSX Section
+1733|Debug Console: can't copy paste, neither select all text, selection is lost while scrolling
+1734|Wayland
+1735|Better support to run VS Code via Wayland
+1736|TypeScript Language Mode give errors of module not found
+1737|TypeScript symbols is empty inside closure (like jQuery plugins)
+1738|Typescript, vscode can't find react module without reference.
+1739|BOM
+1740|Will there be localized versions available?
+1741|Does Code come with a Format Document option?
+1742|vscode debugger stops on reject()
+1743|insertSpaces = auto, new file, first indentation, tab not possible.
+1744|Documentation: Extension Manifest doesn't exist
+1745|Support to split editors horizontally
+1746|Proposal: Add acceleration keys to confirmation dialog on program exit
+1747|Universal Language Injections
+1748|Enter should dismiss dialogs by running the primary button
+1749|Typescript parameter properties not colored
+1750|Typescript export default not colored
+1751|not work with gocode
+1752|VSCode freezes up on Linux LXDE
+1753|Previous state upon startup not restored
+1754|[scss] scss map syntax showing as an error
+1755|"Add ""join line"" keyboard shortcut"
+1756|Ctrl+Shift+S should be the shortcut for Save All
+1757|High energy usage shown in activity monitor
+1758|AutoSave setting is lost
+1759|OpenAnythingHandler throws errors
+1760|VS Code shouldn't close when closing last editor via Cmd+W
+1761|[jade] Incorrect highlighting in strings with inline tags
+1762|Linux: Watcher fails sometimes
+1763|Update to Electron 0.35.5
+1764|Start file comparison using command line
+1765|No Intellisense with package.json
+1766|Promote built in javascript and typescript to external extension
+1767|Support local install gulp during gulp task autodetection
+1768|editor.action.jumpToBracket should move the cursor to the closest enclosing bracket when not on a bracket character
+1769|"""Duplicate function implementation."" Error underlining"
+1770|API documentation difficult to read due to bad heading hierarchy
+1771|Expose API to listen to performed commands
+1772|Increase javascript files limit
+1773|"Add support for autodetecting ""npm"" scripts as tasks"
+1774|"[less] mixins "") expected"" errors"
+1775|Allow to write to a file without permission after authentication
+1776|Proposal: Usability Improvement Suggestions
+1777|Segmentation Fault 11 on start
+1778|Copy Line Down or Up Shortcut - Not Working
+1779|Ctrl+Shift+M broken
+1780|How to prevent completion List UI hide when click an button on one item?
+1781|Can't create a tsconfig.json file anymore
+1782|Don't ship signing debug logs on Windows
+1783|Adopt gulp-cssnano instead of gulp-minify-css
+1784|Add npm install context menu to package.json file
+1785|"Proposal: Use ""pragma comment"" for running tasks in VS Code"
+1786|"Proposal: Add ""Run Task"" context menu to any "".js"" file containing a ""# task"" pragma comment"
+1787|Proposal: Add option to automatically start task runners' tasks
+1788|Proposal: Add mnemonics to context menu items
+1789|loop complete Source objects through debugger UI
+1790|"Keybinding widget: ""<""-key not working for Swedish keyboard (Windows)"
+1791|rich quick pick
+1792|HTTPS Authentication not working on Linux
+1793|Right-click on branch name
+1794|"""Undo Last Commit"" should be grayed out if there are no commits."
+1795|Slowdown on extended use
+1796|Expose 'change language' as command
+1797|Proposal: Support colored messages in Output window
+1798|Auto-close back-tick
+1799|TypeScript modules fail
+1800|Variable value hover tooltips in debugger stop working after first hover

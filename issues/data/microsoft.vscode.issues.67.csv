@@ -1,0 +1,100 @@
+6601|Git console is super buggy
+6602|Can't open deletion and addition merge conflicts
+6603|Provide a way to continue a rebase if there are merge conflicts
+6604|Please add support for Qt QML
+6605|Mixing code. Php, html, css, javascript. Intellisense
+6606|Allow key bindings to chain commands
+6607|Python literal string confuses syntax highlighting
+6608|clicking at the output messages of the compiler (TypeScript) do not navigate to a file/line/column of where the error occurred
+6609|Do not rely on codeSnippet for filtering
+6610|write EPIPE error when launching integrated powershell terminal
+6611|Files pane wont update if a file or folder added from outside of vscode
+6612|predefined variable error on tasks.json
+6613|PHP syntax check failed
+6614|Find all references to files
+6615|After debug stopped with some errors vscode change my code in one file to code from another file
+6616|Access Code Insiders from terminal
+6617|Textual proposals get same score as JSON proposals
+6618|Menus do not align with High Contrast
+6619|Console log disappeared
+6620|Mac OS download zip contains logs of signing?
+6621|Compilation Hints Get Scrambled
+6622|On Linux/*nix platforms VSCode not escaping spaces
+6623|[ts] Syntax Highlighting Issue: Template Strings and Semicolons
+6624|"""No console output"" mode?"
+6625|Add missing dependencies to deb package
+6626|--reuse-window and OS X fullscreen window switching
+6627|Expand TypeScript Interface in IntelliSense
+6628|Excluding devDependencies when building a binary
+6629|Unexpected intellisense behavior & warning in Sass
+6630|pass to next selection behaviour after ctrl+d
+6631|weird typescript error
+6632|exported variable do not return correct type
+6633|Make resource content provider a service or registry
+6634|Coloring format is messed up with different VScode theme for PS cmdlets, parameter name and value.
+6635|Test file-link detection
+6636|Test goto definition enhancements
+6637|test new `vscode.diff` command
+6638|The .deb-installation should create a nice icon in the Ubuntu Launcher
+6639|Test `editor.wordBasedSuggestions` setting
+6640|Implement an overflow design for status bar entries
+6641|Error 407
+6642|Rename Css -> CSS
+6643|Test integrated terminal
+6644|Test language supports refactorings
+6645|Test CSS variables
+6646|Test rewriting support for JSON configuration files
+6647|Test slow variables and call stack improvements
+6648|Test Node v6 debugging support
+6649|Test trace option for Linter/language protocol
+6650|Unexpected behavior: `Add Selection To Next Find Match (Ctrl+D)`
+6651|Test stable peek and peek resize
+6652|Equal text highlighting over multiple rows (like Sublime)
+6653|Hover lost border which makes it very hard to distinguish from normal text
+6654|Tabs: preview style causes text cropping
+6655|Collapse the folder in explorer to the bottom
+6656|TypeScript intellisence proposes snippets before properties in object literals
+6657|missing focus when triggering search while quick open is open
+6658|Show the total number of matches in the Search tab
+6659|Opened Editors: distinguish structural change events from others
+6660|Show message that 'Insiders' build is updated more frequently
+6661|Hectic jumping in opened editors when picking an entry
+6662|Opened editors: does not reveal active editor after startup
+6663|Opened Editors: moving an editor leaves duplicated close action active
+6664|Test extension samples
+6665|Editor Stacks: When a file being compared can't be found, entire editor stack obliterated
+6666|VSCode is very slow when opening these files
+6667|Add URI#with
+6668|Show errors and warnings in a panel
+6669|ES6 class You cannot rename this element
+6670|Feature Request: Automation Language for VSCode
+6671|Dark theme: hover no longer has a border
+6672|Integrated terminal will continually retry creating the terminal process if it exits immediately
+6673|Integrated powershell terminal says it cannot load PSReadline module
+6674|Editor actions lost ability to detect CtrlCmd+click
+6675|Editor Stacks do not clean up from file deletes when switching branches
+6676|"Request: Add a ""Reveal in Explorer"" context menu item for Open Editors"
+6677|markdown.styles missing should not break markdown preview
+6678|Markdown preview handles escaping incorrectly
+6679|Changing viewlets too quickly does not change view
+6680|Cannot use both dotnet and gulp tasks
+6681|Consider removing git dependency from deb and rpm
+6682|Test: Add support for external grammar injections
+6683|Copying a text file into the Explorer window adds extra line
+6684|Extensibility API command for moving cursor to line.
+6685|Korean text is not the same font weight in markdown preview
+6686|"Intellisense in not showing up when trying to add setting for ""eslint.trace.server"" and ""tslint.trace.server"""
+6687|Create yotovlimited
+6688|Object definition detail popup was blocked by main window.
+6689|Test Quick fix support for tslint warnings
+6690|Open editors: crash when having it disabled in empty folder
+6691|Search: focus goes into body when clicking between search results
+6692|"""Focus on Opened Editors view"" causes exception when view disabled"
+6693|[JS] Autocomplete should sort based on local variables
+6694|"""Save All in Group"" action fails"
+6695|View: Toggle Terminal => View: Toggle Integrated Terminal?
+6696|Keep history in integrated terminal
+6697|Support for multiple terminals
+6698|cannot open jsconfig.json. Detail: file already exists on disk
+6699|The scrollbar thumb is not working correctly when opening a large document.
+6700|Menu not translated

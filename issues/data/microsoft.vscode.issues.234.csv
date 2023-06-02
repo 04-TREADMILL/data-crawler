@@ -1,0 +1,100 @@
+23301|Setting to inherit UI state to new windows opened
+23302|"""Define Keybinding"" should not be in F1"
+23303|classic keybindings editor shows warning for cmd+shift+_ bindings
+23304|Keybindings for next previous change in git diff view
+23305|Cannot view entire detail string in code completion if there is no associated documentation
+23306|Feature request: Lazy QuickPickList
+23307|插件安装不上
+23308|Don't forward menu action args automatically
+23309|VSCode Insider edition setup has low resolution icon in header
+23310|Extension Details and Changelog tabs have small area
+23311|Breakpoints no show
+23312|tssserver.log enabled installation wide
+23313|Why must the renderer be restarted to enable ts logging?
+23314|[Insiders] File icons missing
+23315|Hitting escape while dragging selection should cancel the drag operation
+23316|Full screen + windows virtual desktop
+23317|"Cannot save file ""deleted from disk"""
+23318|Keep buffer of deleted files around between workbench restarts
+23319|"Files restored via hot exit loose their ""deleted from disk"" label"
+23320|'Terminate/Restart Task' command should be user-friendly when no task is running
+23321|Order of buttons in terminal info message is not Windows standard
+23322|Word navigation does not reveal cursor
+23323|'Restart Task' command does not restart the task
+23324|Keybinding customization - only shows the keybindings of activated extensions
+23325|Apparently broken path in terminal selection dialog
+23326|Relaunch terminal after shell selection on Windows
+23327|cannot find module 'circular-json'
+23328|'Restart Task' command for multiple running tasks fails
+23329|Mouse hover color is the same as even row color
+23330|Can't allow a before disallowed integrated terminal
+23331|Define keybindings widget is not cleared in between different keybindings
+23332|Edit button is permanently shown
+23333|Pressing Cmd in keystroke box always fills in some previous key combination
+23334|Terminal should reprompt if workspace shell setting changes.
+23335|"Reset keybinding not available for ""removed"""
+23336|Improve keybindings search in Keyboard shortcuts Editor
+23337|Unpretty cropped labels
+23338|Stopping debug session does not close exception widget
+23339|decorations in keybindings.json do not react to kb layout change
+23340|VScode undo updated save code after update and save new file
+23341|Exception widget text wrapping not perfect
+23342|Adopt Search input widget in Settings and Keyboard shortcuts editor to use commands for keybinding dispatching
+23343|Word wrap not working for some file types
+23344|Remove keybinding is a bit too dramatic
+23345|"NVDA only says ""Tree view item level 1"""
+23346|Impossible to read full when-clause
+23347|Cannot reach actions with keyboard
+23348|Where are the icons?
+23349|Highlight and selection color make reading difficult
+23350|Cannot reach this link via keyboard
+23351|Intellisense details are broken
+23352|Git Ctrl-Enter is broken
+23353|Test Tour: Vue
+23354|Cmd+[ keybinding disfunct on spanish keyboard
+23355|Do not spam with Updated user setting 'typescript.check.tscVersion' to false
+23356|"Exception peek widget not showing for throw ""Hello World"""
+23357|Consider to ignore casing when sorting keybindings
+23358|Extension host debug: reload window closes the debuggee
+23359|Exception peek widget should close on step
+23360|Can't navigate the stack trace in the exception peek
+23361|duplicate entries in default-keybindings
+23362|yo generated extension task.json contains deprecated attributes
+23363|Keybinding editor: selected item is misleading
+23364|Can't run tasks on Git-Bash integrated terminal on Windows
+23365|Keybinding editor: Consider to make table sortable by Keybinding (and not only by Command)
+23366|Page not found after clicking the Edit button for doc
+23367|Add Latex and BibTex to language identifiers
+23368|Consider to flag keybinding conflicts
+23369|vscode.TextEdit.setEndOfLine is removing the complete content in the file
+23370|EOL is not set when applying from DocumentFormattingEditProvider
+23371|When typing, the intellisence window is stuck on the screen
+23372|Warning when applying just EOL edit through DocumentFormattingEditProvider
+23373|Updating Visual Studio code should retain last opened files
+23374|Watching task keeps on spinning if isBackground is not specified
+23375|code reminder empty and vscode icon error
+23376|Intellisense is broken beyond imagination
+23377|No dirty diff gutter decorations
+23378|Click on git resource should not focuse the editor, only double click should
+23379|Intellisense window blank and won't move out of way of cursor
+23380|Git - long commit warning is gone
+23381|Always auto save settings
+23382|Empty code assist widget stays back
+23383|show message if a kb layout is impacted by the new logic
+23384|Git stage single file / unstage file have no effect
+23385|Enable files.autoGuessEncoding by default
+23386|Menu item extensions for scm/resource and scm/resourceGroup locations are not inline with others
+23387|A blank auto complete box is displaying over my code and it won't go away.
+23388|Save conflict actions show up for any diff editor, not just one
+23389|No folder vscode does not show 'Open Folder' in git viewlet
+23390|"code-oss build not working: Loading ""jschardet"" failed"
+23391|Quite light: selection + git add + highlight = bad combination
+23392|Request json/colorSymbols failed with message: Cannot read property 'schema' of null:
+23393|Stage selected range stages the whole block
+23394|contextKey and stateContextKey for an SCM Provider?
+23395|Staged changes / Changes not localized
+23396|Have contextual notification in encoding status bar item
+23397|Commit messages are too light, hard to read
+23398|Search is broken. Only return matches for file open on editor.
+23399|Increase search result limit
+23400|missing quickSuggestions values validation

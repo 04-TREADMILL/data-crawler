@@ -1,0 +1,100 @@
+13501|UX meeting agenda 12 October 2016
+13502|Filter workspace disabled extensions while starting extension host
+13503|JavaScript IntelliSense doesn't recognize class syntax
+13504|Cmd-Q  on Mac is captured as a short-cut combination.
+13505|Don't provide closing paren if there are unmatched closed parens
+13506|Tabs no longer show dirty / modified files
+13507|Syntax highlighting html tag incorrectly
+13508|Search Option isn't available
+13509|Text is super blurry now
+13510|Lightbulb doesn't open when editor.action.quickFix is executed in current insider build
+13511|Animations making VS Code feel slow
+13512|in-product release notes doesn't use editor.fontSize
+13513|Search on Left Side Nav is Empty
+13514|Feature Request: per language settings for default tab size
+13515|De
+13516|Panel background color implies its editor-level in visual hierarchy
+13517|Add an option to hide files that are excluded by .gitignore in Explorer
+13518|vs-seti-icon-theme: show icon for 'TODOs' files
+13519|Narrow intellisense
+13520|[i18n FR] Incorrect (or missing) translations
+13521|No highlight for invalid line of markdown
+13522|CTRL + C not higlighting anything will copy a blank line instead of keeping item in clipboard
+13523|Description is not viewed in intellisense if the function is a property on an object
+13524|terminal.integrated.lineHeight only allows integer values
+13525|Latest release does not open text file on double click in Windows
+13526|libXScrnSaver package does not exist on openSUSE
+13527|What do you think about improving Lua support?
+13528|Support installing deps with yarn
+13529|language-specific setting for format on save
+13530|Error: invalid marker service state
+13531|Can't open terminal when opening a Chinese named directory
+13532|In macOS fullscreen, 'New Window' instead opens new tab
+13533|Extra double quote appears after accept suggestion in html attribute
+13534|Can we please get a JSON Explorer like in Visual Studio?
+13535|VScode will crash  When open C/C++ floder
+13536|Integrated terminal occasionally wraps some lines
+13537|I'm unable to watch variables in visual studio code when working on csharp
+13538|Themes with advanced highlighting (potentially language-specific)
+13539|mac dock context menu `unsupported` ?
+13540|File body scrolls until last line reaches the top
+13541|VS Code Setup Error - uc.micro folder creation access is denied by Antivirus
+13542|bug report about markdown
+13543|Unable to View or Install Extensions
+13544|No Intellisense for node packages
+13545|[html] Format document create tab identities
+13546|vs-icon unable to use, markdown error......I WANT BACK TO OLD VERSION, STOP UPDATING!!!!!!!! ITS REALLY AWAIST OF TIME!!!!!!!!!!!!!!! WTF!!!1
+13547|rename label `uiTheme` for future workbench theme
+13548|PR
+13549|Ctrl+Alt+ keybindings should not be used
+13550|Backslash at end of comment messes up syntax highlight
+13551|about git
+13552|"Allow key binding for ""next result"" to ""search in files""."
+13553|Recently opened folder
+13554|engines.vscode does not accept ranges
+13555|Typing lag when using tsc watch
+13556|JS: Can't search function symbol when set as property of an object
+13557|IntelliSense and error detection not working
+13558|require statement in typescript gets syntax error sometimes
+13559|Issue with file extension when saving XML files
+13560|[markdown] Tabbing when writing a word replaces it with an HTML element
+13561|VSCode installation has 2 node-debug folders
+13562|icon indentetion is wrong
+13563|always be stuck
+13564|JS IntelliSense not working with files in a SharePoint document library
+13565|Can't open extension or install any extension
+13566|"Some questions about ""user settings""  and ""emmet"" & ""snippet"""
+13567|Test: launch.json usability improvements
+13568|[i18n] Fix Korean Translation
+13569|Debugging through IIS
+13570|Does not work vscode-icons!
+13571|Grunt build error when using integrated terminal (Git Bash)
+13572|Does Code support the engine `>= 1.0.0` syntax?
+13573|Format javascript code with shift+alt+f adds new blank lines
+13574|Very frequently getting this error: Failed to save '....': The content on disk is newer. Click on Compare to compare your version with the one on disk.
+13575|Renaming property with space
+13576|Run odoo application can't stop or restart
+13577|[css] Need to remove old CSS grid syntax and add new syntax
+13578|vscode logo rarely visible with dark color themes
+13579|VS Code not reading jsconfig.json
+13580|"""Path must be a string. Received null"" in Git view"
+13581|Bad API config documentation
+13582|Unable to Get Local issuer Certificate
+13583|textmate/yaml.tmbundle has problems with yaml literal style
+13584|Incorrect highlighting for markdown block quote code blocks
+13585|Extensions getting corrupt
+13586|OSX VS Code fails to update
+13587|After turning on formatOnSave some files are stuck in a loop of Saving.
+13588|Fails to start when settings contain the same key prefix twice
+13589|Quote matching when writing a comment (JavaScript)
+13590|Allow to open multiple files from file quick open
+13591|Extension Debugging Not Working , Breakpoint not hitting on right line
+13592|VSC with Python reads / as floor division (// works fine)
+13593|Uninstall extension goes back to previous version
+13594|Windows: Scrolling is not smooth but lags
+13595|"""Go to file"" doesn't provide any options to choose from"
+13596|install and list extensions via cli is not working
+13597|Improve readability for extensions part in issue template
+13598|Install rpm deps with correct bitness
+13599|Support to copy content in pages from integrated terminal window
+13600|Module identifiers with jsx extension won't work anymore

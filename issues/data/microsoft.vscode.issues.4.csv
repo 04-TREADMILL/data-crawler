@@ -1,0 +1,100 @@
+301|no responding
+302|"[Handlebars/HTMLBars/Ember] For block components `as` and `|` are not parameters"
+303|High DPI scaling for UI or settings for UI addition
+304|Update css at-rule support for auto-complete
+305|Support tilde character (~) in Razor links
+306|Debugger is not working
+307|Text selection cursor is visible when mousing over the git icon in the status bar
+308|Use default cursor for .git-statusbar-item
+309|Proposal: Add support for bash/sh file type
+310|Allow to create multiple files at once from the command line with glob patterns
+311|target not support ES7 in jsconfig.json file
+312|Find and replace with regex on does not allow replacing with \n
+313|Find does not match multi-line regex strings
+314|Enable regex's ^, $ and ^$ to be matched in file dialog
+315|CSS frequency unit capitalization is not to spec
+316|Fix CSS frequency capitalization
+317|debugService should move into electron-browser namespace
+318|Should ES6 be the JavaScript Default?
+319|Error installing extensions
+320|Support HTML aria attribute completion
+321|Remove npm install from csharp-o compilation
+322|loader.js - some few Utilities changement
+323|[html] Add documentationLabel's to HTML tags
+324|Implement soft text wrapping
+325|Extension Cannot be installed
+326|Dead link on https://code.visualstudio.com/docs/extensions/patterns-and-principles
+327|Inserting electric char doesn't replace selected text
+328|Feature: allow editing the taskSampleConfig file
+329|Portable version!
+330|Line breaking around Chinese and Japanese characters are still incorrect
+331|Replace all doesn't replace everything
+332|Close button doesn't close the file
+333|Make sure not each provider registers a support
+334|Permanently assign file type to new extensions
+335|Slow startup / crashes - unusable
+336|When creating a delayer add it to delayers set
+337|JavaScript: Enable ES6 by Default
+338|IntelliSense won't work for C#
+339|Built emmet plugin
+340|Browse the Gallery command windows always disappear when clicked somewhere else
+341|Use auth tokens for downloading omnisharp builds from GitHub
+342|SUGGESTION: Add Duplicate File to the Context Menu
+343|Running from source, missing dependency 'run-in-terminal'
+344|Format code in xml
+345|Editing a simple C# program always shows errors (despite compiling fine)
+346|Visual Studio Code deleting content of git submodules inside a git project
+347|Support workspace extensions
+348|Wrong indentation of block comments.
+349|TypeScript syntax highlighting wrong after decorator
+350|Should collapse xml elements
+351|move pulling omnisharp into another script so that it doesn't run whe…
+352|"'No best common type exists among return expressions.' in function that returns either ""new Promise"" or ""Promise.reject"""
+353|Save on focus lost
+354|Error from the plugin host: write EPIPE
+355|Linux: WatcherService consumes 100% cpu on large folder
+356|Flicker when use Chinese IME for the first character
+357|wiki: npm global install requires sudo on *nix
+358|Allow to diff dirty files to their version on disk
+359|Window snaps to top left corner when trying to maximize
+360|Issue when with multiple code lens provider for the same model
+361|Facing problem writing definitely typed file.
+362|"""Flipped cursor"" is a Windows cursor, even when running VS Code on OS X"
+363|Add HTML aria attribute autocomplete
+364|Extension process makes Macbook Air fan goes crazy!
+365|Allow developers create custom main menu items from extensions.
+366|"Get ""Activating extension `.test`"" failed error upon running the Hello World extension example"
+367|Allow detachable multiple windows on the same workspace
+368|launch.json resetting its content to default after debugging session
+369|IntelliSense text doesn’t wrap / gets cut off
+370|Error when trying to debug (f# on mono on OS X)
+371|Mac: File -> Open should open in new window
+372|Program hangs after update
+373|Expose FILE_SAVING event to extensions
+374|[Info] pop ups while writing code in Visual Studio Code
+375|[html] intellisense should be more context aware
+376|Git current branch status indicator show hash instead of name
+377|OutputChannel.hide throws error
+378|Code --help should show usage
+379|Error when trying to save to root of drive
+380|Markdown preview does not handle links with parentheses
+381|Should allow adjusting font weight
+382|Included some C# Keywords
+383|Feature request: go to required file from require() statement
+384|Feature request: in the file open shortcut, support substring searching
+385|Do not mkdir if saving to drive root (fixes #379)
+386|What is the compatibility of Razor with VSCode and Intellisense?
+387|git doesn't work on windows/mingw64
+388|Please add i18n support.
+389|Please add more file encodings like GBK
+390|Proposal: Extension auto update
+391|Open in terminal should open new terminal window
+392|wiki url can't open
+393|Auto Intelisense for C#
+394|VScode is no longer responding
+395|Omnisharp times out when getting started
+396|Add support for opening multiple project folders in same window
+397|Feature Request: add a Structure Inspector for TS, JS
+398|Noupdate
+399|[c++] c++11 raw strings not highlighted properly
+400|IWorkbenchEditorService dependency for MainThreadOutputService

@@ -1,0 +1,100 @@
+2401|With bug #160, the extension host process would run in an endless loop. The editor was not affected, but validation, intellisense and hover would not work anymore.
+2402|Fair enough - I can't say I would have missed those so could be the same issue. I'll check my other computers when I get back to make sure they are all running the latest 0.10.2
+2403|Hi alexandru,  thanks for the tip. Nice workaround. That doesn't really change anything to the problem however. That folder will still be included in tar balls and such.  vscode should just leave the edited code alone.  Cheers
+2404|Wouldn't this belong in an extension? A basic language extension could be made from https://github.com/handcrafted/handcrafted-haml-textmate-bundle and further enhanced from there.
+2405|@weeblr fair point
+2406|The program exits without any information. Is there a log file or any command line options that would make it easier to find out what is wrong ?
+2407|Ok please reopen then if you still see it with latest.
+2408|"Maybe ""code --verbose"" reveals more?"
+2409|@zbandhan. Here are two ways to do what you describe:  ### Option 1 - open a html file - type `li*5` - press `tab` - [this is Emmet kicking in](http://docs.emmet.io/abbreviations/syntax/)   - it supports amazing things, try `(div>dl>(dt+dd)*3)+footer>p` + `Tab` for example  ### Option 2 - open a html file - type `<li></li>` - run `editor.action.copyLinesDownAction` (I think under Windows bound by default to `shift+alt+down`)
+2410|That gave me this error Startup error: TypeError: Bad argument Still not helpful Seems to work fine when run via sudo Code
+2411|This will be possible with the newly introduced and persisted `window.zoomLevel` setting.
+2412|It seems variable for me. Sometimes it only takes 25 lines, this morning it took me 36. I'm glad I'm no the only one. It should also be noted that I have been using self-created themes recently.  On Tue, Dec 1, 2015 at 8:58 AM Alexandru Dima notifications@github.com wrote:  > Closed #841 https://github.com/Microsoft/vscode/issues/841 via d0751f6 > https://github.com/Microsoft/vscode/commit/d0751f615979455ec89c6a63d1210aa93f1d8771 > . >  > — > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/841#event-479185176.
+2413|Oh oops, didn't see that it was fixed...  On Tue, Dec 1, 2015 at 9:15 AM Michael S thedobbles37@gmail.com wrote:  > It seems variable for me. Sometimes it only takes 25 lines, this morning > it took me 36. I'm glad I'm no the only one. It should also be noted that I > have been using self-created themes recently. >  > On Tue, Dec 1, 2015 at 8:58 AM Alexandru Dima notifications@github.com > wrote: >  > > Closed #841 https://github.com/Microsoft/vscode/issues/841 via d0751f6 > > https://github.com/Microsoft/vscode/commit/d0751f615979455ec89c6a63d1210aa93f1d8771 > > . > >  > > — > > Reply to this email directly or view it on GitHub > > https://github.com/Microsoft/vscode/issues/841#event-479185176.
+2414|This will be possible with the newly introduced and persisted `window.zoomLevel` setting.
+2415|This will be possible with the newly introduced and persisted `window.zoomLevel` setting.
+2416|This will be possible with the newly introduced and persisted `window.zoomLevel` setting.
+2417|Hmmm, I wonder if this has something to do with the window properties we set. Are you able to build and run VS Code out of source code here on GitHub?
+2418|+1
+2419|Thank you!
+2420|eaa5bcf introduces a new configuration setting `http.proxyStrictSSL` which when set to false will make the request bypass certificate chain validation
+2421|This is actually already implemented, will come with the next update! Duplicate of #57
+2422|:thumbsup: Thanks!
+2423|This is heading down a rabbit hole I would rather not go down at the moment, I am really busy and was hoping this tool would speed things up. I have the software running on my windows machine so I can use it there for now. The Ubuntu machine I am using is a vm on my windows machine (using Hyper-V) and it is NOT a full desktop install, it's version 15.04. I have had to install gnome (apt-get install gnome) just to get the software to run. You install notes are vague on what the dependencies are, it's possible that there is something not quite right about my environment. It was built to run docker containers and not for more complex software building. I will see what I can do if I get some free time.
+2424|Yeah no worries, take your time. The instructions are here: https://github.com/Microsoft/vscode/wiki/How-to-Contribute  It could be that something is missing as requirement but it could also be that we do something wrong when setting the window dimensions for VS Code. I got suspicious when I saw the error message from the --verbose call.
+2425|+1
+2426|@thedobbles if you want to workaround, the bar goes away if you cause an editor layout (aka resize the window or the editor) or if you reopen the file (e.g. by switching to another one, etc.).   But I have delivered a fix for it.
+2427|It is being X displayed back from the Ubuntu vm to Cygwin running on my windows machine
+2428|Now I ovewrite attributes so the user extension will have priority. For showing the message we need to discuss with @egamma which would be a seperate item.
+2429|Got it, it could also well just be not supported by the Electron framework we use for rendering the UI. Does the Atom editor open?
+2430|"don't forget it does work when run by ""sudo Code"" from the same shell as the one that doesn't work"
+2431|Hm good point... :cake:
+2432|Hi **@felixrieseberg**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (Felix Rieseberg). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+2433|+1 for this feature.
+2434|Agreed this support should be provided by an extension and not the VS Code core.
+2435|Also it will run if I log onto the console of the vm (when it's running gnome) and double click on the program from the folder/explorer view. However it wouldn't run from an xterm shell in the same logon enviroment
+2436|+1 ! (Expecting same behavior as in Sublime)
+2437|This should be closed as working as intended
+2438|Hi **@MattTalbot**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+2439|I love to party. But why? I sense an extension coming.
+2440|Sorry, this was just part of a training I just gave. I should probably close this :)
+2441|"In mac it's ""CMD+."" (Command plus period) by default and I guess it should be ""Ctrl+."" in windows and linux. if you want to change it find:  ``` javascript { ""key"": ""cmd+."", ""command"": ""editor.action.quickFix"", ""when"": ""editorTextFocus"" } ```"
+2442|Correct, adding @aeschli for further questions regarding quick fix
+2443|Also fixed #173  Fix crash when closing a window in fullscreen state. (0.34.5)
+2444|this question you said happened during 0.10.2 updating, my three computer all met, but my cycle is 1. Code reports there is an update. 2. You press Update Now. 3. Editor closes. **4. A error report pops up and tell you the installer is corrupted.** 5. You launch Code. 6. Code reports there is an update... At last I had to go to visit http://code.visualstudio.com to download `VSCodeSetup.exe` and installed.
+2445|An update came through for 0.10.3 today but again there is no tag.
+2446|Well a good old restart of Windows seems to have at least worked around the issue I was having. Not ideal but after the restart I was able to successfully apply the update when prompted.
+2447|Said again. You need tag first , then release new version.   The code must be freeze , then you can released .
+2448|Not sure about the scope of this issue, but I have a related problem. Let me know if I should report it in a separate issue.  If I have multiple projects open in VS Code (e.g. 2 separate windows, each with a folder loaded) and I restart VS Code (e.g. due to an update), only the last project that was opened gets automatically reloaded.  I think it should be on VS Code to completely restore the UI state after a restart. Chrome, for example, does this--it reloads both the correct number of windows, as well as the correct tabs within each window.  I understand from the discussion in #264 that there is some issue with restoring state for standalone files that are opened (as opposed folders), but in my case it was 2 folders that were open.  I'm running Code 0.10.3 on OS X.
+2449|Hi, I can still reproduce the issue in version 0.10.3. When I open a JSON file which size is about 4M, the VS code stops responding. It used to be OK before 0.10.1.
+2450|Yes, I assume it's doing that.  I expected it to respond faster (cancel the attempt to open the folder and instead open the default folder) or provide status as to what it is doing and I expected it to not show multiple 'File Open' dialogs.  (Because nothing appeared to be happening when I chose 'File' -> 'Open Folder', I selected it multiple times.  So when it eventually gave up trying to open the network folder that wasn't there anymore, a 'File Open' dialog appeared for each time I tried to open the folder).
+2451|I think there is no need to get all keybindings for my vim extension. My extension has no keybindings using ctrl, has only single keys or keys added shift. Because there are no sense to kill vscode functions and other extensions. But extensions to need them are only vim extensions...
+2452|TL;DR 2 browser rule of thumb is good, but have room to be flexible if one browser plus strong interest from other browsers. Need to decide if two browsers with same engine count as 2 or 1.  I would somewhat agree with this, although MDN isn't always as up to date as it could be for browser support; especially for MS Edge.  I agree to no deprecated things, or non-standard elements/attributes.   I would probably expand to include things that are either in development or high priority. If VS Code is always going to be updated every month then there is less of an issue (we just need to remember to update it) as the updates will get out fast enough. Each browser has a dashboard of what is planned/in development now. The only thing to watch out for is that WebKit's doesn't mean it will land in the Safari browser.  A question is, due Chrome and Opera, or IE and Edge count as two browsers, or one?  The nice thing about the CSS Intellisense is one can add new things while editing the file, and it will hide them until there is browser support, so you're less likely to forget about features. This may be less of a problem for HTML, where there is one spec with a good index of elements/attributes.  Some examples: - keygen. This is well supported (except IE/Edge), but it has been removed from the WhatWG version of the spec, and Chrome want to remove it (and Mozilla are discussing it). As there is so little usage in the wild of keygen, and there is common agreement between browser vendors that it is a bad API, then removing keygen from VSCode makes sense to me, even though it currently has 2+ implementations. - math (mathML in HTML). I didn't include this as more niche usecase than SVG, IE/Edge has no plans and Chrome removed support for it. It is currently included in 2 browsers though. Also, like SVG this would only really be useful if full support is added rather than just the root element mentioned in the spec. - menu/menuitem. I included this as I was including standard elements with one implementation. We currently have this set as a lower priority so may make sense to remove it for now, but I do see the accessibility benefit of this element. - dialog. Also really only has one implementation (but two browsers due to Opera). I'd leave this one though as it is more likely we’ll implement this and it has fairly high public support: https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6508895-dialog-element - SMIL. We don't cover SVG yet, so this isn't a problem for now, but Edge/IE won't implement (favouring modern ways of animating with Web Animations, Motion Path, CSS animations, etc) and Chrome are planning to deprecate it. I'd edge towards not including it, unless Chrome change their mind.   Perhaps a harder question is which attributes to add, as WHATWG and W3C diverge in a number of places. There are less thorough docs on what are supported too. I just added all of them whether they were in WhatWG or W3C. Attributes filter down better (not many custom attributes per element) so the clutter is less of an issue.
+2453|@aeschli I should be ready either tomorrow or thursday.
+2454|@nchammas you can enable restoring of all windows through the `window.reopenFolders` setting. Set it to `all` and you should be all set.
+2455|@slayerxj that seems like a different issue that should get filed, please do that!
+2456|@brandon-fridley does this reproduce with other applications that have a file picker?
+2457|Release 0.10.3 is out: https://github.com/Microsoft/vscode/releases
+2458|:+1:
+2459|Added --disable-extensions
+2460|"The comments above the `files.exclude` says `Configure glob patterns for excluding files and folders.`. the `glob` can use `!` to exclude files and folders(which is not implemented by vscode now). for example:  ``` js {     // Configure glob patterns for excluding files and folders.     ""files.exclude"": {         ""*.js"": true,         ""!gulpfile.js"": true     } } ```"
+2461|![untitledjhjh](https://cloud.githubusercontent.com/assets/11838212/11525164/a2380a58-98f2-11e5-8664-b56ec51e0ecd.jpg)  this happened !
+2462|Aha, an error! Good, we can do something about that.
+2463|Duplicate of #780
+2464|:tada:
+2465|Very good catch!
+2466|The underlying problem is the textarea is positioned in the top left corner until we get the first composition start event
+2467|@alexandrudima here's what's happening: - build somehow leaves a file empty (eg `vs/workbench/test/browser/parts/editor/resourceEditorInput.test.js`) - running `mocha` will simply output `No define call received...` - node will exit successfully since there is nothing left to do  I've pushed 2711351 which fixes this in a lame way: I trap the process from exiting during the loading phase and exit the process with a proper error code.  I feel like the loader should provide us a better way to handle this, though. Could we get the loader to support error callbacks, like [requirejs](http://requirejs.org/docs/api.html#errbacks)?
+2468|@Kurtz1993 What language appears in the bottom right corner?  I think the `#! /usr/bin/env node` first line drives VSCode to detect the file as a JavaScript file.  @bpasero I think this is a case where the first line match getting the highest priority is back-firing.
+2469|@joaomoreno The loader supports that, the error callback is the third argument in a require call:  ``` javascript require([...], function() { /* yay */ }, function(err) { /* bubu */ }); ```
+2470|I'm not getting called in the case that there is no define call in the module. :-1:
+2471|Regarding the information that Electron is used I have found following issue: https://github.com/maxogden/electron-packager/issues/129
+2472|"Indeed, there is no real loading error, instead the file is empty. Maybe we can hook up https://github.com/Microsoft/vscode-loader/blob/master/src/loader.ts#L1466 to generate an error. I think ""This might be a problem"" is more like ""This definitely is a problem"""
+2473|:+1:  I will leave this issue open, so I revert the commit and use the error callbacks instead when we get the fix in the loader.
+2474|@SofianHn I added event name `startupTime` and value `{ ellapsed: number }`. We should hook this up to our dashboard after releasing.
+2475|Right, I think in the editor history once you type we ignore anything that does not seem to be a file.
+2476|:frowning:
+2477|Nope...
+2478|@bpasero thanks! I will add that to the dashboard.
+2479|Duplicate of #369
+2480|Duplicate of #66
+2481|Pushed Microsoft/vscode-loader@ae37fe0 and adopted it in 41568f6  Double checked and now I get the error callback invoked.
+2482|@joaomoreno Maybe you understand what this is about
+2483|@PeterJausovec Just to clarify, you have a filter like this `{ pattern: '**/docker-compose*.yml' }`?
+2484|May be related to #901 ?
+2485|@rogierschouten What OS are you on? [I guess Windows from the msysgit reference] @joaomoreno fyi  (This might be the file watcher?)
+2486|I'm on Windows 7 Professional SP1
+2487|@martellaj Yes and no. Today we ask people to use `Uri.parse` or `Uri.file`. The latter is for the file-scheme only, the former for the rest.
+2488|@alexandrudima The problem is that the file-version (Dateiversion) is not equal to the VSCode version, (product version) but it is equal to the version of Electron that is used:  ![vscode](https://cloud.githubusercontent.com/assets/4341039/11526380/5bb671d6-98da-11e5-9232-9c3efafa4164.png)
+2489|:+1: This is great! Thank you!
+2490|Someone know which version of VS Code will have this fix? with 0.10.2 and 0.10.3 still not working
+2491|We use `/` in the doc because glob-pattern with slash don't work well with JS block comments. Despite, search should handle slash and back-slash unless I am mistaken
+2492|Definitely @joaomoreno knows then :)  I can confirm I see the same: ![image](https://cloud.githubusercontent.com/assets/5047891/11526439/c8643b1a-98da-11e5-86b0-8137be89a1cc.png)
+2493|Fair request, no workaround as of today. Needs some thinking as this might be an issue in several places...
+2494|@z2xlong Please provide reproducible steps that. Also note that you must have an active project (project.json, mwsbuild-solution) for this to work.
+2495|:heart:
+2496|It definitely sounds like what we were hitting **a lot** before: [running status during a rebase in Windows](https://groups.google.com/forum/#!msg/msysgit/IdubnZx2cdg/2p8ZHucpn3sJ) would simply cause rebase to fail.  @rogierschouten Please update to the [latest git](https://git-scm.com/download/win) (2.6.3) and let us know if you continue hitting the issue. Closing this for now.
+2497|Will do. Thanks for the quick response guys!
+2498|@jrieken actually we support both slash and backslash when matching the path, but the glob expression requires forward slashes. I don't think backslashes in glob patterns are common, I took the same approach as https://github.com/isaacs/node-glob#windows
+2499|This issue was moved to Microsoft/vscode-node-debug#16
+2500|Fix delivered

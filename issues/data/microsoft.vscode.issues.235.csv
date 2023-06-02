@@ -1,0 +1,100 @@
+23401|CodeAction lightbulb gets stuck on the wrong document if showTextDocument is used in the code action.
+23402|Switch SCM Provider action is not consistent when triggered with and without workspace
+23403|Proposed Task Api Feedback
+23404|Provide some clue why debug actions are no-ops most of the time
+23405|SCM viewlet does not say what is the current active SCM provider
+23406|SCM menu locations are not available in Intellisense
+23407|Scrolling position is not synchronising in node loaded scripts
+23408|"Variables window is not updated when executing code in the ""Debug Console"""
+23409|Search viewlet mode toggles miss border around them
+23410|Modifying a variable with backslashes in the Variables Window removes the backslashes
+23411|Switch SCM Provider is not showing Git
+23412|SCMProvider needs initial onDidChange event to render anything
+23413|Word Wrap: make action always show in minified case
+23414|Last active provider should be remembered after reloading VS Code
+23415|SCM vielwet should by default offer Open File on a SCM Resource
+23416|contextKey on SCMProvider is optional which could make menu entries appear in other SCM Providers
+23417|ShellTask - args not working?
+23418|Search checkboxes are missing the checked border
+23419|Implement scalable toolbar overflow behaviour (similar to viewlet switcher)
+23420|Breakpoints are cleared between debugging sessions for node loaded scripts
+23421|No way to easily figure out what are the important colors
+23422|Feature request: Built in profiler.
+23423|customColorTheme empty field gives red color
+23424|editorLineHighlightBorderCox should be BorderBox
+23425|Errors in console when opening folder that's not under git
+23426|Strange intellisense match highlights
+23427|File Tree Automatically Focus when closing a file
+23428|Investigate legacy theme + json
+23429|Do not suggest high contrast attributes if my theme type is not hight contrast
+23430|Screen cheese in settings ui
+23431|[json] extra quote when completing property
+23432|Themes: Consistency on name colors
+23433|error message when exit-ing terminal
+23434|We need a common checkbox color
+23435|Workspace specific shell: Move Cancel button in confirmation message to the right
+23436|Streamline prompts for workspace executable settings
+23437|Git view commit message box doesn't respect theme
+23438|UX nit - Git init icon
+23439|Changes not showing in Git view
+23440|Wrong color in rename input box
+23441|Git command stage file does not work on Windows
+23442|Git clone authentication not working
+23443|More workbench theme options : Typography, borders, padding/Spacing, UI icons
+23444|Emmet : load snippets from the user snippets folder
+23445|Can launch multiple instances of a compound debug config
+23446|Parameter Name Not Highlighted in JSDoc If No Type Specified
+23447|Terminating task in terminal closes the terminal
+23448|Pre Launch Task error message not interpreted correctly
+23449|Add interactive playground to Help menu
+23450|Misalignment of method parameters located on separate lines
+23451|Discolored squares in background
+23452|"""Ctrl +click to follow link"" hover appears only on the last link in the terminal"
+23453|Hover on link in terminal cut off when its in the first 2 lines in linux
+23454|Misalignment of HTML label when wrapping input
+23455|Processes running in the built-in terminal do not get ended when VSCode restarts itself
+23456|Theming: cannot override color that is set via registerThemingParticipant
+23457|Friendly Names of commands from extensions not appearing in keybinding editor
+23458|"Inconsistent terminology for ""finding additional items in the marketplace"""
+23459|Long when clauses not readable
+23460|Multiple edit icons in keybindings editor
+23461|Indicator that the keybinding has args
+23462|Debugger does not work with electron v1.6.x
+23463|How to get default shortcut back after removing a keybinding
+23464|Edit, Copy, Remove, Reset options in a single menu for keybindings
+23465|Better text in the dialog in keybindings editor
+23466|Mouse click in IntelliSense no longer inserts proposal
+23467|"The ""source"" column doesnt make sense for an entry with no keybinding"
+23468|Copy in settings vs keybindings editor
+23469|"should we prompt to ""save as"" on close of a deleted file?"
+23470|Keybinding widget prefills previous shortcuts
+23471|Keybinding editor with Windows Narrator on
+23472|Text in keybinding widget in high contrast theme is not readable
+23473|KDE: Reading keyboard layout reads the wrong one
+23474|Theming: Some elements are not themable
+23475|JAVA SUPPORT
+23476|Encoding autoguess - weird case
+23477|Feature: golang: package qualified symbols
+23478|Bug: `A:A:A:A:...` in .js file locks up editor
+23479|Quick fixes don't work if 'typescript.tsdk' doesn't point to a node_modules-parented folder
+23480|Python: Importing packages on the fly
+23481|Toggle Sidebar Visibility and Go to Line display same key mapping in Arabic keyboard
+23482|Changing keyboard layout while keybindings.json is open doesn't update helper info
+23483|Keyboard Shortcut not working - change all occurrences
+23484|Trying to open a folder in the extension host quits without an apparent crash
+23485|Error: Cannot start Omnisharp because Mono version >=4.0.1
+23486|Can't get a code instance to attach to debug server
+23487|Visual Studio Code fails to start when there's no network connection
+23488|Provide a bookmarks view
+23489|Hover tooltip for terminal links is occluded when link is in first line
+23490|Flakey underline/hover tooltip behavior
+23491|Pimp up Quiet Light theme
+23492|--prof-startup opens wrong folder after profiling
+23493|[Insiders] Changing cursor position with CTRL + RIGHT does not scroll window
+23494|Theming for status bar icons and status bar extensions
+23495|"""args"" has problem with spaces"
+23496|在Mac电脑中撤销、恢复不正常
+23497|Ripgrep fails searching for `vscode-linux-x64-prepare-rpm` in our repo
+23498|In embedded Git commit, Cmd+Enter doesn't work
+23499|QuickOpen fails because of case insensitivity
+23500|html closed tagName auto change works incorrectly with multi-cursor

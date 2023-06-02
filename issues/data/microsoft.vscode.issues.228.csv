@@ -1,0 +1,100 @@
+22701|how to set user snippet so that no matter when sami can be appeared at end of line?
+22702|Submit bug from application - 404 - File or directory not found.
+22703|[scss] @error is not recognized
+22704|where is the tasks?
+22705|Improve UX for terminal switcher control. Change the dropdown for a switcher control
+22706|Avoid automatic unfolding when passing thru folding code
+22707|Stack for goto definition to allow return from it
+22708|Prevent wrongly cased file paths to enter the workbench
+22709|Text content provider: option to indicate that a model is disposed
+22710|Feature request: context or syntax suggestion not must according to the order of user's typing
+22711|Proposal fix 22401: Search in settings editor is showing invalid results for search term
+22712|TS error shows /$cwd/ path for files with errors
+22713|Feature Request: Drag/split current file in editor
+22714|Go to symbol in workspace leads to nonexisting files
+22715|Why are keybindings repeated in new keybindings editor?
+22716|Allow sorting keybindings by column in new keybindings editor?
+22717|"Column Breakpoint ""ghosts"""
+22718|Implement Windows terminal shell selector
+22719|Polish terminal link hover hint
+22720|Auto-update doesn't work on MacOS when running as non-root user
+22721|Request: Editing man pages
+22722|Custom file types?
+22723|Add when context: isLastGroup / isFirstGroup / editorGroupIndex
+22724|"[find/ctr+f] Regex case [A-Z] v [a-z] doesn't work, unless ""match case"" is also on."
+22725|Show error popup without mouse (with keyboard)
+22726|Suggestion: ability to restart when changing language
+22727|Scroll bar and minimap arrive at the start / end before reaching the first or last line
+22728|Hover can appear under the cursor on wrapped lines
+22729|Node debugger not stopping on breakpoints when connected remotely to Docker
+22730|Full screen does not work after starting vs code form the command line within tmux
+22731|Merge pull request #1 from Microsoft/master
+22732|Annotated arrow function with optional breaks highlighting of keywords
+22733|Merge pull request #1 from Microsoft/master
+22734|Merge pull request #1 from Microsoft/master
+22735|Merge pull request #2 from Microsoft/master
+22736|Add clear recent projects from file menu to commands [ ctrl + shift + p ]
+22737|`Ctrl+A` in git side bar should select all files
+22738|[debug] VS Code fails to spawn external terminal on Linux.
+22739|Auto create file and folder via filename
+22740|Linkify terminal paths without any path separators
+22741|VS Code remains unreponsive for a very long time and finally get crashed when debugger get to a point in the bundle.js file
+22742|Cannot access internet behind proxy
+22743|Old webview page content will be updated to newly generated webview page
+22744|New feature request
+22745|Fallback file encoding
+22746|[FR] Add 'or' logic for when clause contexts
+22747|Python syntax highlight error
+22748|My C++ snippets unworking after update.
+22749|Focus on next error/warning starts from beginning after editing a file
+22750|Correct disposal implementation for exception widget
+22751|Could not resolve any model with uri ...
+22752|"can not find ""node"" in path."
+22753|Debug: sort inline values based on appearance
+22754|[Feature Request] Should be able to move Debug controls to any other place on window
+22755|[i18n] Russian translation Issue
+22756|error
+22757|python can't go to the function definition
+22758|A highlighting for unused variables for javascript
+22759|Chinese display garbled
+22760|Minimap in CSS files
+22761|Keybindings UI - filter internal commands (prefix '_')
+22762|Add support for recognizing and opening paths for all files/languages
+22763|List previously searched items (with search path etc.)
+22764|Add option to keep cursor relative to screen when scrolling with scrollPageUp/scrollPageDown commands
+22765|Powerline fonts in terminal incorrect
+22766|Actions in a git diff
+22767|Keybindings UI - support action to revert to default binding
+22768|"""3Iniciar"" instead of ""Iniciar"" in Spanish version"
+22769|editor.rulers rendering vertical ruler inconsistently with expectations
+22770|User settings editor doesn't update when config.update is called.
+22771|"Adding ""Run as Administrator"" task to VS Codes task-bar option under Windows 10"
+22772|Explore extension host error spamming the core
+22773|TS Go to implementation doesn't seem to work for multiple implementations
+22774|TS go to definition should move the cursor to the symbol name, not select the entire definition
+22775|Make variables and callstack to reload asynchronously [feature request]
+22776|Objectlist / Table of Content
+22777|Two-finger pinch scrolls
+22778|Toggle individual extensions on and off through Command Pallete and/or hotkey.
+22779|Comment Line Command Causes Syntax Errors Inside JSX Elements
+22780|Debug viewlet keyboard inconsistency
+22781|"Allow the Terminal window to ""pop out"" from editor"
+22782|cmd+shift+f (Find in Files) should not focus the editor
+22783|can't run multiple python scripts with integrated terminal
+22784|Terminal URL link with port number
+22785|vs-code 1.11.0- insider - Scroll bar with touch pad it solved but it weird
+22786|Cannot set breakpoints in Meteor builds of node server app
+22787|Integrated terminal: display problem
+22788|Moving files to trash always fails in Kubuntu 16.04
+22789|After convert project.json to *.csproj, Visual Studio Code build in test feature doesn't work.
+22790|Powershell not respecting execution policy setting
+22791|Markdown Enhancement
+22792|[folding] Deleting folded code will fold the code after it
+22793|When the editor instance is zoomed (Ctrl +) the Markdown Preview gets clipped
+22794|Threw an error on save
+22795|Markdwon snippets is not work
+22796|Platform specific configuration default values for extension authoring
+22797|view in defaut app does'nt work.
+22798|"""code"" command does not run ~/.bash_profile - Opening the vscode app directly does."
+22799|Consider fullwidth characters when rendering tabs
+22800|#endregion - Unexpected preprocessor directive [Assembly-CSharp] after 1039 lines of code

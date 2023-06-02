@@ -1,0 +1,100 @@
+21101|API: Menu item enablement
+21102|Not getting any debug commands
+21103|Linux: file opens even though it has parent folder with .vscode inside
+21104|Linux: folder with .vscode opens even if I pick a file deep in the hierarchy
+21105|Unable to set breakpoints in untitled file with associated path
+21106|Formatting JS code removes spaces before closing parenthesis
+21107|NPE when running Command 'Git Open Change'
+21108|Git entry under View is not showing key binding
+21109|Freezing UI
+21110|TypeScript cannot resolve correct overload
+21111|Hover doesn't render sub/sup html elements in Markdown text
+21112|Column breakpoints under Linux only rarely accepted
+21113|Improve documentation of git enum type settings by providing options
+21114|Git commit box does not warn long messages
+21115|cannot copy with editor drap and drop
+21116|Git doesn't consider actual encoding in diff view
+21117|jsdoc completions everywhere?
+21118|action buttons in modal messages are flipped
+21119|Column breakpoint should stick to the word on the right
+21120|Debug quick open menu to be pulled with import
+21121|Edit breakpoint conditions with multiple breakpoint on same line
+21122|Hover on breakpoint not useful
+21123|editor loses focus when selection suggestion with mouse
+21124|'Add configuration' opens code assist in different editor
+21125|Wrong syntax colouring for the number 7 in Visual Basic
+21126|Typing still allowed while D&D operation under way
+21127|Syntax Highlighting breaks for extremely long line (Go Support)
+21128|Don't show D&D target cursor for original text selection
+21129|Settings editor groups show wrong settings in Windows when opening VS Code with settings editor opened
+21130|Start Debug does not start current file (no launch.json)
+21131|Unable to open 'settings.json': Cannot read property 'filterPreferences' of null.
+21132|"Please add an additional option for ""copy.eol"", separate from ""files.eol"""
+21133|JSDoc suggestion
+21134|Column breakpoint in middle of word
+21135|cannot navigate TS files with arrow keys anymore
+21136|"Report Issues shows ""Extensions:"" and empty extension table when none are installed"
+21137|Column breakpoints are hard to place
+21138|Hit Count on column breakpoint not respected
+21139|envFile doesn't work at launch config
+21140|Cannot interact with column breakpoint
+21141|Many timeouts when changing column breakpoints while debugging session is running
+21142|JSDoc completion should not open automatically when setting the caret
+21143|Default snippet text has bad indentation
+21144|Confusing 'current execution point' indicator
+21145|"Implement ""Toggle skipping this file"" for node-debug"
+21146|Does /** @param */ have to be in intellisense?
+21147|Configurable window title: relative file path or editor name
+21148|jsdoc intellisense is triggered when you move the cursor to a line ending in /**
+21149|jsdoc autocomplete should prefer {Object} over {any} in JavaScript
+21150|"Error when using the ""debug"" keyword in the cmd pallet"
+21151|Provide capability for Find to search only visible text
+21152|Terminal links: Understand line and column information after a file path
+21153|VS Code window crashed and I lost my code edits...what should I do?
+21154|Terminal links: fragment identifier is ignored
+21155|SCM viewlet no longer has a hint to commit/check in
+21156|Terminal links: query strings are cut off at =
+21157|Is TFS SCM integration possible
+21158|Terminal links: Urls are cut off at %.
+21159|Git: Support remote management
+21160|Error when trying to init a git repo
+21161|Terminal links: Substrings are considered valid links
+21162|Generic SCM icon is not consistent with other icons
+21163|Cannot trigger debug config dropdown with keyboard
+21164|Bug: Terminal shellArgs ignored
+21165|SCMs should be able to set the title and icon of the SCM viewlet
+21166|Speed up wrapping points computation
+21167|Duplicate duplicate identifier error
+21168|"Is ""Clean Changes"" the best choice of words?"
+21169|Git: Stage gives ambiguous error message
+21170|SCM viewlet click/keyboard navigation doesn't work
+21171|Code completion triggered by setting the caret with a mouse button click
+21172|SCM viewlet focus colors need work
+21173|"Double entry for ""View: ShowSCM"" command in command pallet"
+21174|Column breakpoint doesn't work in condition statement
+21175|Close Affordance flag is ignored on Linux
+21176|Windows + VSCode + Bash
+21177|Compare Directory & All Files Within Directory / SSH Terminal / DB Manager
+21178|CodeLens and Data Annotations
+21179|Default jsconfig/tsconfig should have content
+21180|JavaScript go to configuration does nothing
+21181|TypeScript go to configuration does nothing
+21182|JavaScript go to configuration goes to wrong config
+21183|git keyword not working in command pallet when SCM Preview is enabled
+21184|Why is VS Code telling me to configure excludes when intellisense seems to work fine without it
+21185|Pressing configure excludes button presents another configure excludes button
+21186|Focusing debug console or output hides TypeScript version being used in status bar
+21187|TS version in status bar is confusing
+21188|[html] Format onPaste issues with HTML
+21189|Don't show TypeScript version in Status Bar for JavaScript Projects
+21190|Theme settings upgrade path - workspace theme setting isn't applied
+21191|minimaps look broken for empty files
+21192|Settings text for window.title hard to read on hover
+21193|Consider removing `${separator}` variable
+21194|[WelcomeUX] Keymap links are missing telemetry
+21195|Terminal links: url parameters value ignored
+21196|Validate terminal links after they have been created
+21197|Using CTRL+p/n to navigate search results behaves differently than arrow keys
+21198|VS Code doesn't prompt on close if a file has been changed
+21199|Minimap lacks separation from editor
+21200|The application “Visual Studio Code” can’t be opened.

@@ -1,0 +1,100 @@
+28201|Git diff highlighting is broken sometimes
+28202|.Net Core on VSCode having diff behavior than VS for Mac
+28203|Terminal cursor is sometimes not shown on the right character
+28204|Can't see extensions or load via command line
+28205|Deleted item on sidebar is item mouse is over, not selected item
+28206|Task runner fails on Windows if integrated shell path has a space
+28207|Minimap disappears when navigating within the Find All References window
+28208|Bad message: Cannot launch program 'c:\...'; setting the 'outFiles' attribute might help.
+28209|Intellisense for class methods is not working
+28210|Duplicated Shell Prompt in Integrated Terminal
+28211|Quick-opening a file with the same prefix as an already-opened file opens the new file in the same tab
+28212|Tab completion in PowerShell Integrated Console is not working
+28213|Duplicated path in integrated terminal
+28214|Better UI extensibility: retain webviews, provide communication channel
+28215|Setting 'statusBar.background' not working correctly
+28216|Linux new version notifcations when new version is not published
+28217|[loc]Request to add Serbian language to VS Code
+28218|中文版没了？
+28219|Why is there no Chinese after the update?
+28220|After updating, the default language is English (en) and needs to be reset to Chinese (zh-CN)
+28221|UI to indicate when a user setting is overridden in the current workspace
+28222|spawn C:\Windows\system32\cmd.exe ENOENT error with childProcess.exec() on Debugger
+28223|When I update, there is no Chinese
+28224|Default language changed to english when update
+28225|Dreamweaver-style Find/Replace
+28226|why my vscode's language changed to english after updata to v1.13.0
+28227|Dynamic File Links (Dreamweaver-esque)
+28228|"setting ""editor.tabSize"" not working correctly"
+28229|Uploading to remote server
+28230|Renderer process consumes too much power
+28231|Workbench Theming: Provide different colors for Notification buttons and badges
+28232|Created ability to toggle clickable URLs
+28233|No vscode.d.ts for 1.13.0
+28234|Download attempt on Chrome returns ERR_SSL_PROTOCOL_ERROR
+28235|Line wrap issue in Terminal of New Window
+28236|Select text and find, code will escape selected characters into the find widget when regex is enabled
+28237|"1.13.0 | New Emmet expansion suggestions don't honor emmet.syntaxProfiles setting"
+28238|Dotnet build task fails when command is specified at task level
+28239|Bad text colors in terminal in Solarized Dark theme (regression)
+28240|prompt (working path part) print double times in Terminal (oh-my-zsh)
+28241|Can we have code folding in one line?
+28242|Text input using IME renders outside when having a wrapped editor
+28243|Attach to process: '${command.PickProcess}' doesn't look like a process id.
+28244|[IPC Library: Search] TypeError: Cannot read property 'then' of null
+28245|Git not in right environment after reopen
+28246|When the project path is Chinese, terminal is not in the correct path
+28247|Go to File can't not get all file matched file
+28248|I do not want PowerShell integrated console to open when I open a PowerShell file
+28249|the editor does not support Chinese
+28250|"[theme] Request the feature: ""editor.lineHighlightForeground""."
+28251|Version 1.13 is showing the logo of Github in front of .gitignore file
+28252|the words on the terminal frame blink when I typing on the terminal frame
+28253|VSCode  1.13.0 debug error
+28254|add more settings to gear menu
+28255|vscode 1.13.0 - integrated terminal, issue with view
+28256|[cpp] Coloring options for code disabled via preprocessor directives [Preprocessor] [UI]
+28257|NVDA reads duplicate words when doing word navigation
+28258|Updating to v 1.13.0 prompted an error.
+28259|The Accessibility Help Alt+F1 should have an ARIA live region
+28260|After toggle AutoSave On, the cursor will float to the end of the line while your typing a letter;
+28261|Option to autohide minimap when in split editor view
+28262|Feature requests: Better naming for projects + Scoped extensions
+28263|CodeLens disappeared
+28264|Request - Find in path preview window like in WebStorm
+28265|Git credential cache doesn't work with integrated task terminal
+28266|Use WSL Git as integrated VSCode Git
+28267|NVDA is frequently unable to gain focus when alt-tabbing back into VS Code
+28268|Goto File slow on full path search
+28269|Cmd+Click does nothing
+28270|Ctrl+Alt+Space does not move focus to suggestion list documentation
+28271|Twitchy terminal behavior, content being moved around in the terminal
+28272|Console output freezes vscode
+28273|How to hide minimap?
+28274|Win7: window wrongly positioned after restore from minimize after snap
+28275|'go to definition' no longer working
+28276|Only show tree views for activated extensions
+28277|Discard changes not working properly, still appears in git status
+28278|File reformatting to 4 spaces for indentation on save.
+28279|Terminal prompt shows PWD twice after update
+28280|Cannot search in files
+28281|Autocomplete frame blinks after update to 1.13.0
+28282|Cache extension manifest files
+28283|.gitignore files are not respected in the project search and ctrl+p
+28284|[Feature Request] Search text in Terminal, Output, Console and/or any editor
+28285|Multi Cursor keeps blinking and non-usable with vim (0.8.4) extension
+28286|Shortcut hints are not displayed correctly when the editor area is empty
+28287|Inform user about necessity of updating Transifex resources to pull
+28288|Emmet expansion not working with * sign
+28289|Allow changing the selection using the TreeDataProvider
+28290|Debug console can be improved？
+28291|changed and new files no longer show up in the git source control overview on the left
+28292|Toggle Minimap to View menu
+28293|Global search for a string in unsaved files
+28294|Word highlighting invisible with Solarized Dark theme
+28295|Multi-root workspace implementation Roadmap
+28296|VS code icons is distorted when invoked from the command line
+28297|"Spelling error in documentation - ""Communitity"""
+28298|Breakpoint in Typescript stops debugger in Javascript (iOS Emulator)
+28299|Hot exit: set backupPath as configuration to windows
+28300|Open same folder in two different Visual Studio Sessions

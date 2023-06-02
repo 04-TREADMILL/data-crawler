@@ -1,0 +1,100 @@
+4601|"[Extension list] Readme control's left border is not displaying when ""development tool"" is showing up with editor at certain position."
+4602|Smooth scrolling
+4603|Question: is it possible to launch debugger from extension ?
+4604|do not show stackframe line information if source is missing
+4605|Embedded JS Reference Path not working.
+4606|Javascript syntax highlight gone
+4607|<none> needs to be localized
+4608|Zoom does not work
+4609|Schema for locale.json
+4610|Cannot read property 'dispose' of undefined (fixes #4573)
+4611|vscode.startDebug should take debug configuration json as argument
+4612|Debug REPL lost coloring for escape sequences
+4613|Typescript intellisense dies when recreating a file
+4614|Enhanced support for rest params
+4615|⌘-key combos no longer work with alternate keyboard layout (eg Dvorak)
+4616|Syntax highlighting in Typescript not handling identifiers that start with var correctly
+4617|Installing extensions does not report progress
+4618|Race condition between STOPPED and THREAD events in the debug service
+4619|Full uninstall does not remove installed extensions
+4620|[python] Update on PTVS in VS Code?
+4621|Simplified Chinese not translating exceptions text until after debugging
+4622|Allow to drop folders into the explorer from the desktop to copy them
+4623|Korean translation for Uncaught Exceptions incorrect
+4624|Not getting intellisense in .html file for type and Src value.
+4625|[json] provide intellisense for version in bower.json dependencies
+4626|Recommend Extensions only offering ESLint
+4627|sendFunctionBreakpoints send all functional breakpoint even when deactivated
+4628|[c#] Builtin types not being highlighted in editor
+4629|Error Extension host terminated unexpectedly. On first and subsequent startups.
+4630|Gaps on the ruler when adding new lines
+4631|Parsing error on template string
+4632|Remove unneeded space(lead to trailing space) when insert multi new lines
+4633|NPE when point typescript.tsdk to incorrect location
+4634|Add platform detect functions in keybindings.json for `when` field
+4635|slim TS/JS workers
+4636|Provide a setting to change the font used for markdown preview
+4637|Add support to filter js.map files generated from ts files
+4638|File picker: line/column number in <path>(ln,col) syntax not supported
+4639|[c++] Syntax highlighting for C++ breaks after a specific printf statement
+4640|New launch.json has path syntax error
+4641|[php] Javascript Syntax Highlighting Error after inline PHP
+4642|diffMode is too sticky
+4643|[codelens] Uncaught TypeError: Cannot read property 'symbol' of undefined
+4644|Npm install giving error in extension folder.
+4645|Feature request: Add support for line and column numbers in the Go To File feature
+4646|[FYI] Using git on msys2
+4647|editorActionInvoked telemetry event is reporting localized name instead of id
+4648|"Documentation for ""when"" field of key bindings"
+4649|Make mouse cursor visible in dark themes. Fixes #754
+4650|git commit fails when vscode is already open
+4651|[json] Launch.json recommending properties before defining launch/attach
+4652|Debugging: Program path issue, ignores __ in the path
+4653|"TypeScript: When you rename a file you get ""Duplicate identifier"" error and need to restart vs code to fix it"
+4654|'switch' not matched as '.keyword.control'
+4655|Resize the sidebar and editor pannels by double-clicking on their border
+4656|"Not getting any option on UI to terminate running task (""Run task"" for Grunt.)"
+4657|Icon to show running task in the status bar is not displaying all the time.
+4658|Problems rendering adjacent bold and italics
+4659|Incorrect rendering of ascii escape sequences in REPL
+4660|option to relaunch the build task
+4661|Build task is running forever in background and not displaying any message in the output window.
+4662|Changing language mode of a file does not persist
+4663|User markdown-it or remarkable to replace marked for markdown render
+4664|TextDocument.setText
+4665|[folding] Fold all comments in a file
+4666|[Ember] Intellisense dont work for this.[methodName]
+4667|env variables broken on OS X
+4668|When I do something to a file from another file or command line the ide / file doesn't update to new content
+4669|Goto definition doesn't work on a standalone C++ Header (after installing the C++ VSIX)
+4670|C# class colorization wrong in most themes
+4671|Test Tour: Node Restify
+4672|Wrong keyboard shortcuts suggestions
+4673|Search in all files with a regex with .* and a trailing space doesn't work
+4674|Don't localize command names on the command palette
+4675|__dirname intellisense adding extra underscore
+4676|Programmatically update .tmLanguage scope match string
+4677|Launch from terminal gives errors
+4678|when i click ctrl+K and Ctrl+b
+4679|"Getting error message ""Failed to terminate running task"" when trying to terminate the running task."
+4680|Menu action Toggle Render Whitespace is a no-op if editor does not have focus
+4681|No  comments styles applied for specific text
+4682|Importing scoped npm modules without scope name
+4683|Installer of VS Code Insiders show dupleciate message
+4684|"Add a setting to cancel ""Track Active Item in Sidebar"""
+4685|Installed git not recognized
+4686|Command palette's camel case matching does not work for non ASCII characters
+4687|Visual studio code intellisense ignoring tsconfig.json file
+4688|Saving file with name that starts with dot fails
+4689|`getWordRangeAtPosition` result is neither a closed interval nor half-open
+4690|Error 'Unexpected Token' not displayed
+4691|Cannot use incremental search in Command Pallet.
+4692|Documentation for Keybinding Customisation should list `when' predicates
+4693|Show Recently Opened Folders in Windows Task-Bar Jump-List
+4694|Keyboard binding for `ctrl+pausebreak' is impossible
+4695|can i use emmet in .vue and .blade file
+4696|"editor.action.selectAll ctrl+a keybinding should only apply ""when"": ""editorTextFocus"""
+4697|Sash double clicks
+4698|Changes to file language and indentation type do not presit
+4699|In git changes view, the old file is displayed in the default language regardless of user choice
+4700|Cannot debug TypeScript file if source map is in a different directory

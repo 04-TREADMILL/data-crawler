@@ -1,0 +1,100 @@
+22901|[themes] Uninstall/Exclude from list the built-in color themes
+22902|the intellisense cannot work
+22903|"The warning of ""The Typescript language service died unexpectedly 5 times in the last 5 Minutes"" keeps flashing on top of the window in the Visual Studio Code"
+22904|javascript template string need render another color
+22905|[BUG] 'editor.emmet.action.balanceInward' expand selection instead of shrinking
+22906|How can I use my javascript snippet for jsx?
+22907|Color does not look right when writing a interface [or another things]
+22908|"The default keybindings for ""blockComment"" on Ubuntu are wrong."
+22909|Duplicate Identifier typescript compiled js in split screen.
+22910|The new diff-viewer locks up when commit is in progress
+22911|Some keys don't work sometimes in the SCM viewlet's input box.
+22912|node and node2 should support evaluateName field
+22913|License question - can a corporate IT package for internal deployment
+22914|Multiple cursors editing buggy behaviour when changing tsv
+22915|Surfacing new Exception DAP in UI
+22916|Terminal size content width limited
+22917|Feature request: Allow terminating tasks running in the integrated terminal
+22918|Invalid TypeScript syntax highlighting after line break
+22919|[feature] React Native Stylesheets color preview boxes (styles in js)
+22920|一直弹出错误
+22921|Node remote debugging: source map work but it doesn't seemed to locate original src
+22922|Windows : Opens in wrong RDP Session
+22923|vscode Complex Commands
+22924|backups: stop lowercasing file paths (fixes #16591)
+22925|Can't close a file without saving without mouse
+22926|alt + tab shows open tabs in one pane
+22927|Keyboard Shortcuts Reference has been truncated on OsX.
+22928|command 'workbench.action.markdown.openPreviewSideBySide' not found
+22929|Can not delete a break point if it's at the last line of code
+22930|Terminal: Text color error
+22931|Include “Visual Studio Code” somewhere in the AppData XML
+22932|Make more descriptive appdata summary field
+22933|Can't trigger intellisense in launch.json twice
+22934|Fixed typo - fourth instead if forth
+22935|Integrated terminal UI reopens unwanted terminal on startup
+22936|"Pug - Broken syntax coloring using character ""ª"" inside an interpolated tag"
+22937|ARM template type not accepted even though valid.
+22938|Run the terminal as a login shell by default on macOS
+22939|Feature Request: Renaming of Integrated Terminal instances
+22940|Matching brackets and very hard to see cursor
+22941|"""Unable to open 'file.c': File not found (c:\code\c:\code\file.c)."" when clicking on items in the ""Problems"" tab"
+22942|Keyboard shortcut to comment out lines
+22943|Wacom Intuos Issue (macOS Sierra)
+22944|"""Find File References"""
+22945|No definition popup appears when following URLs
+22946|Add letterSpacing to config to address #18715
+22947|JSDoc comments are ignored for destructured parameters
+22948|Show JS/TS References Code Lens for Inner Functions
+22949|Test #22103 - Control Script Execution in Html Preview
+22950|Empty Keybindings View
+22951|Exception in searchApp.js
+22952|Ripgrep - Can't search for a query that starts with -
+22953|Unable to set breakpoints in the .vue files
+22954|vscode should add a option to control markdown breaks
+22955|Word Wrap turned of but content still wraps
+22956|No comment highlighting in accessor blocks in C#
+22957|Task.json is not identified if root directory is opened instead of project directory.
+22958|Re indenting feature is missing.
+22959|Visual Studio 2017 (or old vers) Can't install It on my pc cuz of admin HELP!!!
+22960|Edited color in gutter and scrollbar mismatch
+22961|Word wrap reset for long URLs when switching between tabs
+22962|Markdown Preview does not preserve scroll position
+22963|[Insiders] Intelli Sense fails for TypeScript
+22964|Execute node.js application in external terminal throws error.
+22965|sass编译
+22966|I found Linux and windows under the shortcut keys are not the same, why?
+22967|Exception when trying to add a keybinding
+22968|Focus peek window on creation
+22969|INSERT key doesn't work
+22970|Feature Request: Show failed lookup path for not found modules & more
+22971|Switching project folder in Zen mode (with ctrl+r shortcut) results with unresponsive window
+22972|Suggest widget screen cheese
+22973|Format document is not working since todays relaese
+22974|Feature request: sort `_` after `.` in the file list
+22975|Syntax coloring does not handle multi-line macros correctly (C, C++)
+22976|New Insiders Build Crashing After A While (And Immediately after Inserting an <a> tag)
+22977|Problems panel not clearing problems from deleted file
+22978|[Feature request] Capability to open old version of file in Git side bar
+22979|Test: Output appending improvements
+22980|Test: Surface new Exception DAP in UI
+22981|emment fix issue #22923
+22982|Can't focus 3rd editor pane from terminal with keyboard
+22983|Interaction with JSON Schema project?
+22984|PowerShell integrated Console - version no.
+22985|Format document doesn't work in TypeScript files
+22986|Java auto rebuild support for Spring Boot hot swapping
+22987|Failed to load resource: net::ERR_INSECURE_RESPONSE
+22988|Support for tab window containers on single workspaces as in IntelliJ
+22989|Want to add functionality
+22990|[Feature Request] Allow drag-and-drop files from search side bar to Editor/Open Editors
+22991|[Feature Request] Allow to open a new Editor for a file in the Search Side Bar
+22992|Integrated terminal display abnormal
+22993|url underlining can't handle a blank line
+22994|Auto detect encoding by using uchardet
+22995|help me
+22996|vscode not loading file change or new file in time
+22997|Enable contributable Application menu
+22998|freeze after opening large js file
+22999|"App crashes when ""saving file as"" on scroll"
+23000|[New Feature Request] A way to send your code to a printer.

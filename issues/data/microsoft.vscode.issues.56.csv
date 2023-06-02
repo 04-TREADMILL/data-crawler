@@ -1,0 +1,100 @@
+5501|Don't auto-add closing quotes in HTML outside tags
+5502|.vscode folder for empty text document?
+5503|Line-final cursor position incorrect with Unicode combining characters 0x300 - 0x363
+5504|Infer locale on first creation of the locale.json file from the current ui language
+5505|Comment
+5506|"unable to remove extension from the update extension list, getting error ""Cannot find the extension""."
+5507|Window menu shortcuts do not work when Japanese IME is active
+5508|Unusable and laggy when used with NVIDIA G-SYNC monitor
+5509|Is vsocde can support tpl files?
+5510|I hope vscode can index javascript functions in html files
+5511|Copy File in explorer should stop once something else was copied in the editor
+5512|Remove unnecessary calculation
+5513|Clicking on intellisense/autocompletion suggestions not working
+5514|User needs to manually restart VSCode to unplug tslint extension.
+5515|Allow to open multiple folders in the same window
+5516|Increase height of horizontal scroll bar
+5517|Search bar hide match word at first line
+5518|Command extension runs indefinitely
+5519|Create new conf files with right indent settings (fixes #5550)
+5520|Custom theme problems
+5521|not display the space replacement character in string middle
+5522|Show project init errors
+5523|Another remove unnecessary calculation
+5524|TypeScript extension should send telemetry about failed tsserver requests
+5525|Panels always on top in Gnome 3.20
+5526|Auto Complete Does Not Recognioze Object Properties
+5527|Language Code Detection
+5528|Lifecycle service has two shutdown events
+5529|fontFamily not always working (at least with one specific font)
+5530|Add support to confirm messages shown at the top with the keyboard
+5531|Group extension suggestions by glob pattern
+5532|instantiation services fails to caches services in cases
+5533|How to use vscode on website?
+5534|Cannot launch unsigned Code anymore
+5535|SmokeTest: vscode offers to create jsconfig.json although it exists
+5536|A11y: actions within the tree are not read by screen readers
+5537|optimize glob.match for common cases
+5538|Regular expression in Find dialog can't cope with backticks
+5539|Add a global action to add a new file in the explorer
+5540|insider build complains about my language settings
+5541|javascript doc comments don't work for a parameter named `type`
+5542|Create new conf files with right indent settings
+5543|debug - merge Watch and Variables section
+5544|Debug exploration: Async Callstacks
+5545|Dark Theme JSX attributes grayed out
+5546|Make pinning of editors configurable
+5547|dotnet run works, but vs code shows lots of errors
+5548|Alt-F-S doesn't save the current file
+5549|Indent Patterns are not defined/work for Python
+5550|Allow to ignore extensions
+5551|List of required extensions for project
+5552|Light themes (and some others) do not recognize all python keywords
+5553|Use specific user data directories when running as root
+5554|C# does not autocomplete closing quotation
+5555|VS Code resets keyboard layout
+5556|Regression: Code fails to tokenize files
+5557|AutoSave when app looses focus
+5558|TypeScript syntax highlighting: improve function expressions
+5559|Add en-US as a locale since we proposed it as a default.
+5560|IME Composition font is different from the font specified by editor.fontFamily
+5561|Error starting OmniSharp
+5562|Move user data to ~/.vscode[-variant]/user-data and automatically set root user data dir
+5563|nodejs debug not working - sometimes...
+5564|Paused on exception text not translated
+5565|Add support to log tsserver communication to output channel.
+5566|Weird auto-completion results for Azure Storage Account type
+5567|Collapsing XML isn't working correctly
+5568|Controls are not visible when user try to perform uninstall action on the selected item from the installed extension list.
+5569|"Bad Japanese (ja) translation for ""Select All Occurences of Find Match"""
+5570|Function completion does not work across multiple cursors
+5571|[java] Colorization could be improved for import text
+5572|Explorer should have a horizontal scroll
+5573|Hover on a file name in explorer should display file name
+5574|Extension Development Host messes up layout after going to debug tab
+5575|Make the error message in the output window clickable to navigate to the error position.
+5576|Javascript symbol search / outline is truncated
+5577|cant find the DEBUG Button
+5578|Test: Provide command to open most recently closed file/editor
+5579|./scripts/test.sh needs ./scripts/code.sh to run first
+5580|Have test.sh compile code if necessary
+5581|Can't open sub-folder in a new window
+5582|Command Palette's command maybe not locale
+5583|Extension query doesn't work by `name`
+5584|Indendation for Python is incorrect
+5585|Display of monospaced font has shifted
+5586|URI error on debug repl open
+5587|Allow to scope settings by platform
+5588|"""ext install "" fails with EACCES error using corporate proxy"
+5589|Add a global action to add a new file in the explorer - resolves #5547
+5590|Closing the debugee window - debugger is still in debug mode
+5591|Focus debugger only on breakpoint hit
+5592|new feature,how about change working file list to tabs
+5593|Mac OS X Shortcut key: cmd + F1 (Move Focus to Next Window) not usable
+5594|Request to change jade/pug line comment to //-
+5595|Allow `Delete` keyboard shortcut to remove file from explorer
+5596|Support for custom editors registered via file extensions
+5597|Feature request: symbols tree view
+5598|cannot add more than one task and documentation does not help at all
+5599|HTML Wrap selection with tags and adding class adds it to both tags
+5600|JS syntax highlighting with conditionals

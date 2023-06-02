@@ -1,0 +1,100 @@
+11801|One stable build each month. Insiders builds are usually one week out before the stable build
+11802|got it, thanks for your feedback.
+11803|Variable spinners means the `getChildren` either never returned or returned an error. Just pushed 21d1c62 and 78e4f0e which simply catches the error state and calls `onUnexpectedError` with it.  You probably are hitting the error state, and if that's true, `onUnexpectedError` is probably not the right behaviour, so I suggest you catch your errors early and handle them accordingly on your side.
+11804|Thanks for the simple test case, but this works for me in the latest 0.10.10 that we will push to stable today.  ![image](https://cloud.githubusercontent.com/assets/172399/13565963/85893ec0-e453-11e5-839f-19825a8aba6a.png)
+11805|Not forgotten about, just not for 1.0.
+11806|This code changed recently, can you try again?  `rpm` is not supported by us yet, btw.
+11807|PR delivered, thanks @guillaumejenkins !  I'll add the necessary copyright and license information
+11808|> This is only happening if you have eslint installed and have a file with the following content  given this moving to vscode-eslint
+11809|Related: https://github.com/Microsoft/vscode/issues/3759
+11810|This issue was moved to Microsoft/vscode-eslint#44
+11811|#78
+11812|This issue was moved to Microsoft/vscode-tslint#32
+11813|Done and added a gist to the release notes.
+11814|@bpasero Can you provide details on how the `compileFileWith` command works?
+11815|@drywolf just curious - did you make progress on this?
+11816|I'm closing this one, we have no plans to change the name at this point.
+11817|@jrieken I don't think the command is fit to be used from extensions because it expects real files on disk to be used and requires user interaction (you invoke it from a file and then quick open opens so that you can pick a file to compare with).  The Git history extension only makes this work because it generates a tmp file on disk with the contents which is ugly because that pollutes the editor history.  +1 for allowing diff on documents (or any document including virtual documents), but I would suggest to introduce a new command for this and let the current one on files just piggy back on the other one.
+11818|I like
+11819|@isidorn You made changes there, right?
+11820|Reviewed with @alexandrudima in the latest and performance looked OK - closing.
+11821|Omnisharp doesn't really support delete...
+11822|@jrieken correct. After discussing with you we decided to leave the method call as deprecated for backwards compatibility https://github.com/Microsoft/vscode/blob/master/src/vs/vscode.d.ts#L2495
+11823|@bpasero Unless there is an issue with reusing the event we should use that and refrain form introducing yet another one. Let's give it a try...
+11824|@isidorn I know that, but I wonder what happened to the actual implementation of that method?
+11825|"I searched for other ""gitignore"" issues but didn't saw you mentioned the Explorer part in this one."
+11826|@jrieken I see the implementation [here](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/api/node/extHostOutputService.ts#L48)
+11827|which looks decent. I will dig deeper
+11828|ok, but I thought Ben is only complaining that the api is still there. I am not understanding what is the underlying issue here
+11829|D'oh. Only reading the first half isn't good. Blame it on jet leg...
+11830|Closing as _must keep for API compatibility_
+11831|✈️
+11832|Assigning to @bgashler1 so he can work on some initial designs for this
+11833|You can do that from a `document` using [document#languageId](https://github.com/Microsoft/vscode/blob/master/src/vs/vscode.d.ts#L126)
+11834|@jrieken I suggest to still document the ViewColumn parameter is deprecated if possible.
+11835|Agree - moving to @isidorn tho
+11836|@daviwil You do anything fancy with [CompletionItem#textEdit](https://github.com/Microsoft/vscode/blob/master/src/vs/vscode.d.ts#L2028) or filter test? The suggest widget does refer to the word definition in some cases and uses that for some filtering.
+11837|@bpasero did something change there? I quite sure this used to work some time ago?
+11838|"@nickspoons I am not sure how this would work even if #1214 gets implemented. You have a file `something.min.css` so the `$(basename)` will resolve to `something.min`. What you actually want to use is a `$(filename)` that would resolve to `something` so that you can type `something. scss`, e.g.:  ``` json {    ""files.exclude"": {       ""**/*.min.css"": { ""when"": ""$(filename).scss""}    } } ```  Would you agree?"
+11839|@isidorn can you answer?
+11840|This seem to happen when the output panel wasn't visible and a command like above is run. I cannot repo once the output has been visible
+11841|A workaround is to have a command that opens quick pick with a list of (dynamic) commands. Omnisharp vscode does this for project specific commands and package restore: https://github.com/OmniSharp/omnisharp-vscode/blob/master/src/features/commands.ts#L109
+11842|We currently don't plan add to NSIS highlighting to VSCode, but this could be easily added as an extension, e.g. using this text mate grammar: https://github.com/SublimeText/NSIS/blob/master/NSIS.tmLanguage   Check out https://code.visualstudio.com/docs/tools/yocode about how to create an extension.
+11843|Yeah, there are JS primitives for this, like `indexOf` or `regex.exec` which should do the job alright. We have not planned to API'ify our search internals. @sangrambal Is that what you are looking for or there something you cannot do with the JS primitives?
+11844|Yes - those things should be in the status bar.
+11845|Awesome
+11846|@jedmao please provide a snippet for how to reproduce this.
+11847|duplicate of https://github.com/Microsoft/TypeScript-TmLanguage/issues/11
+11848|duplicate of #2496
+11849|I'll take a look - things are rendered in an iframe and script aren't blocked in anyway.
+11850|@nwin We are using the rust grammar from https://github.com/zargony/atom-language-rust. I just update to the latest version from there. Can you verify if the reported bug is still an issue and if yes, file it against that repository? Thanks a lot!
+11851|@bmoore-msft Brian, will you take care of the issue, or where should @pcgeek86 file the issue?
+11852|This issue was moved to textmate/c.tmbundle#36
+11853|@jrieken Maybe we should use a `<webview>` ?
+11854|Thanks!
+11855|"@chrisdias it is possible but the focus indication for buttons is not helpful since the buttons are already blue.   @bgashler1 maybe you could take a look into better focus indication here? we seem to have 2 classes for buttons, the one being `action-button` (in the message box) and `monaco-button` (when you open an empty workspace and open the explorer where we have a button for ""Open Folder"").  I group focus rules in shell.css (https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/electron-browser/media/shell.css#L50)  I am also open to suggestions for changing the outline for actions (currently they also show a subtle blue outline border)."
+11856|This issue was moved to textmate/c.tmbundle#37
+11857|I was looking for  something similar to TextDocument.getPosition() but I can work with lines as of now
+11858|@scastaldi Thanks, it helped.  I am using VS Code from my Mac on Remote Desktop running Windows Server 2012. There you can go to Control Panel and search for Mouse. You find Mouse Properties dialog and you can use the Pointer tab to change your mouse pointer to Windows Black.  ---  BTW, when I am using VS Code directly on my Mac, the mouse pointer is somehow visible. But on MS Windows, it is (or was) much worse.
+11859|+1
+11860|Cool, I will also use this one in debug world
+11861|This is a duplicate of microsoft/typescript#7134
+11862|@isidorn it shows red squiggles under Queue, and Error: The value, constructor, namespace or type 'Queue' is not defined. But the code compiles and runs. Let me know if you need more info.
+11863|I would just like to point out https://github.com/Microsoft/vscode/issues/2824 which is crucial for SVN (and other SCM systems) extension support.
+11864|It would be great with an option for Ctrl+Left too for the behavior mentioned in #943
+11865|I don't know if this should be in this request, or in an another but I'm placing it here for now.  It would also be great that when I have a npm linked module which are also in the opened project and use _go to definition_ on something that comes from that module, I would end up at the actual location instead of inside node_modules. Or maybe easier, if I try to access a file over a symlink and that symlink resolves to a path inside the opened folder, VS Code would open the resolved file instead.
+11866|"My Express 4 application is experiencing a nearly similar issue but some there are some interesting clues.  It runs on a Debian 8 box, Node.js version is 4.3.0 and VS Code 0.10.8 runs on Windows 7. I start it with: `node --debug-brk server/server.js`  VS Code breaks at the first line. Next every breakpoints in server/server.js are correctly handled by VS Code. But all the breakpoints ouside this file will never stop.  On VS Code Debug view, server/server.js is marked as ""content streamed from server"" but not on Exporer view. By the way its breakpoints are only visible in the Debug view. It seems that only this file is processed by VS Code.  On the other hand, Node Inspector works like a charm: `node-debug --web-host=192.168.101.102 server/server.js`"
+11867|"@zarrini since your problem occurs in F# and you have the ""ionide-fsharp"" extension installed, this does not seem to be a VS Code problem. Please file this bug against the ""ionide-fsharp"" extension."
+11868|"Yep, this is what I was going to do for now.  The main 2 downsides with this approach are the reduced  discoverability and inability to bind a hotkey to those commands.  I'd prefer it if the extension commands could show up as top-level commands under the ""PowerShell"" category."
+11869|@weinand already done,but I thought you might be interested to know about it as well. btw thanks
+11870|It's not a problem of the themes, but caused by our flattening of text mate scopes (#3008). The tokenizer actually returns quite detailed scopes on the source code, but the theme ends up matching against a parent scope.  duplicate of #3008
+11871|I touched code in that area and can investigate
+11872|``` return      <View>         <Text> {JSON.stringify(this.state.connectionInfoHistory)} </Text>     </View>; ```
+11873|I'd have to check to see what the textEdit is for that suggestion since the PowerShell engine sometimes will replace more of the source text than just what comes after the cursor.  What should I be looking out for?
+11874|It's a problem with python grammar we use (https://github.com/textmate/python.tmbundle)  See discussion in #2208
+11875|"``` mydictionary = {     'foo': 23, #comment     'bar': ""hello"" #sqadsad } ```"
+11876|Yes, sorry, that was an intended change. Our default themes only define a single color for comments (green)
+11877|Ultimately this is an extension's issue: OmniSharp/omnisharp-vscode#64.  But I've modified the code on our side to be more resilient to errors happening during the parameter hints call.
+11878|"You can have OS specific command sections.   ``` ""windows"": {     ""command"": ""..."" }, ""osx"": {     ""command"": ""..."" } ```"
+11879|OK, but is there a way to restore this functionality with a custom theme? We need MORE syntax coloring granularity, not less.
+11880|In the March release we have user definable file association (see #3612). So you will be able to associate EJS files to the html language mode. Adding ejs to the html languages contribution point by default is IMO not a good idea as, if I understand correctly, EJS files are not always valid HTML files.
+11881|No changes planned here. I'd like to keep keyword.operator to be the regular background color.
+11882|@chiangf I think the issue is that `files.exclude` does not prevent VS Code from going into that folder and ignoring it for file events. https://github.com/Microsoft/vscode/issues/3703 would help
+11883|Closing as duplicate of #774 which seems to be caused on Mac when having a large folder in the workspace.
+11884|Closing as duplicate of #774. We believe the issue to be when having a large folder (gigabytes) and installing the file watcher on it.
+11885|+1 ... recently moved from Eclipse and it's the only missing feature
+11886|@AndyYSWoo ping, can you answer to the following questions please: - any extensions installed? - are you opening a workspace folder or just individual files - is it possible to share the workspace with us
+11887|Filed https://github.com/atom/electron/issues/4705 to get some more insights from Electron.
+11888|Closing in favor of https://github.com/Microsoft/vscode/issues/1690
+11889|:+1:
+11890|There were 6 distinct :+1:'s on https://github.com/Microsoft/vscode/issues/773 which was closed in favor of this.
+11891|Finally... ༼ つ ◕_◕ ༽つ PRAISE CODE ༼ つ ◕_◕ ༽つ
+11892|Is <kbd>super</kbd> mapped to <kbd>ctrl</kbd> or <kbd>alt</kbd>? Surely they don't bind <kbd>win</kbd>+<kbd>&lt;num&gt;</kbd>
+11893|<kbd>super</kbd> is <kbd>win</kbd> or <kbd>cmd</kbd>
+11894|@bpasero seems reasonable, auto-hide similar to how the taskbar in all major OS' can be setup to hide and display when you hover over the edge?
+11895|Also, are cursor movements from the mouse handled differently than arrow keys?
+11896|@waderyan just looked, I don't see any `super` in the default keybindings on Windows. Is the above the OSX version?
+11897|Another case https://github.com/Microsoft/vscode/issues/3737, they all seem to be on Ubuntu 12.04.
+11898|Yes. From the [docs](http://sublimetext.info/docs/en/reference/key_bindings.html) it looked like this was the case
+11899|We're tracking this issue internally in task #196530 you can close it out or assign it to me (we don't have an external repo for the extension at this time).
+11900|I'm actually quite curious on whether you want to make VSC as a general purpose file editor, or just a source code editor.  There are couple situations where a tab bar is **absolutely** demanded. 1. Quickly switch between many tabs.    A common situation to me is I need to compare 2 or more files by its shape, such as to compare between simplified Chinese and its traditional equivalent. A diff won't solve the problem because they are different characters. The only way is to quickly switch between the tabs to see if there's any missing word by your eyeballs. Using ST and I can switch tabs using Alt-NUM, but in VSC the only possible way is to use multiple Ctrl-Tab, or mouse rapidly moving and clicking. 2. Long and hard-to-type file names.    Using Ctrl-P to switch between files is not bad. But how about some file names that share a long common fix? How about some names that are not in English? Consider how much time would you spend on Ctrl-P to switch between `青年急着买房的原因（上）.md` and  `青年急着买房的原因（下）.md`?  I'd say, neither of the situation will you hit when writing code, but as a general purpose editor, this is a serious issue.

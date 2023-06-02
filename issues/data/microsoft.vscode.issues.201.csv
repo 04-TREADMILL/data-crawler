@@ -1,0 +1,100 @@
+20001|Error when trying to open release notes
+20002|Allow to contribute to settings.json via config-editing extension
+20003|Starting a program to attach to a node process is not showing any progress
+20004|Typescript error
+20005|Allow relative values for editor.lineHeight
+20006|"Intelisense not available in Java projects.. Taking forever ""Starting Java Language Server"""
+20007|git refresh with big latency
+20008|In .NET Core projects, VScode should check if the referenced project has been updated
+20009|Code collapse
+20010|Keyboard shortcut for Next / Previous Change in diff view
+20011|"""Go to symbol"" looks like only take care of upper cases"
+20012|Feature request: different settings for split-view windows
+20013|Replace: replacing one by one flickers the editor
+20014|[WIP] Inline all decorations
+20015|Suggestion: do not stop search (& other actions) when VSCode's window loses focus
+20016|Editor isn't inserting asterisks automatically in JavaScript comment block
+20017|Impossible fold and unfold of regions and subregions in Latin American keyboards.
+20018|[win] Mocha test runner doesn't work when there is a space in the path
+20019|"""Run Python file in terminal"" fails with error"
+20020|Debugger should show unescaped strings
+20021|Move setting specific code out of the JSON language server.
+20022|No longer possible to scroll by dragging up when empty zone directly out of viewport
+20023|"Add ability to style ""go to"" link without underlines"
+20024|Selecting text in debug console only selects text that is visible...
+20025|error
+20026|"Using tasks ""_runner"": ""terminal"" ignores ""cwd"""
+20027|Extensions are disabled on 1.9
+20028|Emmet multicursor snippets don't work as I remember them working
+20029|Consider adding some more visible way of selecting a terminal shell
+20030|Replace: no longer able to open a replace-preview inside untitled file
+20031|Chord keybindings do not show up in menus (fixes #14622)
+20032|Ability to disable extensions by default
+20033|"Mapped SharePoint Doc Lib - ""The TypeScript language service died unexpectedly 5 times in the last 5 Minutes."""
+20034|Don't open Untitled file when Welcome page is opened
+20035|Scrolling with touchpad is Jaggy/not smooth
+20036|Fix Markdown Scroll Sync For Windows Path Casing
+20037|Give friendlier error message when inspecting scopes of plain text file
+20038|Bug: View: Toggle Word Wrap stopped working 1.9.0
+20039|Markdown preview pane has wrong size unless text-size is 100%. Wasted space or cut-off text.
+20040|Automated functional interface testing (QuickPick, etc)
+20041|Minified js breaking autoformatter
+20042|Markdown Scroll Synchronization Not working for untitled Files
+20043|Allow to rename a folder that is opened in VS Code
+20044|Enable Markdown Scroll Syncronization for Untitled Files
+20045|Fix error markers and problems links in untitled js and ts files
+20046|VSCode default language extensions override custom language extensions
+20047|vscode.workspace.textDocuments call does not return hidden previewHtml documents
+20048|VS Code Stable 1.9.0 - Extension does not get activated on Windows 7
+20049|Unable to open 'Release Notes: 1.10.0-insider':
+20050|Cannot read property 'getChildren' of undefined
+20051|"Uncaught Error: Unable to display threads: ""Cannot find Delve debugger at dlv. Ensure it is in your ""GOPATH/bin"" or ""PATH""."""
+20052|Cannot convert undefined or null to object
+20053|Stop TS From Spamming Crash Messages
+20054|[OSX] Command-A is recently frequently not causing the editor to Select All
+20055|VSCode infinite loading
+20056|Inline values in vscode only look at local scope
+20057|A repository of problemMatchers for common (or less common tools)
+20058|Electron won't init on macOS sierra
+20059|Broken Square Select (Multiple Cursor Select)
+20060|Application opening without file opening
+20061|Hitting enter to insert a new line at the end of a comment triggers autocomplete
+20062|Tyscript Failing when editing files on SharePoint 365 mapped drive
+20063|Debug hangs immediately on powershell script
+20064|Open containing window
+20065|Debug Console only shows output written to stderr (node2)
+20066|Cursor becomes invisible
+20067|Improve Markdown Preview Code Block Styling
+20068|Disable Paren Commit Item When useCodeSnippetsOnMethodSuggest is Enabled
+20069|node.js debug issue
+20070|The shortcuts to Add Cursor Above(CTRL + ALT + UpArrow) and Add Cursor Below(CTRL + ALT + DownArrow) doesn't works and in fact changes the orientation the windows system.
+20071|Issues when doing a find/replace with \n
+20072|The terminal process command `C:\Windows\sysnative\cmd.exe` failed to launch (exit code: 1)
+20073|Cannot read property 'clearFocus' of null
+20074|Uncaught TypeError: Cannot read property 'getEditor' of undefined
+20075|Uncaught TypeError: Cannot read property 'getControl' of undefined
+20076|Cannot read property 'length' of undefined
+20077|Cannot set property 'value' of undefined
+20078|Cannot read property 'id' of null
+20079|Cannot read property '0' of null
+20080|keep showing warning
+20081|1
+20082|"warn ""The TypeScript language service died unexpectedly 5 times in the last 5 Minutes."""
+20083|Gulp tasks not detected automatically since upgrading to 1.9
+20084|Code snippet control indentation
+20085|Support debug console output from extensions
+20086|"""editor.wordWrap"": true is not working in VScode 1.9.0"
+20087|Not possible to add options to string properties
+20088|Application won't launch
+20089|checking for update shows update-available and no update-available
+20090|Debug does not work on big projects (mixing js and typescript)
+20091|"Incorrect ""window.menuBarVisibility"" behaviour between restarts"
+20092|Cursor becomes invisible when clicking end of line
+20093|Seems word wrap don't work
+20094|Rapidly updating TextDocumentContentProvider causes the previewHtml window to break
+20095|When the debug debugging, the node cannot be started
+20096|Autoformat sometimes breaks javascript code in html files
+20097|VSCode 1.9.0 Not Responding on the Windows 10
+20098|Terminal: Better highlighting support when using line cursor
+20099|Debug: [nodejs] some logs by logging libs are not shown in console
+20100|Implement HLSL syntax highlighting

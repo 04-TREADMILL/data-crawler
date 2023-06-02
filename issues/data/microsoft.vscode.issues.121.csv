@@ -1,0 +1,100 @@
+12001|Debug adapters can't return an object from a setVariableRequest
+12002|Debt - Revisit and improve the use of the editor inside the debug console
+12003|Inform users that they are running a patched version of VS Code
+12004|"Explorer no longer shows ""..."" for cropped file labels"
+12005|Problems after last update (1.5.2) with less files and autocompiler
+12006|Explorer: files with spaces produces bad CSS classes
+12007|support running from CLI with :line:collumn
+12008|Line number no longer used in quick open
+12009|Feature Request: Open error window when errors are found
+12010|Save file to disk even if not changed when saving
+12011|Split intellisense icon sprite
+12012|Env variables are not set while working with externalTerminal
+12013|Display language identifier in Language Mode drop down
+12014|TypeScript `this` Type Information Dosen't Surface Properly in Editor
+12015|Markdown Preview following a file rename errors on old filename.
+12016|Right-click Copy for selected text in Markdown Preview
+12017|Provide a changelog tab when this file is bundled in the package
+12018|VSCode is very laggy when used on a system with touchscreens
+12019|PHP Comment Tags for HTML Content
+12020|Integrated Terminal does not show first line when switched into focus
+12021|HTML/Razor/Handlebars as extension
+12022|Identical file name path in tab is too long and difficult to diff
+12023|Cant set my prefered font - Terminus (SOLVED)
+12024|VS Code hangs when update dependencies
+12025|Crash prompt to reload window does not work in all cases
+12026|The code fold feature is bad in HTML file included pre and code tag
+12027|The Update feature results in linkage and Default App problems
+12028|Add support for InsertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces
+12029|Release 1.5 Quick Open never finishes and Activity Monitor shows high CPU
+12030|Feature Request: Scroll Off
+12031|"Do not add to recent files list when running with ""--diff"""
+12032|"Also prepend closed files to the ""Open Recent"" list as they're closed"
+12033|[Suggestion] Markdown: Indentation inside code blocks should not affect indentation detection for the rest of the document
+12034|"Add ""Reveal in Explorer"", ""Copy path"", etc actions to the context menu of the tabs as well"
+12035|Curly braces' position of c code is changed after using 'shift-alt-f' to format the code block.
+12036|Is there any shortcuts to switch between editors and the integrated terminal.
+12037|Relative Line Number support
+12038|Output channel buffering ignores channel clearing
+12039|Clear buffered output on output clear event
+12040|Save UI state periodically to prevent loss on shutdown
+12041|Show errors in the files explorer
+12042|Show error messages in a better way when the message is very long
+12043|Less linting not working for mixins with rulesets
+12044|vscode 1.6 broke Git changes in gutter
+12045|"Right clicking Recycle Bin on Windows has the option to ""Open with Code - Insiders"""
+12046|formatOnType does not work when you navigate away from the edited line
+12047|Task framework should show status icon about watching tasks
+12048|Consider surfacing mapped variable names
+12049|Array range nodes cannot be expanded
+12050|Visual Studio Code editor freezes randomly while editing CSS files
+12051|VISUAL STUDIO CODE fails to detect installed GIT and integrate it with the app.
+12052|Save all keyboard short cut feature
+12053|File not removed from file explorer if deleted permanently
+12054|[insiders]Cursor wont head to right any more in editor
+12055|Errors from run npm script are not showed in 'Problems' pane
+12056|Tasks: Support that a problem matcher can define the 'source'
+12057|vscode does not display any panel and does not repond to any operation except start and shutdown
+12058|"Add ""new line at end of file"" option"
+12059|File does not reload in editor when quickly changed externally after making modifications
+12060|Debugging no longer working since Sept 14th update
+12061|Settings GUI
+12062|Provide live preview of HTML like Adobe Brackets
+12063|Focus not restored to <webview> after tabbing out and back into window
+12064|Fill out a Voluntary Product Accessibility Template (VPAT)
+12065|Comment shortcut (Cmd + /) stopped working in HTML
+12066|[loc][Query][VSCode] Please clarify string
+12067|[loc][Query][VSCode] Please clarify the string
+12068|Debug Listener Crashes when TCP Connection is Closed
+12069|VSCode is very slow on my system
+12070|Remove fs.statSync call
+12071|Ability to disable commit message length warning.
+12072|Implement VSIX drag and drop to extension viewlet
+12073|Inform the user that VS Code ships TS 2.0
+12074|Formatting jsx file adds and removes meaningful spaces
+12075|Higlighting of jsx file is inconsistent
+12076|Start Integrated Terminal in the same location as the active file
+12077|Scorer is not very good for matching on filenames
+12078|Use Git rather than GitHub icon for Git-related files in default icon set
+12079|Prompt user for opening all tabs for replace all
+12080|Rename Symbol doesn't catch all occurrences of the symbol
+12081|f# search
+12082|Test HTML/Razor/Handlebar
+12083|"Allow ""Find All References"" to expand to a full tab"
+12084|Improve C/C++ colorizer
+12085|VS Code does render all UTF8 characters correctly
+12086|"Fixes #12063: Enable ""Open with Code"" on drives but not recycle bin"
+12087|Integrated terminal breaks after resizing the window horizontally on Windows
+12088|Add setting editor.scrollCursorWithLine
+12089|Install error under Fedora 22 Linux
+12090|Output window treats characters 'xA' as a new line.
+12091|Make Find in Selection not enabled by default
+12092|Automatically remove trailing /** from file exclusion patterns
+12093|gutterIconPath is not loading correctly in Insider release
+12094|"Suggestion: Add keybinding to ""Switch to next input point"""
+12095|Highlight the line number where the cursor locates
+12096|Notification when html preview window has been closed
+12097|IntelliSense to find matches in all open files including word suggestions
+12098|Make --extensionHomePath consistent casing with the rest of the command line args
+12099|False positive errors highlighted
+12100|Cannot read property 'configuration' of null

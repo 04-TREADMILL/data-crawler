@@ -1,0 +1,100 @@
+12401|Fixed typo in git action error
+12402|Cannot tab to snippet variable
+12403|Word Wrap is imprecise with non-monospace fonts
+12404|[shellscript] validate end of line character
+12405|Intellisense not working on network drive
+12406|Allow to close an Output channel
+12407|Code is not getting a proper focus when opening from command line
+12408|Add preference to delete files permanently by default.
+12409|Find in files only gives results for recently opened files
+12410|hover is too narrow
+12411|Regex highlighting inside arrow function expressions
+12412|Can't copy/paste version from VS Code about window
+12413|Extensions search results not initially sorted
+12414|URL handling doesn't work in Windows
+12415|why do I need to press Ctrl + S to save 2 times for saving file?
+12416|Get rid of wait loop in ExtHostTerminalService
+12417|[feature] Swap selection contents
+12418|Allow hot exit to restore multiple backups when multiple windows are closed at once
+12419|Different kind token should has different color
+12420|Internal source file reference changes on each step
+12421|A failed setBP request during configuration - configurationDone never fired
+12422|visual studio code getting freezed
+12423|vscode insiders (after update) doesn't highlight and tell about TS errors
+12424|Menu bar not accessible with keyboard when Integrated Terminal has focus
+12425|Folder icons do not respect theme
+12426|'Backslash' \ does not work in Windows Integrated Terminal
+12427|Can't format CSS anymore
+12428|Remember width for each sidebar panel
+12429|Windows: window dimensions shrink after waking up from sleep
+12430|Issues with not case/fragment-normalizing file paths (macOS, Windows)
+12431|Format on Save
+12432|Multiple Save dialogs when pressing Save multiple times
+12433|Bring back toggle render whitespace command
+12434|Offer to reload modified document when changed on disk
+12435|Add sorting to Open Editors list
+12436|format on save
+12437|Take changelog from remote if provided
+12438|Git integration not working when VSCode from binary
+12439|VSCode hangs on invalid keybindings.json
+12440|Explore how to leverage TypeScripts new typings support
+12441|Support extension metadata localization
+12442|launch.json generation
+12443|Show error in the folder
+12444|Feature request: tab to cycle through auto-complete options (like sublime text)
+12445|Allow to specify the tsconfig.json filename explicitly
+12446|Ctrl + left click(Mouse) is not working.
+12447|Open same folder in a separate window regression
+12448|enable a customizable sound to indicate successful/failed task completion
+12449|Show Popular Extensions shortcut Ctrl+J does nothing
+12450|Debugger gets detached
+12451|Fix markdown  colorization of links inside of lists and quotes
+12452|how did it get so bloated?
+12453|Ability to add custom context menu extension to documents opened using OpentTextDocument
+12454|Show Markdown Preview Menu Button For any File Opened as Markdown
+12455|macOS Sierra: background artifacts
+12456|theme background rendering problem
+12457|Open recent file option
+12458|How to ship an opt-in extension update?
+12459|Using Cmd+Scroll to zoom on a mac
+12460|Weird or wrong translations in Spanish locale
+12461|"Wrong German translation of ""Open Editors"""
+12462|Request: Command to select find matches
+12463|Insiders: cat.exe won't start, MSVCP140.dll is missing
+12464|Double clicking viewlet sash no longer optimizes explorer width
+12465|Terminal dont work,wenn folder is open .maestrotwors@gmail.com
+12466|Toggle panel doesn't display or have working a keyboard shortcut.
+12467|"Multiple Versions of ""Go"" in top title bar"
+12468|Fix gulp methods for targeting arm systems
+12469|User Defined Snippets Issue
+12470|FTP repeat after me FTP, thanks.
+12471|[json] Completions provided in json comments
+12472|Format complex command descriptions for better generated Markdown.
+12473|Markdown, angle brackets in table not shown in preview mode.
+12474|Show recently opened folders from windows taskbar
+12475|[icon-themes] Support for globs in file associations (Icon themes)
+12476|terminal.integrated.startIn
+12477|Find: Replace text field clipped
+12478|filename w/ space in front under the EXPLORER does't display correctly
+12479|"Extension published, tested, uploaded, refuses to install - ""not found""."
+12480|Tabs are always replaced!
+12481|Colourful tasks panel output
+12482|Bash shell overwrites itself when window set to half screen
+12483|Upgrading to 1.5.3 throw JS error message
+12484|VS code not responding
+12485|Random freeze when reopening the editor with previous .ts file open
+12486|Fallback to chokidar on Windows when .NET 4.5 not installed
+12487|invalid issues
+12488|Snippet variables overriding previous text
+12489|Ignore updates for built-in extensions
+12490|Static and dynamic label for problems view
+12491|缺失功能
+12492|HTML syntax highlighting broken for elements with a hyphen
+12493|Intellisense suddenly stopped to work after vscode-insiders update
+12494|Small formatting issue in TSX file
+12495|Small formatting issue in TSX file
+12496|"Should provide option for ""Set next statement"" to set the current debug point."
+12497|Solarized dark theme has the same color for occurrence-highlight and selection highlight
+12498|Extension viewlet shows (1) but nothing to update
+12499|Xubuntu: InvalidOperationException when debugging with .NET Core Launch (web)
+12500|Feature request: Copy reference/relative path

@@ -1,0 +1,100 @@
+5201|Travis build failing
+5202|⇧⌘E is focusing `working files` and not `explorer`
+5203|VS Code does not recognize javascript anymore after update
+5204|fixes #5206
+5205|Debugger breaks on caught error thrown from async function (Typescript)
+5206|[Flow] type can be used by only '.ts' files?
+5207|Shortcut keys `up` or `down` for markdown navigation
+5208|React JSX code block syntax highlight not working.
+5209|Windows 10: Menubar items blurry
+5210|Allow to open same folder in multiple windows
+5211|simplify telemetry implementation
+5212|Focus vanishes after refactoring
+5213|[html] attribute values should not need to be quoted to be highlighted
+5214|Option for sorting files by type in Explorer
+5215|[sql] add support for mysql
+5216|Running extension host tests should not reopen last opened workspace
+5217|Duplicate entries in Javascript quick outline view
+5218|Rename box does not respect editor font
+5219|Error while installing .NET Core Debugger (VSC 0.10.11)
+5220|Elementary OS Freya VSCode icon issues.
+5221|Node debug processes hang
+5222|Add keybinding for resizing active pane in small increments
+5223|when i check the source directory no html css file is visible
+5224|Keyboard shortcuts to open a definition to the side is not working on windows and MAC.
+5225|Keyboard shortcut for add cursor above/below not working
+5226|Localize Linux desktop entry
+5227|Error message is chopping while working with multi screen.
+5228|Multiple cursors do not insert generated snippet at all cursors
+5229|Reference completion produces bad code
+5230|Fix C# in markdown header
+5231|Replace with selection problems
+5232|Allow to add file reference with drag and drop.
+5233|Python Highlighting is oddly off
+5234|Mac non admin user does not have permission to change .vscode folder
+5235|Improve performance of vscode while being accessed remotely
+5236|let and var highlights in a word
+5237|'switch' not highlighted in JS file.
+5238|Tomorrow is mid April. Release 1.0?
+5239|Mouse-over icon hides preview occasionally
+5240|Selections in the editor are not treated as X Selection on Linux
+5241|How do I input for OutputChannel? Only inputBox?
+5242|Improve zh-CN translation
+5243|Move selection horizontally
+5244|using includes() on an Array is shown as an error. Kindly update the library
+5245|var in identifiers get highlighted incorrectly
+5246|Test: Output refactorings
+5247|DNX Command does not work with spaces in path (still)
+5248|Attach to extension host: breakpoints ignored
+5249|Explore moving webcontents around when moving editors with webviews
+5250|DevTools broken most of the time
+5251|vscode dev is hanging around
+5252|Use proper font family for East Asian languages (CJK)
+5253|Diff editor has broken decoration when scrolling to the right
+5254|Windows update packages might clash
+5255|C# needs to be written using HTML codes or escaped
+5256|"Breakpoint is moving one step down and showing up ""Unverified breakpoint"" message while debugging."
+5257|gulp vscode-linux-x64 produces a binary that opens a blank window
+5258|[C#] #region  can't  fold  when the code inside within same level
+5259|Update copyright year to 2016
+5260|URL matching issue when non-ASCII character embedded
+5261|"[json] ""Format Code"" folds braces into preceding comments."
+5262|can i use vs team services whitin visual studio
+5263|JSON coloring changes
+5264|Untranslated update strings in Linux
+5265|intelisense won't work for require with template strings
+5266|Output Channel not coloring keywords anymore
+5267|Visual Studio Code 1.0 no longer works with C#; C# not listed as a supported language
+5268|VSCode ignores editor.insertSpaces
+5269|Caret position wrong when typing Thai.
+5270|Extension cannot override language name anymore
+5271|Overwriting Ctrl + Click behavior
+5272|How to detect shift shift key in VSCode?
+5273|Intellisense shows foreach loop snippet after typing 'fun'
+5274|Parsing of NFS mounted drive is really slow (Ubuntu)
+5275|Privacy statement links to English regardless of set language
+5276|IntelliSense: Drill in on callback?
+5277|VSC 1.0 Install Halts at source-map.debug.js
+5278|Custom extension shows open uninstall [x] box in extensions menu
+5279|Installing extensions does not convert download icon to uninstall icon in install menu
+5280|Some alerts cannot be read properly using a screenreader
+5281|Launch menu should match in english also. Or how to disable i18n?
+5282|cannot execute any command when Chinese UI is used
+5283|"Incorrect highlight in color theme ""Dark+"" and ""Light+"""
+5284|use chrome/electron's spell checker for comments and text documents
+5285|Fix link parsing for non-ASCII characters
+5286|Chinese command is not good idea
+5287|locale.json config can't take effect after updating.
+5288|"""コードの書式設定"" is translation error."
+5289|Expose product name in API, as env.productName
+5290|vscode界面的中文改成英文
+5291|How to add indentation guide lines?
+5292|Can you make the VSC to support multi project debug?
+5293|帮助-切换开发人员工具
+5294|vscode 1.0 editor.fontSize not work for tip or autocomplete
+5295|Tokenize lines with >=20k chars in one line
+5296|How to highlight a .tpl file as HTML
+5297|Add event information in `onDidSaveTextDocument`
+5298|Ignore spaces in file search
+5299|PHP Syntax Highlighting changed for Dark+ ?!
+5300|切换成中文版后，不支持英文命令了。

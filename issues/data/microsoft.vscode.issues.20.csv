@@ -1,0 +1,100 @@
+1901|Allow to change command prompt via setting
+1902|Cmd+c for copying to clipboard doesn't work when word is selected
+1903|It does not work on Mountain Lion
+1904|Variable substitution when no file is opened
+1905|CTRL+S is slow
+1906|Erasing should erase with tab size
+1907|Tabs in editor not work
+1908|Access denied on AWS for atom-shell/node-v4.4.2-headers
+1909|tasks.json support buggy?
+1910|NPE when there is only one find match
+1911|"Show error ""Cannot find module"" although I have typings folder"
+1912|VSCodeDebugProtocol returns lowercase breakpoint paths
+1913|TypeScript syntax highlighting
+1914|Can't format C# code
+1915|User settings location has changes
+1916|Support Markdown in Intellisense documentation
+1917|TypeError: Cannot convert object to primitive value
+1918|Intellisense in JSX is not good as is in JS
+1919|IntelliSense filtering has become slow again in huge lists
+1920|Sass/Scss - Issue with the Sass map and @each rule
+1921|Add support for letter-spacing in TextEditorDecorationType
+1922|Rectangular selection doesn't work
+1923|Multi-line diagnostics
+1924|Should use fake scrollbars in new Intellisense view
+1925|Add more cursor styles
+1926|Gulp tasks are listed in duplicate
+1927|Sidebar remains in debug section after terminating a debug session
+1928|[ruby] Bug in regex character class syntax highliting
+1929|[TypeScript] Syntax highlight problems when missing semicolons
+1930|AutoHotkey (Windows)/Keyboard Maestro (OS X) text replacements don't work in Visual Studio Code
+1931|C# project has unusably slow intellisense
+1932|malfunction entering rgb code in css file
+1933|vscode reports warning on constructor guards
+1934|add viewlets to View menu
+1935|Show git tag in bottom left corner instead of commit hash when checking out a tag
+1936|VSCode freezes if run as a background process on Linux (0.10.6)
+1937|Strange lines appears sometimes
+1938|Issue installing extensions behind authenticated proxy
+1939|Tune new colors added for dark+ & light+ themes
+1940|Find widget counter is cropped
+1941|can't copy description on completionUI
+1942|expose command to preview/render html
+1943|[snippet] Ability to add snippets from `.vscode` directory
+1944|gulp watch sometimes partially fails
+1945|Migrated autoSaveDelay formatting issues
+1946|Does vscode support textmate lookbehind feature ?
+1947|Focus stuck in Code on raw X session without window manager
+1948|Emmet and Intellisense overlap in SCCS files
+1949|Improve visual treatment for indicating changed variables in debug viewlet
+1950|Don't dismiss the conditional breakpoint peek window when the user clicks outside of it
+1951|Add helper text to conditional breakpoint window that explains how to commit or cancel
+1952|Cannot convert object to primitive value in applicationinsights code
+1953|Add font configuration options for the Debug Console
+1954|Scroll markers should be focusable and snap into position
+1955|VS Code should support span-based text markers
+1956|[html] Cannot read property 'attributes' of undefined in htmlTags
+1957|Cannot develop my extension against latest
+1958|Debugger fails when offline
+1959|When replacing a debug console with an editor, the dropshadow header is missing
+1960|Add fuzzy search to commands in palette
+1961|Github extension fails to push (invalid password) with 35 length password
+1962|Proposal: Ability not to auto-close comments
+1963|Expose a proper tokenization/colorization API to extensions
+1964|[tsx] Angular 2 inline templates
+1965|"[CSS] [HTML] Expanded IntelliSense window shows ""undefined"" for CSS and HTML"
+1966|Random placement for Snippets in autocomplete
+1967|Show Toggle Developer Tools under the View menu
+1968|(HEAD+changes)-to-branch diff view
+1969|International characters in regular expression literal breaks highlighting for JS
+1970|Add support for ES2016 Object Spread Initializer
+1971|[themes] VS default themes colorizes types and modules
+1972|make data hover as wide as necessary
+1973|Content Widgets don't render if the position is outside viewport
+1974|launch.json: irritating squiggly description for relative paths
+1975|quick pick enhancements
+1976|Selection highlighting matches regex if activated in local search.
+1977|Error after update
+1978|Keep getting error ENOENT: no such file or directory, lstat 'w:\cygdrive'
+1979|DiffEditorWidget.setModel: Original model is null.
+1980|When I push from to Github directly from Code I get an error
+1981|clearing breakpoints does not work
+1982|Unable to diff
+1983|Fail to fit encoding. when change it manually, fail to match even after open a new file.
+1984|vs/base/parts/tree/common is a fake
+1985|Allow details in quick pick
+1986|Octicon support lost from status bar?
+1987|"Renaming local variable in Javascript crashes with ""Maximum call stack size exceeded"""
+1988|Hide all messages with actions after a certain timeout
+1989|Module import and decorator error messages
+1990|namespace Autocompletion/Intellisense
+1991|Change all Occurrences also changes values within the comments
+1992|Add editable command for selection.
+1993|CPU consumption high
+1994|Update the win32 binary's Product Name to Visual Studio Code
+1995|find widget should show x of y find results
+1996|HTML string inside TypeScript and JavaScript files?
+1997|added theme-wildlife
+1998|Index type assertion on class member destroys syntax highlightning
+1999|why can't found c# language type when i run the instance of vscode that build with vscode source?
+2000|"In the Find/Replace widget, labels for the ""Replace"" and ""Replace All"" buttons don't show keybindings"

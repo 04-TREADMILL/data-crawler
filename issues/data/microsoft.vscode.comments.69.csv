@@ -1,0 +1,100 @@
+6801|Dupe and fixed.
+6802|@pocesar: is your repository public so that I can try to reproduce.
+6803|@TheColorRed Please try snippets: https://code.visualstudio.com/docs/customization/userdefinedsnippets
+6804|This issue was moved to Microsoft/TypeScript#6557
+6805|@zhqiyi is this reproducible? If yes, please provide the steps so that we can reproduce the problem (and try to fix it).
+6806|@bpasero Doesn't quite work so well. Eg: select a file in the explorer, focus the editor, click the root of the explorer. Feels a bit weird.  I wonder if clicking in the root of the explorer (or any tree that has space for the root) should then be a no-op...
+6807|@Tyriar so are you suggesting report this to chromium issue tracker and close this issue?
+6808|Hi **@friedemannsommer**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+6809|btw, is there any bash command I can execute to stress out ram?
+6810|@joaomoreno I see the issues too. another idea: we already decorate empty trees with the blue outline, why do we not do the same for the case of no focussed item present. Then we do not change the semantic of the tree that much and reuse the same focus indication.
+6811|yes
+6812|agreed
+6813|@othebe In jsconfig.json you can define excludes. Often small projects bring in a lot of dependent JS code (node_modules or build & bundled stuff) which makes VS Code chew on it. Can you check that this isn't the case you? And iff can you try by excluding things?
+6814|This issue was moved to OmniSharp/omnisharp-vscode#12
+6815|stretch for Jan
+6816|It's not just limited to C# either, I get the same thing when writing PHP, a commented line starting with // will still invoke IntelliSense when writing for example 'while', 'for' etc.
+6817|@weinand  Thanks reply. Yes, it's reproducible. 1. A is a folder that was opened by VSCode  2. Then, I copy a file to A by Nemo(1.8.4) 3. Switch to VSCode, it was died(suspended animation )
+6818|Specifically useful because it lets you duplicate a line without losing the contents of your clipboard!  The alternative of Ctrl+C then Ctrl+V overwrites your clipboard.
+6819|It's related to this issue https://github.com/Microsoft/vscode/issues/719
+6820|@huttarichard I think he's suggesting to check for possible hardware defects with your RAM or GPU, might save you from going on a wild goose chase.  Maybe this can help: https://support.apple.com/en-us/HT201257
+6821|there is now `TextEditor.viewColumn` and `window.onDidChangeTextEditorViewColumn`
+6822|:+1: Required for me!
+6823|JavaScript multiline strings also look as described in this bug.
+6824|@btroncone I am not a Ionic expert. Is there a git repository I can clone to get a starter project.
+6825|@huttarichard Either hardware defect or lack of memory would be my guess. Might be a little premature to open a Chromium bug just yet, any more information on repro steps you can get would be helpful as there isn't much to go on now.
+6826|I sort of agree, though it seems a tough sell. A better solution would be to start using VS Code or VSCode or VSC as shorthand, since that seems to be the general direction comments are taking. Google will quickly catch up.
+6827|http://forum.unity3d.com/threads/vs-code-unity-debugger-extension-preview.369775/
+6828|I did do snippets as a final, but you can't have a snippet of `///` so I had to use text instead. However, it would be nice if either:  - The editor picked up that `///` was a saved snippet - That this doc feature was built into the editor
+6829|Just checking back again on the status of this. Do you need any other help from me?
+6830|Sorry, yes, the easiest way to get started would be:  1.) npm install -g ionic@beta 2.) ionic start exampleApp tabs --v2 --ts  This will give you a starter project which will allow you to reproduce the issue.  Additional documentation: http://ionicframework.com/docs/v2/cli/  Thanks for your help!
+6831|I suggest to report this to either Electron or node.js as these components are crashing. This would require however to have reproducible steps in a bare Electron app.
+6832|@thomastaylor312 looking at the attached crash report, I wonder if the crash report is actually related to the samba issue. Could it be a crash when you are in fullscreen mode and then restore from sleep?
+6833|It was closed in favor of https://github.com/atom/electron/issues/1212. Apparently it's because Electron doesn't support `~` as it isn't meant to be meaningful outside of bash. Ubuntu 12.04's open folder dialog may be returning `~` in the path which is probably what is causing the issue. Electron removed the won't fix label though so they're open to accepting the change to support it.
+6834|:+1:
+6835|"Googling `""Visual Studio Code""` (with quotes) or `vscode` returns the desired results. I use the latter when searching and for hashtags etc., works well."
+6836|@bpasero It has happened in and out of full screen mode. I have tried to dig around for more failure messages, but I haven't been able to find any
+6837|Using windows 10 pro (insider on the slow ring) Code version is 0.10.6
+6838|@Tyriar Yes. Looks like you might be experiencing the same issue.
+6839|"Such a simple search works fine of course, but when searching for anything more specific (where the search is just preceded with `""visual studio code""`) there are plenty of times you run into a conflict with a lot of the results leading to Visual Studio pages instead. Just one example I've run into out of several in the past few days alone, and it doesn't even have anything to do with ""code"": https://www.google.com/search?q=visual+studio+code+tomorrow+theme Top 3 results are all for visual studio though it isn't obvious right away, the correct result is 5 down. This search would have brought that result to the top and the other confusing results wouldn't be anywhere to be seen, if the name were something more unique."
+6840|"@jrajav Quotes in search engine search for the full term, just quote visual studio code and not tomorrow theme for that to work; `""visual studio code"" tomorrow theme`  `vscode` is likely to be what everyone will use as a keyword though, it's what most extension repositories are prefixed with."
+6841|Addressed feedback, merging.
+6842|Alright guys, not going to take more time (of yours). I'll wait until happens again. And then we can reopen this issue (with more info).... Thanks for such a great product!
+6843|@DavidPereira69 Electron isn't really supported on 10.8 see https://github.com/Microsoft/vscode/issues/1058
+6844|:+1:
+6845|closing this issue as a duplicate of #719
+6846|Hey @egamma, is there any news?
+6847|Looks like an issue with the tomorrow theme. This is the rule that is coloring it, nothing should be colored white on a white background:  ``` css .monaco-editor.vs.ms-vscode-Theme-TomorrowKit-themes-Tomorrow-tmTheme .token.meta.separator {     color: rgba(255, 255, 255, 1); } ```
+6848|I've seen similar artifacts in desktop apps using gpu acceleration (wpf (visual studio), browsers, games) when overclocking my graphics card. Might be a gpu / heating issue.
+6849|"Another repro with VS Code version `0.10.6`.  ![image](https://cloud.githubusercontent.com/assets/469582/12495191/93a9aa7a-c04b-11e5-81b3-4bbed3acd0e0.png)  Output from `handle.exe`:  ``` C:\Users\canders2>c:\apps\Handle.exe tsconfig.json  Handle v4.0 Copyright (C) 1997-2014 Mark Russinovich Sysinternals - www.sysinternals.com  code.exe           pid: 1520   type: File           260: C:\Source\Modus\client\tsconfig.json ```  Output from `procexp.exe`  ``` Path: C:\Program Files (x86)\Microsoft VS Code\code.exe  Command line: ""C:\Program Files (x86)\Microsoft VS Code\Code.exe"" ""c:\Program Files (x86)\Microsoft VS Code\resources\app\extensions\typescript\out\utils\electronForkStart"" ""c:\Program Files (x86)\Microsoft VS Code\resources\app\extensions\typescript\server\typescript\lib\tsserver.js""  Current Directory: C:\Program Files (x86)\Microsoft VS Code\  PARENT: PID 15536  PARENT Path: C:\Program Files (x86)\Microsoft VS Code\code.exe  PARENT Command line: ""C:\Program Files (x86)\Microsoft VS Code\Code.exe"" ""c:\Program Files (x86)\Microsoft VS Code\resources\app\out\bootstrap"" --type=pluginHost  PARENT Current directory: C:\Program Files (x86)\Microsoft VS Code\ ```  After killing PID 1520: `client\tsconfig.json` file is deleted. ![image](https://cloud.githubusercontent.com/assets/469582/12495482/1ea58080-c04d-11e5-9ff1-ee7138a7392d.png)"
+6850|Seriously, what a terrible name. It's (was) 2015. You can't be naming your software with zero regards for search results.
+6851|@inigosola when you run `./scripts/code.sh` what happens, anything?
+6852|Can we suppress that warning for now?
+6853|I have the same issue with VS Code. I think the next version will have the option to disable SSL cert checking. But a proper solution could be to add the ssl inspection CA to the list of CA used by node/vs code?
+6854|``` ./scripts/code.sh [07:53:50] Using gulpfile /Volumes/v1/vscode/gulpfile.js [07:53:50] Starting 'electron'... [07:53:51] Finished 'electron' after 40 ms Received signal 11 SEGV_MAPERR 000000000000  [0x000109b241a7]  [0x7fff8901490a]  [0x7fff8482c63e]  [0x000109a14b40]  [0x00010a00ddd3]  [0x00010a0135dc]  [0x00010a00d5c7]  [0x000109f974dc]  [0x000109f96b36]  [0x00010999c84d]  [0x000109998e56]  [0x7fff899587e1] ```
+6855|same with typescript (0.10.6)
+6856|@bpasero our project is cross platform SDK with c++, someone code with Windows/Visual Studio, some MAC/XCode, some linux/VIM, and some text editor, most of text editor save file without BOM header. Then the project contain more than 6000 files, they have different encoding. I love vscode, but it was a nightmare if i read the coce of the project with vscode.  Then, can u speak Chinese ?
+6857|@claycephas did you run a git operation when that happened (e.g. switching branches). I think the deletion of the tsconfig.json file happens as follows:  - some one tries to delete tsconfig.json. However since it is locked it fails, however to my knowledge Windows queues the delete and executes it when the lock is gone. - when VSCode ends the file will be deleted.
+6858|@moostad from the message it looks like the plugin host got in trouble. Is this reproducible for you. If so, is the code some public so that we can try to reproduce this locally.  @alexandrudima does the plugin host error message ring a bell.
+6859|"@alexandrudima Thanks a lot for the thorough analysis! This makes perfect sense.  Personally I don't think many people use these kind of thin bitmap fonts and I haven't noticed this rendering issue with all the other ""programming fonts"" I've tried so far. Definitely not a high priority issue in my opinion. The workaround with Arial as a backup font works fine for me. I don't mind the blurry arrow at all, with a dark color theme it's barely noticeable."
+6860|"I tried to add a reference to the jquery.js in the same folder, but the result is the same:  ``` javascript /// <reference path=""jquery.js"" /> jQuery (Cannot find name 'jQuery'). ```  However, JS globals are available by InstelliSense."
+6861|@btroncone thanks for the steps.  The default setup works for me out of the box using your steps. See screen shot  ![capture](https://cloud.githubusercontent.com/assets/1931590/12505794/3603c316-c0ea-11e5-9bb1-7ce2b8cc85e8.png)
+6862|Importing testing works as well: ![capture](https://cloud.githubusercontent.com/assets/1931590/12505834/7bb3d64e-c0ea-11e5-8537-c88e992d1e8b.png)  @btroncone do you have any additional steps.
+6863|"So, a few things that i've discovered. Tokenizer counts 1 cyrillic symbol as 2 symbols (maybe cause cyrillic is twice long in bytes, compared to latin symbols). So if you need to highlight `Возврат` (return in eng), vscode highlightes strLen(""Возврат"")*2 = 14 symbols."
+6864|You can check this out by simply typing  `Возврат long_var_name;` and `return long_var_name;`  Here is the result. ![default](https://cloud.githubusercontent.com/assets/1132840/12505983/8778fb46-c0fc-11e5-97f4-f74b82814a40.PNG)  Regexp for this word is pretty simple - https://github.com/xDrivenDevelopment/vsc-language-1c-bsl/blob/master/syntaxes/1c.tmLanguage#L165
+6865|@SofianHn you can get to the locale in the redener using: window.navigator.language
+6866|Plus, I can not move files to the trash. I have already reinstall but the result is unchanged:  ![vscodeisbroken](https://cloud.githubusercontent.com/assets/1493460/12506616/b27d024e-c0f0-11e5-94d3-f05f11b69eef.png)
+6867|I looked into it and the problem is that the function myFunction appears two times in the result. In the root and under the module node. See screen shot  ![capture](https://cloud.githubusercontent.com/assets/1931590/12506819/d1a8443e-c0f1-11e5-8468-4cd7b3f97a70.png)  May be this is a specific problem with commonjs which I use in the setup.
+6868|This issue was moved to Microsoft/TypeScript#6566
+6869|+1! I hate that color and that mysterious smiley face. Hoping there's a way to change the style of status bar.
+6870|"@rkavalap you have to pass the arguments as individual string elements:  ``` json ""args"": [    ""--test"", ""buildOutput/JavaScript1.js"",    ""--env"", ""devtest-chrome-win8"" ] ```"
+6871|only at the risk of crashing VS Code...
+6872|This issue was moved to OmniSharp/omnisharp-vscode#13
+6873|I'll add `{ markdown:string }` to the html content element
+6874|@alexandrudima Thanks a lot! In the documentation, I haven't been able to find the fact that you can escape `{` and `}` ...
+6875|I can use the variable icon which looks a little better  ![screen shot 2016-01-22 at 11 42 29](https://cloud.githubusercontent.com/assets/1794099/12508613/53a0acbe-c0fd-11e5-82b7-0f37b6548278.png)
+6876|closing this of duplicate of #1856
+6877|Done with the PR #2042 and #2146
+6878|Great work @bgashler1! This work has been merged into master so you can try it out
+6879|From the partial error message, it is not clear to me if the tsserver crashes and we report that error, or if the entire extension host crashed.
+6880|@wmaurer Good point. I have pushed Microsoft/vscode-docs@55ba3bbbd942b53b75b7ca7edfe95ff228c99844 to document how to escape `{` and `}`.
+6881|Have you come any further with this?
+6882|+1 Any news on this? I'm waiting for this so I can embed the editor on our product's config page where the user can edit custom TypeScripts that are run on a server and provide our API definition. Thanks!
+6883|Interesting, I'm working with a team of developers building Ionic v2 apps all experiencing the same errors. I will post a sample repo to GitHub shortly. Thanks for the quick feedback.
+6884|@alexandrudima Great, thanks.
+6885|Thats what you would use watch tasks for
+6886|Hi, trying to do the same, wondering what would be js file to use as entry point for the debugger (for node is app.js). any help would be much appreciated !
+6887|This issue was moved to Microsoft/vscode-themes#2
+6888|Hi **@Tyriar**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+6889|+1 Essential when refactoring.
+6890|Can you provide a minimum sample workspace for which we can try this out?
+6891|"@dbaeumer my apology, Ignore that message box, that's happened once on recording when I pushed shortcut-key for ""Reload Window"". The issue that I'm referring to is different and just to be clear i checked that in two different machine (Mac and Windows) with two different projects. cc @alexandrudima   ![wwe](https://cloud.githubusercontent.com/assets/10362398/12511203/ba2aebbc-c124-11e5-9365-0bb6f31fba42.gif)"
+6892|Now I am passing focus to my first view, i.e. variables view
+6893|@dbaeumer I just add a very simple repository for this issue. just clone https://github.com/moostad/vscodeTypescriptAsync.git and check `app.tsx`
+6894|@yuu2lee4 I don't quite understand what you mean?
+6895|@janosjanka is this TypeScipt or JavaScript. I can't reproduce in neither of them. I do see the empty suggestion but not the exception.
+6896|Dup of #2163
+6897|@weinand  you can open multiple files in sublime，then you can compare，you can edit etc
+6898|"This is almost blocking my selfhosting:  Here I am typing ""_updateMatchesCount"". The suggestion list is empty after the first 2 characters and still it eats so much time.  ![image](https://cloud.githubusercontent.com/assets/5047891/12513642/98dc25c2-c127-11e5-8f74-5e3ee777f7ae.png)  ![image](https://cloud.githubusercontent.com/assets/5047891/12513691/d2219e0c-c127-11e5-9f61-d94254792ed9.png)"
+6899|Sorry.
+6900|@yuu2lee4 you can open multiple files in VSCode too: ![2016-01-22 15-45-52](https://cloud.githubusercontent.com/assets/1898161/12513669/5b31ed72-c11f-11e5-9809-04fcde451504.png)  An you can compare files: ![2016-01-22 15-47-49](https://cloud.githubusercontent.com/assets/1898161/12513714/8c2fb2c4-c11f-11e5-87af-d32dd47e99bd.png)

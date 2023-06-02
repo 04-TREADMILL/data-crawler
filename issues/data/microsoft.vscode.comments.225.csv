@@ -1,0 +1,100 @@
+22401|Playing around with it, it seems to only be related to the filename. When it's called vscode.desktop everything is working. I have no idea why.
+22402|Agree we should improve this - would not tackle it in endgame week, assigning to June so we can experiment in debt week with your ideas.
+22403|Fixed.
+22404|Simply because this is not common behaviour in OS X.  [You are free to create a global Service which does this for you](http://www.hongkiat.com/blog/customize-mac-right-click-menu/).
+22405|I don't understand the OS X part of this. We do have auto updates.  For Windows, we moved away from the official Electron's solution into our own a while ago, and we're pretty happy with it.
+22406|Good point. This might be related to other people's problems. Let's do it!
+22407|Fixed as suggested.  SRC: Reveal Active File in Finder NEW TGT: Finder에 활성 파일 표시  SRC: Reveal in Finder NEW TGT: Finder에 표시  SRC: Later TGT: 나중에
+22408|@daviwil Yes `file` or _virtual_ resources are all supported
+22409|Nice!
+22410|Did not understand this. What do you mean by _should wait for output_?
+22411|Thanks @lifetin and @rebornix !
+22412|![all the time](https://m.popkey.co/66ce04/WxEN7.gif)
+22413|It doesn't no.
+22414|I ran into another bug today, where I had selected 5 lines using single cursor. Then, when I pasted this selection into 5 different places, vscode distributed one line to each cursor. This is counter-intuitive.  I think under the hood, vscode is mixing up the intents of single and multi-cursor selections, causing these problems.  Normally, I'd expect a text selected by using _single-cursor mode_ to be **one entity**, which I can expect to paste in _N_ different places. The subtle fact that `N` happens to equal `the number of lines of selected text` should not matter.
+22415|`revealRange` is the way to go on this.
+22416|Our JavaScript grammar is actually a TypeScript grammar and maintained by the TypeScript team.
+22417|Wow!
+22418|@chrisdias They will be _at least_ daily. Many days they will be built multiple times. Maybe a different phrase that indicates this?
+22419|@ericchan1336 Can you add a screenshot?
+22420|"Code installs the latest compatible version. Compatibility is described using [semver ranges](https://github.com/npm/node-semver), specified in the `engines.vscode` field of the extension's `package.json`.  Let me pick up your example. Imagine the following Acme releases:  | Version | `""engines.vscode""` | | --- | --- | | 1.0.0 | ^0.10.3 | | 1.7.0 | ^0.10.10 | | 2.0.0 | ^1.0.0 | | 2.1.0 | ^1.1.0 |  Code 0.10.10 will install version 1.7.0. Code 1.0.0 will install 2.0.0. Code 1.4.0 will install 2.1.0."
+22421|The language indicated in the bottom right is 'JavaScript'.  I'm afraid I resolved the conflict, so no, I cannot share in textual form.  I thought this was a bug because I thought I had seen your product colour blocks green and red when outside of a comment.
+22422|@alexandrudima can you clarify how to test this? and if it is platform independent why do we have 3 testers assigned?
+22423|Very interesting...  Are your systems managed by some corporate network?
+22424|Current word madness.
+22425|407 means your proxy requires authentication. You can specify that in the `http.proxy` configuration setting by using the following format: `http://USER:PASSWORD@proxyurl/`
+22426|OK, I understand, thank you.
+22427|What you wanna do is to [register your action as a workbench action](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/git/browser/gitActions.contribution.ts#L473). The `SyncActionDescriptor` even [supports specifying default keybindings for it](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/git/browser/gitWorkbenchContributions.ts#L474), if that is what you mean. But I think we can simply make the action available as a global command with that initial registration leaving the keybinding up to user to configure in the `keybindings.json` file... similar to all other git actions. What do you think?
+22428|![aaaa](https://cloud.githubusercontent.com/assets/54468/15496354/4ab4612e-21c7-11e6-93e8-c822cab3f984.gif)
+22429|I like that very much.
+22430|Closing as duplicate of #2465
+22431|Ok, figured it out, markdown was the only mode that completely disables auto-suggest. After discussion with @bpasero we've reached the conclusion that this is not good and markdown should behave like all the rest of the modes.
+22432|Unfortunately `code` is a batch script in itself, while `nodepad` is an executable.  What are you trying to achieve here? Doesn't a simple `code .` return immediately?
+22433|We have this... the following screenshot shows that there is 1 commit yet to be pushed.  ![image](https://cloud.githubusercontent.com/assets/22350/15496488/bf0ecbea-2195-11e6-87a1-029f63d1c8e2.png)
+22434|I cannot reproduce, seems to work for me.  Was your conflicted file also moved among those commits? Can you reproduce? If so, can you provide a sample repository where I could reproduce it too?
+22435|Duplicate of #5838
+22436|This might be related to the update... since when you run `/usr/share/code/code` you are executing Electron directly. If this behaviour changed since a previous version, it wasn't on purpose.
+22437|It's a modal window, we want it to behave like that.
+22438|I had done down a similar path trying to apply [GitActions.StageAction](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/git/browser/gitActions.ts#L282) to `SyncActionDescriptor` however it was incompatible. I will try wrapping it in `GitActions.Contributions.ts` and see how that goes.  I think an unbound command would suffice, VSCode is running out of suitable shortcuts anyway :stuck_out_tongue:   If I register it as a workbench action (I assume that means it appears in the `F1` quick actions) will it automatically appear in keybindings.json in the commented section which shows unbound actions?  Thanks for the help :smile:
+22439|Strange... does it repro after a restart?
+22440|Uh.
+22441|Yes it will!
+22442|cc @isidorn
+22443|"and on save i got a conflict warning which makes me believe that we make those modifications without consulting the editor model  <img width=""997"" alt=""screen shot 2016-05-24 at 10 30 57"" src=""https://cloud.githubusercontent.com/assets/1794099/15497355/a8eea600-219a-11e6-9df1-1f564658efb7.png"">"
+22444|Won't happen. Different versions are in different paths for multiple reasons.  If you need a shared space, feel free to create a folder in a place the user owns, eg: `~/.vscode-myextension`.
+22445|Joao moved the workbench code and we haven't received any translations back so far. Closing since it will be fixed with the next translation drop.
+22446|Note that vscode is not a real node_module. You can only present in the context of VSCode. We have a special test runner that first starts VSCode and then runs your test inside the extension host.  https://github.com/Microsoft/vscode/blob/master/scripts/test-integration.sh shows how to run such tests on a CI build. This requires, however, VSCode being present on the machine running the tests.
+22447|Makes sense that we should support this since we have the reverse functionality already there. However this is currently not high on our feature list, so a PR would be welcome 🙂
+22448|What path did you exactly add to your `PATH` variable?
+22449|This issue was moved to Microsoft/TypeScript#8777
+22450|@bpasero [BrowserWindows](https://github.com/electron/electron/blob/master/docs/api/browser-window.md) seem to support passing this option `directWrite` on creation. Can we make a setting out of this?
+22451|Code runs `git status` often in order to figure out what the status of the repository is. `git status` touches the `gitignore` file, just because.
+22452|I would say this is impossible today given our process architecture.
+22453|Dups #981
+22454|https://github.com/Microsoft/vscode/issues/1097
+22455|Though it might be just me since now I noticed that the --uninstall-extension and others are also case sensitive so it might be obvious
+22456|Yes, you cannot run the integration tests via gulp, please follow the instructions: http://code.visualstudio.com/docs/extensions/testing-extensions#_running-tests-automatically-on-travis-ci-build-machines
+22457|Yes, I was expecting this to work like that.
+22458|Are you sure that this only started happening between Code's and the extension's installation?  Code doesn't mess with the MRU list... it simply adds itself as an editor of `ps1` files. Windows seems to change the MRU list for some reasone...
+22459|Good call. The problem was with the EditorConfig extension and the issue is being tracked [here](https://github.com/editorconfig/editorconfig-vscode/issues/51). I'll keep my extensions in mind next time I notice a problem and try running vanilla first before reporting an issue. Thanks.
+22460|`--uninstall-extension foo.bar --uninstall-extension monkey.baboon` works.
+22461|Popup menus freeze the UI, the same way alert boxes do. It's just how they are implemented in Electron.
+22462|This is OK. The application will still be updated if there is an update in this situation.
+22463|Duplicate of #6730.
+22464|"At best, we could implement it as   `code --install-extension ""ext1 ext2""`  Since parameterised arguments only take one parameter."
+22465|Hi  I am trying to run and debug a simple C++ program but I keep getting this same error. ![image](https://cloud.githubusercontent.com/assets/5388540/15498003/0bc761ca-21bb-11e6-978d-55b5b5e4aa93.png)
+22466|Duplicate of #6347
+22467|Some people seem to not be able to install this one... strange.  For now, as a workaround, install it on another machine and copy the extension's folder over.
+22468|If you open a Terminal, what do you get with the following commands?  ``` which git echo $PATH ```  Does it make a difference if you launch it with a double click in FInder or via the command line with `code`?
+22469|Easy, tiger.
+22470|Nah, this is just the placeholder text. It doesn't repro once you start typing. Someone files this one every 3 months.
+22471|Duplicate of #780.
+22472|"I am trying to end Command Window bloat when I'm editing files. I want to open a command terminal to start VS Code and then close the command window once Code is open.    For instance, I have full VS running, and want to edit the same solution in VSCode, I press Ctrl+Alt+Space (my key-binding for opening command terminals in full VS.) Then I want to type in some command to open VS Code at the current location, and close the newly opened command window. Note: If I type `code .` and press enter, code will open, and hijack the focus, so I can't type `exit` immediately which means I have to navigate back to the opening command window to type an 'exit' command.  I have found that I can get the desired behaviour if I change LINE 5 of the `code.cmd` file to:  ```  start` """" ""%~dp0..\Code.exe"" ""%~dp0..\resources\\app\\out\\cli.js"" %* ```  I can then type `code . && exit` to get the desired behaviour.   I'm not a batch script expert, so I don't really understand the consequences of starting code using `start` versus `call`. No doubt it has consequences."
+22473|The thing is... there is a main process which spawns the renderer processes. There are no multiple instances but always one. When you try launching a second one, it simply communicates to the first, which launches a new renderer. Very hard to control the environment of that new renderer process, not even sure whether we can do it. @bpasero ?
+22474|oh, `-` is for sure nowhere a word
+22475|Duplicate of #1033, fixed already.
+22476|Hi @saml! Thanks for your contribution! Unfortunately, it fell through the cracks and I failed to look into it... Fortunately, and coincidentally, this month we fixed the issue in another way in #1033.  Sorry for not paying more attention, my fault.
+22477|We would probably have to copy the contents of the environment from the second launch into the process object for the new window that opens. However the more we move processes into the shared process, this environment would get lost. But it should work for the extension host and processes we fork from the renderer in general.
+22478|Yeah, the selection algorithm is selecting the empty string as the current word for sure.
+22479|@jrieken thanks. I opened https://github.com/Microsoft/TypeScript/issues/8778 to track this in TS land.
+22480|Same for handlebars btw.
+22481|@sushovannits please report the issue at: https://github.com/Microsoft/vscppsamples/issues/28
+22482|Me neither... it is truly a dark craft...  We can explore using `start` instead of `call`... see what breaks in there.
+22483|@v-pavanp please file separate issues for eslint and tslint in the following GitHub repositories:  https://github.com/Microsoft/vscode-eslint https://github.com/Microsoft/vscode-tslint  Thanks.
+22484|Exactly. Extension gallery is an official product _thing_ only. I wanna change this. cc @chrisdias
+22485|Just not sure if electron's api allows us to specify a different env for each renderer, upon creation.
+22486|More info in #6274
+22487|Duplicate of #3464
+22488|Closing the issue, since there seems to be nothing we can do in code. Workarounds and fixes found in comments.
+22489|The sorting is actually done in the UI.
+22490|Merging with #637
+22491|@cc5zhenhua  I can't reproduce this with my project. Can you share the TypeScript based nodejs project you are seeing this in.
+22492|Great.   After very cursory research [here](http://stackoverflow.com/questions/13257571/call-command-vs-start-with-wait-option), it appears that there is very little difference between `CALL` and `START` when initializing EXEs, and the differences only become relevant when starting (other) batch files.
+22493|https://github.com/Microsoft/vscode/issues/1865
+22494|What do you get when running the following command?  ``` $SHELL -ilc env ```  Are you sure Code is not running when launching it from the GUI?
+22495|Please either uninstall the old git, put the latest git ahead in your `PATH` variable or simply tell Code where your latest git is installed via the `git.path` configuration setting.
+22496|We've long decided to have lexicographic sorting for everything.  cc @jrieken
+22497|What are your credential files names, in `~/.ssh`?
+22498|This is a great contribution, wanna give it a try?
+22499|Do you have many active changes? How many?
+22500|Either disable auto fetch using the configuration setting, use SSH for authentication or properly configure [a credential manager](https://help.github.com/articles/caching-your-github-password-in-git/#platform-all).

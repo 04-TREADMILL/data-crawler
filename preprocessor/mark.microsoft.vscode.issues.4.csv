@@ -1,0 +1,100 @@
+301|no responding|-1|0
+302|"[Handlebars/HTMLBars/Ember] For block components `as` and `|` are not parameters"|0|0
+303|High DPI scaling for UI or settings for UI addition|0|0
+304|Update css at-rule support for auto-complete|0|0
+305|Support tilde character (~) in Razor links|0|0
+306|Debugger is not working|-1|0
+307|Text selection cursor is visible when mousing over the git icon in the status bar|-1|0
+308|Use default cursor for .git-statusbar-item|0|0
+309|Proposal: Add support for bash/sh file type|0|0
+310|Allow to create multiple files at once from the command line with glob patterns|1|0
+311|target not support ES7 in jsconfig.json file|-1|0
+312|Find and replace with regex on does not allow replacing with \n|-1|0
+313|Find does not match multi-line regex strings|-1|0
+314|Enable regex's ^, $ and ^$ to be matched in file dialog|0|0
+315|CSS frequency unit capitalization is not to spec|-1|0
+316|Fix CSS frequency capitalization|1|0
+317|debugService should move into electron-browser namespace|0|0
+318|Should ES6 be the JavaScript Default?|0|0
+319|Error installing extensions|-1|0
+320|Support HTML aria attribute completion|0|0
+321|Remove npm install from csharp-o compilation|-1|0
+322|loader.js - some few Utilities changement|0|0
+323|[html] Add documentationLabel's to HTML tags|1|0
+324|Implement soft text wrapping|1|0
+325|Extension Cannot be installed|-1|0
+326|Dead link on https://code.visualstudio.com/docs/extensions/patterns-and-principles|-1|0
+327|Inserting electric char doesn't replace selected text|-1|0
+328|Feature: allow editing the taskSampleConfig file|1|0
+329|Portable version!|1|1
+330|Line breaking around Chinese and Japanese characters are still incorrect|-1|0
+331|Replace all doesn't replace everything|-1|0
+332|Close button doesn't close the file|-1|0
+333|Make sure not each provider registers a support|0|0
+334|Permanently assign file type to new extensions|1|0
+335|Slow startup / crashes - unusable|-1|0
+336|When creating a delayer add it to delayers set|1|0
+337|JavaScript: Enable ES6 by Default|1|0
+338|IntelliSense won't work for C#|-1|0
+339|Built emmet plugin|1|0
+340|Browse the Gallery command windows always disappear when clicked somewhere else|-1|0
+341|Use auth tokens for downloading omnisharp builds from GitHub|1|0
+342|SUGGESTION: Add Duplicate File to the Context Menu|1|0
+343|Running from source, missing dependency 'run-in-terminal'|0|0
+344|Format code in xml|0|0
+345|Editing a simple C# program always shows errors (despite compiling fine)|-1|0
+346|Visual Studio Code deleting content of git submodules inside a git project|-1|0
+347|Support workspace extensions|1|0
+348|Wrong indentation of block comments.|-1
+349|TypeScript syntax highlighting wrong after decorator|-1|0
+350|Should collapse xml elements|1|0
+351|move pulling omnisharp into another script so that it doesn't run whe…|0|0
+352|"'No best common type exists among return expressions.' in function that returns either ""new Promise"" or ""Promise.reject"""|-1|0
+353|Save on focus lost|1|0
+354|Error from the plugin host: write EPIPE|-1|0
+355|Linux: WatcherService consumes 100% cpu on large folder|-1|0
+356|Flicker when use Chinese IME for the first character|-1|0
+357|wiki: npm global install requires sudo on *nix|-1|0
+358|Allow to diff dirty files to their version on disk|1|0
+359|Window snaps to top left corner when trying to maximize|-1|0
+360|Issue when with multiple code lens provider for the same model|-1|0
+361|Facing problem writing definitely typed file.|-1|0
+362|"""Flipped cursor"" is a Windows cursor, even when running VS Code on OS X"|0|0
+363|Add HTML aria attribute autocomplete|1|0
+364|Extension process makes Macbook Air fan goes crazy!|-1|-1
+365|Allow developers create custom main menu items from extensions.|1|0
+366|"Get ""Activating extension `.test`"" failed error upon running the Hello World extension example"|-1|0
+367|Allow detachable multiple windows on the same workspace|1|0
+368|launch.json resetting its content to default after debugging session|-1|0
+369|IntelliSense text doesn’t wrap / gets cut off|-1|0
+370|Error when trying to debug (f# on mono on OS X)|-1|0
+371|Mac: File -> Open should open in new window|0|0
+372|Program hangs after update|-1|0
+373|Expose FILE_SAVING event to extensions|1|0
+374|[Info] pop ups while writing code in Visual Studio Code|0|0
+375|[html] intellisense should be more context aware|1|0
+376|Git current branch status indicator show hash instead of name|0|0
+377|OutputChannel.hide throws error|-1|0
+378|Code --help should show usage|0|0
+379|Error when trying to save to root of drive|-1|0
+380|Markdown preview does not handle links with parentheses|-1|0
+381|Should allow adjusting font weight|1|0
+382|Included some C# Keywords|0|0
+383|Feature request: go to required file from require() statement|1|0
+384|Feature request: in the file open shortcut, support substring searching|1|0
+385|Do not mkdir if saving to drive root (fixes #379)|0|0
+386|What is the compatibility of Razor with VSCode and Intellisense?|0|0
+387|git doesn't work on windows/mingw64|-1|0
+388|Please add i18n support.|1|0
+389|Please add more file encodings like GBK|1|0
+390|Proposal: Extension auto update|1|0
+391|Open in terminal should open new terminal window|0|0
+392|wiki url can't open|-1|0
+393|Auto Intelisense for C#|1|0
+394|VScode is no longer responding|-1|0
+395|Omnisharp times out when getting started|-1|0
+396|Add support for opening multiple project folders in same window|1|0
+397|Feature Request: add a Structure Inspector for TS, JS|1|0
+398|Noupdate|0|0
+399|[c++] c++11 raw strings not highlighted properly|-1|0
+400|IWorkbenchEditorService dependency for MainThreadOutputService|0|0

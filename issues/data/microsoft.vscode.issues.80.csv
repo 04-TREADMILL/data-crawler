@@ -1,0 +1,100 @@
+7901|Big Error
+7902|Pressing tab in a PHP file inserts an XML tag
+7903|Setting variable value results in a changed value highlight on next step
+7904|Crash/not responding after Filesearch in big Project
+7905|cannot use placeholder such as {{file}} in gulpfile
+7906|Editor hover is easily lost in editor content
+7907|problemMatcher vs zero-based column values
+7908|Monaco: Plans for publishing to Bower?
+7909|tsconfig : make the module resolution explicit
+7910|UX meeting agenda 22 June 2016
+7911|case of colorization error with inline string template
+7912|[Idea] Cursor animations
+7913|Default settings: Incorrect type for the property ``markdown.styles``
+7914|Added order to snippet tab stops
+7915|Support for Emmet preferences and syntaxProfiles
+7916|VSCode never starts the second time
+7917|Performance degradation in a few minutes
+7918|Support `-r` flag when combined with `-w`
+7919|OSX: Automatically close (non-project) windows when their last editor is closed
+7920|(Nightly) Lose ability to open side panel after opening an extension from the new extensions panel
+7921|Close panel 'x' button should be a minimize button '_'
+7922|Highlighting for string type in generic
+7923|Array.concat
+7924|Add files to Recent Files list when brought in via DND
+7925|VSCode doesn't run the Node.js program
+7926|intellisense doesnt work on osx
+7927|[Clojure] Fix regexp_escaped_char rule with double slash precedence
+7928|@notoriousFF high CPU use after some time
+7929|Fix endLine parameter in problem matchers
+7930|Debugging hangs for a powershell script containing git commands.
+7931|An option to disable current line highlight.
+7932|When word wrap is disabled text still wraps until word wrap is toggled on and off again
+7933|openssh-askpass keeps poping up
+7934|Test: Markdown extension
+7935|Extensions viewlet: search input looks different compared to others
+7936|Multiple copies of the same file being opened with different paths
+7937|DND is broken when using Linux VMs (parallels)
+7938|File > Close Editor with no open file, closes VS Code (crash?)
+7939|Linux: watcher can produce ENOSPC when too many handles open
+7940|Images do not show updated when changed on disk
+7941|Visual Studio Code type definition for string lacks methods such as startsWith
+7942|A reload or restart option could be great.
+7943|Why is there a line here?
+7944|Extensions viewlet: add some in-progress hint for update
+7945|Cannot read property 'id' of undefined (shell.ts:411)
+7946|With hungarian layout '\' cannot be entered to the the nested terminal
+7947|No keyboard shortcut to open extensions viewlet
+7948|Extensions icon might need polish
+7949|With tabs enabled, cannot view the active tab's file path without using mouse
+7950|Treating extensions description editor as regular editors?
+7951|Clear button not visible enough
+7952|Problems with git commands and vscode
+7953|Install button in extension header too small
+7954|Uninstall button color blends too much in extensions header background
+7955|Not possible to install / uninstall extension via keyboard
+7956|Screen reader support missing in extensions viewlet
+7957|Extensions Viewlet: Don't see extension's icon on Windows
+7958|Extensions: where is progress?
+7959|Scrollbar out of style for extension descriptions
+7960|Clicking on a markdown preview does not set focus on editor
+7961|Feedback that a restart is required is missing
+7962|Install the extension marketplace story needs update
+7963|Key binding error or docs... or operator...?
+7964|[question]: Can HTML previews fetch/XHR content from virtual document URIs?
+7965|Close/Dirty button on tabs is not centered nicely on Windows/Linux
+7966|Prevent link clicking in extension markdown editor
+7967|Bring back extension telemetry events
+7968|Native input box out of style from the rest of vscode
+7969|Add installs, ratings to extension viewlet list
+7970|fix 'shaddow' typo
+7971|Errors in console while browsing extension descriptions
+7972|Duplicate definition of searchQuery module
+7973|Hover obscures previous code
+7974|Update extension button doesn't disable when clicked
+7975|Uninstalling an extension only removes latest version of that extension
+7976|Improve tab overflow UX
+7977|Installing the extension via command line does not update extension viewlet
+7978|Git integration fails to see merged file as staged if I reject all incoming edits
+7979|Show 'no installed extensions' affordance
+7980|SideBySideEditorControl: can not read property done of undefined
+7981|Signature help binding?
+7982|Git diff: sometimes the left hand side of the diff shows up as empty
+7983|terminal 中文显示有误
+7984|Update button weridly cut off
+7985|The error and warning list increments with the same items after every typing.
+7986|1.2.1 can't input chinese
+7987|Support cygwin git
+7988|Type script syntax highlighting error
+7989|[razor] @addTagHelper should get syntax highlighting like @using
+7990|Integrated Terminal crashes on startup
+7991|Issue with font color when using terminal and ssh connection
+7992|contentText for before & after decorations does not always appear
+7993|Cannot read file error after uninstalling extension
+7994|documentationLabel does not accept carriage return
+7995|Visual Studio Code Opens Too Many Processes(Instances) Of Itself
+7996|Holding alt to put multiple cursors with full screen and hidden menu also pops down the menu
+7997|Buttons are cropped on the files save confirmation dialog while quitting VS Code
+7998|Close dirty editors: Provide fast action to save all or revert all
+7999|Markdown: contribute snippets to standalone
+8000|Add telemetry to create new terminal instance

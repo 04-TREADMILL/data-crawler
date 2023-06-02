@@ -1,0 +1,100 @@
+7701|EACCES on temporary socket
+7702|CJK font
+7703|if define MACRO, c++ Syntax colorization and  highlighting is error
+7704|[problems view] align UI with other views
+7705|Auto Save isn't working anymore
+7706|Support moving to next/previous change in editor view, without opening inline changes view
+7707|property functions being flagged as invalid code in js files
+7708|Failed to execute git on project folders which are not git repos
+7709|Weird snippets suggested before obvious ones
+7710|Search Panel UX: Allow keyboard-only show result without moving focus
+7711|error when stepping through read-only (inlined) contents
+7712|Key bindings bug when multiple keyboards layouts configured in OS
+7713|Current open file changes without any action
+7714|Markdown extension: Embedded complex html not correctly tokenized
+7715|VSCode slow in scrolling
+7716|Integrated terminal does not launch when project folder contains special/unicode characters
+7717|Can‘t preview .rst file
+7718|Custom language file association doesn't work in GIT tab
+7719|[json] Referencing **local** JSON schema from another local schema
+7720|Consider making Open dialog start from folder of current file
+7721|Multiple integrated terminal UX
+7722|constantly getting error
+7723|UI support for TimeTravel Debugging
+7724|Run optimize-vscode in Travis CI
+7725|Terminal never works when trying to change a theme.
+7726|Need a provision to switch back to editor from terminal & vice-versa.
+7727|change prefix of action variables to 'command'
+7728|Custom theme: line number background color or border
+7729|ctr+c isn't working in command prompt opend in VSCode
+7730|VSC high CPU usage on startup.
+7731|Intellisense dialogue for signature help is smaller then the text
+7732|Code panes crashing
+7733|Add UI for editing variables
+7734|Unable to debug TypeScript project after VSCode update.
+7735|Clicking in focuses on terminal if terminal was focused when clicked out
+7736|When dragging a tab, Mouse cursor changes to a weird shape.
+7737|[scss] Undesirable behavior when pressing enter after completing a Sass (SCSS) statement
+7738|Clicking on the blank (unlinked) area of a code lens line should focus and move the cursor
+7739|How to debug async/await function of ES7 in vccode debugger?
+7740|can't delete asar file
+7741|C# syntax not working as expected
+7742|JavaScript syntax not working as expected
+7743|Some suggestions missing in css, less, sass
+7744|"""explorer.openEditors.visible"":0 does not hide the ""Open editors"" pane"
+7745|Debugger controls overlay tabs
+7746|[css] Support <angle> units icon in CSS
+7747|Runaway socket files
+7748|Better support for the functional icon(color picker, etc.)
+7749|[folding] Code Folding might be having a bug
+7750|Create new file - default to LF, not CRLF
+7751|Cmd + 2 action is not splitting the editor when tabs is active
+7752|Search in File dialog cannot handle large strings
+7753|Debugger stopped working after upgrading vscode to Version 1.2.1
+7754|Deleting unsaved page doesn't close the editing window
+7755|Toggle integrated Terminal shotcut does not work
+7756|Default Keyboard Shortcuts file has dup key conflict
+7757|Project Management
+7758|Overview ruler : breaks on continuous lines
+7759|Terribly Slow At Linux
+7760|Text blur
+7761|Long Text longer than 10000 letters wrapped with [...]
+7762|Warnings showing up from a file with a number?
+7763|Display viewlet temporarily on mouseover
+7764|Hover is too small when editor is too narrow
+7765|Markdown: code preview styling needs polish
+7766|[scss] validation doesn't disable
+7767|"""scss.validate"" - Docs differs from Default Settings"
+7768|Markdown: lost ability to provide custom CSS to use for styling?
+7769|HTMLPart to survive restarts?
+7770|Open Editors view is not assigning truly unique ids?
+7771|Weird state with editors
+7772|JavaScript syntax highlighting seems to break w/ ternary operators
+7773|Latest gulp-tsb build behaviour is bad when pulling in many changes
+7774|Italic markup style color should not be applied in markdown
+7775|"Drag and drop from Explorer onto VS Code multiple times resulted in ""associated text model is undefined"" error."
+7776|Drag and drop from Explorer onto VS Code sometimes doesn't work
+7777|Request: VS Code Help>About text should be selectable or auto-copy to clipboard useful info for filing an issue.
+7778|List content in markdown should not be styled
+7779|Switching branches results in spurious TypeScript errors
+7780|/usr/bin/code not linked when doing rpm upgrade
+7781|Is it possible to link typescript interfaces to JSON files?
+7782|Intellisense breaks if not suppying null for optional parameters
+7783|Markdown plugins
+7784|Add rule typescript.format.insertSpaceAfterOpeningAndBeforeClosingNamedImport
+7785|Ionic-2 Visual Code Project - Debugging/Buid Errors
+7786|Typing performance is laggy for long sentence with hyperlinks
+7787|VS Code should not hijack svg OS file association
+7788|Symbol & Text may fuzz and unclear
+7789|Emmet: Support to wrap with abbreviation
+7790|Abort on running script on intregrated terminal does not respond.
+7791|"""scss.lint.unknownProperties"" : ""ignore"" does not work on latest insiders build"
+7792|Feedback
+7793|Fix dom.getRelativeTop
+7794|Add shortcut command for show type/signature
+7795|[TypeScript]: Need to (F12/Goto definition) twice on destructured imports to get to actual definition
+7796|Set variable should show an error in a nice way
+7797|Hide GIT Button
+7798|Drag the selected contents
+7799|open terminal view (ctrl-j) after exiting the previous session with exit command, will fail
+7800|Editor DND with split support

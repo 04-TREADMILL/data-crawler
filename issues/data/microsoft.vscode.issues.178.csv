@@ -1,0 +1,100 @@
+17701|[This fix is not correct and elegant, please ignore it] Fix #17660: Wrong edt order in action bar guide
+17702|VSCode URI scheme
+17703|Save on focus out doesn't work for new files
+17704|Question regarding interoperability with an external C# service
+17705|Code Works very slow with large JSON files
+17706|FullScreen and mouse hover on debian jessie 8.6
+17707|Cannot set break point from the sidebar
+17708|[make] Could you add *.mk file extension to be highlighted as a Makefile into default VS Code distribution?
+17709|Word wrap only in Markdown files
+17710|Don't Show TSC Version Warning When Editing JS Files
+17711|Opening command palette doesn't work when go to file palette is open
+17712|Vertically split code editor and integrated terminal
+17713|Handle errors from debug adapter when fetching sources
+17714|Code Helper is spiking to 100% CPU usage
+17715|vim stops working
+17716|Performance issue trying to handle JSON files >500kb
+17717|alt+click on directory should recursively collapse directories
+17718|Save new file without extension fails
+17719|[jade] Adaptation of autoClosingPairs and surroundingPairs for Jade extension
+17720|Auto Complete doesn't suggest snippets with TM_SELECTED_TEXT when selecting text.
+17721|Scrolling issues with precision touchpad.
+17722|Add Git Autocomplete to terminal
+17723|Save Dialogues Show Up Before Editor Switch
+17724|"Diff editor ""revert selected lines"""
+17725|"Fix #17750 - Implement ""revert selected lines"""
+17726|Check if terminal cwd exists and is directory
+17727|"Broken keyboard shortcut ""shift+cmd+e"" on OS X El Capitan"
+17728|Intra-document links in extension Readme are broken.
+17729|Fix #15343 - Add `git commit --amend`
+17730|"lines like "" float depth = -0.00fg1f;"" are not generating obvious syntax errors"
+17731|cannot find command workbench.action.tasks.runTask/taskName
+17732|How to debug vscode with specific language configuration?
+17733|How to inspect Command Palette?
+17734|#14464 Preserve editor size when switching layout
+17735|[Feature Request] The command palette doesn't support Ctrl-n/Ctrl-p key binding for navigation.
+17736|PHP 7.X.X SUPPORT
+17737|Integration Tests of an extension test are failing
+17738|Typing a closing curly brace in my code indents it
+17739|Hover for method signatures too aggressive
+17740|Editor scrolls to the top of the page when switching files
+17741|WorkspaceConfiguration.update doesn't works inside deactivate method
+17742|code --install-extension someext.vsix gives an exception, If the extension is already installed.
+17743|Feature Request: Save language set on hot exit
+17744|Import intellisense bug for some packages
+17745|Add support for heading labels in completion list
+17746|Copy/Cut and Paste are broken
+17747|VS Code allows external file changes to overwrite current file state
+17748|Workbench screen cheese
+17749|Make the space for tabs configurable (min, max, normal)
+17750|openFolderButton code duplication
+17751|Directory tree indent guides in File Explorer
+17752|提交失败
+17753|Files don't open on double click
+17754|Insert snippet via keybinding
+17755|User Defined Snippets not working
+17756|Add a close button to conditional breakpoint UI
+17757|Could not read project.json, please try again.
+17758|Keyword exception is not highlighted for F# files
+17759|With multiple cursors, autocompletion suggests what you're already typing
+17760|[Proxy] Use the same service for exploring extensions and for installing them
+17761|Markdown Incorrect Colorization of Fenced Code Blocks
+17762|EveryThing Is Good Except Live Preview
+17763|Ctrl+F2 have some wrong
+17764|Telemetry questions
+17765|[Feature Request]: if we can support paste file or folder which copied from Desktop
+17766|Theme Dark+ (default dark) syntax highlight error
+17767|Opening from CLI (code <file>) opens last session without new file on fresh start
+17768|TypeScript realtime lint for all files
+17769|[Feature Request]: Filters
+17770|Intellisense suggestions are awful. Unintuitive ordering, poor completions, and tons of irrelevant snippets.
+17771|tasks.json config g++ occur error: no input files in vscode
+17772|Wrong path when opening integrated terminal
+17773|Allow to preview theme on mouse hover
+17774|Drag and drop text from another app
+17775|"Building via ""gulp watch-client"" errors"
+17776|Convert width of space indentation
+17777|Python console prints
+17778|Error: Debug adapter process has terminated unexpectedly
+17779|Launch Extension Multiple Times
+17780|Switched to Unsaved tab Upon Prompt #17552
+17781|Crash in extension reading configuration values on startup
+17782|markdown preview 无 scroll bar
+17783|Disable first start browser opening
+17784|Hot Exit Can't undo change
+17785|Code editor becomes unresponsive after updating some extension. Reload works after trying to close window. Then dialog becomes visible.
+17786|node.dll is out of date
+17787|https://code.visualstudio.com/ completely blocked in china now
+17788|Editor viewport should scroll when multiple cursors are going off screen
+17789|"Keyboard shortcuts for ""Copy line down/up"" doesn't work in ubuntu 16.04"
+17790|Update the issue guidelines with the new support for disabling extensions
+17791|Cython extension issue, under Ubuntu only.
+17792|Refresh button in search
+17793|VS code suddenly stopped generating .js after .ts changes. 2 hours have gone, still can't figure out why.
+17794|Update the f# grammar
+17795|[snippets] Support for regular expressions with Snippet Variables
+17796|[Feature Request] Add grouped by folder view to git
+17797|Will vscode support vue.js component file?
+17798|[css] boxModel rule not respecting box-sizing property
+17799|"Please do NOT autocomplete the TypeScript module name when "".."" is typed."
+17800|#17605  should not be closed!

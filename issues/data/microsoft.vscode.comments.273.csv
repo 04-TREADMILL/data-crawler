@@ -1,0 +1,100 @@
+27201|"and FWIW, on my home system, doing  process.env.PATH   in the developer tools results in:  process.env.PATH ""/usr/local/heroku/bin:/Users/john/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin""  which looks like my home system is doing the right thing..."
+27202|I will look into it more and get back to you.
+27203|"Even if we go with ""item"" instead of ""file"" and don't change ""editor"" to ""editorgroup"" that only saves 8 breaking changes (ex. focusFirstEditor, etc). Given that ""editor"" doesn't show up often in the UI, ""editor"" is probably fine and accurate enough (ignoring readonly cases).  We'll need to be careful to correctly call out ""editor"" and ""editor groups"" in commands and try to leave other commands generic (for example: I think we should change ""Keep Editor"" to ""Keep Open"" https://github.com/Microsoft/vscode/issues/8026)."
+27204|I'm running into the same error. I can git push from the command line, but can't through VS Code. I get the following error:  > Please make sure you have the correct access rights > and the repository exists.  I downloaded and installed the credential helper then tried both: `git config credential.helper cache` as well as  `git config credential.helper store` but still doesn't work.  ps. I'm using version 1.2.1  Thanks a lot for your support.
+27205|I can repro this with some other debug adapter too.
+27206|By analyzing the blame information on this pull request, we identified @dbaeumer and @egamma to be potential reviewers
+27207|Hi **@paulvanbrenk**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (Paul van Brenk). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+27208|@dbaeumer the 2nd one.
+27209|@bpasero I haven't had any crashes in the past few days either, just like @tjsail33. So I'm not sure if something in one of the updates had fixed the issue or not. When it was happening in was not just one particular file or file type that was causing it to crash. If it happens again, I'll report back.  I'll leave it to you as to whether you want to close this issue or not, I'm fine either way.
+27210|"Creating a symlink fixes the issue to run vscode in a cygwin (babun) open a cmd prompt and use the following command: mklink /j ""W:\cygdrive"" C:\actual\path\to\your\cygdrive  posted solution on stackoverflow : http://stackoverflow.com/questions/36508177/visual-studio-code-cannot-detect-cygwin-git-exe-path/37980938#37980938"
+27211|@profabe can you open dev tools (Help > Toggle Developer Tools) and check for any errors in the console?
+27212|Duplicate of https://github.com/Microsoft/vscode/issues/7062
+27213|Duplicate of https://github.com/Microsoft/vscode/issues/7556
+27214|you can use the extension ‘Align’
+27215|If I remember correctly, since the first edition is such.
+27216|+1, our icon set needs a champion that owns and fixes them. I would add on top that I was never a big fan of the icons we use in the activity bar...
+27217|@dilijev well, that depends. would you expect the recent files to be updated when you click on a file in the explorer? or from a quick open search?
+27218|View > Toggle Sidebar
+27219|@prashid are you using the terminal a lot?
+27220|Sure, lets reopen when you see it again.
+27221|Actually maybe we could register all the old command ids and just show a message to the user telling him the new identifier of this command!
+27222|Possibly a duplicate of #8023
+27223|Great! Something like that is what I had in mind :+1:
+27224|@bpasero what in particular about the activity bar icons; size, style?
+27225|@Tyriar many thanks for your quick response. Please see this screenshot. ![capture](https://cloud.githubusercontent.com/assets/7761828/16292646/b6cf8b3c-3913-11e6-82e5-f9c03ed88c4a.PNG)
+27226|Errors occur when opening the extension manager. I reinstalled jshint. And updated the Code to version from 23.06.16. After that, the error is not repeated. ![2016-06-23_08h29_07](https://cloud.githubusercontent.com/assets/3082812/16292711/b1e295a2-391c-11e6-884d-ebf3a3cf31cf.png)
+27227|Yeah, activity bar could be smaller imho for what it provides. Basically all icons we use are pretty much 4 years old I would say, a general face lift might be cool to bring them all in sync.
+27228|@Rigg802 It works. Thanks a lot.
+27229|Thanks for the update.
+27230|Not forgotten! #8023
+27231|"I test it in   ``` Version 1.3.0-insider Commit 2481a7dad82f8e8d105c5329b4b6f20e15e9b27c Date 2016-06-08T02:08:12.105Z Shell 0.37.6 Renderer 49.0.2623.75 Node 5.10.0 ```  and  ``` Version 1.3.0-insider Commit 5eaf9f05038b0a9818ebff510e1aafe07ac1ae68 Date 2016-06-23T05:07:59.360Z Shell 0.37.6 Renderer 49.0.2623.75 Node 5.10.0 ```  They can use ""*.ts"""
+27232|Duplicate of https://github.com/Microsoft/vscode/issues/8034
+27233|Alright, looks like the fix, then!  Thanks for all your help guys @jtsom @sr105 @wallverb, will push a fix so you'll have a working Insiders build tomorrow.
+27234|This issue was moved to Microsoft/TypeScript-TmLanguage#192
+27235|duplicate of https://github.com/Microsoft/TypeScript-TmLanguage/issues/81
+27236|It's emmet.
+27237|@gregvanl This is an ongoing discussion in #7540. Hence closing this and request to continue the discussion there.
+27238|Thanks @alrra !
+27239|@gregvanl Another usecase where user wants to toggle focus between editor and Problems view (or other views in bottom) - While fixing problems or debugging its most common to navigate between editor and views. Currently, you would need to toggle the view twice to get this.
+27240|I assume this is with Razor.
+27241|-1 for this proposal - I personally do not think it is adding value for the output and debug panel. The users are already used to the current behavior and changing that might break their muscle memory.  As Ben pointed out giving the focus to the output does not make much sense also. If you disagree then we should bring this item up on the next ux meeting.
+27242|Then it is a dup of https://github.com/Microsoft/TypeScript/issues/4526 which needs to be fixed in the TS support we use.
+27243|@paulvanbrenk thanks for the PR.
+27244|This is a TS server issues tracked here: https://github.com/Microsoft/TypeScript/issues/7762 and will be fixed in the next tsserver release.  If this is blocking for you, you can try to use the tsserver from the TS nightly build which already contains a fix for this. See https://code.visualstudio.com/docs/languages/typescript#_using-newer-typescript-versions on how to do this.
+27245|I am not a gulp expert but to my knowledge gulp doesn't replace {{file}} with a real file name. How would gulp know which file to take.  However, what you can do is to use ${file} inside the tasks.json to pass the current open file to gulp. See https://code.visualstudio.com/docs/editor/tasks#_variable-substitution for examples and which variables are available.
+27246|@beliefgp this is currently not support. If you need this, please file an feature request here https://github.com/Microsoft/TypeScript which provides JS and TS formatting for VS Code.
+27247|This issue was moved to Microsoft/TypeScript#9323
+27248|Moving to the TS team.
+27249|This issue was moved to Microsoft/TypeScript-TmLanguage#193
+27250|Actually, #7973
+27251|Definitely a duplicate.
+27252|#7995
+27253|Actually, no.
+27254|Thanks, @rebornix
+27255|They will be available once network connection is available.
+27256|Duplicate of https://github.com/Microsoft/vscode/issues/7062
+27257|ah i just mixed ${filed} with {{file}} so anyway ${file} isnt working @dbaeumer  ![](http://i.imgur.com/DpMOuqd.png) ![](http://i.imgur.com/wnvGGCr.png) see console.log result  here
+27258|my pc install https://github.com/getlantern/lantern  ,i 'm not configure proxy seetings, i fix it,but still have the occasional problem
+27259|thanks @dbaeumer  @joaomoreno
+27260|@joaomoreno hmm at the same time we looked into this issue - I pushed a font-size 16px which I prefer over the small button - feel free to revert that
+27261|You need to put the ${file} in the tasks.json file as an arg to your gulp tasks.
+27262|and inside gulp i should get the process argv then i guess right ?
+27263|@joaomoreno Do we have marketplace guy on GitHub? We've seen a lot of issues complaining the extension installation failure/slowness from China. Do they have any monitoring or reports for it? We may need some enhancement for marketplace like what people do for Windows or VS.
+27264|@dbaeumer  it doesnt work the file is passed to gulp not not to my script so gulp ties to run it as a task so thats not an option and vscode fails about gulp tasks seems while using gulp tasks tasks.json file is totally useless
+27265|i figured out i could use `--env` but its still a trick i thought if i run gulp through vscode it would auto replace all those special variables inside gulpfile
+27266|Do you have anything in your user settings.json file?  Also can you check what the `%COMSPEC%` environment variable points at?
+27267|This is blocked on https://github.com/Microsoft/vscode/issues/8038
+27268|I'll make sure they get the feedback.
+27269|@iloveyo123u1 Do you get the error when browsing for extensions or installing an extension?
+27270|"I don't work much on insider except testing new bits. Updated 1.3 and enabled Tabs. Created new project and started using Terminal to download angular with bower. Kept project opened as you see in the screen shot and left for about 30 min or more. When returned saw that error already popped up on the screen.   This issue was after tabs and may be use of terminal.  Oh and I was also playing with user settings file changing number of explorer.openEditors.visible. Making it 0 sometime.  Also deleted .vscode folder from VSCode.  {     ""editor.fontSize"": 12,     ""workbench.editor.showTabs"": true,     ""explorer.openEditors.visible"": 5,     ""explorer.autoReveal"": true }  Haven't seen that issue again."
+27271|Please see the following screenshots. ![capture2](https://cloud.githubusercontent.com/assets/7761828/16299473/ce420b38-393a-11e6-8989-3ed8ac0d034d.PNG) ![capture](https://cloud.githubusercontent.com/assets/7761828/16299475/d0f9f822-393a-11e6-9af0-9c1ccf93a3ec.PNG)
+27272|It was with Razor - I was present at the workshop ;-)
+27273|@LarryWeiss With the german keyboard, while I do have the same default keymapping configuration as you have, I get the following using your steps:  ![vscode_zoom](https://cloud.githubusercontent.com/assets/8385202/16299530/20ac9640-393b-11e6-83ee-0980e1c7877c.png)  The actual working keymapping is [Ctrl +], as advertised in the menus and the command palette.  This is imho the proper mapping for the german keyboard, since [Ctrl =] would require a very awkward shift-key combination.  Funny though as this is not what is configured in keymapping, there might be some locale-specific adjustment voodoo going on here?
+27274|https://en.wikipedia.org/wiki/Great_Firewall
+27275|Yeah  On Wed, Jun 22, 2016 at 1:38 PM, Dirk Bäumer notifications@github.com wrote:  > @bpasero https://github.com/bpasero looks like a problem with the file > system watcher under Linux. >  > — > You are receiving this because you authored the thread. > Reply to this email directly, view it on GitHub > https://github.com/Microsoft/vscode/issues/7950#issuecomment-227672630, > or mute the thread > https://github.com/notifications/unsubscribe/AKA2tvQoSRobmyQLaOGBxy4MY0zbWnhCks5qOO2WgaJpZM4I7bHZ > .
+27276|"@dbaeumer here is gist you can clone: https://gist.github.com/Ciantic/50140f189abf3e83260e6aba7cedc5ce  Clone that, open the folder in VS Code insiders, open the ""openthis.ts"", hit Ctrl+T and start typing ""globalStyles"", nothing is found. But it finds ""Something"" just fine.  **Edit** I believe someone has designed Ctrl+T this way, but I can't understand why, having exported global values in symbols would be advantageous for navigation etc. If this is implemented: https://github.com/Microsoft/TypeScript/issues/188 the Ctrl+T could be used as primary GUI for importing a selected symbol, but it can't be used if it doesn't include all symbols."
+27277|By analyzing the blame information on this pull request, we identified @egamma to be a potential reviewer
+27278|Hi **@gontadu**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+27279|I removed the trailing comma. I clicked the file's first entry in the panel and no change. I clicked the file's second entry in the panel, and that entry vanished, but the file appeared in the editor. I clicked again what is now the file's only entry in the problem panel, and no file content displays....  I can open the file in the 'workspace explorer' (the tree of all files in the workspace)
+27280|@dbaeumer Thanks! :smiley:
+27281|Different extension, the same situation.
+27282|What is inside `C:/Users/Me/.vscode/extensions`? Can you show me a screenshot of the error?
+27283|I had 2 extensions: just Python, and MagicPython. I've unistalled first extension. Now the content of the folder you asked:  C:\Users\bialix.vscode\extensions>dir /b magicstack.MagicPython-0.5.11  And after I did the command above I no longer get the error message, so I'm unable to make screenshot.  It was a window in the bottom of main editor view with the message from first topic of this issue.
+27284|"Just reproduced again (install/unistall). Icon of the extensions at the bottom left had red dot and tooltip said ""Extensions (1 issue)"". Clicking on this icon opened window with title ""Output"" and the text as quoted above. And folder with extensions had no corresponding directory. ![vscode-issue8004](https://cloud.githubusercontent.com/assets/82971/16304291/64e4fd44-395d-11e6-8b8d-21a89c62ebf4.png)"
+27285|It's `ctrl+shift+space`
+27286|This issue was moved to OmniSharp/omnisharp-roslyn#593
+27287|No longer receiving the issue anymore, but what @bialix just posted was the same error
+27288|As you can see from this gif, `ctrl+shift+space` does not work for me :/  ![signature help](https://cloud.githubusercontent.com/assets/1788218/16305313/8d6b9740-3959-11e6-84f8-35d422496a94.gif)  Can't find `ctrl+shift+space` either in the default keyboard shortcuts. Anyway if a keyboard shortcut should exist, could you provide me the corresponding command? At least I would be able to add the shortcut my self :)
+27289|Yes, it seems it can cure itself, so I guess it's related to hard disk cache or something like that.
+27290|"It also reports all is well when there is a ""next generation"" firewall doing deep packet inspection on the https connections. This prevents updates from happening automatically within some corporate environments."
+27291|Did you configure your proxy settings in the `http.proxy` configuration setting?
+27292|By analyzing the blame information on this pull request, we identified @bpasero and @egamma to be potential reviewers
+27293|Hi **@emiljas**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+27294|There is no proxy to configure. The firewall sits as the default gateway and decrypts the https traffic and resigns it with its certificate (that is issued by our domains CA that is trusted by all domain computers). It appears that vscode is either either ignoring the results because it doesn't trust the cert, or the firewall is blocking the check. I don't believe it's the firewall as the logs indicate nothing is blocked. Where does vscode look for updates?
+27295|Here are more errors:  ``` warning: unable to access 'src/app/NEW_FOLDER/folder1/.gitattributes': Permission denied Using index info to reconstruct a base tree... warning: unable to access 'src/app/NEW_FOLDER/folder2/.gitattributes': Permission denied warning: unable to access 'src/app/NEW_FOLDER/file1': Permission denied Falling back to patching base and 3-way merge... error: cannot stat 'src/app/NEW_FOLDER/file2': Permission denied error: cannot stat 'src/app/NEW_FOLDER/file3': Permission denied error: Failed to merge in the changes. Patch failed at 0006 <<COMMIT_NAME>> ```  Basically, here is what I did: 1. Had a folder earlier in  `x/y/z` 2. Moved it to `a/b` 3. Committed this. 4. Did a `git pull --rebase` 5. Failed 6. Closed vscode 7. Ran `git pull --rebase` again 8. Success
+27296|Nice thoughts! - `onDidChangeModelRawContent` - we can probably remove those immediately - `IHTMLContentElement` vs `MarkedString` - +1 - definitely something to do. But only if we eliminate `IHTMLContentElement` from our codebase. I would not go for adaptor funny business. Do you wanna do it? - the model hierarchy comes from our codebase. Things are empty because the methods are marked internal. the .d.ts is not designed, it is generated. I can probably remove a couple of interfaces in there, but yes, there is a distinction between IReadOnlyModel and IModel (probably the most useful).
+27297|`vscode-update.azurewebsites.net` is the domain it connects to.
+27298|That's probably why we haven't whitelisted it. I'll try setting: http.proxyStrictSSL first, then ask our networking team to whitelist the domain. Will report back.
+27299|Thanks!
+27300|I can look at 'IHTMLContentElement'. Probably I won't be able to eliminate it all together, but replace the occurrences in Hover and IModelDecorationOptions with MarkedString to it doesn't appear in monaco.d.ts anymore

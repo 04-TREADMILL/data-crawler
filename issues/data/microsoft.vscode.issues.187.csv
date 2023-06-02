@@ -1,0 +1,100 @@
+18601|[Bug] It automatically insert a dot in bracket if quick input 2 spaces
+18602|Copy path of the directory which contains space
+18603|feature missing: enable/disable all extensions
+18604|[decorators] :after contentText is broken
+18605|Test: window.newWindowDimensions setting
+18606|Incorrect C# comment syntax-highlighting
+18607|Suggest to provide Chinese error message
+18608|equal Extension Header Color with unselected Tab
+18609|handle doubleclick on extension for open new tab like Explorer
+18610|"The “go to definition” link will be abnormal when the id is with ""-"""
+18611|Formatting nor working properly
+18612|Add action(and ultimately a shortcut) to narrow auto suggestions by suggestion type
+18613|jump to another file doesn't work
+18614|format not working again
+18615|"Lightbulb always brings error: ""Running the contributed command:'extension.emmetMe' failed.' failed"""""
+18616|showInputBox() close instantly
+18617|[regression] Font measurements do not work in Edge
+18618|Bracket match does not scroll screen
+18619|Failed to execute 'insertRule' on 'CSSStyleSheet'
+18620|Debug: prevent breakpoints on left hand side diff editor or readonly editor
+18621|Git: entire file shows up as changed when having changes in both index and working tree
+18622|Git: bring back action to toggle between file and changes
+18623|Editor: cursor no longer blinks
+18624|Git: stale editor inputs hanging around
+18625|"Select All Occurrences (""selectHighlights"") is case insensitive"
+18626|Workspace file encoding setting is not affect
+18627|Git: renamed file is showing up weirdly
+18628|Git: hygiene check fails does not report properly when committing
+18629|Focus issues with Home/End in Autocomplete dialog
+18630|Opened Editors: Should not show twisties for group labels
+18631|Improve discoverability of panels and explore the use of tabs for switching among panels
+18632|git commit and scrolling issues in integrated terminal
+18633|Ensure 'configurationEditingService.doWriteConfiguration' flushes to disk before a window reload.
+18634|ITerminalInstance.reuseTerminal only works if terminal is still running
+18635|Git: some output in the dev console which seems weird
+18636|Merge conflicts not highlighted in editor
+18637|Git viewlet flashing like a discotheque
+18638|Git (SCM) issues in latest insiders
+18639|Multiple decorations on end of line
+18640|Opened editors: file names no longer align to explorer
+18641|Enable a repository for Debian/Suse/RedHat family
+18642|Cannot read property 'windows' of null
+18643|Test: debug inline values
+18644|Global search & replace can't match a whole line
+18645|Git: list looses selection when a refresh happens
+18646|Git/SCM: Open File/Open Change context menu items should avoid using preview tabs
+18647|Find in files no go to next/previous match by keyboard
+18648|SCM icon needs love
+18649|Git: view should also show committed changes
+18650|"did not support  <div style=""display:none;""> format"
+18651|HTMLhint now complains about Doctype, ignores .htmlhintrc
+18652|Search results nav F4 conflicts with the C++ extension
+18653|UTF-16 LE search results issues
+18654|Keep diff editors after window reload
+18655|Large amount of CompletionItems returned by CompletionItemProvider causes significant lag
+18656|List snippet
+18657|When opening a file from problem view, the file is opened again in a new tab.
+18658|Ability to show Problems view as a flat list
+18659|Extension not activated after install and activate on XUbuntu 16.04
+18660|Mac: Let Cmd+Click make the window take focus
+18661|Readonly in literal type not colorized correctly in Quite Light theme
+18662|Custom problemMatcher provided by extension
+18663|Refresh should not change focus in explorer
+18664|Search feature in the integrated terminal.
+18665|Is SCM the right messaging?
+18666|Go to Bracket should reveal new cursor position
+18667|Enable emmet customizations for preferences, profiles and snippets
+18668|Cursor for `next issue` (F8) is not reset on build.
+18669|Support line number fragment in vscode.open command
+18670|Disable Mac help topics in Help menu
+18671|function list(ctrl+shift+o) is too simple and ugly
+18672|Integrated terminal closes as soon as I attempt to open it.
+18673|Outline members of a file in a panel
+18674|"Step through ""locations"" you visited in the code"
+18675|Display one decimal place for extensions downloads in Millions
+18676|my f1 key does not work well and its shows an error when i write view in the browsers
+18677|Markdown fixes
+18678|ContentProvider, model creation and embedded resource counter
+18679|Can't copy code to Microsoft Word with style
+18680|CoffeeScript syntax highlighting break when / is used without spaces
+18681|Wishlist
+18682|Create environment variable within user/workspace settings
+18683|Cursor doesn't blink in built version of VSCode
+18684|File level search & replace won't replace with nothing (Insider build only, works in release)
+18685|Windows keybinding with REST extension
+18686|ListView fails bad with large data
+18687|"Incorrect ""There is an available update"""
+18688|Flag for changing letter-spacing
+18689|调试工具问题
+18690|Warnings in built insiders
+18691|File path case-insensitivity on Windows
+18692|Focused panel border bottom too prominent
+18693|Syntax highlighting/colorization bug for C/C++
+18694|Issue when saving - crazy identation
+18695|Allow extensions to handle launching of the debug adapter
+18696|Double ${workspaceRoot} in launch.json
+18697|Activity design for panel switcher
+18698|Adding tsconfig.json to existing Meteor project breaks Intellisense
+18699|Copy paste code does not automatically paste the imports in typescript
+18700|Provide API to open a file/folder picker from an extension

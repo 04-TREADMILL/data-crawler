@@ -1,0 +1,100 @@
+17501|For the record, it is still downloading, github's CDN is horribly slow.
+17502|That fixed it, not sure why `git clean -fxd` wasn't enough and I had to completely remove the repo and reclone it, sorry for the noise.
+17503|I'm having the same problem with my babel es6/es7 extension. The mode doesn't seem to appear anymore in the palette, looks like a regression bug
+17504|@dbaeumer Just updated to 1.0, still not working.
+17505|Agreed. But how would you suggest to navigate between both trees using the keyboard?  Perhaps `<PAGE DOWN>`/`<PAGE UP>` might do?
+17506|My icons for the dark theme. ![folder](https://cloud.githubusercontent.com/assets/18233552/14548289/e057c41a-028b-11e6-8554-4464c26a0787.png) ![folder_opened](https://cloud.githubusercontent.com/assets/18233552/14548290/e0748730-028b-11e6-9776-433d19cfc256.png) ![textfile](https://cloud.githubusercontent.com/assets/18233552/14548291/e0928744-028b-11e6-89f5-ef4c58d76320.png) ![vscode](https://cloud.githubusercontent.com/assets/18233552/14561768/ff99eb10-02ee-11e6-95c0-831352d75558.png)
+17507|Javascript and CSS highlighting inside `<script>` and `<style>` tags should be a basic feature.
+17508|Any chance that the insider builds can be made available as a zip file as well? I tried this URL and got a 404: https://code.visualstudio.com/Docs/?dv=winzip&build=insiders
+17509|"As a web developer, **Tabs** are important to me. Unlike desktop programmers (who mainly focus on single file at the time), we always switch between windows & using Mouse at the same time (e.g., Slicing an image from Photoshop, and then back to editor immediately. Or debugging in browsers, and go back to another file to do fixing). With tabs, we can navigate to target file quickly. With shortcuts, it's 2 more steps. With sidebar ""working files"", it's less space in the main code area (as we put Photoshop & Editor or browsers side by side). `Height` in editor are less necessary. You are always able to memorize few more lines, don't you?  Also, Top Tabs are better for human eyes. You can scan the top tab title and main area code at same time. But you can't read left `working files` with the main code together. Try it yourself. Furthermore, Tabs are wider, better for mouse movement. (Even you won't focus on it, it's more predictable)"
+17510|"@mattn  1. type `CTRL-SHIFT-P`  2. choose `言語を構成する` 3. apply below settings  ``` {     // Defines VSCode's display language.     // See http://go.microsoft.com/fwlink/?LinkId=761051 for a list of supported languages.     // Changing the value requires to restart VSCode.     ""locale"":""en-US"" } ```"
+17511|All commands should not be translated to locale specific commands.  ## And they should only be **English**
+17512|All commands should not be translated to locale specific commands.  ## And they should only be **English**  same #5290
+17513|FYI: duplicate of #4679, #4691, and #4696
+17514|If anyone is looking for a reference Resharper for Visual Studio does this really well.
+17515|> All commands should not be translated to locale specific commands.  I don't mind that is translated in japanese but have trouble with matching with english. I don't have strong optinion.
+17516|Hi **@hungys**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+17517|**@hungys**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+17518|[language support and change](https://code.visualstudio.com/docs/customization/locales)  surely the commands should not be translated !  OK, why not translate the Keyboard ShortCurts desc..
+17519|duplicate #4679 ?
+17520|duplicate #4679 ?
+17521|Please have this fixed.  It's **okay not to** localize anything, but it's **not okay to** localize the commands.
+17522|+1  But one restart can solve the issue, you don't need to change to zh-CN and back.
+17523|Hi **@sifue**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+17524|For workaround, you could set `editor.fontLigatures` to `true`. This workaround also solve the floating/sinking vowels in some cases.
+17525|**@sifue**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+17526|Probably,Most user would not want the localized command . I want to display the localized description next to the command .
+17527|"Sorry. I see ""// Do not edit this file. It is machine generated."". Which file I can edit to fix?"
+17528|You can file a bug on it.
+17529|I think you can assign any keybinding you want given that both commands are configurable since 1.0.
+17530|ctrl+p 输入语言 修改语言版本。
+17531|@bpasero seems like you guys might be getting on top of this one, from my perspective it seems to be getting generally better with the latest builds
+17532|Idea is to maybe use absolute positioning (or flex layout?). Potential issues I see: - accessibility with tab navigation will be broken if the order of elements in the DOM is different from the visual order - layout might flicker more if the elements moved are not in order in the DOM as visually appearing (have seen this with the panel and editor area before)
+17533|> @kurehajime  > Probably,Most user would not want the localized command . > I want to display the localized description next to the command .  @bpasero  me too. I hope strongly it.
+17534|Yes, that makes sense. Do you want me to change it?
+17535|@mquandalle changes look good! you are right, getExplorerView() will return only the explorer view, but it can return null in case you did not open a folder (just try to File > Close Folder and doubleclick on the explorer sash).
+17536|Please also look into how [fzf](https://github.com/junegunn/fzf) is implemented. It has a simpler scoring system (just plain subsequence search I believe) but it's extremely fast. It doesn't even build an index AFAIK.  FWIW this would be the killer feature that would most certainly get me to switch to VS Code. But in any case thanks for your hard work.
+17537|Steps: 1. open a file 2. Help -> Toggle Developer Tool 3. Help -> Toggle Developer Tool 4. Crash
+17538|The current thinking is that we will introduce keywords for all actions that allow you to find a command in addition to the label it has. These keywords would be english and not translated but they would not show up anywhere in the UI.
+17539|@vsccarl these changes are quite fresh, on what vscode version did you verify it?
+17540|@dzannotti The issue I had had been there ever since I updated VS Code some months ago. Back when I first installed VSC (around September 2015, give or take a month) auto-indentation and code completion worked by default. It stopped working after updating, but at the time I was busy writing code for a final exam and didn't submit a bug report. The point is, issue with python usability is not new to 1.0 version. Addition of the extensions didn't do anything at all. For python VSC is basically a bare bones text-field.  (I posted this on the other thread too dzannotti, but I meant to post here. Sorry for the double mention.)
+17541|F1 -> 语言设置 -> 修改为en-US -> 保存重启 VSCode
+17542|F1 输入 ‘配置语言’ ![image](https://cloud.githubusercontent.com/assets/7921431/14553082/3ceaeb14-0316-11e6-9a29-620ed4c0197e.png) 改为 ![image](https://cloud.githubusercontent.com/assets/7921431/14553094/57c89b2a-0316-11e6-9f22-bc7e44dd8b85.png)  保存后重启
+17543|"我知道啊。 我只是觉得这样太不友好了。中文输入很慢的。就是希望能兼容中文和英文的命令  2016-04-15   love19862003   发件人：Lonefy notifications@github.com 发送时间：2016-04-15 14:31 主题：Re: [Microsoft/vscode] vscode界面的中文改成英文 (#5298) 收件人：""Microsoft/vscode""vscode@noreply.github.com 抄送：""fanny.wu""love19862003@163.com  F1 输入 ‘配置语言’  改为  保存后重启 — You are receiving this because you commented. Reply to this email directly or view it on GitHub"
+17544|已经解决 谢谢各位  上面方法都是有效的
+17545|Other than Chrome Dev Tools? Help -> Toggle Developer Tools while debugging?
+17546|@love19862003 是啊 insider 0.10.13的时候提过，貌似vscode team目前只是提供了修改配置的方法。。
+17547|Actually it's unclear if the above is attaching to VS Code itself, or my application. The size of memory and the size of the snapshot doesn't seem to add up.
+17548|I have tried restart. but if you don't modify the locale.json, simply restartting can't resolve this issue.
+17549|Good to hear :)
+17550|How large is the file? Can you reproduce with a smaller file.
+17551|@Lonefy thanks for the translation.  I cannot reproduce on win10 given these steps.
+17552|@weinand fyi
+17553|Duplicate of #2192.  There is an extension https://marketplace.visualstudio.com/items?itemName=spywhere.guides.
+17554|There ya go: https://vscode-update.azurewebsites.net/latest/win32-archive/insider
+17555|"Some v1.0 feedback from people on Twitter regarding this issue: (some translated with bing)  https://twitter.com/dowonkang/status/720846374783193088  > VS Code was subject to localized command palette 1.0 after the update, the command you want from the search, you need to try Korean search ... At the moment man whoosh ... Select the configure the command palette > language > locale property value to ""en-US"" to change the resolution ... via @code  https://twitter.com/fanny_wu_ch/status/720840368514670593  > I am used chinese lanuage version , but i can not use command with english  #HappyCoding 来自 @code  https://twitter.com/chwentao/status/720836888714616832  > Where can I change my menu into English, after today's update will become Chinese. From @code  _  > This comment has been edited to remove content that does not conform to the guidelines in the Code of Conduct for Microsoft open source projects, as covered here: [https://opensource.microsoft.com/codeofconduct/](https://opensource.microsoft.com/codeofconduct/)  _  https://twitter.com/ichiohta/status/720800156304613377  > @code You guys seem to have over-localized command strings for ja-jp, which is unusable.   https://twitter.com/mattn_jp/status/720779497008603136  > the vscode Japan language support! It is having in Japan Japanese is good for the CTRL-SHIFT-P far, I made extension installation with install following do not enter ""advanced features"" is, I want to go back."
+17556|Hi, the development team doesn't speak Chinese, sorry. Can you please find someone that helps you translate the issue to English.
+17557|Yes duplicate of #4679, thanks @hax
+17558|"Duplicate of https://github.com/Microsoft/vscode/issues/4679  You can change the locale back to English by adding `""locale"": ""en-US""` to your locale settings file. See https://code.visualstudio.com/Updates#_localization  Chinese instructions here: https://github.com/Microsoft/vscode/issues/5298#issuecomment-210304711"
+17559|Duplicate of #4679
+17560|Updated @Tyriar @chrisdias
+17561|Duplicate of https://github.com/Microsoft/vscode/issues/4679
+17562|+1/0
+17563|+1/0
+17564|"I am used  visual studio code with  language  ""zh-cn"",   but i can not used command with english .   input chinese is vary slowly .  i want input command with english and chinese.  2016-04-15   love19862003   发件人：Erich Gamma notifications@github.com 发送时间：2016-04-15 14:57 主题：Re: [Microsoft/vscode] 切换成中文版后，不支持英文命令了。 (#5308) 收件人：""Microsoft/vscode""vscode@noreply.github.com 抄送：""fanny.wu""love19862003@163.com  Hi, the development team doesn't speak Chinese, sorry. Can you please find someone that helps you translate the issue to English. — You are receiving this because you authored the thread. Reply to this email directly or view it on GitHub"
+17565|@egamma I try these steps for several times, and I find that this will happen only with `Toggle Developer Tool` when I repeat the 2ed and 3rd steps.
+17566|Does this repro after a restart? Are you installing it brand new or on top of an existing installation? Is your disk full or close to full?
+17567|Rendering issue. Will go away with #637
+17568|I got the newest update today, and I still suffer from this.  I almost always use multi line regex, and this is the only feature that's keeping me away from daily usage.  So **+1**.
+17569|I can reproduce it now. It doesn't happen all the times on the second time and you have to continue to execute the toggle developer tools action.
+17570|FYI after https://github.com/Microsoft/vscode/issues/3068 you will be able to make vscode mostly portable by downloading the zip and using the `--user-data-dir` flag to specify a readable location. That sets the user configuration directory, however extensions will still look in the same spot.
+17571|以上问题是根据 [官方文档中智能感知](http://code.visualstudio.com/docs/editor/editingevolved#_intellisense) 提出。 ![111111111](https://cloud.githubusercontent.com/assets/5660790/14553966/6fa801b2-031c-11e6-849f-d0d51feb414d.gif)
+17572|Ok, it's fixed.
+17573|Hi **@xhacker**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+17574|@bpasero I think we need both of localized text and keyword shown on the UI. If only localized one is shown, how do I know the keyword for it?
+17575|"On Linux use whereis in bash: whereis php This will then give you the path e.g. /opt/lampp/bin/php Then put that in your settings.json:  ""php.validate.executablePath"":""/opt/lampp/bin/php"""
+17576|Thanks for the contribution :+1:
+17577|Great catch.
+17578|He means that he wants syntax hightlight in .tpl file the same as in HTML file, which sublime surpports.
+17579|你肯定是哪里姿势不对。vscode明明是可以的。
+17580|like this: ![image](https://cloud.githubusercontent.com/assets/7921431/14554277/7a9e1ed8-031e-11e6-8067-fffc88c4cbca.png)  ![image](https://cloud.githubusercontent.com/assets/7921431/14554283/8e15f03a-031e-11e6-914d-0ff85975f0c2.png)
+17581|不要加空格就可以了。
+17582|So as my understanding, this issue is suggesting ignore SPACE in the fuzzy search (like sublime and atom).
+17583|+1
+17584|FYI, here is my experimental implementation for Atom: https://github.com/hax/atom-elastic-tabstops
+17585|Hey @alexandrudima I just hit this twice in dev:  ![image](https://cloud.githubusercontent.com/assets/22350/14554521/d94441f0-02ed-11e6-9398-88c2513d6465.png)  It's hard to repro but does happen: I opened the User Settings, which opened the two editors, and then I close one of them. Every now and then, it causes this error.
+17586|Hello, sorry for commenting on a closed issue. I just want to try an extra scenario. It is most probably related to : https://github.com/nodejs/node/issues/1490 , To also tunnel DNS requests through proxy.  Can I store `dc.services.visualstudio.com` and `vortex.data.microsoft.com` ip addresses in the config next to the proxy settings somehow ,similar co etc/hosts , but without modifying windows etc/hosts ?
+17587|@espresso3389 @bpasero  Yeah, that's what I mean. Display the translated version with the “untranslated” one together. The command palette **HAS** enough space to display **both** of them.
+17588|"> The issue I had had been there ever since I updated VS Code some months ago. Back when I first installed VSC (around September 2015, give or take a month) auto-indentation and code completion worked by default.  This is another scenario, let's keep this out of this issue :smile: . This is the interesting scenario.  The babel extension, contributes/overloads the JS extension and contributes a tmGrammar for JS  ``` ""languages"": [             {                 ""id"": ""javascript"",                 ""aliases"": [                     ""Javascript (Babel)""                 ],                 ""extensions"": [                     "".js"",                     "".jsx"",                     "".es6""                 ],                 ""firstLine"": ""^#!.*\\bnode"",                 ""mimetypes"": [                     ""text/javascript""                 ]             }         ], ```  When you open the language menu then `javascript (babel)` doesn't show up anymore. This has worked in 0.10.11 and looks like a regression. I know we made changes there. CCing some folks  Any ideas what could have caused this change of behaviour @dbaeumer @bpasero @alexandrudima @jrieken"
+17589|What do you mean by _store_? What do you intend to accomplish?
+17590|@bpasero Hey, was this ever landed in Insider Preview / 1.0.0 (_p.s. congrats on the release everyone_) alongside the flag you mentioned you'd add?
+17591|The Magic Python extension does the same and it is popular 10K of installs, the users of Magic Python will be hit by this as well.
+17592|This issue is totally spam :rage:
+17593|"> ""...or if you already have a project with C# files, VS Code will prompt you to install the extension as soon as you open a C# file.""  The text is not accurate, sorry. We will only prompt when you had the C# extension installed previously. We do not prompt in a fresh install when the extension has never been installed. The C# extension will be recommended as an extension with 'Show Recommended Extensions'. Making the recommended extensions more popular is on the backlog."
+17594|Hi, the development team doesn't speak Chinese, sorry. Can you please find someone that helps you translate the issue to English.
+17595|"I updated the comment. I meant something like :  ``` dns : {   ""dc.services.visualstudio.com"" : ""40.114.241.141"",   ""vortex.data.microsoft.com"": ""191.232.139.254"" } ```  And use somehow those ip's ... but this is again an aspect of node js. But maybe there is some way .  **Edit:** I just tried adding the mappings to windows etc/hosts file and I get:  ``` Error: connect EAFNOSUPPORT 191.232.139.254:443 - Local (undefined:undefined) at Object.exports._errnoException (util.js:837:11) at exports._exceptionWithHostPort (util.js:860:20) at connect (net.js:838:14) at net.js:981:7 at GetAddrInfoReqWrap.asyncCallback [as callback] (dns.js:62:16) at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:81:10) address: ""191.232.139.254"" code: ""EAFNOSUPPORT"" errno: ""EAFNOSUPPORT"" message: ""connect EAFNOSUPPORT 191.232.139.254:443 - Local (undefined:undefined)"" ```"
+17596|Fixed in 1.0, please upgrade to the lastest version.
+17597|@hax Maybe they can consider the Sulime Text's implementation, which is adding spaces before tabs. It will perform better compatibility if you copy and paste the code into someplace else.
+17598|"So what do you get when running this in the command line?  ``` node -e ""require('dns').resolve4('dc.services.visualstudio.com', (err, result) => console.log(err, result))"" ```"
+17599|I get :  ``` { [Error: queryA ESERVFAIL dc.services.visualstudio.com]   code: 'ESERVFAIL',   errno: 'ESERVFAIL',   syscall: 'queryA',   hostname: 'dc.services.visualstudio.com' } undefined ```  I get this regardless of etc/hosts ip mappings . (I tried with mappings and without mappings)
+17600|@MrVallentin can you past the example of main.py so I try to reprodcue this issue on my machine?

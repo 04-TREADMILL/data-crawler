@@ -1,0 +1,100 @@
+26601|Bug: not open the integrated terminal when press ctrl+` with no-English keyboard layout.
+26602|Bug: cannot open vscode while using 'code .'
+26603|Improve quick find algorithm to prioritize exact matches better
+26604|OSX JIS keyboards: Wrong key reaction on keyboard shortcut
+26605|Integrated Terminal: The Output is displayed unformatted
+26606|"Using Spanish locale on Mac shows ""Open new command prompt"" instead of ""Open new terminal"" underneath Spanish text"
+26607|Format On Save not working for certain files.
+26608|Strange documentation dialog fickering
+26609|'Reveal in Explorer' key shortcut does not behave as context menu item
+26610|[theme] remove editorOptions.theme
+26611|Terminal display with Exception
+26612|Add input active and inactive background color to input boxes
+26613|Add way to open Markdown links in a different editor group
+26614|Opening large array in watch hangs debugging session
+26615|IntelliSense not working
+26616|Squiggle covering EOL gets rendered on two lines
+26617|Notify on auto refresh of open file
+26618|Watch List not working c++
+26619|Add .git/subtree-cache/ to files.watcherExclude
+26620|Crash in rendering
+26621|URLSearchParams was not checking during compiling
+26622|Suggestion: Add native visual indicator of extra sequential blank spaces on JS Files
+26623|Autocomplete inserts newline when it should not
+26624|`find` runs with 100% CPU
+26625|Allow theming of parameter hints
+26626|JSON schemas served with gzip fail to parse
+26627|Explorer stealing space keypresses while terminal is focused
+26628|Fix #26011
+26629|"""<a>Open image</a> using external program?"" sentence should not be split to translate it correctly"
+26630|Use getDomNodePagePosition to position suggest docs
+26631|Error parsing Regex during search and replace: Not a valid base 10 number
+26632|[loc] Adding language - Bosnian (bs) to transifex VS Code project
+26633|[loc] Adding language - Catalan (ca-ES) to transifex VS Code project
+26634|Adding language - Croatian (hr) to transifex VS Code project
+26635|Adding language - Finnish (fi) to transifex VS Code project
+26636|Adding language - Georgian (ka) to transifex VS Code project
+26637|Adding language - Greek (el) to transifex VS Code project
+26638|Adding language - Hebrew (he) to transifex VS Code project
+26639|Adding language - Lao (lo) to transifex VS Code project
+26640|Adding language - Persian (fa) to transifex VS Code project
+26641|Adding language - Serbian (Serbia) to transifex VS Code project
+26642|[loc] Adding language - Sinhala (si) to transifex VS Code project
+26643|[loc] Adding language - Tajik (tg) to transifex VS Code project
+26644|[loc] Adding language - Telugu (te) to transifex VS Code project
+26645|[loc] Adding language - Ukrainian (uk) to transifex VS Code project
+26646|[loc] Adding language - Yoruba (yo) to transifex VS Code project
+26647|Launch electron debug stopped working?
+26648|Continue comment when enter is pressed
+26649|Use HTML automatic code formatting method for SVG files
+26650|Terminal: link detection doesn't seem to work for relative paths?
+26651|How to set environment variables before running integrated terminal?
+26652|Integrated Terminal does not allow clicking on URLs with fewer than two periods in the domain name.
+26653|Running VS Code unit tests via VS Code fails
+26654|Added feature per #26630
+26655|VS Code 1.12.2 not opening on OSX
+26656|High CPU usage in ubuntu16.04
+26657|'Go to Definition' doesn't always work when using tsconfig.json paths
+26658|win10 cppvsdbg 调试状态图标错误
+26659|Cant update VS code unless the app is reinstalled. But issue appears again after reinstall.
+26660|Create snippets from editor selection
+26661|Allow Extensions To Contribute Language Specific Settings
+26662|Incorrect result after replacing content of multiple files
+26663|update extension error: end of central directory record signature not found(vscode version:1.11.2)
+26664|Markdown preview support the UNC path files.
+26665|Share extension list
+26666|[loc] Adding language - Vietnamese (vi-VN) to transifex VS Code project
+26667|命令行格式乱怎么办~
+26668|Incorrect IntelliSense for `transparentize` SASS function
+26669|import intellisense not working in VS code V1.12.1
+26670|Please make a git tag when vscode release.
+26671|Terminal: adopt scrollbar colors (fixes #26286)
+26672|VS Code - File Explorer / Explorer change case
+26673|Version 1.2.2 / Updates not available in Ubuntu 16.04 via repo
+26674|Theme: Sidebar default color foreground
+26675|Theme: allow to remove sidebar arrow-angle
+26676|Git diff fails when file is in UTF-16 LE encoding
+26677|Welcome tab 'Visual Studio Code' translated as 'Visual Studio-Code' in German locale
+26678|Error: The mode has failed while tokenizing the input.
+26679|[FR] Allow augmenting existing themes/syntaxes with entries provided by an extension
+26680|occupation of CPU is too high when open the specify project
+26681|Please support Git submodule
+26682|Option to override globally disabled extension in workspace settings
+26683|VS Code keyboard shortcuts suggestion to learn
+26684|Accessibility: NVDA reading wrong or duplicate content in editor
+26685|Some icons are messed after update and using 'code' CLI
+26686|Terminal line wraps unexpected
+26687|[Insiders] Python snippet cursor doesn't get the right position
+26688|How to disable every extension, *but* my currently developed extension?
+26689|Missing the 'Expand Problems' option
+26690|Test: copy all from debug console
+26691|Cannot package DEB or RPM packages using gulp scripts
+26692|Git: Pull from specific branch
+26693|opening compressed files/directories.
+26694|Git: Broken diff view with png
+26695|Suggestion: Please update the PPA/Repository, and create beta and daily channel.
+26696|"Error while loading rule 'comma-dangle': ""listener"" argument must be a function"
+26697|Git Credential Manager for Windows keeps appearing when launching VS Code
+26698|Format on paste trims trailing character when pasting class name in html
+26699|Go To Bracket Does Not Work With Multiple Cursors
+26700|Selecting from autocomplete when word is completed causes a new line

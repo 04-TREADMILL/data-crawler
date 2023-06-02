@@ -1,0 +1,100 @@
+29101|Typings only picked up after renaming .spec.ts file
+29102|[json] support JSON schema draft-06
+29103|Menu Bar drop down fails on Debian 8 Linux
+29104|ProblemMatcher cannot work with massive extra message ?
+29105|[folding] Allow to show amount of lines folded
+29106|TextDocument.save() closes untitled documents
+29107|"Problem matcher skips some matches when match for ""info"" severity is included in regex"
+29108|Find in Terminal not working (enters ^F instead)
+29109|vscode automatically downgraded after update to 1.13.1
+29110|"SCSS syntax coloring error: ""cursor"" identified as selector entity instead of property name."
+29111|emmet.useNewEmmet lead to wrong order of the suggestion list
+29112|Explorer: some extension commands show up for root
+29113|Add setting to sort tabs by last edit time
+29114|Adopt folder pased excludes config for history
+29115|Integrated terminal doesn't kill process after closing Visual Studio Code (using git bash as terminal)
+29116|VS Code wants to create a desktop icon by default
+29117|How to add parameters to the executeCommand method?
+29118|Test: Multi threaded delayed call stack fetching
+29119|Suggest: Clear All Problems
+29120|Program crash
+29121|Extension viewlet screen cheese
+29122|Test: tree and list aria-posinset and aria-setsize
+29123|Why are there 2 suggestions in Peek definition
+29124|Exclude files/filders from search in file
+29125|Inaccurate information in Tasks documentation
+29126|Test: multi root explorer
+29127|Pasting a file into unresolved explorer folder fails to resolve its full children list
+29128|Pasting a conflicting file into unresolved explorer folder is no-op
+29129|Scrolling doesn't follow multiple cursors
+29130|Add possibility to export extension & configuration to other computer
+29131|BUG: block comment fold
+29132|TypeScript syntax highlighting doesn't seem to handle functions and string literals in arrays
+29133|Assess impact of multiroot workspaces on language extensions
+29134|Unnecessary delay when opening a terminal
+29135|Emmet suggestions are expanding even while writing Javascript in JSX documents
+29136|Cannot save a file because it was changed on disk
+29137|[XML] Allow space after/before the equal sign in(fix #26570)
+29138|[Feature] HTML tags in Typescript comment
+29139|Installing package 'C/C++ language components (Windows)'  failed
+29140|Debug repl / Exception widget: link detector is not multi-root fit
+29141|Webview: base URL is not multi-root fit
+29142|Insiders build fails to start
+29143|Show picker closer to status bar when invoked from there
+29144|Support for remote development scenarios
+29145|Remote drive: Execute permission added to file when saving
+29146|Emmet 2.0 suggestions for SCSS are HTML
+29147|No terminal - list of available terminals empty
+29148|Several shortcuts stopped working with most recent vscode update
+29149|File is gone if you save remote file while it's loading
+29150|Go extension does not recognize other packages interfaces
+29151|Extensions are not shown after exiting / entering the extensions panel.
+29152|Trackpoint Scrolling with middle button does not work
+29153|Use nsfw for gulp watch
+29154|VS Code acquires lock in node_modules/.staging, making NPM freeze for about 30 seconds
+29155|autoIndent does not work in php
+29156|WARN  Method initialized not implemented
+29157|Console app crashes when reading console input
+29158|javascript new line indentation is wrong
+29159|Focus next search result (kb: F4) position in the result set is reset whenever the selected contents of the active editor are modified
+29160|AutoIndent clears autocompletion buffer, 'end' becomes 'def' in Ruby
+29161|Problem in Building from Source?!
+29162|Add Support [line, col] in terminal links
+29163|Words matching word at cursor position is always highlighte
+29164|Add debugger type in extension view
+29165|Open DEBUG CONSOLE when debugging starts
+29166|Error: The mode has failed while tokenizing the input
+29167|Optionally enable --prune while git fetch'ing
+29168|VS Code does not open when a file is double-clicked in file explorer
+29169|Don't show recommended workspace extensions message if all are enabled
+29170|"Can't open ""View in Default Applications"""
+29171|Test: Atom Keymap Version 3
+29172|Search text input box should not steal focus on search
+29173|Wrap tasks cmds as Actions for telemetry
+29174|test
+29175|[cshtml] syntax color for comment in Razor and C#
+29176|DLang source file icon
+29177|When editting multiple occurences(Ctrl+F2), pressing end causes cursor to be out of sync in some cases
+29178|Multiroot ripgrep search
+29179|Support files.watcherExcludes in the new file watcher
+29180|The spawnSync function in child_process does not return anything
+29181|-
+29182|Inconsistent class members coloration
+29183|After comitting, vscode sees git changes as not commited
+29184|VS Code unable save files: operation not permitted
+29185|We Need Account
+29186|We need account function
+29187|Add option to disable multicursor feature
+29188|TextEditorEdit does not handle and convert \r and \r\n as the documentation states
+29189|Breakpoint labels start with slashes
+29190|just coding,my cpu is 80%
+29191|Add option to disable git indicators in gutter
+29192|Multi root support for extensions management
+29193|#23797 git manage ignore files
+29194|Multi root: Use new emmet to avoid single workspace dependency
+29195|Debug: make launching multi root folder aware
+29196|ConfigurationResolver is not multi-root fit
+29197|Test: Command Palette improvements
+29198|Code should display Extensions usage in a summary
+29199|Test: Restore UI state for empty windows
+29200|Inform User if Code use too much RAM / CPU Usage / Startup Time

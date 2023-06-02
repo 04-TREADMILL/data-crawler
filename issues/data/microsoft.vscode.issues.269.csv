@@ -1,0 +1,100 @@
+26801|Update paths.js to allow use of ENV variable as alternative to cmd args
+26802|Update environmentService.ts to enable ENV defined extenstions-dir
+26803|Command list should sorting commands by use frequency
+26804|FileSystemWatcher ignore events properties are reversed
+26805|Extension API FileSystemWatcher is a bit odd
+26806|UX Suggestion: add an animation when clicking bottom-right status bar buttons
+26807|Create hudson
+26808|Find a way to prevent further breakage of build due to `let` in .js files
+26809|See git diff of two files in horizontal layout
+26810|Autocomplete triggers on new class method with public identifier
+26811|New theme order in quick open breaks muscle memory
+26812|Terminal strings shift to the right
+26813|Extensions organization
+26814|Code preferences hotkeys bug (sys language - English, typing language - English)
+26815|Integrate internet browser
+26816|Add Printing Option
+26817|routing is not working in angularjs
+26818|Problem de mise en page Reactjs
+26819|It shows deleted on the editor.But not.
+26820|GIT problem: Extension host terminated unexpectedly
+26821|Find Files (Ctrl+P) is very slow
+26822|Autocompletion breaks tab/snippet workflow
+26823|Copy and Paste are not working
+26824|Show a count badge for Problems panel
+26825|Immediate crash upon opening without dialog
+26826|resourceLangId == 'azcli' not matching untitled file
+26827|filterText seems ignored in autocompletion
+26828|ESLint fails to install
+26829|Powershell Integrated Console hangs when starting
+26830|Auto-updater wipes out shortcut modifications.
+26831|SCM should not fail silently when inotify handles limit is reached
+26832|Enable/document code coverage for extension testing
+26833|Fix lua function colorizing error
+26834|vscode crashes React Native app
+26835|Allow access to the currently active 'when clauses' from the extension api
+26836|UX: Revisit font sizes in the workbench (explorer for example)
+26837|Unreadable characters in output when running tests
+26838|Bottom row of intellisense is cut off
+26839|Suggest doc detail does not position properly when zoomLevel is non-0
+26840|Should animation be used when when suggest doc detail is toggled?
+26841|Fix #26821 Memento
+26842|"Add ""Open to the Side"" action to editor tab context menu."
+26843|Upgrading Powershell module to 1.1.0 reverts to 1.0.0
+26844|"How can I access Node type interfaces inside ""modules""?"
+26845|Improving the Settings Experience
+26846|Reviewing our Default Settings
+26847|Polishing changes for Suggest widget
+26848|JSDoc array type not taken into account in arguments or return
+26849|Could not install typings file for JavaScript language features. Please ensure that NPM is installed and is in your PATH
+26850|closing the editor doesn't terminate processes running in the terminal
+26851|终端滚动条无法拖动，终端输出信息无法复制
+26852|"VS Code and VS Code Insider with same issue ""PowerShell Integrated"" is getting hung"
+26853|Add `Toggle MiniMap` to `View` menu
+26854|Add region commenting feature/ Collapse code by region
+26855|[FEATURE REQUEST] Middle click to copy in integrated terminal.
+26856|Feature Request: HTML Intellisense functionality in PHP
+26857|Unable to update the use settings from default settings pane options
+26858|Cannot convert undefined or null to object
+26859|Characters entering in the IME are not displayed
+26860|Invalid Arguments warning is shown.
+26861|VSCode won't open latest files when start
+26862|Feature: Search branch of project tree
+26863|加载大文件非常卡
+26864|Feature: navigate ES6 'imports' - open file under cursor
+26865|Use Tahoma font as a fallback for system-ui
+26866|I hope to increase the word spacing of this configuration
+26867|bad decorations
+26868|Invalid argument on insiders while editing TS
+26869|Add to .gitignore option in Source Control tab
+26870|Formatting: add option to insert space before constructor parenthesis
+26871|format document / code doesn't work :(
+26872|Slow Start detected
+26873|Turn off git
+26874|Allow to customize explorer file sort order
+26875|command 'python.python-debug.startSession' not found
+26876|php folding with heredoc
+26877|Found Modules or Symbols no longer have IntelliSense priority [BUG]
+26878|Meaningful git output while git push deployment
+26879|Exception while running a task in the terminal
+26880|Restore original selection if no matching result is found when closing the Find Widget
+26881|markdown preview doesn't show images with whitespace in filename (on Linux)
+26882|Broken syntax highlight when inserting PHP inside <style> tag
+26883|vscode how to stylefmt .styl .stylus?
+26884|Network: VSCode does not open folders from network share
+26885|"Feature-request: Please add command to ""run last run task"""
+26886|Terminal doesn't start at all
+26887|Peek UI Debugger error click-through path wrong
+26888|1.12.2 compiled on Windows 7 does not show sidebar, window empty
+26889|JSDoc typings for React components don't work with .jsx extension
+26890|The language server needs at least PHP 7 installed. Version found: 5.6.30
+26891|Code autocompletion suggestions is not updated live
+26892|Code auto-complete does not suggest everything it should
+26893|cannot remove config value which isn't added in settings.json
+26894|Box-drawing characters in terminal when using mstest
+26895|Word selection, is selecting an incorrect character
+26896|Add when/context support for snippets in packages.json
+26897|Inline snippets should have lower precedence then actual properties if no match
+26898|Present symbolic names in keybindings.json for non-US standard keyboard layouts
+26899|excluding files using Glob Patterns doesn't work in such case
+26900|Open files, sometimes open in the same tab as current instead of another

@@ -1,0 +1,100 @@
+7901|:+1:
+7902|Nice, I'm looking forward to the next release :smile:
+7903|Hi **@sparecycles**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+7904|Looks like the single asterisk applies the correct class, but the double asterisk does not for whatever reason: ![single-asterisk](https://cloud.githubusercontent.com/assets/1493530/12704472/e0856d1c-c829-11e5-84a0-259eb20992f6.jpg) ![double-asterisks](https://cloud.githubusercontent.com/assets/1493530/12704473/e0871e78-c829-11e5-8519-dfe6d01c5a7e.jpg)
+7905|@bpasero i think this is a feature request to stop a long search operation in the workbench.  sometimes you don't want to exclude files/folders and/or you end up doing a search that takes a lot of time that you want to cancel.
+7906|It was 0.10.6, deleting `node_modules` and running `npm install` in `extensions/vscode-api-tests` fixed it. I'm not able to run `./scripts/npm.sh install --arch=x64` in the project root to completion.  Do you know what could have caused the module not installing correctly? Did it `vscode-api-tests` not bother to fetch the latest version because it wanted the `next` version or something?
+7907|@sparecycles what version of vscode are you on? (Help -> About)
+7908|@chrisdias thank you :+1: exactly what I asked for
+7909|Found in 0.10.6 (a80232bbcfe8a5cdad1ebc98638673d9dcb02458)  I reproduced the issue in master, but there it requires two presses of the return key because the first one is ignored in this case (which is fixed by this line): https://github.com/Microsoft/vscode/pull/2587/files#diff-2fa3a436306be3136e56f9cbbf2f1b73R166
+7910|Looks like AppVeyor flaked
+7911|This is fixed on master
+7912|Any workarounds? If VSCode can't handle the ES6+JSX syntax, I need some way to get it out of the way. Otherwise, everyone's going to tell me to get knotted and go back to Sublime Text.
+7913|"[**UPDATE:** if you're seeing ""This can only be used in ts files."" in your plain JavaScript, drop in a [`jsconfig.json`](https://code.visualstudio.com/Docs/languages/javascript#_javascript-projects-jsconfigjson) file.]  Worse, @jrieken, ~~I'm seeing this error in plain ES5-compatibile JavaScript:~~  ``` var HARDCODED_NAME = 'TODO'; var HARDCODED_VERSION = '0.2.3';  function foo() {     var props = {         name: HARDCODED_NAME,         version: HARDCODED_VERSION,     };     // '>' expected.     // ',' expected.     // ',' expected.     // Expression expected.     // Expression expected.     // This can only be used in ts files.     console.log(props); }  module.exports = foo; ```  All those errors get displayed as hover-over on the squiggly red line under the `;` in the line ending `props`."
+7914|Hi **@jamesqo**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+7915|"@alexandrudima The screenshot you posted is incorrect. Command-Z on the Mac is ""Undo"". Seriously, try it: it'll run the Undo command, not the `editor.action.commentLine` command as is implied by the pop-up.  That said, I was able to follow the other links and revive the main commands I was missing, in a custom `keybinding.json` file that looks like this:  ``` [ {   ""key"": ""cmd+["",   ""command"": ""editor.action.commentLine"",   ""when"": ""editorTextFocus"" }, {   ""key"": ""cmd+-"",   ""command"": ""editor.action.outdentLines"",   ""when"": ""editorTextFocus"" }, {   ""key"": ""cmd+="",   ""command"": ""editor.action.indentLines"",   ""when"": ""editorTextFocus"" } ] ```  That's all I needed to get back to normal productivity in the editor. Thanks!  P.S. Since someone went through all the effort to figure out that the key commands are wrong and display the custom UI gizmo, why not just fix them? I mean, if I can do it manually…why not just do it automatically? The editor is basically broken right now without the manual fixes. You can still display the correct key-sequence in the UI (now that you've got the code to do that…)."
+7916|I'm still having the same issue as @Cirych. When opening a folder over a mapped network drive (in this case opening my Linux folder on Windows). Opening the folder while mapped causes VSCode to show everything as syntax errors. Copying my code over to Windows and then opening VSCode to the new folder causes errors to disappear and for intelliSense to work again.
+7917|You can press ESC key to cancel a search or start another search to stop the previous one.
+7918|@rzandonai this didn't work for me.  Hanging out for 0.10.7...
+7919|No repro.
+7920|@alexandrudima I solved this by calling updateOptions() on the editor each time the input changes. I hope that this operation is not expensive for the editor, maybe you take a look at https://github.com/Microsoft/vscode/commit/095828285c91efbe6972180b9be631ec9924ce67#diff-f284d00a0a883d79fd74a5c7eef03399R177
+7921|Not sure if we can change this without letting the row have some margins to no longer overlay the outline of the tree. Moving to Joao, but in the end we might need a different focus indication that is not using outline property.
+7922|LGTM
+7923|@erichocean I will look again into this as soon as I get my hands on a mac.
+7924|I agree that it is important for discoverability.  I can imagine a setting in the launch config or a user setting to disable this behaviour. Tasks have an attribute 'show output' to control this behaviour.
+7925|The icon is different on disk, but Ubuntu refuses to show it. Seems like a caching problem.
+7926|I copied the item to the TS repository to hear their opinion: https://github.com/Microsoft/TypeScript/issues/6778
+7927|@bpasero yes it is the drive subst. IMO it would be enough to prompt me once to delete permanently.
+7928|>  Does vscode cache the auto complete results? If so it might cache some earlier result but it bugs because I register multiple in one extension.  no caching. trigger character and the keybinding are more or less the same code.
+7929|@dbaeumer I remember. Previously delete would silently fail without information and now you get the message at least. Windows does not support the trash when deleting from a SUBST afaik.
+7930|@bpasero ok tried this, if I reveal the element that is getting expanded then his children will not be seen - unless I make the tree always scroll this element to the top - which is very funky since all elements that expand will fly to the top. Another thing I can do is reveal the last child of the expanded element but that is also strange for complex objects.  I do not see a good solution here. Btw I just checked the chrome console and they do the same as we do right now.
+7931|![image](https://cloud.githubusercontent.com/assets/5047891/12712770/22321976-c8cb-11e5-92b4-8ee9eae85d1d.png)
+7932|Maybe its a problem only on Windows since I'm the only one seeing this?
+7933|True, Chrome is also behaving like that, maybe we leave it then.
+7934|The Windows explorer does 'scroll on expand if needed'. I don't find it that funky or what do I miss?
+7935|"So the issue was this: if you tab into the action to install an extension and hit enter, the action becomes disabled because the install process starts. Disabling an action causes its ""tabIndex"" attribute to be removed and this results in the keyboard focus to move to the root body element. This results in quick open closing because it thinks the user clicked outside of quick open.  My fix now is to not just remove the tabIndex attribute for disabled actions but actually to walk up the action hierarchy and focus the next parent node that has a tabIndex attribute. In other words, I bubble up keyboard focus instead of letting it go to root directly.  This results in quick open not closing. Instead, the tree gets focus after hitting Enter on the action to install extensions and you can use the arrow keys to navigate  to the next extension."
+7936|@egamma yeah, if we start to reveal on expand we need to do this in any tree and not just repl. @joaomoreno fyi
+7937|@egamma 'scroll on expand if needed' is good, but what makes it funky in our case is that I am not sure when it is needed - I do not think our tree has this API @bpasero closing this for now until we decide to change the behavior across all our trees
+7938|Then this is a `ux` issue, I've added the label and reopened the issue.
+7939|![image](https://cloud.githubusercontent.com/assets/5047891/12712991/6dd57b60-c8cc-11e5-89c2-2d181dc33290.png)
+7940|Makes sense, I can bring it up on our weekly UX sync
+7941|Duplicate of #2490
+7942|"> Any workarounds? If VSCode can't handle the ES6+JSX syntax, I need some way to get it out of the way. Otherwise, everyone's going to tell me to get knotted and go back to Sublime Text.  In 0.10.6 you can disable the validation using a setting  ``` json     ""javascript.validate.enable"": true ```  In 0.10.7 that will become available this week, we provide a preview of the new JS infrastructure that supports JSX, pls give it a try."
+7943|This is in 0.10.7 :smile:
+7944|"@wxqqh this works for me using ""typescript.tsdk"": ""./node_modules/typescript/lib""  and having typescript install in that workspace folder. Can you provide me with a test workspace that shows the problem."
+7945|@bpasero yes, that makes sense. But currently I get the following dialogs: - A dialog asking: Are you sure you want to delete. I confirm with yes - A message that it can't be moved to trash. Instead you can delete permanently  - A dialog asking: Are you sure to permanently delete.  I think the last dialog is not necessary
+7946|Yup, at least in case you already confirmed the confirmation for the trash.
+7947|"Actually the same just happens when using the ""Replace"" buttons with mouse."
+7948|@bpasero I think you are appending these new lines. I just get the content in my debug world and do not massage it in any way. What was the original motivation for adding these new lines?
+7949|@isidorn feel free to remove them, I do not remember. I guess they looked ok when we still had borders as separators to distinguish output.
+7950|:+1:
+7951|This issue was moved to Microsoft/TypeScript-TmLanguage#65
+7952|I wonder if this is a requirement. For example I have tested on Windows, tabbing into a tree where the focused element is not visible and I do not see the element scroll into view. @stevencl maybe you know the answer here.
+7953|Looks like this works now. Somehow the `vscode: next` was resolving to `0.10.7` which does not include the post install script. I since released `vscode@0.11.0` and advanced the `next` tag and now cannot reproduce anymore.
+7954|@TheColorRed For which language?
+7955|@constantincerdan on which OS is this? does it work when you edit one of the working files with another editor outside of Code?  I assume the working files are not part of the folder you opened? Or are you not opening a folder at all?
+7956|Not sure if this wouldn't be better to be done in a watch task that you set up, e.g. using gulp. The challenges when adding this to VSCode are to know which npm to run and also how to show the output.
+7957|@tinganho I assume this is TypeScript?
+7958|Yes.
+7959|This looks like an issue in NodeJS typings file. (https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/node/node-0.12.d.ts). Can you file the issue there?
+7960|In what file does the intellisense stop?
+7961|This issue was moved to Microsoft/TypeScript-TmLanguage#66
+7962|No, actually we use the same code base also for a web based editor...
+7963|"It's on Mac OSX. It doesn't work at all, even when the files are edited using another editor. I haven't opened any folders and have instead opened the file independently.   -----Original Message----- From: ""Benjamin Pasero"" notifications@github.com Sent: ‎01/‎02/‎2016 10:22 To: ""Microsoft/vscode"" vscode@noreply.github.com Cc: ""Constantin"" constantincerdan@gmail.com Subject: Re: [vscode] Working Files Not Watched (#2592)  @constantincerdan on which OS is this? does it work when you edit one of the working files with another editor outside of Code? I assume the working files are not part of the folder you opened? Or are you not opening a folder at all? — Reply to this email directly or view it on GitHub."
+7964|Agree, I want to move the default theme rules to a separate theme
+7965|VSCode has not built-in XML formatter. Do you use an extension? If yes, can you file the issue against that extension?  We're using this issue for the C# issue
+7966|Downgrading to 0.10.5 solves this problem.
+7967|Wow, I can reproduce and this looks like a bug in TypeScript. @dbaeumer @jrieken any idea why this would happen?
+7968|See https://code.visualstudio.com/Docs/supporting/FAQ#_linux-error-enospc
+7969|@unional the setting only applies to files, not folders. are you sure you open files?
+7970|You can change keybindings via settings. We will likely not change Cmd+P as people are very used to it from other editors.
+7971|Find ONE Mac editor where Command + P is anything but print? :-) - Just one…
+7972|Salsa is now using the same parser for .jsx and for .js files, this means it also supports jsx constructs in .js files. Now the coloring of the jsx constructs is missing for full ReactNative support.
+7973|> Find ONE Mac editor where Command + P is anything but print? :-) - Just one…  Sublime, Atom, these are already two... :smile:  I'm sorry but we are not going to change this.
+7974|@geirnoklebye Atom editor, it used Cmd+P for file finder, and Cmd+Shift+P for command palette. Pretty much like VSCode does too.
+7975|"Well, we are not looking so good when we crash, but on normal shutdown can you try to set:  ``` ""window.reopenFolders"": ""all"" ```  in settings?"
+7976|Weird, works for me. See my recording and maybe see what I need to do different to reproduce:  ![untitled](https://cloud.githubusercontent.com/assets/900690/12718163/e8cadb38-c8ec-11e5-973e-c4457162a7b0.gif)
+7977|The atom editor is not a cross platform editor that does not follow the Apple UI conventions (as is the case with many such products that originate elsewhere.)  The question Microsoft need to ask is who is their target audience for an editor ported to OS X? If it is someone other than Mac users, then of course you can choose to ignore platform convention. Otherwise you should take the platform serious and make your editor a great Mac product too.
+7978|@bpasero so not showing focus in this case would be fine? Since that is what the fix you mentioned would do. I guess a blinking cursor is enough of an indication. Then I would do this for the repl input as well and not show focus since there is the cursor
+7979|Thanks @Tyriar !
+7980|Hi **@mahmoudymy**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+7981|"@isidorn no I suggest to draw the blue around the entire box including the "">"". Check the search input field and how it shows the toggles within."
+7982|(we decided to not hide the outline even for input fields, so we should not hide it in the repl either)
+7983|any .ts file, previously opened or not
+7984|I am seeing issues for this problem with mixins, media queries and when you try to do inheritance. The last one wasn't already mentioned here so this is an example:  ``` .foo {   font-size: 10px;   @media(max-width: 700px) {     font-size: 20px;   } }  .moo {   &:extend(.foo all);  // this is the problem; all is needed to inherit the media query } ```
+7985|For the conditional breakpoints we gotta find something that does not look so bad :)
+7986|Ok, I will do it for the repl. Forwarding this one to @bgashler1 to think about how to show conditional breakpoint widget being focussed
+7987|@isidorn for the conditional breakpoint try to remove the 1px border from the input box, it looks weird anyways to not align the input field nicely with the sides and it is only needed when you need validation, which I think you have not:  ![image](https://cloud.githubusercontent.com/assets/900690/12720270/340b3d7e-c8fa-11e5-97c6-0ecf72ad93d4.png)  When I do that, the blue outline does not show up, but there I am not worried so much because of the large orange indicator.
+7988|Sounds good to me, orange should be a clear focus indicator
+7989|This issue was moved to OmniSharp/omnisharp-roslyn#393
+7990|I'm not able to reproduce this. I see you use node 4.2, I also tried with that and it works. Can you `cd vscode\extensions\json\server` and run `npm install` there? This should install `node_modules\.bin\tsc` which is then used in the postinstall action.
+7991|It is doing it for C#, but it would be nice if it could be changed for any language that supports formatting.  Side Note: Lots of editors that auto format allow for settings such as spaces after semicolons, commas,  etc. and before braces
+7992|great find.
+7993|This issue was moved to OmniSharp/omnisharp-vscode#26
+7994|duplicate of OmniSharp/omnisharp-vscode#26
+7995|There was an issue in our oniguruma regex parser that caused this issue. It is working in the January build.
+7996|Also, it auto formats everything in the block as well, and then I have to go back and manually format all the blocks back to how I like it.
+7997|@unional In what language do you see this? What version of VS Code?
+7998|Ok I am no longer showing the blue focus as we agreed. The issue now is that if the user open the conditional breakpoint widget and clicks somewhere else the outline is equally orange, so the user might not feel like he lost focus.  I can bring this up in our weekly UX sync where we should discuss accessibility and focus anyway  fyi @stevencl @bgashler1
+7999|@isidorn yup, would leave this one open, also because of REPL.
+8000|@bpasero Ok, so these are two separate issues. 1. Hover is not accessible, Joao had a nice idea that we have a keybinding for showing the hover on a particular token, when the user triggers the hover with this keybinding only then will the hover show focus and then the user can navigate through the elements via keyboard. We have this problem for all our hovers 2. Repl is not accessible, currently the user can just tab in to the repl tree, this way the user can navigate through whole repl history via keyboard. There are some issue here which I can addresss (focused element is not revealed). Not sure what else is missing here  We can also bring this up in our weekly ux sync. Second issue I can try to address right now, but the first one I would wait for our general hover solution.

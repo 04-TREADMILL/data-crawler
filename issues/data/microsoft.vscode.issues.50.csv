@@ -1,0 +1,100 @@
+4901|"i18n: wrong german translation for ""Warning"" label"
+4902|"[loc][Query][DevDiv] Please clarify placeholders ""{0} ({1})"""
+4903|Autocomplete only works on every other key press with multiple cursors on same line
+4904|Is there a way to disable non attribute suggestions for Typescript React?
+4905|Provide API to open a new folder (fixes #58)
+4906|Dark and Light text themes in Marketplace
+4907|Parameterised commands should not show up in keybindings overview
+4908|"Add ""new window"" action to code.desktop"
+4909|Adopt I18N input
+4910|Missing keybinding to navigate explorer _not_ working files
+4911|"correct german translation for ""warning"" message label"
+4912|Expand debug console objects as default
+4913|Can't open files in VS Code from Windows Explorer when an Admin instance is already running
+4914|Linux .deb does not install without running apt-get update on terminal first
+4915|Add missing screenshot/icon and metadata to .deb package screen in software center
+4916|Intellisense not as described [js]
+4917|Cannot install Azure Resource manager tools on VS code running on Mac OSX
+4918|Call stack shows paused on exception after stopping debugging
+4919|[html] Add support for Angular2
+4920|Exceptions/variables still visible after stopping debugging and unresponsive variables window
+4921|Allow hiding of activity bar
+4922|No suggestions when there are no characters for suggest widget
+4923|Nothing gets rendered on running VS Code on OS X 10.11.4
+4924|Not getting correct launch.json when targeting node.js debugger.
+4925|Tooltip background color
+4926|Remove unnecessary values from intellisense popup
+4927|Verified false breakpoint w/message does not reflect message in breakpoint list UI
+4928|Improve block cursor's visibility.
+4929|weird highlight on javascript
+4930|Trying to build vscode from source fails on Windows 10
+4931|'Later' label mismatch the
+4932|"ja-JP translation of update notification's ""Later"" label mismatches meaning in ja-JP custom"
+4933|Wrong code coloring when mixing templates with strings in Typescript
+4934|Editor-distro doesn't build after update to TypeScript 1.8.9
+4935|intellisense does not work when using `module.exports.fnName`
+4936|API: Diagnostic objects should preserve custom properties
+4937|API: commands.registerTextEditorCommand should support custom args
+4938|How to extend javascript code completion and other features
+4939|(C#) #endregion directive is not being highlighted in the editor
+4940|(C#) Custom classes are recognized by intellisense, but not syntax highlighted
+4941|Data inspection support for ES6 Sets, Maps, and Generators
+4942|why the tip of method and parameters is Chinese garbled
+4943|Support inspecting large data structures on 4.x and 5.x versions of node.js
+4944|String truncation limit lifted to 10000
+4945|Support for dynamically generated JavaScript and source maps
+4946|Test: Support skipping code when stepping
+4947|Typing fast
+4948|Support snippet variables
+4949|Getter support
+4950|Allow to get/set the encoding and charset
+4951|Cannot delete files on a mounted file system
+4952|Emmet with Umlauts not working
+4953|Question: How to display a code thumbnail scrollbar?
+4954|Emmet with JS files (JSX) is not working.
+4955|No path autocompletion of ES6 modules.
+4956|Click to symbol does not jump to file but to the import (JSX/JS).
+4957|Interface breaks with Windows Classic theme
+4958|VS Code sends inconsistent Source object in setBreakpointsRequest
+4959|Consolidate theme.*.css into workbench.css
+4960|Folding in Python - Hides newlines between functions
+4961|Intellisense for nodejs not working anymore
+4962|"Extensions: failed to uninstall extension from ""outdated"" extensions view"
+4963|VS Code's Editor Window Does Not Show/Launch (Sometimes)
+4964|Clipboard access through Extensions API
+4965|Auto close feature for command palette should be changed.
+4966|[javascript] Intellisense issues in large JS project
+4967|Code Insider does not work on mac
+4968|"[javascript] syntax highlighting bug when object property name starts with ""var"""
+4969|"Extension uninstall ""x"" is not centered"
+4970|Make search files exclusion editable
+4971|eslint and jshint extensions do not change uninstall to install button after uninstalling
+4972|[javascript] syntax highlighting for class arrow properties is broken
+4973|Show extension Readme inside code
+4974|Do not ask to save for dirty files on delete
+4975|High-contrast theme has ugly serif font on Output dropdown box
+4976|Deleting a folder with a modified file shows save changes prompt when exiting
+4977|Test: Include CLI in Linux zip archive and support custom install locations
+4978|Support dragging instruction pointer during debug
+4979|"Getting error while launching ""npm"" install task from launch.json."
+4980|"Debugger is crashing when trying to debug with ""Step info (F11)"""
+4981|Intellisense suggestions sometimes based off the last letter typed
+4982|Intellisense doesn't work with constant function parameters
+4983|TypeScript, string literal, compiler false positive error
+4984|"Getting error in chrome developer tool window when trying to switch between ""call stack"" items."
+4985|"Should provide option for ""Show next statement"" to get the current debug point."
+4986|[rtl] Add Right-to-Left editing
+4987|Remove all blank lines regex not working
+4988|Multiple cursor paste pastes contents of all cursors
+4989|[c#] projects.json auto-completion syhould use NuGet.Config
+4990|How to change vscode language.
+4991|"ja-JP Too translated default settings.json ""window.reopenFolders"""
+4992|Tree error, onRemoveItems: viewItem doesn't exist.
+4993|Cannot read property 'id' of null
+4994|Converting circular structure to JSON
+4995|spawn REG ENOENT
+4996|Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+4997|Path must be a string. Received undefined
+4998|Node.js did not repond to request 'listbreakpoints' in a reasonable amount of time.
+4999|Cannot read property 'document' of null
+5000|Cannot read property 'then' of undefined

@@ -1,0 +1,100 @@
+701|TypeScript wrong highlighting when using `if` within `for`
+702|add merge to local branchs
+703|Support PHP debug
+704|Telemetry: We should log startup times
+705|Provide a flag to disable extension loading
+706|intelisense problem
+707|Allow extensions to add additional views
+708|Error: Path must be a string. Received null
+709|Provide a way for an extension to open a README file after it gets installed
+710|It is difficult to deal with keybindings when using non-US standard keyboard layout
+711|PowerShell module path missing
+712|Scoped git services
+713|Different tsconfig lookup behaviour between tsc and tsserver
+714|Right click on line numbers selectes all line numbers
+715|Scoped git services
+716|Possible to suprress completion provider on specific token kinds?
+717|Avoid serializing large environment data over the renderer URL
+718|dead keys can't be handled via key bindings
+719|Extract reusable method
+720|document.isDirty appears to report false for dirty untitled document
+721|Long files crash vscode
+722|Cosmetic: Backspace doesn't update footer column counter
+723|ctrl+shift+t hotkey to run tests conflicts with very common open last closed hotkey
+724|Please do not auto close the ext install window.
+725|Add SVG language mode
+726|fix uncaughtException endless loop
+727|[html] Add documentationLabel's for HTML tags
+728|Please add support for Command Prompt/ WIndows powershell
+729|[TypeScript] Add support emmet for typescript react (tsx) files
+730|Please to provide  the open preview function to HTML file, just like the ‘.md’ file
+731|vscode doesn't show images on markdown previewer over proxy
+732|[css] Add CSS Gradient snippet.
+733|disable bracket auto closing in string?
+734|Copy VSCode labels to other repositories
+735|contextMenuService.showContextMenu with no actions crashes VSCode
+736|Joh/execute command
+737|Odd quotes auto-adding when editing in multi-cursor mode
+738|Intellisense items lose highlights when focused
+739|Debug console no longer shows Console.log?
+740|on windows, honor comspec env variable when spawning a shell
+741|Add -w / --wait Command line argument
+742|"""Format Code"" missing in new version"
+743|Attach an object to a QuickPickItem
+744|wrong typing cursor position
+745|Deleting a modified file asks if you would like to save the file
+746|"Feature request: command to focus ""other"" editor"
+747|Question: Where in the code is 'Install Extension'?
+748|Allow to save with UTF-8 + BOM encoding
+749|expose trigger character to signature help and completion provider
+750|Filter errors / warnings for current file only
+751|Dark cursor is hard to see on dark background & text color
+752|Cursor position not maintained after returning TextEdit[] from provideDocumentFormattingEdits
+753|[c++] Syntax highlighting gets confusing when defining a reference to an array.
+754|do not get intellisense for constructors (or overloads) in referenced dll
+755|Paramter hints do not reappear on ,
+756|Fixes to editorconfig
+757|Option to disable current line highlight
+758|Touching TextEdit's are not being applied
+759|The program freezes
+760|Hide empty folders after apply file exclusions (user settings)
+761|Isidorn/function breakpoints
+762|vscode Version 0.10.2 (0.10.2) - no Intellisense in Razor files?
+763|TextFileEditorModel tests seldom fail in Appveyor
+764|Can't use 'F12' goto definition for C Lanuage file.
+765|Does VS code support automatically importing components for Typescript?
+766|Unexpected return type of `vscode.executeFormatDocumentProvider` and `vscode.executeDocumentSymbolProvider`
+767|PNG Images not shown
+768|JIS Keyboard support for macos
+769|[html] Improve auto completion of html closing tags
+770|VSCode cannot replace in multiple files
+771|BUG: High Energy Impact.
+772|please auto-indent HTML / JavaScript code
+773|php 7 support
+774|provideSignatureHelp block extension ejecution
+775|Using semver used by vscode from vscode extensions ?
+776|Using vscode unit tests environment on travis build system.
+777|Update issue: Setup files are corrupted
+778|Undo Functionality
+779|highlight files in the file explorer that have errors
+780|XML syntax highlighting does not highlight attributes (like HTML does)
+781|[html] entities are not highlighted in HTML mode
+782|Validate all editors in stacks after relaunch
+783|[xml] Add several XML file extensions
+784|Double click to highlight word should behave the same across all languages
+785|some keys dose not work in vsc
+786|[json] JSON Schema wrong path encoding
+787|Word selection is not highlighted
+788|can't use '\' in key bindings (no keyboard layout issue)
+789|Extensions API: enhance DecorationOptions with a custom element
+790|Enable css id and class auto-completion inside HTML file
+791|The duplication of HTML TAG with ctrl + d comes very important sometimes.
+792|New line character not detected in regular expression search
+793|[ts] TypeScript function names are no longer colourised
+794|Mac: Undo, Redo, Select All not working in native dialogs (use roles for those?)
+795|Extension debugger cannot connect when WiFi is Disabled
+796|Git Commit Does Not Work Without Comments
+797|Git Commit Ctrl+Enter Does Not Work
+798|"Visualize Linebreaks With ""CRLR"" or ""LR"""
+799|Open in command prompt
+800|Markdown preview does not show images with relative file path

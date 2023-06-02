@@ -1,0 +1,100 @@
+16701|Closing Zen Mode on Windows
+16702|Launch widget dropdown cuts text and has unnecessary scrollbar when zoomed in Windows
+16703|Clicking editor space below a collapsed settings section header will sometimes focus search
+16704|"""Copy to Settings"" overwrites existing value"
+16705|install extensions UI
+16706|View Picker should include grouping for items during search
+16707|Opening the current workspace settings via the explorer should open the settings editor
+16708|Ability to dismiss the default settings file in the settings editor
+16709|Allow to reopen any closed editor not just files
+16710|Settings search box takes 2 tabs to move focus out
+16711|OnEnterRule: outdent current line
+16712|Get coverage info from mocha tests
+16713|./scripts/code.sh - Provided debugging port 5870 is not free, using 0 instead
+16714|Group labels inconsistently appear during View Picker search
+16715|Poor coloring of View group labels in high contrast mode
+16716|Ctrl+Q to navigate Views is a little close to Ctrl+W
+16717|Default settings search: Let ArrowUp/-Down navigate the result list
+16718|Better identify User vs. Workspace Settings editor
+16719|Default settings can blank out
+16720|Sync selected process from debug widget to callstack
+16721|Unknown error in console while opening ts file
+16722|Debug dropdown alignment is not as I would expect
+16723|Hovering debug dropdown border changes cursor but clicking does not open the dropdown
+16724|VSCode should contain a space within debug dropdown
+16725|Where was the debug dropdown border color sourced from?
+16726|Tooltip on debug dropdown handle is not useful
+16727|The debug dropdown action text should shrink when the width is reduced
+16728|No feedback when waiting for program launch while another is running
+16729|Why is the dropdown border color orange?
+16730|Debug dropdown is not keyboard accessible
+16731|Show which launch config is running when there's only one
+16732|watermark logo almost invisible in high contrast mode
+16733|More specific Configure Excludes message
+16734|watermark logo takes over screen when zoomed in
+16735|Searching inconsistently searches everything or a subset
+16736|Long running searches with many matched files do not include all files
+16737|Debug widget dropdown is changed unnecessarily when continuing/stepping
+16738|Opening debug viewlet focuses variables section
+16739|Intellisense has an unusable scrollbar
+16740|Open Workspace Settings message box opens plain settings.json
+16741|Debug console cleared when a launch config starts
+16742|Unescape Markdown Escapes inside of a link
+16743|In-product release notes not displayed
+16744|C/C++ class and macro highlighting
+16745|"""Open Folder"" command displays as ""unbound"" in watermark"
+16746|Compound keyboard shortcuts should be delimited by commas
+16747|insertCursorAtEndOfEachLineSelected does not work with multiple selections
+16748|Settings not aligned with heading and search box
+16749|Help with TextDocumentContentProvider
+16750|Update Configure Excludes Message
+16751|Option to trigger copy setting action via keyboard
+16752|Searchbox has focus while navigating filtered list
+16753|Navigating up the collapsed groups skips alternate groups
+16754|Clearer message in the Default settings
+16755|Fix #16432 - rejected promise not handled
+16756|Trailing comma in settings stops editing of settings via the copy action icon
+16757|Visual glitch when showing native dialog on Ubuntu
+16758|View: Additional Viewlets should be scoped to the windows workspace
+16759|View Scale: Command Palete Entry for View Addition
+16760|View Scale: Missing check mark
+16761|Ubuntu - launch configs don't show up in viewlet picker at first
+16762|How to get process id of a process started via RunInTerminalRequest via the debug protocol
+16763|"Text for show/hide Status/Activity bar in View menu should say ""toggle"""
+16764|Language mode picker should give precise language matches higher priority
+16765|Moving Settings to New Tab Causes Default Settings to Go Empty
+16766|Cannot input anything in the out pannel
+16767|Option to exclude items from Git branch checkout list #13506
+16768|gitContentProvider: model is disposed
+16769|GIT commands are slow
+16770|Application top menu does not unhide in Zen Mode when mouse is at top
+16771|"Error message ""Linter pylint is not installed"" persists after ""Disable this linter"" is clicked"
+16772|How to configure VS Code on Windows to run a task in WSL?
+16773|Unexpected suggestion selected
+16774|Activity bar: show position viewlet will move to while drag and drop
+16775|Settings: edit action seems to be in my way often
+16776|inconsistent highlighting after method
+16777|Display the edit icon in settings with a small delay
+16778|Preserve language picked for untitled text documents
+16779|If debug session is active all non-debug hovers are disabled
+16780|Title doesn't refresh when we jump into other tabs
+16781|Inconsistent tsx highlighting
+16782|Debug viewlet dropdown polish
+16783|gulp-tsb warning while npm installing
+16784|debug floater select wrong process
+16785|merge 'files.excludes'?
+16786|API to iterate over all keys
+16787|Explorer Should have a horizontal scroll
+16788|css syntax highlight is broken for @supports
+16789|registerTextEditorCommand doesn't wait for promises to finish
+16790|Truncate report issues extension list if the URL is going to be too long
+16791|Feature Request: Make output console log to disk
+16792|"""Submit a bug"" button not responding"
+16793|View: Rename View Menu Item
+16794|Compile errors in the editor
+16795|Hot Exit: Opens the same file twice in two separate windows
+16796|Hot Exit: opens needless untitled file when restoring backups
+16797|Hot Exit: Editor view state is not restored
+16798|Feature Request: the option to open on another tab, If the definition part is the same file
+16799|Duplicate entries in quick open
+16800|save all bug

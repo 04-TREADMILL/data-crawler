@@ -1,0 +1,100 @@
+22501|"[loc][Query][VSCode] Please clarify context for ""staged"""
+22502|[loc][Query][VSCode] Please clarify localizability for words in quotes
+22503|launch.json/task.json changes not always used when launching
+22504|[loc][Query][VSCode] Please clarify localizability
+22505|"[loc][Query][VSCode] Please clarify context and placeholder for ""Focus Terminal {0}"""
+22506|[loc][Query][VSCode] Please clarify all three placeholders
+22507|[loc][Query][VSCode] Please clarify placeholder
+22508|Minimap - Scroll immediately when mouse button held down
+22509|"[loc][Query][VSCode] Please clarify meaning of ""at minimum of viewport"""
+22510|"[loc][Query][VSCode] Please clarify localizability of ""main"""
+22511|"[loc][Query][VSCode] Please clarify ""open"""
+22512|"[loc][Query][VSCode] Please clarify context for ""node.protocol.auto.description"""
+22513|File gets closed when a parent folder is renamed to different casing
+22514|Multiple quick fix bulbs appearing on selection
+22515|"Autosave ""onFocusChange"" stopped working"
+22516|New access modifiers and oldValue & newValue
+22517|The file encoding is not being detected correctly
+22518|Open File/Folder Dialog Disappears when Selecting More View Options
+22519|no selection highlight in completion list
+22520|AutoSave pastes file(s) with changes into the pane with the focus, on top of the code already there.
+22521|Fix Markdown TOC Provider for Invalid References
+22522|[Feature Request] Multiple Active Search
+22523|"Entering a path to a valid file in the ""Go To File"" (cmd-P) popup should immediately resolve to a file"
+22524|Add backwards search to preferences view
+22525|Feature request: Setting to change workspaceStorage location
+22526|trimTrailingWhitespace conflicts with insertFinalNewline
+22527|Move command palette below editor tabs
+22528|Intellisense highlight is gone
+22529|"files that are opened are getting "".git"" appended to their file names internally"
+22530|Extensions: Expose version of VS Code
+22531|Combine New Minimap with Git Sidebar
+22532|Support UTF-16 w/o BOM
+22533|Support terminal shell args as string
+22534|Make VS Code Icon more attractive by adding transparent center
+22535|[Question] [Help-Wanted] How to set intellisense for Angular.Js in VSCode?
+22536|Copying code into an Office app (like OneNote or Word) doesn't retain tabbing
+22537|C++: Searching include paths takes forever if there are large sub-directories
+22538|Error and suggestion highlighting/underlining disappeared after last update
+22539|编辑器上下布局的时候，两组编辑器的代码莫名其妙的交换，请见详情。
+22540|VSCode terminal typesetting
+22541|Invocation of the function let add a b = a + b does not work on debug console
+22542|升级后，vue文件 无CSS And JS提示
+22543|The layout in the template will be changed when I saved the Jinja or Django template file
+22544|Add settings with GUI
+22545|How to float the console panel out of the editor ?
+22546|autoSave can't run on macOS
+22547|Shift + Delete supposedly delete the line
+22548|VSCode crashes when closing a file without saving
+22549|Question: Can you search all instances of console.log and then comment them all out at once?
+22550|internal error: BuildFrameworkTcImports: no resolution of 'FSharp.Core, Version=4.4.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a''
+22551|Add padding when pressing space between a pair of curly braces
+22552|Losing highlight inside the auto-completion popup with keyboard event.
+22553|Emmet doesn't work in Vue <template> tag.
+22554|compiler error, incorrect generated code.
+22555|Two red break points showing in debugging mmode
+22556|release notes - switch between tabs
+22557|tasks.json task should quote the command string
+22558|Suggestion shouldn't take two lines just because of the info-icon
+22559|"Support ""Report Issue"" for individual extensions"
+22560|Suggestion highlighting is broken
+22561|code cannot start with AFS homedir
+22562|Please, provide a way for consoles, i.e. Debug Console to be vertical like a split view.
+22563|Cursor lags behind input
+22564|Test: maximize / restore panel size
+22565|Rename terminal windows
+22566|Hangs while scrolling
+22567|Introduce a window.title relative path variable for the folder of a file
+22568|VSCode keeps crashing after update on OSX
+22569|Turning off word-based suggestions isn't enough for comments
+22570|Checks integrated terminal output for more types of relative paths
+22571|Build Error
+22572|Cannot read property 'find' of null
+22573|Cannot read property 'reason' of undefined
+22574|Cannot read property '_runner' of undefined
+22575|Uncaught TypeError: Cannot read property 'heightInLines' of null
+22576|Cannot read property 'length' of undefined
+22577|Cannot read property 'configuration' of undefined
+22578|Problems in formatting of lines (support of comments)
+22579|Editor's view should follow cursor in these cases
+22580|Icon for *.scss file not showing
+22581|Allow to open a workspace without restoring any state
+22582|Bad experience when TypeScript server crashes
+22583|Right-Click XML File -> Open With -> Code (Not Working)
+22584|Integrated terminal (cygwin64 bash) not rendering color escape codes on php output
+22585|Support for JSDoc parameter properties
+22586|Login like in Visual Studio IDE to preserve keybinding and other settings
+22587|Isolate code Feature
+22588|Git clone F1 command error when no folder/project is open
+22589|Cursor width not respected when using multiple cursors.
+22590|Long strings are cutoff when hovering over local value while debugging
+22591|Hide/dispose terminal link hint when a row change occurs
+22592|AddConfigurations does not respect `{` on the same line as `[`
+22593|Clickable links in PHP
+22594|Can't bind Ctrl + / and Ctrl + ; to different commands on a Brazilian Keyboard.
+22595|Create IContext type, dynamic `getValue`
+22596|[Feature Request] Support in VS Installer
+22597|[Feature Request] Preview for SVG files
+22598|Add button to resource viewer to open unsupported resource in external program
+22599|Ts server restart
+22600|Unsupported 16-bit application.

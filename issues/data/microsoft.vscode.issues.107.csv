@@ -1,0 +1,100 @@
+10601|Extension recommendations do not include an immediate way to install them
+10602|Crashes at launch when process.env.APPDATA is not set.
+10603|New windows flash briefly in Light+ theme
+10604|Very hard to spot where object's members end and next local variable begins
+10605|Feature request: Better C# syntax colorizer
+10606|Visual Studio Code does not save files on a remote server
+10607|Intellisense speed issue
+10608|[theming][editor] support selection foreground color
+10609|tmTheme bold fontStyle is not supported
+10610|Indent guides should use `guides` setting from tmTheme, not `invisibles`
+10611|Integrated Terminal (PowerShell) - The handle is invalid
+10612|Extensions icons missing in 1.4 on OS X Mavericks
+10613|Feature request: Reveal in explorer
+10614|AutoSave not consistently syncing changes to Markdown files saved to OneDrive
+10615|File not saving with ctrl+s on first try
+10616|TypeScript + React - color issue with decorators
+10617|code folding stops at compiler directive in col 0
+10618|XSLT Intellisense
+10619|Glob matching should be case insensitive
+10620|Cannot find file in E drive because of case (looking in e drive)
+10621|Implement integrated terminal extension API
+10622|"""cls"" command only clears visible area of the integrated terminal"
+10623|Requesting feature info.
+10624|JavaScript for-loop colouring broken
+10625|After upgrade GO to 1.7 version, the Code just won't show intellisense for a variable
+10626|window.ShowInputBox returning undefined instead of empty string for Ok keypress
+10627|"Feature request : replace ""View: Show Git"" by ""View: Toggle Git"""
+10628|Display current zoom level
+10629|Triggering hover by keyboard grabs focus
+10630|Files.associations not working.
+10631|C# Arrow functions with string breaking color themes
+10632|How to hide toolbar in the left?
+10633|Selecting a line also select the first part of the line below it
+10634|Is it possible to update/refresh the CodeLens?
+10635|how to output the  error logs
+10636|The search tool's width is real-time change, It's shake and customer can not sometimes input correct word.
+10637|Added .bash_aliases to recognised extensions
+10638|Unimplemented  console.clear()？
+10639|Seeing progress from one viewlet showing up in other viewlet
+10640|Cannot update extension: Cannot read property once of undefined
+10641|code --help hows wrong help for setting locale?
+10642|Align IEnvService and IEnvironmentService
+10643|some suggest refactorings
+10644|Light+ theme stopped working on Windows 10
+10645|WorkspaceEdit should support creating, deleting, and renaming of files
+10646|Font size for the side panel cannot be changed
+10647|Add support for background tasks
+10648|Find widget covers results on first line
+10649|Preserve view state when switching tabs on compare view
+10650|vscode hangs when inputting some words after opening user settings file from command palette
+10651|provideSignatureHelp doesn't seem to render anything despite being called and returning data
+10652|"Clicking string in debugger get stuck with ""unexpected identifier"" error"
+10653|Quick Open Flickers
+10654|Some icons are now displaying on VS Code
+10655|Change Request Feature to Search Feature Requests in menu
+10656|Removed UserVoice from README
+10657|Changed menu item to Search Feature Requests
+10658|Scrolling Issues with Touchpad Scrolling
+10659|Can't fold long <style> tag
+10660|Theme settings should be stored in user.json
+10661|Regex não funciona devidamente no replace
+10662|Added key binding functionality for any task.
+10663|Typescript code highlight
+10664|Breakpoints and StopOnEntry Fail On Windows Only
+10665|Undoing git checkout
+10666|Feature Request: Support inline code execution similar to jupyter notebooks / hydrogen
+10667|fixes #7688, fixes #2936, fixes #2867, fixes #2208
+10668|Test Python grammar update
+10669|VSCode loses tsconfig settings
+10670|"Regex ""search: \s(?=/), replace with: \n"" not working"
+10671|Integrated terminal 'git log' initially shows top of scroll buffer
+10672|Typing into embedded editor moves focus into outer editor sometimes
+10673|where is code display and/or console.log
+10674|Select all when sidebar is clicked, selects line numbers
+10675|VS Code fails to start if current directory no longer exists
+10676|Quick open changes order for matching elements
+10677|what is the Clear Console action Shortcut key？
+10678|Automatically open next diff when accepting a replace
+10679|UX changes to install extension directly from Marketplace
+10680|Windows: .gitattributes and .gitignore should always show extension
+10681|Intellisense Lightbulb does not appear when green squiggle clicked in C++ file
+10682|why words isnt aligns
+10683|how do i make a installer for vscode?
+10684|Contribute JSON Schema for composer.json
+10685|Feature request: Show untitled file in language
+10686|I made some modifications to the vscode .I would like to make a installer?
+10687|Weird behavior of the problemMatcher.
+10688|Issue with VSCode extensions when behind SSL re-encryption proxy
+10689|Extension host types should have an 'adopt/lift' method
+10690|console.log(json) in visual studio code have problem
+10691|Help PowerShell debugger to auto expand variables and keeping it expanded
+10692|Mac Insider updates missing?
+10693|VS Code hangs and couldn't even be terminated. Needed to reboot my machine
+10694|load keybindings.json from .vscode dir if there is any ?
+10695|Feature Request: Customisable Buttons
+10696|Feature Request: Customisation Bundles
+10697|editor.action.smartSelect.grow action on empty tab throws warning
+10698|First NumPad+Enter does not produce new line when switching from diff to normal editor
+10699|ParameterInformation isn't rendered when only contains a label
+10700|Class function coloring fails if type sequelize.Model<{}, {}>; is used

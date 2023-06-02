@@ -1,0 +1,100 @@
+21601|Feature Request: TypeScript Imports Management
+21602|Test: debug menu
+21603|Format wrong again
+21604|command line to launch task is badly formed for integrated terminal
+21605|skipFiles stopping on file in node_modules even though excluded
+21606|Enable consumers to hook into the terminal link matcher by specifying a priority for the link matchers
+21607|Tab key will randomly stop inserting tabs into editor
+21608|Remove terminal waitOnExit proposed API
+21609|Ship a 64 bit VS Code build on Windows
+21610|Enhancement - Format Document for CSS
+21611|Allow continuous key bindings to be pressed and execute every action?
+21612|VSCode Opens Slowly after 1.9.1 update
+21613|Opening a file with autoSave=afterDelay shows in Git status
+21614|GIT or SCM?
+21615|Automatic Type Acqusition not working on Fedora
+21616|Column selection does not allow left highlighting
+21617|Could Not Determine References inside @typedef
+21618|Expose insert..Braces rule in VS Code settings
+21619|code-1.10.0-1488387854.el7.x86_64.rpm is not signed
+21620|Figure out what to do with update notification now that the Linux repos exist
+21621|Next version release notes don't show from update banner
+21622|"""Select All Occurrences"" is not selecting all of matches in large files (stops at 1000)"
+21623|Add missing deb package dependencies when installing on Debian
+21624|PATH issues with Fish shell on macOS
+21625|Toggle Wordwrap should toggle back to configured value
+21626|"""Define keybinding"" doesn't escape \"
+21627|ReleaseNotes tab reloading when switching back to it from another tab
+21628|""" - OSS"" in Windows context menu"
+21629|Commands Documentation
+21630|ms-mssql.mssql extention not returning result set
+21631|Allow to configure the tab title using variables
+21632|allow to enable minimap only for files longer than X lines
+21633|Feature Request: Collapsible PowerShell Regions
+21634|Upgrade from 1.9.0 turns on minimap in user settings
+21635|Undeclared dependency shows problem/warning for extraneous module
+21636|"Git SCM Extension: Cannot do ""git checkout [new branch name]"" anymore :("
+21637|Terminal links - chrome devtools link isn't clickable
+21638|VIM: Command for navigating around visible editors/viewlets/repl
+21639|pls add Stylus support
+21640|Feature request: plugin management in terms of folder
+21641|Settings button does not appear immediately after installing an extension
+21642|Can't remove a BP when it's moved past the end of the file
+21643|Word wrap not working for lines above 1000 characters
+21644|Pointer capture when moving sashes or scrollbars
+21645|User settings reset/lost on upgrade
+21646|markdown preview zoom
+21647|Auto close open file
+21648|window.title   ${activeFilePath} not work
+21649|Could not close git diff document
+21650|"""Start Debugging"" is auto-saving open files even for unchanged files"
+21651|Minimap: scroll shadow is not always rendered.
+21652|"Use Custom ""No Definition Found"" Message For Go to Implementation and Go to Type Definition"
+21653|URI: Resources with backslashes do not preserve backslashes
+21654|why there is not a forum for vscode?
+21655|Copy With Syntax Highlighting not work with Keynote/Pages
+21656|PHP - automatic use statements and better autocompletion required
+21657|Can't attach to nodejs process after Feb 2017 update
+21658|Add Instructions For Missing Bundled TSServer.js File
+21659|Show Reinstall VSCode Error Message when our Bundled tsserver.js is Missing
+21660|TextEditor.revealRange on main window scrolls peek definition window too.
+21661|"Adopt list commands for editor's ""Find References"" peek UI"
+21662|Multiple Instances with bash shells, histories not restored correctly
+21663|Minimap text is unreadable with a white background
+21664|On restart / reboot windows do not restore in the correct places
+21665|Allow pinning debug action pane to debug sidebar
+21666|Add IntelliSense in settings.json and tasks.json to all variables
+21667|I can't hide the minimap
+21668|Search large files
+21669|Circulation  Prompt warning form
+21670|The .NET Core Debugger is still being downloaded. See the C# Output Window for more information.
+21671|[Feature] Setting sidebar textSize
+21672|Misplaced green/red markers in diff view. Bug since upgrade to v1.10
+21673|JSON Hover: invalid regular expression
+21674|[scss/less] color decorators for variables
+21675|SettingsEditorModel leaks text models
+21676|w
+21677|Minimap should start dragging when on mouse down outside of viewport area
+21678|mainThreadDocuments.tryCreateDocument() is bypassing our model reference story
+21679|C++ language components update failed
+21680|Cannot  open Visual Studio Code after try to upgrade to 1.10.1 on windows
+21681|Add typescript and javascript format.insertSpaceBeforeFunctionParenthesis
+21682|Dropdown refactoring menu items lose focus if mouse moves outside of the refactoring menu.
+21683|extension
+21684|Closing files tree in sidebar
+21685|Can not set Color Theme and File Icon after upgrade to 1.10.1 on mac
+21686|Saving on format adds newline in style tags with multiple classes
+21687|Performance report - slow start
+21688|Add auto-resize to sidebar
+21689|Had a slow startup.
+21690|Slow start warning
+21691|Several keybindings in menu bar displayed on left
+21692|Auto implements interface doesn't respect indentation settings
+21693|challenge: design vscode to open faster than it takes to open notepad
+21694|Not having the alt key hardcoded for toggling the MenuBar
+21695|Dirty diff doesn't clear when commiting
+21696|"""Slow startup"" dialog shown on dev"
+21697|No types for TS files in auto generated JSdoc (v1.10.1)
+21698|Issue with text selection over minimap
+21699|Option to choose quotes for add missing import feature
+21700|"Error processing ""setBreakpoints"" on console using new inspector protocol, but breakpoint works"

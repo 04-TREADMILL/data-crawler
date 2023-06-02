@@ -1,0 +1,100 @@
+13201|It is the only link we have access to in source. It will be ok for 90% of the cases. Finally, it has also been like this since a year and we never heard complaints.  We can always disable this popup for insiders, but I think that would suck.
+13202|It should maybe be possible to define this link per vscode product, so insiders would go to one link, stable to another and so on... I agree it is not important since it works for 90% case but that is why I tagged this as a feature-request
+13203|I would need api from the task framework to support something like this, since I do not want to handle running tasks in the debug world. So forwarding to @dbaeumer first
+13204|I call [nls.localize](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/debug/browser/debugViewlet.ts#L71) on all the titles of my panes. Forwarding to @dbaeumer
+13205|This conflict prevents column selection with the keyboard on Linux.
+13206|Thanks, doesn't have the error anymore.
+13207|Ok. Should it also close when clicking the _visually identical_ install action?
+13208|No, since for that I get feedback both in the quick open icon and in the status bar icon. And the scenario to install multiple extensions is higher likely to happen then to uninstall multiple imho.  Maybe the delete icon could also provide feedback like the install icon in quick open.
+13209|I'd just get a bug that the two actions look alike but behave differently.  And the uninstall icon also provides feedback, it turn itself into the install one..  ![bug](https://cloud.githubusercontent.com/assets/22350/13747865/a0e13fae-e9fa-11e5-8c75-fa498c06ae93.gif)
+13210|They will move to the output...
+13211|@egamma this is know. I haven't received translations yet.
+13212|Ok, makes sense, I just created this one that would improve this experience a bit I think https://github.com/Microsoft/vscode/issues/4165
+13213|It does. It's just instant.
+13214|![image](https://cloud.githubusercontent.com/assets/172399/13747930/eaed82ce-e9fa-11e5-9cf5-3526d1e7b811.png)  Suggest Tabulator
+13215|@joaomoreno where is the source for the strings we show in InnoSetup. May be I can have a look how we best pipe them to the translation team.   @egamma do you remember if button on the dialog where in English or German. If we translate the strings we show then we need a translated version of InnoSetup as well.
+13216|@egamma [We seem to do the right thing here](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/electron-main/menus.ts#L653). Have you seen dates properly localised anywhere in our product?
+13217|Datei > Einstellung > Tastenkombinationen ![image](https://cloud.githubusercontent.com/assets/6461412/13748077/8fccf2fc-e9fb-11e5-89a0-5fa7c1d97ab9.png)  I think 'Tastenkombinationen' should be used consistently. -> Standard-Tastenkombinationen -> Uberschreiben Sie die Tastenkombinationen, indem Sie diese in den benutzerdefinierten Tastenkombinationseinstellungen (keybinding.json) eintragen.
+13218|@eyalsk the nice thing about JSON generated GUI is that it makes it easy for extensions to add settings that get a GUI aswell.  What do you think about [my suggestion](https://github.com/Microsoft/vscode/issues/3355#issuecomment-190666144) where the settings.json just has a button like the Markdown preview button that switches to settings UI?
+13219|@isidorn are the strings for VARIABLES, ... come from the server? All strings in VSCode should be localized. Only the strings in vscode-node-debug aren't
+13220|This is because Martin does not register those actions for readonly editors. Forwarding to @aeschli
+13221|@isidorn I can't find any reference to 'VARIABLES' in our codebase. Could you point me to the location where the string is 'inserted' into the user interface
+13222|"Where can the locale get edited? I would like to do a PR and I see ""dont edit this file, it is generated"" everywhere"
+13223|There is a pointer in my comment above, just click on nls.localize. And, no, this is not coming from the server. This is localized inside vscode
+13224|I could only test the UI since the CentOS installation didn't except any sudo commands. Not sure what is wrong with the installation. @Tyriar any hint
+13225|This is the first time I hear of this action :)
+13226|Will check for a better label.
+13227|"Yes, I hate this. I wonder if ""-w"" should add to the recents at all. Anyway the reason for not splitting this is afaik that the File > open command does not distinguish between files and folders and so I made the recent list also ignore that.  But I do see others like Sublime splitting it, so might be a good idea to add it."
+13228|@egamma I will simply not bind them by default on Linux, this is a minefield
+13229|Moving to @Tyriar who does the spawn from cli.ts
+13230|@dbaeumer Was the file you were copying from using LF or CRLF?
+13231|I use the line ending of the source file and perhaps Notepad is not understanding `\n`. i.e. when I paste in VSCode it works as expected.
+13232|@eyalsk I'm afraid I don't really understand how this could become a much larger problem. Perhaps you could elaborate?  I wouldn't expect a user to go find some other application just to manage the settings. That's weird in this context. Can you name other IDE/document editors that manage their settings this way?
+13233|@Tyriar I fixed the sudo issue, however my CentOS default install doesn't have apt-get either. Are these steps supposed to be working?
+13234|If we only did what others did we'd have tabs. Oh, wait...
+13235|This is on Windows.
+13236|@Tyriar since you are on the themes already
+13237|I thought about replacing the path with something shorter if it is actually a substring of the tmp path (e.g. $tmp/).
+13238|Ooo, pasting with correct indentation should be the default.
+13239|Yes I always wanted that actually :)
+13240|Why :-1: when we are actually doing it across the product?  ![image](https://cloud.githubusercontent.com/assets/22350/13749186/91cdfb46-ea00-11e5-84f2-6154f4123c48.png)  ![image](https://cloud.githubusercontent.com/assets/22350/13749228/b5b41c5c-ea00-11e5-81fe-388dd5d39923.png)  ![image](https://cloud.githubusercontent.com/assets/22350/13749201/9e3c0e40-ea00-11e5-864e-8ac53ee09379.png)  ![image](https://cloud.githubusercontent.com/assets/22350/13749213/a4c54722-ea00-11e5-9468-8b716d4051aa.png)
+13241|On my side it would be pretty easy to just comment out the forcing of `readOnly=true` on the left-hand-side. But I need to add an option to allow the workbench to make the git diff case left-hand-side readOnly.
+13242|"There's also the inline diff case, where I cannot make the ""original"" editable."
+13243|@joaomoreno we used to have what you suggest and I always felt it was hard to read what exactly is being compared so I chose the easiest thing that could possibly work and just show 2 full paths. the issue here is the ugly tmp path, I did not hear complaints otherwise.
+13244|@alexandrudima yeah I think we know in all places if the left hand side should be editable or not, I think it would only be the file-2-file compare where this applies.
+13245|Tough. We behave like ST now, I explicitly checked because I wondered too...
+13246|@isidorn You are correct and when I just launch it I can't change it... But for some reason sometimes after a while I can. I'm not sure how to reproduce it, but I've seen this happen several times in several versions and I'm pretty sure I've seen it both on Win 10 and OSX: ![vscode-change-launch-configuration](https://cloud.githubusercontent.com/assets/14098140/13749454/bdc71a58-e9be-11e5-9d34-66f229ad6c4c.gif)
+13247|That's cause no one uses the `Compare with` action :dancer:   Likewise, I think it looks awkward here:  ![image](https://cloud.githubusercontent.com/assets/22350/13749502/05e8b7fe-ea02-11e5-97ac-2d649d127acb.png)
+13248|"This is a limitation of the implementation. We implement column selection different than Visual Studio.   The conceptual ""rectangular selection"" is there when doing column select commands, but it is not a built-in concept, instead the ""rectangular selection"" gets ""projected"" on the visible lines.  Once it is projected, it is not ""re-projected"" when edits occur (e.g. file changes on disk), when tab size changes (e.g. configuration change), when folded regions are unfolded, etc."
+13249|Nah, how do you think I got so many points on SO: http://stackoverflow.com/questions/30139597/visual-studio-code-is-there-a-compare-feature-like-that-plugin-for-notepad  ;)
+13250|I still think in any case it would help to replace the long tmp path with something short.
+13251|Thanks!
+13252|"I added ""output"" to the summary, because we can receive output from the background we must ensure that we are not leaking there."
+13253|:+1:
+13254|We need more info, please comment and I can reopen.
+13255|I'm having the exact same error. VS Code just crashes every few minutes. I'm using it with elm. It does not clash when it is left on. It clashes within minutes after I start ending the file. It has been like this for the past three days making VS Code unusable. How do I check what is going on? I'm using version 0.10.10.
+13256|Ok, there is a new option `originalEditable` to the diff editor. It is false by default.
+13257|Another thought I had: We do have a service that can receive output from various end points (git, tasks, extensions) and this is something that can happen in the background and add up. We did quite some fixes in this area for GA that are not in previous releases.  If anyone with overnight crashes could just briefly check if there is any output logged from the background? You can see that from View > Toggle Output and then switching through the channels from the dropdown.
+13258|Good point. The file had \n line ending. Feel free to close
+13259|@alexandrudima cool, let me pick this up then...
+13260|@alexandrudima so by default this option is true or false?
+13261|:) Wrote in comment and in jsdoc: it is false by default.
+13262|@bpasero Are you arguing we should go back to the default `insertSpaces`: true ?
+13263|That is fine by me
+13264|After discussing with @joaomoreno we will leave the title just the default selected element will be the one from the current file.
+13265|I'm sorry about that, I didn't get a chance last night to try it out on Linux. I suggest we make these commands not bound by default on Linux since there are no modifiers + arrow keys combinations left. Objections?
+13266|:+1:
+13267|@alexandrudima yes, now that I saw the TypeScript workspace I think that would be good.
+13268|@aeschli  weren't we moving away from default themes as they force themes to override the values? For example this would force having to have a regular font style.
+13269|This is consistent with Visual Studio. 1. Pressing shift and alt before mousedown, uses the primary cursor selection start as the anchor. 2. Doing mousedown and then shift and alt uses the mousedown position as the anchor.  IMHO, this allows both use-cases, while the Sublime way does not allow case 1.
+13270|Very strange. If I build locally it is translated.  ![capture](https://cloud.githubusercontent.com/assets/1931590/13750758/1ed700ea-ea07-11e5-959f-e0cef497d185.png)
+13271|[Archive 4.zip](https://github.com/Microsoft/vscode/files/172334/Archive.4.zip)
+13272|The Error List is in limbo.  It can be enabled with a hack I use every now and then:  - Reveal Debug Console (`Ctrl+J` on Windows) - Open developer tools - Go to Resources -> Local Storage - Find the key containing the folder + `workbench.panelpart.activepanelid`. - Edit from `workbench.panel.repl` to `workbench.panel.errorList`. - Reload window.  Works until the Debug Console is shown again.
+13273|Nice catch!
+13274|@Tyriar I would have loved to discuss and reviewed your changes first. While I'm not opposed to using red for css rule values, at some point it was decided to stay as close as possible to the Visual Studio themes. - The change should also include the Dark Visual Studio theme (the light themes do the same) - LESS and SASS need to be changed as well  In general, when making changes to existing code, always contact the current feature owner. If you don't know who that is, check the file history.
+13275|@alexandrudima cool, I think this is a good start to demo for UX to get an idea, adding the label.
+13276|Need to decide if we stick with white on the Default VS theme ![image](https://cloud.githubusercontent.com/assets/6461412/13751083/c328fe72-ea08-11e5-9cc3-b35943f2b05f.png)
+13277|Filed #4191 Inconsistent coloring of CSS rules values
+13278|Change introduced by #3534
+13279|@bpasero  In the 'Tasks' output I'm just seeing output I would expect from my own compile task. In the 'Git' output I'm seeing a fair few git fetch's, interspersed with a few git show's. I'm not sure how frequently though as there isn't a time stamp. No other output though.
+13280|@isidorn Can you give some testing steps? Write an extension and write to the console? What didn't work before?
+13281|Code is talking about line 30 in your `.bash_rc` file. If you remove it and install the new CLI via the command you can keep `vsc` by setting `alias vsc=code`.
+13282|Hm, I forgot that this adds a bit more complexity to how actions operate on the active editor and how dirty state is indicated. I think I was a bit too optimistic for March but will check. Otherwise April it will be.
+13283|We do auto fetch every now and then but the main output you see there is probably from the work you do within VS Code. Would be interesting if the output adds up when VS Code is in the background. Is the task running constantly or only when you explicitly invoke the compile task?
+13284|This issue don't reproduce after restart vscode. Debug works perfectly. Please close it. Sorry.  Earlier message displayed at top of window. Debug console was empty. In ouput console was not errors.
+13285|Ah, then the true bug is that commenting the line out is insufficient, which is what I tried before filing the issue. Also, the info message is a bit of a red herring, as the offending line wasn't an alias. Maybe put the offending line number in the error message?   In any case, thanks for the prompt attention to the issue. Much appreciated.
+13286|@felixfbecker The issue with what you are proposing where you exchange text with controls is that I'm not sure how great the experience would be and I'm not sure what you gain by doing it.  So without an actual UI I see no point in it.  @ianwesterfield   > I'm afraid I don't really understand how this could become a much larger problem. Perhaps you could elaborate?  Okay, if you refer to the kind of GUI @felixfbecker proposed then I guess it wouldn't be so _hard_ to do but I don't see much value in it but maybe I'm wrong. :)  > I wouldn't expect a user to go find some other application just to manage the settings. That's weird in this context. Can you name other IDE/document editors that manage their settings this way?  The person can simply make it available as an extension, when the extension is executed for the first time it grabs the installation and install the application and finally start the application, the second time it just starts the application but the bottom line is that it's not so different than installing any other extension so it certainly not weird.  The VSCode team can make this available by asking the user whether he wants a GUI to manage the settings so the user wouldn't have to _find_ it.  The benefit of making this as a separate application is that it loads as part of a separate process.
+13287|Fixed. A tool once created a global gitignore for me and put a rule in saying to ignore everything that has in debug in its path :-(.
+13288|@weinand it should have this comment in the settings, or do you mean somewhere else?
+13289|HALTEPUNKTE :heart:
+13290|Yeah all great points. I can add those two safeguards: - check whether the line is commented out - provide the line number
+13291|The bugs linked in the original issue did not work before. Testing steps is to write an extension and use our [output API](https://github.com/Microsoft/vscode/blob/master/src/vs/vscode.d.ts#L2518) to send content to the console and try to be creative in crashing it #3609 uses this api for instance
+13292|We are outputing console.err data from the debug adapter, this way it is easier for the debug adapter writers to debug their code. I think this is as designed but I will let @weinand decide
+13293|@Tyriar  The default themes are here to stay, but they are now implemented as a real themes and the default css rules (tokens.css) is now basically empty.
+13294|+1
+13295|@bpasero yes, like other settings with the same requirement.
+13296|The task is just when I ctrl+shift+B and ends shortly thereafter. I've had crashes however when I haven't run a task.  I get two identical git show's when I switch between files and yes the git fetch's occur automatically once every couple of minutes.  Note that I don't do any checkouts etc within VSCode, I use SourceTree for all git related tasks.
+13297|"@bpasero What is the reason that `files.watcherExclude` use a different pattern than the other settings?  ``` json     ""files.exclude"": {         ""**/.git"": true,         ""**/.DS_Store"": true     },     ""search.exclude"": {         ""**/node_modules"": true,     },     ""files.watcherExclude"": {         ""**/node_modules/**"": true     } ```  Would this not work?  ``` json     ""files.watcherExclude"": {         ""**/node_modules/"": true     } ```"
+13298|TypeScript
+13299|"I found this in Default Keyboard Shortcuts:  ``` { ""key"": ""f5"",                    ""command"": ""workbench.action.debug.start"",                                      ""when"": ""!inDebugMode"" }, ```  I added this to keybindings.json:  ``` // Place your key bindings in this file to overwrite the defaults [ { ""key"": ""f6"",                    ""command"": ""workbench.action.debug.start"",                                      ""when"": ""!inDebugMode"" } ] ```  After that, pressing f6 would cause the current window to be exited, or cause Code to exit, which I guess is due to the system default ""close"" action of f6. I went into Microsoft Mouse and Keyboard Center and disable the default action. Then pressing f6 in Code does nothing."
+13300|:+1:

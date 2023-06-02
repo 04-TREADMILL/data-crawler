@@ -1,0 +1,100 @@
+1501|[css] Wrong CSS-Error with @supports rule
+1502|editor window
+1503|editor don't detect object and there methods (javascript)
+1504|Failed to execute git - I don't use git!
+1505|C# intellisense broken in constructors (0.10.5)
+1506|Render ligatures
+1507|Support for javascriptnext
+1508|Mac OSX warning: Launching Visual Studio Code will damage your computer. You should move it to Trash.
+1509|Unclosable error message
+1510|"Pass full ""Source"" object to ""setBrealpointsRequest"""
+1511|Column selection
+1512|Visual Studio Code has crashed
+1513|update to v0.10.5 can't open
+1514|filePicker.alternateFileNameMatching doesn't seem to work
+1515|ES6. double letter with detect methods or var.
+1516|SQL: single quotes Can't Display Right Color Mark
+1517|MAC OS x el capitan vscode upgrade to 0.10.5 cannot be used
+1518|remove usage of EventSource in favour of Event & Emitter
+1519|tests/run.sh should be scripts/test.sh
+1520|Code Folding
+1521|Code Folding
+1522|Code Folding
+1523|Code Folding
+1524|Code Folding
+1525|Code Folding
+1526|Code Folding
+1527|CSV File viewer
+1528|mm files should be associated with C++
+1529|Code formatting settings
+1530|Suggestion: semantic highlighting support
+1531|IntelliSense lost when developing with C# for Unity
+1532|modify launch.json Zoom back to 100%
+1533|Markdown: HTML Coloring regression?
+1534|Delete should respect user preferences regarding confirmation
+1535|Git changes don't load anymore since latest update
+1536|can't be running
+1537|Lost color for 'yield' for ES 6 in the default dark theme in latest update
+1538|Unable to close.
+1539|[html] typos of angularjs attributes(directives)
+1540|Git keyboard navigation bug
+1541|When using multiple carets, autocomplete only completes the first one selected
+1542|Add setting for default end of line sequence
+1543|MIN_EDITOR_SIZE value too small for minimized editors to be very useful?
+1544|JS Intellisense based on prototype method
+1545|Localized keybindings mismatched
+1546|[yaml] keys with hyphens break syntax highlighting
+1547|Windows: Support file watching over samba share
+1548|Breakpoints broken via Attach to running NodeJS process (broken in 0.10.5 and 0.10.6)
+1549|findFiles-API should accept a cancellation token
+1550|new js language extension breaking the core js grammar
+1551|Cannot place breakpoints
+1552|Can extensions use async/await
+1553|The 'ext install' command is unavailable after compiling from the sources
+1554|"""Electron"" appears as Github login popup has no title"
+1555|[jade] Syntax Highlighting Stops Working on Unbuffered Code
+1556|[css] Remove deprecated CSS colorKeywords
+1557|"""We are sorry for the inconvenience! Please restart Visual Studio Code."" pop out every time when I open VSC"
+1558|QuickFix Generate a class for 'class name' in 'namespace' (in a new file) doesn't work
+1559|Add support for hiding the menu bar also on Linux
+1560|Support menu bar visibility toggle also on Linux (fixes #1563)
+1561|"ES 6 highlighting break after ""_"""
+1562|Error message for every deleted file
+1563|Provide an action to navigate to derived resource
+1564|"Debugger adapter's ""runtimeArgs"" parameter is ignored"
+1565|Linux: not possible to navigate between menus using keyboard
+1566|Crashing when editing user preferences
+1567|If a file is already open in a tab, don't open it again when clicking the file explorer
+1568|mac os x 10.11.2 open 0.10.5 crash
+1569|No function of formatting code in .jsx file
+1570|Task and/or Extension Command User Arguments On Entry
+1571|dropped support for relative paths in launch.json: UX problems
+1572|When I opened my solution, always got this error message.
+1573|Show option 'Try Again' on Windows, when editable file is locked.
+1574|No context menu in any input field
+1575|Sanity check file names before writing to disk
+1576|Changes in line endings are not correctly reflected in the extension host, leading to invalid offsets sent to external refactoring tools
+1577|"Shift+tab from the ""replace"" textbox doesn't bring to to the ""find"" textbox"
+1578|Add Breakpoint Conditions
+1579|[python] Disassociate .gn with python language
+1580|Hovering over new watch expression input box crops the end of input
+1581|URL containing parentheses not properly detected in Java comment
+1582|Implement configurable cursor style
+1583|Support file-type-specific settings
+1584|'Find' silently fails after 1000 results
+1585|extension cannot require('node-expat') (DLL initialization failed)
+1586|JSDoc Comment seen as code error in JavaScript
+1587|improve source path matching
+1588|Used to work on Mt Lion 10.8.5
+1589|Hint: Startup time improvement
+1590|[java] enum with values coloring is off
+1591|jsconfig in default user settings?
+1592|Tasks and commands integration from extensions
+1593|Filter for folder view, `.vsignore`?
+1594|install extension is slow (needs caching?)
+1595|"ctrl+shift+j yields ""Cannot read property 'openViewlet' of undefined"""
+1596|Visual Studio Code has crashed
+1597|Parsing jspm configuration on package.json
+1598|0.10.5 on mac crashed
+1599|When I use Chinese the VS code become very very slow !
+1600|"renderWhitespace not work when fontFamily is ""Hack, monospace"""

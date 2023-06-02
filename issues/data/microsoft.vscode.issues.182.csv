@@ -1,0 +1,100 @@
+18101|"TypeScript Shows ""tsdk Updated"" Message Even if the Settings Update Fails"
+18102|evaluate request should come after initialize request
+18103|Minimizer for multiple languages such as php?
+18104|Show Error Message if TypeScript Settings Update Fails
+18105|TypeScript Function Call Completion Inserts Duplicate Call
+18106|Make settings UI look more like one unit and easier to switch to global/workspace settings
+18107|Formatting HTML breaks
+18108|Issue with snippets
+18109|Use Better Range When Formatting TS Quick Fixes
+18110|Allow case sensitive 'Add Selection To Next Find Match'
+18111|(feature request) Scroll Binding
+18112|vuex
+18113|The C/Cpp Language Server server crashed 5 times in the last 3 minutes. The server will not be restarted.
+18114|Feature-Request: Support specifying alternative tsconfig.json in workspace settings
+18115|[9388] add setting that keeps sidebar from toggling folders/opening files
+18116|file document content loss when the computer storage is full
+18117|[Feature] Multiple windows
+18118|Terminal autologin not working
+18119|Moving unsaved files loses content irreversably
+18120|Adopt Marketplace large extensions support
+18121|Improve dynamic extension recommendations
+18122|regression: source origin no longer shown in editor header
+18123|[Feature Request] Add feature to disable or grey-out obsolete/deprecated C# methods, attributes, etc on autocomplete
+18124|Tabs (as in tabs vs spaces) make vs code lag and crash
+18125|Extensions Commands Missing/Confusion from Marketplace (again). Support ext inst
+18126|CSS format dont work
+18127|Cannot read property 'reason' of undefined
+18128|t.threads[n].getCachedCallStack is not a function
+18129|Cannot read property 'gallery' of null
+18130|Cannot read property 'toString' of undefined
+18131|Cannot read property 'toString' of undefined
+18132|Uncaught TypeError: e.split is not a function
+18133|Uncaught TypeError: e.split is not a function
+18134|Cannot read property 'getControl' of undefined
+18135|Cannot read property 'length' of undefined
+18136|Cannot read property 'reason' of undefined
+18137|Uncaught TypeError: Cannot read property 'done' of undefined
+18138|Uncaught TypeError: Cannot read property 'done' of undefined
+18139|Cannot set property 'stoppedDetails' of undefined
+18140|Cannot set property 'stoppedDetails' of undefined
+18141|Cannot read property 'style' of null
+18142|Cannot read property 'style' of null
+18143|Cannot read property 'getWordUntilPosition' of null
+18144|Cannot read property 'getWordUntilPosition' of null
+18145|Cannot read property 'id' of null
+18146|Cannot read property 'id' of null
+18147|node2 not sending origin for source requests
+18148|[MacOS and C++ projects] debugging binaries compiled with gcc hangs
+18149|Column select with keyboard doesn't work
+18150|Autocomplete issue with Ionic2/Angular2
+18151|VSIX Format Change for Snippets
+18152|Explorer rendering is slow
+18153|Incorrect syntax highliting for C/C++
+18154|Tree slow!
+18155|Odd javascript formatting
+18156|Native Terminal: Improve tmux support
+18157|"Menu shows ""No Configurations"" when .vscode folder is on the root of the drive and the root drive is opened in VS Code"
+18158|Automatic type acquisition autocomplete is not working with JSDoc comments
+18159|Export more git commands
+18160|ftp feature is too poor
+18161|Git Project Manager no longer works on Insiders
+18162|"VS Code Crashed with ""The Window Has Crashed"""
+18163|How to setup the c_cpp_properties.json to create a local database and look it up for symbol references.
+18164|intent no correct for scss files
+18165|Unable to debug (hit breakpoints) for ASYNC functions
+18166|[bash] commands after HEREDOC delimiter are highlighted like the HEREDOC
+18167|Node.js debugging does not support reading from TTY
+18168|Error using 'sidebar find / replace'
+18169|Continue on Multithreaded break shows other threads (besides main thread) still paused in UI
+18170|Support global namespace reference in JavaScript
+18171|"Markdown link with ""_"" not highlighted correctly"
+18172|"Pattern matching in ""Find all files"" work only for open files?"
+18173|code --wait should return control when closing window
+18174|Horizontal scrolling is visually confusing
+18175|Fix Autolink Syntax Highlighting in Markdown
+18176|Highlight issue with Array
+18177|Can't open the same directory in multiple instances of VS Code
+18178|Wrong color in C#
+18179|TypeScript References Code Lens Provider
+18180|highlight issue on TypeScript with higher order function
+18181|[Typo] Change signifikant -> significant in problem matcher
+18182|Syntax highlighting broken in JSX when using arrow function's implicit return
+18183|Annoying behavior rather than a bug: When folder is opened, all tabs are cleared/closed !
+18184|Word wrapping enabled through the menu is reset whenever settings.json is modified
+18185|CharWidthReader performance
+18186|Theme selection palette broken
+18187|"Syntax coloring for ""yield"" keyword"
+18188|Navigate to next/previous symbolic match in file
+18189|Check for places to use fast URI serialisation (like HistoryService)
+18190|Consider avoiding universal selectors if possible for performance reasons
+18191|Download dependency package
+18192|improve package.json parsing performance
+18193|Replace jade with pug
+18194|Debug is hiting twice on install mongocsharpdriver
+18195|Fixes bad translation
+18196|Support Bash for Windows as a first class citizen
+18197|Multicursor cut/paste does not paste
+18198|Disable specific code languages from appearing in the Language Mode menu
+18199|Search Results: add context menu
+18200|Feature-Request: Ability to Login to Microsoft to Sync settings across all computers (Like in Visual Studio Pro)

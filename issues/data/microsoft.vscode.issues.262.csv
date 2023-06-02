@@ -1,0 +1,100 @@
+26101|Fix staging lines to not corrupt line endings when autocrlf is enabled
+26102|"the value of ""files.autoSaveDelay"" is in milliseconds actually, not in seconds. (my locale is zh-CN)"
+26103|Can't go to definition from react component
+26104|After upgrading to latest version of VS code, the lines in terminal skewed.
+26105|Zoom offsets the visible cursor
+26106|not showing the errors in the code
+26107|The `Debug Console` can't read user's input
+26108|"Question: about the ""Enter password"" prompt of Visual Studio Team Services git"
+26109|When VSC in Full Screen, double clicking on Console Msg in Unity, VSG does not get active before one selects 'Window' -> Bring all to Front
+26110|when i use dot import in golang edit,can not jump to the dot package
+26111|Code Folding won't be remembered after latest update.
+26112|Too easy to accidentally move a file.
+26113|Bad performance when logging in output panel
+26114|option in task.json to load/reload a file in vscode editor
+26115|Typescript Intellisense - module resolving is refreshed when opening other editor
+26116|when i open a file, i have to run vscode first. that's a little annoying to me
+26117|VSCode not always scanning all files in a directory.
+26118|Markdown formatting does not highlight block code
+26119|//@ts-check can not support vue file
+26120|Codelenses now disappear and reappear with jarring jump on change
+26121|Closing a tab with middle click causes the middle click scroll indicator to show up
+26122|API: Ability to reload codelenses for extension provider
+26123|settings.json is Committed When Created after Clicking Always on Commit
+26124|Generating Getters and Setters in TypeScript
+26125|Feature request: Open the input field to create a watch by double clicking in the empty area
+26126|Chinese translation problems
+26127|Feature Request - locale settings in menu or settings?
+26128|Feature Request - Related with Side Bar
+26129|Better fonts for CJK users
+26130|Ctrl+Tab behavior not working as expected on Linux
+26131|Surface pro - scrolling using the type cover touch pad is slow
+26132|Custom workspace shell settings not working
+26133|Incorrect encoding in output window
+26134|Can't type anything when launching from shell command
+26135|插件安装时一直显示正在安装
+26136|IntelliSense sort order for snippets has changed and makes them harder to use
+26137|`Open Changes` no longer track the file in the `Source Control` panel
+26138|Diff tabs opened from the `Source Control` panel no longer in preview mode
+26139|Feature Request - Git option to disable auto stage
+26140|Explorer not working in insiders
+26141|Git extensions seems to open files with incorrect casing in its path
+26142|Feature request: filter on Explorer
+26143|Ctrl+TAB does not change documents anymore
+26144|Autocompletion not working inside template literals of TypeScript
+26145|Terminal rendering issue
+26146|ts-check is not convenient when using angular 1.5 component binding injection
+26147|Unable to see the execution in vs code.
+26148|Cannot run ionic serve
+26149|"[macOS] Application's ""Quit"" keyboard shortcut does not work"
+26150|Incorrect Error Message reported in JS file
+26151|Can't scroll the markdown preview when I scrolled the editView
+26152|Enable auto-detection of SCM provider
+26153|Investigate into a better Windows install experience
+26154|Support to pause a rolling update
+26155|Investigate support for rolling out updates in stages
+26156|VS Code window will not open in mac osx.
+26157|Test: Link Detection in Exception Widget
+26158|CodeLens on hover
+26159|Explore how to support SSH based remote debugging
+26160|Improve the debug toolbar placement
+26161|Tabulations in makes snipets interpreter
+26162|Multi-file search & replace incorrectly selecting contents based on regular expression
+26163|In TSLint section for settings.json, explain that many TSLint settings are elsewhere
+26164|[theming] Support theming of file labels in search results view
+26165|Opening a file twice should not start a new instance of vscode
+26166|Turn off Auto Formatting on save
+26167|Search and Replace optionally maintains case
+26168|[1.12.1] workbench.colorCustomizations - doesn't work
+26169|ctrl + 1 does not switch to first editor tab
+26170|Add a way to organize files opened by shell which neither spawns new windows all the time nor pollutes project windows
+26171|IntelliSense window got a lot more narrow with docs to the side
+26172|Theming: Bad tree selection overlay when sidebar border is active
+26173|Feature: Add Folder to project
+26174|CSHTML: script tags with type text/template no longer hightlight HTML syntax
+26175|Incorrect syntax highlighting -  Javascript
+26176|Identify issue management tasks that should be automated using bots
+26177|Automate identifying, labeling, and closing stale issues
+26178|"""No suggestions"" doesn't show in the intellisense box"
+26179|onDidChangeTextDocument reports one line when two lines were changed
+26180|Code folding issue
+26181|Vs Code fails to get the encoding of the file
+26182|Lost undo/redo history when pressing undo multiple times and saving on OSX
+26183|UX: unnecessary modal dialog before reverting a hunk
+26184|"Suggestion: Support per-file-extension configuration of ""files.trimTrailingWhitespace"""
+26185|Add support for import()
+26186|"editor.renderLineHighlight: ""line"" - doesn't work anymore"
+26187|vscode account to save all settings and extensions
+26188|Custom Object Formatter for debugger
+26189|Investigate improving the development support for TS server plugins
+26190|"Alt+A don't open the ""Archivo"" panel"
+26191|Intellisense occasionally stops working
+26192|Terminal overlaps with sidebar stopping access to items in the overlap area
+26193|Save error due to file permissions
+26194|Render IntelliSense suggest item's documentation as Markdown
+26195|Render IntelliSense suggest item's signature with syntax highlighting
+26196|Print Dialog Appearing intermittently when opening quick-nav: cmd-p
+26197|String Interpolation within object breaks highlighting
+26198|Double border between completion and docs
+26199|Right-click menu font much smaller since updating. Almost unreadable.
+26200|Switch vscode-api-tests to uses standard TypeScript Version for Building

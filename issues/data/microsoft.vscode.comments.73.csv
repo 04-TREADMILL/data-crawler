@@ -1,0 +1,100 @@
+7201|@alexandrudima yeah, I am not sure I can disable this actually. maybe I can redirect the focus to the first control somewhere.
+7202|#2327
+7203|You can. just chose the right filename or extension and tata
+7204|most weird, it looks good for me in TypeScript. also ping @jrieken
+7205|@aeschli not sure if this is you or Alex.
+7206|Yes - that goes into the editor input version 2 direction.
+7207|![image](https://cloud.githubusercontent.com/assets/900690/12582890/1afe86b0-c440-11e5-87f6-cfbd2ce57f96.png)
+7208|yeah, it's being packed inside `<p>` which causes this
+7209|"Right clicking in empty spaces appears to be common: - e.g. in this webpage I can right click on the whitespace - e.g. on my desktop I can right click anywhere on it - however, the whitespace on this webpage is not ""focusable"" and there must be alternative ways to get those actions besides context menu..."
+7210|:)
+7211|It's a feature request that need to be planned.
+7212|This looks pretty bad.
+7213|@alexandrudima sorry can you clarify what your last comment means?
+7214|@weinand Awesome! Thank you :heart:
+7215|@weinand Does this work as expected now?
+7216|gif time :)  I can do a contextmenu with the mouse in areas where I cannot go to via tab focus. e.g. the whitespace on this webpage or the desktop. I only assume there must be alternative ways to trigger those actions since I cannot get to focus the whitespace to trigger a contextmenu with the keyboard  ![contextmenu-even-in-nonfocusable](https://cloud.githubusercontent.com/assets/5047891/12583133/6e755a3e-c441-11e5-86f9-f97a051d3151.gif)
+7217|Well yeah, might be. All I am saying is that imho it makes sense to draw the blue border in the tree as long as you can trigger the context menu (using the context menu key on the keyboard). Even if there are other ways I find this a nice gesture.
+7218|"Forgot the mention I use these settings:  ```     , ""files.autoSave"": ""afterDelay""     , ""files.autoSaveDelay"": 10000 ```"
+7219|@alexandrudima we had this discussion in the UX team @stevencl @chrisdias and decided to not show it at all because otherwise we would also see it in our beloved 1s auto save delay setup in selfhost, which we did not find very compelling.
+7220|@hoovercj Do you have more precise steps? Do you open a diff view and apply the edit? is `uri` the left or right side of the diff view?
+7221|Could not change my win locale no matter what I tried - i believe my win10 internal version might not support it.  Eveything else looks good, and Dirk tested the win10 in german so checking off.
+7222|@alexandrudima this seems to work now. I couldn't reproduce the problem from above. But I'm not sure what tool @codepo8 was using to insert the emojis.
+7223|"I think we have opened a door now with `""files.autoSave"": ""onFocusChange""` and the configurable timeout and old assumptions need to be revisited. Maybe it is not a problem for a 1s delay.  But for example, when I use `onFocusChange` I really don't get any dirty indication. I understand that setting a delay of 10s is artificial... but what do you think"
+7224|There is a copy value action in the context menu as an alternative.  We use the tree which does not support selection, adding it in the watch variables would make it inconsitent and not look that good imho  Though this is supported in the repl where it visually makes more sense to me.
+7225|@alexandrudima I think the better solution is to introduce another setting to control dirty indicators.
+7226|Yes. It feels like before the documentation came bundled with the suggestion itself and now it only comes after asking for its details. This is OK, but to remove the flickering I would need to know whether the suggestion will have documentation before asking for its details.
+7227|On Linux I tested the Japanese input methods with [mozc](https://wiki.archlinux.org/index.php/Mozc). It seems to work, but I lack knowledge of Japanese. http://elementaryos.stackexchange.com/questions/271/how-can-i-enable-japanese-input
+7228|"""is now a setting"" or ""has been refactored into a setting"" or something. The current text makes it seem like the menu item has moved itself.  cc @weinand is great with concise clear messages ideas :+1:"
+7229|I wrote about this a bit in #272.  At the moment, you can write a custom UI by showing a markdown document in preview mode that contains an iframe to an HTML file that communicates with your extension via web sockets. So far, it has worked really well for me. It will get a bit easier when the virtual read-only document feature is released (#272). But it cannot integrate with the rest of the vscode UI and getting the right theme is tricky (you can access vscode's markdown css by recursively looking up the iframe parent's style sheet).  (For those interested, you can see the HTML view I wrote [here](https://github.com/siegebell/vscoq/tree/master/client/src/HtmlView) and the code that connects the HTML view to vscode [here](https://github.com/siegebell/vscoq/blob/master/client/src/HtmlCoqView.ts)).  But the response from @jrieken was:  > the preview mechanism isn't designed to be a UI extension API. While you can render html and run scripts you should not go crazy in there.  So it's not clear to me whether this will remain a viable/supported solution in the future.  In particular, I am unsure whether the following comment,  > The updating (when a document emits a change event) is not built/tested for high frequency of changes,  means that high-frequency changes are not intended for 1) the HTML via the virtual document text changes or 2) via the javascript running in the virtual document preview modifying the DOM.  Could we have some clarification here? Is a custom UI via HTML, javascript, and web-sockets a dead-end solution (that will break in the future)? Will an API be provided in the future or is it an intended limitation? Are the devs willing to support hosting a custom UI in the preview as a stop-gap solution until a proper API is provided?  I can accept that the vscode devs are too busy to implement or even specify such an API right now. But some guidance here would help because we extension developers are impatient and willing to rely on hacks.
+7230|@alexandrudima Yeah, that is what I was thinking would happen. It would also be nice if it was supported in other languages as well (at least eventually).
+7231|This took some quite work to test... You need to debug an application that has both a file in your workspace (so you are able to set a breakpoint and thus pause the debugger) and a sourcemap'ed file which needs to appear in the call stack during that pause, otherwise you can never see it.   In order to save time for the others, here's some sample code: https://gist.github.com/joaomoreno/a1f68c4b430c8bd40d61  Simply put that in your disk, open the folder with VSCode, start debugging `main.js` with sourcemaps enabled. You can put a breakpoint on line 4 step in once its hit.
+7232|From testing #2145
+7233|It fills in as much data as possible when getting the item in the first place. Tho TypeScript usually doesn't do that and it requires the second call. I would assume the tree handles the case in which they are the same before and after.
+7234|For Jan for discussion - maybe it's time for a sample node-module. Folks have also asked for an event throttler which could go there
+7235|Related to #2145
+7236|Related to #2145
+7237|Related to #2145
+7238|Nice!
+7239|Setting to Jan for discussion
+7240|I did not debug it. I'm just assuming that it comes empty at first and then non-empty. But let's confirm this.
+7241|"@joaomoreno thanks a lot! BTW, another way to test this is by enabling ""stop on entry""."
+7242|First: What you are doing is pretty cool - sending out some html and talking back via web sockets to your extension is a clever solution. I am glad that virtual documents make your life a little easier, btw even wrt to [styles](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/html/browser/htmlPreviewPart.ts#L182)  The intended use-case for virtual documents and the previewHtml-command is something like 'showing source from a dll-file' or 'generating html from markdown'. The assumption is that those things aren't huge and that they don't update like crazy.   When it comes to UI we try to be smart - our tree and editor widgets are fully virtualised, render with the screen-refresh-rate, use diff'ing smartness etc. That's all for the sake of 'snappy VS Code'. The html preview part doesn't employ such techniques. And since (unlike extensions) it runs in the same process there is a chance of it wrecking VS Code and that's not what we want.   So when it comes to updating a virtual document at a high rate you should not use the `onDidChange` [event](https://github.com/Microsoft/vscode/blob/master/src/vs/vscode.d.ts#L1059) because that's not [cleverly](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/html/browser/htmlPreviewPart.ts#L149) implemented (yet?).  Keep doing the smart thing you already do - we won't break you in the foreseeable future but it also depends on how well extensions doing this behave. If things like this cause VS Code to stall we have to react (at least blame the extension ;-))
+7243|@bpasero Can you provide the exact markdown? `[hello](command)` should do it
+7244|This issue was moved to OmniSharp/omnisharp-vscode#18
+7245|This issue was moved to OmniSharp/omnisharp-vscode#19
+7246|"@joaomoreno I guess we need a new Issue for the ""end of central directory record signature not found"" error? Or do you want to reopen this one? Or has there been work to try to fix this?"
+7247|@weinand if you dont mind to give me an idea, I can add it :)
+7248|This issue was moved to OmniSharp/omnisharp-vscode#20
+7249|need more info - will reopen then
+7250|Ahhh forgot about that!
+7251|"@weinand you mean ""Window"" next to ""Goto""?"
+7252|"@weinand actually we only show the ""Window"" menu on Mac where we get for free some extra entries from the OS."
+7253|@bpasero yes, here is my menubar: ![2016-01-26 17-16-17](https://cloud.githubusercontent.com/assets/1898161/12586440/8bd43514-c450-11e5-81a3-43c8b94cd654.png)
+7254|:+1: #2384
+7255|Nevermind, I mistyped the command.
+7256|@bpasero aha, I see. Coming from the mac it is really difficult to survive on linux ;-)
+7257|It would indeed be nice to have a way to switch Windows on Mac and Linux :+1:
+7258|@bpasero on Mac and linux you can switch windows by using the context menu on the vscode dock entry
+7259|@bpasero Yup, perfect! Didn't know about that :+1:
+7260|The user.json file was not completely empty, had   ``` { } ```
+7261|Turns out I was pressing <kbd>Ctrl Enter</kbd>
+7262|I wasn't able to verify UniKey Vietnamese and Chinese on Linux. I tried http://elementaryos.stackexchange.com/questions/1431/install-ibus-on-freya but switching never had an impact (also not on other applications).
+7263|k
+7264|> Since we can have different versions of the vscode extension API installed  Unsure if I understand that. it should be defined by the `engine` version in package.json
+7265|@jrieken I'm testing #1881 and changing the `engine` version in package.json does not seem to have any effect. But it's difficult for me figure out what vscode API version is installed because I do not have the API change history in my head. It would be great if intellisense could be used to quickly learn what version of the vscode API is installed.
+7266|Thanks man!
+7267|@bpasero `node ./node_modules/vscode/bin/install` does not work for me since there is no `install`in the bin directory.
+7268|@weinand please attach the full output of running this command.
+7269|@weinand I think something is still weird with your code generator. lets skip that generator and use the following generated sample (right click > save as and then rename from *.gif to *.zip):  ![sample](https://cloud.githubusercontent.com/assets/900690/12588087/57ff114e-c457-11e5-9c0e-a85be32d724c.gif)
+7270|Alle Schritte auf Linux getestet. Läuft wie geschmiert!
+7271|@bpasero  ![2016-01-26 18-06-05](https://cloud.githubusercontent.com/assets/1898161/12588136/8e5dd432-c457-11e5-818a-b4953c5a55da.png)
+7272|"@weinand ;). I mean ""npm install"""
+7273|@weinand btw see my comment: https://github.com/Microsoft/vscode/issues/1881#issuecomment-175119597
+7274|"@bpasero first line is ""npm install"" Output: the two warnings. Then I tried the node ... install thing"
+7275|Setting to jan for discussion
+7276|@weinand ok makes sense, the extension you have seems not the one from the @next generator,
+7277|+1
+7278|@bpasero yes, the downloaded sample is definitively different.
+7279|@bpasero yeoman was not creating the correct project.
+7280|yes, this is both the same default dark theme.
+7281|@bgashler1, @stevencl fyi  > ...like the way you used colour in option 2 to indicate whether content in the panel is 'live' or 'hot' as you called it...  While that makes sense for the debug panel is doesn't for the output view. Take git which runs constantly and produces output all the time. Now depending on the debug status that is shown as 'hot' or not which is misleading.  I think it should use the title color of viewlets because it's just another part and it should also use their background color because it is a non-editable part.
+7282|This bug report comes from a Twitter discussion: https://twitter.com/camcavers/status/691382766987038720 https://twitter.com/camcavers/status/691387330825949184
+7283|Yeah, getNa should not appear in the completions list because it's redundant, but the _appearance_ of getName is actually intentional because JavaScript is a dynamically typed language, and we're not going to always get things right, so we want to provide a gracefully degrading experience (listing all the identifiers) rather than trying to be smart and showing nothing at all. This way, at the very least, it acts as code-completion of you already know what you want to type. The problem here, then, is they these identifiers should be better sorted by confidence (getName5, then getName), not alphabetically.   In VS, in addition to sorting by confidence, we've considered demarcating the the lower confidence results w/ various styling attributes (eg removing the icon, changing the color) but I don't think we ended up landing on anything just yet.   Cc @bowdenk7
+7284|> Should be as wide as the main editor area  @stevencl Why is that and not as wide as the VS Code window? I understand the main requirement of the panel show to output without wrapping hence getting as much h-space as possible
+7285|:+1:
+7286|hm, we do have something like [this](https://github.com/Microsoft/vscode/blob/master/src/vs/vscode.d.ts#L7) which I think is the more proper way to go. I understand the intellisense desire but encoding a value as a symbol which changes every release doesn't sound appealing to me
+7287|@bpasero Switching windows (even same application) is typically something that the window manager does handle quite well.  Personally, I don't see a particular need to have a menu for this, given that I already have keyboard shortcuts (or activities view if I'm set on using the mouse) that do the same thing in a more efficient manner.  Now, the approach might be different depending on window manager (I'm looking at it from a Gnome3 perspective), but the workflow people are used to is how their window manager of choice works, no need to reinvent imho.
+7288|Right, I am not saying I am jumping into it, but it seems like a valid feature request, so it is moved to the backlog.
+7289|@alexandrudima I guess we need some kind of editor option to pass in so that I can control this?
+7290|Joao maybe you have an idea.
+7291|YES, thanks for finding the issue, I also saw this.
+7292|#2376
+7293|Readonly editors should always be created with the option to enable focus mode. @alexandrudima would that make sense?
+7294|@chrisdias @stevencl fyi
+7295|thanks @bpasero
+7296|@egamma is the 10s loading time consistent? this sounds pretty bad, the welcome page now resolves to our docs home page and nothing in the website should take that long. did you try multiple times?   @bgashler1 is working on a design of the welcome page and it will definitely include details that is relevant for someone who just installed the product. Once that is ready, we will update the FWD link.   > Is there a way hide the welcome page from the welcome page so that I can easily get back to VS Code?  not AFAIK, javascript can't close a window that it does not open. Even if we do that there is no guarantee that safari will exit the fullscreen mode. I get your point about the distraction tho, lets see if we get any complains.
+7297|@bpasero, I think you meant someone else?
+7298|@jrieken: Thanks!  Once Chrome is done implementing OOPIFs ([issue 99379](https://code.google.com/p/chromium/issues/detail?id=99379) and [spec](http://www.chromium.org/developers/design-documents/oop-iframes)) there could be a way to run extension UIs in a separate process. Maybe in the same process as the extension, allowing it direct access to the DOM? Hmm...
+7299|"My problems remain.  I've set up a repo showing the issue: https://github.com/manad777/vscodetest .  If you clone that repo, do you get lodash's autocomplete in app.js?  I feel there is fundamental broken here, because I don't see what I'm doing anything different from you. What version of VSCode are you using? Here's a complete list of my issues on 0.10.5:  #### FILE EXCLUSION 1. https://code.visualstudio.com/Docs/languages/javascript states that the ""files"" entry in jsconfig.json's will only show those files,  implicitly excluding all others. Yet all files remain visible, not just app.js. 2. https://code.visualstudio.com/Docs/languages/javascript states that the ""exclude"" entry in jsconfig.json will excluse directories matching that name. However, folder-to-be-ignored remains visible. 3. https://code.visualstudio.com/Docs/languages/javascript states ""By default, VS Code excludes .git, node_modules, bower_components, jspm_packages, tmp, and temp folders."" However, node_modules remains visible (I didn't bother trying the others).  #### AUTOCOMPLETE/INTELLISENSE  I ran the following commands: npm install lodash --save tsd init tsd install lodash --save  Yet, in app.js, I don't get autocomplete after _. If I press Ctrl+Space after the dot, I get ""No suggestions""."
+7300|I have seen this as well, in the very first run stderr is not shown, then it worked fine.

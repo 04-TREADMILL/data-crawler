@@ -1,0 +1,100 @@
+29701|MarkedString cannot link to virtual documents anymore
+29702|'Screen Reader detected' notification permanently on bottom bar
+29703|TypeScript - Indentation rules are not aware of Doc comments
+29704|Request feature - h + v - view mode split in to 4 screen.
+29705|Pressing Enter leads to funny result
+29706|Extension viewlet should show gallery extensions when no extensions are installed
+29707|Intellisense suggestions should display an horizontal scrollbar if needed
+29708|Typing : * $ @ etc in emmet abbreviation stops showing suggestions
+29709|More Task API feedback
+29710|Cannot search specific file types anymore
+29711|Use picker instead of quick pick to select a build or test task.
+29712|Regression: History navigator does not re-order items when adding existing elements
+29713|Fix history navigator to change the position when adding an existing element.
+29714|Unable to open file with leading space in file name when passed as a parameter from command line
+29715|Deleting a folder with unicode characters is not reflected
+29716|Deleting a folder and undo from Finder is not retrieving the folder in VS Code
+29717|[Requests] Insert space before or after * in generator function
+29718|SOMETHING WRONG WHEN I TRYING TO MODIFY MY CODE
+29719|Update the locale.json schema to always be in sync with supported languages
+29720|Use global TypeScript version
+29721|Customizing a TypeScript build task should include the used ProblemMatcher
+29722|Set placeholder text in SourceControlInputBox
+29723|Ctrl-C doesn't break in terminal
+29724|Tab no longer autocompletes closing tag
+29725|GitHub extension: Fails to detect ssh remotes
+29726|Scroll below end for sidebar
+29727|`@sort:installs @category:languages` no longer shows extensions
+29728|extension count formatting Fixes: #29491
+29729|Extension widget keeps resorting
+29730|"""Remove root folder"" option available but not working for initial root"
+29731|'Open Folder' in Explorer Not Working in Second Window
+29732|Cannot copy/paste files between root folders
+29733|Extension install count, use current locale for number formatting Fixes #29491
+29734|Make it possible to disable mouseover tooltips
+29735|"Task is running in terminal with ""runner"": ""process"""
+29736|[ubuntu 16.04] code resource usage gradually increasing and eventually crashing system
+29737|Moving to the end of physical EOL in wrapped-up text
+29738|Terminal selections layered on top of find widget
+29739|Unknown Publisher warning when uninstalling VS Code
+29740|Terminal find does not update on subsequent presses of enter
+29741|No indication what install is running
+29742|Extensions: Disable always, but enable only on certain workspaces
+29743|Select All keyboard shortcut does not work in integrated terminal find widget
+29744|Editor stops responding immediately upon start
+29745|Integrated terminal find widget can overflow outside of integrated terminal
+29746|Have to reload the vscode windows after changing emmet extensions
+29747|I can not change the encoding of a file
+29748|Unusable due to slow startup.  Fresh install win 32, no extensions, startup > 10  Minutes!
+29749|Typos in editor.autoindent comment
+29750|"Windows 32 bit insider 1.14 installer error ""Cannot access 64-bit registry keys..."""
+29751|Ripgrep fails to respect `when` clause to ignore search results.
+29752|Emmet - easy to get error from selectNextItem
+29753|Format on paste should only do something when it pastes a new line
+29754|Watcher does not pick up changes in webdav directory on windows
+29755|Multi-line LF-ending files paste from Code into PowerShell in reverse order
+29756|onDidCloseTextDocument fired twice for every document close
+29757|Watcher does not pick up changes in mounted network drive directory on windows
+29758|files.watcherExclude should be case insensitive on windows
+29759|Open Multiroot workspace from command line
+29760|Incorrect (ctrl+click) link follow
+29761|colorCustomizations are not unapplied after removing them
+29762|Support WSL git
+29763|VScode crash when curren project contains excel .xlsx file
+29764|tmux on Windows doesn't respond to mouse events in terminal
+29765|Reactivate windows nsfw tests
+29766|Include cwd in terminal title
+29767|Add a postLaunchTask attribute to launch.json
+29768|"""editor.wordWrap"": ""on"" doesn't work at Git ""open changes"""
+29769|Emmet not wrok in .vue file
+29770|Allow users to configure the default build and test task
+29771|Linux: File watcher does not report the very first deletes for me
+29772|Set placeholder text in SourceControlInputBox
+29773|Search extensions contributing views
+29774|Blocking svgs produces a ton of errors in the console
+29775|Extension host terminated unexpectedly. Using VSCode is getting annoying!
+29776|Do not automatically reveal first diff in diff editor after opened once
+29777|Unnecessary indentation in JS when line starts with semicolon
+29778|Unexpected behaviour of cursor on line break in JSON/JS files
+29779|Performance profile before release
+29780|vscode_emmet_helper_1.getEmmetMode is not a function
+29781|"Allow extensions to define a setting as ""folder supported"""
+29782|Chinese garbled in powershell（powershell中，程序输出的中文乱码）
+29783|Touch selection doesn't work with Extension Panel
+29784|Guiding new users on settings change in settings UI
+29785|Move Task API from proposed to final.
+29786|Dismiss the diff review panel when the diff editor gets focus
+29787|Intelisens improve for autocomplition in constructor for .ts file
+29788|File search giving insane results
+29789|Getting TS errors in editor but not in the build
+29790|Terminal should provide API to notify data cleaned by control sequences
+29791|Smoke Test Dev Review
+29792|Gets unresponsive when jumping from Chrome back to VS Code
+29793|Hitting Enter twice breaks my sources
+29794|Auto indenting is all over the place, should respect settings
+29795|Editor minimap is often disappearing.
+29796|VS Code forgets previous shortcut filters
+29797|How to use new intellisense engine properly?
+29798|JSON schema flags error although definition should be OK.
+29799|Search activity bar should show progress badge while search is in progress
+29800|Set default clone parent directory in configuration

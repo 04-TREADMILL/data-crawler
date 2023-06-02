@@ -1,0 +1,100 @@
+7101|Feature request: API support for making a virtual document preview-only.  This would allow extensions an easy way to provide a mostly-seamless GUI using an HTML preview and web sockets. (Allowing javascript calls directly between the HTML preview and extension might also be nice...)
+7102|I know it got much better by using the recursive watch call on the directory and thus avoiding having to attach a watch listener per folder, but I think the events still sometimes miss the file/folder name, at least in some cases. I feel more confi using C# here.
+7103|Oh, it works brilliantly on all platforms. Check here: http://webstackoflove.com/use-typescript-definition-manager-for-adding-type-definitions-to-your-project/ And read the whole README here: https://github.com/DefinitelyTyped/tsd
+7104|"![vscode-lodash-autocomplete](https://cloud.githubusercontent.com/assets/397632/12574752/f436be48-c3c3-11e5-9de0-59c32948dd31.png)  Here's my `tsd.d.ts`  ``` /// <reference path=""angularjs/angular.d.ts"" /> /// <reference path=""express/express.d.ts"" /> /// <reference path=""jquery/jquery.d.ts"" /> /// <reference path=""lodash/lodash.d.ts"" /> /// <reference path=""superagent/superagent.d.ts"" /> /// <reference path=""supertest/supertest.d.ts"" /> ```"
+7105|:+1:
+7106|@Wosi sure, let's do that then!  Here are my results on the real world example, when triggering Intellisense and then typing `abcde`.  The first peak is the trigger and takes `526ms`. Second peak is the `a` and takes `886ms`. Third peak is the `b` and goes for `543ms`. The rest of the letters are pretty much instant.  ![image](https://cloud.githubusercontent.com/assets/22350/12575612/1c263b50-c40e-11e5-907e-cf4e89b9217e.png)
+7107|@siegebell If you mean 'readonly' by preview then you are ok
+7108|FYI @weinand @dbaeumer
+7109|That's normal syntax highlighting. What's in your document is not a valid JSON content. As designed
+7110|Duplicate of #1928
+7111|You cannot. If you click on edit settings two panes will be opened. You have to overwrite the keys of the left side on the right side.
+7112|Duplicate of #1928
+7113|I did not verify that the setting gets migrated on linux since I am not sure how to have it before for my alpha installation
+7114|@isidorn sorry I should have mentioned that, just SHUTDOWN code and add the following to storage.json in /home/ticino/.config/Code-Development: autoSaveDelay: 1000
+7115|I merged a PR that introduced `replaceOne`.  I did not touch format whatsoever -- did you ever try your new keybinding in linux before?  > Pro tip: [Here you can see how the default keybindings have changed](https://github.com/Microsoft/vscode-docs/blob/master/scripts/keybindings/doc.keybindings.linux.json)
+7116|@isidorn I added a label for it.
+7117|workaround available [here](https://github.com/Microsoft/vscode/issues/69#issuecomment-168948274)
+7118|@jrieken When I try this I see the squiggly on the bracket of line 17, matching the error range seen in the errors quick view. Anything special in your setup? Did you switch beween modes?
+7119|"I have the same ""Missing ipc hook"" error on Ubuntu 14.04 LTS with git 2.7. I'm trying to connect to my visual studio online repository which uses HTTPS."
+7120|@joaomoreno that's expected. If you pause node while waiting in the OS, there is no call stack. In your example the likelyhood of waiting in the OS is rather high. But we should better indicate this in the UI.
+7121|yes, thanks @philipgiuliani for the answer.
+7122|@aeschli maybe due to the font I use
+7123|Whenever you left click in the repl we always focus input. Chrome does the same for example. Right click behavior we do not do anything special.  We should talk about hover and repl accessibility and then figure out what to do here.
+7124|yep, it's due to font ligatures
+7125|The visual ending in the editor is actually the scroll bar. Notice the small space between the panel and the scroll bar in the editor, there the editor also does not have a nice ending - same as panel  Are you suggesting we should draw the border at the end of the panel header?
+7126|![screen shot 2016-01-26 at 11 48 37](https://cloud.githubusercontent.com/assets/1794099/12578676/bff39296-c422-11e5-8a0b-343656c0baa7.png)
+7127|Thanks @vilinski.  Duplicate of #69. Fix will come next week.
+7128|As designed, please comment on the issue here https://github.com/Microsoft/vscode/issues/1876 where the current design is explained and it also links to other issues where this is discussed
+7129|@jrieken  I can not repro this if I understand your scenario correctly on the mac. Please ping me to show me this live, thanks!
+7130|@bpasero  What do you see in the variables view? The same value for those functions? The hover just goes to the variables view and get the data from there.
+7131|What you first see is the selection color, later overpainted by the mark occurrences feature, with a delay and using the transition effect. What themes are these animations made with. Is it the same theme in both?
+7132|I need to read again https://manual.macromates.com/en/appendix and confirm
+7133|@weinand can you please check this, my suspision is that it is some source map issue
+7134|I want to try the following to validate that the changes in a1bd50f63fd8185a13495ff3d4c67396109e4e71 also address this issue: - write a program that computes Fibonacci numbers over and over again, keeping a core busy :) - launch it many times - try to type in VSCode - if I don't lose characters, I'll consider this fixed.
+7135|As designed, otherwise how would you navigate to links in the markdown? You can use keys to focus the explorer to jump out.
+7136|@lemmel does this help: https://code.visualstudio.com/Docs/supporting/FAQ#_linux-error-enospc
+7137|Not sure it should really. @alexandrudima to decide, I think it should not.
+7138|@TheColorRed Would you expect that typing `///` prepopulates the contents in the doc comment with the parameters and return type of the current method?  cc @jrieken : would be a nice rich language feature
+7139|What do you see in the variables view? The hover tkaes the data from there and if nothing useful is there hover will not show anything
+7140|I think that is desired behavior @alexandrudima ?
+7141|@isidorn the same yeah. maybe it is a matter of being smarter around functions.
+7142|@bpasero what would you like to see in this particular case? What you like to see something different than in the variables view? The problem with the hover is that it does not have a language understanding, thus it does not know if something is a function or not.
+7143|@isidorn `Ctrl+M` is there to get you temporarily out of the editor because the editor eats `Tab` and `Shift+Tab`.  There is no spec I followed when adding this, so I'm not sure what the desired behaviour should be. Maybe you can find an accessibility guide somewhere that mentions how this should work?
+7144|Let's discuss how we think Ctrl+M` should behave in #2304
+7145|@chrisdias please jump in for the accessibility spec
+7146|@CaiusTSM Please reopen or file a new issue with reproducible steps.
+7147|Thank you for the PR!
+7148|result of testplan item #2188
+7149|Variables shows me the names without sourcemap support I guess:  ![image](https://cloud.githubusercontent.com/assets/900690/12579642/c6538612-c429-11e5-900c-83f5df4ae0f2.png)
+7150|I have tried replace all in a 20MB+ file multiple times and VSCode did not crash for me. If you can share even a similar file or a generator program that generates a file of similar characteristics I can look into it in greater depth, but without a reproducible case I cannot investigate what goes wrong.
+7151|result of testplan item #2188
+7152|I like your suggestion, you want in a way to remove a specific rule in the array and you identify it via `key+command` in a way.
+7153|So the problem is not with the hover, since the variables view does not show good names. Do you have source maps turned on or is this a source map issue?
+7154|Already fixed in master
+7155|Also already fixed in master
+7156|@olivif Thank you for looking into it again. I'm going to close this one for now and please keep an eye out and reopen it or create a new issue if you experience a crash again! :+1:
+7157|@jrieken Isn't this your area? - `src\vs\editor\common\services\bulkEdit.ts`:  ``` typescript function finish(): TPromise<ISelection> {         ...         if (editor) {             uri = editor.getModel().getAssociatedResource();             selections = editor.getSelections();         }         ... } ```
+7158|To investigate if a1bd50f63fd8185a13495ff3d4c67396109e4e71 fixes this too
+7159|you are right
+7160|disagree - we should discuss this in the team
+7161|@eunchan @kkc0923 To help me reproduce, can you please walk me through step by step on how you input Korean. - should my language input settings look like this:   ![image](https://cloud.githubusercontent.com/assets/5047891/12580066/d79f476e-c42c-11e5-8d8e-7e5e2c3e9601.png) - can you please give me a few examples of what sequence of keys I should press on my qwerty keyboard and what characters should appear  I am sorry I need this extra information on your part, but I am not familiar with Korean.  Thank you for your patience!
+7162|"@alexandrudima Here is reproduction steps. 1. Create any text file and make some lines by pressing enter keys. 2. Back your cursor to first line. 3. Press g k s r m f (it will be ""한글"") 4. Press down arrow key.  You will see the ""한글"" was moved to next line with cursor."
+7163|"@alexandrudima I couldn't test ""UniKey"" on OS X because it doesn't exist but all the Vietnamese input methods (including drawing shapes on the trackpad ;-) seem to work fine."
+7164|"@jrieken no, I mean preview-only: there is a ""preview"" button at the top-right of a document that allows the user to toggle between preview or code view. I am requesting that this button and its keybinding optionally be disabled so that a [virtual] document is stuck in preview mode.  **Use case**  I am developing a vscode extension for the Coq Proof Assistant, which allows the user to manually step through each line of their proof scipt and see how their hypotheses and proof obligations change. Such interaction falls outside the debug and compilation metaphor that vscode supports in its interface, so I need to write a custom interface to display this information.  Ideally, vscode would provide me an API to write my own interface extensions. Until it does, I've found a nearly sufficient alternative: display an HTML document in preview mode that interacts with my extension using web sockets to display information as the user steps through their proof. It is even interactive. Virtual read-only documents will make this easier.  But if ""toggle preview"" is still enabled, the user may accidentally switch to the HTML code and become confused. Since viewing the underlying code is of no use to the user, I am requesting that the API provide me a way of:  1) Turing preview on (versus toggling, which sometimes has strange behavior if the document is already loaded in preview mode from the last session before my extension starts up) 2) Preventing the user from toggling preview for virtual documents that my extension has created."
+7165|Seconding this. It would be useful for both selecting content inside HTML element and selecting attribute values/names.
+7166|Not sure, I think Chrome just shows the function name and its arguments in that case.
+7167|I use a bare bone hello world typescript extension with sourcemaps: true and out dir enabled.
+7168|This issue was moved to Microsoft/vscode-extension-vscode#7
+7169|I have also found useful: `setInterval(function() { console.log(document.activeElement); }, 2000);`
+7170|:heavy_check_mark:
+7171|Didn't know that I always need to provide a URL. Shouldn't the URL be a mandatory property and the schema should enforce it for settings.json.
+7172|Forwarding to @weinand then, should the variables have proper names in this case Andre?
+7173|"The same is true for the actions in the file/folder explorer. The actions are only reachable via ""Tab"". They should be reachable via Shift-Tab as well"
+7174|"I think this is a problem with all ""hidden"" actions ?"
+7175|Same is true for project.json: ![capture](https://cloud.githubusercontent.com/assets/1931590/12581924/186599da-c43a-11e5-8ff6-7c9661c37deb.png)
+7176|"Actually I wonder why there is ""filenamePatterns"" suggested as it seems I can use glob patterns for ""filename"" too, so maybe a leftover?"
+7177|"@isidorn As discussed, don't deprecate the param but the whole signature, add a new signature ala `show(preservceFocus?: boolean)`, and adjust the implementation to be able to deal with both `show(columnOrPreserveFocus?: vscode.ViewColumn | boolean, preserveFocus?: boolean)`"
+7178|Duplicate of #2127
+7179|@jrieken This changed with the asynchronous extra info. Is there any way we know whether we will have documentation at all, before we get the extra info, synchronously?
+7180|@joaomoreno Unsure what you mean? Is the async extra info the suggestion details? I don't believe we have changed anything there
+7181|@bpasero The uri has only scheme and authority. It's some sort of arbitrary restriction I can remove, you can get further with `bpasero:///mysuperdocument`or `bpasero://mysuperauthority/mysuperdocument`
+7182|Unfortunately yes...
+7183|The omnisharp extension should handle that
+7184|@isidorn no, they shouldn't.
+7185|This issue was moved to OmniSharp/omnisharp-vscode#16
+7186|Well I am fine with that, but the actual issue is that the hover does not popup when used in this case except for the current line.
+7187|@alexandrudima an empty tree can still have a context menu associated. are you saying we should detect the case where the tree is empty && has no context menu? I am not sure this would confuse people why sometimes they see blue and sometimes they do not.
+7188|Well the problem is that the hover goes to the variables and tries to match the hovered value. Since all the values have short names he does not match it against any I do not see what I can do smarter here. Node debug adapter does not support evaluate on hover so I have to do this variable name matching which does not work for this case
+7189|@jrieken ah right I forgot the third slash, somehow I thought I would only need that when using file URIs, but it applies to any URI. I am not sure if we should remove this restriction because it has meaning in the file scheme, but maybe we ignore it for other schemes.
+7190|no worries, with the new html preview part there is no toggle botton but it will show the path of the URI. having said that, the preview mechanism isn't designed to be a UI extension API. While you can render html and run scripts you should not go crazy in there. The updating (when a document emits a change event) is not built/tested for high frequency of changes  ![screen shot 2016-01-26 at 14 59 59](https://cloud.githubusercontent.com/assets/1794099/12582458/8bbe8916-c43d-11e5-890c-6d12d09447eb.png)
+7191|This issue was moved to OmniSharp/omnisharp-vscode#17
+7192|It worked when debugging the second time. Might be a timing issue. One thing to note from my experiences with child processes: when 'exit' is received not all output from a child process is processed. You need to listen on 'close' which is sent when the streams (stdout and stderr) are flushed and read.
+7193|@isidorn evaluate on hover would only work if node-debug would be able to map source names to generated names. But this information is typically not available in source maps. The problem here is the minification which results in short names. The typescript -> javascript transpilation does not have this problem.
+7194|Good point about the context menu case, so maybe it makes sense to tab into an empty explorer tree given that's the only place where a context menu can be invoked.  IMHO in this case, tabbing into an empty variable list in the debugger is pretty useless.
+7195|@bpasero Unsure what you mean? filename is equally check and filenamePattern is the glob-style check. The `bar*foo.txt` is the default value I've put in the schema
+7196|Mostly works well and feels good! :+1:
+7197|If it is the issue that Dirk is suspecting this should be done in the adapter I believe. Forwarding to @weinand
+7198|"@jrieken when I tried it, only ""filename"" worked for me with a glob pattern. I filed the bug originally because I think we cannot have ""foo"" and ""bar"" as words in visible strings, but @SofianHn would know."
+7199|@alexandrudima but that is up to the tree right? e.g. I can also tab into watch expressions to create a new one there.
+7200|Thanks :heart:

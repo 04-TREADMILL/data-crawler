@@ -1,0 +1,100 @@
+4801|[Win8] Getting error on command prompt when trying to launch VSCode.
+4802|matchOnDescription allow me to open Visual Studio Code as CrhomeBrowser
+4803|The window is no longer responding,can't reopen/keep waitting/close
+4804|[vb] add .bas extension for VBA source code
+4805|[folding] Allow to specify if decorator should hide in collapsed region
+4806|How to debug node project for specific script command?
+4807|Changes to CSS Code Not Being Reflected Within Browser
+4808|Tab in Makefile should use tab character, not spaces
+4809|PowerShell: Non-standard verb causes squiggly lines throughout entire function
+4810|"""Format Code"" in .js files doesn't work (ts server died)"
+4811|Translations are missing key SelectStartMenuFolderBrowseLabel for file Default.isl
+4812|Test: Stack frame paging
+4813|Setting open file in new tab (not replaced current tab)?
+4814|Renaming file marks for git delete but not git add
+4815|Show hover on launch config gear
+4816|Exception when run my extension with other extension
+4817|Code coloring incorrect for 'implements' when 'extends' is also used
+4818|Add CJK-aware line wrapping, and basic Kinsoku Shori (禁則処理) to Visual Studio Code
+4819|How to escape the pipe character in Markdown?
+4820|Suggest the user to set up a proxy when ECONNREFUSED occurrs
+4821|Slow/laggy when opening large (~200K) files
+4822|[DebugAdapter] Return Object instead of plain string in evaluateRequest
+4823|hangs while opening HTML file
+4824|Question: Any plans to add CodeLens to JavaScript/TypeScript?
+4825|CPP `dotnet restore --configfile NuGet.Config` fails
+4826|Minor tool-tip correction
+4827|New files don't display on explorer
+4828|"Regular expression "".*"" does not match anything"
+4829|Color file types in Explorer
+4830|Git output shows --allow-empty-message command after commit
+4831|Debugging express prototype/constructor variables infinitely nested
+4832|No hover values for long watch variables
+4833|"Syntax color fail with ""target:event"" for angular2"
+4834|Allow to disable drag and drop in the files explorer
+4835|Extensions recommendations list is not displaying Cordova extension when opening Cordova project.
+4836|Getting multiple info pop-ups after installing Cordova extension and they are contradictory.
+4837|Provide file icons per file type
+4838|how to auto detect , auto encoding ?
+4839|closeAllFiles does not close Default Settings and Default Keyboard Shortcuts
+4840|Customizable 'Open in Command Prompt' console
+4841|Use gallery service directly from Code
+4842|"""Install shell command `code` doesn't do anything"""
+4843|Allow YAML for all configuration files
+4844|e.getViewer is not a function
+4845|Cannot read property 'onTokensChanged' of undefined
+4846|Cannot read property 'unshift' of null
+4847|Windows 10: Deleting always fails with error message
+4848|[feature request]: Allow diff view (from select for compare command) to be used to edit both sides
+4849|suggest widget failed to render emoji
+4850|Provide an action to reveal the currently active file in the explorer
+4851|better suggestion filtering
+4852|Provide an option to stop scrolling revealing active file in explorer (fixes #3062)
+4853|"Strange ""Canceled"" message"
+4854|Consider to not close files when receiving delete events
+4855|Sometimes won't react to touchpresses
+4856|Wrong syntax Highlighting
+4857|Enhanced Scrollbar (add minimap)
+4858|Syntax Highlighting fails in for loop
+4859|Animate sidebar toggling
+4860|"RUN: VS Code from no-or-not-enough-user-rights-supporting-based- (FAT-XX|exFAT|UDF) -drives, independent of targeted OS"
+4861|Error: Header must provide a Content-Length property
+4862|Watch for deletes in out of workspace files
+4863|#78 gitignored files not displayed on explorer view by default
+4864|Modifying a file while running debug does not properly update
+4865|Add read-only mode
+4866|Getting unknown platform error when trying to debug cordova project on windows though running Project from command Palette is working fine.
+4867|Support portable settings
+4868|Intellisense should not trigger on cut, backspace or delete of selections
+4869|Toggle case of selection
+4870|Auto-completion with Tab and Enter
+4871|جميل جدا
+4872|LineStart and LineEnd editor keyboard shortcuts
+4873|[cpp] Switching to Atom's language-c for C/C++ syntax highlighting
+4874|Request an Icon like Eclipse on Linux
+4875|Support opening files through URL handling
+4876|Difficult to read intellisense popup box
+4877|Can't switch between Working Files section and folder section in File Explorer panel using the keyboard
+4878|HTML tests are failing
+4879|VS Code does not create ui window if xflux program runs
+4880|April Iteration Plan
+4881|Issue with autoformat, rest spread and insider version
+4882|Code completion with C/C++ extension
+4883|Manage encoding files by extension of filenames
+4884|Allow manually specifying promise timeouts
+4885|Allow file operations on entries in opened editors
+4886|Cannot search for new line character using find
+4887|Tasks.json environment variable expansion case sensitive
+4888|Feature request: Please remember last x git commit messages where x is configurable or some arbitrary number (w/ option to paste any of these messages in the git message box)
+4889|"[loc][Query][DevDiv] Typo in source ""id"""
+4890|"[loc][Query][DevDiv] Please clarify placeholder ""{0}"""
+4891|scripts/code.sh interfering with VS Code Alpha
+4892|"[loc][Query][DevDiv] Typo in source ""id"""
+4893|Indent ES7/Babel Object Rest/Spread Properties in arrow functions
+4894|Make order of ConfigurationDoneRequest and LaunchRequest deterministic
+4895|"[loc][Query][DevDiv] Typo in source ""id"""
+4896|"[loc][Query][DevDiv] Please clarify placeholders ""{0} {1}"""
+4897|Column-Select is biased to the right - this is inconsistent with traditional shift-select behaviour
+4898|How to debug Typescript Angular 2 browser side code on Windows?
+4899|Linter error flag is showing up while changing language mode to CSS and then back to original.
+4900|Intellisense triggering after typing comma, space inside a string literal

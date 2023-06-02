@@ -1,0 +1,100 @@
+7301|Sass support
+7302|"Opening terminal gives ""Cannot set property 'innerHTML' of undefined"""
+7303|Add maximize panel command
+7304|visual studio code 1.2 on mac is getting quite slow
+7305|On mac ctrl-n should behave exactly like DownArrow
+7306|An option to hide the side bar when it's toggled
+7307|terminate unresponsive built-in shell
+7308|builtin shell closes with esc which is a keybinding for vim
+7309|Is it possible to stream a file into vscode from terminal
+7310|Cannot jump to file from Integrated Terminal
+7311|Title constantly flickering on save, grunt watchify constantly rebuilding
+7312|@csnover: constant memory increase when running in background
+7313|Terminal Bug: When running 'zsh', terminal window is cut off on scroll
+7314|"Debugger ""crashes"""
+7315|CompletionItems should control if they are auto acceptable
+7316|Marketplace extension installation instructions are wrong
+7317|Highlight .mk files as a Makefile
+7318|Output pane is a performance bottleneck once it gets big enough
+7319|Allow to open the same folder in multiple windows
+7320|Add an option to display control characters
+7321|VSC uses full process time.
+7322|Ctrl click opens peek
+7323|Find all references does not show references to imports
+7324|Integrated Terminal shortcuts get mixed up with VSCODE shortcuts
+7325|"find/replace ""Find in selection"" is disabled when only one line selected"
+7326|Problems: allow to filter by just typing into the tree
+7327|UX meeting agenda 8 June 2016
+7328|Request toggle for bottom-docked view to be side-docked or a column
+7329|Rename provider should support to 'resolve' rename location (to expand, invalidate, etc)
+7330|npm command prompt  working  now
+7331|take advantage of tsserver model of code for faster TypeScript builds
+7332|Cannot run node.js app through debugger tab
+7333|terminal.integrated.shell.windows setting Doesn't support environment variables
+7334|Backspace, left and right in Windows integrated terminal cause prompt to go out of sync in Git bash
+7335|Line breaks in Windows integrated terminal ignored when pasted
+7336|copying (Ctrl + C) selected text from the terminal terminates the current application that is running in it
+7337|UI bugs - missing all the debug buttons and indicators
+7338|TypeScript Intellisense very slow with some projects
+7339|Fix removal of /usr/bin link when upgrading package
+7340|[html] Closing markup tags should auto-format/indent
+7341|Default terminal line height makes selection look awkward on large font size
+7342|Running build task in Code approximately 50% slower than in terminal
+7343|Integrated terminal content is clipped on the left.
+7344|Give option to set the font of the hidden console window used by winpty
+7345|Breakpoint is duplicated if line is moved while editing the breakpoint condition
+7346|"Invoking the terminal sometimes yields an error ""Cannot set property 'innerHTML' of undefined"""
+7347|[themes] Put theme configuration to settings.json
+7348|Follow auto save setting configuration when creating new files from actions
+7349|Debug window is truncating output
+7350|VSCode doesn't use correct or newest version of Git
+7351|Have vertical scrollbar and overview ruler represent only the text portion of the file (not the extra page at the end)
+7352|Spaces in javascript loop leads to bad syntax highlighting
+7353|Support back/forward across preview editors
+7354|VS Code crash everytime
+7355|Run to cursor to a previously executed line results in a leaked breakpoint
+7356|Fixes #7366 Remove leaked breakpoint after stopping with run-to-cursor
+7357|Stacks: Cannot split editor in Git Diff View
+7358|null error when executing runToCursor while not stopped in debugging
+7359|Pinned Diff Editor Does Not Retain Scroll Position After You Switch Back to it
+7360|Fixes 7369: report RunToCursorAction as not supported when session not stopped
+7361|Accessibilty: allow highlight current line styling
+7362|Korea characters displayed overlapped in a teminal window.
+7363|"Insiders can't start Go debug session: ""Cannot find Delve debugger."""
+7364|cant copy text from integrated terminal
+7365|Can't Create a folder that has the same name as a file with no extension.
+7366|Linux integrated terminal mouse-wheel scrolling problems
+7367|Support WinDBG as debugengine for windows?
+7368|Support Visual Studio's 'Concord' debug engine in windows?
+7369|Chinese characters overlaps in terminal
+7370|PPA for Ubuntu?
+7371|Monaco API request : Create a custom action
+7372|[css] Support 8 (#RRGGBBAA) and 4 (#RGBA) value hex colors
+7373|Monaco API Request : Ship standalone languages
+7374|Stacks - Debugger frequently covers actionable editor buttons requiring editor resize
+7375|Multiple monitors: git password prompt
+7376|New Embedded Command Line issue
+7377|Display all typescript errors and warning of a folder/project
+7378|Improve update experience
+7379|Command for keybindings to input specific characters (like utf-8)
+7380|editor becomes unresponsive all the time since last update
+7381|Cannot read property 'projectFilename' of undefined
+7382|When installing extensions cause Xorg process CPU to use soaring
+7383|The OS magnifier can't follow the text input cursor in editor
+7384|Refactaring Hex RGB to Basic color name
+7385|Can't expand reference in Find All References
+7386|editor becomes unresponsive all the time since last update
+7387|Extension doesnt install on ext install ext name in quick open
+7388|Show warning for a long commit message
+7389|VS Code has not String IntelliSense
+7390|TypeScript errors are multiline but do not surface in the editor or problems view
+7391|"I lost ""unused imports"" warning"
+7392|Install code-insiders in PATH should not override code
+7393|Chinese character gash problem in Terminal .
+7394|Hover rending does not format using mode specified in 'language'
+7395|wrong coloring of variables of name number/boolean/string
+7396|Running a command with administrator rights?
+7397|terminal configuration tests are failing
+7398|vscode locking git repo
+7399|OS X build error('windows.h' file not found)
+7400|Add command ID for 'Collapse All' in Files Explorer

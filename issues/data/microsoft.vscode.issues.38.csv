@@ -1,0 +1,100 @@
+3701|can't build on Ubuntu
+3702|Ctrl+Hover blocks e.g. Copy/Cut/Paste etc.
+3703|Give us a way to start or restart OmniSharp
+3704|Rate Limiting on  https://raw.githubusercontent.com/Microsoft/vscode/0.10.8/src/vs/vscode.d.ts
+3705|Allow file name to language associations via settings (fixes #3612, #2883)
+3706|numbers in exponential notation not correctly colored.
+3707|Test Tour: Node+express tire kicker (JavaScript)
+3708|Test Tour: ReactNative getting started (JavaScript)
+3709|Test Tour: Angular 2 getting started (TypeScript)
+3710|Test Tour: Jasmine testing (TypeScript)
+3711|Test Tour: Create a mobile app using angular, sass (JavaScript)
+3712|Test Tour: Angular 2 getting started (TypeScript)
+3713|Test Tour: React Redux Express Babel WebPack (JavaScript)
+3714|vscode gitignore updated. Added typings directory.
+3715|Test Tour: Use embercli to create a web app (JavaScript)
+3716|TypeError: Path must be a string. Received null: VSC Insiders
+3717|Expose TS formatter options as user settings
+3718|Mac OS X :: 0.10.9 :: AzureRM Extension :: API Version doesn't accept [variables()] function
+3719|Typescript error highlighting as if only compiling single file (ignoring tsconfig.json)
+3720|Typescript error highlighting in for loop
+3721|Improve the folding implementation to use less decorators
+3722|Mac: Doubleclick sometimes ends up selecting the span
+3723|TypeScript - check when the globally installed typescript version differs from the VS Code one
+3724|Cannot read property 'saveViewState' of null
+3725|Syntax highlighting failing for TypeScript template strings
+3726|debugViewlet.js: TypeError: Cannot read property 'origin' of undefined
+3727|Debugger for Node doesn't work when project folder under TFS Git On-Premise
+3728|No obvious way to tell if a file is UTF-8 with or without BOM
+3729|[go syntax] Don't treat multiline `var` specially
+3730|Adding descriptions of Ionic HTML tags
+3731|Build task hangs when no output
+3732|Make navigation history stops configurable
+3733|doesn’t run on Ubuntu 12.04
+3734|[JavaScript] `var` is colored as a keyword even if it is a part of variable name
+3735|[Javascript]Cannot distinguish VAR
+3736|Please Support NSIS Script syntax highlighting
+3737|"""Queue"" is not resolving"
+3738|Add setting to automatically hide the side bar
+3739|Inconsistent freezing when switching applications
+3740|Allow setting a command event instead of an shortcut key in keybindings
+3741|Virtual Documents and compareFileWith command
+3742|Markdown Fenced PHP Code Block is Not Syntax Highlighted
+3743|Regex pattern not recognized
+3744|typescript.tsdk has confusing documentation and missing validly checks
+3745|"Remove highlighting of ""variable declaration"" in rust highlighter"
+3746|Test Tour: Angular 1 (JavaScript)
+3747|Snippet selection when pressing tab is not always correct
+3748|Intellisense configuration through custom tasks
+3749|Error: IRequestService.makeRequest: Url is required.
+3750|[python] Wrong indentation in python files when declaring class
+3751|(Windows) Uninstalling a symlinked extension deletes the target directory
+3752|Import-Module SQLPS throws exception related to PowerShell Editor Services version.
+3753|Debugging on MacOS - When will we get it?
+3754|Search results include large files which can't be viewed
+3755|Support variables in settings.json (e.g. ${workspaceRoot})
+3756|"""files.exclude"" does not match double-extension files with ""when"": ""$(basename).ext"""
+3757|Code expand/collapse
+3758|Unable to update version
+3759|Snippets: allow to provide list of values for a tab stop
+3760|Exclude files and folders listed in .gitignore
+3761|Incorrect highlight for javascript ?
+3762|Often seeing 99+ errors/warnings from lib.d.ts
+3763|Support linking to localized licenses
+3764|Goto symbol no longer works with AMD or module pattern with Salsa
+3765|Focus with keyboard to message bar Hard to see
+3766|Hiding the menu bar does not indicate how to bring it back
+3767|Markdown: Support to follow local links
+3768|Support projects with multiple tsconfig.json
+3769|Extension for Logstash configuration syntax highlighting/completion
+3770|Cannot use a local gulp path that works on all platforms
+3771|Test Tour: Unity - TBD
+3772|Missing keyboard shortcut features from Sublime Text
+3773|Unity - TBD
+3774|Ignore / suppress errors / warnings
+3775|Call out code blocks more prominently
+3776|Test Tour: Python
+3777|Test Tour: PHP
+3778|Test Tour: React Starter Kit
+3779|VSCode should flag errors on tsconfig.json
+3780|Key binding Ctrl+Alt+L and AltGr+L are euqal but shouldn't
+3781|Javascript keywords broken
+3782|poor syntax highlighting for javascript/react files
+3783|Autocomplete accessibility glitch
+3784|Allow bracket matching style customization
+3785|Pass debug configuration name to vscode.startDebug
+3786|New `code` shell command fails if `python` points to Python 3
+3787|JavaScript Intellisense not working for commonJS after upgrading to 0.10.10
+3788|[webkit-debug-adapter] Path must be a string. Received undefined
+3789|Packaging  the Mac App
+3790|"Variables starting with ""let"" or ""var"" break highlight."
+3791|Make Intellisense font and image size adjustable
+3792|JavaScript code formatting not working properly after v0.10.10
+3793|editor.formatOnType breaks indentation
+3794|Javascript Parameters with properties and Intellisense
+3795|Diffrent results in node debugging and terminal
+3796|Option to disable file explorer jump to current file.
+3797|syntax highlight not working version 0.10.10
+3798|IntelliSense with types of JSDoc
+3799|Distinguish code area from glyph area
+3800|0.10.10 erroring on object spread properties in .js files

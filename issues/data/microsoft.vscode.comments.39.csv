@@ -1,0 +1,100 @@
+3801|Fixed.
+3802|Done
+3803|Thanks for picking this up. If you regard it as a feature request it's IMO at least very very close to a bug. The XML specification is very clear about how a conformant XML processor (and one can think of an XML-aware editor as an XML processor) must detect and handle the encoding, either an explicit one (like here the charset in the XML declaration) or implicitly (by looking at byte-order marks and the initial <? sequence). If you make encoding detection for XML files optional and leave it to the user to switch the encoding manually, you have a very high risk of her or him forgetting that and producing non-wellformed XML documents. Editors like IntelliJ IDEA follow that encoding detection strictly for XML files and even disallow a user to accidentially change it.  See also: http://www.w3.org/TR/REC-xml/#charencoding and http://www.w3.org/TR/REC-xml/#sec-guessing
+3804|"@egamma @chrisdias would people not expect that fuzzy search is then applied to all of quick pick, where today it is only applied to the file search and nothing else? I also think ""fuzzy"" might be a bad name because we are not matching as crazy fuzzy as sublime does. I have a feeling that in sublime the typed characters are matched anywhere in the file and path, whereas for us (and Atom I think) at least the characters must be in the same order as in the string.  `search.alternateFilePickerMatching` `Changes the file picker to use an alternate matching and scoring approach that will produce more results based on the query`"
+3805|@ujay68 I think this cannot be a bug because we do not have code that does encoding detection so you cannot really say that we are doing something wrong here. It is literally not implemented. The only encoding detection we do is when you use UTF-8 or UTF-16 byte-order-marks that work in all files.
+3806|Btw great chance for a pull request, the code could go into https://github.com/Microsoft/vscode/blob/master/src/vs/base/node/encoding.ts
+3807|This is because OmniSharp doesn't support per request formatting options (https://github.com/OmniSharp/omnisharp-roslyn/blob/master/src/OmniSharp.Abstractions/Models/v1/FormatRangeRequest.cs#L6). Moving to OmniSharp for that.
+3808|@anfomin - Do workaround this, you can create an `omnisharp.json` with the config
+3809|This issue was moved to OmniSharp/omnisharp-roslyn#366
+3810|The description should mention `experimental` then we set the expectation.   Suggest the following description, I would still use fuzzy this was also the term used in #968.  > Experimental support for fuzzy matching of file names in the file picker  how about this option name to make it clear it applies to the file picker only:  > filePicker.alternateFileNameMatching
+3811|Sorry!  ``` javascript yield ```  :+1:
+3812|I think that is not the full snippet from the screenshot...
+3813|:+1:
+3814|Icon should be more intuitive to reflect that it is a broken extension. Icon + number + warning is too wide imho. Forwarding this to @bgashler1 to get opinion
+3815|@dbaeumer Yay! Just got the insider update and it's fixed! Thank you!
+3816|Well since we do not show this when everything is ok, it would actually draw some attention to it. Currently I would never think about clicking there.
+3817|![image](https://cloud.githubusercontent.com/assets/6461412/11809641/912d8086-a328-11e5-8240-47c6b40e4cf6.png) ![image](https://cloud.githubusercontent.com/assets/6461412/11809662/c05b1e4a-a328-11e5-9206-1f4f9f40962c.png)
+3818|I do not see it on my linux -> sending back to backlog  @alexandrudima on Martin's machine I see that the line number is not centered inside its div, it goes to the upper right (as shown in the screenshot). My glyph is centered nicely thus the original misalignment Martin noticed.
+3819|Makes sense. Though 7 warnings & errors is really long. Should I just say 7 messages?
+3820|Suggest to be more specific, e.g. 7 issues
+3821|issues works for me
+3822|"This is a rare corner case: if ""stopOnEntry"" is false but you have a breakpoint in the same line where node would stop on entry, and if you are using sourcemaps, then it can happen that the breakpoint is skipped.  I've tried to improve this, but I'm sure that there are cases where this won't work. @jrieken but with my fix your snippet works for me."
+3823|fix delivered
+3824|I guess you should assign it to me for verification :hamster:
+3825|fix delivered
+3826|"Hello guys, its a mark down ""native"" feature.  Thanks"
+3827|Actually I was trying to do something similar like this for my graphviz extension, I want to be able to generate some html based on the current active document and preview it in a similar way as the Markdown preview. I found the way the Markdown extension does this, but it's not available as public API's
+3828|@bpasero I confirm this is fixed in 0.10.4 (insiders).  Nice!
+3829|Yeah, the markdown stuff isn't an extension yet. I can think of either a special `HTMLTextDocument`, a mode when opening an editor, or some command. Needs some thinking...
+3830|@dstorey this makes good sense for me.
+3831|Also I noticed the `OpenPreviewToSideAction` and related `Action` class, which can toggle the preview mode, something like that would also be useful to do.
+3832|yeah, tho that action takes undocumented context... We need to elevate it
+3833|Until we improve the API we don't automatically show suggestion when the current word is just a number.
+3834|fix delivered
+3835|Until there is a fix for the issue is there some guidance on how to manually uninstall/cleanup an extension? I have one that is misbehaving that I can't uninstall through the UI so it would be helpful to know for more than just this issue.
+3836|This is OK. It was during a shutdown.
+3837|Works fine in JavaScript.
+3838|@warpdesign great! also happy for feedback on the new option to enable fuzzy matching.
+3839|@jpierson you can go into ~user/.vscode/extensions and delete the extension's folder.
+3840|@aeschli Is this with out of the box settings on Linux?
+3841|:white_check_mark:   ![image](https://cloud.githubusercontent.com/assets/5047891/11812615/398987a2-a33d-11e5-852a-50c6499649be.png)
+3842|This is almost same as #815
+3843|@bpasero Do you know if electron supports to invert the color of the mouse cursor ?
+3844|Implemented as proposed. The new flag to control this for a task is promptOnClose. For watching tasks this is false by default.
+3845|Duplicates #1194
+3846|Duplicate of #780.  Do you have a proxy, though?
+3847|@T18970237136, sorry this didn't make it for the [December update](https://github.com/Microsoft/vscode/wiki/December-Pre-Release).   Closing as a duplicate of #446.
+3848|Verified by a test case
+3849|I was also looking for this :+1:  @jrieken , you could also look (when deciding the new APIs) for other supported file types, like images (png, jpg).
+3850|@alexandrudima Yes, no user/workspace configuration for any of the editor settings
+3851|Got fixed today for 0.10.5. Duplicate of #1321
+3852|@alexandrudima not to my knowledge and in fact Atom is assigning a custom cursor when I last checked using CSS. What I dont like about that approach is that it seems impossible to put the correct size of the cursor depending on running in High DPI or not (retina).
+3853|:sunny:
+3854|These errors are produced by the JS language service. The owner is javascript/semantic. Since the view.d.ts file is a declare file it is loaded into the JS language service and that doesn't know anything about the all.ts file which defines the mystery namespace.
+3855|Moving to @jrieken
+3856|Sry, didnt know the bug as from someone else, but assigning for verification.
+3857|The issue is understood, removing the important label.
+3858|Maybe verify by looking at the CPU when you run quick open and verify that it stops for a large workspace when you close quick open widget.
+3859|Verified that this behaviour is consistent across the different emmet integrations (sublime, atom).
+3860|@bpasero @alexandrudima Surely this doesn't reproduce on regular web pages with dark backgrounds on Chrome? Never heard of this being a problem as a web developer.
+3861|Not fixed, but I created another one for it.
+3862|Did some investigation but wasn't able to reproduce. I also check that the position is the same whether the code assist is triggered by . or by hand.
+3863|@Tyriar I totally see it in Chrome too when using Cloud9 with a dark editor.
+3864|Only happens for very long strings when the repl has a specific size. Resizing the repl should show the value -> backlog The issue is that I am measuring the width of the outer div not the span itself and this produces a difference in a couple of pixels. I would restructure the dome nodes for output elements but not for endgame week.
+3865|fix delivered
+3866|This issue was moved to Microsoft/TypeScript-TmLanguage#27
+3867|This issue was moved to atom/language-csharp#47
+3868|StackTrace does not make sense to me. @SofianHn am I reading it correctly that the exception came from debugAdapter.ts#28 because that is impossible - I want back to commit 783ecf8 to verify
+3869|@flyingcodes this is a node.js and not a VSCode problem. If I use node's builtin debugger from the command line and follow your steps I see the same crash:  ` node debug t1.js `  Please file this bug against node.js.
+3870|"Current config is below, but it doesn't seem to matter what the config is. Repro steps: 1. Start the watched build task (haven't tried it w/ named tasks) 2. Modify `tasks.json` (even just adding whitespace) 3. Observe that ""terminate task"" does nothing. Also, you can start up another copy of the task; double output will be routed to the output pane. 4. Restarting VS Code (and killing zombie processes) gets me back into a good state until I next touch `tasks.json`  ``` json {   ""version"": ""0.1.0"",   ""command"": ""./node_modules/.bin/gulp"",   ""isShellCommand"": true,   ""showOutput"": ""silent"",   ""tasks"": [     {       ""taskName"": ""watch"",       ""isBuildCommand"": true,       ""showOutput"": ""never"",       ""isWatching"": true,       ""problemMatcher"": [         {           ""owner"": ""eslint"",           ""fileLocation"": [""relative"", ""${workspaceRoot}""],           ""pattern"": [             {               ""regexp"": ""^\\s*(error)\\s+([\\w\\-]+)\\s+(.*)$"",               ""severity"": 1,               ""code"": 2,               ""message"": 3             },             {               ""regexp"": ""^\\s*(.*):(\\d+):(\\d+)$"",               ""file"": 1,               ""line"": 2,               ""column"": 3             }           ],           ""watching"": {             ""beginsPattern"": ""^.*\\[wulp\\].+Running.*\\.\\.\\.$"",             ""endsPattern"": ""^.*\\[wulp\\] Tasks ran in \\d+ms$""           }         }       ]     }   ] } ```"
+3871|This is how the current JS implementation works. It only considers `.js` and `.d.ts` files, but no `.ts` files. We won't fix that for the current JS language service but it might go away once we use project Salsa.
+3872|`ta<tab>` in an 'scss' file should expand to `text-align: left;` `ta<tab>` in an 'sass' file should expand to `text-align: left`  To emmet the distinction between scss and scss matters.  See also https://github.com/sergeche/emmet-sublime/issues/70  Code currently only supports `sass` as the mode, so the current behaviour is as expected. The issue is that we do not support a `sccs` as a separate mode.  ``` typescript ModesExt.registerMode({     id: 'sass',     extensions: ['.scss'],     aliases: ['Sass', 'sass', 'scss'],     mimetypes: ['text/x-scss', 'text/scss'],     moduleId: 'vs/languages/sass/common/sass',     ctorName: 'SASSMode' }); ```
+3873|This issue was moved to Microsoft/TypeScript-TmLanguage#28
+3874|@dbaeumer pls give me a heads up if you try this again as it seems to work for me.
+3875|Great catch!
+3876|+1 this is killing my workflow!
+3877|+1  ![comment](https://cloud.githubusercontent.com/assets/199648/11816139/6bccaebc-a34f-11e5-9a1a-0e1d49768cfd.gif)
+3878|This issue was moved to Microsoft/TypeScript-TmLanguage#29
+3879|This issue was moved to Microsoft/TypeScript-TmLanguage#30
+3880|https://github.com/Microsoft/vscode/issues/1342
+3881|I know :blush:
+3882|We could not address this for the December update. A work around is to increase the font size in the user settings instead of zooming in. This has the limitation that the font size only applies to the editor and not the rest of the UI.
+3883|Thanks!
+3884|@louy @gileze33 can you guys post your tsconfig? I think I know the cause.
+3885|"Hmm yeah.  ``` json {   ""compilerOptions"": {     ""target"": ""es5"",     ""module"": ""commonjs"",     ""sourceMap"": true   },   ""exclude"": [     ""node_modules""   ] } ```"
+3886|"@louy  I cannot replicate the issue with your tsconfig.json. Do you have a link to your repository? Are you using tsd? if you are, did you keep the default settings? I was able to fix my issue when i stripped the tsconfig.json.compilerOptions down to just ""target"": ""ES5""  ``` {     ""compilerOptions"": {         ""target"": ""ES5""     },     ""exclude"": [         ""node_modules"",         ""bower_components""     ] } ```"
+3887|"hmm well. `""module"": ""commonjs"",` is a must for us. I'll check if I have a public repo in which I can reproduce the issue. You might want to look at [opool](https://github.com/urbanmassage/opool) for now."
+3888|@louy sorry, I wasn't being clear. I meant you should try stripping it down to target:ES5 and see if it fixes it for you. It should help with narrowing down the issue.
+3889|@alexandrudima writing to a location different than root works. Sorry for the swirl.
+3890|I also tried the opool and the suggestions worked fine
+3891|@nevir This doesn't reproduce for me with a normal example. Would you be willing to share the project with us so that I can understand why this doesn't work for you?
+3892|project.json file was messed up
+3893|Assigning to @aeschli for verification.
+3894|Nothing to verify since it doesn't reproduce and nothing got committed.
+3895|@alexandrudima sorry, no. And I didn't see it again. No objections if you want to close it.
+3896|We could add a reload action to VS Code to reload all projects. However there is a bug open in the TypeScript repository as well since the tsserver should handle this correctly without user interaction.  @louy: does the git operation change files outside your open workspace folder and those files affect the TS compile?
+3897|@aeschli can you please comment.
+3898|@bpasero fyi
+3899|Sorry accidentally closed issue. I've updated the initial comment with a nicer description etc
+3900|"It looks like ""Don't Save"" and ""Cancel"" switched the functions. Cancel actually closes the editor."

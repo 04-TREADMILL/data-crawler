@@ -1,0 +1,100 @@
+26901|Implement contributable tree views
+26902|Task version 0.1.0 doesn't list any task anymore. Shows endless progress
+26903|"""Loading ""gc-signals"" failed"""
+26904|Property names starting with two underscores not handled correctly
+26905|SCM: Support past commit messages navigation
+26906|Theme: Debugger task dropdown inconsistency
+26907|VueJS Support, please :)
+26908|Reduce search requests to Marketplace backend
+26909|Can't find files starting with `./` on MacOS
+26910|"""Stage changes"" command doesn't work on Merge Changes"
+26911|Dim files/folders from .gitignore in the file tree
+26912|Pattern match on global search matches line preceding pattern
+26913|Toggle Extension auto update
+26914|"""write error: Broken pipe"" in terminal"
+26915|Add Command: Focus on panel action bar drop-down
+26916|Add Command: Copy All - Current panel output (no focus needed)
+26917|Slow Restart?
+26918|Pin tabs similar to Visual Studio
+26919|"Add ""Open to the Side"" option to editor tab right-click menu"
+26920|Does vscode support debugging of javascript coming from a cshtml?
+26921|Feature request: Wrap control statement content when adding open brace
+26922|Make SearchWidget dependencies injectable
+26923|Add a dedicated page for customization
+26924|Feature request: Repeating colored indent lines
+26925|Fixed fails running unit tests VS Code
+26926|Launching Code to edit a file with an unsaved file from prior hot exit focuses incorrect file on start
+26927|Allow extensions to use theme colors
+26928|The integrated terminal works abnormally.
+26929|The Bad display of the terminal
+26930|Select previous file by default when using Ctrl-P
+26931|I keep corrupting code with inadvertent multi-selections
+26932|Git: Pull from specific branch adds feature to #26738
+26933|Add feature to close TMScope inspector
+26934|"Add ""pullFrom"" git command"
+26935|Extensions are not loading
+26936|bug on VSC arduino extension
+26937|typescript 中的 模板字符串 中第一个表达式总是无法获取到变量提示
+26938|Add a horizontal scrollbar in File Explorer when its width is small
+26939|Editor keeps typing even after I release the key.
+26940|Imposible d'utiliser la fonction format.document
+26941|Feature Request: allow extension filter exclusions
+26942|Go to definition works only when the symbol having that file is opened else it doesnt go to the symbol even though the file is in same folder
+26943|Search function can't use normally
+26944|Print option in File menu
+26945|Add more tests to PHP grammar
+26946|Slow start
+26947|"when I build the project, the output message like ""Microsoft(R) ��������汾 4.7.2046.0 [Microsoft .NET Framework �汾 4.0.30319.42000] ��Ȩ���� (C) Microsoft Corporation����������Ȩ����  ������ʱ��Ϊ 2017/5/20 16:59:57��      1>�ڵ� 1 �ϵ���Ŀ��D:\vscode_test\hello\build\ALL_BUILD.vcxproj��(Ĭ��Ŀ��)��      1>��Ŀ��D:\vscode_test\hello\build\ALL_BUILD.vcxproj��(1)���ڽڵ� 1 �����ɡ�D:\vscode_test\hello\build\ZERO_CHECK.vcxproj��(2) (Ĭ��Ŀ��)��      2>InitializeBuildStatus:          ���ڴ�����Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����"""
+26948|Fuzzy IntelliSense matching vs Haxe metadata completion
+26949|Ctrl-C needs an extra enter to make it work.
+26950|Wrong file open dialog in KDE
+26951|[folding] Preserve folding state when dragging text
+26952|[#25575] Add Git Tag feature.
+26953|`⌘\` shortcut doesn't work on Mac
+26954|Bug with switching editor windows
+26955|终端显示错位
+26956|bash.exe git terminal:  keyboard inputs no longer working.
+26957|Error When Searching for a Symbol in a PHP Workspace
+26958|Grunt task detection fails when using Gruntfile.coffee
+26959|Undefined identifiers after C/C++ plugin update
+26960|"""Git"" be ""GIT"" in Chinese Simplified translations"
+26961|"Debug -> Add configuration results in ""Cannot read property 'resource' of null"""
+26962|shortcut key miss
+26963|x64 VSCode for Windows
+26964|The code trace location is wrong!
+26965|Feature Request: temporary mark for current line when Find or Replace begin
+26966|Feature Request: Open Replace pane and fill up automatic when text is selected
+26967|Feature Request: Select all of selected text in file
+26968|"Auto Complete pops up ""invalid arguments"" message"
+26969|File - File Icon Theme list should be kept before confirmation, or live preview when hover
+26970|Double click to select word that don't recognize Chinese punctuation
+26971|VSCode Version: <code>Code - Insiders 1.13.0-insider
+26972|Helper decorations are no longer displayed in the default keybindings.json
+26973|"VS code always tells me ""There are many bugs in the extension ... "". But I don't know which extension cause this problem."
+26974|OEM_PERIOD and OEM_COMMA do not get an info highlight under the German Keyboard Layout
+26975|Jump to definition doesn't work for React component tags
+26976|[macOS] Make keyboard shortcuts input source-agnostic
+26977|Support VSCODE , React Native 0.44.0 and Typescript debugging
+26978|Special input causes vscode to hang
+26979|markdown.showpreview failed when file is located on a NAS (WD MyCloud and others)
+26980|Terminal Dislocation
+26981|Improve sorting of files in quick open
+26982|Support Doctests
+26983|Terminal List Dropdown shows blank for the first time
+26984|Find and replace appears still broken in 1.12.2 depending on UI workflow
+26985|Ctrl+s saves/overwrites the wrong content to the wrong file - Can cause lost work
+26986|column mode edit is wrong
+26987|"Invalid search results when search ""--"" in ""Find in Files""."
+26988|Inconsistent undo/redo behavior in Ctrl-F field
+26989|Ensure Chromium emits accessibility events in a NVDA-friendly order
+26990|Linux: Submenu doesn't appear
+26991|Wrong HTML syntax coloring in markdown files
+26992|Python VENV environments not recognized
+26993|Warning Label Difficult to Read in Monokai
+26994|Terminate all tasks
+26995|Support for adding to the completion list rather than replacing it.
+26996|Arrow keys not working when using R in a VSCode terminal
+26997|Escape for `keepEditor` and `hideInterfaceOverview`
+26998|Go to Definiton does not work in JavaScript namespace
+26999|className copy(default delete space)
+27000|Terminal [PowerShell Integrated]

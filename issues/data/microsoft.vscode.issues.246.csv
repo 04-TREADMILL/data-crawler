@@ -1,0 +1,100 @@
+24501|Save All Files messes up my code formatting badly
+24502|Add extension recommendations for Vue.js
+24503|Binding a task to a keyboard shortcut.
+24504|How to insert the setting key for arrays and object through API
+24505|How to format the JSON file through API and save it.
+24506|Feature: The ability to provide a workspace relative path to Recommended Workspace Extensions
+24507|auto-select on workbench.action.openNextRecentlyUsedEditorInGroup
+24508|CSS formatting
+24509|Cannot click process picker in compound mode
+24510|ubuntu: copy text freezes vscode
+24511|Cursor (with copy indication) only changes on mouse move
+24512|Move TS Feature API Gating Into Providers Themselves
+24513|Receive warning about path when opening code
+24514|Fix - #24242
+24515|[html] Add Surround With
+24516|Less-than (<) and greater-than (>) symbols escaped to &lt; and &gt; in find output
+24517|Dragged selections can only be dropped 1 character away from their origin
+24518|Only one window reopens when opening VSCode
+24519|Unhandled exception occurs in findGit when extension debugging with the Insiders build
+24520|Output pane silently truncates start of C++ build error output
+24521|unconfirmed text of CJK IME collapse to one character
+24522|集成终端显示bug
+24523|Focus search input box by shortcut
+24524|[Feature Request] Able to cycle windows in Zen mode
+24525|Add selection command concatenates selections when selected terms are next to each other
+24526|Arrow keys completely stopped working in Code
+24527|Make border bottom visible for panel actions on focus.
+24528|vscode中启动调试js时，总是自动打开输入窗口，还得手动点下旁边的调试控制台才可以看到输出，如何自动打开输出控制台？
+24529|Certain cursor style stop blinking / animating after a while
+24530|Supporting three-character hex color code shorthand in TM themes
+24531|Changed git renamed icon to orange color
+24532|Could not create temporary directory: 权限被拒绝
+24533|[themes] theme color colorspace not matching display's colorspace
+24534|Fixes #944 - Support wildcards on activationEvents.workspaceContains
+24535|Snippets No Longer Work in Comments
+24536|[Feature request] Show tooltips with hints for `tsconfig.*.json` files
+24537|Add the Chinese document translated from English
+24538|Implement support for syncing all settings
+24539|扩展主机意外终止。请重新加载窗口以恢复。
+24540|Error with 'outFiles'
+24541|软件更新后很卡
+24542|--prof-startup is broken
+24543|Hotkeys do not work
+24544|"Wrong or unnecessary translation of ""Closure"""
+24545|The TypeScript language service died 5 times right after it got started. The service will not be restarted
+24546|How to disable TypeScript for JS files
+24547|"""How to contribute"" page might be missing some information for a newcomer"
+24548|NPE in selectBox.ts
+24549|#22987 markdown breaks
+24550|Make the currently active editor more distinguishable from others
+24551|Vscode keeps opening same protected file at (cold) launch
+24552|Is it possible to configure Babun/ZSH for the integrated terminal on Windows?
+24553|Having a watching preLaunchTask does not start debugging
+24554|Unclear when extension cannot be disabled
+24555|Function Breakpoints - does not hit selected function
+24556|No warning when a comment is used inside an extension's package.json
+24557|Intellisense should not show entries that are the same as already typed text
+24558|Tab size and space / tab settings annoying behaviour.
+24559|Unable to use preLaunchTask with two configurations
+24560|Zen Coding expansion issue
+24561|PHP syntax highlighting breaks when \x7f-\xff is used as label
+24562|Git askpass: don't use localhost
+24563|Disable `translate3D` for list when scaling
+24564|Markdown preview - monospace font
+24565|Have a setting to prevent auto trim whitespace on cursor line
+24566|Mouse cursor changed to 'copy', is not reverting back
+24567|First word in a string highlighted as a keyword in Clojure
+24568|Terminal - yarn progress rendering has glitches
+24569|vscode use webassembly
+24570|text show err
+24571|[debugger] argc and argv are wrong when set multiple arguments
+24572|Git version < 1.9 spam
+24573|NumPad keys ignored
+24574|NVDA is very silient on VS Code
+24575|Can't debug latest Node 8 nightlies
+24576|Theming for tree and list
+24577|Using keystrokes in Explorer
+24578|VSCode checks Git changes so often
+24579|Not able to move or resize the Visual Studio Code Editor Window
+24580|Seeing drag and drop copy mouse cursor when drag and drop is disabled
+24581|Open folder is no longer working
+24582|Additional character when copying SSH keys in integrated terminal
+24583|Python version setting being ignored
+24584|Is there support for 256 colors on the integrated terminal for Windows?
+24585|Enhancement suggestion for application user profiles
+24586|VS code 1.11 doesn't start
+24587|Searching through keybinds by keypresses
+24588|Feature Request: partial path matching for Problem Matcher
+24589|"[Feature Request] Display newline characters when ""editor.renderWhitespace"": ""all"""
+24590|File search does not support regular expressions using lookahead patterns
+24591|Cannot drag-drop text at end of selection.
+24592|PR Prototype for list navigation Issue #24119
+24593|Add (optional) keyboard binding to select word under cursor.
+24594|BUG on March 2017 (version 1.11) with Embedded Terminal and Tmux on Windows 10 via bash.exe
+24595|File Search is not excluding .git
+24596|"Quick fix option ""rename file to match type"" doesn't work"
+24597|unconfirmed text of CJK IME collapse to one character in Integrated Terminal
+24598|macOS: Add a setting to enable acceptsFirstMouse for window
+24599|Show a confirmation dialog before DND in the explorer
+24600|Provide easy way in file explorer to add file to gitignore

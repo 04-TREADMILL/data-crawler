@@ -1,0 +1,100 @@
+16301|Test: View scalability
+16302|Add Portable configuration
+16303|Extensions intermittently stop working
+16304|Use graceful-fs in searchWorker
+16305|Use cached data to speed up script parsing
+16306|Allow DocumentLinkProvider define to which line in file we want navigate
+16307|Scroll bar overlaying on top of text
+16308|Smarter search batching
+16309|Fix markdown preview anchor links
+16310|VSCode can't open large CSV file
+16311|Terminal doesn't understand some git concepts
+16312|In-product release notes h2 and h3 links cause topic to go blank
+16313|Add context actions along the lines of IntelliJ
+16314|Jenkinsfile are groovy too
+16315|Exception while running code on VS Code Debug Console, runs fine in VS Code Terminal and Win7 Command Line
+16316|Inconsistent behavior when cutting and pasting line with no selection
+16317|command 'extension.connect' not found
+16318|Font is not changed for debug console input field.
+16319|Не устанавливает расширение такие как Python, C#, Debug for Chrome C/C+
+16320|Multiple Build Commands are not executed
+16321|Enable Strict Null Checks and Use Lib References in Markdown Extension
+16322|Bad Stuff happens when you press the enter key in the search box quickly
+16323|Screen cheese after closing the peek view
+16324|Copying a selection across multiple filtered settings includes extraneous text
+16325|Disable Autoclosing Quotes in Python Strings and Comments
+16326|Allow Enabling useCodeSnippetsOnMethodSuggest for JS As Well As TS
+16327|Select all selected words incorrectly
+16328|Intelligence will lead to repetition in Chinese
+16329|How do I make it so that emmet expands classNames in JSX and JS files using single quotes instead of double?
+16330|Consume languageServiceEnabled Events from TS
+16331|Key Maps are wrong
+16332|toogle terminal commando doesn't work with open files
+16333|can i execute cmd in vscode
+16334|please add go to function ctrl+b on phpstorm
+16335|乱码
+16336|Feature request: Segmented ts language service?
+16337|Next/Prev keyboard nav in Quick Open
+16338|Allow to change the background color of menu bar (Windows & some Linux)
+16339|'Cannot read property 'element' of undefined' in code completion widget
+16340|Debugging language server extension doesn't work
+16341|Make use of v8 cached data
+16342|Feature suggestion: cursorColumnStart and cursorColumnEnd
+16343|extension node_modules not packaged properly
+16344|How to show button fold code (-) and (+) by default?
+16345|When you try to pull (or checkout) with pending changes an incorrect message is provided
+16346|Please tag 1.7.2
+16347|NPE when editing settings.json
+16348|Running multiple cmd tasks in tasks.json seem too mutually excluce themselves
+16349|"Typo: ""stage"" is incorrect action because it wont do anything, ""stash"" is."
+16350|Avoid sync fs-calls in backupMainService
+16351|Links no longer clickable in HTML
+16352|Avoid sync fs-calls at startup
+16353|Avoid sync fs-call at startup
+16354|Avoid sync fs-call at startup
+16355|Completions filtered until there is at least one matching character
+16356|Avoid sync fs-calls when opening windows
+16357|Avoid fs.sync calls in renderer and extension host
+16358|Error: monaco.d.ts is no longer up to date.
+16359|"Cannot install extensions due to ""Cannot read property 'call' of undefined"""
+16360|A  shortcoming of grammar color displaying in typescript
+16361|Automatic Formatting is using 4 spaces instead of what I set it to use
+16362|StateMainService: Avoid sync fs-calls
+16363|Avoid sync fs calls at ext host startup
+16364|API: Changing cursor position after edit creates selection
+16365|Integrated Terminal Not Able to Find bash.exe
+16366|Avoid sync fs-call at startup perf
+16367|Add enum option to show whitespaces inside selection only
+16368|Create EditorAction wrappers for column selection commands
+16369|Use one editor for openings Default and Custom setting values
+16370|"Strange symbols in the ""files.eol"" pop-up menu"
+16371|Zen mode doesn't hide viewlet
+16372|html file saving continuosly
+16373|Viewing the list of symbols in the current script file does show variables within a function
+16374|Default Settings Most Commonly Used title and first item hidden
+16375|New Default Settings comment have not space between // and start of comment
+16376|apply decreaseIndent for ruby code
+16377|Extensions: appending command to key binding
+16378|Improve the text search progress bar
+16379|TSLint and ESLint both running on JS file (in non-TS project)
+16380|Falhas com git
+16381|Multiple cursors, autocomplete only works for first cursor
+16382|Weird blur on Win 10 Latest build.
+16383|HTML files: curly braces, brackets, and parens do not wrap a selection
+16384|deprecatedMessage renamed to deprecationMessage
+16385|Provide key short to navigate through filtered results while searching in default settings file
+16386|[scss] syntax support web component special selector (/deep/) in .scss files
+16387|Feature request: Allow scroll by page with ctrl+mousewheel combination
+16388|TypeScript 2.0.10 Compile Errors - Ignoring typescript.tsdk path for Project and Global
+16389|Stream search results in sorted order
+16390|Blacklist typescript.useCodeSnippetsOnMethodSuggest in certain contexts
+16391|Test: Text search
+16392|Debug console is not updated when collapsed
+16393|Reason for ctrl+q binding to workbench.action.quickOpenView
+16394|"Fix spelling mistake ""Occurrences"" has two r's."
+16395|OutputEvent objects should respect output severity
+16396|workbench.action.terminal.runSelectedText Action Null Exception When Used in WebViews
+16397|Fix null exception on runSelectedText Terminal Action for Webview
+16398|how to reduce caret (or cursor) thickness
+16399|how to disable to change matching brackets highlighter
+16400|Improve discoverability of Right Arrow action in Quick Open

@@ -1,0 +1,100 @@
+15801|Cursor is put after a double quoted string
+15802|Fix typos in commonEditorConfig.ts
+15803|JS Formatter removes space in init() function
+15804|Zooming editor view causes rendering issues with code annotations
+15805|Share RequestType between client and server
+15806|Ignored custom php executable path
+15807|How to access web inspector to work on VSCode themes?
+15808|Keep separate sizes for each viewlet (helps to read extensions better)
+15809|"Move tab close ""x"" to left-side for easy access"
+15810|extHostConfiguration.ts breaks on invalid configuration
+15811|[Ctrl]+[D] adjacent text extends selection instead of selecting seperately
+15812|need a shorcut to open file in current editorGroup other than open to the side?
+15813|command 'xxx' not found error for newly created extension
+15814|adjust width for CJK characters
+15815|Keyboard shortcut missing for some file operations
+15816|Map CTRL + 0 to View: Reset Zoom
+15817|Snippet \^2 doesn't work
+15818|Remove some d.ts Files From TypeScript Extension
+15819|http://127.0.0.1:xxxx/ Access to the application？
+15820|auto type acquisition doesn't kick in without --save
+15821|Show better drop feedback when trying to drop files on areas that are not allowed
+15822|Improve drop feedback cursor when dragging from outside Code into Code
+15823|Allow to drop a folder from outside into the explorer to copy it
+15824|css symbol selector should highlight full block, rather than just first line
+15825|tab scrollbar is possessed 😵
+15826|Auto-JSDoc comments not working
+15827|Markdown preview is laggy and distracting
+15828|High contrast theme is not very high contrast while debugging
+15829|High contrast theme doesn't play nice with extensions search input bar
+15830|DEBUG CONSOLE has no color
+15831|Cannot undo last commit in git viewlet?
+15832|Directory navigation feature
+15833|Focusing activity bar with high contrast theme isn't very visible
+15834|High contrast focus border around extension list item gear is a bit wonky
+15835|Extension viewlet high contrast mouse over borders only highlight a single border for top and bottom entries
+15836|alt+shift+f   can't format css file
+15837|"Cannot set a breakpoint on a child file - instead debugs ""read-only inlined content from source map"""
+15838|Hash for backup should produce same result for different path casing
+15839|Not able to find modules/types for tsx files after recent updates.
+15840|Diff Doesn't Show Changes for New Line Characters
+15841|switch out of search menu without mouse?
+15842|C_Cpp.clang_format_style: IndentWidth is invaild
+15843|Debug adapter process has terminated unexpectedly
+15844|Javascript React Emmet is not working
+15845|git bash displays wrong input characters
+15846|No minimap
+15847|Red text in console
+15848|Markdown Preview only is display on the part of workspace
+15849|Test SnippetString completions
+15850|Debugging impossible
+15851|Test snippet variables
+15852|Odd current line decoration border between line and gutter in our themes
+15853|Zoom level setting should be rounded off before writing to settings file
+15854|gitContentProvider: Cannot read property 'length' of null
+15855|Cannot browse extensions gallery behind corporate proxy
+15856|Cheese in current line decoration, in embedded editors
+15857|'Find all references'  not working
+15858|Format JSON does not work on insider (1.8)
+15859|Git branches don't refresh when you change remote url
+15860|ConfigurationService#lookup is responsible for 25% of startup time
+15861|vscode will be crashed when i copy json file(about 4500 lines) from sublime to vscode
+15862|code colorization incorrect for SQL
+15863|Ctrl + ] on Linux works like ctrl +
+15864|Dirty diff decorations show up in diff editor
+15865|Caret returns view to its last position after scrolling with Ctrl+Up or Ctrl+Down.
+15866|Intellisense and type checking in Embedded code in markdown
+15867|Ability to Toggle SideBar panels with the same shortcut
+15868|Introduce a backup file model inside IBackupFileService
+15869|Better Formatting for Allmanstyle
+15870|Provisional SCM API & git extension
+15871|Unable to open ... File not found
+15872|Duplicated character when typing accented character
+15873|Code gets committed although the pre-commit hook fails
+15874|Refuses to enter full-screen
+15875|Highlight matching quotes, double quotes and backticks
+15876|Code Action to create functions or properties
+15877|Test: debug console objects from output
+15878|A way to distinguish open windows on the taskbar
+15879|Please integrate all emmet functionality
+15880|"Fix Incorrect links in ""vscode namespace API"" Doc"
+15881|Debugger stops on mouse hover
+15882|How to properly fail startup for LanguageClient extension?
+15883|Break all (pause) not working for launch/attach scenarios in 1.7.1
+15884|Sometimes Open with Code doesn't open the file
+15885|Add ability to extend from other settings files
+15886|Ensure backup paths ignore case on windows and mac
+15887|diffEditor.renderSideBySide is not loaded correctly while updating settings
+15888|Fix #15705.
+15889|Upgrade to xterm.js 2.2.0
+15890|Go to definition / Hovering and hinting seems to be broken in 1.7.2
+15891|Release notes opens a tab in every window.
+15892|Real Time Collaboration
+15893|I would like better support for multiple cursors.
+15894|Code Lens is all over the place
+15895|Allow markdown preview to scroll past content
+15896|Uncaught exception after rolling back 1.7.2 after install error -- cannot reinstall or open VSCode after roll back
+15897|Toggling word wrap on markdown preview does nothing
+15898|Include @types from typings
+15899|Current editor behaviour promotes extraneous trailing whitespace
+15900|When updating Visual Studio Code is asking for a password to Add Helper

@@ -1,0 +1,100 @@
+27101|Explorer: folders should act like the ones in Finder/Xcode on Mac
+27102|Workspace integrated terminal not overriding?
+27103|Add better merge extension
+27104|Unable to run independent task from tasks.json
+27105|When quick open is configured to include symbols, slow symbol results block file results
+27106|Don't block file results on symbol results indefinitely
+27107|Refuse to install packages without licenses
+27108|Provide flag to only allow free (as in speech) packages
+27109|Markdown Preview Always Showing Scripts Disabled Warning
+27110|PreLaunchTask: support passing parameters from configuration to preLaunchTask
+27111|Git checkout branch not updating status bar
+27112|Allow selection of individual build/test tasks if multiple are defined
+27113|Improve autocomplete according to Node.js docs
+27114|[loc] Adding language - Javanese to transifex VS Code project
+27115|Variable substition: ${packagePath}
+27116|[loc] Adding language - Vietnamese to transifex VS Code project
+27117|Adding xcodeproj and xcworkspace to the default CFBundleTypeExtensions for Mac
+27118|Added xcodeproj and xcworkspace extensions to supported file extensio…
+27119|Prototype TS/JS Refactoring Provider
+27120|Auto-refresh external file modifications
+27121|Intellisence library include issues
+27122|No suggestion indicator is too wide
+27123|The line wrap has bug for html !(Shift + Alt + F)
+27124|terminal.integrated.fontFamily is no longer working
+27125|Problem with extension using sqlite3
+27126|Marketplace extension sorting
+27127|Html intellisense closing tags already closed
+27128|₹ symbol not accepted by editor
+27129|Initial commit for builtin emmet extension #21943
+27130|Unable to attach to CoreCLR. Unknown Error: 0x8007054f Linux OpenSUSE
+27131|Option to keep the last untitled tab instead of the welcome page
+27132|Allow to new file (untitled) from explorer sidebar
+27133|Start crash reporter inside child processes
+27134|The download links are not working
+27135|terminalProcess.js should be a AMD module and TypeScript
+27136|Performance Report and CPU Profile
+27137|Remove escaping '\' from pt-br translation of src/vs/code/electron-main/menus
+27138|The used $path differs between the Shell task and the terminal.
+27139|The information shows chaos on console！
+27140|Scroll area jumps around unexpectedly when using mousewheel zoom
+27141|Visual studio code is not launching at all!!
+27142|Wrong css warning
+27143|CompletionItem is still using TextEdit although docs say it's deprecated
+27144|Use the same width for activity bar and Windows 10 start menu button
+27145|How to configure a window (also for reload case)?
+27146|Allow for ctrl+click to create multiple cursors
+27147|Feature Request: Offer opening binary files with default application
+27148|JSON empty block comment yields wrong highlight style
+27149|Status bar: allow extensions to contribute context menu entries on items
+27150|Allow to contribute actions to other quick open handlers
+27151|on mac os error
+27152|Autocompletion API doesn't allow adding words
+27153|Please provide an option to copy without coloring
+27154|Possible bugs around non-invoking usage of `isEmpty`
+27155|Bad coloring with arrow functions and JSX
+27156|Allow to Hide/Collapse an editor group
+27157|[css] add backdrop-filter (experimental)
+27158|Request: Add two software languages, and IntelliSense for both
+27159|Duplicates in Go to File list
+27160|Handle progress results in quick open controller
+27161|html intellisense for tags suddenly stopped working. Intellisense for tag properties and emmet still works though
+27162|"""Unable to load schema from ..."" ""Error: self signed certificate in certificate chain"" - Corporate Proxy"
+27163|SPRemoteAPI Extension Intellisense:  Matching libraries/interfaces do not display below the command palette on Mac OS X Sierra
+27164|Using dollar sign ($) at the variable name breaks Codelens reference count
+27165|View > Git should be changed to View > Source Control
+27166|Intellisense stuck at Loading after attempting to get suggestions within a pair of strings.
+27167|Opening new window from command line always waits
+27168|Fix 27195 - Json colorization of /**/
+27169|Unable to position the cursor in the editor using braille routing keys in NVDA
+27170|[WIP] Add leading commas json formatting option
+27171|[WIP] Inline all decorations - attempt 2
+27172|Cygwin's clear command doesn't work properly on Integrated Terminal
+27173|Source Control files are not respecting preview mode setting behavior
+27174|Split view workflow
+27175|macOS Native Tabs not restored when restarting app
+27176|delay on start application
+27177|[Bug] Weird Behavior in integrated bash terminal in Win 10
+27178|mac pro 15，
+27179|Revisit search include/exclude and './' patterns
+27180|Cannot save files
+27181|update php grammar
+27182|Sorting extensions by rating doesn't match the marketplace
+27183|Theming: .panel.integrated-terminal color is hardcoded even though color exists
+27184|document.isDirty in onDidChangeTextDocument is not correct on first change
+27185|Win 10 - the layout of VSCode panel is out of order after Windows was upgraded to version 1703
+27186|Add feature to open multiple files at a time using open file open(Cmd + P or Ctrl + P)
+27187|First symbol in bash console is omitted
+27188|Typescript compiler shows unexisting error (React-Router 4)
+27189|Feature request: Ability to open new window as clone of first one
+27190|I encounter a problem when writing  markdown files
+27191|点击展开文件按钮没有响应
+27192|Json autocomplete
+27193|MacOS: VSCode won't update
+27194|Add support to making the window transparent
+27195|explorer display issue(while using file icon theme seti)
+27196|Explorer tree is a little compact
+27197|[icon theme] Allow icons for specific theme
+27198|Regex not respected in 'getWordRangeAtPosition'
+27199|JavaScript Finding all references does not work
+27200|Uncaught TypeError: Cannot read property '1' of null

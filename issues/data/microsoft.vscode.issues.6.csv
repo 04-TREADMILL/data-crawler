@@ -1,0 +1,100 @@
+501|Possible to auto close html tags when pressing enter?
+502|debug console scrollable horizontally, just like code
+503|"Hide File | Preferences | Workspace Settings when not applicable"
+504|"add the ""Sync"" command to the command palette as global command"
+505|File watcher fails over Samba share
+506|64bit version for Windows?
+507|Crash when running overnight
+508|Default keybindings that conflict with default Ubuntu OS keybindings
+509|Context menu for 'non-admin' users
+510|Breaking vscode into modules
+511|Moving selection after editor.action.insertCursorBelow shows the original line having a double highlight
+512|Cannot read property '0' of undefined
+513|Support JSDoc type information
+514|Crash when samba connection drops
+515|[Help] Multiple TextEdits[] not working
+516|"Add ""Show Extensions Updates"" command"
+517|Fix typo in comment in sample tasks.json.
+518|Allow to change the font size and font of the workbench
+519|Fix typos in LineCommentCommand comments.
+520|Fix typo: return value of AbstractProcess::terminate.
+521|Editor) move file explorer to the right of the screen, not left
+522|Replace may lead a crash
+523|Easier method to customise colours
+524|[json] schema specified in workspace settings not triggering Intellisense
+525|bitwise operations in if structure
+526|Support ctrl+up/ctrl+down to scroll without moving the caret
+527|Add terminal window(terminal service) in workbench
+528|REPL for fsi
+529|File/Folder picker
+530|[sass] Hover Feature not work correctly in SCSS Rule with Parent Selectors '&'
+531|[php] backtick commands not colorized correctly
+532|How to setting php.validate.executablePath?
+533|Allow user-level installations
+534|plan to support babel-cli debugging?
+535|"Add ""sort lines"" option"
+536|Extension is not deactivated during an extension upgrade
+537|The IntelliSense gets triggered even in comments
+538|Changing ExperimentalDecorators requires restart to take effect
+539|How to handle focused items in vscode.window.showQuickPick?
+540|Add CamelHumps support
+541|Add vertical select feature
+542|[html] Please provide a built-in HTML.tmLanguage file
+543|Cannot find name 'Fluxxor' && 'Import Fluxxor' - multiple conflicting Intellisense detections
+544|Aveces el programa no responde
+545|[debug] launch.json validation shows warnings for extension debug adapters
+546|Allow language extensions to expose a persistent interactive console (REPL)
+547|Allow to run extension tests from command line and hook up to build
+548|Atom packages compatibility
+549|Fix #47, add support for comments and brackets for JSX
+550|Let shouldAutotriggerSuggestImpl always return true, fixes #179
+551|TextMate-derived themes should be able to affect colors of VS Code UI outside of the editor control
+552|Typo fixes for src/vs/workbench/services
+553|add perl task didn't output anything
+554|Typo fixes for src/vs/workbench/parts
+555|wiki changes: how to fork wiki and submit a PR against it
+556|macos: can't open dot files
+557|[razor] inconsistent syntax highlighting
+558|jsconfig {target: ES6} doesn't suppress error on => in .html files
+559|Running `code .` in a terminal does not get env vars from the terminal if there is any Code window already open
+560|Expose methods to alter cursor appearance via extensions API
+561|vscode random crush
+562|Add progress bar to the statusbar
+563|Support more options for formatting text and inserting links to commands in Output Channel
+564|setDecorations should validate hover message is a string or string array
+565|Allow to open non-text files via API
+566|Extension is not deactivated on closing the editor window
+567|Extension Gallery styles
+568|Gallery images are squashed in Edge
+569|Unable to spawn Code via child_process.exec
+570|ANSI colors in OutputChannel
+571|Extension Gallery styles
+572|rewrite completion list ui
+573|A parameterized action to open a file or folder
+574|keybindings should not work in normal mode by default
+575|Replacing core commands
+576|Edit of adjacent ranges does not work.
+577|"How to get whole CompletionItems that vscode provided in language service API ""registerCompletionItemProvider""?"
+578|contributing key bindings by including files
+579|Can I get scope / scopeRange at a position?
+580|Updating user settings
+581|New way to define bracket matching for word based brackets?
+582|Support autoClosingPairs for strings like `begin` and `end`
+583|Add Quick info panel
+584|Provide an API for advanced/semantic source highlighting
+585|Link to a file position in Output Channel
+586|Something like an OutputInputChannel?
+587|Count of currently visible lines in current Editor
+588|Support Extensions Providing TypeScript Definition Files
+589|Add onDidStopChangingTextDocument
+590|How to read languages/colorizer settings?
+591|Incorrect green highlighting of variable in separate files
+592|target enum should include es2015
+593|default target to ES5.
+594|Code has stopped responding.
+595|Running spelled wrong
+596|Open New Command Prompt should honor %COMSPEC% environment variable on Windows
+597|Enable error highlighting syntax toggle on/off
+598|[css] Figure out how to keep css.plist in sync with Atom css.cson?
+599|Immediately-invoked function expressions are an error in the linter
+600|Implementing an alternative jump to file?

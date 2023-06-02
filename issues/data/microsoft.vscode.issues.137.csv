@@ -1,0 +1,100 @@
+13601|Unsecure node included, needs update
+13602|Extension update available to older versions of VSCode
+13603|Cmd+F on an empty line - can't deselect Find in Selection
+13604|Icons dont appear
+13605|onDidCloseTextDocument for preview pane has significant delay
+13606|Incorrect syntax highlighting in method when its return type ends with a digit
+13607|Improve Windows support in integrated terminal
+13608|'cat' is not recognized as an internal or external command when running code.cmd
+13609|instanceof and is lose type when reassigning.
+13610|v1.7.0-insider 2016-10-12T06:11:05.325Z build unresponsive
+13611|Using vs code to create uwp apps
+13612|[Regression] Precision touchpad scrolling is broken
+13613|editor.action.quickFix to select the first item in the suggestions by default (C#)
+13614|Hide character sequences when displaying a document (e.g., through decorators)
+13615|Can not activate joaomoreno.git while debugging extensions if settings.json file is open
+13616|Updating two configs through API in sequence may break settings file
+13617|How auto run Javascript on devtools at startup?
+13618|IntelliSense: Some format problems of the new version of vscode (1.6.0)
+13619|Suggestion: improve the presentation of the API documentation
+13620|Suggestion: Quickfix should respect arrow keys if given scrollbar
+13621|reveal-option when opening a document
+13622|Intellisense and Error Detection Not working in 1.6.0
+13623|Make it easier to create new files/folders from the explorer when many files are present
+13624|About Chinese Path
+13625|Add FTP Syncing
+13626|in 1.6 any path Extensions dont work
+13627|Completions items are overlapped in debug console
+13628|Autosave overrides currently open file
+13629|Hover description is not showing the correct description.
+13630|comments in/out in the *.INI files is incorrectly.
+13631|Force Freeze Windows 7 64 Bit
+13632|Unsaved file should be available after editor closed
+13633|"Special character ""˝"" is inserted into text editor first time I type."
+13634|Do not use setter injection for services
+13635|updateUserConfiguration: does not trigger for workspace changes
+13636|break point in typescript not stop, source map generated
+13637|Debugger completion inserted wrong
+13638|VS Code - Tabs reload when switching between them
+13639|Add MathJax support in Markdown Preview
+13640|Auto Scrolling in Markdown Preview
+13641|Cycle trough previous searches
+13642|Search in selection keeps turning itself on
+13643|Buttons or menu for Tasks tool
+13644|ClearType not used for all visible text in list widget
+13645|[C#] #region could not folding code when there is a tab or space int left of it
+13646|--disable-direct-write stopped working
+13647|Improve VS Code when working with network drives
+13648|Make it easier to navigate to files/folders in explorer by typing their name
+13649|VS Code can freeze on startup sending messages to extension host
+13650|Tab drawing glitch when icons are enabled and kick in later
+13651|We would like to get an event when the user clicks on the suggest-widget doc-details icon
+13652|Unable to debug extensions when being offline
+13653|Unable to run Node in integrated terminal
+13654|diff view for large files scroll to wrong position when click on diff map panel
+13655|Track highlights across multiple split editors
+13656|New update broke Markdown preview zoom
+13657|HTML word definition changed
+13658|Import translations into 1.6 release branch
+13659|Unable to copy all text in debug console
+13660|Add setting to prevent copying empty selections
+13661|Add .gitignore entries as exclude pattern when doing a search
+13662|Git: Support git with private key password
+13663|Format on Save will create a bad format with cshtml files
+13664|Should not highlight object properties - it's not a reserved word
+13665|higlighting closing tags when open tag is clicked
+13666|"[1.6] Extensions can not be installed with File | Open File..."
+13667|HTML snippets no longer work inside quotes
+13668|experiment with html-zone
+13669|Feature Request: Incremental TypeScript Building/Transpiling
+13670|CTRL + Click on link in script:src or link:href can't find the file.
+13671|Pigments Extension
+13672|Enabling formatOnSave doesn't cause formatting provider to be invoked during save
+13673|Duplicate entry in symbols view
+13674|Python Multi-line Quote Creation Adds Extra Double Quote
+13675|Go to definition does not work for network mapped drive
+13676|Snippet shortcuts are now buried in 1.6.0.
+13677|"When carat is at beginning of line in editor and then ctrl-f is used to search for text, ctrl-f is automatically is ""search selection mode"""
+13678|New file doesn't open from file explorer if there is already an VSCode instance running as Admin.
+13679|VSCode window not focussed opening a new file from file explorer
+13680|Console height issues
+13681|open folder on diconnected network drive fails and removes folder from recent list
+13682|in-product release notes don't display from update banner release note button
+13683|Built-in terminal fails to properly initialize PATH with `path_helper` on Darwin
+13684|Auto new line in integrated terminal.
+13685|Crazy formatting issues after running tests in iterm
+13686|Unable to save CPU profiles as files
+13687|Feature request: Add reverse continue for TimeTravel Debugging feature for Node
+13688|Disable GPU (--disable-gpu) option missing in command line help
+13689|Files in a folder not aligned to the folder they belong
+13690|Editor hangs and cannot save document when editing JavaScript ES6 React files
+13691|Be able to open multiple repos at a time.
+13692|why the intellisense won't detect npm linked package?is this intentional
+13693|Allow to Open multiple files in background tabs from quick open
+13694|Uninstalling an extension without enabling it should not suggest restart of VSCode
+13695|BUG
+13696|CodeLens isn't properly rendering html elements anymore
+13697|Why is solution loading project rather than Nuget Package? - help
+13698|Launch.json prop default value as URL?
+13699|[Feature Request] Folder explorer and the opened files should be separated.
+13700|"When VSC has no open folder, please have ""Integrated Terminal"" open in same default folder"

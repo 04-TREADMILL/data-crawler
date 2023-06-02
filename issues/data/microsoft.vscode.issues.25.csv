@@ -1,0 +1,100 @@
+2401|postLaunchTask would be very useful
+2402|Command palette goes away on navigating away from vs-code window to a different window
+2403|What about the error tips in VSCode with ES7 async/await syntax?
+2404|'cancelled because node is unresponsive' when watch big data in Debug Console
+2405|Provide tabs for switching between files
+2406|Provide an accessible option to enable the screen reader for the editor
+2407|Remote Pair Programming with Floobits
+2408|Remove scrollbar arrows in detailed suggestion
+2409|Resizing editor lets the scrollbar area flicker and jump heaviley
+2410|Use web view for html preview part
+2411|Noticeable layout lag in the editor when compared to the output pane
+2412|Uninstaller for Windows is not signed
+2413|All readonly editors shoud get tabFocusMode  = true
+2414|Yellow alpha icon not showing on Linux
+2415|weak module ships with debug symbols
+2416|vscode-textmate contains out.txt file of 423KB
+2417|jrieken.vscode-omnisharp ships dev dependency vscode that drags in 2.2MB of mocha etc
+2418|json extension ships dev node modules such as mocha and typescript that adds more than 13MB
+2419|Too much whitespace around horizontal pane title
+2420|Output panel: ESC does not close it
+2421|Salsa: Not effectively using suggestion icons
+2422|Salsa could show warning messages on require statements if it is not configured with a module system
+2423|Salsa doesn't show any outline for this source code
+2424|Salsa shows same symbol twice in outline
+2425|Can't debug extension host anymore
+2426|Salsa unreachable code detected is not so smart
+2427|Salsa type inference should find or types
+2428|Bottom panel shouldn't use 'x'
+2429|Salsa type inference could pass through argument types
+2430|Add activation events for javascript when running under Salsa
+2431|Salsa formatting gives overlapping edits in this case
+2432|"Salsa does not show doc comment when I have ""@returns"" in it?"
+2433|Salsa does not use JSDoc all the way in type inference
+2434|Salsa does not highlight object properties across methods
+2435|"csharp: Shift+Alt+F not honouring ""editor.tabSize"": 2"
+2436|Salsa does not honour JSDoc on prototype assignments
+2437|Salsa does not understand parameters with properties JSDoc
+2438|Salsa does not warn or help when passing in wrong argument type
+2439|Salsa formatting honours tab vs spaces setting only sometimes?
+2440|Ctrl-T feels sluggish in Salsa
+2441|Don't know the format of jsconfig.json and VSCode doesn't help me
+2442|[json] Unable to load schema jsconfig.schema.json
+2443|"Salsa: ""Implicit globals"" leak into member completions but not global completions?"
+2444|Find widget: Error box looks strange
+2445|Salsa should not place errors on comments
+2446|Salsa does not flag ReferenceErrors in strict mode
+2447|Salsa does not discover properties defined with Object.defineProperty
+2448|Salsa duplicate literal properties cause should be flagged only when in strict mode
+2449|Introduce status bar indentation switcher
+2450|"Salsa should not suggest ""caller"" in strict mode as it causes TypeError"
+2451|allowJs is not in the tsconfig.json schema
+2452|Salsa: renaming in TypeScript does not rename in JavaScript
+2453|Salsa cross TS-JS find all references does not work
+2454|file explorer rename reverts change if mouse clicked outside of text box
+2455|Salsa does not find vanilla JS node modules
+2456|JSDoc does not appear to work for ES6 class ctors
+2457|[php] Don't activate auto-completion prompts inside known comment blocks
+2458|Debug hover-hover does not help
+2459|Simple value hover doesn't seem to wrap
+2460|Copy value also includes quotes
+2461|Increase font size of IntelliSense
+2462|No model with uri 'ts://defaultlib/vs/text%21vs/la…lib.es6.d.ts'
+2463|debug console shouldn't show up on every debug launch
+2464|[json] Intellisense Provides Strange Suggestions In Property Value
+2465|Breakoint on first line of a file is skipped
+2466|Uncaught SyntaxError: Unexpected end of input
+2467|It's not possible to step into the code when not running
+2468|sourcemaps + remote debugging issues #2183
+2469|Less than operator, <, in for loop breaks some typescript syntax highlighting
+2470|Cannot install dependencies with npm 3
+2471|folding function be added in the next version?
+2472|SignatureHelp doesn't trigger automatically on nested function call
+2473|GOPATH not recognized when debugging
+2474|"""Accessibility Mode On"" should not appear in status bar for readonly editors"
+2475|Support for middle click to paste selection on Linux
+2476|Contributors cannot edit the wiki (or it's unclear how to)
+2477|Wiki how to contribute unit test section is out of date
+2478|quick outline doesn't contain type-types
+2479|feature request: markdown support more advance feature, like tasks list
+2480|"Visual Studio Code & node.js: Debugger exits without error message on ""utils.format"""
+2481|Intellisense not working properly with bound functions
+2482|Not using standard landmarks
+2483|Can't pull/push/fetch in TurtoiseGit with VSC opened
+2484|Variables when used inside launch.json args not updating
+2485|Focus tracking with 2 markdown previews is broken
+2486|Improve Intellisense perf
+2487|Focus border in find input should contain also the toggle buttons
+2488|Extensions quick open: Can no longer click into installing extension without quick open closing
+2489|Cannot invoke actions in quick open entries with keyboard
+2490|Make it clear how to cancel a running search
+2491|Mac with german locale: Not showing german NLS
+2492|Allow to disable textual completion prosals for an position or language
+2493|fix #2491
+2494|Long path issue hit in Insiders build
+2495|Can't launch Code from command prompt in insiders, alpha
+2496|No focus indication in the panel (for output)
+2497|JSON completion does not overwrite properly
+2498|[json] JSON '.' closes intelli-sense widget
+2499|'tab moves focus' needs UI love <3
+2500|'Cannot execute undo because no editor is focused'

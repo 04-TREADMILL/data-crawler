@@ -1,0 +1,100 @@
+11201|"""eslint.nodePath"" requires vscode restart"
+11202|Code --help shows wrong app name
+11203|Mode detection doesn't work when file doesn't exist, from CLI, from extension mode
+11204|Make --performance flag work with opening a second window
+11205|Support that 'Open in New Command' uses the integrated terminal
+11206|When typing a 2nd single quote, the quote gets doubled
+11207|VS Code Insiders won't update (Windows)
+11208|Markdown links that are broken across lines aren't highlighted correctly
+11209|Rename input field not nice for folders without icons
+11210|Rename input odd in high contrast theme
+11211|Seti: font not perfectly aligned with file label
+11212|Editor does not open when working offline
+11213|Flickering red underlines in code with errors
+11214|"Select ""Find more themes in marketplace"" resets my selected theme"
+11215|Icon picker should have a last entry to search for icon packs on the marketplace
+11216|Ctrl-E, Ctrl-Y doesn't work if the file is no more than one page long
+11217|Add support for macOS NSFindPboard as an action
+11218|Terminal scrolling disabled after quitting vim
+11219|code --version should print version number and commit id
+11220|Ctrl-E doesn't work as expected once you resize the window
+11221|Replace with newline works only when regex mode is on
+11222|monaco-tree-row
+11223|Cannot read property 'id' of null
+11224|Some options in intelli-sense for icon theme json file does not have documentation
+11225|Task behaves different from VS built-in terminal
+11226|Clearing VS built-in terminal on macOS
+11227|Icon theme json file shows warning if does not have `file` entry
+11228|Scroll is gone after exiting vi in integrated terminal
+11229|multi line debug repl input doesn't support up/down arrows
+11230|Changing sorting sequence does not have any impact in extension widget
+11231|showTextDocument should support to open in the background
+11232|Syntax highlighting in C++ mode broken by macro
+11233|Integrated Terminal: After clearing screen, scroll up shows previous output
+11234|Is it possible to call a command registered in an extension from the tasks.json?
+11235|Support overriding mode in editor
+11236|Bad Font Rendering on Light themes
+11237|Inefficient Toggle with Integrated Terminal when Running IPython
+11238|Trying to sort Installed Extensions, switches to all Marketplace extensions
+11239|Too many windows pop up
+11240|commandToSkipShell doesn't control showCommands
+11241|Removing several commands from commandsToSkipShell has no effect
+11242|Word completion is not working yo node-express
+11243|Debug Vscode by Nodejs and Express
+11244|No IntelliSense for single file.
+11245|CPP extension crashes a lot (once a day or so)
+11246|Feature request: Allow empty editor e.g. don't close editor when last tab/file is closed
+11247|Update documentation for vscode.previewHtml
+11248|Not returning focus to integrated terminal if Quick Open or Show Commands are cancelled
+11249|List action not appear
+11250|Allow commands from extensions to provide an alias in english locale
+11251|Format Code issue
+11252|Feature request: recognize modules within an npm package
+11253|"Valid values for ""files.encoding"" in settings.json"
+11254|Custom theme values: Current-line has ghost border that makes a color not take full line-height
+11255|Add initialValue? to QuickPickOptions
+11256|Custom theme values: Certain color conventions do not work
+11257|"Show a ""Reveal in Sidebar"" command in the context menu of an editor"
+11258|The app logo is not decent
+11259|Terminal.dispose should not show the panel if it is hidden
+11260|Improve terminal API jsdoc
+11261|Windows: drop into application does not work if running as admin
+11262|Allow for false `files.exclude` and `search.exclude` rules to override other rules
+11263|window API: allow to register click on StatusBarItem
+11264|希望增加文件拷贝功能
+11265|IPython: Running Selected Text in Terminal Only Executes First Line of Code
+11266|need a refresh context menu item for file list view
+11267|Emmet: support to exclude languages from emmet abbreviation
+11268|Tokens defined in settings.json not resolved when the setting is referenced via launch.json
+11269|Changing file icon theme to none applies it to only one VSCode window
+11270|Rename folder screen glitch
+11271|Icons in open editors view
+11272|Handle vscode-icons extension in 1.5 with icons support
+11273|syntax highlighting of powershell (ps1) files
+11274|[feature request] How to quick switch opened files.
+11275|Fix #11284 - Resolve tokens found in settings referenced by launch.json
+11276|Figure out a way to freeze the builds
+11277|Disable 'dir' traversal
+11278|"Disable ""dir"" for file search on Windows"
+11279|"Add ""Check for Extension Updates"" action/command"
+11280|CSS color box is badly positioned
+11281|Make Event class chainable
+11282|Current Line Info and Line Change Event
+11283|CSS color decorations increase the height of the line they appear in
+11284|Remove tree.bare option
+11285|Font icon theme doesn't use specified font
+11286|Fix tree loading animation deprecation
+11287|Tabs look bad in High Contrast theme
+11288|Update node.d.ts for extension to 4.x version to be in line with normal extension development
+11289|JSON schema error message ignored
+11290|Remove workerMainCompatibility.html
+11291|IntelliSense stops working when renaming a file and creating a new one with the same name
+11292|Add a toggle to the explorer to enable/disable file excludes
+11293|Use OpenerService in extension editor
+11294|Simplify API for working with editors after they were opened
+11295|Message service show action buttons in reverse order
+11296|Correct docs for IEditorScrollbarOptions.useShadows
+11297|Add latex support to markdown rendering
+11298|Support use option as meta in terminal
+11299|Open external terminal launch/debug with correct Terminal
+11300|Can't do anything meaningful with Go build tasks

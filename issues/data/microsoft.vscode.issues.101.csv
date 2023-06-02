@@ -1,0 +1,100 @@
+10001|the spinning bar (progress indicator) doesn't appear anymore after a running task gets terminated
+10002|TypeScript syntax hightlighting color Bug: new instance without parenthesis
+10003|Terminal window confusing 1:cmd.exe 2:cmd.exe
+10004|regex sub match cannot work using replace in files
+10005|Environment variables are not expanded when opening command window
+10006|Cmd + ` does not switch VSCode windows on Mac using french keyboard layout
+10007|Allow me to give a description to previewHtml command
+10008|Integrated Terminal : Allow Renaming sessions
+10009|Inconsistent paste behavior with multiple cursors
+10010|In-application rating for extensions
+10011|Navigate through explorer by typing start of file/folder name
+10012|Extension Development Host doesn't prompt to save dirty files on close
+10013|[Request] Add command to Restart With Extensions Disabled
+10014|Emmet expansion problem
+10015|Potential Optimization: Keep extra VSCode window hidden, ready to open?
+10016|require('vscode') error in debug extension  vscode-mock-debug/out/mockDebug.js file
+10017|"set the ""window.reopenFolders"": ""all"" not work"
+10018|Equals character (=) is incorrectly escaped in plugin READMEs
+10019|Bring back basic SuggestWidget telemetry event
+10020|Debug: No call stack available ({_command}: Internal error: illegal access).
+10021|Error: Cannot find module
+10022|Extend language API to allow sourceRange in Go to Definition
+10023|为什么不支持文件多选择和多项目查看
+10024|UX meeting agenda 3 August 2016
+10025|"VSCode Unable to Recognise default ""program"" in launch.json"
+10026|Reveal in Finder not working if Finder is closed
+10027|"Editor doesn't detect typings in ""typings/globals"""
+10028|markdown preview do not work on linux
+10029|Any way to run command on VS Code Start up
+10030|string literals `` are not collapsed in editor
+10031|Where VSCode save the selected theme
+10032|Include offset-len variant in text document content change events
+10033|config.get does not return expected value if passing type argument
+10034|"File -> Open Recent menu shows paths containing ""&"" wrong"
+10035|Attach to process does not list node process
+10036|Hover popups always seem to go up, even for first line of file (going offscreen)
+10037|Go to column
+10038|"ES6 code highlighting broken after ""for of"" with Map and destructuring"
+10039|Integrated terminal closes immediately when set to Windows Bash
+10040|There is not a API to listen the scrolling of the activetexteditor
+10041|Control+K twice can't kill the \n
+10042|Window gets off screen when switching monitors
+10043|the Chinese show problem
+10044|Keyboard responds incorrectly upon CTRL+A+BACKSPACE
+10045|Integrated Terminal - Windows Bash - Arrow keys not responding
+10046|Is there anyway to control the order of multiple CodeLens per line?
+10047|add `resolveWorkspaceSymbol`
+10048|Extension API - How to log errors in extensions
+10049|Git: Support git-bash ssh agent for Windows
+10050|Implement cursor move up/down by lines for cursorMove command
+10051|Can't drop or drag file[folder] on vscode -> open
+10052|Undo stack is busted when saving a file, switching to another tab, and then going back to the original tab
+10053|TS completes single quote in comments
+10054|Changing the teminal tab name.
+10055|Support dark window chrome when dark theme is used
+10056|Terminal is open, and just shut down.
+10057|Suggestion of quickOpen
+10058|No insiders updates
+10059|CMD+D and multicursor selection
+10060|CMD+D in new unsaved file
+10061|The terminal header cuts the top of the console
+10062|Extension API - How to determine debug state
+10063|custom LinkProvider for `vscode.d.ts`
+10064|add custom link provider for vscode.d.ts
+10065|CMD+D in JSON
+10066|refine DocumentLinkProvider
+10067|Markdown - Codeblock within lists lacks highlighting in editor
+10068|High contrast + custom theme ?
+10069|Possible problem with multiple  `tsconfig.json` files in subdirectories
+10070|Add line numbers to search results
+10071|Open Intergrated Terminal  Crash on None-English Folder
+10072|[less] imports inside selectors
+10073|Search dialog should keep a history of searches
+10074|Add an option to show output panel only if there is
+10075|[folding] Add Selection + Folding bug
+10076|VirtualBox: VSCode showing an empty window after installation on Ubuntu
+10077|[ts] Syntax highlighting breaks when type of function returning generic type placed on newline
+10078|Feature request: move cursor up/down between paragraphs
+10079|Unable to run extension development host on Ubuntu
+10080|Collapsed code blocks do not stay collapsed when moved to different tabs.
+10081|add a scrollbor into the integrated terminal
+10082|Feature Request: Fold derived/generated files
+10083|Completion provider is invoked on more than just triggerCharacters
+10084|Unexpected completion item when returning null for provideCompletionItems
+10085|Terminal cursor does not invert text color
+10086|Cannot hit breakpoint
+10087|Breakpoints are hit or miss when debugging the spell check extension
+10088|Support additional directories in module search path
+10089|How to configure HTML, can automatically complete the head?
+10090|Remove comma from not allowed characters in capture group
+10091|Popup API for extension development?
+10092|Yaml syntax highlight break for comma in quoted string
+10093|输出窗口编码格式
+10094|Open editors
+10095|large icon in task switcher(alt+tab) on centos-KDE.
+10096|c/c++ ext error
+10097|how sudo code
+10098|crash, prompt reopen, then files unsaved or opened before crash lost
+10099|Share settings with Microsoft account
+10100|"""The window is no longer responding"" after webpack build"

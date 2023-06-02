@@ -1,0 +1,100 @@
+3901|This is the tsserver. Moving to TS.
+3902|This issue was moved to Microsoft/TypeScript#6107
+3903|Not that I'm aware of... I am running inside of a Windows 10 VM on MacBook Pro through Parallels though if that helps.
+3904|Yeah, take a look at this repo: https://github.com/nevir/vscode-example-1
+3905|@dbaeumer So it is as I thought. Well user intervention is better than nothing. And no, each workspace is a git project.  Another tricky solution would be to trigger the reload command when the project window restores focus after it was in the background for some set duration (like 10-30 secs).   This is a big issue for me. It's really annoying.
+3906|I'll try it tomorrow and let you know. Though my point was that if I remove `module: commonjs` the project won't work. Meaning that I can't publish it as an npm module.
+3907|"@louy  yea, I understand. Hopefully stripping it down will narrow the problem so the devs can fix it. In the meantime, a work around might be to only add it when you need to compile, or pass your build tool a separate ""tsconfig.json"". Personally, I'd rather do that than see red squigglies everywhere"
+3908|(same team as @louy so same tsconfig)  I tend to see this the most when I have 2+ VSCode windows open with different projects
+3909|I agree this is a problem with consistency, and it needs to be addressed.  I'll try out some colors that can make up for the missing ones in the light theme.
+3910|@gileze33  I see. Well, if you're encountering it now, you can try my workaround till we hear something from the devs.
+3911|seeing as how the other issue has dev involvement, i'm closing this issue.
+3912|"It's not working in **_launch.json**_. Is it really implemented in both tasks.json and lunch.json?  My setup:  ``` json {     ""version"": ""0.2.0"",     ""configurations"": [         {             ""name"": ""Launch"",             ""type"": ""chrome"",             ""request"": ""launch"",             ""file"": ""${fileBasename}""         }     ] } ```"
+3913|@alexandrudima it's not quite the same as it requires 2 separate actions which is error prone e.g if you don't let go but yes in a pinch this 2 steps do get you column mode selection and edits.  ⌥⌘↓ then MUST let go , then press ⇧→ to get columns
+3914|Duplicate of #1330
+3915|Fixed already, sry for that.
+3916|Wow that looks bad, never saw something like that. If you install Atom, does it look the same?
+3917|I'm not a JavaScript/TypeScript programmer, I'm afraid, but if someone is volunteering here, I'd be glad to help with any questions regarding the XML specification.
+3918|:+1: coming from Atom... there's really no going back after getting used to beatiful code with Ligatures (Fira Code)
+3919|"## Good News  I got ligatures to work by changing my user settings in VS Code with `""editor.fontFamily"": ""Fira Code""` and then adding the simple CSS rule below  ``` div.monaco-editor.vs-dark {     text-rendering: optimizeLegibility; } ```  ## Temporary Bad News  There's a side-effect we need to work through. ![test](https://cloud.githubusercontent.com/assets/11839736/11825475/1070fe3a-a334-11e5-89e5-07ea190ef062.png)  The problem I’m getting is that when I use this rule I get a glitch when clicking at the end of a line.  Clicking at the end of a line past the last character normally would put the cursor after the last cursor on the line, but as you can see, it’s putting my cursor at the beginning of the line.  However, when I enter text, it is appearing at the end of the line as it should (except the cursor is not in the right spot).  Atom had a similar problem in September for a while, when they enabled ligatures.  Apparently ligatures can cause problems with character spacing, even though they are still multiple ASCII characters, they render differently and this can affect spacing.  Perhaps this anchor on the page is relevant. @alexandrudima could you help with this?  By the way, this is only a problem if you click past the last character of any line (as if it is making the cursor position undefined???).  Anywhere else it’s fine."
+3920|A pull request has been created in vscode-distro
+3921|Don't agree: the current zoom behavior is exactly what I want. You can always change the `editor.fontSize` setting for larger or smaller editor text. Though it's true that there aren't shortcut keys for that.
+3922|It works for me... Try adding the extension `code.cmd .` and see what happens Try using cmd instead of powershell
+3923|**_update:**_ _solved in my case as of version 10.5_  I am having the same issue on _windows 10_, that only started yesterday (15 December) well after the 10.3 update. - `vscode` prompts that an update is available - when trying to update I get the the error prompt `The setup files are corrupted` - re-installing a new `vscode version 10.3` did not resolve the problem - restarting windows did not solve the problem
+3924|@alexandrudima I have it happening on multiple computers and OSes. One is a HP running Windows 10 and the other is an IBM running Windows 7
+3925|How can I add this CSS rule permanently ?  I can see the ligatures working :) but I have to add that in the temporary Developer Tools   > By the way, this is only a problem if you click past the last character of any line (as if it is making the cursor position undefined???). Anywhere else it’s fine.  yep,same here
+3926|Hum.. just after posting I realised this:  ``` Error: No asset for version 0.34.5, platform freebsd and arch x64 found     at /usr/home/miguelc/gitstuff/vscode/node_modules/gulp-atom-electron/src/download.js:79:15 ```  So I guess this needs to be fixed on gulp-atom-electron first.
+3927|Hi **@bmustiata**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+3928|**@bmustiata**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+3929|this is strange, the stack does not make sense but I double checked and that's what the source maps resolved. Maybe put this on hold and let's wait to see if it comes up in the next version.
+3930|Fixed and republished.
+3931|"Sorry, due to the data privacy, I can't just send the file to you. The size of the file is more than 20 MB and the word I want to replace appears many times in this file.When I click the ""Replace All"" button, this may lead a crash. I will try to get a file that will reproduce this crash and send to you."
+3932|This gif highlights the problem -- the highlighted item at the end can't be reached by scrolling the viewport:  ![test](https://cloud.githubusercontent.com/assets/2192439/11831799/499b20b0-a36f-11e5-94e6-90e007024a47.gif)
+3933|+1 - was just trying to delete multiple files as in WebStorm, found I couldn't do it :disappointed:.
+3934|Putting it on hold means closing for me 😊 We can reopen if happens again
+3935|"I have the same isue. I dont explicitly open the file but I have a task that modifies it for me. However even if that task is killed I still have to close Visual studio code to unlock the file. I will use ""handle"" when it happens again and report back"
+3936|Since we do not really support sass, fixed by remapping the sass mode to the scss extension for emmet.  @aeschli renaming the sass mode to scss?
+3937|I just want to know the whole process of show suggestion Intellisense in vscode, such as when you write js in vscode ,it will popup completionlist for you, I want to know the whole process of this, anyone can tell me how to run the vscode source code and debug for this feature?
+3938|Can I fix this myself somewhere in the current release, or do I have to wait for the following release?
+3939|@weinand thanks, i had reported to node.js project. [https://github.com/nodejs/node/issues/4307](https://github.com/nodejs/node/issues/4307)
+3940|@alexandrudima not sure if this is you or @jrieken
+3941|Please refer to the debugging section in https://github.com/Microsoft/vscode/wiki/How-to-Contribute#development-workflow. The suggest supports runs in the`renderer` process so you use the Chrome Dev tools to debug this code.  @chrisdias fyi, should we improve this section of the doc?
+3942|The next update will be able by the end of this week.   You can build from master and run the latest code. Refer to https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run-from-source
+3943|@egamma , I agree with you to provide more detail about debug steps, maybe you can put an sample for us or provide an video to tell us how to debug it ,thank you!
+3944|@bpasero
+3945|@bpasero is this something to consider for the December Update
+3946|@alexandrudima assigning to you because of the short cut request.
+3947|This works for me  as well in both cmd and powershell.
+3948|You can always show the welcome page from the help menu.
+3949|You can always find your dirty files in the working files section. You are not loosing data.
+3950|@nevir thanks for the repository. I was able to reproduce the problem.
+3951|I should add though, thanks to the new persisted `window.zoomLevel` setting, it's now more a set-and-forget thing for me. So as long as that stays, I wouldn't mind if the existing `ctrl+-/=` shortcuts were remapped to just change the editor text size instead.
+3952|This needs to be fixed in [atom/electron](https://github.com/atom/electron), which apparently needs to ship a FreeBSD release.  Related to joaomoreno/gulp-atom-electron#27
+3953|You are right, comments are not part of regular JSON, but for several of our configuration files (settings.json, launch.json...) we use a variant of JSON that has comments. Other tools do the same.  Our tokenizer is friendly and renders these comments nicely. We'd like to keep it friendly.
+3954|Oh, wait. He just wants to build Code in FreeBSD. We should check whether that works...
+3955|duplicate of #133
+3956|fix delivered, I removed the yellow and turquise. The goal is to stay as close as possible to the original Visual Studio light and dark themes. For users that like more colors we have custom themes even from extensions.
+3957|@felixfbecker a first cut of the npm modules is available as vscode-debugprotocol and vscode-debugadapter. The corresponding github repo will be made pulic soon.
+3958|SASS is the name of the language. .sass and .scss are the two syntaxes. See http://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax
+3959|Alright, thanks for the extra info!
+3960|Duplicate of #69.  Fix will be available at the end of December.
+3961|@weinand   a little weird having an npm module just for the protocol .d.ts. Maybe this should rather be put to DefiniatelyTyped? And is a yeoman generator planned?
+3962|I don't see how this exception can happen.  Can you still effectively reproduce? If so, let me know how so I catch it.
+3963|Instead of this fix, I suggest you remove that and increase the `right-margin` of the `div.stack-frame` to `1.2em`.  Marking this as verified though.
+3964|@isidorn not sure if this is actually a bug. If the timeout is expected we should not have an error in the console.
+3965|For Dec I added a TypeScript: Reload Projects command which is available via F1. The TS team is still looking into fixing this in the tsserver we use.
+3966|duplicate of #20
+3967|"With version 0.10.4 the issue is partially solved.  That is, ""Test Case 2"" is solved. Thanks for that!  ""Test Case 1"" is  still open, in that searching for '\n' does not work. Searching for '\t' works.  Furthermore '\r' is not recognized.  '\n' apparentely is the RexEx for CRLF...."
+3968|For @document, it has been postponed to Conditional Rules L4, which doesn't exist yet, so that one can probably stay as it is.
+3969|fixed
+3970|@isidorn I am not seeing the action to uninstall anymore when I have an extension duplicated in my extension folder.
+3971|We will not update to a new electron build for the December update. Therefore I'm moving the milestone to January.  The work around for how to disable telemetry is document here: https://code.visualstudio.com/Docs/supporting/FAQ#_how-to-disable-telemetry-reporting
+3972|This issue was moved to OmniSharp/omnisharp-roslyn#367
+3973|fix delivered
+3974|@felixfbecker as I said, this is a first cut. We might want to add more to the vscode-debugprotocol module.  We don't want to use DefinitelyTyped for this because we need the strong version support of npm.  Yes, a yeoman generator for an empty debugadapter is planned but first we had to refactor the code because we don't want to have the generator generate lots of duplicated code (and I'm a bit reluctant with the yeoman generator in general because node based debug-adapters implemented in TypeScript are not as frequently created as VSCode extensions in general).  BTW, I just made Microsoft/vscode-debugadapter-node public.
+3975|I believe that's the issue @bpasero fixed for Dec15
+3976|Yeah quite sure, otherwise reopen.
+3977|No I can not repro. It just happened out of nowhere
+3978|See Microsoft/node-native-keymap#1
+3979|Let's see if it comes up in error telemetry.
+3980|@dbaeumer message service is automatically loging all .show(error) also to console I believe @BleyChen what is your chosen launch config? What are you trying to debug?
+3981|@bpasero the idea is to 'force' that the user sees the welcome page.   @wadeanderson7 In the update info message we currently have 'release notes' and 'restart' button. What would go into the release notes and what would be shown in the welcome page? Is the idea to run the welcome page into a realease notes page? Would it make sense to show the new information you would show in the welcome page in the release notes page?
+3982|@Wenzil I've verified that this works in the latest (December 2015) drop: ![2015-12-16 11-25-38](https://cloud.githubusercontent.com/assets/1898161/11838510/dd8f2ae6-a3e7-11e5-8e37-a59d3d7bcf8f.png)
+3983|fixed
+3984|Safe fix and good to have as argued by @dstorey..Delivered for the December release.
+3985|duplicate of #1220
+3986|Thanks - nice catch!
+3987|@flyingcodes I can reproduce this, great find!
+3988|@isidorn?
+3989|This issue was moved to Microsoft/vscode-node-debug#24
+3990|fixed
+3991|This is a current limitation that we only support substitituion for a limited number of properties. Currently, those are `program` and `runtime`. The issue is that your are using the chrome debugger which uses the non standard `file` instead of the `program` attribute We can also do the substituion for the `file` propertie but it is a bit hacky since we would need a nice mechanism for a debug adapter to contribute the names of properties which should be substituted @weinand fyi
+3992|"Steps: - open vscode (dev mode will do) - edit keybindings.json  ``` [ { ""key"": ""ctrl+="",                ""command"": """" } ] ``` - this effectively removes the keybinding for `""workbench.action.zoomIn""` - close vscode - open it again - observe, menu still shows a keybinding for zoom in:   ![image](https://cloud.githubusercontent.com/assets/5047891/11839101/8eaf21c0-a3eb-11e5-9b1f-6b690dabb19a.png) - the F1 list correctly shows no keybinding, so this must be an issue with the menu management code:   ![image](https://cloud.githubusercontent.com/assets/5047891/11839148/cc1a9f76-a3eb-11e5-8290-46ea71fc6c25.png) - I also think this is a regression, as this used to work before as expected (after a restart)  **This is especially bad on mac where the menu does keybinding dispatching before the renderer has a chance to do anything**"
+3993|@jrieken can you please add steps for verification
+3994|That's consistent on how HTML and XML render attribute values. This is how it was in 0.9 and also how VS does it. ![image](https://cloud.githubusercontent.com/assets/6461412/11839151/e34b2e72-a3eb-11e5-9960-35fa76023f96.png)  ![image](https://cloud.githubusercontent.com/assets/6461412/11839162/f11e16fe-a3eb-11e5-92a0-bcbf80a1d826.png)  ![image](https://cloud.githubusercontent.com/assets/6461412/11839196/363f5446-a3ec-11e5-91e1-0a9cb60ab710.png)
+3995|Hm bad... will check
+3996|Nah -> my bad I had a weird setup
+3997|@isidorn we should no longer distinguish between standard and non-standard attributes. All attributes are the same and are defined via a contributed schema. We should use the same variable substitution rules as task.json (which I hope are: var substitution works in all string attributes).
+3998|"So now I see ""a"" and ""b"" in red since they are keys, and ""c"" in blue since it is a value. I think this is expected."
+3999|I checked what VS does and you are right, we are inconsistent here. Fix delivered
+4000|Yup substituting all strings makes sense to me, will do it after endgame so expect a fix in our January update.

@@ -1,0 +1,100 @@
+24801|Let extension contribution commands also accept ICommandHandlerDescription
+24802|Using WebPack v2, Must Close and Reopen Terminal For webpack.config.js changes to be recoginized
+24803|"Could not see tasks in ""Run tasks"" list."
+24804|La barra espaciadora deja de funcionar.
+24805|Some UI elements do not scale with window.zoomLevel
+24806|clicked/hovered problems always display in a dark theme
+24807|Display the Chinese Font abnormally.
+24808|Cursor and letters in terminal are always in wrong place, when there are Chinese characters in the path
+24809|Inconsistent intellisense behaviors
+24810|API: Provide an onMoved event for when the user moves a file/folder in the explorer
+24811|word color
+24812|VSCode doesn't start
+24813|Editor Link With Escaped Hashtag Not Opening Properly
+24814|vscode git issue
+24815|Is it possible to build editor separately?
+24816|"package.json:badges Incorrect type. Expected ""array"""
+24817|terminal  Display is not normal
+24818|Problem with syntax highlighting and autocomplete
+24819|Feature Request: Apply nested snippets
+24820|pug emmet: !<tab> missing indent
+24821|PS Session won't refresh when using Invoke-Expression to load a module
+24822|ctrl+s issue
+24823|VSCode intercept the ESC key even if it has been rebound with standard X tools
+24824|List Navigation for accessibility focus/tabindex  Issue #24119 (replaces PR #24628)
+24825|Funny behavior of Japanese IME input (macOS)
+24826|Editor enhancement request: impelementation of a trailing semicolon toggle
+24827|Using cmd.exe as integrated shell with /k flag causes crash
+24828|"Task extension ""contributes.problemMatchers"" broken"
+24829|Global task properties
+24830|Хост-процесс для расширений неожиданно завершил работу. Загрузите окно повторно для восстановления.
+24831|Multi-Line Problem Matcher does not support multi-line messages
+24832|Confusing translation to German
+24833|[json] option to format code with leading commas
+24834|VS Code disable fullscreen zen mode animation
+24835|Minimap Enhancement: Adding File Structure Tree
+24836|"""Open Containing Folder"" takes me to a new VSCode window."
+24837|Breakpoints not working
+24838|Code Helper will burn 30%+ CPU always!
+24839|参数用_代替的时候，如果有多个就会显示语法错误
+24840|Feature Request: click errors and warnings to view the line of code in the editor
+24841|Can't see VS Code  in zen mode when task switching from a non-zen window
+24842|Code attaches to parent command prompt window on Windows
+24843|just reporting this nothing big just html and javascript
+24844|font for explorer
+24845|libavcodec/avcodec.h:no such files or somthing
+24846|Tree view in git sidebar
+24847|Git: Support git filters when showing diffs
+24848|Calling spawn is very slow at times
+24849|[sass] Incorrect validation when using @error directive
+24850|drag-and-drop mouse cursors getting stuck
+24851|[Feature-Request] Keybinding to toggle 'Find in selection'
+24852|Can't Cmd+A in file field in save dialog
+24853|Typescript died 5 times?  Actually, I was forced to kill -9 it repeatedly to reclaim my CPU!
+24854|"window.openFilesInNewWindow set to ""on"" allows the opening of the same file every time"
+24855|Debugger won't start for PowerShell, Python, etc.
+24856|Update typescriptMain.ts
+24857|[css] aural properties missing from Intellisense
+24858|Keyboard shortcuts do not respect keyboard layout preference.
+24859|setBreakPointsRequest argument for source.name is no longer defined
+24860|Send Alt (meta) key in integrated terminal
+24861|Search never stops
+24862|apt package should re-enable itself when a new version is installed if it was disabled by an OS upgrade
+24863|Open editors view goes ballistic with many changes
+24864|Debt - Explorer & Open Editors Context menu needs to adopt menu contribution support
+24865|Save / Open file , Open folder dialog not showing up at all
+24866|Suggest Widget is off Screen
+24867|Line sorting doesn't preserve the text selection
+24868|Strange intellisense sort order
+24869|Support to distinguish diagnostics from TS from the diagnostics from a language server plugin.
+24870|TypeScript: DiagnosticsCategory Warning is not honored
+24871|Adopt TypeScript 2.3
+24872|Request to update atom/language-c version to the latest.
+24873|Debugging with legacy protocol because Node xxxx v6.2.2 was detected.  Using NVM and the version seems stuck on the root version and now pathed NVM version
+24874|Added support for encodings for Git.
+24875|Extension host terminated unexpectedly. Please reload the window to recover.
+24876|Feature Request: Open Code from stdout
+24877|Extension Host Terminated Unexpectedly
+24878|Allow to run VSCode in the background (minimized or hidden)
+24879|SCM: Support keyboard shortcuts
+24880|Prototype Extension Contributed TS Plugins
+24881|keyboard shortcuts to choose an intellisense suggestion?
+24882|Show file contents in case of git add/add conflict
+24883|Pending update isn't getting installed
+24884|A 'jsconfig.json' file was created to enable IntelliSense. Why?
+24885|Allow Terminals To Be Opened Anywhere Files Can Be Opened.
+24886|Fixes #11478 trigger tab when emmet expansion is the same
+24887|Implement support for snippets in LSP completions
+24888|Fix #24817 - Prevent overflow of the message in define keybinding widget.
+24889|React type bindings on propTypes
+24890|Add option to reduce set of autofetch branches to branches that have been explicitly fetched by user
+24891|Software bugs, for a period of time did not use (the background is used, system idle time), vscode black screen, can't use
+24892|[Debugger]Expressions display incorecctly in watch window
+24893|Terminal screen broken with hangul print
+24894|"Allow to ""Paste"" from the menu when right clicking on a file"
+24895|Focus outline around extensions list as soon as I select an element
+24896|Lot of errors!!!!
+24897|Out of date Electron Type definitions
+24898|Can't tap list widget
+24899|Need git huge repository prevention mechanism
+24900|Code color is incorrect

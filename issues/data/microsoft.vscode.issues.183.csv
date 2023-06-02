@@ -1,0 +1,100 @@
+18201|More configurable builds for C/C++
+18202|Intellisense can't be overridden by JSDoc in normal Javascript
+18203|Can code.cmd have higher precedence on the PATH than code (the shell script)?
+18204|Persist git branches that have been recently checked out
+18205|Allow to cycle through previous typed values in quick input picker
+18206|Replace history doesn't work
+18207|Show source name in callstack even when path is provided
+18208|Added download links for stable and insiders
+18209|Mixing F4 with arrow keys in search results makes weird stuff happen
+18210|Integrated terminal should use up more of available space
+18211|Markdown preview view
+18212|Multiselect via ctrl+d case insensitivity makes it useless
+18213|File rename input box is too narrow
+18214|"Ruby word match includes "":"""
+18215|C++ syntax highlighting is broken
+18216|window.restoreFullscreen has unintended side effect of forcing openFilesInNewWindow=false behavior
+18217|When name of thread is changed, the UI is not updated.
+18218|the code of a.c was replaced by b.h
+18219|"[Feature-Request] Add another mode for ""renderWhiteSpace"" when selecting"
+18220|Vscode unresponsive when updating npm dependencies(many)
+18221|Go to Definition does not work for Javascript object methods added dynamically.
+18222|Allow users to config launch args
+18223|Use node-pty
+18224|Re use readonly #12732 #13863
+18225|Misspelled command names: Carret → Caret
+18226|VSCode NodeJS debugger is using wrong NodeJS Version for extension debugging
+18227|why not 64bit version build?
+18228|The 'Save All' function causes the current document to be out of orde
+18229|Ability to use regex or do operations in User Snippets
+18230|Blue screen error after installing a extension and reloading VS code
+18231|Please add an ability to highlight any extra characters belonging to a word/variable
+18232|"Quick Open show the ""..."" to the left or center to not hide important segments"
+18233|i
+18234|"""Insert snippet"" throws ""Cannot read property 'snippet' of null"""
+18235|Hide language modes without alias
+18236|Add API for win.isFocused(), win.isMinimized(), win.isVisible()
+18237|Dark empty blocks in editor on large screens
+18238|Support json schema merging
+18239|hide open's editor in source manager
+18240|how to Select multiple files in explorer
+18241|boolean shown as a string in debug
+18242|QuickEdit a settings icon does not switch to newline
+18243|HTML Format does not work with attributes
+18244|1
+18245|1
+18246|Commands in Demo are not executing
+18247|It doesn't recognize Spanish characters such as á, ñ, etc.
+18248|TODO comment that will be saved to a 3rd party reminder service and will notify you later.
+18249|Markdown preview inconsistent editor opening
+18250|Typing in git bash integrated terminal, then backspacing causes glitching and fails to show characters as deleted
+18251|highlighting of matching react tags
+18252|Fix for issue 12040
+18253|Problem when you open file directly ..
+18254|Intellisense for doesn't work for extended method
+18255|Feature request: Show hidden characters like: space, tab, end of line, carriage return
+18256|GitHub pushing stops pushing automatically
+18257|[jsx] Automatic HTML indentation and cursor position in JSX
+18258|"Typescript breakpoints don't work on file imported with ""import let = require(""./file"")"""
+18259|creat a file manually need to wait for a long time
+18260|Add a command to close all non-file editors of a group
+18261|Report Issues doesn't work
+18262|format  when  if  switch exists
+18263|Moving or renaming file does not preserve editor view state
+18264|Moving a file over a dirty file with the same name restores the dirty contents of the target
+18265|TypeScript: Error processing request. No Project
+18266|Cannot read property 'length' of undefined
+18267|Cannot read property 'object' of undefined
+18268|Cannot read property 'object' of undefined
+18269|Cannot read property 'positionLineNumber' of undefined
+18270|Cannot read property 'positionLineNumber' of undefined
+18271|Cannot read property 'size' of undefined
+18272|Cannot read property 'size' of undefined
+18273|Edit icon screen cheese when glyphMargin disabled
+18274|new issue 1
+18275|bug 1
+18276|bug2
+18277|Andre/pickervariables
+18278|update node-debug: async source maps
+18279|debug
+18280|bug3
+18281|missing feature
+18282|debug4
+18283|check editor with bootstrap css
+18284|Decouple build from task execution
+18285|Execute tasks in terminal instead of output panel
+18286|C/Cpp No generation of browse.VC.db under 32 bit linux
+18287|showSnippets renamed to insertSnippet
+18288|Enhance built-in sort lines ascending/descending for case insensitivity, remove duplicate lines, numeric sort
+18289|Test editing of user settings from View menu actions
+18290|New theme matching and new tokens format
+18291|Test new theme matching and new tokens format
+18292|[scss] using round brackets cause highlight errors in next values.
+18293|Loading editor: initial text is black on black
+18294|"Typescript ""Go to Definition"" goes to function type, not its implementation"
+18295|"Feature request: Make ""Go to Bracket"" work with selections"
+18296|[scss,css] Document synchronization stop after 3-4 hours.
+18297|workbench.action.focusNextGroup spawns unwanted split view editor when in the right-most editor group
+18298|POSH Module Intellisense Not Working
+18299|Search panel results are hard to visually skim
+18300|Compare Failing for Large Files

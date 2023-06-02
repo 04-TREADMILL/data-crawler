@@ -1,0 +1,100 @@
+28701|Handle progress results in QuickOpen controller (attempt 2)
+28702|window.openFilesInNewWindow ... on/off/default ... not on/off
+28703|Cannot Get JSDoc React Component Summary in Intellisense
+28704|Integrated terminal text floats above panel tabs when terminal font is configured in settings
+28705|Double click to expanse to full work space
+28706|New Line anywhere without moving the current line
+28707|Vertical Selection via Alt + {Mouse Select}
+28708|Find in terminal
+28709|CPU Spike 99% on OSX
+28710|Remove Unused Html Content Renderer Extensibility
+28711|Git Working Tree diff view becomes open editor without making changes in it
+28712|Git diff view gets stuck on previous diff
+28713|Wrong fileicon
+28714|Find + Go to line messes up editor layout
+28715|[Error - 9:43:00 AM] Notification handler 'namespaceUpdate' failed with message: this._namespaceCache[file.namespace].push is not a function
+28716|key shortcuts becomes unbound or complicated when input method changes
+28717|支持javaee开发？
+28718|Improve find in terminal
+28719|${env.APPDATA} in launch.json broke in 1.13?
+28720|Pressing esc with editor focused will hide terminal find widget
+28721|emmet grouping not working
+28722|minimap disappeared when click in peek section
+28723|Can't load VSCode after update to 1.13.1 #new release
+28724|Pasting and opening a file path into the bar in Open File opens the file but doesn't close the dialog
+28725|CPPTools Extension Unzip Error
+28726|Feature request: Map ts files automatically in Visual Studio Code
+28727|Allow extensions to get the current file indentation type
+28728|jsx识别不完全。
+28729|Crashes all the time after updating
+28730|Parallels: Ctrl+Tab is no longer working nor assignable for me
+28731|SCM: Cannot read property 'toString' of undefined
+28732|Reduce sidebar text size; Fixes #26883.
+28733|Fixes issue #28695 with tooltips in Activity Bar
+28734|Introduce a new keybinding context per quick open for quick navigate (fixes #28462)
+28735|C++ Macro definition is not supported
+28736|[FR] Add AUTHORS file to honour contributors
+28737|Cannot import / require json files in javascript projects with checkJs enabled
+28738|[feature request] typescript goto-def/peek-def using autocompletion
+28739|References code preview stopped working
+28740|Support for custom toolbars
+28741|Unexpected suggestion scoring
+28742|Support for logical file structures
+28743|'Save as' crashes the PowerShell session
+28744|Search Integration Tests are unreliable on Linux
+28745|Editor: scroll jumps randomly (related to Chrome, Electron, xinput)
+28746|Randomly freezing macOS completely
+28747|Implement download button for the MarkDown preview HTML
+28748|Missing title in window title bar
+28749|"Improve ""Extension Host Terminated"" experience"
+28750|Error message not showing full text
+28751|Extra space above fold on search.
+28752|VSCode overrides user settings.json file with an empty one if it was a symbolic link
+28753|add note and cursor go to  next line
+28754|Autocomplete doesn't recognize complex type's fields
+28755|Some stackframes are shown as labels without being requested from the DA
+28756|[loc] Adding language - Bulgarian (bg) to transifex VS Code project
+28757|Feature Request: Sync Settings / Extensions
+28758|duplicated top stackframe with old debug adapters
+28759|Can't see Minimap after enabling it from settings.
+28760|alt + click for multi cursor is not working
+28761|I'm run debugger and see ( Attribute 'runtimeExecutable' does not exist ('d:\www\fw-project_local/node_modules/.bin/babel-node.cmd'). )
+28762|Updates tare too frequent
+28763|Different folder and package names causes errors messages
+28764|PowerShell tab completion doesn't work for Write cmdlets when variable is in quotes
+28765|Overlapping settings sections when one is empty
+28766|fixes #22593
+28767|multi process debug: breakpoints appear unverified as specified by last process
+28768|Hello, the php syntax colorising is confused when using php+javascript+html files.
+28769|Reopen last closed tab from tab context menu
+28770|Fixes #28393 by Triggering Parameter Hints on demand with key binding
+28771|No alert when entering bad git password on push
+28772|The Integrated Terminal does not allow you to cancel or exit a running command with ctrl+c
+28773|You can set themes that are disabled in extensions panel
+28774|typescript inteli-sense constant crashes after update to 1.1.13 on Mac Sierra.
+28775|Allow Ctrl+Backspace in integrated terminal to delete word
+28776|Windows: sometimes focus is not going into window when dragging from outside
+28777|After updates cannot run WPF code: Unable to find type [Windows.Markup.XamlReader]
+28778|Find-all-references preview broken in insiders
+28779|New Emmet completes html attribute as tag
+28780|EACCES: permission denied, doesn't open modal asking for user/pass
+28781|Search or Lookup a file by starting to type its name while I am in the file explorer
+28782|CTRL Alt Arrow Down Fails to Handle Virtual Space & Inability to Decreases A Selection.
+28783|PHP code Syntax is not highlighted if is between a <style> tag
+28784|Shortcut for Format Document(Ctrl+Shift+I) not Functioning
+28785|Powershell Code format (PSScriptAnalyzer) flags variable as unused
+28786|Format Document doesn't work in CSS, SCSS and LESS files
+28787|Emmet not working in blade.
+28788|disable scm gutter
+28789|window.showInputBox only working on extension debug mode
+28790|#28617 - changed quickOpen.contribution to receive prefix and options…
+28791|[FR] Add button to abort search
+28792|Please add 'Copy Filename' to VS Code Explorer pane
+28793|'Go To Definition' brings up the peek panel, closing it closes the MiniMap
+28794|Ctrl + Down doesn't keep cursor in viewport
+28795|Feature request - Explorer - Multiple file/folder select with cmd+click
+28796|Feature request - Explorer - Allow horizontal scroll
+28797|"Welcome Page says ""control panel"" instead of ""command palette"""
+28798|File Icon for TypeScript files.
+28799|changed command palette text for #28847
+28800|Powershell terminal incorrectly has blue background on some text

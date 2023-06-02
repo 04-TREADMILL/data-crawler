@@ -1,0 +1,100 @@
+28101|Atom feed is not valid: 'updated' is not RFC-3339 compliant
+28102|Set window size and position?
+28103|Fix TS 2.4 Errors in extHost.api.impl.ts
+28104|Intellisense does not show text description.
+28105|Codelens Overlapping after Combining Two Lines
+28106|Color for selector is different in css vs scss file
+28107|Performance profile
+28108|feature request: run the editor content through pipeline and replace it with the result
+28109|Console output not working when Python's time.sleep() is used within a loop
+28110|explorer.openEditors.visible : 0 does not hide open editors pane in single file mode
+28111|vs code prevents the parent shell from exiting
+28112|Added editor.urlClickable setting to enable/disable clickable URL
+28113|VSCode icon disappears after sleeping
+28114|Jumping bracket select text
+28115|Allow to select text while jumping between brackets
+28116|Window State According To Git Branch
+28117|[javascript] suggest class and id from html when writing jquery
+28118|Add weight/priority to code lens providers
+28119|Javascript bitwise operators in for loop declaration break syntax highlight.
+28120|Broken lines in intagraded terminal
+28121|Space before block comment
+28122|Every morning, closing vscode locks up my machine
+28123|Problem matchers referenced in API will not be resolved correctly
+28124|Default Markdown language configuration
+28125|"{ ""key"": ""ctrl+o"",                ""command"": ""workbench.action.files.openFile"" }"
+28126|Cursor is not shown on correct position when resized
+28127|Debugger startSessionCommand command is not called for restarts?
+28128|"""editor.formatOnPaste"": should not be true by default"
+28129|Symbols matching on key up
+28130|Terminal prompt can overlay some panel
+28131|Close debug dialogues on escape
+28132|Formatting Removes Region Indentation, Unable To Minimize Regions
+28133|Cursor Colour
+28134|vscode.open should open folder when invoked with one
+28135|[less] syntax error if classname starts with `-`
+28136|Improve commands picker
+28137|Snippet order for placeholders
+28138|Column Selection by Middle Mouse Button (Sublime Style)
+28139|I really hope vscode can add search lua symbols support for lua files!!!
+28140|Extension 'Contributions' tab appears to always be showing usage
+28141|Add Code and Terminal Window Side-by-Side or Floating windows
+28142|PHP Syntax Highligting multiline quotes
+28143|VS Code should support custom extension marketplaces/URLs
+28144|What's the correct way to asynchronously handle a debugger disconnectRequest?
+28145|"Environment variables from launch.json need escaping when ""console"" is set to either ""integratedTerminal"" or ""externalTerminal"""
+28146|Typing a parenthese triggers autocomplete
+28147|JSON schema resolution does not work with $ref in definitions
+28148|[less] concated selector inside :not() marked as invalid
+28149|Add Debug Output Copy All command : Fixes #27079
+28150|Multithreaded in Insiders does not show callstack for threads other than the one that has stopped.
+28151|Signature help shifts around oh so lightly
+28152|"Opening file using cmd+p results in ""File not found"" error"
+28153|"In Javascript switch/case, when typing "":"", enter triggers autocomplete instead of new line"
+28154|Emmet html abbreviations should be suggested inside <style> or <script> blocks
+28155|Update protocol document for CompletionItemKind and SymbolKind?
+28156|Any news on 1.13 release?
+28157|Git markers won't be removed properly
+28158|Add insertSpaceAfterConstructor Formatting Option
+28159|`npm run watch` high CPU usage on macOS
+28160|Native web selection is possible in editor when dragging from terminal or tab well
+28161|Quadruple click doesn't select all on Linux
+28162|Restrict markdown preview to markdown files
+28163|resourceScheme context does not work in in menu.commandPalette contribution
+28164|Bad performance of Explorer on Windows 10
+28165|showInputBox: validateInput method is selecting text by default resulting in deleted content
+28166|Suggestion: CodeLens provider & shared context to improve performance.
+28167|code-completion doesn't use next suggestion on pressing tab multiple times
+28168|Can't highlight links in terminal
+28169|Git is not monitoring within vscode
+28170|Error for first click on Clone Git Repository
+28171|High contrast scheme in debugger lacks contrast
+28172|While debugging, no clear UI indication of module I'm in...
+28173|Integrated Terminal should inherit parent privileges
+28174|Slow startup detected by VSC - haven't noticed it by myself
+28175|default node.js debug args is deprecated when update to node.js 8.0
+28176|Selected string into a variable
+28177|与android studio同时打开会卡死
+28178|GNU Plot is not supported
+28179|vscode render error
+28180|The editor menu and tooltips became tiny after an update
+28181|Diff previous/next change arrows not bindable to keyboard
+28182|allow to set fold buttons to be always visible
+28183|Apply GTK dark theme in dark vscode themes
+28184|Terminal bug. Empty spaces
+28185|Suggestion: Add support to hex, byte editor, binary
+28186|Introduce a debugSessionEnds event
+28187|Provide Task Runner viewlet
+28188|Recent files should work by modified date not when opened
+28189|TCIM.Zhuyin Keyboard layout: Funny keybindings for letter based combinations (copy, paste, undo, etc.)
+28190|Spaces in block comment. #28169
+28191|VS Code Unable to install Extensions
+28192|Format document not working any more after migrating to 1.12.2
+28193|Do not auto reveal in explorer when deleting files
+28194|Project search freezes the machine
+28195|Cannot read JSON in CentOS
+28196|[Extension Host] Error: ENOENT: no such file or directory, scandir 'C:\Users\<user>\AppData\Local\GitHub'
+28197|Cannot debug an application in CentOS 7
+28198|Cannot pause debugger on Linux
+28199|Update php grammar
+28200|Add other settings to the gear menu

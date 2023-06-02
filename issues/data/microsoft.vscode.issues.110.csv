@@ -1,0 +1,100 @@
+10901|No intellisense on 'Case-sensitive Journaled HFS+' volumes
+10902|Allow terminal launch path to be set via integrated terminal API
+10903|Promise resolution when Terminal is ready?
+10904|exclude files/folders from being searched (using ctrl+P)
+10905|Terminal crash with code 1
+10906|Jump to definition with F12
+10907|Cursor disappears briefly before starting blinking animation.
+10908|Adding gulp methods for targeting arm systems
+10909|Better contrast for lineHighlight and find results #9631
+10910|How to determine if a Terminal created using new API has been closed by the user?
+10911|html文件编辑代码提示不完善
+10912|Extensions Marketplace broken on Ubuntu behind proxy
+10913|Proposal: iOS support
+10914|Unable to get intelesens for C# on a multi folder structure
+10915|global search not working
+10916|suggestions about preview image file type
+10917|Undo stack lost
+10918|Provide clipboard access through the VSCode API
+10919|Review getLinesViewportData
+10920|Auto-completing React Native tags
+10921|[Windows] Cannot create new vscode windows when running as administrator
+10922|When work with Sogou pinyin Chinese input method, the inputed Chinese word will repeat.
+10923|[Suggestion]: About the user-define color theme.
+10924|Error hover is badly formatted
+10925|Reuse integrated terminal when running debug target
+10926|Menu has issues with very long labels
+10927|Invalid file resource . c++
+10928|[css] Setting to hide CSS Color preview boxes
+10929|CSS @supports grammar check bug
+10930|Crash in node-oniguruma when tokenizing this malformed string with the JS grammar
+10931|files.exclude not respected with CMD+P
+10932|Feature request: Add workspace specific snippets
+10933|Efficient tab switching workflow
+10934|Shortcut improvements
+10935|No syntax highlight at some points in js files
+10936|issue accessing (writing?) to file from disk when open in vscode on macosx
+10937|Auto hide panel
+10938|Need HTML Matching Keystroke
+10939|Eslint error when opening a javascript file: Failed to load plugin jsx-a11y: Cannot find module 'eslint-plugin-jsx-a11y'
+10940|Errors from an extension appear in Output instead of JS console
+10941|OutputChannels show up as active editor
+10942|Cmd+P doesn't work when another quick pick is open
+10943|Syntax coloring issue with flow polymorphic types
+10944|Issues on SAVE
+10945|TS syntax coloring breaks on nested new
+10946|Feature request: Mercurial support
+10947|Feature request: Working sets
+10948|Querying for themes only is broken
+10949|Alt button conflict (toggle menu-bar & multi-select)
+10950|WebView not scaled correctly when zooming vscode
+10951|VS Code hangs when i launch Powershell debug with f5
+10952|New File improvements
+10953|Option to Context Menu
+10954|Fixes #10386, preventing start find action overwriting find input text
+10955|Windows: possible to have drag overlay stick around
+10956|Change the encoding file when i open.
+10957|Using search feature causes crashing frequently
+10958|output window encoding error.
+10959|How to know User selected extension via command or just by shortcut
+10960|TypeScript compile errors stop being reported when multiple Index files are open
+10961|"Selection in the debug console ""leaks"" into the code editor"
+10962|Implement Feature Request from 9213
+10963|JavaScript code highlighting doesn't work
+10964|Suggestion: Start VSCode debugger from the command-line
+10965|Debug console won't show more than 2 lines of input
+10966|node does not run from built in terminal
+10967|Count lines in getHeightForString - fix #10980
+10968|Code Format Bug - Insider Preview 1.5.0
+10969|Italic text in markdown shouldn't be colored in the default themes
+10970|Remove color from italics in markdown in default theme
+10971|shortcut in Japanese keyboard
+10972|"Feature request: Option to disable auto creation of the "".vscode"" folder"
+10973|open in browser？
+10974|[Feature request] Provide shortcut keys and context menu action to clear the output windows
+10975|[Bug] Keybindings.json command is not surrouned by double quotes when auto-complete
+10976|insertLineAfter exhibits strange scrolling behavior when the same file is in split-screen configuration
+10977|Long string input cut off in debug repl
+10978|Multiple-cursors are not visible on first column
+10979|Publish sourcemaps for built-in extensions
+10980|Test: Multi level variable paging
+10981|Test: multi line debug repl input
+10982|Test: suggestions in debug repl
+10983|Disconnect icon in debug toolbar
+10984|Terminal.name is not readonly
+10985|Installation issue in Windows 7
+10986|Emmet tweaks: remove extra languages from conditions
+10987|Use Sogou appear two Chinese characters
+10988|Emmet tweaks: simplify set/reset Emmet preferences and syntax profiles
+10989|Remove 'insiders builds are becoming daily builds' message on startup
+10990|Allow to register a language for an output channel
+10991|Replace enable while nothing write for replace text input.
+10992|Mulitline copy/pasting
+10993|Implement User Setting to Allow Customizing Default Size of New Windows.
+10994|Emmet tweaks: clean-up editorAccessor tests
+10995|No Intellisense available
+10996|OSX: Can't undo on any text input box
+10997|Some dependencies to window from common
+10998|Issues with the Find box
+10999|It should be possible to lookup global symbols without openning an editor
+11000|Cannot rename class reference used within the class itself (JavaScript)

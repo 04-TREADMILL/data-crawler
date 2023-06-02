@@ -1,0 +1,100 @@
+24401|Vscode CPU occupancy is too high
+24402|Initial interface is wrong
+24403|Clean up some editor input debt and lifecycle issues
+24404|problem editing keyboard shortcuts in 1.11.1
+24405|Run multiple extension hosts to track down crashing extension
+24406|Maximum call stack size exceeded
+24407|Comments in launch.json not translated
+24408|Tasks.json comments not translated to german
+24409|[SCM] Add ability to change the default text in 'commit' input box
+24410|adjust tests
+24411|[SCM] Allow providers to supply their own Viewlet SVG
+24412|Minimap scroll block make scroll jump near edges
+24413|Intellisense cannot work for NodeJS
+24414|relative path link in debug output is error on windows？
+24415|Link detection for the exception widget and debug console
+24416|Cannot kill node process when Integrated Terminal set to Git Bash
+24417|VsCOde TypeScript language service died unexpectedly 5 times in the last 5 Minutes
+24418|Word-backspace-delete treats /_ as non-delimiter
+24419|Editing a CSS file in a SharePoint Mounted drive opens a new tab
+24420|Feature request: Allow creation of nested folders from 'New Folder' button in Explorer
+24421|API editor tests issues with model references
+24422|VSCode combines JSDoc seperated comment blocks into one
+24423|nvm no longer on PATH
+24424|SCM: Collapsible SourceControlResourceGroup
+24425|Arrows keys no longer work in editor
+24426|SCM: Focus command for SCM Input box
+24427|Display of exceptionInfo.breakMode is confusing in C#
+24428|"Completion Item Providers are no longer triggered automatically inside """" (quotation marks) in html language mode"
+24429|Fix webview sizing when zooming
+24430|Search match-word inconsistent behavior
+24431|Remap keys
+24432|Can't reformat/reindent selected lines for HTML, it only reformat whole document.
+24433|Allow Code Lenses to only Provide a Title and no Backing Command
+24434|Improper highlighting for jsdoc record types
+24435|Dvorak-Qwerty Cmd binding is broken on Sierra
+24436|improvement/feature request -set language mode using ⌘/Ctrl + shift +p
+24437|VS Code not Reading Environment Variables from VirtualEnv when launching from terminal
+24438|Porting a couple of community complex command fixes
+24439|Console panel misplaced layout
+24440|react native js file  can not format
+24441|Copy promble, both in edit window or terminal .
+24442|Update coffeescript.tmLanguage.json, fixing highlighting for embedded js
+24443|Not supporting `async/await` during extension development due to NodeJs is not latest.
+24444|"Goto definition should jump to start of definition if used while inside of definition instead of saying ""no definition found"""
+24445|this info is not enough
+24446|New Uncaught Exception when starting an extension debugging session
+24447|Text become fuzzy and unusable after scroll
+24448|"Make number of ""Search"" configurable by user"
+24449|Formatting breaks after certain nesting level for tab indentation
+24450|"Use of REQUIRE for ""Creating your own Snippets"""
+24451|Warning messages could hint towards disabled/missing extension
+24452|C_Cpp autocomplete doesn't recognize C++ lambda function
+24453|Merge link detection code between terminal, debug console and exception widget
+24454|Chrome debugger: Would be nice to see location of console messages
+24455|"Remove ""JOAO"" from Readme title"
+24456|Multiple builds on the same commit might come up with different results
+24457|Breakpoint shown in wrong location
+24458|Allow to run 'code -w' and return when vscode is running already
+24459|Dark icons and colors shown in light themes
+24460|Folders won't update
+24461|Wrong unfold cuts emmet
+24462|when I write style property in html tag ,I can't see prompt
+24463|Add zenMode.hideActivityBar option
+24464|export settings/ user profile (feature request)
+24465|"Source Control: GIT | Commit & Refresh button are still there and funcional, but not visible !!"
+24466|Key maps do not work!!
+24467|JS file and packages suggestions do not show.
+24468|After upgrading to March 2017 Version 1.11.1 Update
+24469|"""Go to File"" in editor group command"
+24470|PHP IntelliSense extension - unable to edit files after selecting 'Go To Definition'
+24471|[Regression] No longer get window.onDidChangeActiveTextEditor events when there is no window.activeEditor
+24472|HTML Language Server Error Code: -32603
+24473|pop-up box in the way
+24474|The problem about indentation in the terminal
+24475|Sorting of Vue extensions is not optimal
+24476|"Debug: ""Select script"" picker should show a little more"
+24477|"""Configure Task Runner"" should pick tasks from package.json"
+24478|Unable to <alt> keybindings that match top level menus
+24479|[folding] Folding HTML tags should hide the closing tag.
+24480|Git integration disappears in second and subsequently opened windows in 1.11.1
+24481|Cannot style TS import in theme
+24482|terminal style exception
+24483|Provide extension recommendations for files in workspace
+24484|Debug hover does not use AST
+24485|Diff editor no longer shows colors on the left
+24486|Uk keyboard outline navigateback key binding issue
+24487|Update Exec param at code.desktop
+24488|Better HTML support for react
+24489|My file wrongly autodetected as Javascript instead of Javascript React
+24490|Unable to download VSCode Mac Platform
+24491|English International keyboard: ` and § keys are swapped in keyboard shortcuts on macOS
+24492|Terminal no longer changing to project directory
+24493|Navigation arrows on the keyboard don't work (Debian package)
+24494|Hide unwanted files in explorer
+24495|Keyboard shortcuts not visible in command palette
+24496|Theme changes cause most workbench elements to not use ClearType
+24497|QuickOpen should prefer matches with fewer splits of search terms
+24498|Remove sort order context menu
+24499|vscode update to 1.11 removes mostly all default keybindings
+24500|Pass implied type to TypeScript language service

@@ -1,0 +1,100 @@
+20601|Hot Exit does not work when the computer blue screens
+20602|aaa
+20603|typescript happen stop
+20604|ctrl + shift + c  , cannot open ‘cmd’
+20605|alt+click not working
+20606|typescript
+20607|TypeScript is wrong
+20608|debugServerArgs is not working
+20609|node.js debug's breakpoint wrong
+20610|JavaScript heap out of memory when debug
+20611|问题
+20612|Generator function formatting error
+20613|[settings] css settings are missing
+20614|in css double-clicking a word with ! or # doesn't select
+20615|Remember project folders & Support for opening multiple project folders in the same window
+20616|vs code issue
+20617|Typescript not being recompiled on changes (it was working before the update)
+20618|Collapsing doesn't work ok if lines are not indented the same of the opening and closing tags in a .config file
+20619|Processes test suite fails when running in debug session
+20620|Search test suite fails when running in debug session
+20621|How to delete blank lines ? remove duplicate characters ? and delete duplicate lines ?
+20622|Use promises in SearchEngine
+20623|Add selection to next find match (Ctrl+D) is broken
+20624|[themes] different themes for different filetypes
+20625|vs code lag & keybinding  problems
+20626|vscode run dotnet restore error
+20627|在过去5分钟内，TypeScript语言服务意外中止了5次
+20628|Multiple folders at the same time
+20629|Toggle Left Flyout w/ the Keyboard Shortcut from within the Built-In Terminal
+20630|Syntax highlighting doesn't change when commenting out class inheritence part (part starting from colon[:])
+20631|Russian locale in the editor is not support after VS17
+20632|Line number configuration fixes #12714
+20633|Fixes #20137 - Unicode not rendering in decorators
+20634|Markdown preview is only showing on part of the screen
+20635|Add minimap
+20636|User snippets don't work inside JSX template
+20637|Can't input correctly chars into terminal panel with the third party input method
+20638|The `typescript.check.tscVersion` setting should contain specific version numbers not just true/false
+20639|Rewrite searchWorker.ts to rely less on functions in closures
+20640|VSC does not recognize new PHP 7.1 syntax
+20641|auto-complete(python plugin) has no effect
+20642|Size of release notes pane is shrunk incorrectly
+20643|Investigate opening parent folder with `.vscode` when opening files from CLI or desktop
+20644|output window not scrolling to bottom
+20645|Support realtime adjustments of theme colors
+20646|Feature Request: Enable workspace settings to specify required extensions
+20647|"Add concept of ""dynamic"" (buffer only) settings"
+20648|Command aware terminals
+20649|"Allow a stack frame with no source without saying ""Unknown source"""
+20650|"options field in tasks.json with terminal runner does not seem to actually do anything for ""env"" or ""cwd"" parameters"
+20651|Completion Item Details Header Overflowing Suggestion Box
+20652|Git authentication prompts for username when username is in URL
+20653|Git authentication dialog does not appear on the task bar
+20654|Visual Studio Code
+20655|why?
+20656|警告条一直在跳动，没法关闭。
+20657|In the past 5 minutes, the TypeScript language service unexpectedly suspended for the 5 time
+20658|"Go to Definition ""Could Not find anything"" Markers Not being Cleared"
+20659|vscode-eslint break down.
+20660|Editing above a breakpoint removes the breakpoint
+20661|Python input on Powershell intergrated terminal does not work 2nd time in debugging mode
+20662|Can't edit watches anymore
+20663|typeScript
+20664|Minor errors with JavaScript syntax highlighter
+20665|typo in chs translation
+20666|Login Feature: syncing.
+20667|Visual Studio Code can not identify if i do not use @ with Component decorator
+20668|In Windows Alt key doesn't allow menu items to be activated, e.g. Alt-F+S normally saves
+20669|double click on .cpp or .h files open vscode but don't open the file
+20670|[feature request]rename symbol should be more intelligent
+20671|"Cannot pass ""-c"" option followed by argument command to zsh in integrated terminal"
+20672|Extra menu group on Windows
+20673|issue
+20674|the line above wrongly selected on ubuntu 16 installed on virtual box
+20675|Output channels are not fully disposed
+20676|Failed to launch external program msbuild
+20677|editor comes up with black background
+20678|Make url clickable inside terminal
+20679|Autosave files after search-replace
+20680|I cant install any Extension (error:of central directory record signature not found)
+20681|Vscode font get messed up if i install wine
+20682|Workbench flashing on start
+20683|colapse multi-line comments even if they don't have spaces/tabs before the lines
+20684|on danish keyboard ctrl+½ (½ === ~ on us keyboard) don't open terminal
+20685|Whitespaces - graphic interpatation
+20686|settings.json wiped after nightly update
+20687|allow getting defenitions without the need for a .d.ts file
+20688|Snippet failing to function consecutively
+20689|ITerminalInstance.reuseTerminal doesn't update the terminal name
+20690|Preserve EOL type
+20691|Unable to Delete files on Windows
+20692|Insiders Helper goes eats all CPU every time I open a SVG file
+20693|[Feature] Multiple Editor Window Support
+20694|Gray bar suddenly appears above visual studio code??
+20695|Clicking groups on debug console crashes the debugger
+20696|Problem with VSC program path (when update) and .vscode
+20697|blinking code
+20698|File opened through command palette always opens in the same tab.
+20699|typescript service died
+20700|Format code - disappear in 1.9.1

@@ -1,0 +1,100 @@
+7401|Arch Linux AUR/community package
+7402|Exclusive Ranges and TextEditorCursorStyle.Block problem.
+7403|@cfjedimaster: out of memory error after some time
+7404|Convert indentation to spaces/tabs *for selection*
+7405|Font size settings for different displays/resolutions
+7406|Cursor jumping to the beginning of the line on save
+7407|Tabs: grouped split views
+7408|trimTrailingWhitespace Not Working for May Update VSCODE
+7409|terminal: default settings not matching schema
+7410|Error view: can not open warnings in default settings.json
+7411|Select all find matches -->Nothing Happening when i press ALT+ENTER
+7412|non verbose TS compile does not work with watching task
+7413|line number and fold/unfold button are clashing with more than 10k lines
+7414|terminal doesn't have scrollbar
+7415|Code won't update on macOS
+7416|Add string to selection with CTRL + double click?
+7417|Huge git repo causes hang
+7418|Terminal should support Cmd-K on the Mac
+7419|[json] Autodetect npm registry in package.json dependencies autocomplete
+7420|Ctrl+Alt+Arrow for multi-select fails on laptops and tablets
+7421|'Go to Definition' feature should leverage existing open instances/tabs of a file instead of opening a new one
+7422|cursorWordLeftSelect (and the like) don't work everywhere
+7423|Colons in SASS maps marked as error
+7424|Debug adapters should get the current open folder
+7425|Lost highlighting syntax with typescript
+7426|Question / Request: Shortcut to expand multi-cursors to word boundaries
+7427|when a task started using visual studio code tasks , environment variables aren't working
+7428|VS Code doesn't start on Mac OS El Capitan
+7429|Terminal instantly closes
+7430|Monaco API : OverviewRulerLane is only two lanes (instead of three)
+7431|Toggling the terminal off and on hides all characters
+7432|Indication of a japanese characters are piled at a integration terminal.
+7433|Terminal gets into weird state when dragging panel sash downwards
+7434|Show hollow cursor when not focused
+7435|Intellisense on nodejs app files with no extension
+7436|Python extension is not working
+7437|Line breaks in terminal window when changed editor-fontsize in settings.json .
+7438|Clean file from Git view not reload it in file view
+7439|Terminal: Cannot set property 'innerHTML' of undefined
+7440|Terminal: cannot launch code.sh from integrated terminal
+7441|Error list explodes in a vscode extension development environment
+7442|vs/code should only have one dependency to vs/workbench
+7443|Monaco API request : allow html content renderer to accept raw innerHtml
+7444|Monaco Hover API : trims text leaving dangling `:`
+7445|Terminal not cleared when re-opened after 'clear'
+7446|Better handling of markers from temporary or in memory files
+7447|Runaway terminalProcess processes
+7448|editor.wordBasedSuggestions shows up last in default settings?
+7449|Associate custom shortcuts to custom tasks not yet possible.
+7450|Windows Installer has two times a checkbox to launch after installation
+7451|open with visual studio code , opens the file minimized
+7452|Refresh folder button won't work
+7453|"Tasks documentation for ProblemPattern should explicit mandatory ""attributes"""
+7454|editor.lineHeight or editor.fontSize affects tooltip in editor (screenshot added)
+7455|Click twice to get cursor from terminal to editor
+7456|Javascript sintax highlighting stopped due to for with &&
+7457|Current Nightly Version?
+7458|Prevent editor pane from scrolling so far
+7459|Save file even without file changes - so that Nodemon, Gulp, Chokidar and other file watchers restart
+7460|Drag and drop TypeScript file does not move associated .js and .map file
+7461|Not enough contrast on the background of the selected lines in menus
+7462|Error: NativeScript CLI not found
+7463|Diff is broken
+7464|Unverified breakpoint
+7465|Code completion suggestion disappears after you start manually typing it
+7466|Unwanted Formatting of JS1.7/ES2015 Destructuring Assignment Pattern
+7467|Rename Symbol goes to undesired places
+7468|JavaScript syntax highlighting - ternary operator and string literal
+7469|Arrow keys dont work in windows terminal window when running yeoman
+7470|No call stack shown if one frame refers to source that doesn't have a file name
+7471|"No IntelliSense for ""export from"" syntax"
+7472|Php syntax highlighting in dark (defaul dark) theme
+7473|Integrated Terminal consumes a lot of memory
+7474|Editor font-family 'Droid Sans Mono' is not working without installing the font on OS
+7475|SyntaxError: Unexpected identifier error in integrated terminal
+7476|Auto reveal the file in errors view on open
+7477|IntelliSense tooltip is not growing with more and larger text
+7478|"Timeout due to certificate error during ""ext install"""
+7479|Common breakpoint operations should be available in the command palette
+7480|Added .dsql and .psql filetypes
+7481|VSCode/CodeHelper process is blocking folders (Cordova)
+7482|"""{git}{hg}"" in termal window output"
+7483|Reveal in Explorer does not bring the File Explorer window to the foreground
+7484|Issue When Committing Changes
+7485|TypeScript syntax highlighting not working
+7486|Prefill reported issue body with version and OS when triggered from menu
+7487|./scripts/code.sh crashes when '1' is the first arg
+7488|Prefill new issue via Help > Report Issues
+7489|Only update terminal theme CSS if the theme has changed
+7490|Reduce specificity of terminal selection rules
+7491|[coffeescript] syntax coloring support for ES6
+7492|Add multiple terminals
+7493|Provide commands to split the terminal
+7494|Installation of extension only works if home-data-dir already exists
+7495|Group level commands when tabs are disabled
+7496|support for long / asynchronous call stacks in Node.js debugger
+7497|Paste in 64bit PowerShell Terminal duplicates text pasted.
+7498|VS Code crash and locks guest VM - running on linux through virtualbox
+7499|code --install-extension fails when ~/.config/Code/User/ does not exist
+7500|ctrl+r is causing the window to reload in latest master

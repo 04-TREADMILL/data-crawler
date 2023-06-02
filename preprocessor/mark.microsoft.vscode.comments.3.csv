@@ -1,0 +1,99 @@
+201|@khagesh what language you are writing?|0
+202|This is a known issue with the Electron update we did. We plan to fix this in the next update when Electron has advanced.|0
+203|+1 this is on our backlog. however you will not be able to run tests without having a windowing system because in order to provide the VS Code APIs for the tests we still need to open a window.|0
+204|@tomlarkworthy for this to work you will need to set the `typescript.tsdk` property (in preferences) to a 1.7 TS version. Are you doing that?|0
+205|@Firehawke how about an extension for this :)|0
+206|Sorry, I'm Chinese and poor English, I just said, The 0.10.1 update cover the file what I edited the snippets.json in the Emmet. So I need to edit it again. Is it can improve?|0
+207|@luisrudge yes this is currently not supported.|0
+208|Sounds like out of memory to me.|0
+209|Improving the debug console (including word wrap) is a top item on our backlog.|0
+210|"Closing, we have instructions for adding ""code"" to the path."|0
+211|@bpasero Sorry, I'm Chinese and poor English, I just said, The 0.10.1 update cover the file what I edited the snippets.json in the Emmet. So I need to edit it again. Is it can improve?|0
+212|Thanks|1
+213|@gwynjudd is this happening when you leave Code running over night e.g.?|0
+214|Great! Thanks for the response, I'm looking forward to the next update.|1
+215|Not exactly a seamless user experience is it and seeing as the other editors provide this for you out of the box and @egamma considers it a feature I'd ask you to reopen this  On Thursday, 19 November 2015, Benjamin Pasero notifications@github.com wrote:  > Closed #77 https://github.com/Microsoft/vscode/issues/77. >  > �?> Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/77#event-468858987.|0
+216|@male110 我觉得php的代码提示功能已经很强大了啊|1
+217|"Hi @bpasero , @karl20888 has modified the default snippets. After he updated the vs code to version 0.10.1, he lost the modification. He suggests that could he overwrite the default snippets using ""User"" or ""Workplace"" snippets,  just like the way we overwrite the default settings."|0
+218|same problem here.|0
+219|Yes that's when I've noticed it. When I login in the morning it has happened.|0
+220|Translation:  the intellisense for php is not comparable to what phpStorm has to offer. There is no support for variables.|0
+221|I have this as well. With windows 10 at 125%, fonts start off looking clear, then become blurry after several scrolling.|0,
+222|No I was not! Thanks, it all works!|1
+223|OP was complaining about the lack of PHP supports like variable completion, in comparisons with PHPStorm. And he considered vscode an experimental product, not ready for serious use.  This sounds more like a discussion rather than an actionable issue report.|0
+224|No review?|0
+225|Duplicate of #69|0
+226|![image](https://cloud.githubusercontent.com/assets/5619582/11265652/b9798152-8ea6-11e5-9a04-ee1846a3f20a.png)  this is how my task manager looks at VSC freeze|0
+227|Thanks! :+1:|1
+228|+1 for python support, those might be expected  - Python / Django/ Flask debug - OmniComplete for method, class, functions etc. - On the fly syntax check for missing definition - Import of module suggestion. - Go to definition / Find reference of current method / class / function etc.|0
+229|@aeschli isn't this fixed?|0
+230|This is valid and I want to fix it.|0
+231|This is very hard to understand, can you maybe rephrase?|0
+232|Actually, thanks for this. We no longer use that package, since we moved to Inno Setup.|0
+233|@ywmail Thank you for your translation!|1
+234|Yes this is fixed, I verfied|0
+235|"@joaomoreno has modified the default snippets. After he updated the vs code to version 0.10.1, he lost the modification. He suggests that could he overwrite the default snippets using ""User"" or""Workplace"" snippets, just like the way we overwrite the default settings."|0
+236|Sounds like a great opportunity for an extension, @buzinas ;)|0
+237|"Same problem here, none of the hacky ""fixes"" I've found around the internet seem to help either. Is renaming our files to use the IDE properly really our only option at the moment?"|-1
+238|"+1  It's wired for me, in some files in my project it's work in others not. I'm using a the `jsconfig.jscon` without a file configuration. Sometimes it works for a few hours and then the ""This can only be used with ES6. Make sure to have a jsconfig.json-file which sets the target to ES6"" error comes back."|0
+239|"That's interesting. After installing the new version on **Windows 10** with a 4k 28"" screen set to 175% scaling, I had the impression that the text rendering got **better** than with the 0.9.1 release (which was still slightly more blurry than rendering in native apps like normal Visual Studio or Sublime)."|0
+240|@alefragnani one more question, is there a way to move the cursor?  Say for the sample code you posted:  ```     // current editor     const editor = vscode.window.activeTextEditor;      // check if there is no selection     if (editor.selection.isEmpty) {       // the Position object gives you the line and character where the cursor is       const position = editor.selection.active;        // move cursor to this new position?       var newPosition = position.with(position.line, 0);     } ```|0
+241|:+1:|1
+242|I don't think this is supported. You can, though, define a new command in an extension which simply calls two other commands. You can then assign a keybinding to that command.|0,
+243|@anibali AFAIK It is...  Once upon a time I replied them on twitter for asking jsx support, and they said they were working on getting it better just a start.|0
+244|[It's a setter!](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/api/common/pluginHostEditors.ts#L327)|0
+245|@jrieken The API should probably indicate in the doc comments what can be set.|0
+246|[crash.txt](https://github.com/Microsoft/vscode/files/38766/crash.txt)|0
+247|@joaomoreno repros with Atom 1.2.0?|0
+248|No. 🌧|0
+249|Had test. It won't appear in OS X. How about reinstall VSCode?|0
+250|:heart_eyes:  Perfect!   ```         const editor = vscode.window.activeTextEditor;         const position = editor.selection.active;          var newPosition = position.with(position.line, 0);         var newSelection = new vscode.Selection(newPosition, newPosition);         editor.selection = newSelection; ```  +1 on the docs to denote setters.|1,
+251|Hi **@zhengqm**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;|1,
+252|same issue, but it could be triggered by ctrl + space|1
+253|"To those experiencing font blurriness, this is an issue I have with all chromium-based apps on Windows 8.1 (and will likely never be fixed). A workaround is to add the `--force-device-scale-factor=1` argument when launching vscode. The whole editor will then be very small, so you'll need to adjust the `""editor.fontSize""` user setting (I have it on 18) to make your code more readable.  I haven't found a way to adjust the size of UI-elements as well; vscode doesn't seem to have custom app theming or css like Atom, but for me the interface is still readable, though for a very high-dpi screen it might not be."|0
+254|thanks :+1:|1
+255|@RafaeI In what language do you see that?|0
+256|Hi **@punker76**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;|1
+257|@OshitOkill VS Code does have jsx support now. It just could not parse JSX syntax in plain js files. This is assigned to a developer now, so I guess let's just wait.|0
+258|@jrieken python and c++|0
+259|I have the same issue in CoffeeScript and React (JSX) files.|0
+260|:+1:|1
+261|"I looked at https://code.visualstudio.com/docs/editor/tasks_appendix  and apparently some default changed or was added i needed ""suppressTaskName"":true,  so correct tasks.json  ``` json {     ""version"": ""0.1.0"",     ""command"": ""zsh"",     ""isShellCommand"": true,     ""args"":[""-c""],     ""suppressTaskName"":true,     ""tasks"": [       {         ""taskName"": ""up"",         ""args"": [""rsync -avicCFF --no-t --no-p --no-g ./ bastiaan@front:~/front/; echo DONE;""],         ""isBuildCommand"": true       }     ] } ```"|0,
+262|"Just installed version 0.10.1, in a PHP project if I write a variable in a line and in the next line I try to autocomplete it via CTRL+SPACE a ""Loading..."" message appears, and the variable is never autocompleted."|0,
+263|@jrieken just reinstall it ,still don't work. could only see the suggestions by ctrl+space|0
+264|We should make the underlying command API/documented|0
+265|:+1:|1
+266|I've reinstalled it. The issue is still there.|0
+267|All properties that don't have the `@readonly` tag can be set.|0
+268|By @egamma in preview repo:  > This is intentional, we only enable eager 7x24 Intellisense when the suggestion are 'intelligent'. When you only get word based completions we do not enable 7x24.  Maybe that's issue?|0
+269|@joaomoreno Looks like an installer issue and left-overs?|0
+270|That isn't a finite list but depends on the installed extensions. Use `languages.getLanguages` (https://code.visualstudio.com/docs/extensionAPI/vscode-api#_languages) to get a list of all installed languages|0
+271|when using the `import Thing from 'module'` pattern, export must be in this form `export default ThingScheme`  http://www.2ality.com/2014/09/es6-modules-final.html|0
+272|:+1:|1
+273|Correct, a recent version of nodejs is required.|0
+274|Hi **@W4RH4WK**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;|1
+275|Will add a requirement to `package.json`|0
+276|Yes, for languages like TypeScript and C# we have extensions that provide smart completions, for other we do a textual completion. Those we make show less aggressive|0,
+277|"@Krzysztof-Cieslak It works fine in Typescript, so I assume it is related to that. Still: when pressing CTRL+Space I just get perpetual ""Loading..."" as well. (in javascript)"|0
+278|@pheuter What does `dnvm list` print?|0
+279|This is just awesome. :ok_hand: Thanks!|1
+280|@bpasero TypeScript and .tsx files does not support find symbols and find references. Format code does not work for .html, .scss, .ts or .tsx. These are the only file types that I have tried.|0,
+281|I can't confirm this issue, typing in visual-studio-code works without any noticeable delay on my Arch Linux machine:  ``` Version 0.10.1 Commit df352367df2efcfa9d602d471e4e2f42140a0f05 Date 2015-11-17T15:21:23.766Z Shell 0.34.1 Renderer 45.0.2454.85 Node 4.1.1 ```|1,
+282|This might break things.|0
+283|@jeffmcaffer do you have plan to release this change in few days? now I can't install extensions because of this problem.|0
+284|@jrieken Please, could you provide solution to make vscode behave same way as previous version did? Quick suggestion really helps to save time.|0
+285|Good point. You'll need node at least 0.12.|1
+286|I'm running it in a LinuxMintDebianEdition (in a vm) and do not experience this issue, so it is not a generic Linux build issue.|0
+287|Yeah, even in Typescript there seem to be a lot of inconsistencies.|0
+288|@mattn Let's at least try.|1
+289|I've tested it again on the same computer, but on a 15 inch screen and it works ok, without any lag when typing. Only when Visual Studio Code is on a 24 inch monitor the typing is lagging.|0,
+290|Hi @mogemimi, thanks for the fix!|1
+291|@mattn If you get a hold of a machine not behind a proxy, try this: 1. Install the extensions on that machine 2. Zip up `~/.vscode/extensions` 3. Extract it to `~/.vscode/extensions` on the machine behind the proxy 4. Launch Code|0
+292|@joaomoreno thanks.|1
+293|Project-wide type definition references are supported using tsconfig.json. See https://code.visualstudio.com/docs/languages/typescript for the difference between File scope and project scope.  Supporting download of d.ts files is on our list.|0
+294|Duplicate of #167|0
+295|This is a problem with the textmate grammar provided by the TypeScript team. Opened https://github.com/Microsoft/TypeScript-Sublime-Plugin/issues/399|0
+296|@jrieken Same issue here. IntelliSense is working fine for JS but not showing any suggestions for C# file.|0
+297|"I'm assuming that the 15"" screen is the display of your laptop and the 24"" model should be an external monitor, so which connection do you use for the external one (VGA,HMDI, DVI, DisplayPort)? Can you cross check if this problem persists with any other browser-based editor, g.e. [Atom](https://github.com/atom/atom/releases) or [Brackets](https://github.com/adobe/brackets/releases)."|0,
+298|:+1:|1
+299|No idea. Squirrel should do a nice clean update. Is there someone else that still has the broken copy so we run a diff over it?|0300|@khagesh .scss has no formatting support. I just tried HTML, TS ans TSX, all seem to work. - put some unnessary indent in a file - put the cursor in the file, or select the range to be formatted - call format from the context menu   Does your code have syntax errors that might prevent the formatter from parsing the file?|0

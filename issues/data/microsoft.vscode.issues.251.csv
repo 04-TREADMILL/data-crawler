@@ -1,0 +1,100 @@
+25001|#24653 - Adds a new user configuration `extensions.ignoreRecommendations` - which allows user to enable or disable extension recommendations
+25002|Option To Display Current Debug Configuration In Title Bar
+25003|Pass projectRootDirectory to TypeScript
+25004|Return array type's [] gets colorized as green when they shouldnt
+25005|Cannot read property 'toLowerCase' of undefined
+25006|"""files.exclude"" not honored on open"
+25007|Word Wrapping Messes up Line Positions in Latest Insiders
+25008|"`""editor.wordWrap"": false` breaks Toggle Word Wrap behavior"
+25009|Not able to debug using 'Launch' settings using F5 now.we are using old version of Node (v4.5). it was working few releases back
+25010|Zoom editor by mousewheel, can not know zoom level, can not Reset!
+25011|[feature-request] [extension-candidate] Sidebar panel which provides one-click execution of package.json scripts
+25012|Weird screen freezing bug
+25013|Missing indentation for JS when trying IF statement
+25014|Task spinner is misplaced in status bar
+25015|copy with drag and drop still didn't work in 1.11.2
+25016|can't open multiple windows from command script
+25017|Typo in documentation for DocumentFilter
+25018|#25054 Fix typo in vscode.d.ts
+25019|How To intellisense code of file by user writed.
+25020|"""Could not install typings files for JS/TS language features. Please ensure that NPM is installed"""
+25021|Snippets Not Handling Mirrored Tabstops Correctly
+25022|Terminal CMD+K Not Clearing Integrated Terminal
+25023|hello sir ,
+25024|integrated terminal copies with linebreaks
+25025|`terminal.wordWrap` & `terminal.wordWrapColumn` [feature-request] [settings]
+25026|Add Ignore Button to NPM Not Installed Error Message
+25027|qnas
+25028|"Please make ""sudo code <filename>"" seamless"
+25029|Scroll up/down with touchpad does not work
+25030|VSCode hungs every time drag a file from one folder to another
+25031|VSCode opens and closes two times on opening for the first time
+25032|[Extension] Allow users to use custom icons over sets?
+25033|Missing button for deleting individual watches
+25034|problemMatcher support multiline messages
+25035|Git file diff viewer: accept/discard chunks of code
+25036|Folding not working properly.
+25037|Add command to delete from cursor until end of line
+25038|Feature Request: Alternative Language ID for Extensionless files
+25039|Duplicate tab opens on any keypress unexpectedly
+25040|Inline css style autocompletion stopped working with last update
+25041|replace all with regexp (the end of row $)  not working properly
+25042|Formatting document and renaming variables no longer working
+25043|App doesn't open text file in Explorer context menu
+25044|"[C#]""ctor+TAB+TAB"": Generates constructor BUT fails to caption the actual class name & instead displays generic text ""ClassName(Parameters)"""
+25045|Integrated Terminal failed to launch
+25046|VSCode image diff should show previous and new image
+25047|Can't use ASM language
+25048|terminal format problem
+25049|Add details to wiki on how backspace works in Korean IMEs
+25050|Implement blank operations
+25051|Provide for cancellation of extension download
+25052|"TS server error: ""Cannot read property 'modifierFlagsCache' of undefined"""
+25053|Debugging multiple files in node.js from one window - selection option disappears after restarting one of the debugged processes
+25054|Autocomplete in Visual Studio Code not working correctly (SASS,CSS,LESS)
+25055|Command to open the old keybindings.json side-by-side view
+25056|"Can't clone a git repo, ""Unable to open git.clone: resource is not available"""
+25057|"""All Exceptions"" doesn't de-activate after unchecking it"
+25058|Monokai theme - C functions are green instead of blue
+25059|Treat folds the same as normal lines for cursor movement
+25060|Empty arguments in launch commands are now properly escaped
+25061|installing powershell extension for VS code removes run script context menu
+25062|Disable Autoclosing Pairs for Quotes in c++ strings and comments
+25063|First key press ignored
+25064|No IntelliSense for Node modules like `path` when using `let Path = require('path')`
+25065|Light Theme doesn't use light activityBarBackground
+25066|Exception Peek UI should be placed on the top frame with source
+25067|VS Code handles some characters incorrectly for Powershell script files
+25068|Release/1.11 Visual first level embed
+25069|[Loc] Request to add Brazilian Portuguese language in VS Code
+25070|[Loc] Add top community localization contributor to release notes
+25071|Suggestions in comments on trigger characters despite setting
+25072|Keyboard keys stop working when I change the user and workspace settings!
+25073|in my c project(large),when edit triggers,it seems vscode run heavily, and the editor seems no response for seconds
+25074|Add setting to disable NPM Not installed Warning Message
+25075|Add Setting to Enable JavaScript TypeChecking Checking in Implicit Projects By Default
+25076|Polymer and Mixin
+25077|Modify Monokai theme to highlight current line using a surrounding box
+25078|Add Setting to Enable JavaScript TypeChecking Checking in Implicit Projects
+25079|[html] configure initial indentation for script/style contents
+25080|Shortcut Stopped Working After Last Update
+25081|"js debug: ""SyntaxError: Invalid or unexpected token"" shouldn't be prompted"
+25082|"about keymaps (""ctrl+p"")"
+25083|vscode open a symbol link folder will redirect to the true path.
+25084|Configurable MAX_IMAGE_SIZE
+25085|After installing VS the logo doesn't show up
+25086|the setting 'formatOnSave' dosen't work.
+25087|Flicker during side-by-side markdown editing/previewing
+25088|[Windows] Terminal view content isn't correctly placed
+25089|Editor's code collapse does not work with upper code already collapsed
+25090|Quiet light theme breaks activity bar icon contrast
+25091|Tab (for completion) in integrated terminal moves focus out of terminal
+25092|Slow auto complete speed for custom modules python
+25093|Encoding UI for searching in files
+25094|[folding] show folding region in gutter with lines
+25095|Terminal text display error.
+25096|Icon overlapping filename in VS Code titlebar on this version of OS X (10.9.5)
+25097|Error: Cannot find module 'array-union'
+25098|Can't --inspect into a remote node container (port translation not working)
+25099|Auto import quickfix is not shown if the symbol name of the export is already used in a file
+25100|Unable to perform go build

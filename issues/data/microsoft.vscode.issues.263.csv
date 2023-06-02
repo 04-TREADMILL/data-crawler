@@ -1,0 +1,100 @@
+26201|Exclude symlinks when setting `files.watcherExclude`
+26202|Added Services Submenu for MacOS
+26203|Typescript Language Service keeps dying!
+26204|Use EditorGroupinfo to decide if to swap/reposition suggest widget
+26205|Cursor position not taking into account height of folded code sections when updating
+26206|Suggest Widget doesnt occupy full width in split editor until a slight editor resize
+26207|Open multiple items in a window
+26208|Open multiple project in a window
+26209|[1.12.1] output color highlight does not work in text/x-code-output
+26210|集成终端显示异常
+26211|Update 1.12.1 Broke OTB JSDoc Creation
+26212|Don't include trailing empty lines at end of code folding
+26213|Keyboard shortcuts do not work when input mode is not English!
+26214|Update icon in explorer (or search,...) when language mode changes in editor
+26215|keyboard input + copy paste stop working sporadically
+26216|Change to bin/code script not using realpath.
+26217|[Bug report]Text rendering error in Terminal
+26218|LANGUAGE FORMAT: Scala Source Code Formatting not available
+26219|dragging files in file explorer causes vscode to freeze
+26220|"""Git:Publish"" to ""Git:Publish Branch"" #26133"
+26221|"Theme: ""No results"" in find widget is using hardcoded color"
+26222|[Vue] Show correspond html close tag when click on start tag
+26223|Ctrl-clicking a link shows 'no definition found' error
+26224|Broken icons when open project from terminal
+26225|[Feature-request] To be able to couple files together i.e angluarjs-controller <-> angularjs-template and show them side by side
+26226|Markdown Preview
+26227|TypeScript: Bad `return` syntax coloring
+26228|Bug: Add Cursor Above/Below
+26229|"Cannot use ""<?php"" as user snippet prefix anymore"
+26230|"Add ""don't show again"" functionality to messages..."
+26231|"Add ""list.hoverForeground"" and ""list.focusForeground"""
+26232|window.newWindowDimensions not working
+26233|Empty file isn't editable
+26234|"Why not ""find/replace"" with mulitiline textbox like SublimeText?"
+26235|Linux: Open in containing folder does not work
+26236|Setting for controlling the auto-expand of suggest docs to side/below
+26237|Debuging, error linking to file and row by lines number from output [DEBUG CONSOLE]
+26238|Highlight modified tabs
+26239|Keyboard: Space -> close the intellisense suggestions panel or insert a space
+26240|Terminal: adopt scrollbar colors
+26241|Git diff editor not closing after commiting
+26242|Alt+i keybinding
+26243|[json] use the schemastore catalog
+26244|JSDoc @deprecated not working for .d.ts file
+26245|console cmd.exe show error
+26246|Docs sometimes appearing on left which make it quite confusing
+26247|Terminal rendering completely messed up
+26248|Suggest documentation formatting issue
+26249|Command palette: allow matching in any-word order
+26250|Add a setting to define how the initial first window should size
+26251|issue with editor.formatOnPaste on html files
+26252|[theme] add text colors
+26253|TS Server crashes once TS file is open
+26254|Welcome Page should assist user configuring VS Code
+26255|HTML Format: Unformatted attributes setting
+26256|workbench tabs tabs out of reach possible to add (slide or split)
+26257|Conflict between theme colors and user preferences
+26258|Stop Ctrl + C of complete line on empty cursor
+26259|can't format selection with ctrl+f ctrl+k even tho it's set in the preferences
+26260|regression in new IntelliSense sorting
+26261|Provide insiders builds in a yum repo
+26262|Files treeview control displays incorrect information when scrolling while adding a new file
+26263|The front part of file paths on debug console are ignored
+26264|@font-face is not being syntax colored correctly
+26265|Select all (cmd+a) does not work in search box
+26266|Irrelevant snippet has precedence over user snippet?
+26267|Editor does not scroll beyond last line
+26268|Refactor when moving files
+26269|Support arbitrary data to be looped from one debug session to a restarted session
+26270|Update many times,still 1.11.2Version
+26271|Store and restore view state for ResourceEditorInputs
+26272|Linux: commands with keybindings ignore when clause of the command if defined
+26273|Code Folding won't be remembered after latest update. (fixes #26157)
+26274|Settings shortcut shows name instead of symbol
+26275|Ask to replace dirty file when opening it again explicitly
+26276|Code Folding won't be remembered after latest update. (fixes #26157)
+26277|Javascript: Snippets sorted to bottom of intellisense popup and not selected
+26278|Suggestions does not track word when wordWrap is active
+26279|Go to implementation should navigate to .js file instead of typescript type definitions
+26280|Terminal rendering issues
+26281|Is there a bug for F12 of c/c++ plugin？
+26282|SRC folder desapears without a very explicit opt-in/opt-out warning AND confirmation is really not a good and productive experience
+26283|Go to definition fails when maxNodeModuleJsDepth = 0
+26284|Support [line, col] in terminal links
+26285|Profiling Python Code
+26286|'Selected error' highlighting color is not covered by themes
+26287|i cant debug my code
+26288|"Unable to start debugger with ""/bin/bash --login"""
+26289|Error: Command with Adding Initial Configurations
+26290|Default CursorStyle setting in Setting file is shown as number instead of string
+26291|"persistent ""configure excludes"" prompt"
+26292|[html] Javascript intellisense in inline scripts from external references
+26293|Add support for local history
+26294|JavaScript suggestions are currently too intrusive
+26295|mac 平台下 容易死机
+26296|# (Goto Symbol command) doesn't work on macOS
+26297|Feature request: Indicate the number of instances selected
+26298|in find window, cmd+v(paste) problem
+26299|autopep8 installed, does not run
+26300|SignatureHelp Displays Multiline Documentation Differently Than Completion Item Provider

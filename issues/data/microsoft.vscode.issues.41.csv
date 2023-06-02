@@ -1,0 +1,100 @@
+4001|[folding] Make it more obvious where a region is collapsed
+4002|Git editor and -w / --wait mode for Code
+4003|jsconfig.json guidance
+4004|[yaml] string with = and '{',',' break syntax highlighting
+4005|"Missing command to set focus to ""currently open project"" in side bar"
+4006|Leak: extfs uses unbounded cache for unicode normalization
+4007|Option to have debug sidebar not appear when starting/restarting debugging
+4008|Configure Excludes minor UI polish
+4009|[html] Expose the HTML formatter options as user settings
+4010|Delete on subst drive doesn't work anymore
+4011|asking to remove alias from .bash_profile
+4012|massive leakage with search viewlet
+4013|Refreshing secondary window when debugging an extension causes debug sidebar to open
+4014|Test localized product
+4015|Test new tasks.json creation
+4016|Error while debugging extension : Attribute 'outDir' ('out/src') is not an absolute path; consider adding '${workspaceRoot}/'
+4017|Open file in project by typing partial name
+4018|Test new Java/Type-script settings
+4019|Test release notes notification
+4020|Test extensions status bar widget
+4021|feature request: elastic tabstops
+4022|Debug adapter can pass a 'More Information' url to the frontend
+4023|Debugger: On stopping event, Code does display any source location if top stack frame does not have source information.
+4024|Debug: always load default option ...
+4025|[PHP] Debug add to watch doesn't show value of array item
+4026|Typescript syntax highlighting breaks when method return type has a number in the name
+4027|[PHP] Running format code with leading indented php tag deletes php
+4028|Debugging Session Start Button should prevent double submission
+4029|[PHP] Poorly formatted php does not hit set breakpoints
+4030|adding telemetry to json extension
+4031|Ctrl+C on blank empty line copies new line and overwrites clipboard
+4032|Format Code appears to indent differently than expected
+4033|Format Code is not changing when .vscode/settings.json is changed
+4034|JavaScript Missing Type Validation in 0.10.10
+4035|Auto Indent / Code Formatting / Beautify
+4036|SCM telemetry events are not prefixed
+4037|Create rpm package test plan
+4038|CSS property value syntax highlighting test plan
+4039|[Debug] Hover tooltip stays after leaving the editor window
+4040|Changing the debugging configuration while debugging doesn't work
+4041|Debug console shows even if externalConsole is true in 0.10.10
+4042|[Themes] Holding Up or Down key when selecting a theme hangs the application
+4043|Support virtual folder/file entries in the file view which are managed by extensions
+4044|[Node.js] Debugging Node.js stops responding after a number of step-over requests
+4045|F5 doesn't start program at all
+4046|For-loop in JavaScript is colored turquoise/blue
+4047|Code instances lay around alive after delegating to already running instance
+4048|What is the correct behavior of running Code 0.10.10 from the command line?
+4049|Documentation suggestions
+4050|workbench.files.action.closeFile closes all split editors, not just the active file
+4051|Should scripts/code.sh should go through cli.ts?
+4052|[themes] Add styles to git commit changed, deleted, inserted
+4053|Problem passing args to PowerShell program in launch.json
+4054|Format Code broken with JavaScript after upgrade to vscode 0.10.10
+4055|VS Code provides odd hover expression to debug adapters if the expression has '.'s
+4056|[Javascript]Wrong Syntax Highlighter
+4057|[C++] syntax highlighting is not correct
+4058|Char M and N are not displaying properly in intellisense with default theme and screen resolution 1280X800.
+4059|Cursor's behavior is broken in Handlebars file.
+4060|get the error tips  by ...state
+4061|Pressing Enter after Copyright maintains space:
+4062|Test HTML formatter options
+4063|JavaScript syntax highlighting fails with ternary operator
+4064|Test TypeScript and JavaScript grammar updates
+4065|Test new folding actions
+4066|Errors detected while running the preLaunchTask on every task run
+4067|TypeError: _this.task is not a function
+4068|Format Typescript info on symbol/error hover
+4069|"Separate section for ""errors and warning"" output"
+4070|Streamline extension recommendations
+4071|fixes copyright compare on win when in crlf mode
+4072|Slight freeze / lag after the first [Tab] key press
+4073|Provide *.desktop file for help create an icon launcher easily in *Linux
+4074|Better Support for ESNext
+4075|Solarized color scheme does not correctly highlight certain keywords
+4076|Cursor placement using mouse on tab characters
+4077|'Project' management via extension?
+4078|ES6 syntax highlight seems not working
+4079|Startup performance testing
+4080|Incorrect rendering of key bindings with Spanish keyboard on linux
+4081|TS syntax highlight regression
+4082|Need user preferences for near-invisible widgets
+4083|OS X: Control-click on breakpoint doesn't open context menu
+4084|Add support for emmet in JSX constructs inside .js files
+4085|AutoSave Feature
+4086|Preview the changelog when looking for outdated extensions
+4087|Support npm auto detection
+4088|Column select
+4089|Intelli-sense accessibility
+4090|Editor Ruler doesn't cover additions to the file
+4091|Install-upgrade extension action is not user friendly and user can trigger same action multiple time
+4092|[folding] Visual Studio-like code folding decoration
+4093|Syntax Highlighting Error for String Literal
+4094|No red dot for function breakpoint on UI when hit and break
+4095|Coloring broken on startup
+4096|Request: Linter messages are shown without mouse hover
+4097|[html] Why editor.action.smartSelect is not working in html file?
+4098|Test Tour: Go
+4099|Reload when debugging an extension does not always reconnect debug session
+4100|Distinguish extension install vs. update in telemetry

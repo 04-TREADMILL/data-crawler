@@ -1,0 +1,100 @@
+16801|Regroup view menu
+16802|Hot Exit: Very difficult to get out of a bad search/replace
+16803|Save password for ssh connection to git
+16804|Hot exit: automatically restored window has lowercase workspace path
+16805|"Support to show ""unassigned"" keybindings in the release notes editor"
+16806|fixes #10481
+16807|set cursor above/below should also work in a readonly editor
+16808|Keybinding service should not dispatch on modifier keys
+16809|Search in folder with special characters `{}` yields no results.
+16810|Double edit range with snippets
+16811|--extensions-dir not accepting relative path on Windows
+16812|Filter unbound commands from watermark
+16813|Windows PowerShell should be the default terminal program on Windows
+16814|Update Seti-icons to match Seti-UI
+16815|"Intellisense reports type of imported modules as ""import <...>"" instead of actual type"
+16816|[Feature] Copy entire output from Debug Console
+16817|Most commonly used settings cause workspace problems
+16818|"Completions list displays never-ending ""loading..."" when ""Configure Excludes"" warning is enabled"
+16819|Settings editor hangs when opening from problems view
+16820|Window laggy when resizing
+16821|Configure excludes action fails ungracefully when you delete jsconfig.json
+16822|Just my code debugging is very slow
+16823|Stepping into code that is skipped via skipFiles looks like it's running when it's actually paused
+16824|"Documentation for ""exclude"" might frighten some JS devs"
+16825|jsconfig creation action in status bar disappeared?
+16826|"Just my code ""skipFiles"": [""!node_modules/**""] incorrectly skips files"
+16827|"Allow to search commands related to problems view with ""error"" or ""warning"""
+16828|More specific more specific Configure Excludes message
+16829|Debug: Having skipFiles will skip native node APIs when using node but not with node2
+16830|Allow to configure files.exclude from the explorer
+16831|Just my code debugging is ignoring a skip file in the workspace root when using node
+16832|Errors from TextModelResolverService can have PII
+16833|Moving cursor across folded code should not automatically unfold
+16834|[Feature Request] Loading git executable from WSL
+16835|Improve exception experience
+16836|Add a few casts to work around issues in ts 2.1.4
+16837|"""Unable to write settings"" message bar should have button to open User Settings"
+16838|Create `jsconfig.json` in Configure Excludes if it does not exist
+16839|Status Bar doesn't indicate a watch-task
+16840|Tasks.json Shell Command cannot expand asterisk to match file
+16841|"""Toggle Activity Bar Visibility"" in Zen Mode Does Nothing"
+16842|High contrast mode - top of selection box not highlighted when over over first extension in list
+16843|high contrast mode - bottom border of git staged changes count badge is cut off
+16844|HC theme: revisit hover feedback in areas where you can click
+16845|high contrast mode - inconsistency between viewlet icons and sidebar icons
+16846|high contrast mode - border in editor overlaps text
+16847|Adopt TS 2.1.4 in TS Extension
+16848|User Settings in Problem view error
+16849|high contrast mode - info bar buttons should have borders
+16850|Menu items should get greyed out if they are are no longer applicable
+16851|high contrast mode - settings icons on extension items in Extensions view not very high contrast
+16852|"git sidebar doesn't refresh after adding ""large folders"" to .gitignore"
+16853|Use No Implicit Any In TS Extension
+16854|'undefined' shows up next to imports in symbols view
+16855|"""Unable to write user settings"" info bar should include a link to user settings"
+16856|Cursor position is wrong after go to definition, then go back, twice
+16857|Should not be possible to open 683 instances of VS Code in one user action
+16858|"regression? ""launch program"" selection menu opens up to side"
+16859|Diagnostic Hover improvements request
+16860|Two problems feedback：1:(“window.openFilesInNewWindow”) 2:(.d.ts)
+16861|lagging, unresponsive window due to JavaScript intellisense?
+16862|Markdown internal links not render correctly
+16863|Autocomplete with dash
+16864|Stage lines command does not honor autocrlf
+16865|I want to Debug at the Integrated Terminal
+16866|(?<=:).+ Is Considered As An Invalid Expression
+16867|JS files are not being treated as independent units by default
+16868|Retain case in workspaces.json paths
+16869|Cannot Debug any .Net Core application
+16870|Support for toggling case of selection along the lines of IntelliJ
+16871|Disable text file backups when files.autoSave is afterDelay
+16872|VS debug console does not debug Destructuring assignments
+16873|Open Output window to the side?
+16874|When input non-english like Chinese the input box will blink
+16875|shrinkwrap update for css, json and html
+16876|shrinkwrap update for js and markdown
+16877|Configuration service does not emit event on deletion of .vscode folder
+16878|Selecting a different launch config should not launch it
+16879|Bracket write igrone
+16880|Support to navigate to the extended jsconfig/tsconfig.json
+16881|banckground color broken
+16882|[regression] Cannot navigate from output panel to editor anymore
+16883|Add cursors to end line should not be in selection menu
+16884|[regression] TypeScript word highlighter (provideDocumentHighlights) now highlights entire strings
+16885|Seperate File Uploading in Marketplace for insiders
+16886|Quick fix light bulb
+16887|Switching back from custom to native title bar style has title bar rendering issues
+16888|Source location hover in CALLSTACK view shows bogus path for internal modules
+16889|In Integred Terminal, press Tab to next file, leaves blank space and traces
+16890|Overwritting closing statement / braces
+16891|Having an invalid configuration in compound behaves randomly
+16892|Changing a decoration's options is no longer reflected in the view
+16893|Just my code: introduce a magic path for core modules
+16894|Git clone input message should remain same always
+16895|sorting of default settings is bogus
+16896|Allow to show diff of current file to unsaved changes
+16897|Clicking on link doesn't seem to do anything
+16898|DefineKeybindingWidget needs to extend from FloatinClickWidget
+16899|Unable to preview markdown
+16900|Change renderLineHighlight default to match 1.7.2

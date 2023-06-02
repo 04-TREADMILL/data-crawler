@@ -1,0 +1,100 @@
+22601|Avoid/Undo Broken Extensions
+22602|Allow window title color to distinguish between multiple windows
+22603|C# / Unity code using LINQ breaks the debugger
+22604|No Scrollbar Buttons in Editor.
+22605|"Indentation feature request for ""Space"" key"
+22606|i wonder if there is a method to convert  the offset of the cursor to the editor postion
+22607|Bug - Save All Files button
+22608|Tilde in url in terminal results in bad url
+22609|Crash while searching 'markdown' extension
+22610|Debugging OSS builds fail after 3-7-17 master branch code, silent failure, cannot breakpoint
+22611|VSCode OSX crashes immediately on opening after latest release 1.10
+22612|something wrong when using terminal
+22613|Allow to resize views with keybindings only
+22614|Cannot close miniterm
+22615|Virtual Box - Ubuntu LTS - Virtual Machine
+22616|Typescript - add missing import
+22617|new issues
+22618|Can you support phpdoc comment
+22619|Freeze when dealing with long (unbreakable) strings
+22620|Minimap's char width for full-width characters is incorrect.
+22621|Support to Auto hide panels
+22622|Incorrect syntax highlighting when a varible name ends with 'var' in Go mode
+22623|Adopt #22377
+22624|Adopt #19078
+22625|i do not have a tool bar or backspace funtion
+22626|Remember Language Mode for re-opened hot-exit code
+22627|Indentations getting lost while copy pasting
+22628|Use Settings Editor Viewer for Editing Keybindings
+22629|Allow snippets to control the scope to which they are applicable
+22630|First cut of theming inside the workbench
+22631|Optionally Run Language Servers/Extensions using Windows Subsystem for Linux
+22632|Recognize altKey correctly on macOS
+22633|Restrict Intellisense
+22634|Convert indentation on save
+22635|Improved rendering of Seti icons
+22636|In editor release notes doesn't open external stylesheet
+22637|Added an option to disable the mnemonics in the main menu
+22638|Interacting with vagrant from the integrated terminal doesn't work.
+22639|can't go to file / file in 'Problems' tab with TSC build task
+22640|solarized light: bring back diff color rules
+22641|PowerShell PSEdit support in Integrated Terminal
+22642|vscode terminal difficult to use!
+22643|Feature request: Select closing bracket, show function/array/etc... opening tag with indent-guide hover-highlight.
+22644|after i finish 'npm run watch',how can i start vscode.i need help.
+22645|Quick Info missing descriptions for own imported functions, objects and primitives
+22646|Visual problem when dark color themes are used
+22647|Pop-up Hints showing incorrect JSDoc description or no description for variables/constants referencing a function
+22648|language specific editor.wordBasedSuggestions setting doesn't override the global setting
+22649|SCM/Git sort changes list by name
+22650|Bug: Format Document
+22651|IDE visual problem
+22652|fix for #22325: Support title from xterm.js
+22653|Double clicking a symbol starting/ending a string highlights the adjacent quotes
+22654|The setting `editor.wrappingColumn` has been deprecated in favor of `editor.wordWrap`.
+22655|editor.selectionHighlight set to false not respected in .scss files
+22656|Copy-paste doesn't work properly with Unix-style line endings under Windows
+22657|Focus current symbol when opening symbols list
+22658|vscode debug values should take into account source map names
+22659|Problem executing shell commands in build task
+22660|Output in terminal ignores line/column numbers
+22661|"The customized ""path"" cannot be used by debugger"
+22662|Opening strings such as template literals in a new buffer, synced with original
+22663|Weird gray rectangles in file picker and git view
+22664|Cmd-A doesn't select all text in the save dialog save-as field
+22665|Set default save location to that of most recent file
+22666|Feature request to enable CodeLens to appear above decorators (TypeScript)
+22667|scrollbar consumes mouse clicks even when scrollbar is not present
+22668|Evaluating something collapses expanded items in variables pane
+22669|Source Control does not work anymore
+22670|Feature Request: Configure VSC to stop auto-restore and build of .NET Core projects
+22671|Use a stable sort when sorting Edits
+22672|Find in Files partially broken
+22673|ftp graphical
+22674|"Extensions tab on Mac yields ""Cannot read property 'call' of undefined"""
+22675|file`s content changed occasionally
+22676|feature request: continue press ctrl+shift+i to select line up
+22677|Show dirty indicator close to file when tabs are disabled
+22678|Intellisense behavior when using import and require
+22679|Strange error - Unable to open 'undefined' - File not found (/undefined)
+22680|External file drag and drop to the editor project
+22681|Extension icon seems like need a rounded corner.
+22682|[bug] Fold code is the wrong implementation
+22683|vsce publish timeout
+22684|Fix terminal color key lookup.
+22685|Moving text cursor cause an incorrect position in Chinese
+22686|[SCM] Ability to edit while commit is in process is misleading
+22687|"""Reveal in Explorer"" on a tab crashes Explorer"
+22688|Cannot launch vscode-languageserver-node-example server under debugger
+22689|feature request: when focus in the file explorer, press a-z to navagate to the file like in windows file explorer
+22690|Add ripgrep support
+22691|Case preserving but case insensitive file handling
+22692|consuming 100% cpu on windows server
+22693|[sql] Add more keywords to the default highlighter
+22694|Mac OS: Cannot select non-contiguous lines of text
+22695|No Smooth Scrolling via Touchpad
+22696|VSCode run very slow inside virtualbox VM + windows 10 guest os
+22697|The Display Language to receive the wrong values
+22698|Contributed problem matchers must use ${cwd} not $cwd
+22699|"TypeScript ""Add missing import"" root path and quotes configuration"
+22700|Syntax errors when reexporting default in index.js file

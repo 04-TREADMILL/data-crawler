@@ -1,0 +1,100 @@
+4101|First debug start has no effect if 'preLaunchTask' is watching
+4102|Decide on our version in package.json for March
+4103|[tslint][Extension] Unable to install tslint extension from the extension recommendations list.
+4104|Suggest: Show Outdated Extensions => Show Extension Updates
+4105|How to generate xxx.i18n.json
+4106|Animate extension status bar when there are messages
+4107|Extension status bar animation does not fit well
+4108|Extension Errors are clipped and stacked
+4109|We changed our default indent from spaces to tabs and should announce this properly
+4110|Release memory when intellisense hides
+4111|Add npm snippet to task creation templates
+4112|Indentation: guessed 4 spaces when it should be 3?
+4113|Indentation: Indicate to me mixed whitespace
+4114|Add something besides command line option to configure locale
+4115|Indentation: Weird indentation in this case
+4116|OS X: VS Code does not honor locale
+4117|Indentation: Toggling view scrolls down a bit
+4118|Indent using Spaces / Tabs cannot be invoked more than once on a given file
+4119|Leakage when refreshing explorer
+4120|Indent: Configured tab size is not in the list if > 8
+4121|Debug console is closed when reloading extension host window
+4122|-w/--wait not working on ubuntu from zip
+4123|Output gets buffered unbounded
+4124|Output scheduler needs to check condition within to prevent race condition
+4125|Opening output panel should flush buffer without delay
+4126|Can't deal with C# files(.cs)
+4127|Windows: Pressing stop does not close extension development window in some cases
+4128|'null' shows in title
+4129|missing syntax highlights for md-headers
+4130|Column select copy & paste
+4131|First F5 does not seem to have any effect in extension host debugging
+4132|Exception when using --wait and killing the cli before the window closes
+4133|revert file when doing Git clean
+4134|`Create jsconfig.json-file...` action label
+4135|Telemetry error: `Cannot convert object to primitive value`
+4136|Missing colors in some git-rebase-todo tokens
+4137|Release notes notification show even if vscode downgrades to an older version
+4138|`--wait` doesn't return when opening a new window and closing the first one
+4139|Release note link does not respect vscode version
+4140|Improve diff editor title when comparing files
+4141|Keyboard conflicts on Linux
+4142|Deleting an extension does not give immediate user feedback
+4143|Extension icon needs more UI love <3
+4144|NLS - InnoSetup is not localized
+4145|Remove the JS Salsa Migration message
+4146|`-w` doesn't work when there are no windows open
+4147|Closing window that was created with `-w` quits code in OS X
+4148|NLS - Extension error messages are not localized
+4149|Column select shows selection with round corners
+4150|Guidance for editing settings is not localized
+4151|rpm package is missing icon in CentOS installer
+4152|PHP settings documentation is not localized
+4153|Extension installed notification should have a Close action
+4154|Debug UI is not localized
+4155|Maybe `-w` should not spawn Code as a child, when it is not running yet
+4156|Extension errors should be aggregated
+4157|Column select mode spans rectangle in unexpected way
+4158|Time is not localized in last update check message
+4159|Translate 'Untitled'
+4160|[folding] Add limit to the number of folding regions
+4161|Extension in status bar does not indicate when an extension is being uninstalled
+4162|Translate 'Plain Text'
+4163|Mac: Recent files should be split into files and folders
+4164|German translation Issues
+4165|Command line tool installation wants 'code' alias removed, no such alias present.
+4166|Provide a setting to define the `locale`
+4167|[folding] Some useful editor actions (like fold/unfold) are not available for readonly files
+4168|Configuring tasks has more text than a Twilight novel
+4169|Toggle render whitespace has no impact on default keybindings
+4170|Workspace settings info message wording
+4171|Column select keybindings seem to conflict in Linux
+4172|Column selection does not cover folded text
+4173|'Auto detecting the task system failed' can be more user friendly
+4174|Editor title changes as soon as I edit a file, when using --diff
+4175|CentOS: Code Alpha doesn't show up in the Application Installer after installation
+4176|Allow to edit the left hand side of a diff editor if possible
+4177|Configuring a gulp task runner takes more than 3s sometimes
+4178|Bail early if --diff is not used with correct arguments of 2 existing files
+4179|Generated tasks.json is incomplete - only has last 2 tasks from gulpfile
+4180|Generate 'isWatching' could be true if task has 'watch' in name
+4181|catch up with TS 1.8.9 and honour file size event
+4182|Include Configure Task Runner when Code is opened on a file
+4183|transient issue with deb-package
+4184|console.log from debug session
+4185|Reduce the number of TS related templates
+4186|Indent using spaces shows wrong value for `Configured Tab Size`
+4187|[themes] Inconsistent coloring of CSS rules values
+4188|leakage from debug output
+4189|file path to language association settings need window reload to work for existing files
+4190|No progress and completion indication during task detection
+4191|"fix intellisense to make clear that ""file path to language association"" needs absolute path"
+4192|Repeated words in the task creation quick box
+4193|Save with Encoding shows 'UTF-8 (configured encoding)' while it is UTF with BOM
+4194|'Reopen with Encoding' doesn't contain UTF-8 with BOM
+4195|Update to Electron 0.37.x
+4196|Wording tweak File Association
+4197|Support for Custom CompletionItemKind Icons
+4198|var color
+4199|Debug/Run should not autoclose console if console was open
+4200|[Localization] Missing resource string across multiple sections.

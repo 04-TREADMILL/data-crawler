@@ -1,0 +1,100 @@
+27401|Test: Task provider for package.json scripts
+27402|"feature request: Do not show ""Working Tree"" files in ""Open Editors"""
+27403|Wording for task list
+27404|Correct translation: Change of 'Command Palette' in Brazilian Portuguese (pt-br)
+27405|Extension host does not start when running Insiders with empty user-data-dir on OS X
+27406|Joao/light update
+27407|Test: light update in activity bar
+27408|tasks: lots of space between rows in the task of ts_watch_mode
+27409|Test: Automated Smoke Test
+27410|Terminal comes up with garbled text
+27411|Adopt fileResultsNavigation.ts in more places
+27412|Match whole words regression
+27413|Run Build Tasks command running extension's build tasks in addition to the ones defined in tasks.json
+27414|Global activity action: align with existing patterns
+27415|"Test ""Debugging Docker with Source maps"" recipe"
+27416|"Test ""Developing the MERN Starter in VS Code"""
+27417|Global activity action does not trigger on space
+27418|Maintain writing pattern in menus, submenu and context menu between languages.
+27419|Add variable to tasks.json for currently selected text
+27420|Test: Tree API
+27421|CodeLens can't determine references for TS properties ended with $
+27422|Task annotations should support manipulating all attributes.
+27423|Tasks: below tasks.json is not valid although it should be
+27424|Test: Convert 0.1.0 runner to 2.0.0 runner
+27425|Test: Jake auto detection using 2.0.0
+27426|VS Code does not refresh available fonts in Windows until closed and reopened
+27427|Support to cache the label on the task literal as _label
+27428|File extension association is not respected when file extension and language id share the same icon
+27429|Add history navigation for file include/exclude patterns in the search pane. Remember history between sessions.
+27430|[Feature Request] Extend find/replace to support regex group replacement.
+27431|Test: Automatic closing of stale `needs more info` issues
+27432|Test Auto Accessibility Detection in the Editor
+27433|Test editor.multicursorModifier
+27434|Symbolic names on Windows for non-US keyboard layouts
+27435|Toggling block comments from first line of comment removes /* and */ but adds line-level comment (//) on the first line
+27436|Test wildcards in `activationEvents.workspaceContains`
+27437|Test that you can close the TMScope inspector
+27438|Test some changed in behaviour of Home and End
+27439|Test that wordPattern is supported in language-configuration.json
+27440|Test `editor.letterSpacing`
+27441|Bug -- Source Control: Git Side Bar -- Doesn't display correct staged filename
+27442|Option to add a file to gitignore directly from vscode
+27443|Unnecessary horizontal line in hover board hover
+27444|I find it confusing that the keybindings.json can have mixed OEM and real characters
+27445|Can't drag release notes editor to different editor group
+27446|Release note editor goes blank
+27447|Entering and leaving directory statements are not processed, resulting in incorrect paths for the problemMatcher
+27448|Find widget covers find result when at the first line
+27449|Markdown preview doesn't respond to scrolling with finger
+27450|Improve color names for welcome page
+27451|Extension editor: scroll position is not restored.
+27452|Welcome page: Use 'textLink.activeForeground'
+27453|TerminalBehaviour - use US-english names
+27454|Welcome page: Use focus border color
+27455|Playground: Turn off minimaps
+27456|editor.multicursorModifier: cmd should be the default
+27457|"selecting text in the debug console adds an ""ESLint"" to status bar"
+27458|Find widget resize area too narrow
+27459|Find widget should only scroll beyond top when it is covering text
+27460|registerTreeDataProviderForView is a strange name
+27461|Find widget: allow me to reduce the size
+27462|jsdoc comments start with lower-case character
+27463|Welcome page: Tools and languages label too long
+27464|macOS: Spaces are not properly unix escaped
+27465|Should getChildren allow for null and undefined?
+27466|Snippet mode ends when switching editor
+27467|editorWidget.border color is not respected by all editor widgets
+27468|Find widget does not leave space at the top when navigating between tabs
+27469|Linux: Run task: TSC task not shown
+27470|Droping folder in terminal not working on Elementary OS.
+27471|Linux: Ugly flicker in welcome page on first startup
+27472|Shift Tab unindents line if pressed in snippet mode when on first place holder
+27473|Find widget to enlarge the blank space once replace is expanded.
+27474|Contrast border color is not applied to tabs and other places
+27475|Snippets and TM_SELECTED_TEXT
+27476|"""Copy All"" contents is not identical to what I see in debug console"
+27477|Markdown preview: lag in restoring scroll position
+27478|Copy all contains ansi codes
+27479|Markdown synchronized scrolling does not work with mouse wheel
+27480|Markdown preview: changing editor groups messes scroll position
+27481|Update README.md
+27482|Consider making TreeItem a class
+27483|Fail more graceful when not receiving a TreeItem
+27484|'Check for Updates...' has no feedback when no updates are available
+27485|Lowercase 'For' in 'Check For Updates' menu item
+27486|Slow startup warning
+27487|Integrated terminal throws assertion failure on Windows
+27488|Command arguments are messed up
+27489|Consider allowing to provide context menu commands in code
+27490|Cannot run integration test while having the vim extension installed
+27491|Status bar color
+27492|Resolving modules and Intellisense Autocompletion pretty slow
+27493|Test failures on macOS
+27494|Default text not inserted with TM_SELECTED_TEXT
+27495|$TM_LINE_INDEX is zero based. I would expect it to be one based
+27496|Inconsistent tab stop behaviour with recursive snippets and tab / shift tab
+27497|Quick Open resets selection when search finishes
+27498|Task templates contain deprecated properties
+27499|SVG viewer preview shows bogus preview until focus changes
+27500|Debug console: Better format for trees in 'Copy all'

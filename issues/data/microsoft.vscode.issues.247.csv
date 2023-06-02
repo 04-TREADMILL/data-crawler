@@ -1,0 +1,100 @@
+24601|Use js/tsconfig schema for jsconfig.*.json files
+24602|Git Not working properly in current version
+24603|Feature Request - Consider empty space when block editing (Shift+Alt+Mouse)
+24604|Incorrect sorting with compareIgnoreCase
+24605|.NET core debugger crashes
+24606|Can't select text in extension details page
+24607|Webview Flickering on Resize
+24608|render current selection and other highlights on minimap
+24609|Editor: Arrow key doesn't work
+24610|Git: Cannot read property 'fsPath' of undefined
+24611|Press F12 on Powershell function does not work properly
+24612|Git Diff Syntax Highlighting Not Working
+24613|Path intellisense not working for typescript short imports defined at compilerOptions paths
+24614|win10下 vscode的终端有问题 会错乱
+24615|the terminal Window can not adapt to the vs code window
+24616|No formatting of Paperscript code within script tag
+24617|Disable extension recommendation
+24618|Adding 'never show again' in Git Extension
+24619|VSCode IntelliSense keeps freezing
+24620|Open Code is a little slow
+24621|Is it possible to add tooltip hints for common *.conf.js?
+24622|Debugging
+24623|No Undo after Discard File Change
+24624|Include Copy Filename on the right-click menu
+24625|更新win10创新者后，vs code中的shell缩进不正常
+24626|win10下  放一段时间，软件就会黑屏， 必须重启软件才能继续使用
+24627|Typescript: Format creates line break in generics
+24628|Python file key words highlight
+24629|Closing tabs feels quite slow
+24630|Limit Extension storage usage
+24631|preLaunchTask : looping
+24632|Autocomplete across files
+24633|Completely broken Code
+24634|Add API to determine if the task service supports parallel task execution.
+24635|Built-in Markdown Preview memory leak & slowdown
+24636|open file from windows explorer with existing vs code instance open, doesn't open file!
+24637|suggest widget should not eat up End key
+24638|When you open vs code this error always appears: Extension host terminated unexpectedly. Please reload the window to recover.
+24639|Please Add Search in files
+24640|[json] preserve comments of last property when adding a new property
+24641|`search.exclude` setting sometimes is ignored
+24642|smartStep seems to be skipping my own code not just uninteresting code
+24643|program prompt upgrade ,upgrade1.1.1 , tab page switch Can not move,
+24644|Git support for setting upstream/tracking branch
+24645|Please ID the extension sent the global message
+24646|Diagnostics should support data field
+24647|Cursor handling in completionItems
+24648|"Using ""call"" command to open VSCode on Windows 10 doesn't close the prompt"
+24649|Double hyphens in comments being flagged as red, comments not closing
+24650|Nested code lines now no longer display the hover border left.
+24651|Adding files to vso git json files filled with odd diamond chars with question marks
+24652|on linux if you start a process from the integrated terminal and then close visualcode, the process is not killed
+24653|Jinja plugin reading .j2 files as yaml files causing lots of errors
+24654|Linux Mint: OS-level evdev key remap ignored, only in newer vscode versions
+24655|git diff files not showing
+24656|Spanish ISO keyboard layout: BUG / Keyboard shortcuts could be considered 'mislabeled' on foreign keyboard layouts
+24657|[cshtml] // commenting inside @{ } code blocks
+24658|File changes don't show up in source control tree.
+24659|Get rid of EditorInput objects or make them lightweight again
+24660|TypeScript server log contains PII and source code
+24661|[Feature request] GIT: group changes by status
+24662|TypeScript server crashes faster than ever
+24663|[Feature Request] Dropping a tab over terminal should paste the file path
+24664|Disabled input box in search viewlet is badly colored
+24665|Possible memory leak (not sure if VScode or extension)
+24666|Unable to get type definitions on imports with non .js extension
+24667|Panel Controls are not Visible
+24668|Non-relative imports lose type definitions
+24669|Doesn't work properly with git-lfs enabled repositories
+24670|Can't reopen VS Code after it updates to 1.11.2
+24671|Electron: 1.6.2 update (<1.5) Completely breaks Dragon menu/submenu voice control (updated)
+24672|Center the code in Zen and Fullscreen mode
+24673|Undo stops working
+24674|Horizontal Scrolling Broken
+24675|No squiggles appear at the end of a line
+24676|Newly split windows don't respect word wrap settings
+24677|CPU usage at 100%
+24678|Regular expression with ^ in search & replace
+24679|Go to definition doesn't work for ES6 imports when omitting `index` from the path.
+24680|Keep getting extension error stopped and needs window reload but unable to know which extension is failing
+24681|[Insiders] Search viewlet click/dblclick behavior changed -- not in a good way
+24682|Release notes (and .md files) don't zoom correctly
+24683|Error with JSX in VSCode. It doesn't know that JSX doesn't need React, but another provided function.
+24684|Changed link to use https
+24685|a popup got stuck
+24686|Vscode auto format spaces before and after curly brackets
+24687|TypeScript Go To Project Config Fails for JSX/TSX Files
+24688|Repeated Reload Window commands results in blank window
+24689|Pick up TS 2.3 insiders
+24690|Extension Pack - Contributions
+24691|Keybinding Conflict Message
+24692|Keybinding Show Conflicts - confusing results
+24693|Treat emmet snippets as textmate
+24694|"[loc][query][VSCode] please clarify ""'diff editor"""
+24695|Fix a few compile issues when using TS 2.3
+24696|Windows 7 performance profile
+24697|Word wrap is not working
+24698|Use TS 2.2 to Build VSCode
+24699|Add workbench color theme keys for terminal background and foreground colors
+24700|Application is crashed when press toggleDevTools shortcut ['ctrl + f12']

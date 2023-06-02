@@ -1,0 +1,100 @@
+24901|Horrible indentation config
+24902|Autocomplete does not always intelligently suggest expected items
+24903|Alt + Click to create multi cursor at click not working
+24904|Terminal prompt at wrong position when there is Chinese character
+24905|Broken JsDoc intellisense
+24906|Multi-arch build configurations (armhf/arm64) for Travis CI
+24907|made DirtyDiffDecorator controlled by SCM: Disable preview
+24908|Missing gconf2 dependency with Ubuntu 17.04 (Zesty)
+24909|Resolve imports nested addresses (after slashes)
+24910|Ctrl - Backspace is deleting the previous '({['
+24911|Window - manager for opening projects
+24912|VSCode auto completion not working as before
+24913|added config option git.cloneDirectory, defaulting to os.homedir()
+24914|Inserting file path on the terminal, when dragging a file to it
+24915|Code unable to determine file encoding
+24916|The terminal cursor is not displaying properly
+24917|Find widget no longer themed
+24918|Webview: theme change no longer applied
+24919|Autocomplete for JS files but not TS files? (TypeScript 2.2 and 2.3)
+24920|Some parts miss ClearType rendering (subpixel anti-aliasing)
+24921|Can't search in debug console (OS X insider build)
+24922|When dragging folder to new editor window (to use explorer), don't make it mandatory to save any unsaved files elsewhere
+24923|Search and Ctrl + P take forever to find results
+24924|"Code Insider complains ""Could not install typings files for JS/TS language features. Please ensure that NPM is installed"""
+24925|VS Code processes do not close after window closing
+24926|Column breakpoints - BreakpointEvent
+24927|How to make a Old Mobiles Message Composer in C++
+24928|"""Change All Occurrences"" regression: Match Whole Word / Match Case state is broken"
+24929|PowerShell extension fails to start powershell
+24930|"Using WSL - Running a task using existing environment variables and without the ""Press any key to close the terminal"" requirement"
+24931|Ripgrep search missing results in Windows network drives using dedupe
+24932|Ran debug on a script and some other command executed instead
+24933|The namespace *namespace* Already contains a definition for *Controller*
+24934|PowerShell Syntax Highlighting Error: .bat and .exe files
+24935|Error on parameter naming (MVC, C#)
+24936|Fix #24971. PowerShell Extension .bat & .exe Syntax Highlighting Error
+24937|IntelliSense problems if `Flow` plugin is used
+24938|Bracket highlighting Shifts Codelens Slightly
+24939|Project search won't find things unless the file is directly open
+24940|Intellisense does not recognize process keyword from NodeJS.Process library
+24941|Opening PowerShell script from Explorer Open With on Windows Server 2012 R2 causes the file to open in another user's session
+24942|Compound debug configurations not shown after first breakpoint is hit.
+24943|Fix #24861. Stop propagation for keyDown events if the IME is processing key input
+24944|Backspace can not erase the last one character during Chinese/Japanese IME conversion (macOS)
+24945|visual studio code 扩展主机意外终止
+24946|Add Markdown.trace Messaging to Diagnose Issues With the Markdown Extension
+24947|Highlight using wrong colors for Themes
+24948|Added markdown trace option for debugging user issues
+24949|code fold doesn't work correctly , if the comment block is not well indented
+24950|Would you like to support vue syntax highlight
+24951|Intellisense for Emmet
+24952|Feature Request: Ability to explicitly set PATH
+24953|vscode performance not good even on small file
+24954|version conflict
+24955|auto submit
+24956|"search bug: ""whole word"" toggles appearance of results in non-loaded files"
+24957|document text search box located over found result on long first string
+24958|Explorer refresh issue again
+24959|vscode ignores xkb remapping
+24960|webkit-mask for status bar icons (fixes #23526)
+24961|vertical/horizontal split window
+24962|Support multi monitor aware DPI resolution
+24963|Copy-paste from vim in terminal window
+24964|The python debugger is extremely slow
+24965|Unicode Support(Encoding) For Output
+24966|support js dynamic import
+24967|The pair of brackets inside the quotes are not highlighted
+24968|OK capitalisation fix
+24969|code_helper hangs and makes vscode unresponsive
+24970|Allow to open a file when DND from zip archive
+24971|markdown preview cannot wrap
+24972|Wrong encoding for new files
+24973|Open Angular templates and CSS files with cmd + click
+24974|Background color in editor.
+24975|Ability to open settings editor from Extensions view/editor
+24976|Code folding not working
+24977|"Extension ""Cannot find module"" in production (while does find in development)"
+24978|Remote debugging with different port numbers
+24979|Odd command line prompt in Integrated Terminal.
+24980|Add the ability to choose the user files folder
+24981|Can't uncollapse collapsed code
+24982|Use no lazy option to generate more cached data
+24983|Restore action to report negative startup times (insiders only)
+24984|full width tab glyph for editor.renderWhitespace
+24985|Should I start working on a PR? (Intellisense/Quick info)
+24986|Backspace in Korean composition doesn't work properly
+24987|Look into removing file stat checks in terminal link detection
+24988|autoClosingBrackets in comments and selective control
+24989|command not found after opening settings.json (vscodeVim/Vim extension)
+24990|HTML Formatter appears not to be working: Missing progress feedback
+24991|jsconfig.json rootDirs not working
+24992|PSSession issues in console.
+24993|If an instance of VS Code is open I can't open another instance from Windows Explorer
+24994|Terminal task runner opens new cmd.exe window when run on a windows machine
+24995|While changing language mode, git related commands show up in cmd pallet
+24996|Using WSL - How to use Bash for the launch configurations?
+24997|Provide auto-complete candidates for TypeScript string literal type when double quote is typed
+24998|chsh to powershell breaks the integrated terminal
+24999|Support Node debug protocol autodetection alongside dynamically putting proc into debug mode
+25000|Install on Linux as non-root user

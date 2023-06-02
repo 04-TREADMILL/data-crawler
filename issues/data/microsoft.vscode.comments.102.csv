@@ -1,0 +1,100 @@
+10101|I half agree :).  I think this is the first time we need to distinguish between user settings and workbench settings.  If `insertSpaces = false` in a workspace, then it means that for no reason whatsoever should spaces be inserted in files under that workspace.  If `insertSpaces = false` in the user settings, then you could argue that autodetection should run first and just in case it fails to get sufficient hints, it could use `insertSpaces = false` as the fallback value.
+10102|"@felixfbecker for ""just running"" there are no launch config attributes that we can rely on. So we would have to introduce another task running subsystem with its own set of predefined attributes. But this is something that we want to avoid because a task running subsystem already exists in VS Code and it requires only a little bit of additional work to pimp it up to support the ""just running"" functionality."
+10103|Done with b505eac92f5d9eaa824085675077c801a7881197.
+10104|@SetTrend please check out the upcoming 0.10.10 where we've refurbished the word navigation
+10105|@goddyZhao I use `Ctrl+D` a lot for this scenario.
+10106|Will leave as unknown, the good part is we get issues filed with folks asking for more supported keys due to it.
+10107|Point 3 is extracted in a separate issue #3262
+10108|@aeschli I'm sorry, I don't understand why it looks different when selecting a tag name compared to selecting a class name. If you understand then please go ahead and edit whatever css animations we have around there.
+10109|I cannot reproduce:  ![2548](https://cloud.githubusercontent.com/assets/5047891/13234529/5bf374d0-d9b9-11e5-88b1-68c1b7aaada1.gif)
+10110|Hi **@dersia**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+10111|Hi **@dersia**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+10112|Thanks! Think I'm going to refresh my custom build for VSCode! Thanks again!
+10113|@aeschli Most likely an npm `3.x` issue. I haven't tried but suspect `v2.x` npm would work fine.   > As workaround manually run npm install inside extensions/json  I'll give that a go if I get the time next weekend :rose:
+10114|Dup of #2537
+10115|@Eduardogbg, thanks for sharing this issue with us.  Will you show me a screenshot of what you're seeing?  Are you seeing this only on Windows or on other operating systems as well?  This is what my taskbar looks like on Windows.  Does your taskbar icon look like this? ![untitled](https://cloud.githubusercontent.com/assets/11839736/13235554/68d9e030-d973-11e5-92de-b4fbfb5aaff8.png)
+10116|This is somewhat related to my issue #3215 since every time an unwanted file is opened via debugger - it puts itself into the dropdown list. So almost after any debug session it gets even harder to restore the workspace because the originally opened in that edit view file drops on the bottom of totally cluttered with trash list.
+10117|yaah, as I mentioned in #3260 there is an additional inconvenience: the recently opened list gets cluttered with a ton of unwanted files...
+10118|@pcolmer What version are you using. I cannot reproduce this with `Ctrl+/`:  ![python-comment-line](https://cloud.githubusercontent.com/assets/5047891/13235819/608f1ce0-d9c0-11e5-9904-de953ea4e06d.gif)
+10119|"@peterbourgon @egamma Currently, `""auto""` indentation settings are evaluated only once, on file open. So if the file is indented with spaces when it is opened, the guess will be to insert spaces. Further edits that bring in more tabs in a file are not taken into account until the file is closed (from the working files view) and the file is reopened."
+10120|@bpasero This sounds like the mac menu eating keybindings such that they do not reach us?
+10121|"I'm happy with a solution that involves eslint, an eslint environment (`""env"": {'meteor': true}`) and a big array of globals that lists my meteor collections and all exported variables of my used packages.  Everyone having similar issues might have a look [at this gist](https://gist.github.com/ls42/bc6aebda6c66bebe0c53).  Since this is solved (for me) I'm feeling free to close this issue."
+10122|Thanks @weinand . That works. I read [this documentation about outDir](https://code.visualstudio.com/Docs/languages/typescript#_setting-a-different-outdir-for-generated-files) but I am not sure I understand how the debugger makes use of this option, or should I say how the debugger maps breakpoints between source and generated file.   I naively assume that when the generated file is loaded, it would use the sourceMap file to locate the source file and that would be enough to discover breakpoints without the use of `outDir`.
+10123|Command id gets created here: https://github.com/Microsoft/vscode/blob/70430f5c8c90b1c9757887a27bb0612e15bef192/src/vs/workbench/api/node/extHostTypeConverters.ts#L480  and I believe the error is thrown here: https://github.com/Microsoft/vscode/blob/a19740d09116dfa736f767c0d3a4385af877fab4/src/vs/workbench/api/node/extHostCommands.ts#L84
+10124|@chrisdias Just added new icons, so perhaps we could make this on by default in the release.
+10125|Did a little poking around, in my project, I had a large dir that I had included in `files.exclude` and `search.exclude`, thinking that that would prevent processing on it. But after removing that large dir, my energy usage dropped dramatically.
+10126|What would happen to a workspace with `insertSpaces` set to `false`, just as our own, and suddenly someone puts a perfectly valid YAML file in there? YAML files consider tabs to be syntax errors. Should I jump to Sublime Text every time I want to edit that file?  IMO there are a few issues here: - a file's indentation should always be detected and respected, regardless of any setting - if detection is inconclusive, be that due to mixed indentation or to lack of it, the setting should be taken into account for the decision - `insertSpaces` should be a boolean setting. `auto` makes no sense at all to me - `insertSpaces` is ultimately a bad name. It should be something around `preferSpaces`, `preferredIndentation`, `defaultIndentation`, etc
+10127|@joaomoreno  i can't select the text and also can't copy
+10128|Thanks @Tyriar, obviously I didn't search enough before creating this issue.
+10129|@alexandrudima Hi! Yes, it works with Ctrl+/ ... I hadn't noticed that command. I was using Ctrl+K, Ctrl+C.  Not sure I understand why the two commands behave differently ... or why there are two commands ... or why the keyboard shortcuts don't match Visual Studio (but that is a completely different matter :) ).  Philip
+10130|need too :[
+10131|"@MattDMo Thanks Matt for your comment. Yes, making Python Improved available as a VS Code extension would be a great first step so more people can try it out. Let me know if you need help with the extension. We have a yeoman generator that helps you setting up an extension that contributes a grammar. Check out https://code.visualstudio.com/docs/tools/yocode. To replace an existing grammar use the same language id ('python') and additionally add   ``` json     ""extensionDependencies"": [         ""vscode.python""     ] ```  to your `package.json`"
+10132|Also in Peek Definition
+10133|This issue was moved to Microsoft/TypeScript-TmLanguage#96
+10134|Just pushed a fix
+10135|@weinand and me were discussing this and came to the conlcussion to use launch.json here to make it very clear to the user what will open. I agree Edit Configuration would look nicer @weinand opinions?
+10136|Actually, much easier to repro: - open an empty folder with Code - click the `Start` debug action
+10137|Setting to Feb for discussion
+10138|@onlyann source maps map generated code back to source. They do not directly support the reverse mapping (which is required when setting a breakpoint in the source).  In order to find the source map for a source file, it is basically necessary to search all source map files and then look for a reference to that source inside the source map.  Since every project is free to place the generated code and the corresponding source maps wherever it wants, we do not want to perform an exhaustive search on the whole disk. Instead we require that the `outDir` attribute points to the root folder where to look for generated code and source maps.   The `outDir` corresponds to the `outDir` used in the `tsconfig.json`.
+10139|@bgashler1 Thanks for the update. I pushed the changes so we can test them. Note that the icons are scaled to 1em/1em. That wasn't as problematic for the arrows as for the + which looks blurred on my machine (linux, with the default font size) ![image](https://cloud.githubusercontent.com/assets/6461412/13248774/92831a3e-da20-11e5-9596-c78966a14036.png) Also I'd suggest to use the same gray as the line numbers.
+10140|Great work. I'm looking forward to it.  Thanks! :clap:
+10141|There are two extensions already: - [C++ Instelisense](https://marketplace.visualstudio.com/items?itemName=austin.code-gnu-global) - [C/C++ Clang](https://marketplace.visualstudio.com/items?itemName=mitaki28.vscode-clang)  Hope this helps
+10142|I'd prefer if we focused on testing today...
+10143|Oh no, it's the endgame police 👮
+10144|Removed omnisharp from core product.
+10145|I agree with @egamma, while it works, the experience is pretty bad without any progress indication. But I also agree that we should take some time to think about how best to design a solution to this.
+10146|Duplicate of #3022
+10147|The request makes sense. In a different editor it looks like this: ![delphiintellisense](https://cloud.githubusercontent.com/assets/3448684/13251046/18e44d52-da2e-11e5-9e8e-c34581f206ff.gif)
+10148|I just discovered that this is a setting in NVDA. I turned on the punctuation symbol level to all in the voice settings dialog and then the '!' is read out, along with every other punctuation symbol (including tabs).
+10149|I am also experiencing the same problem. However i seem to have this issue in one machine, but not in another even though the both have the same VS Code version.
+10150|The new folding icons are distracting. The previous twistie icons were subtle, pls see the example below, when I using folding to work on the vscode.d.ts file.  I agree with @weinand that we should look consistent with the explorer.  ![image](https://cloud.githubusercontent.com/assets/172399/13252837/24e3cd98-da39-11e5-96f9-57b21c3af244.png)
+10151|Thanks @alefragnani - closing
+10152|This needs discussion/coordination with the marketplace team on their approach for localization.   I suggest that for February we do not externalize the strings `extension.displayName` and `extension.description` in the package.json.
+10153|@isidorn this is what I mean
+10154|@egamma yes, that's what I'm doing for Mono Debug.
+10155|Yes, this is ugly.  Not only that but the `filterText` property is heavily used here and shows the problem with it. The highlighting is all wrong.  ![image](https://cloud.githubusercontent.com/assets/22350/13253421/43452a36-da3c-11e5-91a2-fcb55fb4a0b6.png)
+10156|I want wrapping for .txt files and not for other files. I want Arial for .txt files.  IMHO the YAML example you give is arguing for per-file settings, which, I definitely agree, is something we should have.
+10157|:+1:
+10158|This is on purpose, related to #3305
+10159|Both wrapping and font are view-only attributes. Neither can they be determined by the syntax of the file nor can they affect the syntax itself. Per-file view settings are another feature altogether.  Indentation is not. It is strongly bound to the file's syntax. A change in indentation character actually changes the file's contents.  But let me pick up another argument.  The indentation problem is exactly the same as the end-of-line problem, at which we do an _almost_ perfect job: - We either show `LF` or `CRLF` in the status bar, always indicating what line endings the current opened file has. - When the user presses <kbd>Enter</kbd> in a file, that value is respected. The detection itself defines the end-of-line character to use. - Switching to another file with another end-of-line sequence will update this value. - Switching the value itself will modify the file's contents. - We are _almost_ perfect simply because there isn't a configuration setting for the default case. But we do have a pretty good heuristic: the OS itself.
+10160|duplicate of #3280
+10161|I'm not sure adding **Code** would make it less generic... We don't have the best product name... :/
+10162|How does this sound?  ``` System: Install shell command in PATH System: Uninstall shell command from PATH ```
+10163|I suggest to make the description of the command more verbose: `Shell Command: Install command to launch Code in PATH`  And Code would show in all the product flavors Code-insiders, Code-alpha.
+10164|May be even leave out the category 'System' or 'Shell Command'
+10165|From testing #3245
+10166|Closing as a duplicate of #2957
+10167|"""Install 'code-alpha' command line tool in PATH"""
+10168|Jo added a html preview command which is separate from the markdown preview, so I don't think this was introduced by Jo.
+10169|"Better, but I don't like `command line tool`. This isn't really a tool but a command to launch code.   ""Install `code-alpha' launch command in PATH"""
+10170|How about  ``` Install 'code-alpha' command in PATH ```
+10171|Here is an alternative example:  ``` js function Safe(_key) {     var _locked = true;     var _value = null;      this.unlock = function(key) {         if (_key === key) {             _locked = false;         }         return;     };      this.lock = function() {         _locked = true;     };      Object.defineProperty(this, 'value', {         get: function() {             if (_locked) {                 console.log('thief detected!');                 process.exit(0);             }             return _value;         },          set: function(value) {             if (_locked) {                 console.log('thief detected!');                 process.exit(0);             }             _value = value;         }     }); }  var safe = new Safe('mySecretPassword');  safe.unlock('mySecretPassword'); safe.value = 3; console.log(safe.value); safe.lock(); ```  Putting a breakpoint on `safe.unlock` line and hovering over safe.value will stop the process.
+10172|:+1:
+10173|I would not ship with this experiment.
+10174|> VSCode should be 'VS Code' or 'Visual Studio Code'  Since we also have an insiders flavor of the product I would not mention the product name in the description and just state: `This option requires a restart to take effect`
+10175|The intent of this interaction is that `the user selects a snippet` forcing an Intellisense pop-up for this interaction has the issues described above.   My suggestion is to make the snippet selection more explicit, e.g., the user picks a snippet from a quick box and then Code inserts the snippet. This is similar to picking an initial snippet for a launch configuration in the debugger. Using Intellisense to insert additional snippets makes good sense to me.  A nit, since we use a snippet we should leverage the snippet functionality and use snippet variables in the snippets, this makes it obvious what the user should modify. For example, the `tsc` snippet should make the filename argument a snippet variable.
+10176|@aeschli as mentioned I would need a way to specify to the JSON schema that this is the error @weinand I am getting the error message from the adapter. I could massage the error and add a sentence about the ${worspaceRoot} or this could be done directly in the debug adapter. What do you think?
+10177|"@isidorn yes, I can do something in the adapter similar to this: ""cannot launch program '{path}'; enabling source maps might help"""
+10178|We must be more explicit here, a warning or an error decoration in the launch.json is not instrusive which is nice but also not obvious, the user has to hover over them etc.   We should just show an error message:  Relative path names are depracted use...`. I know that this is how we started and then we tried to make it more subtle. This issue illustrates that trying to be more subtle is not helpful for users.
+10179|Looks like license might be pulled from the `debian/copyright` file: - https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/ - https://www.debian.org/doc/manuals/maint-guide/dreq.en.html  Updates may be pulled from `debian/changelog`, not sure we would want to maintain this file though.
+10180|SOLD!
+10181|-1 for the error message upon open of `launch.json`, users were not complaining then because they just ignored it and we were still automatically converting so everything worked for them and nobody complained. We are no longer automatically converting so now the situation is different. I suggest we do what Joao originally suggested, in the adapter side create a more helpful error message. And I will try to make those warnings into errors
+10182|Thanks for the gist.   I notice that in your `eslintrc.json` you enable `experimentalObjectRestSpread`. Support for this feature isn't yet provided by Salsa, so using is will degrade the Intellisense experience.
+10183|What is the reason for no longer converting or help the user to convert a relative path? We detect a relative path and we know we no longer support, so why not do what we did in the past?
+10184|> -1 for the error message upon open of  launch.json ,   I was not suggesting to do this upon open of the launch.json, but to show the error upon launching, that is when the user presses F5
+10185|yes, sorry and thanks for letting me know, this is the one @SofianHn
+10186|:+1:
+10187|ping @jrieken
+10188|I got scared when I saw them just now.  ![image](https://cloud.githubusercontent.com/assets/22350/13257130/d4fe721e-da4d-11e5-9e32-b4ce9ec7fdd0.png)  :+1: for bringing back the triangles.
+10189|@egamma two reasons: - we wanted to use the same model as 'tasks': no magic! Paths used in the launch.json are not modified in any way (like tasks.json). - previously we had a hardcoded list of well known path attributes that we would automagically convert into absolute paths. Since attributes are now contributable, we do not know which attributes need this treatment. The debug adapter knows nothing about a workspace, so it cannot convert relative paths into absolute ones because it does not know the workspace root.
+10190|@egamma we would show this nicer error message upon pressing F5 so I think we are in alignment here
+10191|@isidorn yes, I will add this hint on my side.
+10192|Ok, I really like the analogy with LF/CRLF detection. I'm sold!
+10193|sold
+10194|Tested that the browser opens as expected. Wasn't able to get a good Ember experience. Completions, hovers never seem to complete. I excluded `tmp` and `node_modules` but not sure if that really worked due to lack of feedback and status.
+10195|@isidorn a session **restart** should not open the debug console
+10196|> Wasn't able to get a good Ember experience. Completions, hovers never seem to complete.  @aeschli can you confirm that you did not crash with or without excluding `node_modules` and `tmp`. I think we never had a good intellisense experience even when we tried to use the ember.d.ts.
+10197|This test description was pretty bad... I've updated with more detailed steps.
+10198|@egamma thanks for the administration of this, and apologies for not seeing that issue before opening this one!
+10199|No need to apologize, if in doubt pls file an issue. This is indeed an important one.
+10200|![wolf](http://i.giphy.com/v18xOnxDRt8aI.gif)

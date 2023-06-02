@@ -1,0 +1,100 @@
+9101|Yeah I like it. I'll put a link to this in the wiki and clean up the top of the issue to explain what this thread should be used for.
+9102|Looks like someone beat me to it :)
+9103|"The variable is _assigned_ but not _used_, a warning is expected because technically the variable is still doing nothing.  `var` should be colored though, I can reproduce it. It looks like it's a problem with the ""Dark (Visual Studio)"" and ""Light (Visual Studio)"" themes."
+9104|@rhires I don't think it can be done yet, https://github.com/Microsoft/vscode/issues/334 seems to be the feature request you're after. An extension to add support for the language as @alexandrudima suggests is a good solution in the meantime.
+9105|+1
+9106|Sublime considers the external modification as an entry in the history. So if you do one `undo` all the external modifications would be reverted, and if you keep `undo`ing, you would get back to history of modifications you did in the same window.   The problem with dropping the buffer is when you have an external process to monitor the files and for example format it. (i.e. `go fmt` or  `js-beautify`). So this would result in to lose all the history in the editor.
+9107|should not this be like a range attribute , like supported from version a to b.
+9108|Could you please check after setting the `outDir`in launch.json ? I had the same issue and setting the `outDir`fixed it but I'm running node 4.1.2 though.
+9109|@peterblazejewicz This issue is more about the display (or lack thereof) of the final newline, and not its insertion. i.e. Don't render a numbered blank line at the end of files.
+9110|duplicate #2829
+9111|This issue was moved to Microsoft/TypeScript-TmLanguage#83
+9112|@vsDizzy I assume you mean the JavaScript validation (error squigglies)?
+9113|Same behaviour in 0.10.8.
+9114|Moving to OmniSharp for commenting on the warning on the variable. @Tyriar Let's have a separate issue for the 'var' coloring.
+9115|This issue was moved to OmniSharp/omnisharp-vscode#34
+9116|I created #2919 for the coloring issue.
+9117|@adred Maybe you are on an old version?  ![image](https://cloud.githubusercontent.com/assets/5047891/12971436/6fe6d35a-d09b-11e5-8822-d1e28cfa0525.png)
+9118|@waderyan Yeah, it was already there when you closed the issue. I was just against you closing for the sake of discussion :)
+9119|Moved to Microsoft/vscode-go#197
+9120|OK thanks. That button changes the sidebar to the Git view. What happens if you click on the Explorer button? It's the first one in that column, two buttons above the Git one. Do your files come back then?
+9121|Or do the files really dissappear even from the Windows Explorer?
+9122|I didn't implement this, but I think we use an `<iframe>` to render the preview and we disable all `<scripts>` because they would run in the UI thread.  fyi @jrieken
+9123|"Yes i have set  `""devDependencies"": {     ""typescript"": ""^1.6.2"",     ""vscode"": ""^0.11.0""   },`  ""engines"": {     ""vscode"": ""^0.10.7""   },  the vscode.d.ts in typings folder is showing `/// <reference path=""../node_modules/vscode/typings/index.d.ts"" />`  extension.ts `import * as vscode from 'vscode';`  but no intellisense"
+9124|The problem is in `_tryShowTextDocument`
+9125|@jamesmenera I've published [an alpha version of TabSanity here](https://marketplace.visualstudio.com/items?itemName=jedmao.tabsanity). There are definitely some kinks to work out, but as long as you don't go crazy with multiple cursors and such you should be fine.
+9126|Yes
+9127|Lots of failed to start OmniSharp issues on 0.10.8, around 500 machines. Only on mac
+9128|This is an expected error and should not be reported to telemetry
+9129|@gregg-miskelly @daviwil @roblourens @lukehoban this is probably something you want to use...
+9130|@vsDizzy  I see that you have Salsa enabled. This is the expected behaviour. Salsa only warns about syntax errors not type errors. Please see the discussion in Microsoft/TypeScript#6802.  If you want more warning we recomment to install the eslint or jshint linter extensions.
+9131|@alexandrudima It looks like I found a solution in https://github.com/editorconfig/editorconfig-vscode/pull/5.  It looks like the `TextEditorOptions` interface is defined like  ``` ts interface TextEditorOptions {     tabSize: number,     insertSpaces: boolean } ```  Which makes it not possible to provide `auto` as value for either one of the properties. But actually, it is perfectly valid to provide `auto` as VS Code will then auto calculate the value for that property. So I guess a solution for this would be to update that interface.
+9132|The [December release](https://code.visualstudio.com/updates/vDecember#_es6-is-the-new-default) made the `jsconfig.json` no longer necessary for JS in general, and ES6 in particular. I'm curious if that's still going to be the case, especially in view of #2848 that seemed to depend on it to work correctly.
+9133|Using Code as the `code.editor` of git is currently not supported. It will come.
+9134|@SofianHn Please check the _crash log_ linked in the first message of this issue. There is no crash log at all but just a bunch of `ERROR:crash_service.cc(301)] could not start dumper` messages. Something to worry about?
+9135|@ianwesterfield Cool. We've been wanting to put the sourcemaps online for a while now. Let me work on that.
+9136|Wow, great catch @alexandrudima
+9137|@alexandrudima correct, but we do not disable JS execution and I don't think we strip scripts. This was the state when we last discussed it and the intent is to switch from an `<iframe>` to a `<webview>`.  @dfinke the code is here: `vscode\src\vs\workbench\parts\html\browser\htmlPreviewPart.ts`  To debug this pls see https://github.com/Microsoft/vscode/wiki/How-to-Contribute#development-workflow in the Debugging section. The htmlPreview code runs into the `renderer` process.  I'll look into this later, I see where you are going with your scenario and this is a interesting scenario.
+9138|@daviwil Code doesn't currently respect the engine at installation time. This will be fixed in February. Currently, it will always install the latest published version.  @alexandrudima What is the full allowed syntax of the `engine` value? Does it support ranges?
+9139|@ZodmanPerth Definitely sounds like it. Just reconfirm that the values for `http.proxy` and `http.proxyStrictSSL` are correct.
+9140|"I just tried this on my Win10 machine with vscode 0.10.8 and it seems to work fine. You should name your task with the property `taskName` On stack overflow I notice that your 'taskName' misses a start quote `laucnh-core""` If you still see this issue please attach your `launch.json` and `task.json` here  I also get `taskName` in intelli-sense inside `tasks.json` ![screen shot 2016-02-11 at 11 27 56](https://cloud.githubusercontent.com/assets/1926584/12974229/9329f13c-d0b2-11e5-95fb-751bd2bc57ca.png)"
+9141|Hi **@SamVerschueren**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+9142|Not sure if the documentation should be changed?  ``` When pressing Tab insert [n](#TextEditorOptions.tabSize) spaces or `auto`-calculate. ```
+9143|I was too hurry stating I've found a solution, it didn't work in general. So, I'm looking for the answer as well
+9144|This issue was moved to Microsoft/TypeScript#7022
+9145|This is a TS formatter issue. I debugged it and VSCode correctly indents the new line, however the tsserver send an edit back for format on type which removes the indent.
+9146|IMO foo can't be f12 since foo is unknown in the second example. foo only exists as a property of obj. Moving to TS repository for final closing.
+9147|This issue was moved to Microsoft/TypeScript#7023
+9148|This is already documented here. http://code.visualstudio.com/docs/languages/typescript  Since tsconfig.json is the standard of the TypeScript compiler (tsc) I would suggest to open an issue against gulp-typescript to support tsconfig.jon as well.
+9149|This is currently only possible by doing the following: - writing an extension that handles your new language - then using the tsserver that comes from the TS team - generating .d.ts files on the fly and pipe them into the tsserver (e.g. open them with a content set) - map your positions to TS - ask the tsserver for code complete, ... - map positions back.  Sounds complicated and it actually is :-).
+9150|This has nothing to do with tasks. It is either our extensions API that doesn't work correctly or the output channel itself. Starting with Joh as the owner of the extensions API.
+9151|I tried to reproduce this but failed. Can you please provide a file that shows the described behavior.  ![capture](https://cloud.githubusercontent.com/assets/1931590/12975467/42cdeeb4-d0bc-11e5-9c2c-b6485a6fec74.png)
+9152|@aeschli did you do any grammar update ?
+9153|This issue was moved to Microsoft/TypeScript#7024
+9154|@isidorn  1. I do :-). As @Spown pointed out everything works when he runs the task directly. Could it be that the debugger brings the output channel to front to inform about problems with the prelaunch task. 2. I don't see what the task runner framework should do. IMO the debugger framework should do the following: for non watching task wait for the promise to finish. For watching tasks don't start if promise is not finish and listen to task events to see if the task is currently active or not. If needed I can add API to differenciate better between watchind and non watching tasks
+9155|Thanks for your support, I could finally resolve the issue by removing the tslint extension and reinstalling it.
+9156|@isidorn Dup of #2893
+9157|This is strange. Sounds like a Windows issue. @alexandrudima @dbaeumer do you repro?
+9158|I'm having a similar problem matching the bug title: ![image](https://cloud.githubusercontent.com/assets/2052033/12977589/38fb2eb8-d091-11e5-929a-739fbea9e02b.png) The behavior is the same if I use `${workspaceRoot}/bin/secure_www`  Is this commit not part of 0.10.8? I can't start debugging anymore, so this is a showstopper for me, at least...  Version 0.10.8 Commit db71ac615ddf9f33b133ff2536f5d33a77d4774e Date 2016-02-05T10:10:11.194Z Shell 0.35.6 Renderer 45.0.2454.85 Node 4.1.1
+9159|@rhughesjr does it make a difference if you use a lower case 'd' for the drive letter?
+9160|Thanks! @alexandrudima , it works like a charm.
+9161|It does, that fixed it! Thanks!  But I guess there's probably no workaround for ${workspaceRoot}? I can't check this in for my team with an absolute path.
+9162|@rhughesjr It could be that the variable `workspaceRoot` has the same issue with the drive letter. How do you launch VS Code?
+9163|"Yes, I updated the typescript grammars. We're now on the commit from Feb 9.  I can reproduce with this snippet. Seems to be related to the occurrence of `var`, which is highlighted by itself, which is also a bug.   ``` typescript const $ = dom.emmet; const booleanRegex = /^true|false$/i; const stringRegex = /^(['""]).*\1$/;  export function renderVariable(tree: tree.ITree, variable: model.Variable, data: IVariableTemplateData, debugInactive: boolean, showChanged: boolean): void {     if (variable.available) {         data.name.textContent = `${variable.name}`;     }      if (variable.value) {         renderExpressionValue(variable, debugInactive, data.value, showChanged);     } else {         data.value.textContent = '';         data.value.title = '';     } } ```"
+9164|:thumbsup:
+9165|"Correction, it's not working correctly. the first require() call dies with an ""ENOENT, no such file or directory"" error.   I launched VS Code via task bar left click, and then opened the workspace from recent projects."
+9166|This issue was moved to Microsoft/TypeScript-TmLanguage#84
+9167|According to doc. It don't need any config.json. What it need is `npm install -g typescript@next` and environment variable VSCODE_TSJS=1
+9168|:+1:
+9169|@rhughesjr are you using absolute paths with drive letters in your require() calls? Is your 'D:' filesystem  case sensitive?
+9170|No, the requires are all relative. The filesystem is standard Win10 (NTFS, I assume).  This has been working fine up until 0.10.8. I can launch node from the command line without issue, and debugging works fine in WebStorm, so I have to think the issue is something pertaining to this latest Code release.
+9171|It seems Salsa doesn't have the same issue.  I'd say this is resolved unless others have seen the same thing since 0.10.8.
+9172|This is odd, I can't repro in OS X nor in Windows 10.  @stkb I'm guessing it **always** happens to you?
+9173|Thanks for verifying.   Closing since in end of Feb we fully switch to Salsa
+9174|After discussing with @dbaeumer we should introduce a way for an extension to contribute an 'initial' `tasks.json`. This should all live in the task framework, however this is not a small effort so moving it to the backlog and assigning to Dirk.
+9175|Salsa works without `jsconfig.json`. If you want to configure a different module type then the default then you need to define it in a `jsconfig.json` (you can also use `tsconfig.json` and define the `allowJs` property to true).  For larger projects it is recommended that you add a `jsconfig.json` to define the scope of the project, e.g., to exclude node_modules.  Moving to Salsa for the issue with the confusing error message, which indicates that you must use a `tsconfig.json`, when a `jsconfig.json` would also work  > Cannot compile modules unless the '--module' flag is provided. Consider setting the 'module' compiler option in a 'tsconfig.json' file.
+9176|This issue was moved to Microsoft/TypeScript#7025
+9177|"Hi, Thanks for the explanation.  And it does follow the settings from the ""Find widget"". I was setting those configuration in the ""Search"" tab (`cmd+shift+F`) and was expecting for the `cmd+D` to follow.  Having them in the Find widget makes more sense.  Thanks for your quick response. Please close the issue."
+9178|Are you on El Capitan 10.11.3? Then this could be a duplicate of #2829. Can you check whether one of the workarounds described in there works for you https://github.com/Microsoft/vscode/issues/2829#issuecomment-182485227
+9179|"EZAM@GMAIL.COM On Feb 11, 2016 10:51 PM, ""Alex Mamut"" notifications@github.com wrote:  > Depending on how my cursor arrives at line of code determines which way > the editor indents the line. Let me start by showing what the correct > indent spacing looks like: > [image: https://gyazo.com/eca50fd7907e95b870c4b1b5602300c3] > https://gyazo.com/eca50fd7907e95b870c4b1b5602300c3 >  >    1. >  >    If I am on a line of code and there is already a space on the line, >    which is invisible if the line is selected, indents to the first indent >    spot encountered. >    [image: https://gyazo.com/687cae9a5b229d24fccb8c958cdbc434] >    https://gyazo.com/687cae9a5b229d24fccb8c958cdbc434 >    2. >  >    If I am on a line of code, lose focus of VS Code, and then come back >    to VS Code the indent spacing is incorrect and its a combination of tabs >    and spaces. >    [image: https://gyazo.com/44a5e6d87122dd59559c047cb8b9336d] >    https://gyazo.com/44a5e6d87122dd59559c047cb8b9336d >    3. >  >    If you enable to show invisible spaces, they are still not visible on >    the current line selected. I think it would be useful to be able to see >    them as well. >  > It may be useful stating that this weird spacing is occurring while > working with typescript. I am not sure if it occurs for any other > languages. And please let me know if I am missing a configuration item. >  > Thanks! >  > — > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/2938."
+9180|> The December release made the  jsconfig.json  no longer necessary for JS in general, and ES6 in particular.  This is not fully correct. The December release no longer required you to create a jsconfig.json when you only wanted to configure the `target` to es6. You still need to define a jsconfig.json to define another module system than the default of when you want to exclude directories (e.g. the node_modules folder) from the project. Something you almost always should do for a larger project.
+9181|Can you run `npm run postinstall` manually. This will fetch the vscode.d.ts that corresponds to the engine version. What is the output you get from this command?  This is the output you should get  ``` npm run postinstall  > tslint@0.5.15 postinstall C:\Users\egamma\Projects\vscode-tslint\tslint > node ./node_modules/vscode/bin/install  Detected VS Code engine version: ^0.10.7 Found minimal version that qualifies engine range: 0.10.8 Fetching vscode.d.ts from: https://raw.githubusercontent.com/Microsoft/vscode/0.10.8/src/vs/vscode.d.ts vscode.d.ts successfully installed! ```
+9182|This issue was moved to Microsoft/vscode-eslint#28
+9183|1. The issue was on my side, just pushed a fix 2. I fixed this 5 days ago and it should be available as part of our next release (start of March) - same as 1.
+9184|I agree, let's just use an example snippet from http://www.typescriptlang.org/Tutorial.  Moving to vscode-docs
+9185|This issue was moved to Microsoft/vscode-docs#153
+9186|Edit: renamed pull request when I realized it had the worst name ever
+9187|Emphasized the missing step to update the engines field in the release notes.
+9188|@aeschli THANKS!
+9189|For this scenario I would tolerate using this activation event: https://code.visualstudio.com/docs/extensionAPI/activation-events#_activationevents
+9190|Fair enough, thanks!
+9191|Ah - I think this is a linting issue.
+9192|Yep - sorry - I apologize for the noise.
+9193|Workaround 1 seems to fix this for me. :+1:  FYI I am running Yosemite 10.10.5.
+9194|Indeed, that was it. Thanks!  #2829 Workaround 1 seems to fix this for me. :+1:
+9195|I have fixed the hectic behavior. The hover highlight should be better, our regular highlight behaves the same - it flashes a bit when your cursor is there which I think is fine.
+9196|duplicate of https://github.com/Microsoft/TypeScript-TmLanguage/issues/11
+9197|Update: vscode now has an `editor.cursorStyle` setting that allows a `block` value.  The issue as written is still valid, since (AFAICS) there's no way to control it from the extensions API.
+9198|Sorry, that comment was supposed to be aimed at issue #561.
+9199|Update: vscode now has an `editor.cursorStyle` setting that allows a `block` value.  (Implemented in PR #1586.) The issue as written is still valid, since (AFAICS) there's no way to control it from the extensions API.
+9200|"I'd also be interested in a way for the Launch feature to execute an npm task.  :+1:  The `scripts` property of a Node project's manifest is a common way to launch, build, debug, etc.  Also, FWIW, to run an arbitrary npm script like ""dev"" that _isn't_ a part of the [standard scripts](https://docs.npmjs.com/misc/scripts) use npm-run-script:  ``` $ npm run dev ```"

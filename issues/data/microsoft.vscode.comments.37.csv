@@ -1,0 +1,100 @@
+3601|This is probably beyond this particular issue as it related to CSS, not HTML, but there are CSS descriptors, which are like properties but used within at-rules. Think src, which is used in @font-face but isn't a generic CSS property that can be used outside. There are a number of these; some that overlap with regular properties (e.g. font-family descriptor) and some that don't (aforementioned src, plus various descriptors used in @viewport, @counter-style, etc). The ones that overlap may have different meaning. for example the zoom property is different to the zoom descriptor used by @viewport.  It would be great to be able to move out any descriptors left in the property list and either put them in their own section with which at-rule they belong to, or make them children of entry inside the atDirectives elements.
+3602|This would be great to have!
+3603|Probably related:  https://github.com/Microsoft/vscode/issues/1168
+3604|@louistsaitszho can you attach the raw markdown please?
+3605|yes, closing as a duplicate for #1168
+3606|@weinand @stevencl fyi
+3607|I cannot find it neither in the marketplace neither, sorry. Please contact the author of the youtube movie or ask your question on stack overflow https://marketplace.visualstudio.com/#VSCode.
+3608|@aeschli fyi
+3609|@aeschli what is your assessment?
+3610|+1 that this is should be done in an extension. Keeping open as a help wanted, feature request.
+3611|@chrisdias fyi.   We need to distinguish between vscode and Visual Studio Code [see here for an explanation](https://github.com/Microsoft/vscode/issues/60#issuecomment-161792005).  Currently we do not make milestone builds available for vscode. Something we can consider.
+3612|> strange, as I read that this should be fixed, but...  To which issue are you referring to? If an issue is marked as fixed then please also check the milestone of the issue. This indicates when a fix will be published.  @karlti can you provide a test case please.
+3613|@aeschli fyi
+3614|If you use the SSH remote url, it should all work, since no password prompt will occur.  If you use HTTPS, you should get the prompt. I do, I input the credentials I configured in GitLab and it works for me.  Maybe it's platform specific? Which platform are you on?
+3615|@flq then let's close the issue with a link to the [comment](https://github.com/Microsoft/vscode/issues/126#issuecomment-160131771) from @danlofquist. It addresses the issue.
+3616|Isn't this mostly addressed by multi cursor support and the actions 'insert cursor above/below' (which will be changed for the Dec milestone to 'add cursor above/below).  @alexandrudima  fyi
+3617|@joaomoreno fyi.
+3618|@dstorey thanks for the additional background. @aeschli fyi.
+3619|@aeschli fyi.
+3620|Duplicates #909
+3621|@egamma @dstorey Let's put that into the January build. Testing for the December build has already started.
+3622|Sorry, the milestone was missing. Fix already got delivered a while ago
+3623|This is fixed.
+3624|I love @takumif's suggestion, this is also our recommendation.
+3625|"I was referring to #312.  Maybe I misinterpreted that issue...  btw, the problem is that escape sequences are not recognized either in the pattern to be matched (Test Case 1) as well as in the ""replace with"" textbox... In the second case (like '\n' in the ""replace with"" textbox) the matched character sequence gets replaced by the _literal_ escape sequence like \n (Test Case 2).  Test case 1: - Open VSCode - Open File that definitely contains '\n' or '\r' '\n' characters. - Press CTRL+H. - Activate RegEx search. - type into the ""pattern to match"" textbox: ""\n"" (without quotes) - in the ""replace with"" textbox, type any char sequence you like... - click the ""Replace All"" button.  Expected Result: All newline chars are replaced with the char sequence  Actual Result: No pattern match, no replace action taken. Border of ""pattern to match"" textbox gets red.  ---  Test case 2: - Open VSCode - Open File that definitely contains '\n' or '\r' '\n' characters. - Press CTRL+H. - Activate RegEx search. - type into the ""pattern to match"" textbox a char seq that can be matched. - in the ""replace with"" textbox, type an escaped char sequence like '\r\n' (without quotes)... - click the ""Replace All"" button.  Expected Result: All char sequence matches are replaced by a CRLF  Actual Result: All matched char sequences are replaced by the literal replace pattern (i.e. \r\n)  This issue occurs in UTF-8 and also in ASCII type encoding like (DOS CP437)."
+3626|When verifying this issue please also consider this test case: https://github.com/Microsoft/vscode/issues/1227#issuecomment-164392805
+3627|> I was referring to #312.   The milestone of the issue shows that this issue will be included in the December update.  I'll mention in #312 that your test case should be used for verifying this bug and I'm closing this one.
+3628|No, there's currently now way to theme UI components other than the editor.
+3629|The folder was a git repo in itself.
+3630|The tab stops are defined by the emmet snippets and not by the emmet integration. So this would be a good enhancement request for emmet and its snippets.  Closing.
+3631|Thanks for the suggestion. Could you talk a bit more about the scenario in which you will use this and the problem that you are facing today? We're working on improving the debugging UX right now and I want to make sure that I fully understand how you would like this to work and what you are looking for.  For example, are you looking for some way to be able to customise the display of variables in the local and watch window? For example, by specifying which fields of an object should be displayed by default (the same way VS does with the DebuggerBrowsable attribute) or by defining a proxy to be used for displaying values in the debugger (like the DebuggerTypeProxy class in VS)?  Or is it something else?
+3632|Hm it should be...
+3633|There is. In F1
+3634|"@f111fei we do not block the opening of the file until all ""eager"" (`*`) extensions are activated because we want the user to get to see/edit the file as soon as possible. In fact, we show the file even before the colorization is ready (on startup), since this gives according to UX studies the best end user experience.  So there is no guarantee that extensions will get loaded before anything happens in the system.  That's why we have the api: `vscode.workspace.textDocuments` that shows all current opened text documents - this can be used to check if anything happened before the extension was loaded."
+3635|@alexandrudima yes，I see
+3636|Thanks to @jrieken the labels are also keyboard layout aware on mac
+3637|@santiagohdzb It is `]` not `j`:  ![image](https://cloud.githubusercontent.com/assets/5047891/11780243/c8680008-a260-11e5-94a4-f770a7eb9137.png)
+3638|@alexandrudima wow, I guess I need glasses, thank you!
+3639|Closing. Please ping @dbaeumer if you still see this with the next build.
+3640|Fix delivered
+3641|Works for tsconfig. User error.
+3642|![capture](https://cloud.githubusercontent.com/assets/1931590/11780538/e8e8a6c8-a262-11e5-9787-a64590f66d1a.png)
+3643|Ah lol, nice catch :)
+3644|I do agree that this can be done via an extension, however, I strongly believe that a simple option to translate tabs to spaces or vice versa should be present as it increases the editor's usability a lot. The developer's focus would remain on the code rather than on fixing such trivial issues by searching for an extension. These convenient yet lightweight additions to the editor would make it really pleasing to use.  It was one of the features of Sublime Text that I clearly remember being handy when required!  ![Tabs to Spaces](https://cdn.css-tricks.com/wp-content/uploads/2014/01/tabs-to-spaces-same.gif)
+3645|"@luisrudge reopening. We haven't fully figured out what to discuss on user voice and what to discuss in a feature request issue.   This feature request is better discussed here. In particular since the last comment in user voice is not correct :disappointed: .  I could imagine a meta property 'USE_GITIGNORE' and that would be a great opportunity for a pull request:  ``` json     ""files.exclude"": {         ""USE_GITIGNORE"": true     }, ```  @bpasero fyi."
+3646|+1
+3647|@egamma can you send me an up to date version of ts-lint? the one I can install via extensions does not seem to have any of the features on the test plan.
+3648|@ricmed205 Any chance your file starts with `temp` or contains `js`?
+3649|@dbaeumer Is this only for close, when being the default, e.g the absence of other items?
+3650|"@jrieken no, I my example I had a custom button and the default close button. When the user presses the default close button the item is undefined. My code looks like this:  ``` typescript                 Window.showErrorMessage(error.message, { title: 'Retry', id: ""retry""}).then(item => {                     if (item.id === 'retry') {                         this.initialize(connection);                     }                 });  ```"
+3651|We cannot reproduce this in the December update that will be published end of this week. Please file a new issue if the problem persists.
+3652|"<img width=""1034"" alt=""screen shot 2015-12-14 at 14 25 31"" src=""https://cloud.githubusercontent.com/assets/1794099/11782062/c950089a-a26e-11e5-8e63-7f497d73676e.png"">"
+3653|Maybe it is also related to the fact that here I did not open a workspace?
+3654|duplicate of #1246
+3655|I've only used .js files so far  On Mon, Dec 14, 2015 at 8:38 AM, Johannes Rieken notifications@github.com wrote:  > @ricmed205 https://github.com/ricmed205 Any chance you file starts with > temp or contains js? >  > — > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/1234#issuecomment-164431865.
+3656|this is with node v5.2.0
+3657|@supersede in the tasks.json configure a browser that is install on your machine. See https://code.visualstudio.com/docs/editor/tasks for a detailed description how task work.
+3658|no, I meat the path, like `/coding/js/myfile.js` or `/coding/templateController.js`. Then it would be like #703 which collects a few file patterns that we have filed to understand
+3659|I'm experiencing same issue. In which version will be this fix? I'm on Version `0.10.3` / Commit `783ecf841a2b21edca6d86853670cae89b4c244f`
+3660|I see. Challenge is that it's spec'd to return `<T extends MessageItem>` which I cannot fulfil for the close item.
+3661|Yeah, they both define it in the same (global scope. It's just unhappy cos we don't load html upfront when bringing up the language service. And worst it will going away with salsa.
+3662|At one point we could add something like `trackTextDocuments(callback)` and it would mean invoke `callback` with all current text documents and for the future invoke `callback` on open.
+3663|@z2xlong Please attach the OmniSharp log (Cmd+L L)
+3664|Hi @thyeun, this has nothing to do with offence. But we as a development team want to be responsive and there are many feedback channels and we cannot cover them all. You can find more background on our input channels and how we intend to use them in this [comment](https://github.com/Microsoft/vscode/issues/219#issuecomment-163818761).  What I take from your reaction is that people are sensitive when we redirect them to another channel and we can improve how we do this by providing more background, etc. (@chrisdias fyi)  Now back to your question. How would you want to use VS Code with Android Studios: - What scenarios would you like to see supported in VS Code when using it together with Android Studios? - What is currently missing in VS Code for such an integration? - What tasks you prefer to do inside Android Studio and what tasks inside VS Code.
+3665|This will be fixed in the next stable version after 0.10.3
+3666|@isidorn Ok, thanks
+3667|@bpasero voila - .gif -> .vsix - `code tslint.vsix`  ![tslint-0 5 4](https://cloud.githubusercontent.com/assets/172399/11783145/ce1d9304-a275-11e5-8735-d0c4d9dd22a0.gif)
+3668|@jrieken  OK, I will try it as you said. Thanks
+3669|Would be great to get a default entry to know what to fill in.
+3670|lol I was about to file this just now :100:
+3671|Hi jrieken,  I got the OmniSharp exception as follow:  ``` [INFORMATION:OmniSharp.Dnx.DesignTimeHostManager] Using '/Users/zzx/.dnx/runtimes/dnx-mono.1.0.0-rc1-final' for design time host. [ERROR:OmniSharp.Startup] The project system 'DnxProjectSystem' threw an exception. System.InvalidOperationException: File name has not been set    at System.Diagnostics.Process.Start_common (System.Diagnostics.ProcessStartInfo startInfo, System.Diagnostics.Process process) in <filename unknown>:line 0    at System.Diagnostics.Process.Start (System.Diagnostics.ProcessStartInfo startInfo) in <filename unknown>:line 0    at OmniSharp.Dnx.DesignTimeHostManager.Start (System.String hostId, System.Action`1 onConnected) in <filename unknown>:line 0    at OmniSharp.Dnx.DnxProjectSystem.Initalize () in <filename unknown>:line 0    at OmniSharp.Startup.Configure (IApplicationBuilder app, ILoggerFactory loggerFactory, IOmnisharpEnvironment env, ISharedTextWriter writer) in <filename unknown>:line 0 ```
+3672|![image](https://cloud.githubusercontent.com/assets/900690/11783383/48e4d7fe-a277-11e5-8ffd-189fc61edc8a.png)
+3673|I think it is actually more a problem within the git status contribution and not so much to the right hand side. I would even think we could move the two things closer and make sure the git icon is aligned to the font.
+3674|:+1:
+3675|Agreed, this should be consistent (in terms of what gets coloured that is, not in terms of the specific colours). What is the reason for the param name or function name not being coloured in the light theme? Do we just not have good colours specified for the light theme? If so, could @bgashler1 suggest something?
+3676|k. moving to Omnisharp for further inspection
+3677|This issue was moved to OmniSharp/omnisharp-roslyn#363
+3678|Since this is VSCode release independent, I can still finish this one during the week. I have the necessary code ready for running tests in Travis CI and just need to make sure it is documented properly.
+3679|@bpasero I will check with @alexandrudima why those errors do not get triggered in the place I am listening to. In the meantime in order to get some UI, try to duplicate an extension and just have a different publisher there.
+3680|"no, my paths are not like that. The only ""special"" thing in my case is that contain folder names with spaces. EG ""C:\Users\username\Documents\Google Drive\Projects\NodeJS\filename.js"
+3681|@dbaeumer Dunno if this is the best place to ask, but can you explain `watchedTaskEndsRegExp` and `watchedTaskBeginsRegExp`, please?
+3682|@isidorn still no luck, that guy is just remaining silent:  ![image](https://cloud.githubusercontent.com/assets/900690/11784723/3daec60e-a27e-11e5-8279-f83677033ea5.png)
+3683|@egamma  hahaha, do you necessary to delete all my comment, just to prove that you are the owner??? shame on you!!!!!! be professional to accept you are wrong, instead that deleting my comment, so bad attitude
+3684|@joaomoreno yes the Command palette looks funny when you filter the commands for Git. So I assume that fix is that the 'git branch' and 'git commit' will become top-level commands?
+3685|Not a bug, the schema says that there can be either `exclude` or `files`, but not both.
+3686|Exacto!
+3687|@dbaeumer I cannot reproduce, could it be that you had auto-save enabled and you left the cursor on one line? in that case we do not remove trailing whitespace. But we do if auto-save is disabled and you do an explicit save.
+3688|Unfortunately nothing I can fix, since the list of suggestions I'm getting is not the same as you broaden; the suggestions themselves don't have the same ID. @jrieken introduced this with the concept of **suggestion details**.
+3689|Also, just closing since it's quite minor.
+3690|I'm not sure I like the idea of having this as a opt-in flag.. This really should be the default behavior, since searching inside node_modules is not a good thing and certainly isn't the most common use case. Maybe we can add a flag to opt-out this behavior?  Also, I'd like to do this! Can you help me understand which parts of vscode would have to change? THanks!
+3691|I wanted to show that I test this because I am assigned ;)
+3692|Eheh. It's also not a regression, it has probably been like this foreva.
+3693|The schema comes from http://json.schemastore.org/project. `commands` does not have a description
+3694|I think in the example above it should really be `search.exlude` and not `files.exclude` because the former will exclude it from search but the latter from everywhere in the UI including the explorer.   We are reading this setting in from https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/search/common/searchQuery.ts#L18 and I think we could add code there to check for another setting that - if enabled - would mix in anything from .gitignore.
+3695|and _Node**Js**_ ;-) That's what I meant, sorry if I wasn't clear enough. Closing as Duplication of #703.
+3696|The concept of details is ~3years old. Tho if the flicker isn't we should probably reopen?
+3697|as @luisrudge already said, this should be the default behaviour like in atom and sublime.
+3698|@bpasero so.. just add code to read from .gitignore and push that files/folders to `searchExcludes` ?
+3699|@luisrudge well we also have to convert it to the glob pattern format we use in VS Code. If you look at the default settings and how we ignore the .git folder there you can get an idea of the syntax.
+3700|Flicker can't be recent. When you broaden, by definition you get a new suggestion list. Suggestion identity is not preserved, so we can't keep the details alive. The only bug fix here is to not set input on the tree widget before (1) all suggestions are received and (2) the focused one has its details resolved. This would introduced visible UI lag.

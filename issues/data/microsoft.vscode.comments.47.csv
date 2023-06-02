@@ -1,0 +1,100 @@
+4601|@dragon-del we are fixing an issue where Code will not start with a non-US keyboard layout like Japanese. If you set it to english, then launch Code and then switch back, you can workaround. Fix will be available soon.
+4602|Yeah!
+4603|"Hi,  i already set my environment variables proxies in os.  when i set my proxy settings in vscode (File > Preferences > User Settings ) ""http.proxy"": ""http://usr:pwd@ip_proxy:port"", ""http.proxyStrictSSL"": false  i have message ""getaddrinfo ENOTFOUND ip_proxy:port ip_proxy:port:port"" on Windows 7.  Issue doesn't fix ?"
+4604|Yeah - we're getting the exact same issue - anyone found a way round it yet ?  getaddrinfo ENOTFOUND myproxyname:9009 myproxyname:9009:9009
+4605|"The reason for this is that we change the state only when the response comes back from the server, not before. The state change triggers the icon change.  Another issue here is that sometimes the adapter sends the ""stopped"" event earlier then the respone for the 'continue' request. Due to this we only emit ""continued"" if we did not miss a stopped event. We do not emit straight away to reduce viewlet flickering. More details  https://github.com/Microsoft/vscode/blob/release/0.10.6/src/vs/workbench/parts/debug/node/rawDebugSession.ts#L97  Bottom line this is currently a limitation which I do not plan to fix. Feel free to reopen if you have some suggestions on how to improve this while still working around the issues explaind above 😇"
+4606|I've seen that many (maybe all) of the themes are not rendering the same as before the update. EG: not rendering the function parameters, or not rendering the object method keys. I've tried with a few (EG: tomorrow night eighties).
+4607|the same annoying issue
+4608|Hi **@bgse**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+4609|I have same exact issue on win10.
+4610|Is there any conflict between your inputing software with VS code? So weird...
+4611|@joaomoreno line [`25` at `src/vs/workbench/node/proxy.ts`](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/node/proxy.ts#L25) is:  ``` typescript         host: proxyEndpoint.host, ```  should be:  ``` typescript         host: proxyEndpoint.hostname, ```  This shoud correct the problem myproxyname:9009:9009 ... according to [this](https://nodejs.org/api/url.html) documentation... [EDIT] Updated with the link to the file... but it could have more points...
+4612|@profiler-bg should be fixed with 0.10.5
+4613|Is this planed? I think its not that hard to load additional css styles overwriting the defaults.
+4614|> I do not think tabs are a good way to show the list of open files unless you manage these things actively and close them.  Some people actually manage them and for others there is close tabs to the right.
+4615|Can't find this file? On a mac so may b different....
+4616|Thanks very much for the feedback.  We have an issue on our UX backlog (#1133) to improve workspace management (managing open files, history etc) which this would be a piece of. Our intention is to improve the experience such that managing the list of open and recent files is straightforward and easy and allows the user to focus on their code, without having to pay any undue attention to the VS Code UI.  Our hypothesis is that the current system has some rough edges (e.g., closing an editor actually closes the editor, but we think that perhaps it should instead show the file that was previously open in that same editor) and that smoothing out these rough edges will help create a far better experience.  We do UX studies on the product on a very regular basis. In fact, that's how we design a lot of the UX in the product. We iterate over our designs based on real feedback making sure that we use a great understanding of what people do and want to do with the product to inform our designs.  If you would like to participate in these studies in the future (we won't be running any again until mid January at the earliest) let me know and I will add your name to the list.
+4617|See issue #224
+4618|+1 too. This used to work before 0.10.x :(
+4619|I would have not filed this otherwise. Just update the UI when the user interacts with it not when the server eventually returns a result.
+4620|Same bug when using Chinese keyboard-layout
+4621|Thanks for the clarification @egamma
+4622|@stephenlaughton can you provide some steps what you are doing? I cannot remember we changed something there....
+4623|@bpasero I did some digging around and it looks like this might be related to adding workbench.action.maximizeEditor as an available command ac9540de4f7775e27548c7142130ae2dfe1a2dd2.  The previous functionality with multiple editors open was: 1. Resize the editor that is in focus 2. Switch focus using cmd+1, cmd+2 or cmd+3 3. Whichever editor comes into focus adopts the size of the previously focused editor and the other editors shrink to accommodate.  I much preferred this behaviour.
+4624|> This used to work before 0.10.x :(  Sorry about that, but it was based on an hand written PHP parser that could not keep up with the PHP language.
+4625|@stephenlaughton that action should not have an impact on the existing behaviour. VS Code has the concept of minimized editors. A minimized editor is an editor at its minimum width. You can resize one editor in a way that the other editors get minimized, or you use the action (Minimize other editors). Once in minimized state, switching with cmd+1, 2 or 3 will make the current active one maximized and the others minimized.
+4626|@jnystrom to narrow whether this is a grammer or a theme issue, please try the sample with a more color ful theme, e.g., monokai.
+4627|Closing as a duplicate of #585
+4628|"@bpasero I don't really understand what you mean about the ""editor history"" as opposed to ""file matches"". Surely the things in my screenshots are files?"
+4629|@wosi how does it look with OmniPascal when you use a more colorful theme, e.g, Monokai?
+4630|Agreed it is not hard and it is on the backlog, but many things are on the backlog that are not hard but still take time, as are things that are hard and take a lot of time :smile:
+4631|"I'm getting the same basic issue as @Elusive138, when I leave code running overnight (every night), in the morning without fail I get ""Visual Studio Code has crashed""."
+4632|@egamma In Monokai function names are displayed in green. But type names aren't colored using that theme. I couldn't find a theme that colors function names **and** type names.
+4633|@gwynjudd the editor history is a list of editors you opened in the past, persisted between sessions. If you just Ctrl+P you will see this list even without searching. Once you start searching results from the editor history are merged with results from a traditional file search. Currently the alternate scoring and matching is only enabled for the file search. If a result from editor history matches, it will not be repeated from the file search.  Since the editor history is persisted and does not require disk access, you can very quickly find files you worked on in the past and dont need to wait for the slower disk search to complete.
+4634|"Hi everyone,  I'm using CNTLM and VS Code 0.10.5 behind my corporate proxy. I can browse the extesions but when i try to download them i get the error mentioned by @joevin22:  ""ip_proxy:port ip_proxy:port:port.   Cheers,"
+4635|@massimocode just wondering would an action to open the file on github and then view the history there cover your needs? For example there is an `open in github` extension https://marketplace.visualstudio.com/items/ziyasal.vscode-open-in-github
+4636|#55
+4637|So, anyway, you should get proper results from the slower disk search eventually. Improving performance of the file search is high on our plan.
+4638|@bpasero oh thanks for the reply. If you are interested in feedback, it seems like the search history seems to be quite slow to populate compared to the editor history. Also I think it's probably a bit confusing that you have to do a search first (something I pretty much never do) before fuzzy file name matching would work.
+4639|+1 VS Code 0.10.5 Win7
+4640|+1 VS Code 0.10.5 Win7
+4641|What I am seeing, is that upon hitting a breakpoint, the adaptor must report all threads in the process as stopped, otherwise vscode seems to think they are still running and won't display their callstacks.  Which may be fine, if you are planning to support something like gdb's 'non-stop' mode, but I feel this behavior could be better documented, 'cause I had to discover it via trial and error.
+4642|+1 Same issue with duped port. 0.10.5 Win7
+4643|@MrSkinny Can you confirm that the certificate [fingerprint](https://www.grc.com/fingerprints.htm?domain=code.visualstudio.com) matches:  ``` SHA-1 3F:C3:E6:B6:00:4D:E1:08:18:8C:AF:9B:BF:07:6C:86:E2:14:41:85 SHA-256 B4:AB:E7:FA:73:92:74:D2:AA:18:33:89:63:53:A0:D0:68:49:07:DE:46:B3:0A:07:B2:3D:1E:FA:D1:89:42:EA ```
+4644|+1 VS Code 0.10.5 Windows 8.1
+4645|Maybe the themes should come in two variants per theme, one variant offering a relatively flat coloring, and a more colorful variant, but both using the same base color scheme.  While extensions can do this, I'd argue the themes delivered with the base product should not force the user to decide between flat and rich coloring while they decide which color scheme works best for them, as those are (in my personal opinion) two decisions that are not necessarily linked.
+4646|Since the target is set to ES6, the typescript compiler doesn't down level compile to ES5 and emits ES6 code. The run-time for extensions is Node 4.1.1.  While Node 4.1.1 supports generators required for async/await it doesn't support the full ES6 yet https://kangax.github.io/compat-table/es6/#node4.   The code in the failing extension appears to be using other ES6 features that are not yet supported by node 4.1.1.
+4647|"@isidorn thanks for this fix. The sourceReference is now returned correctly. However, the ""path"" attribute is bogus. If the following source object is returned from stackTraceRequest:  ``` {     ""name"": ""classes.ts"",     ""path"": null,     ""sourceReferences"": 1013 } ```  this source object is passed to setBreakPointsRequest:  ``` {     ""name"": ""classes.ts"",     ""path"": ""/classes.ts"",     ""sourceReferences"": 1013 } ```  The attribute ""path"" should be null."
+4648|@Elusive138 The SHA1 fingerprint matches, don't know how to check the SHA-256 in Chrome, it's not in the cert details window.  I don't know if anything's changed but both on and off VPN now, the file is downloading from: `https://az764295.vo.msecnd.net/public/0.10.5/VSCode-darwin.zip` (according to the Network tab)  Is this the correct location?  @bpasero This is probably a really dumb question but no execution happens or danger to my machine if I use the FileMerge.app to check the diff between the two containers?  I'd happily upload the one with the suspect hash to Dropbox or something for you to examine.  (I also notice yesterday `brew cask` was trying to install from a 0.10.1 folder, but the location from website is 0.10.5. Have there been any releases with the hash I have - `eab49cfce612f66e66816efbc5341415d2f25c1c7e5ae98d57cfb91016007af5`).
+4649|same here. OSX 10.11.2, Code 0.10.5
+4650|OK, done. https://github.com/Microsoft/vscode/issues/1463#issuecomment-165973070
+4651|@vanshady  Sogou?  Switch to English inputting, It`s OK.
+4652|Look here, you might be having this issue:  https://github.com/Microsoft/vscode/issues/1463
+4653|@bgse  Thanks.
+4654|just had a quick scan through the code, I can't see any ES6 features that I'm using that aren't supported, what I'm using is: - Promises - Arrow functions - Object literals - String interpolation - `let`
+4655|same here. OSX 10.10.2 , vs code 0.10.5
+4656|@isidorn thanks , I can debug now.
+4657|@egamma that works, but vscode's diff is waaaaaaaaay better than github :) Also, it would be awesome to stay inside vscode to do that
+4658|same here. OS X 10.11.2, VS Code 0.10.5 and  Switching the input method to system default english(U.S.) really works Thx for @lhCheung1991
+4659|@wangchi Thx. I just want to point out that this bug is not limited to Japanese keyboard-layout, so that they could take this into consideration in 0.10.6.
+4660|Hi **@ristomatti**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+4661|**@ristomatti**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+4662|> If you would like to participate in these studies in the future (we won't be running any again until mid January at the earliest) let me know and I will add your name to the list.  Sign me up!
+4663|I will try a different theme, but there was syntax color highlighting for 'yield' on previous build.
+4664|@gwynjudd if the file search was as fast as the editor history, would it make any difference?
+4665|@MrSkinny FileMerge is totally ok to use, it comes from Apple's XCode. You can also upload and I can take a look.
+4666|No undersxore, and not sure these are the same issues.  Mine is an ES 6 yield syntax highlighting issue.
+4667|:+1:
+4668|@FinnStutzenstein which OS? And where do you create the file, inside or outside VSCode?
+4669|@igorvaschuk which nodejs version?
+4670|@stevenmwade so you say you cannot click to create breakpoints, or they just dont work?
+4671|My first suspect would be: `export default {` in connection-manager.ts.
+4672|The extension feature is only enabled in Microsoft VS Code builds. @egamma I think you documented distributions somewhere?
+4673|@jnystrom yes, it's different issue... I made it.
+4674|Closing as duplicate of #1463
+4675|"@egamma I changed the theme to Monakai, and still the same issue. <img width=""664"" alt=""screen shot 2015-12-22 at 2 16 55 am"" src=""https://cloud.githubusercontent.com/assets/1293142/11950003/98c33ece-a852-11e5-9c86-152b8c901664.png"">"
+4676|Weird, i can reproduce but it actually looks like an Electron bug because we do set the title when creating the window.
+4677|:+1:
+4678|@bpasero Is this restriction set in stone, or is there a possibility that it might be reviewed at some point?  I'm asking since I can see having vscode readily available across the many different Linux distributions being a lot easier if it is left to the distributor to simply ship the OSS build from their repos, but still in such a case I'd prefer extensions coming from the official marketplace and not making distributing extensions overly complicated where we have to upload our extensions to many different places.
+4679|that's still better than nothing, i guess :)
+4680|"<img width=""343"" alt=""screen shot 2015-12-22 at 09 42 47"" src=""https://cloud.githubusercontent.com/assets/900690/11951333/66e23e62-a890-11e5-9b88-433f81752555.png"">"
+4681|:+1:
+4682|Unfortunately, our update broke moving to trash on Windows 7, see https://github.com/Microsoft/vscode/issues/1485
+4683|`() => {}` vs `function() {}` gives different red/error-highlighting, but both get the error.
+4684|Yup, this had been fixed couple of days ago but will only be available with the January update
+4685|Interestingly enough, after disabling all extensions, the issue cannot be reproed anymore. I suspect the issue was related to the JSCS linter, as the text I was editing in the user preferences file was also JSCS linter related.
+4686|I have the same probleme, I config the proxy http and StrictSSL. I get list of extensions, but I could install.   getaddrinfo ENOTFOUND proxy:port proxy:port:port  Windows 7 with 0.10.5
+4687|Had this issue with 0.10.3 OSX - The automatic update never fired I ended up downloading it again manually.  I had a machine running 0.10.1 that also wasn't updating.
+4688|Yes!That is what I mean.
+4689|Nice catch. You can configure fixed zoom levels in settings to avoid using the view menu each time.
+4690|'start up code with a english-us keyboard layout' will solve this problem. you can see this. #1463
+4691|The PH and any extension inside should not cause the renderer to crash. I suspect an out of memory error here and in that case, obviously the renderer also goes down.
+4692|Duplicate of #1463
+4693|We decided to not do this due to UX concerns where for a user it might seem unpredictable that sometimes the file is replaced and sometimes not. The current behaviour is more consistent at the cost of having to manage more things.  @stevencl fyi
+4694|Please reopen if still reproduces.
+4695|Does this still happen with latest?
+4696|Pushed a workaround.
+4697|This is OS behavior then and nothing we can prevent.
+4698|Ah, found it:  ``` js let { Serial } = Espruino.Core; ```  Node.js doesn't support destructuring assignment yet. That's annoying, I wish there was a way in TS to select how low to compile things. Maybe running babel after the fact and use its plugin approach to not transform anything but that could work.  Or I could not use that feature...
+4699|Just downloaded an run the latest zip file ls -la /usr2/VSCode-linux-x64/Code -rwxr-xr-x 1  59217872 Dec 17 16:23 /usr2/VSCode-linux-x64/Code  I get the following error  /usr2/VSCode-linux-x64/Code TypeError: Bad argument     at TypeError (native)     at ChildProcess.spawn (internal/child_process.js:274:26)     at Object.exports.spawn (child_process.js:351:9)     at /usr2/VSCode-linux-x64/resources/app/out/vs/workbench/electron-main/main.js:6:25084     at new __dirname.undefined.t.Class.derive._oncancel (/usr2/VSCode-linux-x64/resources/app/out/vs/workbench/electron-main/main.js:5:2734)     at Object.i [as getUserEnvironment](/usr2/VSCode-linux-x64/resources/app/out/vs/workbench/electron-main/main.js:6:25047)     at Object.<anonymous> (/usr2/VSCode-linux-x64/resources/app/out/vs/workbench/electron-main/main.js:9:3090)     at e._invokeFactory (/usr2/VSCode-linux-x64/resources/app/out/vs/loader.js:4:13773)     at e._complete (/usr2/VSCode-linux-x64/resources/app/out/vs/loader.js:4:14012)     at e.resolveDependency (/usr2/VSCode-linux-x64/resources/app/out/vs/loader.js:4:15066)
+4700|That sounds like an issue in getting the user environment. @joaomoreno fyi

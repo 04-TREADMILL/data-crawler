@@ -1,0 +1,100 @@
+16401|html language server breaks js auto completion if imports are used
+16402|HOw to Use Your WSL Git inside VS Code ....
+16403|Configuration .csproj Failed (using .props)
+16404|GDB stepping isn't working right on Ubuntu
+16405|DND: visible watermark prevents dropping of files (fixes #15698)
+16406|"""Disconnect"" icon in toolbar is probably our most ugly icon"
+16407|TS/JS: rejected promise not handled within 1 second
+16408|Handle backups in the event of deleted workspaces
+16409|Settings: view state lost when switching tabs
+16410|Settings: view state lost when switching tabs
+16411|history
+16412|Stage chunks in git
+16413|Incorrect TextMate syntax highlighting for meta category
+16414|"Add an explorer button in ""Zen Mode"""
+16415|Support for RTL languages (such as Arabic / Hebrew / Persian etc.)
+16416|Extension Preview - Don't show drop down with a single option only
+16417|RSS Feed for extensions gallery
+16418|"""Open with Code"" contextual menu button not working with `.tex` files"
+16419|Typo line 164 in vscode.d.ts
+16420|Fix bracket typo
+16421|Expand PickList to support Images or other Icon Fonts
+16422|Terminal font size should not scale with the editor's
+16423|New settings left pane should scale with editor.fontSize
+16424|Improve search performance.
+16425|The most valuable feature to me is that vscode can auto format a file, but every time i upgrades it loses this ability!
+16426|Extension development: support to show functions in console.log
+16427|Font is blurry
+16428|My extension crashed so bad that uninstalling and reinstalling it doesn't work
+16429|Drop event of file dragged from File Explorer lost when on secondary monitor
+16430|add option for ctrl+tab to openNextRecentlyUsedEditorInANYGroup
+16431|Does Global Storage keep states when extension is updated / removed and intalled
+16432|C code coloring goes wrong after a line break backslash
+16433|action decoration in settings file makes it hard to put cursor at end of line
+16434|dropdown decorator only works for first setting with multiple settings on a single line
+16435|CLI option to update extensions and view outdated ones
+16436|CMD + Backspace while at Col 1 should remove line
+16437|Scope background color support for themes
+16438|settings.json dropdown decorators don't appear after complex object
+16439|Allow to switch between recently used editors regardless of which group they are in
+16440|Open Preview shows wrong file in preview tab (markdown)
+16441|Panel Terminal, Panel Console and easy switching between them
+16442|Is it possible to get the detected tabSize value?
+16443|Save All Keyboard shortcut
+16444|Powershell Parser can't tell the difference between - (n-dash) and – (m-dash)
+16445|Error in syntax highlighting in JS computed property name expression
+16446|Markdown links failing to render properly in edit mode
+16447|Preview mode breaks clicking on link to a section in file, preview turn dark.
+16448|cursorMove command needs to know which end of selection is moving.
+16449|Turn off adding a space after selecting intellisense option with tab.
+16450|What is the bare minimum for Javascript syntax checking?
+16451|Undo stops are created by cursor movement
+16452|Adding Docker 1.12 instructions to its grammar
+16453|TS doesn't show dependencies
+16454|Clicking into debug console editor updates status bar with some entries
+16455|Extension output: repl no longer indicates type of object
+16456|Patchy scrolling - Lags a bit when scrolling
+16457|Uncaught TypeError: Cannot read property 'count' of undefined
+16458|Uncaught TypeError: Cannot read property 'count' of undefined
+16459|Test effect of opening Getting Started in first session on user retention
+16460|Make range staging more discoverable
+16461|[Extension API] Remove eventlistener?
+16462|Deselect one of multi-cursors
+16463|ALT-menu get hidden when clicking message button
+16464|Feature: Support multiple searches
+16465|Empty line between settings sections
+16466|Problems: allow to search by path
+16467|"Should ""hot exit"" be enabled by default?"
+16468|Problems: list is jumping after making a change
+16469|Take out keymaps code from ExtensionsWorkbenchService
+16470|Test: debug start dropdown
+16471|"Two ""bundleDependencies"" in extension package.json schema IntelliSense"
+16472|Command not found integrated terminal of Ubuntu
+16473|Test: ESLint support for file types other than JS
+16474|Key chords break keybindings
+16475|Activation errors on reload
+16476|Function calls in ternary operators in preprocessor macro will make syntax highlighting malfunction (C/C++)
+16477|Allow extensions to have visibility into the user's build command
+16478|Fix markdown + PHP fenced code blocks
+16479|Render MarkedString according to language server spec
+16480|Expanding an object in the console after a step will show the wrong properties
+16481|Test: Clone git repository command
+16482|Test: Marketplace CDN changes
+16483|Allow to configure electrons defaultFontFamily , defaultFontSize , defaultMonospaceFontSize , minimumFontSize
+16484|getting unix shell env is slow and blocking
+16485|Saw the following stack trace while selfhosting
+16486|Issue with files.autoSave set to onFocusChange
+16487|problem in vscode editor
+16488|Log where an editor action was triggered from
+16489|Classic scroll functions / page up/down
+16490|Middle-click Scrolling
+16491|Test API improvements
+16492|TypeError: Cannot read property 'fillInContext' of undefined
+16493|[folding] Support Shift+Click on folding marker to recursively unfold
+16494|git checkout doesn't create track on remote branch.
+16495|VSCode-tslint: tslint 4.0 support
+16496|Cmd-d of single character followed by typing same character as has no effect
+16497|ASP.NET Core Project templates- Feature Request
+16498|Broken non-alphabetical shortcuts with non-US keyboards
+16499|IntelliSense broken using files tag in json config file.
+16500|Is it possible to install mutliple language servers into one extension?

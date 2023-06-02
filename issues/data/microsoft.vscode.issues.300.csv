@@ -1,0 +1,100 @@
+29901|Maximum width for editor tab
+29902|Feature request: Option to fetch inside VS Code. Use case, when working with multiple remotes.
+29903|Retain scroll position with two editors on the same file
+29904|Syntax hightlighting ssues
+29905|Focus not set to input field when creating new file/folder
+29906|[Important] Activating extension `vscode.php` failed
+29907|problemPattern endCharacter off by one
+29908|Cache, CachedData taking up quite some disk space
+29909|Fix spelling of background
+29910|Fix spelling errors in ProblemPattern doc comments
+29911|Fix doc comment spelling errors in problemMatcher.ts
+29912|Group search results by root folders
+29913|Visual Studio Code 1.13.1 only highlights for up to 2079 lines
+29914|Reset JavaScript expression coloring in template expressions
+29915|Allow working tab to be a draggable file
+29916|"Additions to ""emmet.includeLanguages"" require reload"
+29917|Move all Emmet commands from core to extension and localize
+29918|Incorrect unindentation in Ruby case statements
+29919|enhancement - spyder like variable explorer ide
+29920|Re-indentation counts unmatched commented braces for typescript
+29921|fix typo in emmet
+29922|[Feature] Ctrl-T to use word under cursor or current selection
+29923|Old configuration still works in VSCode.
+29924|"ember-cli on Windows, VSCode (Visual Studio Code), ""EPERM: operation not permitted, mkdir"" many times when I save."
+29925|Search viewlet multiroot UI
+29926|Css/Scss autocomplete gives wrong result the first time when you press Tab
+29927|Insiders 1.14.0 cannot render extension icons that are SVGs
+29928|Double clicking URLs in terminal should select entire URL
+29929|UI renders too small when a popup is triggered from a 100% scaled monitor but rendered onto a 150% scaled monitor
+29930|Wrong text type recognition behind specific regexp in powershell function
+29931|Wrong commenting for HTML editing
+29932|Feature request: save open terminals with project
+29933|Represent lables without normalisation in workbench
+29934|support hot registration emmet
+29935|Problem in my text editor format vscode
+29936|Support customize auto import behavior
+29937|"Why not add (Code Folding) feaure ? (//#region ""this"" .... //#endregion ""this"")"
+29938|test explorer
+29939|Markdown preview not updating real time
+29940|HTML tag auto complete not working correctly in .jsx files (React)
+29941|Support additive files.exclude settings on a per-workspace basis
+29942|For C++, autoconvert '.' to '->' when the type is a pointer
+29943|C++ intelliSense: discover include paths in the project directory
+29944|problem
+29945|Title Bar should adapt to theme
+29946|VSCode don't show bad syntax with unity in a large project
+29947|Trying to add App Insights to my project. Azure login get stuck in the loop.
+29948|vscode on Windows 10 integratedTerminal
+29949|QuickFix should not target deeper than npm package root for import
+29950|Debug stepping multi-threaded application doesn't follow thread
+29951|Typescript Intellisense not working (using Angular4 project)
+29952|Integrated terminal doesn't autoscroll on select (Mac)
+29953|"vscode cpu load is extremely heavy, 15"" retina mbp cannot work longer than one and half hours with vscode"
+29954|Emmet abbreviation expansion in suggestion list is not showing
+29955|Simulating a keypress for extensiona
+29956|Reformatting a document (such as auto-save during a debugger restart) results in breakpoints pointing to wrong locations
+29957|Typescript Automatic Type Acquisition cache update
+29958|Is there any way to get the css.colorDecorators to work with Less/Sass Variables recursively?
+29959|hin.sovanna@yahoo.com
+29960|Highlight selected text is not applied to all opened files
+29961|Re-arranging folders order is not available in explorer panel
+29962|Find in webview based views (html preview, release notes, extension editor)
+29963|Find in files reports only first 10,000 findings in each file
+29964|Why file explorer button on the left side, bellow extension button should be disappear when hide file explorer
+29965|CompletionItem.insertText broke in 1.13
+29966|Please support custom titlebar border on Mac
+29967|Ctrl-T to use word under cursor or current selection
+29968|Using the Find Widget (CTRL+f) adds padding/margin/something above first line of code
+29969|Go to Definition and Go to Implementation Does not Work As Expected
+29970|Reverse color mode does not work correctly with light themes
+29971|TS intellisense issues
+29972|调试以下代码时不会出现结果，使用node 直接运行可以出现正确结果
+29973|以前的bug 又重复出现了
+29974|And, or and not operators are treated like functions
+29975|settings.json files.exclude: Folder view does not hide a generated files called debug.
+29976|Cannot read property 'onDidChangeContent' of null
+29977|Add a way to choose theme variant (Gnome dark/light theme)
+29978|Icon theme: cache icon data optimistically like color themes
+29979|"Improve the syntax highlighting for Markdown on ""PowerShell ISE"" (color theme)"
+29980|TypeError: expressionForRoot is not a function
+29981|When the branch list is too large, Checkout filtering is too slow
+29982|"How to implete suggestion and then type a space with typing the ""space"" key(like in Visual Studio)?"
+29983|NPM install fails as long as VSCode is open
+29984|Show problems only for currently active file
+29985|PowerShell Integrated console doesn't work
+29986|Press *TAB* inside of a paired bracket or brace to jump out of the pair.
+29987|Powershell ISE profile won't load (Terminal freezes for a couple of minutes)
+29988|Cleanup remote branches
+29989|npm task detection should add a problem matcher to `npm: install` to detect installation failures
+29990|Task contribution should allow extension to supress problem matcher attach message
+29991|Rename build output to task output when selecting a problem matcher.
+29992|Add support for *Free*BSD
+29993|Remove trailing line breaks.
+29994|Replace All seems to be buggy
+29995|Unable to launch debugger (gdb) with root permissions.
+29996|"""files.autoSave"": ""afterDelay"" is buggy"
+29997|File Selection Misleading on Right Click in VS Code
+29998|Add *.props as a recognized file extension for XML
+29999|Recommended Extensions show up even if you disabled them
+30000|Git clone should decodeURI, lest it creates folders with %20 instead of actual spaces

@@ -1,0 +1,100 @@
+5601|Don't use English font family for Chinese UI
+5602|Ubuntu Visual Studio dnx Run Command
+5603|Intellisense stops working after adding jsconfig file
+5604|Feature: Working files should reload on refresh
+5605|Electron Update
+5606|KeybindingService is many services
+5607|fix Korean(and Chinese, Japanese) IME behavior (#4541)
+5608|Get rid of platform/selection
+5609|[ruby] auto-close for quotes in ruby not working
+5610|"""Small perf tweaks"" commit 79eda2ea breaks float preference values"
+5611|Latin chars
+5612|几个建议 希望vsc做的更好
+5613|perf - slow caches here and there
+5614|Show move file to trash keybinding in context menu - resolves #5603
+5615|Permanently minimized
+5616|Sash double clicks to even all editor widths
+5617|Getting updates on windows 8 is slow.
+5618|on Linux middle-click paste wont work.
+5619|Describe is not defined when testing extensions
+5620|Crash when using dev tools from VS Code
+5621|Stopping debugging an extension doesn't close dev host after opening a folder
+5622|Wonky formatting inside TSX brackets with `)}`
+5623|Function description and return value information is missing on Intellisense pop-up.
+5624|Not able to view debug console while debugging an extension without an open folder
+5625|Debugging an extension does not produce console output in dev host window
+5626|Dismiss the read only file message bar when the file is saved successfully
+5627|"UI should be localized according to the locale.json setting when execute ""Reload window"" command."
+5628|Possible to bring up multiple save dialogs on same file
+5629|spawn .../corerun ENOENT when trying to debug C++ on Mac
+5630|Decrease delay for File Search
+5631|Paste line not behave correctly if go to another file
+5632|Broken syntax highlight in ternary Operator
+5633|'dnx web' doesn't execute in VSCode 1.0.0 on OpenSuSe Leap 42.1
+5634|bad syntax highlight while '+=' in for?
+5635|Provide 'pause all' and 'continue all' threads action
+5636|Test: debug threads
+5637|Slow call stack response for TS repository
+5638|Why vscode open file with alone window ?
+5639|Garbled text displayed in output panel.
+5640|Update tsserver to 1.8.10
+5641|Extensions cannot get workspace configurations of their own
+5642|Workbench should provide language agnostic actions to apply all quick fixes to a file
+5643|[html] Not getting suggestions for style attribute
+5644|VScode not open a network share as workspace
+5645|Services are created with instantiation service
+5646|Test: ESLint autofix
+5647|Editor Bug: Ctrl+Delete works incorrectly at end of line
+5648|Editor Bug: Auto-indent does not work correctly in TypeScript files
+5649|很喜欢vscode,但是前几天发现一个bug:
+5650|Introduce services in Electron main process
+5651|Respect the system wide network proxy configuration
+5652|Formatting Html Component Files Does Not Work
+5653|Code interferes with long(ish)-running 'git rebase' from CLI
+5654|Decorations not visible on High Contrast theme
+5655|Review: Introduce services in Electron main process
+5656|How to pull from upstream and push to origin ?
+5657|Previously open working files are not validated when reopening vscode
+5658|Intellisense List missing c# on language selection
+5659|Failed to load plugin react: Cannot find module 'eslint-plugin-react' every time I open a .js file
+5660|Debug Console output not printing output at correct interval
+5661|Undo recent wiki changes
+5662|Create vscode-wiki to allow external contributions
+5663|Setup sync job for wiki
+5664|Install extension prompt after clicking readme in update menu
+5665|Locking to Launcher defaults to an old version
+5666|Insert Tabs Instead of Spaces No Longer Works
+5667|Install extensions without restarting the editor
+5668|Editor windows goes blank in low memory conditions
+5669|How to Select the content of the tag in vscode?
+5670|enable/disable highlighting current line visual studio code
+5671|VSCode-linux-x64-stable.zip doesn't run as root
+5672|"BUG: Document saved with ""Save as"" not added to ""Open Recent"" menu"
+5673|Support to browse a workspace from a network address
+5674|Command line/wait support for git is too verbose
+5675|Same line curly braces for C#
+5676|When vscode run about 30 minutes later It was very slowly!
+5677|Unable to build on raspberry pi3
+5678|Wrong Folder Path for Open after OSX Rename in picker
+5679|Markdown preview does not auto-update without an open editor
+5680|Workbench services dependencies cleanup
+5681|showInputBox should respect all properties - prompt, value and placeholder
+5682|Question: It this possible to access tsserver from plugins
+5683|winreg update
+5684|Unable to convert markdown TM syntax to extension
+5685|Replicate code changes indicators from VS 2015
+5686|How to Create a project
+5687|Breakpoint not hit in extension debugging
+5688|Bad glyph rendering in editor
+5689|Graphics card joke?
+5690|Tons of debug spew in cmd window
+5691|Getting a lightbulb in status for jsconfig.json but I have one in project root
+5692|Question: Provision to show ESLint error/warning for whole project.
+5693|tab key inserts weird text, breaks undo
+5694|"Error packge extension : Command failed: C:\WINDOWS\system32\cmd.exe /s /c ""node ./node_modules/vscode/bin/compile"""
+5695|String method names do not terminate string syntax highlighting
+5696|API rangeIncludingLineBreak gives strange result on last line
+5697|Fix validatePosition related bug
+5698|IDE does not understand Javascript multi-line string
+5699|Improves `backspace` button for empty lines
+5700|The regex in tmLanguage definition file cannot correctly match Unicode characters

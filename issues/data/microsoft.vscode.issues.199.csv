@@ -1,0 +1,100 @@
+19801|html auto-formatting: preserve my line breaks between attributes
+19802|Setting a color for whitespace symbols doesn't work anymore
+19803|window.menuBarVisibility bug
+19804|Try to position editor mouseover hint boxes so they never overlay current caret position region
+19805|Menu bar cannot be toggled off in v1.9.0
+19806|"""Add include path to settings"""
+19807|Simplify snippet translation
+19808|Tasks Runner waits for external tool (GIT Extension) to be closed after launching it
+19809|How to set Integrated Terminal default encoding to UTF-8?
+19810|Extensions update button missing
+19811|Unable to execute Python Scripts from VS Code via Powershell
+19812|Intellisense freezes at random instances
+19813|Node debug Step Over/Into hangs in 1.9
+19814|Toggle word wrap no longer works in 1.9
+19815|Cursor pointing to unexpected column
+19816|Add support for search.action.focusNextSearchResult for in-document search
+19817|[ux] Change how files are staged in Git view
+19818|.NET Core Debugging stopped working in Visual Studio Code 1.9
+19819|Explore using formatters for indentation adjustment when formatters are available
+19820|Tasks/Integrated Terminal not picking up User Path
+19821|"html.format.wrapAttributes: value is ""force-aligned"", not ""force-align"""
+19822|Focus Next Search Result doesn't work due to keyboard shortcut conflict
+19823|Cannot debug unit tests
+19824|Focus Next and Prev Search Result don't wrap around
+19825|Focus Next and Prev Search Result current position lost if the text is edited.
+19826|"Could you work a solution? ""The language server needs at least PHP 7 installed. Version found: 5.6.23"""
+19827|"Select HTML tag including inner HTML | FEATURE REQUEST"
+19828|Unable to open untitled:// resources from problems view
+19829|Missing settings entries
+19830|Threads window is not updated after each call to threadsRequest()
+19831|Using SnippetString in CompletionItem
+19832|TypeScript lnaguage services died unexpectedly 5 times in the last 5 minutes
+19833|Tearable Tabs
+19834|Tasks won't run if User Settings file has no settings after updating to 1.9.0
+19835|Request: Shortcut to send the current line to the terminal
+19836|Can't find the \r caracter with the new VS Code 1.9 Update
+19837|[WelcomeUX] Add openRecentFolder telemetry
+19838|"The CSS property ""hyphens"" is not recognised."
+19839|Markdown preview doesn't scroll preview window
+19840|Bulk comment / uncomment is broken in certain cases
+19841|Module Typings won't get picked up.
+19842|JS on SharePoint via WebDav
+19843|Document formatting is removing characters!
+19844|fix: dispose the this.documentListener
+19845|Run Script in External PowerShell console
+19846|Calculated Snippets
+19847|Word wrap is broken with introduction of v1.9
+19848|Allow configuration/selection of Git commit behavior for untracked files
+19849|Add to Debug Console readonly editor functionality
+19850|Add ellipsis to path in quick open
+19851|[TypeScript] Snippets in String Literals
+19852|"Settings contain strange ""*h*h*h*h"" file associations"
+19853|Can't redo after saving the file.
+19854|TypeScript Promises aren't typed correctly
+19855|debugger shows incorrect value on hover when variable names nearly collide
+19856|Feature request: remember the last text searches
+19857|fix flexbox height issue for parameter hint on IE and Safari
+19858|Add extra check to tsdk path when getting version
+19859|[Feature] Project Centennial - Windows Store
+19860|[WelcomeUX] Tag editor action telemetry in walk-through
+19861|Copy `code-icon.svg` to near where it is used
+19862|Langauge Specific file encoding setting
+19863|"""typeScript language service abort 5 times in last 5 minutes"""
+19864|HTML code formatting is having issues
+19865|Entering ' character when commenting code results in double ''
+19866|Fix Slow  Markdown Front matter stripping regexp
+19867|Language specific settings: Unable to set tab size per language
+19868|The font size is too small on Release notes page.
+19869|node2 debugging - watches return 'not available' after stepping
+19870|Markdown is not auto scrolling.
+19871|Debugger moved to awkward place cannot access the buttons.
+19872|"""select hightlights"" bug on delete"
+19873|Initial cursor location in terminal is wrong
+19874|Duplicated command on <tab> in the terminal
+19875|why？
+19876|TypeScript 5 times in the middle
+19877|Feature Request: Create Getters and Setters option for members of class
+19878|"There is no ""run mode"" for node debugging"
+19879|node intellisense is broken for special folders
+19880|'Debug monaco' in `launch.json` seems not work
+19881|vscode wrongly reported that the lisences should be array in a node package
+19882|"""Find in the selection"" not activatable on find and replace"
+19883|while i use the second monitor, there is a problem about color.
+19884|[folding] Show first property when folding object
+19885|Line numbers width does not grow when pasting large file
+19886|"""Find in the selection"" not activatable on find and replace"
+19887|Misaligned cursor when editor.fontLigatures enabled
+19888|bugs new
+19889|Limit CodeLens animation to first appearance
+19890|Mac: file events are not reported when using workspace path with different casing (fixes #1426)
+19891|[Integrated terrminal] [Feature Request] Configuration option to show integrated terminal by default
+19892|Weird cursor behavior
+19893|V1.9.0 completely broke my node debugging. F5 just does nothing now.
+19894|[decorators] Single quotes in the contentText make the content not being rendered at all
+19895|"Add _ to the default value of ""editor.wordSeparators"""
+19896|Instant markdown preview displays text out of bounds when editor UI is zoomed out
+19897|Drag for multiple cursors
+19898|Glob: server/**/**.js should not match server.js
+19899|I18N Support on extensions ?
+19900|Some typo fixes

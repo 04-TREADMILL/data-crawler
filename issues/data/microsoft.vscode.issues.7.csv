@@ -1,0 +1,100 @@
+601|Feedback popup does not appear when zoomed in too much
+602|Release/0.10.2
+603|Add more reusable types for CSS Intellisense
+604|[css] Support auto-complete of gradient function parameters like currently do for rgb/hsl
+605|Please add support form Haml/Slim. Most of the new frameworks use these languages instead of html
+606|add <picture> element to HTML/CSS intellisense and syntax highlighting
+607|Add 'experimentalAsyncFunctions' compiler options to jsconfig.json
+608|Visual Studio Code keeps Crashing?
+609|ext install: auto go away while focus out from one window to another
+610|golang: incorrect syntax error for legal code: type Var string
+611|Removing a keyboard shortcut is not feasible when multiple are in place
+612|Variables view in debugger got stale
+613|Unnecessery save changes dialog when deleting a file
+614|Executing a built in command does not wait for it to be executed
+615|TextDocument needs a dispose() method or leaks otherwise
+616|Cannot debug extensions if offline
+617|Joh/fix language features
+618|Add command to change case (to lowercase, to uppercase)
+619|Add onDidCreateTextDocument
+620|When load the folder contains PHP file and edit it, the ediotr often appears unresponsive
+621|Auto-complete of HTML Media Element
+622|Color picker
+623|Can't cancel debug environment picker
+624|Bad margins in debug call stack
+625|Error list should focus file if already open
+626|ES6 validator doesn't understand static class methods
+627|Executing a built in command does not wait for it to be executed (fixes #617)
+628|"Javascript replaced with ""(...token: string[]): void"
+629|Event 'file changed' triggered when scss/less files are editing (win7)
+630|[TypeScript] Bug fixes #297 snippet on method suggest
+631|Maintain File Permissions when Copying Directories/Files on Linux and MacOS
+632|Wrong colors in d.ts after `::`
+633|Create a pre-commit hook that checks for repo hygiene
+634|Need better extension management UI
+635|Allow to undo/redo edits across multiple files
+636|Support Markdown Code Block Language Autocomplete
+637|Toggle Line Comment on German Keyboard.
+638|"Support command-Y as ""redo"" on Mac"
+639|Version 0.9 and higher is super slow while opening editor, project or files
+640|API: No way to find out that an editor has closed
+641|Column position not updated after pressing the tab-key
+642|Cannot read property 'toString' of undefined
+643|Cannot delete .asar file while VS Code is open
+644|Rejecting the promise returned from provideReferences doesn't display an error to the user
+645|Cannot read property 'word' of null
+646|TypeError: Cannot read property 'replace' of null
+647|TypeError: Converting circular structure to JSON
+648|TypeError: Cannot read property 'host' of undefined
+649|SplitLinesCollection: attempt to access a 'newer' model
+650|request 'listbreakpoints' was cancelled because node is unresponsive
+651|Editor on Mac OS X should support System Find/Replace keyboard commands
+652|exception while processing request (exception: Cannot read property 'index' of undefined)
+653|Uncaught TypeError: Cannot read property 'value' of null
+654|Cannot read property 'getLineCount' of null
+655|Native node modules from extensions
+656|Wrong auto-complete for $this
+657|No auto-complete for single quote
+658|Cannot read property 'editOperations' of null
+659|[json] Don't propose keys that are already existing
+660|[php] Suggest '<?php'
+661|[js] Cannot read property 'then' of undefined
+662|VSC can't handle '<' key in key binding (package.json)
+663|Open with Code on drive open as file not folder
+664|Uncaught Error - uri
+665|[json] Uncaught TypeError: Cannot read property 'getResolvedSchema' of undefined
+666|Cannot read property 'galleryInformation' of undefined
+667|[php] Provide html intellisense
+668|Cannot read property 'textEditorModel' of null
+669|TypeError: Cannot read property 'length' of null
+670|Cannot set property 'selectedIndex' of null
+671|Uncaught TypeError: Cannot set property message of [object Object] which has only a getter
+672|[C#] colorizer - syntax highlighting error when curly brace in a comment after an assignment
+673|It took about 15-20 seconds to launch code after the updates
+674|De-indenting multiple lines should remove a consistent number of spaces
+675|[JavaScript] Incorrect 'new' keyword warning
+676|possible to make all the extension sync with one drive/dropbox/google drive?
+677|[Extension API] Make it possible to remove current selections
+678|Go to definition, but how to go back quickly? any short key?
+679|Support octicon in ThemableDecorationRenderOptions for gutter
+680|cmd+c will jump to definition
+681|No response issue when open large compressed js
+682|Execute function before save on disk
+683|tasks for single file
+684|Can you let vscode read .vscode/extensions from both global and in project folder?
+685|Heating and high fan speeds when debugging node.js apps in Mac
+686|Incorrect type warning on object parameters of type { [key: string]: any; }
+687|vscode.workspace.rootPath isn't undefined when no folders are open
+688|Support to install and uninstall extensions from cli
+689|updateChannel reset to stable on restart
+690|window.showQuickPick is not closed when promise is rejected
+691|Thenable does not have a catch method
+692|Bad error telemetry stack link
+693|Quick open widget doesn't acknowledge tree.reveal(...) as a promise
+694|Extension API: vscode.workspace.findFiles() doesn't respect the maxResults parameter.
+695|Error telemetry issues should link back to error telemetry service
+696|ES6 template strings issue with comments
+697|suggestWidget: change the suggest word's order
+698|"""ZoomTo"" action?"
+699|[xml] XML colorizing broken
+700|jsconfig.json sometimes not taken into account

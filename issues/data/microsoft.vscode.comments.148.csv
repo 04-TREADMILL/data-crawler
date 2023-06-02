@@ -1,0 +1,100 @@
+14701|@jrieken You should verify with ef2a1fc
+14702|Verified
+14703|@aeschli oh, I guess I wasn't seeing it because I was on the VS theme.  I don't see CSS consistency with Sass on latest alpha:  ## Dark+  **CSS** ![image](https://cloud.githubusercontent.com/assets/2193314/13922398/5053a560-ef39-11e5-9b77-747e5472bbbd.png)  **Sass** ![image](https://cloud.githubusercontent.com/assets/2193314/13922408/608fa49c-ef39-11e5-8ef0-553a43b5da0d.png)  **Less** ![image](https://cloud.githubusercontent.com/assets/2193314/13922477/b7ec6946-ef39-11e5-9117-70bd66cfd0af.png)  ## Light+  **CSS** ![image](https://cloud.githubusercontent.com/assets/2193314/13922454/a1ab8fea-ef39-11e5-8dba-05d26af67bc9.png)  **Sass** ![image](https://cloud.githubusercontent.com/assets/2193314/13922450/9b5197fc-ef39-11e5-85e4-1f1914587d8c.png)  **Less** ![image](https://cloud.githubusercontent.com/assets/2193314/13922432/7e7f25fe-ef39-11e5-8c88-f8111bb29c7b.png)
+14704|ok, insiders build is very old then
+14705|Nice!
+14706|Nice!
+14707|"@bpasero That is not the goal.  The bug was that the scrollbar was not visible until a resize event (""Observe, the scrollbar is not possitioned OK:"")."
+14708|@bpasero how do I get this info notification?
+14709|@bpasero Not sure what I should verify?
+14710|"No, we get ""updated"" to the one from last week."
+14711|"Verified: Added `""editor.wordSeparators"": ""`~!@#$%^&*()=+[{]}\\|;:'\"",.<>/?""` and checked that `some-class` double click highlight was consistent over JS and CSS.  @alexandrudima just to confirm, this is no longer delegated to the language service and is control totally by the `editor.wordSeparators` value?"
+14712|Should be ok and verified by @obrejla
+14713|"@weinand when selecting ""Configure file associations..."" after you click on the language mode in the status bar."
+14714|@Tyriar `editor.wordSeparators` is honored by double clicking and word navigation (things that didn't go to the language service, but were using the language word definition regex).  The highlighting is delegated to the language service, since languages can do semantic occurrence highlighting.
+14715|@bpasero aha, I've never used that action. I always changed the associations in the settings.
+14716|The first thing that struck me about VSC (after the silly name) was how _great_ it was to _not_ have tabs.  I currently have 8 files open -- tabs are pointless for me, because the file names will not show on the tabs.  I _adore_ CTRL+TAB, and the 'working files' list.  If you must add tabs, please make them optional.
+14717|Thanks for the clarification :)
+14718|"@mattacosta The extension host is an Electron process running in a ""nodejs mode"". Because it is an Electron process (that also creates windows), under Windows, it is not possible to get the stdin/stdout when you fork from it. Our workaround consists of creating pipes to the forked process to get stdin/stdout support.  See https://github.com/Microsoft/vscode/blob/master/src/vs/base/node/stdFork.ts and https://github.com/Microsoft/vscode/blob/master/src/vs/base/node/stdForkStart.js"
+14719|@jrieken Can you pls try this on a mac, just open dev tools once to see if the warnings appear
+14720|@alexandrudima Nice, thank you!!
+14721|I didn't start reviewing the commit, I trust you do the right thing. Thank you!
+14722|@alexandrudima Also very helpful to understand that you're using JS regex implementation. I didn't know that before, but now I know where to look for more information. :smile:
+14723|I feel honoured ;)
+14724|Yes, we fixed this one for March! Also had this but only when zooming in.
+14725|"Verified that ""Open in Terminal"" works for me and opens my terminal. @weinand note that I do not have iTerm installed so you might want to assign this one to someone else?"
+14726|I like the suggestion, saves an extra `Ctrl+Delete`.  My change was to fix the blatantly wrong behavior of `Ctrl+Delete` that would delete the current line.
+14727|@SofianHn Any suggestion how to verify? Maybe in code?
+14728|So it sounds like the plan is to do doing nothing for March, correct?  Can we at least provide IntelliSense for locale.json so I know which languages I can pick from and the proper format.    When we do a proper settings/configuration experience we can have nice UI for picking the language.
+14729|Nice!
+14730|:+1:
+14731|@alexandrudima The high contrast theme no longer has a selection border. This is how it looked in 0.10.10: ![image](https://cloud.githubusercontent.com/assets/6461412/13924099/4e2d90d0-ef83-11e5-951b-ee3b25e71a07.png)
+14732|@Sofian any findings, observations?
+14733|looks good!
+14734|Everything worked as expected, intellisense, debugging, etc..
+14735|Verified by debugging a VS Code extension that uses sourcemaps and sits in a path with many spaces
+14736|Hi **@con-ssc**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+14737|@aeschli Maybe just a code review. I removed the whole API that causes this. We report errors as custom telemetry events and no need to double reporting through the `trackException` API.
+14738|It's fine, it just doesn't show in the preview mode in the theme picker. It's because the color css only shows on focus.
+14739|verified
+14740|"@eduardo-costa There are two reasons we don't do this and why I think we shouldn't: - keybindings are more ""personal"" than settings. Right now, we have user level settings and workspace level settings. Workspace level settings overwrite the user level settings. This mostly makes sense (when not abused :) ). - `keybindings.json` is not cross-OS, nor cross-keyboard layouts. On the Mac, the modifiers `cmd+`, `ctrl+`, `shift+` and `alt+` are available, while on Windows the modifiers `ctrl+`, `shift+`, `alt+` and `win+` are available. I don't think it is worthwhile to complicate `keybindings.json` with alternatives for other OSes.  That being said, it is actually very easy to create a VS Code extension that contributes only `keybindings`, making it super easy to share a list of keybindings. See for example https://github.com/Microsoft/vscode-sublime-keybindings"
+14741|"Fair enough! Thanks! Em 21/03/2016 13:09, ""Alexandru Dima"" notifications@github.com escreveu:  > @eduardo-costa https://github.com/eduardo-costa There are two reasons > we don't do this and why I think we shouldn't: > - keybindings are more ""personal"" than settings. Right now, we have >   user level settings and workspace level settings. Workspace level settings >   overwrite the user level settings. This mostly makes sense (when not abused >   :) ). > - keybindings.json is not cross-OS, nor cross-keyboard layouts. On the >   Mac, the modifiers cmd+, ctrl+, shift+ and alt+ are available, while >   on Windows the modifiers ctrl+, shift+, alt+ and win+ are available. I >   don't think it is worthwhile to complicate keybindings.json with >   alternatives for other OSes. >  > That being said, it is actually very easy to create a VS Code extension > that contributes only keybindings, making it super easy to share a list > of keybindings. See for example > https://github.com/Microsoft/vscode-sublime-keybindings >  > — > You are receiving this because you were mentioned. > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/4504#issuecomment-199359339"
+14742|Thanks Sofian. I verified that we no longer call trackException.
+14743|"@leegee They are not ""pointless"", you just don't have a need for them. Did you consider that people who are working on different kinds of projects might have a different use case to you?  Give the thousands of people who have voted for tabs, I think the only ""pointless"" thing around here is your comment :)"
+14744|@jrieken can you zip the workspace and attach and include your settings?
+14745|unsure if that is needed: https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/search/browser/searchViewlet.ts#L1405  tho, it is the workspace described here: Microsoft/TypeScript#7444
+14746|Looks like there's still an issue with functions then. Please open a new issue.
+14747|@jrieken the progress is only fake until I know how many files to search. since file walking can take forever, and I still want to show something, there can be cases where the fake progress goes to 90% and only then a lot of more files are discovered.  There is really no good way of showing real progress without knowing the number of files to search in upfront (e.g. an index would help).
+14748|"Verified search and ctrl+p in windows and linux with a ""junction"" folder.  @bpasero If the code is different for mac than for linux, please also assign another person for verification."
+14749|Verified setting `editor.acceptSuggestionOnEnter` to `false` no longer makes `Enter` and accept key for suggestions
+14750|This is resolved, I ended up using the `HTMLSelectElement` element instead of the above referenced `HTMLSelectElement` element.  The value property exists on the `HTMLSelectElement` element.  Ill be submitting a PR for the select element soon.
+14751|@dbaeumer Let's look into it together. NVDA does not go into 'Browsing mode' for me when I use alt+down, alt+up and shift+escape.
+14752|I verified that PHP quote completion and surrounding works. I opened #4510 for Python and #4511 for VB.
+14753|"Agree, did some more digging and getRangesToPosition in (\languages\html\common\html.ts) essentially an empty implementation.   TokenSelectionSupport (contrib\smartSelect\common\tokenSelectionSupport.ts) has an implementation that is used by all other languages.   The empty implementation in html.ts is being used because in html.ts, line 311 we have  this.logicalSelectionSupport = this;  which causes the below line in editor\contrib\smartSelect\common\smartSelect.ts to use the empty implementation which returns undefined as you noted  var selectionSupport = model.getMode().logicalSelectionSupport || this._tokenSelectionSupport;  Seems this needs some refactoring - perhaps check if <Language>Mode implements ILogicalSelectionSupport before attempting to use it."
+14754|Thanks. How do I switch the UI language to English?
+14755|It will also present: Bar**r**e-d-**app**u**i**-**d**roite.jpg before: map.**rappid**.js in the results when searching for `rappid`.
+14756|@jon64digital : I saw that the project had asked for general comments from users on the prospect of tabs -- I took that to mean we should express our own opinions. I now realise I should have e-mailed you first, so that I could express your opinion, and avoid your rude ad-hominem invective. My apologies.
+14757|@chrisdias pls verify.
+14758|@alexandrudima please review
+14759|Should be good, thanks!
+14760|I wonder if we should show the infinite progress as long as we don't know how many files there are?
+14761|@aeschli Any reason the html implementation is a noop?
+14762|Yeah, that could work.
+14763|I opt for not fixing this for March. We ship like that since Jan, see this for the first time, and don't really understand how this happens.
+14764|I'm using systemjs to import and transpile my es6 files. The only way I found to debug is to use `debugger;` because vscode or chrome devtools breakpoints are never hit. In vscode, I can't put breakpoints in test!transpiled file and when using `debugger;`, the inline sourcemap is not recognized, only chrome devtools seems to work correctly except for breakpoints.
+14765|"This happened with Code instances left open over the weekend or maybe after an upgrade. Closing the only instance will then allow other windows to be opened via ""Open with"" or using `code` in command prompt."
+14766|4.0.1 has been a requirement since a while. The fwd-link needs updating, @Tyriar please coordinate with the folks from Omnisharp/omnisharp-vscode
+14767|@edumunoz @jacdavis @jrieken @weinand   We on the cpp debugger might be able to contribute a fix for this. It isn't an immediate necessity for us, but it is a little confusing for the user.
+14768|Makes sense.
+14769|@bpasero can clarify but I'd say it's like that because it's useful ;-)
+14770|I suggest doing a null check on the extension host side for march, although this is not really a ship-blocker (no negative user impact)
+14771|fyi @weinand @isidorn
+14772|@aeschli [vb] or phyton?
+14773|@alexandrudima let's discuss tomorrow, I've created #4515 for this
+14774|"The idea is to open ""anything"" from the default quick open handler and so we put symbols and files together. There are times where I like that and times where I don't, but in most cases I like it.  Maybe this should be configurable or we need another handler for files only.   @warpdesign feel free to open feature requests on this if you feel strong about it and a bug on the sorting is already known in another case."
+14775|What was the final verdict for arrow keys, and for mouse? Not having luck in my build of master on Windows. Was hoping for alt+shift+arrows, but seeing ctrl+shift+alt+arrows in key bindings and that's not working. Not seeing way with mouse.
+14776|@CIPop are you sure the file is not opening in the one instance and maybe just the window does not move to the foreground?
+14777|"@JVimes Shift+Alt for mouse and ctrl+shift+alt+arrows for keyboard by default.  I've heard that those modifiers might not work on all installations. To bind them to something more familiar:  ``` json { ""key"": ""shift+alt+down"",     ""command"": ""cursorColumnSelectDown"",                                   ""when"": ""editorTextFocus"" }, { ""key"": ""shift+alt+left"",     ""command"": ""cursorColumnSelectLeft"",                                   ""when"": ""editorTextFocus"" }, { ""key"": ""shift+alt+pagedown"", ""command"": ""cursorColumnSelectPageDown"",                                   ""when"": ""editorTextFocus"" }, { ""key"": ""shift+alt+pageup"",   ""command"": ""cursorColumnSelectPageUp"",                                   ""when"": ""editorTextFocus"" }, { ""key"": ""shift+alt+right"",    ""command"": ""cursorColumnSelectRight"",                                   ""when"": ""editorTextFocus"" }, { ""key"": ""shift+alt+up"",       ""command"": ""cursorColumnSelectUp"",                                   ""when"": ""editorTextFocus"" } ```"
+14778|"@bpasero I really think this should be configurable (it returns some WebGL methods and I am not using WebGL at all in my whole project, see the screenshot. So it returns some things that are not even present in my project before some results that are present).  Plus, the French translation reads ""atteindre le fichier"" in the menu which basically means ""open a file"": this is misleading.  I think that: - there is clearly something wrong when Ba**r**re-d-**app**u**i**-**d**roite.jpg comes before map.**rappid**.js when looking for a file by typing `rappid`: full word matches should come before anything else - an option would be great for at least not mixing symbols / files in the panel (both could be returned, but separated) - an option to only show files would be great too  Where can I open a suggestion for that ?  Note that I am really considering using something else than Code right now, because this panel is one of the things I use the most in Code and as it is now, I cannot rely on it :( I spend my time in the dozen of search results digging for the files I want to open in the middle of unrelated symbols..."
+14779|"@Alphapage then we should try to solve the breakpoint issues in VS Code and not add features for workarounds. In 99% of all cases of breakpoint issues, source maps are just not created correctly.  What exactly do you mean by ""In vscode, I can't put breakpoints in test!transpiled file""? What version of VS Code are you using? What node version?"
+14780|@warpdesign we can reuse this one for the option. I wonder from where you get the WebGL context. Can you share your workspace with us?
+14781|@bpasero clicking the WebGL symbol result opens the `lib.d.ts` file located in `C:\Program Files (x86)\Microsoft VS Code Insiders\resources\app\extensions\typescript\server\typescript\lib`.
+14782|When you `system.import('test.js')`, systemjs generates a test.js!transpiled file which contains the transpiled code and the inline sourcemap (from babel in my case). If I put breakpoints in test.js, then nothing happens. I can't put breakpoints in test.js!transpiled (but I can do in chrome devtools even if they are never hit).  node:4.2.4 vscode: 0.10.11
+14783|@factormystic you can run multiple debuggers easily by opening more VS Code windows. Every window supports one debugger. The only limitation is that you cannot run more than one debugger from a single project folder, because VS Code doesn't allow you to open a project folder in more than one window (we are planning to lift the limitation). But there is a simple workaround: create sub folders in your project folder and open these in different VS Code windows.
+14784|@warpdesign can you do Ctrl+Shift+P > Close File when you have lib.d.ts open and then see if symbols still show up from that file?  @aeschli I think we should not show symbols from d.ts files or provide an option to exclude them.
+14785|@alexandrudima, Those shortcuts are good and work, but I expect them to be default on Windows. Mouse still doesn't work. Shift+Alt+drag ignores the location I started dragging at. Instead, it starts the box at the last cursor location.
+14786|@jrieken the link is live, but the content hasn't been updated yet, the new content will first be in the vnext branch.
+14787|No plans for fixing, keys can be reassigned in settings if you cannot use Alt key.
+14788|:+1:
+14789|@bpasero Are there any way to change the default key for multi-selecting? Or change the key used for show/hiding menu?
+14790|While this was happening only one Code process was available. Not only the file didn't open but I couldn't drag/drop the file to the available window either. As I said, closing these windows and restarting Code fixed the issue: I can now open many Code editor instances.
+14791|vb
+14792|@CIPop was the one instance functional at all or frozen?
+14793|It was functional: I had a folder opened in it and was able to edit the files there.
+14794|Yeah that is a bit counter intuitive
+14795|Great thanks @Tyriar and @pflannery
+14796|@jon64digital @leegee said they were pointless _for him_, not in general. I wholly support tabs but I do agree that they should be an option that can be turned off for those that do not use them. Let's keep the discussion civil and not resort to personal attacks. Nobody has an incorrect opinion. They are just that...opinions.
+14797|@CIPop trying to reproduce, please clarify the steps: - doubleclick on Code to open the first instance (it opens on a folder) - right click on another file on the desktop > open with code  => nothing happens
+14798|@Tyriar we are not doing the truncation but use CSS and Chrome, can you try to reproduce in Chrome by copying the CSS we use and file a bug against them in case you see it?
+14799|+1 to chance this to Language. But lets wait until we do the Menu work and then change this once.
+14800|I'm aware that it should be possible with multiple instances, by awkwardly opening different folders. That's kind of a hack and not particularly exciting, even though it is possible.  The really exciting thing is the prospect of being able to run multiple debuggers at once in the same vs code instance, as I said.  Much like it would not be very exciting if VS Code only allowed one type of syntax highlighting per instance, but instead loads separate syntax highlighting per file type.  So again the question is, what kind of difficulties would be associated with launching a debugger not exclusively in a VS Code instance, but basically on a per file type (or other) basis?

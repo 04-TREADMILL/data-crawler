@@ -1,0 +1,100 @@
+29501|Closing due to inactivity.
+29502|Closing due to inactivity. The crashes on VMs are likely due to Chromium renderer issues.
+29503|Doing this is a non-blocking way when a folder is opened is probably the way to go.
+29504|Done! Verified in #8198
+29505|More examples:  Focuses Find input on `Ctrl+H`: - Beyond Compare - WinMerge - Notepad++ - Wordpad - Fiddler ScriptEditor - SQL Server Management Studio 2016 (Replace widget in query editor)  Focuses Replace input on `Ctrl+H`: - SQL Server Management Studio 2016 (Replace in Files dialog pops up with no query editor open)
+29506|"@jrieken `notIn: ('string' | 'comment')[]` makes sense to me."
+29507|This is just a matter of grabbing COMSPEC here https://github.com/Microsoft/vscode/blob/f412e4f444ab848a1bafe047a91a8bf3ac266c7c/src/vs/workbench/parts/execution/electron-browser/terminal.ts#L25
+29508|"I have the input box [loading the template correctly now](https://github.com/bill-mybiz/vscode/commit/010a92da1bf5791e26d6c688884e01b266ba483d). I haven't thoroughly tested it just yet, but from the limited testing, it seems to be working. I also have the previous commit message being populated correctly. I ""just"" have to hook this up to the reset action (I think) and that _should_ take care of both this issue and issue #6190."
+29509|@weinand  Please help me understand this a bit better. When reading the original bug #5966, it appears the fix was to prevent issuing multiple step/continue commands until a stopped event was received. That should not influence this. After a command is issued, shouldn’t it wait until the response is received before processing events? In similar situations this can be handled by putting events in a queue until the command response is received. Based on #7325 this obviously effects other debug adapters in addition to C# and C++, it seems like this would also require more onus on debug adapter writers.
+29510|Closing due to inactivity plus it seems to work on my machine, please leave a comment if you're still experiencing the issue and/or have more information.
+29511|Closing in favor of #8132
+29512|No longer happens
+29513|This needs to be tackled upstream first at https://github.com/sourcelair/xterm.js/issues/77
+29514|Closing due to inactivity and lack of reports, please leave a comment if you're still experiencing the issue and/or have more information.
+29515|Closing as a lot of changes have been made to clear logic in v1.2.
+29516|Basically we defer to whatever xterm does here, there are a few issues in the repo related to this. Closing as designed.
+29517|Closing as duplicate of https://github.com/Microsoft/vscode/issues/6560
+29518|Closing as designed
+29519|Duplicate of https://github.com/Microsoft/vscode/issues/8336
+29520|@Ciantic no it is not in insider yet.
+29521|Upstream issue: https://github.com/sourcelair/xterm.js/issues/118
+29522|Imho every issue should have an owner. So +1
+29523|"Looking at July to pull in change from upstream and look into whether `font-variant-ligatures: none;` is better than the `font-feature-settings: ""liga"" 0;` being used upstream (see https://github.com/sourcelair/xterm.js/commit/4c6b99345875171c476a8e4d2f880e7372094060#commitcomment-17998829)"
+29524|Closing in favor of #7541.
+29525|@bpasero same, it's difficult to find an owner for some of the random feature requests is the only problem. We should change the inbox tracking query to include unassigned issues if this is desirable.
+29526|Closing then, maybe you hit some other issue disguised as this?
+29527|I think this got easier with being able to assign multiple owners. So, if in doubt, just pick a couple. And yes, inbox tracking is just looking at issues without owner 👍
+29528|part one create files from command line: http://www.screencast.com/t/ayE0ZpxiODT  part two: reverting changes from VSO http://www.screencast.com/t/S83qE9rbHO
+29529|@bpasero: Note that this works fine in VS Code 1.2.1 and is being reported as broken in VS Code 1.3.0 Insiders. That _seems_ to point at this being a VS Code issue.
+29530|I am now using a Vagrant environment instead of the system mentioned above, so I have not tested this since I have logged the ticket. Sorry!  Let me know if I can provide you with any additional details to diagnose this issue, or it can be closed if you are confident that it is no longer relevant :)
+29531|#3742  Request to be able to have a docked viewlet that can autohide and autoshow without pushing editors.
+29532|Upstream issue https://github.com/sourcelair/xterm.js/issues/152
+29533|If anyone has insight on how locale works on Mac it would be appreciated, PRs welcome.
+29534|Doing this will likely be based on xterm.js' linkify addon which is currently not production ready. So this is blocked on https://github.com/sourcelair/xterm.js/issues/27
+29535|Closing as designed.
+29536|I believe this is already fixed (works on Linux), can you see if you can reproduce in the [Insiders build](https://code.visualstudio.com/insiders)?
+29537|Closing in favor of https://github.com/Microsoft/vscode-docs/issues/369
+29538|This should work now, closing as duplicate of https://github.com/Microsoft/vscode/issues/8141
+29539|Things in this area changed a lot in v1.3, closing this as resolved. Please reopen/comment if you can reproduce in the Insiders build.
+29540|Related https://github.com/Microsoft/vscode/issues/7345
+29541|"Closing due to inactivity, please leave a comment if you're still experiencing the issue and/or have more information.  I suspect you're setting your environment variable in `.bash_profile` which means you need to launch the shell as a login shell. This can be done  in v1.3.0 using:  ``` json {   ""terminal.integrated.shellArgs.osx"": [""-l""] } ```"
+29542|@NCC1701M you still having issues with this?
+29543|Duplicate of https://github.com/Microsoft/vscode/issues/7061
+29544|"@joaomoreno did we end up getting an ""update all"" button?"
+29545|Works for me with XML ![image](https://cloud.githubusercontent.com/assets/6461412/16596427/32f1c984-42f4-11e6-8fd3-905fb8c31556.png)  Maybe you tried HTML? ![image](https://cloud.githubusercontent.com/assets/6461412/16596447/42f24016-42f4-11e6-888b-d0af70283877.png)
+29546|If #459 was implemented, this would be easy to change.
+29547|Can you file a new issue so I can look at this?
+29548|#2806 duplicate
+29549|That's right. It just makes some tasks a bit easier.
+29550|@Tyriar that's a cool way of making it bigger with CSS custom properties.  @bpasero if you don't want to go that route, here is some regular CSS that would be equivalent.  ``` .monaco-shell:lang(zh-Hans) .tiny-titles, .monaco-shell:lang(zh-Hant) .tiny-titles, .monaco-shell:lang(ja) .tiny-titles, .monaco-shell:lang(ko) .tiny-titles {   font-size: 1.2em; } ```  Or a SASS approach, which works great if there a lot of other places that need to be addressed.  ``` .monaco-shell:lang(zh-Hans), .monaco-shell:lang(zh-Hant), .monaco-shell:lang(ja), .monaco-shell:lang(ko) {   .tiny-titles {     font-size: 1.2em;   } } ```
+29551|@Tyriar indeed, this is a feature request for debug, but it is unrelated to `terminal.external.windowsExec` which is only a configuration setting for the 'Open in Terminal' action.
+29552|Related #2806
+29553|So this issue is related to 3 then, as it's talking about the `externalConsole` setting here? https://github.com/Microsoft/vscode/blob/c5429332d4ac326a94a6c5e87fffefcb14d10e84/src/vs/workbench/parts/debug/common/debug.ts#L214  I own 1 & 2.
+29554|I don't think this can be solved simply.  We probably need to do one of the following: - Use rgba colors (not a great long term solution, but I'm willing to do it) - Use a nasty and hacky z-index trick on duplicate versions of the tabs that act as the click/keyboard focus targets.  They would have transparent backgrounds and would be `opacity: 0` when not in focus or active.  This would basically just be trick to get a colored overlay.  (complicated and potentially buggy). - Use JavaScript internally to calculate the colors - Use a library that enables `color-mod()` function usage from the CSS 4 spec during runtime (#8151).  Let me know what you think would be ideal from an engineering perspective.
+29555|@Stanzilla see https://github.com/Microsoft/vscode/issues/8124, it's marked for July (v1.4)
+29556|@Tyriar No I don't have the problem at the moment. I'd like to say it could be a OS problem but I had the issue on different machines with different OSs (Win 10 and Win 7) and only when I run it via CTRL+SHIFT+C from VSCode. But it is working at the moment. So I thing you can close this issue.
+29557|"Duplicate of #7407. Not planning on supporting this, note that you can call `runas.exe` to run a command as an admin like so:  ``` runas.exe /savecred /user:administrator ""%sysdrive%\testScripts\testscript1.ps1""  ```  I find it a bit concerning that ember would ask for admin privileges at all though."
+29558|This is an upstream issue.
+29559|@jrieken is there an issue for the context menu customization story?
+29560|Upstream issue: https://github.com/sourcelair/xterm.js/issues/149
+29561|I believe it has to do with the way ember-cli / angular-cli do their builds- creating lots of symlinks on Windows not as an admin user is horribly slow.
+29562|+1 for the browser behavior and dynamic rearranging if possible.
+29563|Closing in favor of #8219, there typically be a gap as the terminal is aligned to the bottom, it would look wonky if it was aligned to the top too and resizing would look even worse imo. Verifying all lines/characters are the same height in #8219 will make the row/col calculation fit as good as possible.
+29564|"I don't mind ""Go to"", but I'm fine with ""Go"""
+29565|Sorry, duplicate of https://github.com/Microsoft/vscode/issues/5578
+29566|alternatively two explicit fields like `notInStrings: boolean` and `notInComments: boolean`
+29567|I verified in C++ debugger extension that that this bug is fixed today's insider build. Thanks!
+29568|@faxue-msft thanks a lot for verifying.
+29569|^Thank you
+29570|Duplicate of https://github.com/Microsoft/vscode/issues/6731
+29571|This may be improved with the IME support work in https://github.com/sourcelair/xterm.js/issues/124, I'll see if I can look into this for July.
+29572|@chrmarti, thanks for your PR! By analyzing the annotation information on this pull request, we identified @Tyriar and @kisstkondoros to be potential reviewers
+29573|Hi **@chrmarti**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (Christof Marti). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+29574|This should work if a native scroll bar is added to the integrated terminal. It was mentioned in https://github.com/sourcelair/xterm.js/issues/150 to use [clusterize](https://clusterize.js.org/) to implement native scrolling, that may have its own set of issues. Closing in favor of https://github.com/Microsoft/vscode/issues/6602
+29575|Related: https://github.com/Microsoft/vscode/issues/7923
+29576|Same issue for lua
+29577|The answer to this may be to just add another setting an not rely on the editor one. If #7923 gets implemented this will probably have to be done.
+29578|It's working again, closing off for now as I can't repro anymore.
+29579|Sorry, for now we don't support the context keys `resourceScheme` and `resourceLangId` in the editor context menu but only for the title area and in the explorer. That's was the downside of a workaround we have to make to mitigate an oversight that was to risky to fix properly...  What you could do is to use the `editorLangId` context key which is (only) available in the editor. For instance you can make you virtual document URIs be like `hexdump:some/path/some/file.HEX` and associate a language to that ending. The language can be just a name and identifier - tho a special coloriser for hex would be cool.
+29580|Hi, you can find it here:  https://github.com/Microsoft/vscode/issues/8757  I can send you also the complete solution if you prefer or need.  Thanks in advance, Giuseppe
+29581|@bpasero fyi
+29582|Does the keybinding show up in the command palette?  ![image](https://cloud.githubusercontent.com/assets/2193314/16598967/25428d80-42b5-11e6-978b-a9886d386e7b.png)  Also what distro is that?
+29583|Ah I see... The language proposal seems like a good solution, I'll see what I can do.  Thanks for the quick response !
+29584|Yeah, there is also the issue that once you set mix-blend-mode, all children seem to inherit this (similar to opacity) and you cannot unset this in a child. This is also the reason why I cannot have my nice blue drop feedback in light theme when dragging over tabs.  If we do something about it, it should not be a hack. Maybe we go back to rgba() in tabs land?
+29585|@aeschli, @alexandrudima did something change here? The [omnisharp config](https://github.com/OmniSharp/omnisharp-vscode/blob/master/csharp.configuration.json) didn't change
+29586|Maybe integrated terminal can present same feature as native Windows terminal, on Windows.  In the property options there are edition options with the ability to active <kbd>ctrl</kbd> shortcuts. It's just what we are talking about. It kills the process only if there is no selection. Cool no? _VS Code_ can do it.  Sorry my preview is in french, but yours certainly looks the same. ![terminalpropertiesoptions](https://cloud.githubusercontent.com/assets/2221676/16598938/75102700-4300-11e6-8063-0c357febefcb.png)  With all options enabled. You can: 1. Copy paste <kbd>ctrl</kbd> + <kbd>c</kbd> / <kbd>v</kbd> even when a process is running (kills only if no selection) 2. Always paste <kbd>ctrl</kbd> + <kbd>v</kbd> (after process ended) 3. Select text with mouse 4. Select text with keyboard <kbd>shift</kbd> + <kbd>←</kbd> / <kbd>→</kbd>  You can copy, paste and select text only with keyboard on Windows.  (Both terminal, integrated and not are Microsoft **Windows [version 10.0.10586]**)  Can you expose these options to user preferences?
+29587|I am very afraid of making such a change without sufficient feedback and testing from our CJK users. We never got this complaint from those users, so I would wait for sufficient number of people to complain.  As a reference, where I felt confident of doing a change: https://github.com/Microsoft/vscode/issues/5260  Maybe just get in contact with them to get an idea how bad it is.  We should not just fix CJK issues because **we think** they are issues for CJK users.
+29588|I assume you mean upstream in the terminal emulator, not in julia, right?
+29589|This looks like the code.visualstudio.com home page image which @bgashler1 is in the process of updating.
+29590|Generally good practice to keep first line of git commit messages under 50 characters, more detail underneath (for future ref :smiley:).
+29591|Yes, upstream as in xtermjs, pty.js or winpty.
+29592|Dupe of 8643?
+29593|If English was that blurry and unreadable on the UI it would be a bug and an accessibility issue. Given the context, a user may know what it says naturally, but the text itself _should be readable_ as a minimum for the sake of low-vision users. Also note that I can read Korean and basic Japanese and it's difficult/impossible to make out these characters. I cc'd @rebornix to get his thoughts on it too since he speaks Chinese.
+29594|Thanks for the update :smiley:
+29595|I can confirm that the installer is still not writing the relevant keys at HKLM.
+29596|I can reproduce this too. Other Intellisense features (e.g. type inference, info on hover) works, so it seems like just a syntax highlighting bug.  Version: 1.3.0-insider a1293f5 OS: Windows 10 Pro Insider 14379  Here's a gif:  ![syntax-highlighting-typescript-generics](https://cloud.githubusercontent.com/assets/1077648/16600793/cf0ce416-42bd-11e6-8d9f-1efdf62ef3bb.gif)
+29597|@joaomoreno Could you leave this issue open until it is fully resolved? I.e. until there is also a response for macOS and Linux?  Also, just to confirm: when I _update_ an extension, the previous version of that extension will be removed by deleting the whole folder for that extension, including any new files the extension might have written into that folder, correct? It was not clear to me from your response whether you were talking about extension uninstall or update, or both.
+29598|Oh, and just naming the download folder by including the version of the extension would work, but if these folders don't get removed I would leave lots of stranded files on user's system, which seems less than ideal.
+29599|This would be really great to have. I'm finding it quite hard to work with C++/Rust templates because my  programming font has `>>` and `>>>` ligatures. As a result I cannot see where my cursor is when moving it through the angle brackets. I cannot even e.g. click to place the cursor between the two `<<`. I would almost consider this a bug rather than a feature request.  A slightly different approach to the parent's suggestion would be to disable ligature rendering when the cursor is adjacent to the ligature, or between the characters forming it.
+29600|👍 This would allow for features that need language specific knowledge, but can do without a full AST with bindings.

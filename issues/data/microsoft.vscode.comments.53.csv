@@ -1,0 +1,100 @@
+5201|You can switch to regexp mode and use `\n` and/or `\r`
+5202|Doesn't the Go extension do this?
+5203|:+1:
+5204|I actually like that behavior, it allows me to deindent lines quickly no matter where my cursor is. If you change it, please consider adding a setting.
+5205|@cherchyk what node.js version are you trying with?
+5206|Might depend on the font being used.
+5207|@cherchyk what OS? I suspect file events are failing. Does it work when you wait 1 second before pressing F5?
+5208|:+1:
+5209|Alex, not sure if this is a bug or feature request.
+5210|@lucianFXD how do you launch it from the terminal?
+5211|It is currently just not implemented.
+5212|This might be a dupe of a feature request.
+5213|@egamma @dbaeumer @aeschli fyi
+5214|Currently not supported, but a valid feature request.
+5215|Have to follow up with Electron if this is possible. Might require changes there.
+5216|I also think this is annoying. Symbols view only shows symbols in the global scope, also for Javasript. If you use class expressions for Angular, like `.controller('MyController', class MyController { ... })` you will never get any methods of that class show up in the symbol view.
+5217|@chrisdias fyi
+5218|:+1:
+5219|"Yes, for languages where this is supported you can Format documents (""Format Code"")."
+5220|@Manouchehri so you have wayland extension installed and this causes code to not start properly? I am having difficulties to understand if this is a bug in wayland or code.
+5221|@vilaskadam does it reproduce when you run `code --disableExtensions` ?
+5222|Actually, I have to correct myself: this is not possible because the regexps match on a line basis. I used  that trick to match tabs with `\t`, but `\n` or `\r` does not work currently.
+5223|@bpasero please reopen
+5224|"I also confused myself, I think we added support to ""Replace"" with new lines but not to search for new lines. But @alexandrudima would know."
+5225|I use Consolas.
+5226|@bpasero thank you
+5227|A debugger contribution is not special and can coexist with other contributions. And yes, the Go extension is a good example for this. But today it is not possible to call into those other contributions from the debug adapter. This is something we want to support in the future.
+5228|@cherchyk did you try to attach to the correct process? VSCode does not yet support clusters, but it should be possible to attach VSCode to a process within the cluster if you know the debug port of the process. See https://github.com/Microsoft/vscode/issues/865
+5229|https://github.com/Microsoft/vscode-docs/blob/master/docs/editor/setup.md
+5230|@SetTrend on what OS do you see this not working? Looks ok for me on Mac and Win 10.
+5231|Thanks :)
+5232|Basically to fix this, VS Code needs to match regexps with the multiline flag.
+5233|It's working with https://marketplace.visualstudio.com/items/lukehoban.Go
+5234|"I also have run into a problem where when using `export default class Foo{}`, and then subsequently trying to re-export via ""import.ts"": `export * from ""./foo"";`, I was unable to get the class definition from a file  importing ""import.ts"", and node would also fail trying to run it.  ""module has no exported member Foo"", but it only happens with the `default` keyword."
+5235|@AlexanderMattoni you should open a seperate issue for that
+5236|In case someone wants to take a shot at it: https://github.com/javaparser/javaparser
+5237|+1 VSC would greatly benefit I think.
+5238|"Your observation is absolutely right when you are referring to the Save on Close dialog box (which I actually did, too ;) ). This dialog surely works as expected.  But, in fact, that dialog works only by coincidence. It looks like the first button gets focus by default, and, thus, is triggered when pressing [ENTER].  Problems will occur when the first button is _not_ supposed to be the default, like in this example:  ``` |----------------------------------| |          Sure to delete?         | |                                  | |     [  Yes  ]     [[  No  ]]     | |                   ----------     | |----------------------------------| ```  The [Save on Close dialog code](https://github.com/Microsoft/vscode/blob/6319a1e050de957531595511c6999aea653a5c21/src/vs/workbench/parts/files/electron-browser/textFileServices.ts#L193) shows that the Cancel button is determined according to program requirements. Yet, the same functionality is lacking for the Save button."
+5239|Strongly agree. When I make Makefile file, I suffered for this issue because Makefile needs Tab indent.
+5240|But there is no intellisense for PHP in vscode? It's one of the most voted request though: https://visualstudio.uservoice.com/forums/293070-visual-studio-code/suggestions/7752606-php-intellisense
+5241|Right, but this is really something that should be reported against Electron and in fact I did so recently: https://github.com/atom/electron/issues/3810
+5242|The issue is that we trigger the action on the main side but cannot serialise over such arguments. Before we would keep them cached on the extension side and create a dummy action for it. Tho, that is likely to result in memory leakage. Needs thinking...
+5243|Optimistically scheduling this for Jan ;-)
+5244|@DenysYefimenko What language is this? JavaScript or TypeScript?
+5245|That's a syntax error because no property name is given (not shorthand, not dynamic naming)
+5246|@lucianFXD this works for me using release 0.10.6. Attached a screen shot showing the command in the  ![capture](https://cloud.githubusercontent.com/assets/1931590/12086225/3f265268-b2c8-11e5-9ba6-035e95c4b8ae.png) command palette. Can you provide more info about what is not working in your case.
+5247|So what you guys actually want is to be able to map more filenames to the language `dockerfile` such that (this)[https://github.com/Microsoft/vscode-docker/blob/master/dockerExtension.ts#L15]  selector works for more filenames and such that the grammar works for more filenames.
+5248|That is then not the document filter, but the language mapping as defined in `package.json` (https://code.visualstudio.com/docs/extensionAPI/extension-points#_contributeslanguages)
+5249|@alexandrudima, @bpasero Do we already support some sort of globbing in the filename-to-language mapping?
+5250|I had this problem in JavaScript.
+5251|Able to reproduce the hang of VSCode. Will investigate
+5252|@bpasero Works as you described. :)
+5253|Additional info  https://twitter.com/snowcode/status/683750220333735937/photo/1
+5254|The built in HTML extension now contains the html text mate grammar and declares the scope name `text.html.basic`. The HTML editor mode in VSCode doesn't the text mate grammar yet, but other language extensions, that depend on the html text mate grammar to be present, profit from this. The issue description above is a good summary.
+5255|#543 fixes this.
+5256|@kkc0923 That would be solved when editorconfig gets merged into core, because you can set different settings for different file types via globs.
+5257|Dup of #112
+5258|The intent is to make separate Light/Dark\* theme extensions as described in this [comment](https://github.com/Microsoft/vscode/issues/1470#issuecomment-166111410) available first week of January.
+5259|This is currently not implemented but a valid feature request.
+5260|"@felixfbecker Does you mean ""Editor Config for VS Code"" extension? If it is, I'll check it. Thanks."
+5261|"This is a problem with the regular expression matcher. Executing the following line in node makes node end in an endless loop:  ``` javascript /^(.*)+s$/.exec('    print ""iteration {iteration} is {name}"".format(iteration=i, name=name)') ```"
+5262|Thank you very much :-).  Will that fix propagate to fix [#1504](https://github.com/Microsoft/vscode/issues/1504) also?
+5263|Excellent! :clap:
+5264|This is a problem in V8. I opened https://bugs.chromium.org/p/v8/issues/detail?id=4651. For now all I can recommend is to tweak the regular expression used. For example /^(.*)s$/ already works and produces the same matches.
+5265|Duplicates https://bugs.chromium.org/p/v8/issues/detail?id=4651
+5266|Adding @egamma to this thread.  I see a couple of options: - in the message where I educate users how to make the change, offer an action to make this change into the settings.json file   - make this change to the settings.json file automatically   - do not touch the settings.json file but silently carry over the previous auto save setting and use it over the setting defined in settings.json  I do not like 1 and 2 because it is risky to modify user created files (which settings.json is). Option 3 is working but also odd because the UI to disable this previous setting is no longer there (from the File menu).  Maybe a variant of option 3 is to only enable auto save from the previous setting if the user has not modified the setting in settings.json. @aeschli is there a way to find out from the configuration service if a setting was actually set by the user or comes in via defaults?
+5267|@jrieken i am not seeing this, I am on 92a51bcfdcb9cb52a86529a2da46f413729415fd  Steps?
+5268|@claycephas Thanks a lot for the information. As suspected it is the tsserver that locks the tsconfig.json file. I will open a bug against the TypeScript team. I have one additional question: are you seeing this with the latest VSCode as well (e.g. 0.10.6). This version ships with a new version of the tsserver.
+5269|Open https://github.com/Microsoft/TypeScript/issues/6337 in TS land
+5270|That the don't show up in the status line is by design.   Moving to Joh for the Ctrl+M list.
+5271|Happens with the built-in javascript linter.
+5272|@Franziskus1988 For what language is that?
+5273|There is nothing the language server framework can do about this. The framework already supports errors spawn form the start to the end of a line using Number.MAX_VALUE for the end value.  However that doesn't help with empty lines. All I can think of adding a decoration to the left gutter to improve this.
+5274|@BenWeedon: can you provide a workspace with a test file and a tasks.json that shows the problem. What value do you use for the showOutput property in the tasks.json
+5275|This issue was moved to Microsoft/TypeScript#6339
+5276|Same version. Step is press `Cmd+T`
+5277|I can't reproduce this neither on Linux nor on Windows using 0.10.6. @msiniscalchi can you still reproduce this using 0.10.6 ?
+5278|`Hint` has no indication by design, `Information` shows in the editor like a warning, the status bar being aligned with Ctrl+M list is also by design - which we may should discuss.  @hoovercj Can you validate that severity information shows up? Because according to (this)[https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/services/modelServiceImpl.ts#L135] it must
+5279|"Hi,  We have fixed the breakpoint issue described in #1702  As for the `launch` and `attach` requests VSCode has special knowledge about these two. For example, the ""restart"" and ""stop"" actions get renamed to ""reconnect"" and ""disconnect"" in the `attach` case.  If I understand correctly in the `listen` scenario you would need a special way to show connections in the UI, thus `listen` would also be special and not just an arbitary request. For the moment you should abuse the threads for showing connections and if we want to support `listen` we should have a plan item for it imho"
+5280|0.10.6 ships with a new version of the tsserver (e.g. 1.7.5). The last VSCode version ship 1.6.x. Moving to the TypeScript team to investigate.
+5281|This issue was moved to Microsoft/TypeScript#6340
+5282|I moved this to TypeScript since for TypeScript, JavaScript, TSX and JSX we rely on the tsserver shipped by the TypeScript team
+5283|As @jrieken already pointed out this is an issue in the tsserver not reporting the reference. Moving to the TypeScript team.
+5284|This issue was moved to Microsoft/TypeScript#6341
+5285|Neither of those are possible for now.
+5286|@liandaoacc can you provide me with the workspace that shows the problem (e.g as a public git repository). I can't reproduce this on WIndows using VSCode 0.10.6 and tsc version 1.7.5
+5287|ooops :octopus:
+5288|@bgse Maybe you misunderstood me, that is exactly my point of view too.
+5289|Showing all attributes in the UI will simply make it cluttered. We still let you filter on the underlying ID since that is a nice thing to do.  @egamma, why **important**?
+5290|See http://www.regular-expressions.info/catastrophic.html for why the provided regular expression cause exponential runtime behavior.
+5291|@bpasero should we be using a different buffer to string conversion than [this](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/git/node/git.lib.ts#L47)? Git is also using the `files.encoding` setting, per your suggestion, but the native Buffer doesn't seem to support all encodings that the file service does (or at least, `windows1252`). Where and how do you use this configuration value to convert bytes?
+5292|bad api adoption
+5293|What do you get with `echo $SHELL`?
+5294|Duplicate of #439
+5295|Nice catch - thanks. Now we show the error in italic red and we do not show the null: part so it should be clearer to the user what is going on. We are not using our general error reportin approach to not spam the user (showing errors on top of workbench)
+5296|"@isidorn Yes, in the optimal case listen would be special and there would be some way to show active connections in the UI without abusing threads. But for my use cases so far, the current way with threads works fine because PHP doesnt support threads anyway - it only doesnt work that well because of #1701 and #1703. But I think it would also be nice if ""listen"" was simply supported as a value for `type` without any special handling, because it just fits better than ""launch"".  Btw, @weinand, can an adapter send an InitializedEvent multiple times to request breakpoints again at a later time?"
+5297|Just to confirm: this **only** appears if you open the git panel, correct?  Do you have git installed? If so, which version? Which OS are you on?  What do you see once you open the **Git Output**?  ![image](https://cloud.githubusercontent.com/assets/22350/12089266/59983826-b2e3-11e5-9461-a80f961b0135.png)
+5298|@felixfbecker yes, sending InitializedEvent multiple times is supported.
+5299|:+1:
+5300|That's the problem I am using ksh but SHELL=/bin/sh If I set SHELL=/bin/ksh it all works fine.  I am trying to find out why xterm is setting SHELL to the wrong value

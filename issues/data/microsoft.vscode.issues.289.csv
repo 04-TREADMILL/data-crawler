@@ -1,0 +1,100 @@
+28801|Observable pattern
+28802|import intellisense not working v1.11.2 or higher
+28803|New update (1.13) introduces breaking changes related to assigning to activeTextEditor.selections below word wrap/folds
+28804|Format Document 中文翻译问题
+28805|"Conflict resolver does not support conflict style ""diff3"""
+28806|Git conflict code actions should work independently from editor.codeLens option
+28807|Adopt ext host configuration to use config data tree
+28808|Adopt ext host to use configuration tree data
+28809|Why does VS Code step into Node.js internal code when using step over
+28810|[Extension Host] Error: ENOENT: no such file or directory, scandir 'C:\Users\...\AppData\Local\GitHub'
+28811|Brackets Matching Highlighting Underline Feature Request
+28812|unchanged file is getting saved on ctrl+s
+28813|Alt click should force regular selection in the Terminal
+28814|Formatting JavaScript documents incorrectly
+28815|Error when running integration-tests
+28816|Option to link the explorer directory to the internal terminal's directory
+28817|VS Code becomes unresponsive using 1.13.1 within a few seconds of opening
+28818|'completions' request failed with error.
+28819|Bad git UI, screams at me
+28820|Fix concurrent TFS Windows builds
+28821|Mac: Can't go fullscreen when opened from terminal
+28822|Internal Console is not displaying stdout output on node 8.1
+28823|Debug views are missing header titles
+28824|Emmet occupies way too much space
+28825|Typing in line when element is folded bug
+28826|Do not install third-party extension in the smoke test
+28827|[themes] Schedule color theme switching (or options in general)
+28828|How can I do CTRL+W to select current word?
+28829|TS files formated with incorrect indent
+28830|Reference search widget positions arrow slight off
+28831|php  function code edit
+28832|tsserver crashes when adding an `import` statement above an existing `import` statement
+28833|vscode doesnt showing underline on undeclared variables
+28834|Layer breaker in vs/platform/editor/common/editor
+28835|When using minimap scroll, preview disappears and duplicates item from startup.
+28836|Layer breaker in vs/platform/statusbar/common/statusbar.ts
+28837|CodeLens cannot be disabled
+28838|Layer breaker in vs/platform tests
+28839|it was blank when a open a file,i don't know why?
+28840|Layer breaker in platform styler.ts
+28841|Allow Terminal to Pop-Out
+28842|Incorrect hightlight of CSS pseudo classes in saved SCSS files.
+28843|Source control notification bubble color changed in custom themes
+28844|Whitespace inserted while typing is sometimes irregular
+28845|"Run ""test"" task actually runs ""build"" task"
+28846|VSCode doesn't follow Mac convention for universal Find
+28847|"Cannot click ""Submit a bug"" in latest insiders on Linux"
+28848|Issue with VSCode not picking up methods.
+28849|Moving a locked file hangs for a while without feedback
+28850|VSCode doesn't recognized OneDrive folders any more
+28851|code-1.13.1 is not available from yumrepos.
+28852|My screen is blinking.
+28853|Don't split words at U+2019, the right single quotation mark.
+28854|Can't find files on OneDrive for Business w/ Files On-demand
+28855|Feature request: Set focus on an specific folder in explorer.
+28856|No auto scroll to where is typing when there's multi selection
+28857|Feature Request: Execute highlighted code when debugging
+28858|"Problem with this font (""Operator Mono Light"" doenst show italic letters on comments like before)"
+28859|Task Experiment 1.4
+28860|Feature Request: Support iOS / OSX development, replacing Xcode as good as possible
+28861|Background problem matcher doesn't clear errors if it matches 0 errors
+28862|Typescript Extension: Provide public API-surface for extension authors
+28863|Continue html renderer cleanup
+28864|In latest code insiders, pressing alt+up or down no longer reads suggestions for accessibility
+28865|Extension packs broken when sideloading
+28866|Feature Request: render emoji in Markdown Preview
+28867|hola
+28868|erro
+28869|Operator Mono not rendering
+28870|Installation failure ia32 v 1.13.1
+28871|Linkifier causes window to hang on long lines
+28872|GAS.COM
+28873|Find/replace doesn't seem to work with a screen reader
+28874|includePath doesn't work
+28875|TS Intellisense hints for parameter defaults?
+28876|TS Difficult to distinguish between parameter hints and method description.
+28877|Vscode safe write from which?
+28878|"""npm run test"" is not recognized as an internal or external command"
+28879|Pin folders
+28880|Wrong color in search menu
+28881|Grid css properties are unknown
+28882|Open windows with different themes
+28883|New emmet: css property width expands to `widows`??
+28884|Toolbar like the one in Visual Studio for most used commands
+28885|Commited changes stays in diff editor
+28886|Webpack code splitting syntax highlight
+28887|Go to definition of an angular component's templateUrl or styleUrl
+28888|Source.hint 'deemphasized' disables certain functionality
+28889|A StackFrame.hint 'subtle' is ignored if source attribute is missing
+28890|ctivate
+28891|Show search results in a page like Sublime Text
+28892|Custom fonts/width for the sidebar / file-listing
+28893|Allow theming of overview ruler border
+28894|Minimap doesn't take editor.scrollBeyondLastLine into account and scrolls beyond the last line
+28895|Use .gitattributes to remove user configuration influence
+28896|Autocomplete slowing down after long time
+28897|Implement multi-root aware file watcher
+28898|Add opt-in multi-root aware file watcher based on Axosoft/nsfw
+28899|win10 系统更新后，vcode一打开就崩溃
+28900|"Add option to hide notification of  ""There is an available update"""

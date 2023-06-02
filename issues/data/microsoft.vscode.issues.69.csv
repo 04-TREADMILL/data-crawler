@@ -1,0 +1,100 @@
+6801|"Revisit that preview editors show up under ""Opened Editors"""
+6802|contentprovider-sampler: remove 'out' folder from repository
+6803|VSCode Stop Working
+6804|Debug hover should have flexible horizontal size
+6805|vs code hangs for while when pressing the tab key for the first time
+6806|Monaco Editor Again
+6807|When VSCode crashes it should automatically restart
+6808|Duplicate lines displayed in editor
+6809|CSS variable go to definition does not follow Sass/Less @import's
+6810|Find all references only finds either definition or usages
+6811|[css/less/scss] var should be a suggestion in intellisense
+6812|Color indicator should appear next to css variables and pre-processor variables
+6813|PWD in terminal window is chopping off when changing vscode display position to different resolution (multi monitor scenario)
+6814|Expanding a CSS variable within var() sometimes add another var inside
+6815|Presented intellisense for variable definitions is not useful
+6816|[css] add property type validation
+6817|Support more languages in Ctrl+hover (LESS, CSS)
+6818|[css] show all variable definitions for Go To definition
+6819|Lost my work on unix mount
+6820|Allow to launch terminal window without file extension.
+6821|Debugging is *painfully* slow when using readline.on
+6822|Numap keys don't work on El Capitan
+6823|VSCode become unresponsive when provided wrong name for terminal in integratedTerminal setting.
+6824|Should/can we move the electron executable?
+6825|Support for arrow-up and arrow-down in debugger call stack view
+6826|Support to navigate between debug views using keyboard shortcuts
+6827|Investigate term.js alternatives
+6828|Break points are hit or miss on node 6.2.0 on Windows
+6829|[themes] does not work if publisher name starts with a number
+6830|Auto closing brackets should try to balance brackets
+6831|When deleting on a new line cursor fails to move to last indentation
+6832|Installing extensions from command line does not prompt for restart
+6833|Can't toggle comment with key binding @ linux mint 17.3
+6834|Problem with ansi color codes with decoration part in debug console
+6835|Terminal scrolls content to the left without a reliable way of recovering
+6836|Find with regex does not locate newlines
+6837|Built-in terminal super jittery on vertical resize and even disappears sometimes
+6838|Whitespace found via regex find is not highlighted throughout the document
+6839|Allow terminal to be relaunched without restarting VS Code when it exits with a non-zero exit code
+6840|Find all references doesn't show default export
+6841|When installing extension, the focus can not be dismiss, I only waiting install completely.
+6842|Ability to disable GoToDefinition on Ctrl+LeftMouseClick
+6843|Failed to save 'test.txt': A system error occured (ESPIPE: invalid seek, write)
+6844|Invoke vscode commands from task.json
+6845|Question about extensions
+6846|allow for cascading peek
+6847|Could not get external grammar injections to work
+6848|avoid 'integratedTerminal' and 'externalTerminal'. Rather use 'terminal'
+6849|搜索插件速度缓慢
+6850|Have to delete twice to remove a multi-level folder containing JavaScript/TypeScript files
+6851|Editor removes auto inserted indentation when formatting on type
+6852|Slow loading extensions
+6853|Prompt user when dirty file gets deleted
+6854|Hover misses border in Dark theme
+6855|Value of `this` when debugging Typescript
+6856|Internal error: illegal access for variables and watch expressions
+6857|VS Code parser problems.
+6858|staged changes are in memory models
+6859|"[loc][Query][DevDiv] Typo in source ""id"""
+6860|A mistake - please ignore
+6861|Add reverse command for addSelectionToNextFindMatch
+6862|Html code formatting weird behavior
+6863|CompletionItem - multiple text edits, onDidAcceptCommand
+6864|Intellisense Makes Suggestions When Writing Comments
+6865|Add .babelrc to json mimetype
+6866|Visual studio code crashes every 2 mins
+6867|VS Code freezes on any minified js file opening
+6868|How to rebind alt+click ?
+6869|Suggest scrollbar has background
+6870|Remove chevron when there is no overflow condition
+6871|Move quick open to editor that is the target of the operation
+6872|Go to definition doesn't work
+6873|OSX: paste doesn't work
+6874|File with long lines cause severe performance issues
+6875|Make %COMSPEC% the default terminal on Windows
+6876|Horizontal selection movement implemented
+6877|Remove bold font style in the Solarized themes
+6878|auto surround selected word with quotes stopped working for php
+6879|Dispose themeChangeListener in markdownExtension
+6880|Suggest list item text ellipsis fixed
+6881|Move src/vs/workbench/parts/terminal/common/terminal to electron-browser
+6882|Create wiki page that details packaging vscode
+6883|Breakpoints not hit if node.js project is located on UNC share
+6884|Parameter Hints Not Rendering Properly
+6885|Unstage selected ranges
+6886|Add actions to workbench registry for staging and unstaging the active file
+6887|Support directory diffs
+6888|Don't debounce searches in the type-to-filter-menus
+6889|add editor.action.undoAddSelection
+6890|Explicit pause showing wrong message with mouse hove in Call stack
+6891|code-alpha won't start on Windows
+6892|KONTAKT  CESNET, z. s. p. o ZIKOVA 4, 16000 PRAHA 6 TEL : +420 224 352 994 FAX : +420 224 320 269 info@cesnet.cz
+6893|Some exclude patterns fail to apply to in-memory search results
+6894|Visual studio code - Intellisense auto complete behaviour
+6895|Jump to error by double clicking on message in output window does not work
+6896|Use non-nullable types in vscode.d.ts
+6897|Remove Alt+F1 editor aria label as it is annoying for repeated use
+6898|A workaround for TS isse https://github.com/Microsoft/TypeScript/issues/6700
+6899|Left mouse button up when selecting text with CTRL pressed causes to follow link
+6900|Pull request to address #6909

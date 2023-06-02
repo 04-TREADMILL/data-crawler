@@ -1,0 +1,100 @@
+17001|Custom keybindings are applied to wrong cursor when findInputFocussed
+17002|Standardize cursor movement with home and end keys
+17003|The project file could not be loaded
+17004|Better coloring of matching braces.
+17005|Tabs are forced to be folded in 2 spaces width?
+17006|Keyboard Shortcut to Toggle Line Sorting
+17007|Folding does not behave well for c/c++ goto(label) syntax
+17008|Do not change MRU order when navigating while holding down modifier keys
+17009|Cannot launch 1.7.2 OS X Sierra
+17010|2 Issues: Integrated terminal + Running NodeJS
+17011|JSon LanguageServer completion returns range end before range start
+17012|Extension completion item provider is not called after typing character dot in javascript
+17013|Selecting highlights merge the next nearby same words
+17014|[sql] syntax highlighting misses many keywords
+17015|4
+17016|typography fix for better legibility
+17017|Leaving zen mode should not remove focus from editor
+17018|CMD+Left with selection issue
+17019|VSCode for Mac OS 10.7.5
+17020|Unable to perform this action because the process is running.
+17021|In-project search and in-file search should have different highlighting colors
+17022|The old extension folder will not delete after updating
+17023|Extensions: double-click should open new extension window pinned
+17024|MacOs - C# and Unity 5.5 Intellisense doesn't work
+17025|Graphic glitch after upgrading to MacOs Siera
+17026|Multiple Emmet Selections only expands the first one
+17027|In full screen mode, the upper part of tabs would become title bar?
+17028|"TypeScript: variable ""namespace"" highlight issue"
+17029|How to insert time in the Snippets
+17030|${fileBasename}  contains extensions
+17031|Git not working in visual studio code.
+17032|VS code hangs when a folder change occurs from the opened folder
+17033|Debug doesn't create launch.json or detect one when I create it manually
+17034|error   clang.executable
+17035|Titlebar-less view for Windows
+17036|output window:The compiler output Chinese garbled
+17037|Duplicate Key Warnings when opening Problems View and the Settings editor
+17038|Isidorn/next
+17039|Allow to Undock Editor Panel
+17040|File model loads file on disk even if a backup exists
+17041|New macOS application icon
+17042|Splash image background glitch
+17043|Allow disabling built in extensions
+17044|Sometimes opening a file I see a full quick diff decoration over the entire file
+17045|"""Find all references"" Not working"
+17046|HTML language server throws exception when initialization options are empty
+17047|Customize peek
+17048|Continue further adoption of ITextModelResolverService
+17049|Preview cache html
+17050|"Show search results ""incrementally"" while searching"
+17051|Fix #16949
+17052|VS Code validates Handlebars helpers as Javascript if helper is used in an event attribute
+17053|Insert final new line doesn't work with format JSON on save
+17054|VSCODE onFormatSave inserting custom spaces and not detecting indentation
+17055|Untitled restores even when files.hotExit is turned off in some cases
+17056|Live Server: Feature request
+17057|Upgrade to latest version of the applicationinsights package
+17058|Ctrl+click navigation to static class method in JavaScript is broken
+17059|JSON should not format invalid syntax
+17060|Relative paths and paths without columns not linked in debug console
+17061|Leading whitespace should not get the same styles as the first token
+17062|Behavior of Shift + End changed
+17063|Workaround for #16909
+17064|Extension's context.storagePath randomly returns some undefined value
+17065|The typescript language service died unexpectedly 5 times in the last 5 minutes....
+17066|Regions in Powershell scripts do not function as expected
+17067|VSCode error compiling c++ exe not found
+17068|Strings in Handlebars templates are not highlighted correctly if used in nested helpers
+17069|Disable emmet in markdown by default
+17070|Allow to use middle mouse click in trees (fixes #14453)
+17071|High CPU usage when just opening project folder
+17072|High CPU load on single-CPU VM
+17073|Monitor Typings Acqusition Events in TS Completion Item Provider
+17074|Update package.json
+17075|feature request: remote edit browser for linux
+17076|[Help] Any example of an editor extension with rich custom UI.
+17077|after installing or upgrading extension(s) open explorer viewlet on restart
+17078|Settings UI looks bad in a few themes
+17079|Double red diff decoration
+17080|Default new window position and size
+17081|Toggling line comment/indent line not working on keyboard
+17082|Update package.json
+17083|Waterfall startup sequence
+17084|Support auto detect of file encoding
+17085|What is `vs/test`?
+17086|JS syntax highlight bug (division / regexp)
+17087|Node2 should support restart frame
+17088|"Accessibility: MAS40B: Inspect: 'Name' property is empty for  ""Search results"" pane on Extensions sidebar area."
+17089|Quick Open doesn't stay open
+17090|Preserve picked language for files across restarts
+17091|http web page window is small when (Ctrl+= )resize font size.使用缩放功能时网页窗口区域太小了
+17092|remove duplicated code
+17093|Cannot reselect new line characters
+17094|Add indication that Search will only search in open files when no folder is open
+17095|Wrong translation of `format document`
+17096|Allow to open problems view without taking keyboard focus
+17097|Not all keystrokes recorded when using git bash for Windows as the integrated shell
+17098|Can not switch from markdown preview back to regular editor
+17099|VS code requires a restart after installing ftp-simple
+17100|Congratulations on being the biggest ever active open-source community!

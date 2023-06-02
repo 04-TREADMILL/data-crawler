@@ -1,0 +1,100 @@
+8401|Align name of configuration setting for indentation guides with existing settings
+8402|There should be a margin between the title/version download count
+8403|Extension buttons are inconsistent
+8404|Stars can be pushed off the right side of the extension viewlet
+8405|Extension viewlet scrollbar overlaps with content
+8406|Extension README headers are really big
+8407|Extension install button text is not centered on Ubuntu
+8408|HC theme viewlet focus outline doesn't work on first item
+8409|Explorer icons are misaligned when using high contrast theme
+8410|Extension recommendations should say why they're recommended
+8411|Extension @popular and @recommendations should be searchable or not feature the textbox
+8412|Extension installation progress indication is hidden on high contrast theme
+8413|Scrolling down @popular extension viewlet rapidly shows many loading indicators
+8414|Missing indentation lines for first level indentation
+8415|Integrated terminal misses scrollbar
+8416|Lines containing spaces should be handled the same no matter where in a file
+8417|Changing a single character hides or shows indentation guides in unpredictable way
+8418|Integrated terminal: Shell args not honored on Windows
+8419|Support real Integration/UI Tests
+8420|Multi app projects are problematic
+8421|"fix for ""screen cheese with long error messages"""
+8422|Debugger stalls trying to inspect XDocument variable
+8423|Failed to launch external program tsc -w -p .. spawn tsc ENOENT
+8424|alternative menu command doesn't work
+8425|Weird indentation on emmet expand abbreviation with tags inside an anchor tag
+8426|Zoom level indicator has been placed into the statusbar
+8427|Emmet commands that do no change to selection or content incorrectly add tab/indent block
+8428|Support undo and redo in input fields and native dialogs
+8429|Expand selection doesnt honor editor.wordSeparators
+8430|Integrated terminal: Setting font size to 1 freezes application
+8431|Symbol renames get very slow and sometimes fail/timeout
+8432|[html] tag matching should work when the cursor is outside of the tag but next to one of the brackets
+8433|Window flickers when resizing from borders
+8434|"Integrated terminal: ""editor.cursorBlinking"": ""hidden"" not applied"
+8435|[html] In HTML/XML, go to bracket would be more useful if it went to matching tag
+8436|Emmet commands should be applied in a single edit
+8437|Resizing renders console usable
+8438|Emmet wrap with abbreviation dialog should go away when it loses focus
+8439|Canceling wrap with abbreviation adds a tab to the active editor
+8440|Missing screen redraw after resize
+8441|Emmet toggle comment is not supported
+8442|Emmet split/join tag eats opening bracket of following tag
+8443|Add tests for emmet commands
+8444|settings.json intellisense not working again
+8445|[json] Error on empty line not visible in text area
+8446|Linux: VS Code needs to be restarted before Emmet preferences take effect
+8447|'tab' key stopped working in json file; moves focus away from editor
+8448|Monaco: JSON format replaces space with tab indentation
+8449|Autoformat not working
+8450|Suggestion: Use different icons for Extension View popular and recommended buttons
+8451|Git status representation in the explorer viewlet implemented
+8452|"Integrated terminal: Combine ""toggle"" and ""focus"" commands"
+8453|Integrated terminal: Title bar should pass focus to text area
+8454|Uri.with: Cannot remove authority
+8455|Uri.toString() encodes '=' in query
+8456|Add API to parse/update Uri.query
+8457|Uri.with() allows adding colon to scheme
+8458|Autofetch should be disable by default
+8459|Use original-fs instead of manually ignoring ASAR files
+8460|Cannot read property 'done' of undefined
+8461|Monotype font is not used when set.
+8462|Unable to scroll in the integrated terminal
+8463|Fix $msCompile regex to match Microsoft C++ Compiler messages
+8464|Empty editor area can stick to drop acceptance feedback
+8465|Decide which extension should be actively recommended
+8466|Weird one column rendering when opening new file (IE10)
+8467|Selection not displayed properly (IE10)
+8468|Find all references window wrongly rendered (IE10)
+8469|Rendering glitches in diff editor (IE10)
+8470|Terminal & zsh color scheme
+8471|Emmet: add support for toggle comment
+8472|Command pallete rendering broken (IE9)
+8473|Suggest widget rendering broken (IE9)
+8474|Console log entry from markdown
+8475|Why does monaco-editor support IE9 and IE10?
+8476|Open File Command take parameters
+8477|No user message when Markdown styling sheet can not be found
+8478|Emmet: canceling wrap shouldn't add tab to the active editor
+8479|Suggest widget top position unstable
+8480|Invalid uri. Scheme and authority or path must be set.
+8481|Symbol quick open: filter for Cmd+P, relax for Cmd+T
+8482|Build errors have been detected during preLaunchTask 'npm'
+8483|Perform search when hitting ENTER key in search detail fields
+8484|Output test files don't delete/rename themselves after doing the same operation in src files
+8485|Not sure I understand the need for two settings for workbench.editor.enablePreview
+8486|Error on attempt to sync settings
+8487|[json] VSCode JSON language returns wrong hover range
+8488|Cannot distinguish different files with the same path.filename(x)
+8489|Cannot open tab's context menu (e.g. go to next diff) with keyboard
+8490|Very difficult to find file's path with tabs
+8491|Restore type based global symbole filtering for Ctrl+P
+8492|Intergrated Terminal not showing
+8493|Change all occurrences changes from import statement too
+8494|missing command error only shows on console
+8495|Replace preview: multiple whitespaces not showing in preview
+8496|hi
+8497|Tasks: [OSX] Task no longer executes in correct user environment
+8498|Starting the same watching task should be ignored.
+8499|Extension update button not visible
+8500|Expose ActivityBar as part of Extensions api

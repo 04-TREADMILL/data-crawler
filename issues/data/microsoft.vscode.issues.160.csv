@@ -1,0 +1,100 @@
+15901|Assume Jsx For Implicit TS Projects
+15902|"VS Code Install While Windows Firewall Enabled Causes ""CreateProcess failed; code 216"""
+15903|UX meeting agenda 22 November 2016
+15904|Add open in browser
+15905|React/JSX bracket formatting
+15906|Add Markdown Preview Right Click Copy Context Menu
+15907|Make cmd+k clear terminal on Mac
+15908|c++ Debugging with vscode too slow.
+15909|Option + Left/Right/Delete don't work in the terminal window
+15910|multiple background colors
+15911|Synchronize changes failed because the remote branch can not be fetched.
+15912|Typescript Intellisense not working anymore
+15913|${fileBasenameNoExtension} doesn't get substitued if nested in argument
+15914|(feature request) Smart Horizontal Scrolling
+15915|Add shortcut for file right click context menu.
+15916|"""stdout maxBuffer exceeded"" error (with launch.json - processId settings)"
+15917|Untitled files with associated path behave very weird
+15918|Autocomplete for Node.js
+15919|Default for git.autofetch should be set to false to prevent blacklisting
+15920|Add Code Explorer
+15921|wrong update link on 32bit
+15922|When switching tabs, wrong position in file is focused if there is collapsed code
+15923|Check and clean up backup workspaces that don't have any files backed up on launch
+15924|Quick hint creates a new method inside a method even if i comment that method
+15925|Restore previously opened folders/workspaces when opening a specific folder/workspace
+15926|update all extensions
+15927|Doesn't seem to automatically find index.d.ts for imports of depth 2 (or more)
+15928|text editor insert snippet API
+15929|"[less] parent selector ""&"" hover does not correctly work"
+15930|LESS: Import-Options only allow one option, Spec allows multiple
+15931|Add workspaces with backups to the list of folders to open
+15932|Weird box around line highlight
+15933|Highlighting a row of '*'
+15934|Fix focus and configuration handling of the integrated terminal
+15935|Closing the find widget via x does not clear find in selection toggle
+15936|Make the code doc floating panel closable using the escape key
+15937|Linux: reload confirm dialog looks odd
+15938|Zombie extension host
+15939|TypeScript server not working on Ubuntu 16.04
+15940|Test: read environment variables from external file
+15941|[css] show styles found in html
+15942|find/replace not triggering didChange
+15943|Copy line down keybindings doesn't work
+15944|Recommend changing ignoreTrimWhitespace default to false
+15945|Hardcoded number of viewlets in CSS
+15946|[html] errors in attributes on missing semicolons and parens
+15947|Too easy to mistakenly move files
+15948|markers hidden by decorations
+15949|A failed build should either prompt to or bring up the problems window
+15950|UI for adding snippets in launch.json
+15951|Inserting spaces after collapsing functions does not take effect
+15952|DEBUG CONSOLE enter key showing undefined
+15953|Suggestion on installing pylint comes with malformed terminal command
+15954|VS Code can't search with spaces
+15955|"""php.validate.executablePath"" on Mac OSX"
+15956|代码校验出错了不便于掌控
+15957|dupe module
+15958|Better indicator of overflow in editor's tab bar
+15959|Leading space in before-decorators is trimmed.
+15960|Debug adapter process has terminated unexpectedly on Fedora 24
+15961|In the local text search, add auto-complete based on the top K recent search strings
+15962|Quote matching logic should not apply when I am in the midst of writing a comment
+15963|Automatic Type Acquisition doesn't work on MacOs
+15964|Fix missing 'set' command that was causing a useless error.
+15965|Turn on ```editor.formatOnType``` for a particular language
+15966|Variable expressions in template strings are no longer being highlighted
+15967|Add vscode.window.activeFolder
+15968|Screen doesn't use whole area to show markdown preview
+15969|Incorrect license on RPM
+15970|CSS syntax highlight error
+15971|Line change highlight persists through git commit
+15972|Supported File Live Previews
+15973|Debug Error: ES6 sourcemaps
+15974|[MacOS] Background color mismatch with dark theme
+15975|注释问题
+15976|Can't jump to file by click path in error stack in the console.
+15977|Color update: title, activity bar, status, tabs, panel
+15978|Dirty diff: changes no longer removed when staging or committing
+15979|Control Characters (LF, CR) are not shown in editor
+15980|Add option to force a maximum number of consecutive blank lines in files
+15981|Feature Request
+15982|Enable PHP syntax highlighting without <?php, also fix markdown + PHP code fence issues
+15983|A bad user experience. the Debug action panel cover the file tab if we opened lots of file
+15984|Greek letters phi and varphi reverted in source and view
+15985|Infinite FileWatcher start->crash loop
+15986|Extension UI contributions: how to find out from which extension a contribution was made?
+15987|VS Code can only load on folder
+15988|OverflowError: in method 'SBInstructionList_GetInstructionAtIndex'
+15989|Test: breakpoints pane polish
+15990|Isidorn/compound
+15991|error while loading shared libraries: libgconf-2.so.4: cannot open shared object file: No such file or directory
+15992|Add GConf2 dependency in rpm spec template
+15993|Accented letters duplicated when typing next character
+15994|"React/tsx/jsx alignment behavior [need more info | feature request]"
+15995|Extension overlays are being stripped from the screen
+15996|java debugger
+15997|请支持jquery
+15998|Handlebars Syntax Highlighting broken when a string is used as second or subsequent helper argument
+15999|`workspace.onDidChangeTextDocument` unexpectedly reports changes with the file version from the source control
+16000|Editor line highlight only gets applied to line number

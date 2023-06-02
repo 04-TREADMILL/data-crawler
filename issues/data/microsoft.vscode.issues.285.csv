@@ -1,0 +1,100 @@
+28401|built-in javascript validator breaks on dynamic imports.
+28402|Terminal/Console Broken for ZSH
+28403|Extension host terminated unexpectedly. Please reload the window to recover.
+28404|Integrated terminal prompt disappear when pressing tab for suggestion
+28405|Feature request: QuickOpen marks most recently used editor by default
+28406|Weird rendering of the icons in VS Code
+28407|Feature request: support sass indented syntax
+28408|Give options to assign more text weights in `tokenColors`
+28409|Wrong order of invoking completion provider and change event
+28410|[css] Use CSS custom properties imported via @import
+28411|Can't reload the open files
+28412|[Linux] Autocompletion doesn't seem to obey caps:swapescape xkbmap option
+28413|Introduce a new keybinding context per quick open for quick navigate
+28414|How to change settings/available values should be more obvious
+28415|Implement terminal rename action
+28416|"""emmet.extensionsPath"" incompatible with ""emmet.useNewEmmet"": true"
+28417|vscode takes more time to load on first time
+28418|Powershell cannot run scripts from the get go like it used to...
+28419|No way to select a part of the text already in the search boxes
+28420|Added functionality to toggle rendering of URLs as clickable hyperlinks
+28421|Login-AzureRMAccount interactive window pops-up in background
+28422|Add options to theme notification buttons and badges
+28423|Minimap disappears when Ctrl+Click is triggered on a SCSS variable
+28424|Word Wrap and word wrap toggle no longer working when screen reader is detected
+28425|add a image-comments (preview) in VSC
+28426|VSIX extension without a package.json silently fails to install
+28427|Misleading error message for incorrect Explorer view manifest
+28428|slow start
+28429|minimap disappear when peek definition
+28430|updated to 1.13.0，embedded cmd work wrong
+28431|VSCode load 99% CPU
+28432|a chinese translation mistake
+28433|markdown.preview.scrollPreviewWithEditorSelection is invalid
+28434|The theme for markdown
+28435|Intent Guide
+28436|"Command, ""workbench.action.navigateUp"", doesn't work on terminal panel"
+28437|Scroll is changed when user is switching pages
+28438|Unable to Terminate Running Task in Vscode
+28439|My brather
+28440|Bug with tasks in realease 1.13
+28441|Show startup detected
+28442|Add Kivy language support
+28443|Use V8 snapshots for the amd-loader
+28444|Tab Bar behaves inconsistently on macOS
+28445|How to Close the thumbnail view window on the right？
+28446|Navigation in JS doesn't work
+28447|Fold LinkedMap and BoundedMap.
+28448|VS Code opens a new window even if window.openFilesInNewWindow is set to off
+28449|Add horizontal scrolling shade in minimap slider
+28450|"Add ""always_show_minimap_viewport"" option to always highlight visible area"
+28451|Debug API
+28452|Random devtools errors
+28453|Channel closed error
+28454|"""emmet.syntaxProfiles"" not working with ""emmet.useNewEmmet"" (emmet 2.0)"
+28455|Exception when clicking into the terminal
+28456|Insert line above indents incorrectly when there is a blank line above it
+28457|Diff editor always opens in first editor group
+28458|Merge conflicts do not detect diff3 conflict style
+28459|Exception UI link detection fails for paths with brackets
+28460|Crashing very ofen in vscode-1.13.0!!
+28461|Add Project Manager extension to VS Code
+28462|File minimap is too narrow
+28463|Integrated Terminal limited to 80 characters upon first start and first instance
+28464|Search in files + multiline regex -> wrong selection
+28465|Task runner in terminal forgets environment?
+28466|The unsaved (dot) indicator doesn't update when file is opened from the source control diff section
+28467|Paste via terminal.integrated.rightClickCopyPaste doesn't work anymore in the integrated terminal
+28468|js intellisense issues about the custom export module.
+28469|[php] Bad syntax highlight with php inside html <style> tag
+28470|Where could I find default icon path in visual studio?
+28471|error with pre-commit
+28472|Show loaded scripts in a custom explorer section
+28473|Find in Files doesn’t live-update symlinked files
+28474|">git responds ""No commands matching"" after upgrade to 1.13.0"
+28475|Improvement PowerShell ISE theme
+28476|API and extension host work for multi root
+28477|Possible bug where method is not invoked
+28478|Change All Occurrences GUI is hard to use
+28479|A lot of flashing
+28480|BUG: Status bar hidden with zen mode (full screen)
+28481|Show / Hide tagged elements in tree
+28482|bug?
+28483|Under tasks/command the env.EnvironmentVariableName (eg. env.graphviz) does no expand.
+28484|I just updated vscode. I think it introduced an error in the terminal. When I resize the side bar the terminal goes crazy and there is one point in the terminal when the cursor goes to the next line while typing something
+28485|Expose editor.hover setting as real setting
+28486|Exceptions not working properly
+28487|executeDocumentSymbolProvider returns an empty list when executed in parallel?
+28488|Support Settings for Multi root workspaces
+28489|Squirrel macOS: can easily get into a corrupt warning state
+28490|Expand settings pane to all editor groups
+28491|Integrated Terminal: Windows 10 Prompting me to associate ng command with a program
+28492|Cursor width changes randomly because window.zoomLevel interacts with system DPI settings.
+28493|Typescript service is often stopping working randomly: Cannot read property 'charCount' of undefined
+28494|VS Code has been cracked
+28495|Consider moving emmet completion to html completion provider in the html extension
+28496|Terminal autocomplete problem
+28497|Debugging: Continue/Step/Next are extremely laggy in 1.13
+28498|Problem with Higher order function in Python
+28499|change added filetype images so that typescript and javascript files have differentiating colors
+28500|Source control diff views for Index and Working Tree remain open after commit

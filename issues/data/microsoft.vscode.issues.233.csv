@@ -1,0 +1,100 @@
+23201|Feature request: Debug typescript with ts-node
+23202|Export a list of  installed extensions
+23203|[html] intellisense removes trailing <
+23204|Vs code write markdown
+23205|No svg markers rendered in previewHTML
+23206|Extension host terminated unexpectedly. Please reload the window to recover. Again Again Again
+23207|Multiline parentheses break syntax theme
+23208|editor.formatOnType Removes Spaces in JSDocs
+23209|Test: new setting to keep editor open when file deleted
+23210|Test: new commands to increase/decrease view size
+23211|Run command on session start of Integrated Terminal
+23212|Typescript intellisense works only for opened files
+23213|Moveline autoindent#14390
+23214|At EOL, two offsets map to same position in CRLF files
+23215|Move line autoindent#14390
+23216|编写html页面时，会出现格式问题
+23217|Keypad stopped working
+23218|Support Platform Specific Extensions
+23219|vs code auto rearranging my code from hell
+23220|FR: Configurable wrapping column for git commit messages, default 72
+23221|Terninal content dislocation.
+23222|Embedded Syntax Highlighting in HTML files not working
+23223|Error on reoload: Error from the extension host: spawn /usr/share/code-insiders/code-insiders (deleted) ENOENT
+23224|Can't --inspect into a remote node container
+23225|Path warnings
+23226|Sash between editor has wrong color
+23227|[json] formatter should keep empty lines
+23228|Define dependencies for repository linux distro
+23229|Timing problem in the terminal
+23230|Link handler lifecycle problem / issue / question
+23231|Link handler highlights too much
+23232|Git doesnt' load at all when clicking on the Git icon in the activity bar.
+23233|Feature request: Errors and Warnings in Explorer?
+23234|Folders occasionally stop unfolding in Explorer
+23235|Characters Limit for 'Report Issue' Extensions Listing
+23236|URL recognition in terminal
+23237|Ctrl+P is very slow and finds .js files now
+23238|DE translation errors
+23239|IntelliSense  extremly slow and navigate to class is slow too much
+23240|Mouse down (drag) + hitting PgUp, PgDn, Home and End should continue selecting
+23241|Go To File includes files that are in search.exclude
+23242|"Close button cross in ""Open Editors"" is slightly clipped at the left edge"
+23243|overwrite mode
+23244|March Endgame
+23245|Test: pre launch tasks in launch.json
+23246|Release Notes ( Insider / Stable ) - When zoom is less than 0 the scroll hidden and paragraphs got overflowed
+23247|Test: Terminate and Restart tasks commands
+23248|Test: new task API and contributions
+23249|Added ability for JSON/XLIFF conversion and Push/Pull from Transifex
+23250|VSCode launch configuration uses wrong path
+23251|Test: Support access to the loaded scripts of a node runtime
+23252|Test new quick-suggest settings
+23253|Reset to default for an unassigned keybinding
+23254|Test TextDocument#eol
+23255|Test Keybindings customisations editor #18095
+23256|Test --prof-startup
+23257|Shortcut for terminal should change focus to it
+23258|Test fuzzy intellisense matching
+23259|Test: Support a server mode for debug adapters
+23260|Themes: wrong color applied to urls
+23261|Standalone editor cannot be run out of dev anymore
+23262|Test workspace theming
+23263|Should the terminal set TERM_PROGRAM and TERM_PROGRAM_VERSION?
+23264|Test:  configuration UI for exceptions
+23265|Git gutter indicators doesn't work in a network folder
+23266|Ripgrep triggers Windows Defender when running against a UNC path
+23267|Ripgrep search doesn't work in Windows 7
+23268|Local installed extension commands are shown but cannot be invoked
+23269|Exception widget can appear on top of text in wrong place
+23270|Application is zoomed after the latest update
+23271|Failed to execute git (fatal: bad config line 1)
+23272|Wrong cursor icon
+23273|Test: Git as an SCM provider, round 2
+23274|@supports (-ms-ime-align:auto) at-rule or selector expected
+23275|List Filter Viewlet
+23276|Toggle Word Wrap is lost after zooming
+23277|Installing extensions from a package
+23278|All References results' vertical position thrown off by terminal / small window size
+23279|Test: SCM API
+23280|Text display error in built-in terminal when opening VS Code from command line
+23281|context menus not getting hooked up to commands in Insiders
+23282|"How to re-enable 'extension-tips-service', after pressing ""Don't show again""?"
+23283|Test: Keybindings & Keyboard Dispatching changes
+23284|VScode only remembers tabstops for most recently triggered snippets. It must remember all.
+23285|No IntelliSense for Express in MERN starter kit
+23286|There's no way to reset 3-way split to equal sizes
+23287|Test: ripgrep search
+23288|Test: Async Callstacks
+23289|insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets
+23290|Test: encoding auto detection
+23291|Extensions: Possible to extend navigation and combine with TextDocumentContentProviders?
+23292|Add an configure options let us disable GPU hard ware accelerate
+23293|onDidChangeConfiguration should contain parameters that changed in the payload
+23294|"use "" shift + alt + F"" and use ""right menu"" can't format json"
+23295|Test Drag and Drop: Copy
+23296|LayaAirIDE_1.7.2_beta\resources\app\extensions\typescript\node_modules\typescript\lib 未指向有效的tsserver安装
+23297|Test Drag and Drop: Affordance and Mouse Pointer Style
+23298|Cannot read property 'length' of undefined
+23299|SCM: list item jumps up in this case
+23300|IntelliSense: endless loop after typing

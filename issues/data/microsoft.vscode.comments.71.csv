@@ -1,0 +1,100 @@
+7001|@TejasCMehta  worket fine thx. store creds local resolved my probs.
+7002|I realized after posting this that the paste order is driven by the order that the new cursors are created.  This behavior differs from the standards of other applications and is an annoyance.  I would like to confirm if this behavior is a bug or if it is working as designed.
+7003|Yes memory snapshots will help if and only if this leak is inside the main side of VS Code. However, it seems that at least in one case the leak was in one of the processes we spawn (the file watcher). Maybe you could identify using process explorer, which process is constantly increasing in terms of memory consumption.  If it helps to provide me with the source code: I work for Microsoft ;)
+7004|@boxHiccup are you on Code 0.10.6? Can you check if it is also slow when you run `code --disableExtensions` to disable any installed extension?
+7005|@dbaeumer it's private, but like was demonstrated by other people in here, it's fairly easy to reproduce. I opened the Devtools inside vscode, and caught this error  ![vscode](https://cloud.githubusercontent.com/assets/461084/12537061/5abaedce-c29d-11e5-91bc-92a84dcc135d.png)  intellisense for Typescript stops completely, even though my build task is running
+7006|Well, the issue has been resolved. My node_modules was corrupted I guess. Deleted the folder, did a fresh npm install. It worked!
+7007|I get this error on Windows 10 (with recycle bin disabled).
+7008|@aayushkapoor206 Which version of npm do you have?
+7009|I'll have a word with my manager. This is in Windows repo so I'll have to be a bit careful.  From the thread it seems the chokidar is used for the file watcher. A while back I played with the source code. It was a bit of spaghetti.  I'll see if I can load chokidar on its own simple node app and see if it's the culprit.  Btw any specific reasons why vs needs to use chokidar? There are other cross platform file watchers right?  On Sunday, January 24, 2016, Benjamin Pasero notifications@github.com wrote:  > Yes memory snapshots will help if and only if this leak is inside the main > side of VS Code. However, it seems that at least in one case the leak was > in one of the processes we spawn (the file watcher). Maybe you could > identify using process explorer, which process is constantly increasing in > terms of memory consumption. >  > If it helps to provide me with the source code: I work for Microsoft ;) >  > — > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/508#issuecomment-174269028.
+7010|It's 3.5.3. I attached the debug log along if that'll help.
+7011|I cloned again in a different directory and this time it worked!
+7012|Yes, Code version is 0.10.6. However by using Command Palette (-> Show Installed Extension) I don't see any installed extension, I also tried to run Code with that parameter, nothing changes
+7013|Chokidar is used on Mac and Linux, if you are on Windows, we use a C# file watcher. I am happy to accept a PR with a working and performant cross file watcher solution :)
+7014|Ok. If we cannot get the profile to run, I am not able to help, sorry :-/
+7015|With @dstorey contributions from #1217 we now have our own fork of css.plist. @dstorey If this is still easy doable, it would be great to contribute our changes back to TextMate.
+7016|@aeschli I can do that. Only thing is we now don't use all the info (as we don't highlight between recognised and unrecognised values), so some will only be kept up to date for TextMate and probably not tested well as I won't see the changes in VSCode.
+7017|…we should also probably document somewhere what parts of this file are used (e.g. css properties, @rules) and which parts aren't (CSS values, other things?)
+7018|The markdown preview can already handle SVG markup, including live editing, so it is probably possible to share code here.
+7019|@bpasero Given your strong opinion, I'm assigning this to you
+7020|Looks good to me
+7021|Ok, I'll take my request there. Could you please update the answer in the Common Questions section?
+7022|Done: https://github.com/Microsoft/vscode-docs/commit/930ab8bb995f9237ee580f37e0babfaf8dd0eb90
+7023|Duplicate of #2127
+7024|"The default of the eslint-stylish matcher is fileLocation: ""relative"" since eslint stylish usually reports relative paths. @felixfbecker: could it be that you configured eslint to report absolute paths."
+7025|@nojvek Sure you can. The challenge is that many things run in different child processes (like search, extensions, file watching etc)
+7026|@lukehoban We now check that calling the 'API commands' happens with the spec'd arguments, that would be `[uri, options]` and `[uri, range, options]`
+7027|The problem is that the language server doesn't expose a Save event on the document which it should. The file system events are like the file system events in the vscode API. @hoovercj can you please open an issue here https://github.com/Microsoft/vscode-languageserver-node so that we can implement the Save event.
+7028|@jrieken moving to you since there is no good in the TS extensions producing the list. Could it be that < is not proper escaped.   Please move back if there is something I can do to fix it.
+7029|The problem here is that VSCode 0.10.6 ships with typescript 1.7.5 but master of the repository already uses features coming in 1.8.0. You can control the tsc version to us in VSCode using the typescript.tsdk setting (see https://code.visualstudio.com/updates/vNovember)
+7030|"This works for me using 0.10.6 using a proper tsconfig.json file in the root. My tsconfig.json file looks like this: {     ""compilerOptions"": {         ""module"": ""commonjs""     } }  Without that file or a files section in that file the newly created some-where.ts file will not be part of the same 'project' scrope as the file having the import hence resulting in an error."
+7031|I don't know how and where I could have set that, but eslint has been reporting absolute paths for me as far as I can remember. What I don't get is why you don't just call `path.resolve()` on it. That would work with both.
+7032|Duplicate of #1605
+7033|The user can still define any other application to be the default application to open those files. What happened in this story is that VS Code is the _only_ application able to open those types of files and thus is automatically associated to them.  If we need to create icons and descriptions for every file type we are able to run, then that's another issue.
+7034|great find
+7035|Duplicate of #155
+7036|`windows-mutex` is listed as an optional dependency. This means `npm` will attempt to install it and proceed even if it fails. Not a problem.  If you want to build a production version of code you can run `gulp vscode-linux-ia32` or `gulp vscode-linux-x64`, depending on your architecture. This will create a `VSCode-Linux` folder next to the repo folder.
+7037|This is an issue with [Squirrel/Squirrel.Mac](https://github.com/Squirrel/Squirrel.Mac).  Workaround: place Code in `~/Applications` instead of `/Applications`.
+7038|Was using the unsigned version.
+7039|wrt to links it's this: `[label](commandId)` to run a command
+7040|@moostad Thanks for the repository. Now I see your problem. Since TS 1.7.x (which is bundled with VSCode 0.10.6) async await is an official feature and the flag got removed. However that should not make the tsserver to fail so drastically.   Moving to the TypeScript team since there is nothing VSCode can do about it.
+7041|This issue was moved to Microsoft/TypeScript#6609
+7042|Great, thanks!
+7043|We are no longer rendering lines, let's see if somebody complains.
+7044|@stevencl Feedback starts to come in :)
+7045|@lyquocnam Thank you, the video is helpful in helping me understand how to use UniKey. Let's track this in #1168
+7046|Relevant video from @lyquocnam : https://youtu.be/Hb4tLqiyuNs
+7047|I restested it and interestingly paths are now reported as absolute paths. I digged around a little and the reason is as follows: in the past the eslint-stylish reporter was optional (see https://github.com/sindresorhus/eslint-stylish) and reported relative paths. It is now part of eslint and reports paths absolute. I will keep the issue open to adopt that.   Regarding your suggestion: because we say output (not eslint) having a leading slash but not being absolute :-). The issue we have open is to have a setting automatic (using path.resolve) which would be the default. But it will not make it for Jan.
+7048|Steps for those not familiar with the software: - install [UniKey](http://www.unikey.org/bdownload.php#uk) - click the `Thu nho` button - get the following settings:   ![image](https://cloud.githubusercontent.com/assets/5047891/12548960/93727266-c362-11e5-8e17-f7e3cf589ffc.png) - From the taskbar (next to the date) click on its small icon to toggle on Vietnamese mode (you should get a V) - Type `Tooi` => it should transform to => Tôi
+7049|Use the `File > Open...` action to open the folder of your project.  ![image](https://cloud.githubusercontent.com/assets/22350/12548988/66d05f14-c35a-11e5-99bc-563e7c4b788c.png)
+7050|I still can't type When i type oo => it should transform to => null not ô same, I type Tooi => Ti, not Tôi ![screenshot 4](https://cloud.githubusercontent.com/assets/14220005/12549173/fb9d0c40-c38d-11e5-8d5d-f36177882449.png) p/s: On Ubuntu, i can type vietnamese with Unikey
+7051|"Though I think I have a proper `tsconfig.json` file?  ``` json {     ""compilerOptions"": {         ""module"": ""commonjs"",         ""target"": ""es5"",         ""noImplicitAny"": true,         ""outDir"": ""Build"",         ""rootDir"": ""."",         ""experimentalDecorators"": true,         ""jsx"": ""react"",         ""removeComments"": true     },     ""exclude"": [         ""node_modules"",         ""vendor""     ] } ```"
+7052|I'm using `sshfs` to mount a file system on my Mac. If that helps to narrow down the problem.
+7053|parts of this are addressed by #2224
+7054|The bahaviour can be observer in the following way: - new workspace - install tslint extension - create a JS file in the workspace - open the JS file  Observe: tslint prompts you for the missing tslint node module.
+7055|Below a stack trace showing this activation: ![capture](https://cloud.githubusercontent.com/assets/1931590/12551677/79c2f80e-c36c-11e5-9e77-985e7035b060.png)
+7056|"@dbaeumer Thanks for your help, it appears I had one of my config options wrong as it seems to work as intended with the below config. I believe this issue can be closed.  ``` json {   ""compilerOptions"": {     ""target"": ""ES5"",     ""module"": ""commonjs"",     ""noEmitOnError"": false,     ""rootDir"": ""."",     ""emitDecoratorMetadata"": true,     ""experimentalDecorators"": true,     ""sourceMap"": false,     ""sourceRoot"": """",     ""inlineSourceMap"": false,     ""inlineSources"": false   },   ""exclude"": [     ""node_modules""   ],   ""compileOnSave"": false } ```"
+7057|Closing then.
+7058|Sorry, was closed :-). Wrong button
+7059|Removed those targets.
+7060|Here is a saved profile [CPU-20160125T170756.cpuprofile.txt](https://github.com/Microsoft/vscode/files/103378/CPU-20160125T170756.cpuprofile.txt)
+7061|Thanks Isidor!
+7062|@alexandrudima What would it take to align the replace and replace all buttons? Ideally I would think they would be left aligned (i.e., the left most edge of the replace button is left aligned with the index while the left most edge of the replace all button is left aligned with the count).  Is the 'of' in '1 of 2' in a fixed position or does it move to the right when the count is more than one digit? How feasible (and desirable) do you think it would be to refresh the layout when the count and index change?
+7063|We might have to move from `localeCompare(label, otherLabel)` to `label < otherLabel ? -1 : 1` for comparisons.
+7064|Ping pong ;)
+7065|I am also seeing unexpected token h, unexpected token e. all same stack.
+7066|Thanks!  In case anyone else finds this issue later, I'll note you also need to run  ``` jake generate-diagnostics ```  to generate the source needed to resolve the `Diagnostics` symbol.  With that in place, I only see warnings in the `Jakefile.js` that are likely out of scope for this bug.
+7067|No problem, thanks anyway!
+7068|This issue was moved to OmniSharp/omnisharp-vscode#15
+7069|@resir014 workbench.view.explorer is the action to focus the explorer and you can bind it to cmd+0 for example.
+7070|This is a good extensions solution.   I started on a basic extension called Git Blame. You can find it [here](https://marketplace.visualstudio.com/items/waderyan.gitblame). [PRs or recommendations](https://github.com/waderyan/vscode-gitblame) are much appreciated.
+7071|:+1: thanks!
+7072|I had actually missed that one, that's certainly useful! That said, it'd be nice if more than one line could be viewed and if it could be in the gutter. I would recommend this for the extension, but it's my understanding that the only UI an extension is allowed to modify is the status bar -- hence the feature suggestion on the editor itself.
+7073|@EmYeuCoGiao The fix will be in the January update.
+7074|Interestingly I have seen this too but only since a few days, I wonder if something changed here that could have an impact.  For example: I do see it very bad when running Win10 in parallels with NVDA enabled, but I am not sure if NVDA maybe just eats some keys. Also my system is very slow then.  On Mac however I also experience this and there my machine does not seem to be under heavy load.  @alexandrudima fyi
+7075|@dbaeumer Registering a mode support means the support must sit (be stored) somewhere. Since the code was written this is implemented as instantiating the mode and then storing the support on the mode itself.  So registering a support for mode 'X' will instantiate and activate the language 'X'.  I am not sure I understand what you'd want me to do.
+7076|@bpasero I have made a change last week that caused some inputs to be missed, but this was only on master until a1bd50f63fd8185a13495ff3d4c67396109e4e71 which now fixes it. So nothing I can think of regarding 0.10.6
+7077|@alexandrudima ok good, I will report back if I still get it.
+7078|@friedemannsommer Thank you for the PR. This JavaScript file is generated from a TypeScript file (specifically https://github.com/Microsoft/vscode-loader/blob/master/src/loader.ts). The ugly header at the beginning of the file mentions this.  We include it in the repository because it is our code loader and it is difficult to consume it through a node module (it being the code loader itself).  Please file the PR against https://github.com/Microsoft/vscode-loader where the truth of this file lives.  Thank you!
+7079|Added check:  ``` typescript     protected _invokeHandler(commandId: string, args: any): TPromise<any> {         if (this._pluginService) {             return this._pluginService.activateByEvent('onCommand:' + commandId).then(_ => {                 return super._invokeHandler(commandId, args);             });         }         return TPromise.as(null);     } ```
+7080|@ajkerrigan Thank you!
+7081|@Bigous Thank you!
+7082|@ivanixgames Thank you!
+7083|@jkrems Thank you!
+7084|The code is now deleted
+7085|Dup of #2236
+7086|Dup of #2235
+7087|Stack is broken
+7088|Stack is broken
+7089|Dup of #830
+7090|@weinand This is somewhat by design. When `renderWhitespace` is turned on we render leading spaces as `&middot;` and if a tab would be rendered as 4 spaces, we render it as `&rarr;&nbsp;&nbsp;&nbsp;`.  I have explored alternative ways of rendering the leading/trailing whitespace (ways that do not depend on the font's width for `&middot;` and `&rarr;`, but all methods I could think of involve a secondary painting of them on top of the text. I have even stared for a long time at [combining characters](http://unicode-search.net/unicode-namesearch.pl?term=COMBINING) in search of one that would look reasonably ok. A combining character would have the advantage that it would not define the width, it just renders on top of the character it is combined with.  The current method has the drawback that it makes the whitespace depend on the defined width for those two characters, but has the advantage that it consists of a single render pass.  Specifically for Hack, I have hit the same issue, please see chrissimpkins/Hack#78 => please update to Hack v2.011 or higher.  I know this is technically incorrect, but it is faster than the alternative of doing a second pass. If you feel strong about it, please reopen and I can implement the rendering of whitespace as a second pass.
+7091|Did a bunch of optimisations: - moved the sorting and filtering out of the tree and into the model - dropped `localeCompare` in favour of `<` and `>` - moved cleanup of suggestions to happen on `hide` instead of `show` - added a heuristic on whether the diff algorithm should run - added another heuristic on whether the diff algorithm results should be used at all - cached the previous list of suggestions for quicker narrowing down - tightened the heuristic for camel case suggestions  @Wosi it would be cool if you could give it a try, building from our sources. Both your examples take just under 1 second on my machine now.  I have a few more ideas of how to make this faster, by dropping a lot of the tree machinery and just implementing a virtual list, but this'll do for now.
+7092|Thanks! Hope you like it more now:  ![image](https://cloud.githubusercontent.com/assets/5047891/12563177/91cc7f7a-c3b1-11e5-8dbf-ec0626c38a4d.png)
+7093|Thank you, can't wait to try them out :heart:
+7094|@jrieken fyi
+7095|@egamma Great find! I suspect it is a crash in oniguruma caused by us allowing for edits that cause invalid unicode points in multi-byte code points
+7096|Thanks @bpasero I changed it as suggested.
+7097|You know as of node 4.0 the fs.watch is stabilized on both windows and mac. See: https://github.com/Microsoft/TypeScript/issues/4643.   Typescript has a pretty solid cross platform file/directory watching logic. https://github.com/Microsoft/TypeScript/blob/931d162620c7e09377c12875834e1838c4cdd51b/src/compiler/sys.ts  I'll try to get a local build of VS code with a change and see if it still crashes. If it doesn't then I'll definitely send a PR.
+7098|@joaomoreno First of all: **Thank you!** When the real world example runs in under a second then it's a powerful improvement. Unfortunately I can't build VSCode from source **and** check it against the real world project until wednesday evening. Since the insider channel will be updated tomorrow I think it's better to test against the insider build, isn't it? I'll give you feedback as soon as possible!  P.S: The real world example is a full adaptation of the completion items I receive from the OmniPascal language service to JavaScript. So it's  a good indicator when it works nicely now.
+7099|I've got a debugger extension that needs to be run with privilege. On Linux, `sudo code` is sufficient to launch both vscode and the debugger as root; but due to this issue, my extension can't work on Windows.
+7100|"@sstjohn You _can_ run Code as administrator on Windows, and that should inherit to all child processes. It is just not very good UX at the moment: - close _all_ open windows of Code - right click on Code and click ""run as administrator"" or type `code` in an elevated command line - open the desired file from inside Code with File > Open (drag and drop will not work anymore)"

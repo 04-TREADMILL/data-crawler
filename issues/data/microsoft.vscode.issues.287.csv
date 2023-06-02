@@ -1,0 +1,100 @@
+28601|Rename symbol broken
+28602|[Req] Export the Extensions list and status, even import
+28603|Feature: Setting to hide Vertical Scroll-Bar when the Minimap is Visible
+28604|Added darwinHelpBook and darwinHelpName to build process for MacOS
+28605|Cannot have multiple instances of VS Code when running as admin
+28606|ZSH Terminal Bug in VS Code
+28607|Polish Git extension
+28608|Improve indentation of lines
+28609|Opening a file often opens jsconfig.json for no apparent reason
+28610|[powershell] Color scheme doesn't update after warning resolution.
+28611|When using --wait and a file is passed, close the window when last tabs closes
+28612|Support custom views in other locations
+28613|Support sections in Extensions viewlet
+28614|VS-Code error
+28615|Remove unnecessary parentheses
+28616|Stop find operation at last match of the file
+28617|Feature request: WSL remote interpreters for extensions developers
+28618|Makefile syntax highlighting
+28619|Open tabs list is not stored if Windows is shut down
+28620|Add CSP To Root Document
+28621|Add real time collaborate function
+28622|Provide an option to show open editor tabs in multi lines.
+28623|Two empty lines appear above document after clicking search result
+28624|Incomplete error message for untracked files
+28625|Error Loading markdown.styles CSS
+28626|Integrated terminal disappears after a certain line length
+28627|I don't want to see the thumbnail of edit-page on the right
+28628|Folding based on code scope for C-style languages in VSCode
+28629|Cannot copy terminal selection when select all is active
+28630|Newer versions of npm not compatible with VS Code
+28631|failed install extiontion via PROXY& [uncaught exception in main]: Error: net::ERR_NO_SUPPORTED_PROXIES
+28632|"Monokai: Highlight ""this"" in JavaScript"
+28633|Explorer-AutoReveal should have a button in sidebar rather than in settings
+28634|Go to define and find reference functions can not work well on java-script.
+28635|Extension icon is missing in activity bar.
+28636|Class binding Error in vue file
+28637|Code Helper high CPU usage on MacBook Pro 13
+28638|Selection was canceled after clicked with Shift is hold down, in some cases (drag and drop)
+28639|I want put the window of find reference result inset the sidebar, but now it's a float window. Float window is hard to watch in long time.
+28640|Enhancement: git extention should include amend commit option
+28641|Extension host terminated unexpectedly.please reload the window to recover
+28642|Extension browser doesn't react to touch select (1.13)
+28643|Icons are fuzzy in the UI
+28644|Large Chinese text file: minimap hides half character
+28645|When hovering over vertical menu tooltips, icons have shortcuts in them, but wrapper buttons don't
+28646|Add spaces and fix switch to actual MarkDown
+28647|Allow making Help -> About text copyable and display OS version in there
+28648|builad
+28649|window.zoomLevel value is -1 every time vscode is reopened
+28650|GUI/Icons problem on MacOS
+28651|"Editor throws error when JSX syntax is wrong and contains colon "":"""
+28652|Restart cog does not restart VS Code (Insiders)
+28653|VSCode can't recognize folder when using OneDrive Files On-Demand
+28654|Show user comments inside extension description page
+28655|Request: Support for Beyond Compare as diff tool
+28656|Visual Studio Code litters FS with unnecessary .vscode/symbols.json
+28657|Intellisense issue with NODE_PATH evnvironment variable in JavaScript project.
+28658|version 1.13 and ohmyzsh integrated terminal flickering branches
+28659|VSCode freezes when switching from Chrome to it
+28660|Allow to open a file via keyboard without moving focus
+28661|Often crash when typing or mouse clicking in TERMINAL
+28662|Feature Request: Adaptive Suggestions
+28663|Add functionality to toggle break rendering mode for markdown preview
+28664|After open a java-script file which bigger then 1 MB, I found that edit it smoothly is impossible.
+28665|VC Code window flickering
+28666|Extension is re-installing by itself after I uninstall it
+28667|Theme: Allow different color foreground for folders inside tree view
+28668|Use native Map for BoundMap
+28669|[Loc] Request to add Norwegian Nynorsk language in VS Code
+28670|Reopen/Save with encoding in menu and command panel
+28671|Git commit fails when run under VSO build agent
+28672|ProblemMatcher for SQL, PLSQL
+28673|In which conditions browser ca be not launched?
+28674|Manually restarting Typescript Server triggers a warning about a crashing TS Server process
+28675|Integrated terminal terminate running tasks on close
+28676|Merge PeekViewWidget and ReferencesWidget
+28677|encodeing in Output terminal
+28678|"""can not add index to parent of type array"" Error message"
+28679|Git Merge functionality missing after update
+28680|Breakpoints Invalid for Angular CLI 1.1.1
+28681|Feature Request: Add Setting to open VS Code without default unsaved tab being opened [closed as duplicate]
+28682|Support onLanguage-activation with scheme (document selector)
+28683|Add 'Does it repro without extensions?' to issue templates
+28684|Way to contact extension authors/leave feedback
+28685|APT repository has bad hash metadata
+28686|Clarifying README
+28687|the backspace key and tab key do not work under VNC viewer.
+28688|点击集成终端内的链接（有换行时），跳转地址错误
+28689|Allow changing the background colour in StatusBarItem
+28690|__restart object is not returned to debug adapters with requested data
+28691|Cmd + p in settings.json should stay focused in the editor
+28692|"Multiple inline events on one element results in ""Unreachable Code Detected"" error"
+28693|Feature Request: Add Setting to toggle Diff Editor vertical wrapping when navigating to Next Change
+28694|I can't open folders. It reports that the folder doesn't exist on disk anymore
+28695|Javascript Intellisense can't find function declaration.
+28696|Integrated Terminal: Multiline Urls are not handled correctly
+28697|Font scale/blurriness after connecting external display
+28698|Highlight this in Monokai
+28699|Markdown previews not working / Electron; getOwnerBrowserWindow errors
+28700|File descriptors leak causes system to crash

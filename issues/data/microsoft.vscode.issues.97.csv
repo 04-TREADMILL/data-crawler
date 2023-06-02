@@ -1,0 +1,100 @@
+9601|C/C++ include <header_with_underscore> not found
+9602|vscode opens files from comman line in separate instances
+9603|[ts] Coloring in .ts file fails if generic class variable is defined
+9604|Test: Debug select dropdown
+9605|Cursor Up and Down should place the cursor at end of line if it's current state is end of line
+9606|the terminal does not work if there is a Russian in the file path
+9607|In a big project (a couple of files woth more than 10k lines and a lot of files with some hundreds of lines) editor slows down and uses a lot of cpu .
+9608|[typescript] Sintax Highlight breaks when a variable is assigned an object in a new line.
+9609|VS code keeps using older version of typescript
+9610|unable to debug express project
+9611|Markdown - Preview synchronization after save
+9612|VSCode Extension Error
+9613|[Bug] Html Snippet Auto-complete with multiple cursors only first line
+9614|Scroll highlight text within integrated terminal
+9615|Colors sepcified in the themes are not rendered correctly.
+9616|Shortcut to increase font size using keyboard with numpad
+9617|lineHighlight added to Find but not Search; low highlight contrast
+9618|VS Code 1.3 broke telemetry debug output events
+9619|Advice / Best Practices request: React / JSX / eslint setup
+9620|Not all rulers are being displayed when using zoom level less than 0
+9621|Problem matchers for error messages that span multiple lines
+9622|Bold markdown headings for accessibility
+9623|"Which version of TypeScript is Visual Studio Code ""Insiders"" using?"
+9624|"close icon on terminal/console/etc. pane should be ""x"""
+9625|No immediate notification that side-loaded extension was successfully installed.
+9626|Add file walk telemetry
+9627|Executing workbench.files.action.* commands
+9628|Add javascript.format.insertSpaceAfterNameForNamedFunctions option
+9629|Editor keeps telling me that end of line should be CRLF
+9630|suggestion: put stars rating to left of downloads in extension viewlet
+9631|can not open eatensons
+9632|internet connect failed
+9633|why cant show FULL symbols in vs code
+9634|Show long file and folder names on hover in the file explorer
+9635|suggest unexpected completion items including special character.
+9636|How can we reuse editor of another language in any file
+9637|Open an Http Url from extension
+9638|Integrated Terminal window become useless after resizing the side bar
+9639|allow moving words back and forth in a line
+9640|JavaScript IntelliSense not working correctly
+9641|Extensions: Allow disabling specific extensions
+9642|register command wont work in extension host mode
+9643|Markdown extension enhancement (update on css change)
+9644|Documentation about publishing an extension is invalid with new page design
+9645|"gui: Output | Problems | Debug | Terminal"
+9646|Opening a file randomly overwrites the file in the current tab
+9647|Regions issue
+9648|HTML autocomplete LI tag does not insert a newline on enter
+9649|fcitx
+9650|Use global tasks.json before project based tasks.json
+9651|No focus when creating new file with vscode not in foreground
+9652|variable paging always shows multiple of 100
+9653|fdddd
+9654|Failed to create vsce publisher - Unauthorized (401)
+9655|VSCode won't start on elementary OS
+9656|Variable paging: support object properties for arrays
+9657|Open in containing folder should select file/folder
+9658|odd behavior when editing command in internal console
+9659|VSC in macOS 10.12 does not display as Retina
+9660|Integrated terminal error: bash: __git_ps1: command not found
+9661|Undo/Redo adds a stop in between CHN Characters
+9662|Better behavior of the View Bar
+9663|Close tab {count}
+9664|Sash on top of hover
+9665|Unsaved data lost on freeze.
+9666|Should brackets follow a method or function
+9667|Integrated Terminal fails to display color prompt on Debian, Ubuntu, Mint
+9668|"[loc][Query][DevDiv] Please clarify ""open editors"""
+9669|"[loc][Query][DevDiv] Pelase clarify ""Balance"""
+9670|Test: 'Variable paging'
+9671|Can't install any extentions behind a corporate proxy
+9672|Add Net Promoter Score feedback support
+9673|"""Check For Updates"" doesn't show anything if no editor window opened"
+9674|Default to generic icon for extensions that do not have custom icons
+9675|onClick for TextDecorations
+9676|Test: Add Net Promoter Score feedback support
+9677|Test: 'Restart Frame'
+9678|Test: Reduce our high contrast theme CSS hacks and inline SVGs during build
+9679|Test: Allow to have scoped instantiation service per editor slot
+9680|Test: Menu/title bar contribution consistency for the editor context menu
+9681|Test: Integrated terminal IME support
+9682|Test: Provide a setting to define the snippet sort order
+9683|Test: Provide a separate 'Insert snippet' command that allows the user to pick a snippet
+9684|Test: Support tab completion for snippets
+9685|Test: Evaluate API gaps for better VIM support
+9686|Test: Quick open/file list performance for large workspaces
+9687|Test: Editor actions are hard to discover when tabs are enabled
+9688|Test: API - support group ordering for menu contributions
+9689|Test: API - support for document link provider
+9690|Can't copy text in integrated terminal input field
+9691|sticky TabMovesFocus config
+9692|openNativeConsole cannot have Custom Keybinding
+9693|Fixes for PowershellSyntax.tmLanguage
+9694|Max-width autocomplete does max-height instead
+9695|Detect shebang for Groovy files
+9696|VSCode failing to launch external program npm in 1.3.1
+9697|Incrementally post-process unsorted results
+9698|why when i install VScode on my win 10 x64  automatically changes normal startup to selective???
+9699|ctrl+h now wipes out RE from find field
+9700|Add file to gitignore

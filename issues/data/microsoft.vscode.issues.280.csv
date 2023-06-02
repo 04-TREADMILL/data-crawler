@@ -1,0 +1,100 @@
+27901|Tooltips available for SCM diff decorations
+27902|The value of TextDocument.isClosed is incorrect when a text document is closed
+27903|Advanced copy variable values in debugger
+27904|Impossible to tell source of some messages; need some kind of blame indicator
+27905|Extension-specific Workbench Settings
+27906|Allow CTRL+ENTER shortcut from Find input in findWidget
+27907|Docs not using all vertical space when font size > 12
+27908|"""Cannot read property 'focus' of undefined"""
+27909|When Zoomed in/out and docs is bigger than suggest list, suggest is not aligned
+27910|Update js/ts grammar
+27911|PhpUnit throw errors and fail with integrated terminal
+27912|Goto line: Expand collapsed block if the target line is inside of one
+27913|"Add a ""landing page"" feature to tasks"
+27914|Option to disable quick fix
+27915|Please create meaningful error messages
+27916|Allow paths as input to Save and Save As
+27917|MODOU
+27918|[sass/scss] Go to Symbol with parent selector (&)
+27919|Fix funny dot bug
+27920|Next group action should not create new group
+27921|Can't install ESLint 1.2.11
+27922|Allow switching the opened folder more easily and faster
+27923|Error during installation on ubuntu lts
+27924|Emmet: Manual resolve
+27925|Include support for system-wide mandatory/default settings
+27926|Input doesn't show up in terminal after running diff command using bash
+27927|+1
+27928|Emmet resolves invalid format
+27929|Theme: Disabled list element
+27930|"""Emmet: Update image size"" breaks formatting"
+27931|Emmet: Missing possibility to encode/decode an image
+27932|Consider disabling minimap in output
+27933|Monokai tab bar colors are inverted, making it hard to tell which file is edited
+27934|Fix #27980 — make selected tab lighter than others in Monokai themes
+27935|TypeScript imports breaking out over multiple lines on format
+27936|Synchronize Markdown editor and preview tabs
+27937|Expand selection, a level to not include quotes
+27938|Profiling
+27939|Please add me to the vscode
+27940|Too many issues don't include extension list because of char limit
+27941|Base64 and line column limitation?
+27942|Settings with enum show redundant suggestion docs
+27943|There is no way to open a folder with a specific file opened and active
+27944|Find in files and goto anything don't work on large folders
+27945|Added editor.urlClickable setting to enable/disable clickable URL
+27946|Include announcement section for extension authors
+27947|Page scrolling lags using touchpad
+27948|the language server needs at least php 7 installed. version found 5.5.7
+27949|"""No configurations"" when create new .net core console project"
+27950|Possibillity to open a specific line via URI file handler
+27951|Incorrect indent with template literal
+27952|Error importing tensorflow module with debugger after tensorflow upgrade
+27953|How to get ${workspaceRoot} without duplicated slashes? (\\)
+27954|Can't open file using Shell Extension when VS Code is open in Administrator
+27955|Cannot update - TLS issues
+27956|Cannot get C/C++ navigation to work / language server crashes?
+27957|baseUrl and paths setting in jsconfig.json is not working with .vue files
+27958|[insiders] Automatic HTML indentation and cursor position in JSX
+27959|Snippet completion not triggering code formatting when editor.formatOnType: true
+27960|Breakpoints not hit when debugging jest with inspector
+27961|Theming: Allow transparency in editorCursor.foreground
+27962|Can U add TODO function?
+27963|JSON Schema does not support enums of complex objects
+27964|one line code become multiple lines
+27965|Make extension list in generated issue shorter
+27966|meteor occurs 'npm install error' while vscode insiders running
+27967|High Contrast not achieved for debugging variables
+27968|Add support template function
+27969|Pressing up or down after switching tabs jumps down in the file
+27970|Alter parameter when fold the function codes
+27971|Add relativeFileNoExtension
+27972|Slow startup: Attached profile.
+27973|Node debugging with 'inspector' is missing frames in the callstack, when async frames are present
+27974|"activationEvents with ""*"" may not working properly at ubuntu"
+27975|[dotnet webapi project] Unexpected error tips on the editor
+27976|能添加亚洲地区添加托管vscode扩展的服务器吗，更新插件实在太慢了！
+27977|Sometimes vscode make windows high cpu to 100%
+27978|See values in dec or hex in the debugger
+27979|When editing html closing tag is not changing
+27980|There is no color formatting for .rhtml files
+27981|Add `.rhtml` to html extension
+27982|"""files.autoSave"": ""afterDelay"""
+27983|After editing the settings.json file it adds it to my git project as 'Changes'
+27984|Whole line copying/pasting doesn't work across different files.
+27985|Occupied memory is too high
+27986|Wrong syntax highlighting when escaping quote inside property name of an object literal
+27987|Cannot launch mocha in debug
+27988|webview doesn't recognize svg links
+27989|"Args not working in tasks.json using - ""_runner"":""terminal"""
+27990|Slow Startup
+27991|Slow Startup Profile
+27992|Emmet css abbreviation not expanded in style block in html file
+27993|cmd+backspace doesn't work for keybinding terminalFocus
+27994|Scope issue in markdown syntax fenced code
+27995|Add support for more sequential keys for keybinding
+27996|add remote ftp to tab explorer
+27997|Callstack shows stale frames when first frame is updated
+27998|Buttons for Tasks
+27999|Keyboard shortcuts (copy, paste...) unexpectedly rebound
+28000|Expose the internal getLanguageIdAtPosition to extensions

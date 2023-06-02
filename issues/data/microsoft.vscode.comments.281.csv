@@ -1,0 +1,100 @@
+28001|This is because TypeScript includes private members in the `d.ts` representation of the world
+28002|@klinki what language are you in?
+28003|This would need to come from the node debug adapter - thus forwarding to @weinand
+28004|![variable-hover](https://cloud.githubusercontent.com/assets/6461412/16417370/de36db04-3d45-11e6-8e8f-1aa8eebe094e.gif)
+28005|When you hover over the name we show the type, when you hover over the value we show the value (useful for long values). Not sure where you are hovering over in the gif since I do not see your mouse.
+28006|**@DonJayamanne**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+28007|Actually, I take that back ;-) The <kbd>Alt</kbd> modifier is a menu item modifier and not an argument to the command. Since, it's the _alternative_ action for a menu item I think the _alt_-key is a good choice. In that respect it's different from ctrl/cmd click on tree items which we lend from hyperlinks in browsers. The point of _Alt_ is to show an alternative less common version of a menu.   @bgashler1 I know you wanted to join in this discussion. Please go ahead ;-)
+28008|Also, while we only honour `Cmd/Ctrl` at the time of the click, `Alt` is being honoured while being over the menu item.
+28009|I think it would be better warn you, if you have problems with the extension. Not least because it continues to function until it is restarted.  Example:  ![exem](https://cloud.githubusercontent.com/assets/19866231/16417652/1bab2f9a-3d1d-11e6-9442-43429a88eef6.JPG)
+28010|Tested everything except coffeescript.
+28011|@aeschli you can make an edit and send a PR directly to the schemastore.
+28012|Tested on Linux, Mac and Windows
+28013|"Message content is: `[0m[27m[24m[J[01;32m➜  [36msolution[00m [K` and `[?1h=`  which renders it as: ![image](https://cloud.githubusercontent.com/assets/1723815/16417778/325f255a-3d15-11e6-8865-ca43555b8804.png)  It's definitely related to `zsh` if i set `""terminal.integrated.shell.osx"": ""/bin/bash""` then its ok, but if its `""terminal.integrated.shell.osx"": ""/bin/zsh""` then it does not scroll due to `=` character in `[?1h=`"
+28014|I tested mocha tests and extension host debugging
+28015|I'm the wrong person to answer this. CCing some dotnet members @shanselman @DustinCampbell
+28016|Oh you want the exactly opposite of what I understood from you - sorry. In the meantime we got this issue which captures your concern - #8298 though I like your scatch and will look into it.
+28017|Fyi, using Cmd/Ctrl in trees is also not a good idea because when multi select is on, Cmd/Ctrl is reserved for multi select.  So, having Alt everywhere is maybe a good idea, but will break existing assumptions.
+28018|@egamma unfortunately all I have is a resource URI and from that I do not know if it is a folder or not. Same is true when dragging from the desktop.
+28019|Hey folks -- we're already looking on this over at https://github.com/OmniSharp/omnisharp-vscode/issues/469. Feel free to join the discussion over there.
+28020|Marking as important because even for replace I see the entire UI freezing and things getting slow. Imho as long as we are not fit for this in the UI we should maybe keep the 2000er limit alive even for replace.
+28021|Agreed.
+28022|I have markdown linter which is causing this. So closing this.
+28023|"Same problem for variables in ""args"". They are not discovered."
+28024|@jrieken cool feature, now I would also like to get intellisense for `when` expressions 😄
+28025|Underlying bulk edit is opening models and updating models so probably @jrieken @alexandrudima would have some insight.
+28026|wait for it ;-)
+28027|Sorry for not showing the mouse pointer (it is camera shy). I only move over the types, vertically down.
+28028|:+1:
+28029|Yeah, seems like we start to tokenise the model... @bpasero it's not that you open editors for them, right?
+28030|Great :smile:, no more unwanted lines, thank you
+28031|Submitted bug at xterm.js repo: https://github.com/sourcelair/xterm.js/issues/151  For time being commenting out line `zle -N zle-line-init` in `~/.oh-my-zsh/lib/key-bindings.zsh` fixes the scroll issue
+28032|Doing some book keeping. I am assuming that the one issue remaining here is from @calam1 that memory slowly increases over time when Code runs in the background.   @calam1 could you identify some pattern or workspace that reproduces this issue reliably?
+28033|@jrieken yeah I was thinking the same and quickly disabled opening of editors and still found the same issue. In the future editors will open in the background anyways, so I would not assume any tokenization work from happening even when they open.
+28034|@egamma i just moved `require(['emmet']...` from promise `run()` into constructor. May need to check Emmet before it run: `if (!this._emmet) { require(['emmet']... }`.  https://gist.github.com/mrmlnc/3345b7d2a709e125d517e91ad1b9ca6f#file-emmet-ts-L42-L44  And settings apply when they are changed.  https://gist.github.com/mrmlnc/3345b7d2a709e125d517e91ad1b9ca6f#file-emmet-ts-L39-L40
+28035|@DonMartin76 trying to keep issues distinct, please open a new one for your case, otherwise it is hard to track.  @cfjedimaster does this always happen when you open a workspace? or single file? do you run with extensions?
+28036|> In the future editors will open in the background anyways,  Which means at most three models will be attached to an editor but not the others. Pretty sure something is wrong with the model that makes it tokenise eagerly
+28037|A number of days has past without answer on the questions asked. I am thereby going to close this issue to clean up our backlog of issues. Once you can answer on the questions, the issue can be reopened again. Thanks for understanding this process!
+28038|@notoriousFF ping any update?
+28039|Yeah, [`TextModelWithMarker`](https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/model/textModelWithMarkers.ts#L50) set itself to `autoTokenize` which is causing this...
+28040|When this happens again please post all running processes here and we can reopen the issue (doing some cleanup).
+28041|@bpasero I'll just sit tight and see what gives here. It does though seem to be a related behavior I have.
+28042|@Tyriar this smells like the terminal holding on to memory, please take over.
+28043|For all of these cases it would be incredible helpful to get a snapshot of memory before the crash happens. This is a bit of work because you cannot do the snapshot when memory is too close to crashing. It should be fine though to do it up to 500 MB.   Also of interest is usage patterns (what kind of workspace where it happens, what kind of files).
+28044|It does not seem to work to me neither
+28045|June to investigate
+28046|Tab, in general, should navigate as per the flow of dom elements position. The way tabbing behaves in Find widget looks jumpy to me.  I like that navigation in Search view (was same even before) - When all input boxes are open, up or down arrow navigates among them. Tabbing navigates as per dom elements
+28047|I think you will get a lot of users complaing about this - as I know they were complaing about tab behavior in find widget so Alex had to change it. But time will tell and then later you can reopen this one
+28048|#8278 is for similar issue. Hence marking this as duplicate.  duplicates #8278
+28049|TypeScript but it is the same for JavaScript as well.
+28050|> But time will tell and then later you can reopen this one  Sure, always welcome for feedback :)
+28051|@bpasero @isidorn   Following are the reasons, I want to retain the empty file - It is consistent with Search results - When a file entry is modified to not have search results - During replace, if user undo then file with results should be shown back. If we remove the entry then this will not happen.
+28052|This will be handled with #8302.   Duplicates #8302
+28053|Makes sense to me, but need to cycle back to the TS team
+28054|Instead we would be changing the behavior as described in #8302.  Hence closing this.
+28055|duplicates #8284
+28056|Maybe change the wording if you are in replace mode so that it is more obvious?
+28057|Yeah that is down the line. Once we have more I would relayout them nicely.
+28058|@bpasero what do you mean? every user or other editors have the same problem? (maybe this is an issue with the TS language service?)
+28059|+1
+28060|@bpasero Yes, there would be a flow where users will put text in search and replace text boxes and submit in replace. So on enter always goes for search results.   If we have to change, then, we need to make a case where it runs only replace and we will have different behavior for enter. I do not know if it is good.
+28061|Only happens when I open code in my home directory. On my Mac in my home directory I opened code as such, code .  I think it was loading my entire home directory in the background which caused a memory leak.  I don't normally use code that way. But I sometimes use it as an editor more than an ide. So I just don't use code in this manner anymore.   Sent from my iPhone  > On Jun 28, 2016, at 9:39 AM, Benjamin Pasero notifications@github.com wrote: >  > Doing some book keeping. I am assuming that the one issue remaining here is from @calam1 that memory slowly increases over time when Code runs in the background. >  > @calam1 could you identify some pattern or workspace that reproduces this issue reliably? >  > — > You are receiving this because you were mentioned. > Reply to this email directly, view it on GitHub, or mute the thread.
+28062|There are multiple issues: - opening a large image adds quite some memory to the process - closing the editor with that image does not release this memory for whatever reason - we add a random number to the image path so that upon opening we bypass the browser cache and thus we add this memory each time you activate a tab  I do not have good solutions. If we disable the random number, we easily hit an issue where users would see stale images if they change meanwhile which can be frustrating.   The more interesting question is: Can we teach Chrome somehow to release the image resources? I have filed https://github.com/electron/electron/issues/6275 against Electron to find out.
+28063|Yeah I mean I think our team also suffers from this. And yes, likely an issue with the TS language service and not the editor itself.
+28064|Yes, that is true. I'm a little bit unsure what to do, maybe you have ideas? - when we added `editor.fontLigatures`, we used a Chromium version that would not do ligatures by default - it would need some special CSS rules to enable ligatures - in the meantime, we updated to a newer Chromium version that enables ligatures by default - from an implementation point of view, this makes `editor.fontLigatures` not do anything observable.  I am unsure if we should now write special CSS rules to disable ligatures again by default and enable them only when the setting is set to true.
+28065|:+1: PR welcome
+28066|@sandy081 Where is the focus when you undo? The UI element that has focus should handle undo. If your focus is in the replace input box, then that input box should handle the undo. Or you think that is unexpected?
+28067|@aeschli I can reproduce on master  > Also, if it helps, my deps on files of this size worked fine pre-1.2. This all only started with VSCode 1.2.  So we need to assume the bad grammar change got in first in 1.2
+28068|Focus is in replace input box. I think in this case, it would be nice to undo the last replace done in the editor.
+28069|It could also be that the pre-parsing of files that aren't open in the editor got introduced (I assume to speed up opening times) in 1.2. I have no idea, though.
+28070|Something had gone wrong, it is fine the way it is.
+28071|I mean when you install the extension, and for some reason the extension does not work properly (e.g. a conflict or bug). So we need to uninstall and reinstall for the extension to work properly. Currently it seems that the extension has been removed successfully, but it wasn't until the restart the VSCode.  The example image is simple, better than the notification at the top all the time. Thank you. - Sorry, I speak English so so.
+28072|"Hi, sry I overlooked your question.  ""@hummervee https://github.com/hummervee you say you use F1 but this  is the command palette. Can you share screenshots what you do?""  Yes I use the command palette, to look for filenames due to the size of  the Project. For this I delete the "">""-sign and start typing the filename.  Hope this helps.  Am 28.06.2016 um 16:43 schrieb Benjamin Pasero:  > A number of days has past without answer on the questions asked. I am  > thereby going to close this issue to clean up our backlog of issues.  > Once you can answer on the questions, the issue can be reopened again.  > Thanks for understanding this process! >  > — > You are receiving this because you were mentioned. > Reply to this email directly, view it on GitHub  > https://github.com/Microsoft/vscode/issues/7915#issuecomment-229070724,  > or mute the thread  > https://github.com/notifications/unsubscribe/ARFK3qiO-PAGSz7lliqJW6EPIiwuT1tkks5qQTMTgaJpZM4I6hS3."
+28073|Duplicate of https://github.com/Microsoft/vscode/issues/55  You can configure excludes in settings to take out large folders.
+28074|@egamma moving back to you to provide some steps to reproduce. Since you have no file open I believe you are dragging a folder from the explorer or file from the outside?
+28075|@isidorn cannot reproduce. Are you making the second tab active again or really just click in the context menu while the last untitled in the tab container is active?
+28076|Got it now. Only seems to happen in 2nd group.
+28077|Wow, actually seems like a Chrome bug.
+28078|Weird, works for me on Mac at least.
+28079|Weird, can easily reproduce with 2 tabs already.
+28080|1) Snapshot What is the best way to do this on OSX?  2) Unfortunately, I tend to do a lot of different stuff. I primarily work on Node.js apps and Apache Cordova mobile apps. I'll fire up Code to do my editing, sometimes forget the window, open up more via CLI, etc. So maybe that's part of it - just having so many windows around. I use extensions too, but not heavily.  On Tue, Jun 28, 2016 at 10:50 AM, Benjamin Pasero notifications@github.com wrote:  > For all of these cases it would be incredible helpful to get a snapshot of > memory before the crash happens. This is a bit of work because you cannot > do the snapshot when memory is too close to crashing. It should be fine > though to do it up to 500 MB. >  > Also of interest is usage patterns (what kind of workspace where it > happens, what kind of files). >  > — > You are receiving this because you were mentioned. > Reply to this email directly, view it on GitHub > https://github.com/Microsoft/vscode/issues/7414#issuecomment-229072906, > or mute the thread > https://github.com/notifications/unsubscribe/AAYBvPb867-doUFs36GVHeBxGvS07h3vks5qQTSmgaJpZM4Iw7xV > .  ##   #   Raymond Camden, Developer Advocate for StrongLoop at IBM  Email : raymondcamden@gmail.com Blog : www.raymondcamden.com Twitter: raymondcamden
+28081|@cfjedimaster all from within Code! - open developer tools (from help menu) - click profile tab - record a snapshot  When you do 2 you can even compare them.
+28082|@cfjedimaster and it would be interesting if this reproduces without extensions. From the command line, execute: `code --disable-extensions`.
+28083|"So this change has since been made in the TypeScript SDK. Just use a recent version of TypeScript and set ""typescript.tsdk"" in settings.json and VSCode will behave as desired."
+28084|@jahewson Will it be available in VSCode later?
+28085|"Also tried the same command as the Cygwin shortcut uses and it did not work: ""terminal.external.windowsExec"": ""E:\cygwin64\bin\mintty.exe -i /Cygwin-Terminal.ico -"""
+28086|I agree, this should go in for June.
+28087|Related: https://github.com/Microsoft/vscode/issues/8251
+28088|"Closing this as marketplace team will handle it. Quoting "" Hi Isidor,  Thanks for reporting this issue to us. Our current behavior is if the publisher doesn’t provide a license link in the manifest we don’t display the link in the item details page. But looks like direct navigation to the link is still active. We’ll file an issue on our side and check on how we should be handling this scenario.  Thanks & Regards Harysh """
+28089|Separator in activity bar? #8149
+28090|Thanks for the clarification!
+28091|This should not be closed. It looks like the only variable enabled is ${workspaceRoot}.   Support for these variables is also needed: ${file} the current opened file ${fileBasename} the current opened file's basename ${fileDirname} the current opened file's dirname ${fileExtname} the current opened file's extension ${cwd} the task runner's current working directory on startup
+28092|@alexandrudima  - Add the Chinese (Simplified) input method   - Settings > Time & Language > Region & language > Add a language > Chinese (Simplified) - Focus VS Code and switch OS input method to Chinese and choose Chinese mode and make sure the input method's name is `Microsoft Pinyin`:     ![chinese-ime](https://github.com/Microsoft/vscode/wiki/images/ime/windows-chinese-ime.png)   - Type `ni` press Space and then `hao` and press Space. They should be typed in immediately. Here is how Word looks like doing this:   ![1](https://cloud.githubusercontent.com/assets/3591899/16427212/d789af44-3d9e-11e6-87bd-aed8cdad15e2.gif)
+28093|They can also overlap and truncate incorrectly:  ![image](https://cloud.githubusercontent.com/assets/2193314/16427302/8fb5f600-3d21-11e6-9f4e-390abdb11ed1.png)
+28094|Thanks for including me in.  I think this would be good to discuss in UX meeting.  I personally don't think it's very discoverable to use an <kbd>Alt</kbd> key to change a command.  It's not a bad idea by any means, but I think it's unlikely many people will ever know about it.
+28095|Using <kbd>Alt</kbd> key to modify commands? #8255
+28096|I am still seeing this issue. Its pretty annoying. Just not able to use. :/
+28097|As far as I know VSCode will use your global version of TypeScript, so if you `npm install -g` a newer version it should just work.
+28098|@bpasero were you unable to identify a leak from the call tree and heap data?
+28099|Insider build is working fine though
+28100|Duplicate: https://github.com/Microsoft/vscode/issues/8261

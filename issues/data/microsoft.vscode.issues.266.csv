@@ -1,0 +1,100 @@
+26501|Directory is not deleted
+26502|Directory is not deleted (move to trash)
+26503|Theme customization rule has gone
+26504|TypeScript type definitions not working with JavaScript in TypeScript projects
+26505|User Snippets add extra unneeded characters
+26506|Gulp Compile-Build Error For Missing darwin/Credits.rtf When Building on Linux
+26507|The multi-language of my built-in extension doesn't work.
+26508|Bug to select second of two themes with the identical names
+26509|Toolbar icons break after some time
+26510|integrated terminal`s typesetting in chaos
+26511|Test: debug step improvements
+26512|https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf needs updating
+26513|终端管理器界面显示不正常
+26514|Colors not display correctly - PHP JS (json_encode)
+26515|The editor freezes
+26516|Sporadic dropping support for CMD+S, Enter, Arrow, CMD+C, CMD+P keys after SaveAs on File.
+26517|Scrolling search results with a large file is VERY slow
+26518|Intelli-sense in extensions file
+26519|Ability to have custom output panels
+26520|Resizing the side panel is very slow
+26521|(Feature request) Allow toggling of intellisense by keyboard shortcut.
+26522|Git Checkout: Add save and recall editor files on branch change
+26523|[1.12.1] editor.acceptSuggestionOnCommitCharacter not being respected
+26524|XML Highlighter fails when using spaces after/before the equal sign in
+26525|Please add an interface around `git add -p`, `git reset -p`, and `git commit -p`
+26526|Fluent Design
+26527|Repeated prompts for GitHub credentials
+26528|"Find in Files ""files to include"" override .gitignore"
+26529|Cannot enter text in new file or debug console
+26530|Can't close tabbed header if settings editor divider directly under close X
+26531|Window height not preserved across instances on second monitor
+26532|fileSystemWatcher doesn't work when debugging extensions in VS Code
+26533|Debugging TypeScript: Step over/into inside async functions
+26534|Not detecting language for PHP files using shebang
+26535|extension/php: detect language via shebang
+26536|Extending the Concord debugging engine with a VS Code extension
+26537|Bottom panel's dropdown list behaves incorrectly when click it for the first time
+26538|Add getLanguage Api to retrieve language based only on uri
+26539|Tabs for built-in terminal windows
+26540|window.newWindowDimensions: inherit not working with minimized window
+26541|Cannot read property 'getModeId' of null
+26542|Cannot read property 'loadURL' of null
+26543|Cannot read property 'replace' of undefined
+26544|win10 uwp？
+26545|Missing Glyph Characters Temporarily Visible When Triggering an Emoji Completion on Decorated Text
+26546|Symbol Rename does NOT rename all instances thus breaking code
+26547|"Go to Symbol - numbers on line behind name of symbol in ""Go to Symbol"""
+26548|The typescript language service died unexpectedly 5 times in the last 5 minutes
+26549|Add Option to Exclude Names From Suggestion Lists in JavaScript Files
+26550|Show quick pick always in context where it was opened
+26551|File Renaming should update file import in TS files
+26552|autocomplete trigger characters need to be language dependent
+26553|HTML Label formatting issue
+26554|On Save Focus moves to end of Line in jsx files
+26555|Theming suggestion: Add option to add text-shadow color to highlighted text
+26556|Something removes files from VSIX when being downloaded in Code
+26557|Allow Extension Readmes to Show/Hide Content When Viewed in Extension Explorer or Marketplace vs on Github
+26558|Marked brackets range on scrollbar
+26559|shortcuts arabic letters
+26560|[themes] theme colors of overview ruler
+26561|https://packages.microsoft.com/repos/vscode/ is inaccessible
+26562|Same column (and line) twice with word wrap enabled
+26563|Formatting in Integrated terminal
+26564|Lag when editing code while WebGL is open in Chrome
+26565|feat: Terminal, option to change to change default integrated shell in terminal menu
+26566|[Req] i18n for vs_code_editor_walkthrough.md
+26567|Font/font size changed on latest update
+26568|VS Code's Integrated terminal won't reinitialize on extension-required reload/ manual reload
+26569|Trying to install either eslint or jshint and none of them will install.
+26570|C/C++插件自动补全功能存在严重bug,能否尽快更新修复
+26571|Settings: Model is disposed
+26572|vue supported is imoportant now
+26573|"a bug with ""Dvorak - QWERTY ⌘"" layout"
+26574|Typescript IntelliSense Error
+26575|[FR] Add support for multi range diagnostics
+26576|CompletionItemProvider#resolve not always called
+26577|VSCode 1.12.1 standard c# snippets quit working after update
+26578|Strange intellisense prediction
+26579|How to stop VS Code Search Feature
+26580|Apply files.eol setting when saving untitled with a specific mode that has this setting configured
+26581|[Feature Request] Quick Navigation as WebStorm
+26582|Extension host terminated unexpectedly. Please reload the window to recover.
+26583|Open old version of file in Git side bar.
+26584|[Feature Request] Setting to automatically toggle search details
+26585|Emmet / JSX tag expansion initialization/activation bug
+26586|"Adds ""babel"" support to <script> tags in html"
+26587|Cannot lookup for the global linked node_modules
+26588|Search: unable to include/exclude via glob patterns
+26589|[Feature request] Add Tag for Extensions
+26590|Cannot read property 'properties' of null
+26591|[json] Incorrect brace matching in JSON files
+26592|No @types/node module in package.json
+26593|Chinese automatically compiled into unicode coding
+26594|Support ligatures in inputs (Debug input, Breakpoint input, etc)
+26595|Console.log in extensions no longer seem to show in the Debug Console
+26596|Git stage / unstage (by line) no longer seem to update the file properly
+26597|Installing extension fails without giving any message or error ( Angular.ng-template)
+26598|Npm install fails during finalize with VS Code Open.
+26599|Importing python modules for example bs4 does not work anymore
+26600|Can't see Newlines when Render Control Characters is turned on

@@ -1,0 +1,100 @@
+12501|Test: Electron Update 1.3.x
+12502|Test: Release notes in the product
+12503|Test: Support bundling extensions from Marketplace at build time
+12504|Test: Picker to switch between opened windows
+12505|UI bug
+12506|Show list of builtin extensions in the sidebar
+12507|Test: icons show up everywhere
+12508|%node2.label%
+12509|Test: file associations and auto save automatic configuration
+12510|"Issues with ""Open new window"" in vs code"
+12511|Unlocalised string during setup
+12512|python扩展安装不上
+12513|QuickFix (context menu) is losing focus (closing) automatically
+12514|VS Code Linux Terminal won't scroll with PowerShell
+12515|Ux/panels
+12516|Show list of useful commands in watermark
+12517|Extension View icon shows outdated but no extensions are outdated.
+12518|Failed to terminate running task, and VS Code is prevented from restarting/reloading
+12519|Crash when backspace
+12520|C structures autocomplete
+12521|Fix translation format code action
+12522|Extension Icon showing incorrect count
+12523|Allow opening the same folder in the explorer view as another instance of VS Code
+12524|Git clean changes, cleaned file just shows up blank.
+12525|Improve horizontal screen real-estate
+12526|VSCode automatic update fails
+12527|Shows number on extensions icon when no extensions installed
+12528|Unclear message when all extensions are already updated
+12529|tsconfig.json options not applied if files section doesn't use extensions
+12530|A tutorial
+12531|Add a reference point feature
+12532|Implement Push To Remote
+12533|"Leading ""/"" missing in path ""usr/include/c++/5"""
+12534|Do not reopen already opened file in other group
+12535|full Screen Shortcut key does not work
+12536|Debugger shows me contents of array twice
+12537|MACRO in C language
+12538|C++ User Snippet Problem
+12539|Default settings not filled for linux distro
+12540|.NET Command Line Tools in cmd
+12541|I have git in my computer but not in C:/ ,but the vscode cannot find it ? Is git must put in C:/ ?
+12542|Feature: CompletionItems can have promises as additionalEdits
+12543|Suggestion: TypeScript sourcemap in generated .json files should default to true
+12544|Uri to specific line doesn't work
+12545|TypeScript - tsconfig.json paths resolve wildcards
+12546|Support multiple git repositories
+12547|Intellisense is not able to infer types for function parameters
+12548|Cannot view output to stderr in Debug Console for Python.
+12549|My Comment codes were gone.
+12550|能不能加个设置
+12551|Live preview request
+12552|Required extensions not bundled on Linux
+12553|Theme color is messed up
+12554|Add commands to scroll terminal pages so they can be customized
+12555|Terminal scroll bar only appearing on first instance
+12556|Terminal scroll bar appears on top after hiding and displaying it
+12557|Terminal redraw
+12558|F12 go definition not work in Objective-C project.
+12559|Read-only preview of available shortcuts and keybindings
+12560|Make VSCode window transparent
+12561|Separate themes for separate windows
+12562|Install Marketplace extensions from command line
+12563|Accessibility : High contrast mode, menu items not visible
+12564|Opening Visual Studio projects or aspx files
+12565|Fix #1798 -  Disable UndoLastCommit when no commits
+12566|Fix #1939 - Show tag name instead of commit in GitStatusbar
+12567|Use cmd+k as default keybinding for terminal clear
+12568|Update crash from 1.4 -> 1.5
+12569|OSX: Cannot fullscreen when opening from tmux cli.
+12570|Extension proxy support
+12571|Extention Update number tips
+12572|Integrated terminal does not work well with zsh/oh-my-zsh
+12573|Losing user settings and workspace settings with reloading a folder
+12574|plugin upgrade bug
+12575|Test: Search History
+12576|Test: Workspace extension recommendations
+12577|Test: Action terminal API
+12578|Test: HTML language support
+12579|Test: Source maps for built-in extensions
+12580|Test: Documentation in Intellisense and hover
+12581|Test: Highlighting using range highlight
+12582|Test: Align functionality of node-debugger and chrome debugger
+12583|Test: assist user in setting up eslint
+12584|Test: ESLint: don't lint when there are config errors
+12585|Test: Align vscode-tslint with the vscode-eslint improvements
+12586|Test: Integration of vscode-tslint with a gulp
+12587|Test: Release notes in the product
+12588|Test: Bundling extensions from Marketplace at build time
+12589|Test: Commands in watermark
+12590|Output window handles ANSI newline escape sequence incorrectly
+12591|Inconsistent highlighting for body in TSX
+12592|Run selected code snippet
+12593|quickSuggestions Sometimes failure it`s unstable in mac
+12594|Non-english language not handled correctly in terminal
+12595|how to load fixture && trigger plugin's activationEvents?
+12596|Test API'ish way to change configuration settings
+12597|Messages from extensions do not close automatically
+12598|Unable to bypass trash via Shift+Delete / Alt+Delete
+12599|Command shortcuts on the welcome screen need ux love
+12600|Badge on problems view is hiding the icon

@@ -1,0 +1,100 @@
+29801|Run test with no test task defined should guide the user to define a test task.
+29802|Task 2.0.0 schema polish
+29803|Settings UI heading text underflows editor
+29804|gulp vscode-darwin fails locally with emmet error
+29805|Pre & Post callbacks per task for Tasks Runner
+29806|Terminal: copy under Windows should insert Windows line delimiter character
+29807|"Emmet 2.0 ""wrap with abbreviation"" bug when partial line is selected"
+29808|No launch.json created after selecting 'Node' as the target
+29809|Fixes #29729
+29810|Fix for #29608 'QuickOpen looks misaligned in monokai theme'.
+29811|Git gutters don't show when you Uppercase a filename
+29812|Add telemetry when the user uses a template to configure the task runner
+29813|Remove Run Test Task from the global menu until we have a better test support.
+29814|Use path_helper in user shell in darwin
+29815|Tasks: MS Build template generates deprecated tasks.json
+29816|Syntax highlighting of JavaScript code in Template Literals
+29817|Copying line up or down failing in Ubuntu
+29818|Tasks: deprecated tasks.json generated for .Net core
+29819|"Explorer: should maybe not show ""Folders"" in title?"
+29820|"Explorer: do not show ""Explorer: Folders"" in view title?"
+29821|We need some way of differentiating roots with the same basename
+29822|Errors comparing merge conflicts in untitled file
+29823|Provide keys to color status bar working (flame symbol)
+29824|Visualstudio code giving no longer responding for every 5min
+29825|request: Jump navigation on break point ?
+29826|Cursor not placed at end of auto indent
+29827|Error with babel plugin transform-export-extensions
+29828|Newly generated extension via yeoman erorrs in test suite on Windows
+29829|Improve terminal navigation
+29830|Support go to definition for import styles
+29831|Error when pasting entire line
+29832|HTML native vscode support language missing with HTML Liquid extension
+29833|"Selection not updating in replace (""Find in selection"" is weird)"
+29834|Make EH debugging not event order dependent
+29835|Save non-standard language modes of project files in workspace settings
+29836|Bug: indentation detection incorrect when a block comment appears inside an argument list
+29837|Add a terminal.fontWeight setting
+29838|Files opened with the same name only show path when in the same group
+29839|Activity bar overflow logic broken
+29840|[folding] define custom collapse pattarens
+29841|Expanding collapsed function causes text to be selected
+29842|parameter renaming is not propagated correctly
+29843|Localized strings should be escaped in html
+29844|Debugging extensions stops when changing folder
+29845|[css] color suggestions are duplicated
+29846|Incorrect format on paste for blank line inside js function
+29847|Emmet Wrap with invalid abbreviation should display error to user
+29848|Emmet wrap with abbreviation inserts extra spaces before content when abbr is inline element
+29849|[css/scss] Go to definition for css/sass @import
+29850|Weird error message phrasing
+29851|git for windows constantly running in the background using CPU
+29852|remove unnecessary Math.min
+29853|layout suggestion
+29854|optimize activity bar
+29855|Managing overlapping command contexts in custom tree views
+29856|Weird '.\' in the tab, after file name
+29857|Some Emmets is not working
+29858|Set `emmet.useNewSetting` to `false` by default in 1.14
+29859|something wrong
+29860|CLI proxy support
+29861|Debug: inline values not high contrast aware
+29862|Action to show and navigate to running tasks
+29863|Column/vertical select work like Visual Studio
+29864|Git changes should be lines changed as well as files
+29865|vscode launch terminal from itself if iclose it. is open again all time
+29866|Visual Studio code consumes 39% battery on Windows 10
+29867|Provide global setting to specify folder with workspace configuration if .vscode doesn't exist in workspace folder
+29868|c++ lldb debugger seems hangs
+29869|Task shouldn't propose a problem matcher for test tasks.
+29870|Should vs/workbench/parts/views move into vs/workbench?
+29871|Starting Debug with a preLauch task referenced from an npm script fails when launching the second time
+29872|I dont know which extension put a warning?How to find it?
+29873|Multi root: Cannot search specific file types anymore
+29874|Multi root: search in folder no longer allows to provide file types
+29875|[Terminal] Windows: drag and droping a tab from the workspace returns an invalid path
+29876|[Feature Request] Drag & droping a folder/file onto the integrated terminal
+29877|Remove task name check in debug service
+29878|TypeScript provides two identical tasks
+29879|Debugging from WSH and MS HTA
+29880|Feature request: Show file paths in inactive panes
+29881|Lightbulb is in the wrong place
+29882|Investigate why unit tests sometimes fail in Linux
+29883|Set Custom Defaults for all Users
+29884|"Untitled files show up with ""/"" as description in some places"
+29885|Status bar items are repositioned on their properties change
+29886|"Search ""files to include"" overriding path to file (not case - sensitive)"
+29887|[OS X]Code crashed when startup
+29888|Smoke test: Exclamation mark not typed and terminal not triggered
+29889|Closing editors in (OPEN EDITORS) should not scroll to active file
+29890|Open Editors fails to update folder labels as folders are added/removed to/from workspace
+29891|Emmet: Skip the default expansion to CSS property when abbreviation is not found
+29892|Synchronize change icon does not move when pulling from Command pane
+29893|Status bar background color is not being applied (themes and if explicitly set in settings.json)
+29894|files.autoSave: afterDelay causes distractingly blinking Source Control working indicator
+29895|Some breakpoint actions are not localized
+29896|"Emmet 2.0:  ""lorem"" text is wrapped with extra div"
+29897|Setting `$schema` to `null`  crashes the JSON Language Server
+29898|"""Deleted from disk"" indicator is removed once any new file event kicks in"
+29899|Problem matcher errors are unhelpful
+29900|TypeError: Cannot read property 'input' of undefined

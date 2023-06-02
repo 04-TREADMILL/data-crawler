@@ -1,0 +1,100 @@
+401|[Marketplace] Set background color the same as gallery banner
+402|Linux block select
+403|Function calls not highlighted in JS
+404|Breaks with xml file bigger than 55MB
+405|syntax highlighting for c++: 'value' keyword removed.
+406|Keyboard shortcuts for Find & Replace In-View Options
+407|TypeScript tsserver error after yeoman generation of extension
+408|This can only be used in ts files
+409|debug bug: cannot connect to runtime process
+410|Downgrade Code to a previous version
+411|Extension that calls process.exit() brings down extension host
+412|Block select
+413|VSCode 0.10.1 editor panel hangs on a PHP file
+414|Wiki Documentation Issue
+415|Support programming ligatures
+416|redirecting test results output to file instead of debug console
+417|Incorrect licence listed on the website
+418|Problem with updating Extension
+419|`yo code` line break problems on OSX
+420|VSC Crashed when validating the syntax for PHP
+421|Add ability to play sound
+422|Preserve window size when restoring a maximized window
+423|Extension Management View
+424|Format Code command missing on Mac OS X
+425|.editorconfig added
+426|Is it possible to listen to events of an inputbox?
+427|Support (customizable) file type icons in the sidebar
+428|IntelliSense descriptions cutoff in Visual Studio Code for Mac
+429|Unable to zoom out past default zoom level.
+430|Delete files not using
+431|Renaming identifiers should save on other files
+432|JSON schema support for .jshintrc and .jscsrc
+433|Remove Zoomout constraint (fixes #430)
+434|"Keyboard shortcut to focus the ""Working Files"" section of the sidebar."
+435|Add ARIA role values and ARIA 1.1 attributes
+436|this.commitInputBox.layout is not a function: TypeError: this.commitInputBox.layout is not a function
+437|can not open multiple VSCode instances from command line
+438|`ext install` is slow
+439|fold functions and code
+440|Allow to pick working files via quick open
+441|Open next file when you close one file
+442|Find and replace all open/pinned files in current session
+443|Provide an option to keep quick open open on focus lost
+444|Fixes typos in the javascript.contribution
+445|Using the Monaco Editor in a browser without VSCode
+446|Question: Is it possible to use IFrameEditor inside extensions?
+447|Don't close Commands View on losing Focus
+448|Problem matcher can't support absolute and relative filenames at the same time
+449|Untitled Resource SaveAs should default to All Files (*.*)
+450|Unable to save file without extension
+451|"Problem matcher severity handles ""Note"" and ""Hint"" as errors"
+452|Fixed typos
+453|Untitled Save As dialog defaults to All Types with blank name
+454|Could vs code supports ES6 in <script></script>?
+455|OSS Build - Failed to tokenize input error with certain languages
+456|Php autocomplete issue
+457|default lauch.json for new node app has empty configurations
+458|Support user stylesheet(s) and user script(s)
+459|Blinking cursor
+460|Update HTML highlighting & IntelliSense
+461|Intellisense does not autocomplete modules in 'node_modules' folders.
+462|how to focus cursors from extension api?
+463|not working key-binding with JIS Keyboard
+464|Split editor vertically and to more rows / columns
+465|Trim trailing whitespaces on line with cursor when explicitly saving
+466|what does this do? import 'vs/css!./media/workbench';
+467|Replace does not work on mac
+468|VsCode keeps freezing
+469|"""dnu restore"" tries to use ASP.NET beta3?"
+470|VSCode/OmniSharp looking for DNX runtime in wrong directory
+471|Fix function keyword syntax
+472|Add Edge to list of browsers
+473|No autocompletion from .d.ts files inside node_modules for JavaScript projects
+474|mkdirp: don't try to create fs roots
+475|Correcting documentation to better match JSDoc's style.
+476|git.path in user settings
+477|[debug] Support to add launch configs after the fact
+478|Cannot install extension behind NTLM proxy (Windows)
+479|add cusor bug: ctrl+alt+up/down conflict with windows shortcut.
+480|File watcher fails with chinese characters in path
+481|Run tests in Electron
+482|Autocomplete doesn't work in .jsx-files
+483|Run tests in Electron
+484|[Feature Request] SQF syntax highlighting
+485|Source map debugging not working for built in extensions
+486|[bat] Batch File Syntax highlighting not working on variables or comments.
+487|Unicode characters show as question marks in method documentation hover window
+488|[json] Support to contribute JSON schema from an extension
+489|Support GitHub Desktop authentication
+490|"Resizable ""Opened Editors"""
+491|Language plugin adding new problem matcher
+492|Markdown Preview does not interpret kbstyle() [Not sure if it is a Bug]
+493|Color Theme completely changed
+494|Selection expansion command and hotkey
+495|Find widget only highlights the first 19999/20000 matches
+496|Crash every few minutes
+497|Change the editor fallback defaults to insertSpaces: true, tabSize: 4
+498|[coffeescript] syntax highlighting broken when divide symbol is not separated using space
+499|Adding option to configure cursor blinking
+500|Increased the allowed regex search matches to max number value to acc…

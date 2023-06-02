@@ -1,0 +1,100 @@
+19501|No window on first startup
+19502|Documentation web site opens each time on launch
+19503|Respect tabCloseButton with tabs disabled
+19504|Move Interactive Playground to top in Welcome page
+19505|Perform hot exit backup/discard operations in a queue
+19506|Customizing the rendering of matching brackets
+19507|#18696 Support line number fragments in vscode.open
+19508|Emit 'running' after view is set as multi-process
+19509|Perform hot exit backup/discard operations in a queue
+19510|"""Select environment"" popup shows twice"
+19511|editor.rulers should not be zero indexed
+19512|api-doc-json failing after commit
+19513|[WelcomeUX] Copy `code-icon.svg` to near where it's used
+19514|Portable edition for all os
+19515|"Command in integrated terminal shows up with ""typewriter effect"""
+19516|[Feature request] Ship to Apple App Store
+19517|"[Feature request] Silence option for ""Are you sure"" nag on delete."
+19518|Typo fix
+19519|Error while running html code
+19520|insiders: tasks not found on osx
+19521|"Syntax errors when using file association ""*.es"": ""javascriptreact"""
+19522|Multiline string logging with variablesReference
+19523|Fix #19550
+19524|Multiline logged object preview should be escaped, not cut off
+19525|Setting locals to object literals fails
+19526|"Remove Gear Icon for ""Built-In"" Extensions in the Extension Panel"
+19527|Added pluralization checks to search's replace-all
+19528|Problem Sending Code to F# Interactive
+19529|"""go to definition"" functionality not working"
+19530|Java Task Runner
+19531|Fix colorization of nested list.
+19532|Triggering Autocomplete overwrites contents.
+19533|Allow to provide colorizers for specific output channels
+19534|CodeActionsProvider no longer receives the full selection range
+19535|Feature request: require confirm when enter command+Q on macOS
+19536|Code silently failing on Mac OS Sierra
+19537|"Why ""Error processing launch options at field: environment"" ? (Windows)"
+19538|Cannot debug Jest in VSCode without npm install --legacy-bundling?
+19539|Trusted Typescript version
+19540|[json] VS Code can't handle U+2028 in a JSON string
+19541|[WelcomeUX] Welcome page should not show during extension development/debugging
+19542|"Association for "".jslib"" file script red underline(does not exist)."
+19543|Explorer: Search File Listing
+19544|URI validate error opening / on Linux
+19545|Mouse wheel scrolling doesn't work when dragging a file in explorer view
+19546|Fixed a problem when a comment is in an attribute.
+19547|Close Folder opens a new instance of VS Code instead
+19548|Visual Studio for Mac Preview Installation Not Ends
+19549|The TypeScript language service has suddenly stopped 5 times in the last 5 minutes. Consider opening a bug report.
+19550|Debuggers: Add a tooltip for value on key hoverover
+19551|Can't re-enable TypeScript/javascript/git
+19552|"Debuggers: Add ""copy path"" to the context menu in the inspector"
+19553|Update fwlink for unsupported workspace setting
+19554|Add ability to display icons in Code Lenses
+19555|Return doesn't dismiss setting a variable
+19556|Wrong keyboard layout
+19557|Formatting not working after using inline style attribute in html
+19558|Operation not permitted when running bash script from task
+19559|VSCode does not differentiate when we use tab or space when Toggle Render WhiteSpace is active.
+19560|Logitech MX Master Back Button does nothing on Mac, should (Go -> Back)
+19561|Single Quote in Param Validation for PowerShell treats everything following as string in highlighting.
+19562|Getting error on launching VSCode.
+19563|error notice preventing solution
+19564|Move markdown preview content provider to own file
+19565|Fix TS Version Selector When Local Version === Global Version
+19566|Environment variable not expanded during task run
+19567|"""Cannot read property 'toLowerCase' of undefined"" during run task"
+19568|Fix colorization of nested list.
+19569|Feature request: Extension size information
+19570|Feature request: Enable find dialog on extension information panel
+19571|TS version prompt shows non-existent path when ts not present
+19572|Handle typescript.tsdk path does not exist with wrong sub directory better
+19573|Allow using workspace typescript.tsdk setting
+19574|New tsdk flow for 19
+19575|php short open tags
+19576|Windows 10 Multiple Desktops issue
+19577|"Relabel ""Call Stack"" to ""Threads"""
+19578|"When trying to start a launch config with invalid type, ""pick environment"" picker shows up and doesn't do anything"
+19579|Ctrl+`  toggle terminal Shortcut key failure
+19580|All installed callstack context menu items are shown during every debug session
+19581|Add activationEvents addition to 'detectProcess' for extension registration
+19582|Markdown h2 scope is messed up
+19583|Search Problems
+19584|Markdown scopes are broken after `<script></script>`
+19585|Recommended extension is not displayed on the list
+19586|HTML TAG TRACK
+19587|Bad font rendering on linux
+19588|Repl suggest widget is broken
+19589|HTML Formatting Breaks when ul tag has style attribute
+19590|IntelliSense for languages in configuration overrides
+19591|Feature Request: I am using cucumber protractor for navigate cucumber to step definition
+19592|Tasks don't work with substs
+19593|Copy line does not work properly with multi-cursor
+19594|Cannot set shortcuts of Ctrl + symbols
+19595|Breakpoints showing in Debug/Breakpoint but not in file
+19596|"Adopt ""php.validate.executablePath"" handling to new TS behaviour"
+19597|API doesnt update settings if there are trailing commas in settings.json
+19598|Get extensions behind a proxy
+19599|Duplicate workspace setting warnings
+19600|Window opens in fullscreen when window.newWindowDimensions set to inherit or fullscreen

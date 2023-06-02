@@ -1,0 +1,100 @@
+901|Massive issue on Mac OSX with emoji
+902|Wordwrap to end of line, not specific column
+903|Auto-save unsaved files
+904|Add a pull with rebase action to the git viewlet
+905|Make it easy to submit a pull request/create and publish a local branch
+906|Errors remain even when fixed when running in watch mode
+907|"anyone know the code in ""vscode source code"" that implement javascript  intellisense in vscode?"
+908|Task progress does not stop turning
+909|Support to Run VSCode unit tests in a CI setup
+910|Expose more Commands as API
+911|Improve experience when user wants to read the README.md before installing an extension
+912|configurationAttributes: allow for attributes to be shared between 'launch' and 'attach' requests
+913|Build should restart when typescript crashes and not die
+914|December Iteration Plan
+915|Support TS 1.7.3 watch patterns
+916|Don't activate dirty file indicator if the file state matches the previous written state
+917|New release chews CPU and puts weird squiggles in JavaScript code
+918|Cannot read property 'kind' of undefined
+919|`editor.formatOnType` corrupt the code in typescript
+920|"""Install Extensions"" does not cache list"
+921|Not compatible with Breevy (auto-expander)
+922|debugging coreclr applications on mac and linux [Question]
+923|Can't save .htaccess file. EPERM error.
+924|File/Text search cancellation fails
+925|[html] punctuation for tags can not be colored by syntax themes
+926|Windows 10: focus is not put to window but taskbar blinks
+927|Search: include should have priority over exclude
+928|Windows: Cannot save hidden files
+929|Footer bar: add number of selected lines
+930|Comparing a number variable to a string shows a warning even though assigning a string is perfectly fine
+931|Custom debug adapter, console ignores output containing ANSI color codes
+932|Isidorn/breakpoints verified
+933|Source maps don't work when attaching to running code
+934|File watcher fails on Centos with GNOME
+935|Cannot save file to root of drive
+936|ITextFileService.save() should trigger more UI updating
+937|Use default Format options in Extensions
+938|Event when vscode quit.
+939|"[lua] ""goto"" missing in Lua syntax highlighting"
+940|Unusual Ctrl+Left_Arrow and Ctrl+Right_Arrow
+941|Wildcards on activationEvents.workspaceContains?
+942|Windows: There should be an option to hide the menu bar.
+943|Creating new file with no file extension
+944|Can't make text smaller
+945|vscode not killing child processes
+946|"Remove name ""Visual Studio"" from vscode.d.ts"
+947|Select current line
+948|"where i can found how to create javascript completionitems list ui in ""VSCode source code""?"
+949|TypeError: Cannot read property '_acceptIsDirty' of undefined
+950|can not step in constructor, will will terminate node.exe
+951|Install extensions under proxy problem
+952|Splitting lines in string
+953|"whether i can get all completionitem list include vscode itself provided in plugin api  ""registerCompletionItemProvider""?"
+954|Intellisense for nodejs required packages.
+955|Emmet not working
+956|Fonts become fuzzy after zooming and scrolling
+957|extensionHost debugging: reattach does not connect to debugServer
+958|Implementation of issue #950
+959|Can't build in Windows 10
+960|False positives in unhandled promise rejection
+961|Cmd+P broken
+962|"""Visual Studio Code has crashed"" when editing an ES6 file"
+963|Extension should be able to contribute a task template and a user can pick a template
+964|Does commands.executeCommands('editor.action.format') work properly?
+965|Alternative fuzzy searching
+966|A string field that doesn't fit in the hover box messes up syntax highlighting
+967|Proposal for separating the vscode tools from the vscode API
+968|Cannot validate the php file. The php program was not found.
+969|Make the Windows Mutex product.json specific
+970|Explore: Integrated TypeScript building/transpilation
+971|ProblemMatcher encoding issue
+972|[python] Add .gn as a python file extension
+973|Sass: auto-complete being shown with HTML tags right after semicolon
+974|Fix spelling/punctuation in descriptions of User Settings --> JS Vali…
+975|"Eternally ""Checking For Updates..."""
+976|VS Code should restore windows to their original spaces when possible
+977|Does Visual Studio Code support searching by Class in typescript?
+978|Cannot define multiple commands in tasks.json
+979|Incorrect formatting for single parameter in arrow functions
+980|Cannot use numpad keys in key shortcuts
+981|tsd for lodash and underscore stopped working
+982|Format code doesn't do the right thing with TSX/JSX
+983|Format code doesn't do the right thing with TSX/JSX
+984|Can't use Git command line when Visual Studio Code is open
+985|cannot set terminal process group (-1) when trying to run a C# console application (Ubuntu)
+986|Markdown: Allow to open files inside the editor that are linked from the markdown
+987|Fix a bug in indenting multiline comments with tabs (issue #348)
+988|Menu needs to be aware of what is going on inside current active workbench
+989|"Reproducible crash when using ""Close All"""
+990|Remove comment does not work consistently in HTML
+991|c_+
+992|debugger reads into string's content
+993|Support temporarily installed fonts. (Win)
+994|Extension APIs: suggest window is displayed despite not having any suggestions
+995|Explorer should not reopen a file when hiding and showing again
+996|Cannot invoke an expression whose type lacks a call signature (versus optional semicolon)
+997|Slow response when system is offline
+998|No longer responding when opening a big file?
+999|Incorrect comment symbol in puppet language definition
+1000|Suggestion Widget appears to eagerly

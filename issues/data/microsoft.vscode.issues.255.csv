@@ -1,0 +1,100 @@
+25401|Theme generator: questionable work flow
+25402|Using SHIFT and arrow keys to select text to the right is ungodly slow
+25403|"Emmet: Improve ""Wrap with abbreviation"" input description"
+25404|No key repeat in integrated terminal
+25405|Garbled rendering in the exception widget
+25406|VS Code, format HTML code with Twig or Swig tags
+25407|Extension: How to avoid multiple entries of the command at the same time
+25408|Extensions view: Word-wrap hides some words
+25409|Swipe should work with any choosen gesture
+25410|Ugly flicker upon first startup
+25411|Go Back / Go Ahead not the best match for swiping
+25412|Go To Definition/Declaration and back
+25413|Quick fix for imports introduces double quotes: is there a workaround?
+25414|Cannot Force Quit / Remove from Memory Large Built JS File
+25415|Failed to execute git
+25416|"Drag and drop should use the ""grabbing"" cursor"
+25417|Dragging without ctrl held and then holding ctrl before dropping changes cursor but not behavior
+25418|Don't warn on #RGB shorthand annotation in colorCustomizations
+25419|Icons should support themes
+25420|"Add ""when"" context for inQuickOpen without text entry"
+25421|How do I theme the settings focus colors?
+25422|Typings Installer continuously runs and consumes lots of resources
+25423|It's not clear what listInactiveFocusBackground does
+25424|How does listFocusAndSelectionBackground interact with listFocusBackground?
+25425|Cannot save a file when the name consists only from numbers
+25426|Workbench colors for tomorrow night blue
+25427|Is that possible to use this flat badge in the official document or README?
+25428|Cannot read property 'resource' of null when adding new debug configuration
+25429|Debugging: Unable to halt execution using arm gdb
+25430|NPM Not Installed: More Information button does nothing
+25431|Makefile parsing bug?
+25432|Find in selection button doesn't feature a tab focus border
+25433|Stackframe not greyed out when skipped and toggling doesnt work
+25434|Monarch questions
+25435|Restart Frame While Debugging TS Jumps To JS Source
+25436|colorCustomizations: Do we need editorLinkForeground?
+25437|Improve editorHeaderBackground descriptions
+25438|Improve wording in of editorHeaderBackground
+25439|Should settings have share panelActiveTitleBorder?
+25440|"Themes' schema needs update for ""tokenColors"""
+25441|"Themes 'vsc-extension-quickstart.md' missing ""one"""
+25442|Theme name should not be optional
+25443|"peekViewTitle and peekViewTitleInfo names should end with ""Foreground"""
+25444|All of, or a subset of these colors should be white/black with transparency
+25445|Note sure what the following color keys do
+25446|Bottom of characters are getting cut off in composition view
+25447|Allow setting TSLint max-line-length
+25448|Add Undo and Redo buttons
+25449|Cannot Theme Suggest Widget ReadMore Button
+25450|Feedback popup is not themed
+25451|Integrated terminal copies only the visible lines
+25452|Log Where The TSServer is Logging to When it Exits Or Starts
+25453|Output Link Detector Does not Detect TSServer Log File Paths as Links
+25454|Red Theme - Peek View Needs Work
+25455|Theming: Revisit Unsaved File Count Indicator
+25456|"files.autoSave set to ""off"" behaves as if it's set to ""onFocusChange"""
+25457|editor.snippetSuggestions not being honored
+25458|Cannot Theme Command Palette Match Colors
+25459|Fixes #4370: Set default icon for file associations
+25460|今天vetur更新后，主机还是会意外停止
+25461|version updates do not stick.
+25462|VS CODE 对 PHP 语言支持不好
+25463|ext VIM has issue when typing chinese words
+25464|.Net Core project cannot load the new created tasks.json
+25465|Language Server Initialization failure when opening single file with no workspace
+25466|QuickPickItem Searchability
+25467|[loc] Adding language - Indonesian to transifex VS Code project
+25468|CodeLens rendering on Windows gets clipped and doesn't look as good as on macOS
+25469|VS Code UI larger on Windows after Electron update
+25470|Extension: Getting config setting after waiting for update doesn't provide updated value
+25471|Promise with no error callback
+25472|widnwos10
+25473|Model is disposed after closing settings
+25474|Widnwos10
+25475|Give us a silent auto-update
+25476|Czech Keyboard layout: Can not remove Keybinding (it is still invoked)
+25477|CTRL+K S keyboard shortcut does not save modified files.
+25478|Generated task.json from grunt file has warnings
+25479|Suggest to prefix the detected tasks with the task runner
+25480|Cannot associate a problem matcher with an auto detected tasks
+25481|Apply editor foreground color changes to syntax theme
+25482|File > Open Folder... only one file is kept open, keep previous selected file(s) in tab open
+25483|HTML format selection formatting entire line issue
+25484|Add editorSuggestFocusBackground and editorSuggestForegroundColor
+25485|[MAC] Code Helper process using more than 1GB memory and slows down the whole system
+25486|Git: Could not create directory '/c/Users/�\207\221�\205\210/.ssh'.
+25487|Suggestion: render whitespace: show new line characters
+25488|Pool already loaded VS Code instances to enable startup acceleration
+25489|Javascript format breaks with bracketed function names and async (ES7) keyword
+25490|Theme: Editor scroll shadow not picked up
+25491|Closing a tab using middle mouse button on the 'x' causes the tab to the right to also be clsosed
+25492|JavaScript: Using division in `if` condition across multiple lines mis-reported as error
+25493|Hanging extension host
+25494|drag and drop text not working
+25495|Improve autosuggest with module exports
+25496|Clarify 'percentage' in 'withProgress'
+25497|issue for formatting one line json?
+25498|Prevent VS Code from closing when no open files and pressing CTRL-W
+25499|Annoying popup
+25500|Account to sync the extensions for different system.

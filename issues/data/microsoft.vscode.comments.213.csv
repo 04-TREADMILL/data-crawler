@@ -1,0 +1,100 @@
+21201|Add important to raise attention
+21202|Dup of #5838
+21203|Dup of #5838
+21204|People see it all the time, adding important to raise awerness
+21205|Sorry, I was wrong here... yeah, it's on_Will_ and on_Did_... Will be hard to make it work in a nice way...
+21206|I know - tho TypeScript can be confused when some folders are mistyped. Also ,it then might include all JS files in the node_module folder which might be too much for it.
+21207|"@gregvanl what does the code assist show when you press ctrl+space  And I would like to ask you to enable TS trace. Add the following workspace setting  ``` json ""typescript.tsserver.trace"": ""messages"" ```  open the output window and switch to the TypeScript channel and attach the provided log."
+21208|@vsccarl there is no format on save by default. what extensions has you installed?
+21209|as designed
+21210|That is as designed - the icon should tell you that it's just a generic symbol, not a member.
+21211|Likely an out of memory crash because the image is very large and loaded into the renderer process. As it stands currently we cannot prevent the out of memory from happening given the hardcoded memory limit in V8.
+21212|@mathewmeconry thanks for the additional info. However I have no idea right now what causes this behavior since your tsconfig.json is correctly located in root.  Could you please enable the tracing I suggested in https://github.com/Microsoft/vscode/issues/6067#issuecomment-218152606 and attach the trace. This would help me to understand why the TS language server doesn't provide results.
+21213|I can repro this but only on win machine and only one element in suggest box gets broken for me. And only after scrolling a lot. @egamma opinion if this is important to tackle before Joao returns. My impression is no, since does not always happen and user can get out of this state by reopening suggest
+21214|@buu700 how is your OS X file system configured. Do you have it set to be case sensitive. We are aware of a problem with TS and case sensitive file systems under Mac that the TS team is working on fixing. This would explain why other team members on the project don't see the issue.
+21215|@bpasero do you think this is the issue with our output decoding or the editor?
+21216|"Ok, I changed the exclude path to right path and now it seems to be kind of working. So this is kind of resolved but it might be good idea to try to add some kind of error / help message in these kind of cases.   Also it seems bit curious that I did not find anything from the net with the error message so now there is this ""bug report"" that might help someone in the future with same kind of typo as me :)"
+21217|@skolmer Great to see you got it working. I will keep this issue open to address the comment https://github.com/Microsoft/vscode/issues/6209#issuecomment-218154446
+21218|Ahh, got it, thanks! Yep, I do have it set to case-sensitive. Any rough idea of the ETA or priority of that fix?
+21219|If I change the css property of the line's `span` tag: `white-space: pre` or `pre-wrap`, then it works expected.
+21220|@senjacob https://visualstudio.uservoice.com/forums/293070-visual-studio-code/suggestions/7763958-drag-n-drop-selections
+21221|Hi,  for me both variants are ok.  When install VSCode for all users on the machine as an administrator, the HKLM should be written. When install VSCode in user scope for the logged in user without admin-rights, the HKCU should be written.  I think, that's a good way.  Greetings, Andreas
+21222|Totally, agree. We have something in the works that TypeScript reports to us when too many files are encountered - such that it starts crawling... It didn't make it for 1.8.x but will come with the next release. This is where we track the underlying issue: https://github.com/Microsoft/TypeScript/issues/7444
+21223|This sounds like an error in his python program???
+21224|@sun1991  Do you get the same error if you run your python program outside of vscode?
+21225|@GuiAlmeida My guess is that you have an extension installed that does something on save. The out-of-the-box VSCode doesn't do anything on save. Can you reproduce the issue when starting vscode without extensions by using the `--disable-extensions` command line argument?
+21226|This issue was moved to Microsoft/TypeScript-TmLanguage#167
+21227|@Xiltch Do you have a small code example where I can see this? I just tried some random examples where I renamed some variables that where folded away and didn't see any strange effects.
+21228|The currently implemented folding strategy is based purely on the indentation of lines. A folding region starts when a line has a smaller indent than one or more following lines, and ends when there is a line with the same or smaller indent.  To be more smart and to, for example, understand C++ blocks, we will have to go one step further and introduce language agnostic folding regions. We have issue #3422 for this.
+21229|We have issue #3422 for adding semantic folding.
+21230|@venkatmca008 Can you clarify what you mean by 'scold'?  Closing for now, feel free to reopen once clarified.
+21231|This issue was moved to Microsoft/TypeScript-TmLanguage#168
+21232|"It seems to me that Notepad++ take the similar approach with @brunnopleffken proposed. I think it's more organized and discoverable than random places. I've seen people didn't know how to ""activate"" some extension for VS."
+21233|I think this issue is kind of a dup of #347 #4540 #4875? #5559.
+21234|We already have a convert indentation to spaces, and convert intdentation to tabs actions. You can find them by clicking on the lower right corner tab size, or spaces  Check it out
+21235|Thanks for digging this up.  #5559 describes it pretty good. @bpasero Please close this issue and add #5559 as feature-request to the Backlog.
+21236|They do have the insiders build: https://code.visualstudio.com/Download#insiders  That is the place where you get the new stuff early. The new stuff can be found in the `iteration-plans`: [Link](https://github.com/Microsoft/vscode/issues?utf8=%E2%9C%93&q=label%3Aiteration-plan+)
+21237|"""This conversion should work for all tabs in a document, not only for identation."""
+21238|duplicate of #5919
+21239|Oh, I've just found a similar issue: #5105.
+21240|"@dbaeumer I enabled it but as you can see at the both screenshots in [#6067 (comment)](https://github.com/Microsoft/vscode/issues/6067#issuecomment-218181059) I can't select the typescript channel in the output console. Am I at the right place?  This is my settings.json in the .vscode folder in the root of the project (path: /)  ``` json {     ""editor.formatOnType"": true,      ""files.exclude"": {         ""dist/**"": true,         "".idea/**"" : true,         ""**/.git"": true,         ""**/.DS_Store"": true     },      ""typescript.useCodeSnippetsOnMethodSuggest"": false,      ""typescript.tsserver.trace"": ""messages"",     ""tslint.enable"": true,     ""tslint.configFile"": ""tslint.json"" } ```"
+21241|We are revisiting working files in the future, also you found a similar issue so closing this one
+21242|Sounds like an issue for the c++ extension, I have moved it to their repository https://github.com/Microsoft/vscppsamples/issues/43
+21243|@daviwil can you please answer :)
+21244|It should just work, unless you have [`.vscodeignore`](https://github.com/Microsoft/vscode-docs/blob/master/docs/tools/vscecli.md#vscodeignore) rules configured. fyi - the visx-file the `vsce` command is creating is just a zip file in case you want to validate things.
+21245|> but if if showed only the number when multiple they would at least line up  Hard. what is printed there depends on the extension, it's not always a number but can be any string, see [version lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens) or [code metrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics).
+21246|@bgashler1 @stevencl ideas?
+21247|fixed by ce3fb81
+21248|+1 would be extremely helpful
+21249|Agreed filed https://github.com/Microsoft/vscode-docs/issues/300
+21250|> @egamma - just for clarity, if the linked issue gets implemented, VS Code will automatically get it as well?   this is correct, the completion list shown in VS Code are computed by the TypeScript server that also supports JavaScript.
+21251|Please see the May plan we will make progress on this topic https://github.com/Microsoft/vscode/issues/6105
+21252|is there some workarounds for now?  I'm using a macbook air with the latest version of vscode
+21253|Hi @urbanator84, we currently don't have plans to support PowerShell v2 in the PowerShell extension for VS Code.  If we receive enough requests for this we may consider it.  I'd recommend filing a request for it over at our GitHub page:  https://github.com/PowerShell/vscode-powershell
+21254|@sibeliusseraphini there is a way to exclude large folders from watching in settings. It has a downside though that file events are no longer detected in those folders (e.g. the explorer might not update properly for that folder).
+21255|Great news! Thank you egamma!
+21256|is there a simple way of marking a folder as an excluded one? like in Webstom?  it should also be possible to invalidate the cache/file watching or restart it as well
+21257|Further more, I'm going to file another issue on VSCE repository to suggest the supports for this idea.  @ Edit: Done https://github.com/Microsoft/vscode-vsce/issues/88
+21258|Currently not. See http://code.visualstudio.com/updates/vMarch#_workbench and find `Exclude files from watching`
+21259|I believe it's related, but not duplicated of https://github.com/Microsoft/vscode/issues/5919  The issue here is about [attribute values](https://www.w3.org/TR/html-markup/syntax.html#syntax-attribute-value).
+21260|Do you still see this after 10seconds? There is a small delay we use for refreshing the git viewlet
+21261|"Here's the log from the output window TypeScript channel when I press '.' after ""console"": Sending request: projectInfo (36). Response expected: yes. Current queue length: 0 Response received: projectInfo (36). Request took 0 ms. Success: true  Sending request: change (37). Response expected: no. Current queue length: 0 Sending request: completions (38). Response expected: yes. Current queue length: 0 Response received: completions (38). Request took 0 ms. Success: false . Message: Error processing request. Cannot read property 'lineCount' of undefined Sending request: geterr (39). Response expected: no. Current queue length: 0 Event received: semanticDiag (0)."
+21262|Code Assist (ctrl+space) just shows:  ``` [abc] console ```
+21263|@masoud-moghini : I hope you already installed node module and added reference in your project like below: ![image](https://cloud.githubusercontent.com/assets/17735796/15188558/38b1302c-175b-11e6-9f31-1e5a6ee3cdde.png)
+21264|@gep13 that's what we just transitioned to, however we decided that we'd prefer to keep the doc PRs/commits away from the product changes.  This is only an issue because GitHub wiki's cannot be forked unfortunately :frowning:
+21265|Just solved with the FAQ http://code.visualstudio.com/Docs/supporting/faq#_windows-faq
+21266|> @Tyriar said... > however we decided that we'd prefer to keep the doc PRs/commits away from the product changes.  I can understand the need for that, we just like to keep everything in one place though :)
+21267|Has this been fixed? I am not sure how to fix this.
+21268|I am using version 1.1.0
+21269|Looks like it is a result of the [JS-CSS-HTML formatter extension](https://marketplace.visualstudio.com/items?itemName=lonefy.vscode-JS-CSS-HTML-formatter). It does not repro with extensions removed.
+21270|Looks like it is a result of the [JS-CSS-HTML formatter extension](https://marketplace.visualstudio.com/items?itemName=lonefy.vscode-JS-CSS-HTML-formatter). It does not repro with extensions removed.
+21271|Also happened to me when VS code tried to update to version 1.1 from version 1.0
+21272|"i found out that i already had ""editor.wrappingColumn"": 1000 in my settings, after removing it the problem solved."
+21273|Verify by creating the symlink/file we previously recommended creating at `/usr/local/bin/code`, install the rpm and make sure `/usr/local/bin/code` no longer exists.
+21274|I would prefer if the menu entries were isolated in an Extensions menu as in #6000. The reasons being: - It makes it very clear which menu items belong to which extensions. - Prevents possible duplicate menu items from multiple extensions by forcing nesting. - Allowing menu items in the regular menu has the potential for abuse.
+21275|switched to Atom by github perfect my life is PERFECT now
+21276|I tested that your example works with the fix for #5919.
+21277|![image](https://cloud.githubusercontent.com/assets/6461412/15194247/47239ad4-17c2-11e6-83ae-79b35dece7bf.png)
+21278|That's nice, thanks!
+21279|Well I switched **from** Atom and have nowhere to go now.
+21280|when it comes to golang atom turns out to be better than vscode, vscode best for  typescript
+21281|For me, switching tabs refreshes the list.
+21282|There is also the subtle _bug_ which I encountered today, which triggered me to write this issue: I had not setup the `autocrlf` config for my repo, so even after staging all marked hunk diffs, vscode was not refreshing the `CHanges` section because there would have been `^M` characters in the diff making the file unclean. This is not marked in the diff view, which caused some head-scratching.
+21283|Do we know when this will land? It's a killer feature for me and I was disappointed it's not in 1.1.0.
+21284|I've been meaning to get a prototype of vscode as editor in chrome devtools workspaces in my free time. Would be great to have documentation.
+21285|looked over as many comments as I could, searching for keywords and didn't find this mentioned.  as far as tabs go, firstly, _thank you!_ their absence is one of the only things I dislike about VS Code.   I would love to see navigation between tabs be customizable; for example, I love the way iTerm switches between tabs by pressing `cmd + left`, and would very much so like to do this in my editor as well.  thank you for a great editor <3
+21286|Duplicate of #6266
+21287|updated powershell example to better handle env changes as well as added some verbose output
+21288|@jrieken for my usecase #6178 it would be crucial to have this as a core feature of vscode
+21289|I have a similar issue with webpack-dev-server output where in some cases only filenames but not lines and columns are shown.
+21290|+1, hate ms thin fonts
+21291|![1](https://cloud.githubusercontent.com/assets/5318374/15198680/b135f280-178d-11e6-8e33-dca7c1499ccd.png) ![2](https://cloud.githubusercontent.com/assets/5318374/15198681/b1386416-178d-11e6-9fbe-25959c3d7b91.png)
+21292|Tabs are a must for me... Switching back to Sublime until you have tabs. P.S. I am very disappointed at your attitude; You seems to have no sense of UX yet claiming this has been done to improve UX. What are your personas? Where are your  user interviews? Prove it.
+21293|@dbaeumer I couldn't find any documentation about the watching config. Would be nice to have this feature in the docs https://code.visualstudio.com/Docs/editor/tasks#_defining-a-problem-matcher
+21294|@DickvdBrink  senk you  I google and search saite not found senk
+21295|Another example of a discrepancy between the symbol lookup and other features of vscode is that peek definition still works (even if the symbol lookup does not)  ![image](https://cloud.githubusercontent.com/assets/3195045/15199440/f62bf164-1792-11e6-8f53-a40d209837f3.png)
+21296|@GuardRex Thanks for the reply. You guys are the best. Would appreciate instructions to do the exact same steps on Mac OSX. Trying to find a good way to remove and reinstall dotnet for a while now. Haven't found anything useful yet 😢
+21297|@vaishnav4226 Sure thing. Ah! I'm all Windows here. There are plenty of Mac :cat:'s around tho, so I'm sure someone will jump in. Otherwise, ask for help on JabbR, and there might be a Mac pro there. https://jabbr.net/#/rooms/AspNetCore
+21298|@asadighi did you even a read the comments before posting? The team has done extensive interviews and are conducting more to get tabs right. They are incredibly responsive to the community and are producing a great editor (for free). Good luck waiting for the next release of Sublime.
+21299|Your previous comments are telling of your bias. My objection is on the attitude they have had from the get go. User interviews should happen BEFORE people start bashing the product for such flaw. Interesting enough you can see hesitance to invest to fix this flaw in name of better UX. This issue has been open since Nov and for good part of that time most of the responses are in line of we know better than you how you should do your job.
+21300|"Well, I found again this problem on version 1.1.0-insider, build date 2016-5-9. This time, C# file type associated with VSCode is set to ""Visual Studio Code - Insiders"", icons are all the same, :-(   Can't tell it is a C# code file. Screenshot is here: ![image](https://cloud.githubusercontent.com/assets/628293/15201834/956cd36c-1827-11e6-851a-6f28d11c6e4d.png)"

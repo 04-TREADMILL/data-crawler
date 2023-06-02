@@ -1,0 +1,100 @@
+23301|@weinand yes, but voice over api does not support toggling. It just supports that I report a message to it. I report message A which has already been reported and for some mysterious reason(bug on their side) message A is not read out because it was read out some time ago
+23302|@weinand does the message actually get spoken multiple times? As in ...does it say Removed again? Or do you come across it when navigating around?
+23303|@isidorn aha, now I understand. Thanks for clarification.
+23304|We can discuss with the team, I have no strong feelings about this, I can revert my change... in fact I don't even know why I touched this to begin with...
+23305|@isidorn  I'm actually surprised you got VoiceOver to read things on OS X at all, I heard someone say they had a lot of trouble making things read on the latest OS X, where an older version apparently worked fine
+23306|@zersiax it works, but there are many bugs :)
+23307|@zersiax I'm doing the following: - set a breakpoint in the editor gutter - remove the breakpoint in the editor gutter - set breakpoint again - remove it again   etc.  In VoiceOver I hear exactly two message: - Breakpoint added in line... - Breakpoint removed in line....  So I do not hear messages for the second add/remove.   Only if I set a breakpoint in a different line and then come back to the original line, I hear messages again.
+23308|"Nice catch! That's because the rule for `acceptSelectedSuggestion` uses the `^`:  ``` { ""key"": ""."",                     ""command"": ""^acceptSelectedSuggestion"",                                      ""when"": ""editorTextFocus && suggestWidgetVisible && suggestionSupportsAcceptOnKey && editorLangId == 'typescript'"" }, ```"
+23309|Doesn't work for me either way.  Neither the Tab, not clicking the Emmet:Expand Abbreviation from commands menu.  _Visual Studio Code:_ Version 1.1.1 Commit def9e32467ad6e4f48787d38caf190acbfee5880 Date 2016-05-13T13:29:20.776Z Shell 0.37.6 Renderer 49.0.2623.75 Node 5.10.0  _Extensions Installed:-_ C#, TSLint, Angular 2 Typescript Snippets
+23310|@aeschli I am wondering if it used to work before
+23311|Did not see that again.
+23312|I checked and it is a regression. It is working as expected here - 5d2d6530905ed13c6d534c3c8a020f650d7ac015
+23313|"In node-debug the empty string now evaluates to an ""undefined""..."
+23314|+1
+23315|@joaomoreno I don't see an error messages with those steps
+23316|"Apologies bpasero, I'm completely out of my depth here.  I tried running the two lines as a bare .js file, but I get the error: Line 1, Char 1, Object expected.  I tried running it another environment with the same result,  By the way, in line 2, I had substituted filepath with the full path of the target file: ""D:\DataForVallaHome\Scripts\WSCLibrary\TestADSFiles.txt""  I tried instead to post you a TXT file that has two ADS TXT files attached, but of course the transfer to your servers removed them (I tested that by previewing and re-downloading).    Then I tried zipping the file first, but that also removed the ADS files..    So I'll have to leave it to the developers to sort out the origin of the problem and the fix.  It's a serious matter for windows users, because you often want to put file metadata in an ADS file."
+23317|@weinand FYI
+23318|@alexandrudima Alex, can you have a look? 8913a2b964c52a51e8614c0b6a3598e9adde5e04 introduces the problem. In color.ts, _contentChangedScheduler (line 142) is no longer fired when typing.
+23319|@sandy081 what version of node are you using?
+23320|Still OK.
+23321|See anything in the dev tools? Sure you have latest?
+23322|@weinand its v6.1.0
+23323|Got it!  ![image](https://cloud.githubusercontent.com/assets/22350/15608044/81749998-2417-11e6-91aa-4057cf331e16.png)
+23324|Great catch.
+23325|#6947
+23326|![c93d3-clip-11kb](https://cloud.githubusercontent.com/assets/10125293/15608079/404d990c-2439-11e6-9ad2-d5b1d174f857.png)
+23327|https://www.dropbox.com/s/0emdvm57z18qv0w/project.zip?dl=0
+23328|Ok found a problem in installing extensions, you might be seeing it instead: #6947
+23329|yeah, I saw something like that. Tho I could install backspace-plusplus and after changing the _owner_ I could uninstall it.
+23330|Adding  ``` typescript                         case editorCommon.EventType.ModelContentChanged2:                             this.emit(editorCommon.EventType.ModelContentChanged2, e);                             break; ```  in the `comonCodeEditor.ts, line 860` seems to fix the issue.
+23331|Yes, that is the problem, the editor does not forward these events. Great catch!
+23332|We have been working on implementing the designs for tabs and editor groups in this milestone and will continue to do so in the next milestone  Thanks to everyone who participated in the UX study these last couple of days. We got some great feedback from you that has helped us make some improvements to the experience: - Redesign the overflow icon - Provide a setting for choosing whether or not files from quick open are pinned or previewed - Add a command to turn a previewed file into a pinned file
+23333|@sandy081 I was not able to reproduce this on OS X 10.11 and node 6.1. The error that you see in the CALL STACK view is a V8 issue in node v6.x (https://github.com/node-inspector/node-inspector/issues/864). VS Code has a workaround for it, but that does not seem to work as reliably for you as for me. We will have to wait until the real fix for V8 appears in node v6.
+23334|"I also have no clue why is it acting like that. It's like ""now I want to work, but the next time I start... who knows""? :P  I'm creating the gif file.  EDIT: convert is taking a filetime to reduce the filesize..."
+23335|I can reproduce, funny I went happy through the smoke test, as the 1337 theme gets installed OK. Maybe we can update the smoke test to cover more heavy-weight extensions.
+23336|Not a regression
+23337|Great find.
+23338|@jrieken Just pushed fixes... Can you try verifying again?
+23339|I just wanted to post a follow up in case anyone else runs into this issue. I'm not sure if @stuartweir had a similar setup, but this was the result of my issue.  I have an unconventional setup where I have my project hosted on dropbox and I use Git to version the project. At home I work on the project on a mac, at work I'm on windows. The problem was that I cloned my main repo on my mac to a different directory on dropbox, then when I tried to use Git on windows it cause a lot of errors. When I booted my project on my mac I was able to version fine and ran into no errors.  A rookie mistake, but I learned my lesson.
+23340|This issue was moved to OmniSharp/omnisharp-vscode#383
+23341|Duplicate of https://github.com/Microsoft/TypeScript-TmLanguage/issues/81
+23342|@aeschli Be sure to Release Note this change
+23343|It is not only clicking on the brekapoint but on the gutter closes the peek definition window. I know Alex refatctored code in this area so forwading to him
+23344|I have pushed a revert to my change for May, I now give the issue to its proper owner :).
+23345|This issue was moved to Microsoft/vscppsamples#56
+23346|@vsccarl Are you double clicking?
+23347|I'm sorry I also don't know, @bpasero @joaomoreno How does one see test failures in appveyor?  ![image](https://cloud.githubusercontent.com/assets/5047891/15609981/4d3217f8-2423-11e6-8c9b-97bdaeed32d2.png)
+23348|To handle HTTP proxies correctly, use the https://www.npmjs.com/package/request-light node module. It is also used in https://github.com/OmniSharp/omnisharp-vscode/pull/224.  Maybe we need a hook on installation? Or platform dependent extensions? @joaomoreno @egamma
+23349|"<img width=""659"" alt=""screen shot 2016-05-27 at 16 07 41"" src=""https://cloud.githubusercontent.com/assets/900690/15610368/2982e4de-2425-11e6-95f8-ffe3f0792afe.png"">"
+23350|@NotepadPlusUser can you maybe explain how one gets a file with data streams on Windows? Then I can try to reproduce in node.js.
+23351|I've started to extract JSON functionality into node modules, starting with https://www.npmjs.com/package/jsonc-parser. I'll do the same with the formatter. Then, we already have all of the JSON language support as a service using the [language server protocol](https://code.visualstudio.com/docs/extensions/example-language-server). If you write a language client for atom then you could consume the service as is (and even other language services using the protocol: tslint, eslint, powershell, ...). Right now the JSON language server isn't a separate node module, but of course that's easy to do. FYI @dbaeumer
+23352|@xeoneux this should actually work but maybe you have other files and folders within that tree that are excluded via settings? I think we only expand automatically when the folder really only has 1 child on disk.
+23353|For next milestone we plan to introduce stacks and tabs and I think this would cover your use case.
+23354|@gerane maybe what you actually want to use is Ctrl+Tab to quickly access the last opened file?
+23355|You can always ask for the context of a previewed document, using the underlying `TextDocument` and use a node module to copy this contents to the clipboard
+23356|On OS X with English as the primary language but Swiss regional settings I get US format for time:  ![2016-05-27 16-22-54](https://cloud.githubusercontent.com/assets/1898161/15610832/9efa8cce-2427-11e6-9f14-551b1af654a4.png)  ![2016-05-27 16-24-47](https://cloud.githubusercontent.com/assets/1898161/15610834/a3761db8-2427-11e6-967c-aa67fc2e0b40.png)
+23357|Sorry, I meant in the menu:  ![image](https://cloud.githubusercontent.com/assets/22350/15610913/16bc8172-2428-11e6-88eb-b59693308d44.png)
+23358|Yeah also noticed that, no clue why, might be electron update.
+23359|Have you tried bundling the native dependencies with your extension? I know there are three platforms to consider, but still... The ideal scenario here is that **everything** your extension needs should be contained in the published package. Everything else should be done by the extension itself.
+23360|That's an interesting alternative, I'll have to dig into it.
+23361|Found the issue.  Due to #1033, Code will not read the `$SHELL`'s environment if it detects that it was run from the command line, via our new cli launcher; it [sets a variable](https://github.com/Microsoft/vscode/blob/master/src/vs/code/node/cli.ts#L33) which is later listened upon.  Unfortunately, that solution has a problem: the Debian and RPM packages (cc @Tyriar) set up an application shortcut which points to that cli launcher. So, when launching Code from those application shortcuts, it won't have the correct environment.  We need to look into a different fix for #1033: possibly we can figure out whether we are in a `TTY`...?
+23362|@alexandrudima could we use your cool new - keyboard shortcut feature to unbind . as a completion accept character ?
+23363|Loser.
+23364|@alexandrudima please give it a read and comment/edit.
+23365|Nice!
+23366|"I was looking at glob.ts, parseRegExp. I added a breakpoint on line 210, `return regEx`. There I saw that case going through. But then in glob.ts, match line 307 it finds out that `parsedPattern.trivia === Trivia.T2` and it doesn't use the pattern. Oh, lucky :-)   But then there's pattern `{**/package.json,**/project.json}` resulting in `(?:(?:[/\\].*?|.+?[/\\]|)package\.json|(?:[/\\].*?|.+?[/\\]|)package\.json|(?:[/\\].*?|.+?[/\\]|)project\.json)` which is really used and fails:  ``` typescript         p = '{**/package.json,**/project.json}';         assert(glob.match(p, 'package.json'));         assert(glob.match(p, '/package.json'));         assert(!glob.match(p, 'xpackage.json'));         assert(!glob.match(p, '/xpackage.json')); ```  Also note that there are two segments for 'package.json' and a non-capturung group around everything."
+23367|I have written up a proposal for the new story here: https://github.com/Microsoft/vscode/issues/6973
+23368|Not sure I understand why the issue was reopened or Isi's comment but I verified that the issue appears to be fixed.  I can install extensions like Sean's spell checker and MarkdownLint.
+23369|We need to make `--install-extension` check that the ID has the right casing.
+23370|I think we should keep the issue open until the translation strings are in the product so it can be verified.
+23371|@dbaeumer it does not exist (which I imagine you could figure out based on @joaomoreno 's latest comment)  @joaomoreno woohoo! sounds like there's at least the hint of a path towards a fix for this.  Thanks, everyone! The interactions on this bug have made me :heart: code even more :smile:
+23372|Closing.  Please reopen if you think there is more to do here.
+23373|@gregvanl Isi was mentioning my fixing skills, or lack thereof. 👍  We tackled the issue at his desk and reopened it since we saw some issues.  Ended up being related to #6959, so we'll track it there. Closing this one.
+23374|"Then there other cases that are still far too complicated and inefficient. It looks like #5438 is not really fixed. {**/*.ts,**/_.tsx__/_.js,**/*.jsx,**/_.es6} -> (?:(?:[/\]._?|.+?[/\]|)[^/\]_?.ts|(?:[/\]._?|.+?[/\]|)[^/\]_?.ts|(?:[/\]._?|.+?[/\]|)[^/\]_?.tsx[^/\]_?[^/\]_?[/\][^/\]_?.js|(?:[/\]._?|.+?[/\]|)[^/\]_?.jsx|(?:[/\]._?|.+?[/\]|)[^/\]_?.es6) It's correct, but `*.\.ts|*.\.tsx|*.\.js|*.\.tsx` would do it. The non-capturing groups also don't seem to be needed."
+23375|"Yes, starting with the May release it will be:  ``` { ""key"": ""."",                     ""command"": ""-acceptSelectedSuggestion"" } ```"
+23376|@gregvanl sorry about all that, it was just @joaomoreno talking to himself on my keyboard :)
+23377|Cool! Great work.
+23378|@joaomoreno how much was saved from cleaning them?
+23379|I'm not sure I understand the problem, @joaomoreno how is launching from desktop entry any different from the CLI? Would the solution be to point to the binary instead as that's probably no issue (it may be preferable even).
+23380|"I use ctrl+tab, but I also use ctrl + p to search for files, and sometimes the file I am looking for is the last open file. So if I am unsure if the File I want was the last one I open, I usually would use Ctrl+P instead of ctrl+tab. I have a habit of using ctrl + p in this manner from other editors as well.  From a User's perspective, If I have a File open, and I use a command to Quickly Open a different File, having my first choice be the File I already have open is counter-intuitive and kind of goes against the Commands name ""QuickOpen"".   Other editors use this behavior, and it just makes sense to have the Default be a File that the User might actually want to open. Having the Default as the currently open file, benefits the user 0% of the time. I recommended the last open file, because there is likely a very high percentage that it would be beneficial to the end user."
+23381|@whr94621 this issue should belong to the [cpptools extension](https://microsoft.gallery.vsassets.io/items?itemName=ms-vscode.cpptools) right?
+23382|@aeschli ah right, I was falling through my own optimisations in the test...  You seem to have an idea how to come up with efficient regexes for the glob patterns, so I will come to you next week so that you can show me your ideas :).
+23383|@gerane can you give me an example of an editor that behaves the way you describe? Ctrl+P is mainly meant to start a search so I think for most users it does not matter what file you opened previously. For that usecase we have Ctrl+Tab.
+23384|How can I find out the current viewport width? I think adding an extra conditional to `src/vs/editor/common/config/commonEditorConfig.ts` near [line 117](https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/config/commonEditorConfig.ts#L117) would do the trick?  I'm sorry, this is turning out to be a bit more difficult than I expected. The codebase is really large.
+23385|@alexandrudima Yes, its double clicking anywhere on the peek window is closing it.
+23386|ping @seanmcbreen   I'm OK with removing it and have thought that would be the best option multiple times. Let @seanmcbreen weigh in... he sees the feedback on Twitter and there are some positive vibes with it.
+23387|Got it working. I now need to integrate it properly. @alexandrudima or @bpasero.  You can see the patch [here](https://github.com/hashhar/vscode/commit/f7dbfcef4c810215f510deb73d82d5be11b663c4). I have some notes in the commit message regarding the next steps to take to integrate it properly.  This is just a proof of concept, I am looking to add a new config setting which would be a boolean deciding if this behaviour would occur. And the value for the `wrappingColumn` (which I fixed to 80 right now) would then be read from the `wrappingColumn` property.  What do you think about this approach and if there could any improvements be made, please suggest.
+23388|Sublime Test and Atom both have this behavior, which I would say are the closest editors to Code.   Ctrl+P is a quick search, but often times, the thing I am searching for might be the first or second selection. It would be beneficial for users if the default selection was something they might actually want to open, instead of the most convenient selection being something selected 0% of the time.
+23389|This feature plus dired mode and vscode could compete with emacs.
+23390|Ok I see it now, i was not pinning the editors. I am not sure it is a good idea to remove the current editor from the list because someone might expect it to be there. We might need a setting for this to not break other users. So far noone complained about this, so it is not something very obvious to change it seems.
+23391|Alpha is being deprecated so issue here, I did however find this for the insiders build from this https://github.com/Microsoft/vscode-distro/issues/44
+23392|The assertion that no one reads the feedback is false. There is a lot of feedback that comes through Twitter, I find a lot of it valuable and occasionally engage with people having issues with Linux.  Removing it would remove _a lot_ of VS Code mentions from Twitter, definitely a negative just because of that.
+23393|Might be flakiness? I retried the build.
+23394|@weinand do you want to take this PR? I wouldn't have identified any issues with the AppleScript stuff.
+23395|This is not related to the C++ extension as it does not support build not does it process the output. I think this has to do with VSCode processing warnings and errors from Tasks.
+23396|@dbaeumer, @bpasero  please re-open the issue as this is related to VSCode handling of Task output.
+23397|Duplicate of https://github.com/Microsoft/vscode/issues/6937
+23398|"Yeah, I'm not sure why so many people are complaining about tabs, which are a major UI overhaul and virtually unnecessary (with most of the reasons being ""because every other editor has them"")... Icons are a much easier thing to implement and have a considerably higher return on investment in regards to usability."
+23399|"I'm now seeing this in my pure-JS project, and I have it correctly configured to exclude `node_modules`. I can also repro when my only open working folder has one file and no node modules.  <img width=""496"" alt=""screen shot 2016-05-27 at 12 40 27 pm"" src=""https://cloud.githubusercontent.com/assets/4805575/15619354/ab86128e-2408-11e6-9314-2083537c387b.png"">  I see the following warning in the developer console:  ``` ""Error processing request. Cannot read property 'projectFilename' of undefined"" ```"
+23400|Hi **@Merott**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;

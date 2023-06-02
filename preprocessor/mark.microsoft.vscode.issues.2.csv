@@ -1,0 +1,100 @@
+101|Unsaved files should be preserved on quit (hot exit)|0
+102|Environment variables are not being defined while debugging|0
+103|Tabs don't update column counter|0
+104|[markdown] Markdown lists aren't being themed correctly|0
+105|Enable code folding and collapsing|0
+106|VMW Workstation: VS Code hits 97% CPU and won't start for a couple of minutes|0
+107|File Language is not persisted when file is closed and reopened|0
+108|Feature: SSL Settings|0
+109|"License - clarify the ""Data"" section"|0
+110|Middle click paste doesn't work on Linux|0
+111|Extension API: cursor position (determining current location and moving it)|0
+112|Debug Console: Copy multiple lines|0
+113|[stylus] Add Stylus language support|0
+114|Keybinding: Allow colon to be a valid keybinding|0
+115|Odd code in vscode/src/vs/editor/common/modes/lineStream.ts|0
+116|ASP.NET 5 rc1 application showing unresolved items|0
+117|RST language support|0
+118|Support running extension tests through cmd line|0
+119|TypeScript: Code styling broken when no EOL semi-colons|0
+120|Polymorphic this (TS 1.7)|0
+121|Add Python support|0
+122|Regression: editor text is blurry on Linux with 125% text scaling|0
+123|Improve the explorer view to match full VS design|0
+124|fix for #39|0
+125|Goto Symbol doesn't show all functions defined inside the file.|0
+126|Mac Omnisharp Error on RC1|0
+127|Provide option to opt out of line ending normalisation for files|0
+128|build fails on Windows|0
+129|Unclosed Single/Double Quotes in Template Strings Break Syntax Highlighting|0
+130|[angular] Syntax highlight for inline HTML templates|0
+131|"[less] mixins ""{ expected"" errors"|0
+132|Add Symbol navigation for PHP|0
+133|[javascript] Bring back ES6 syntax highlighting support|0
+134|Missing release script|0
+135|代码提示功能还不行|0
+136|Error with unresolved dependencies|0
+137|install golang plugin failed|0
+138|Menus not responsive on Windows 10|0
+139|Crush if dragging a large file to open|0
+140|JSX language support - more than colors|0
+141|Can VS code will support more theme or theme package?|0
+142|'omnisharp:fixscripts' errored  ReferenceError: Promise is not defined|0
+143|"Request feature ""Integrated terminal"""|0
+144|TextEdit[] returned from provideDocumentFormattingEdits doesn't behave correctly?|0
+145|Bad Default/Regression: C++ .h headers colored as C files|0
+146|How to install plugins!!|0
+147|Developer Tools: node.js api error|0
+148|[c++] C++ syntax highlighting inconsistent in 0.10.0|0
+149|output window - crashes under load.|0
+150|Feature request: more complete git integration|0
+151|Support undo and redo in input fields|0
+152|Global Typings?|0
+153|When can support Razor IntelliSense in ASP.NET 5?|0
+154|Changes to Emmet snippets.json lost after update|0
+155|How to install plugins behind a proxy with a self-signed certificate?|0
+156|Find symbols, find references, format code does not work on Ubuntu 15.04|0
+157|The 0.10.1 update cover the file what I edited the snippets.json in the Emmet. So I need to edit it again. Is it can improve?|0
+158|Snippet variables not detected after double backslash|0
+159|Bring Code window to foreground when opening a file from the command line and reusing existing window|0
+160|Visual Studio Code is no longer responding|0
+161|[php] missing user code auto-complete on 0.10.1|0
+162|Typing in the editor is very laggy on Linux|0
+163|Show the application window as soon as possible|0
+164|Better drag and drop / clipboard integration of files across applications|0
+165|Remove dependency to atom-shell-installer-assets|0
+166|Menus wrongly positioned when using multiple monitors|0
+167|Windows 10: window not put to foreground in all cases|0
+168|Application Architecture|0
+169|"Ambiguous ""Cannot invoke an expression"" hint"|0
+170|"""PreLaunchTask"" is not finished before the launching starts"|0
+171|I can't bind one key with two or more commands in keybindings.json|0
+172|Mac: Auto-update prevents to store settings of session|0
+173|OSX El Capitan: Code crashes on quit when in split full-screen mode|0
+174|Syntax highlighting: Textmate grammars vs. inbuilt mechanism?|0
+175|Diff editor: restore the action to quickly toggle between inline and normal diff|0
+176|"""How to contribute""  docs details missing"|0
+177|Crash when opening 50mb YAML file|0
+178|Git status in File Explorer|0
+179|Not auto complete for grammar only languages like C++, Python, CoffeeScript...|0
+180|Fix bug #103|0
+181|Wrong multiline parenthesis indent (JS)|0
+182|Debug: click on breakpoint does not focus editor if already opened|0
+183|Jump to matching bracket issue|0
+184|Wrong comment indent in multiline expressions (TS, JS)|0
+185|tasks not working as before|0
+186|Proxy support for extensions #69|0
+187|Tests occasionally fail spectacularly in OS X|0
+188|Format action in XML files deletes spaces in content|0
+189|Goto definition acts too early in some cases|0
+190|Center screenshot in README|0
+191|Specify which Node version is required to build VS code|0
+192|Add support for font ligatures|0
+193|OS X: no selection occurances in scrollbar (scroll-map) after ~260 lines|0
+194|(JavaScript) Auto-complete for block comments doesn't work since 0.10.1|0
+195|double click into watch expression or variable jumps up a little bit|0
+196|Move gulpfile.* in the /build/ folder|0
+197|[Debug] Console HTTP links match incorrectly|0
+198|Keybindings using brackets (eg. indent) doesn't work with a Danish keyboard layout on Mac OSX|0
+199|Install Extension: order on extension list|0
+200|Ability to modify the Caret/Cursor|0

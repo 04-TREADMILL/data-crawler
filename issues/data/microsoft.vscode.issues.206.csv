@@ -1,0 +1,100 @@
+20501|tri
+20502|Search: target particular set of files
+20503|Emmet is working(only p is not working)
+20504|File Explorer dose not sync with local files
+20505|Word wrap doesn't work in Git diffs
+20506|quickstart has problem with VS Code
+20507|FEATURE REQUEST: New Package.json file from folder context menu
+20508|Current line yellow should be polished
+20509|VSCode Typescript service stopped
+20510|"Colors for ""problems"" block"
+20511|Add Replace in Selected Text
+20512|Opening Extension help closes the existing file
+20513|Launch via NPM, Breakpoint not working
+20514|"[OSX] VSCode gets stuck with ""The window has crashed"""
+20515|"""cmd+q"" cant't quit the code app"
+20516|Feature Request - Save All s/cut
+20517|vscode ReactNative 代码提示时有时无
+20518|Unintuitive result scoring with Ctrl-P in recent history
+20519|Can't use ALT+up/down to switch between search file filters
+20520|It would be helpful if QuickOpen and sidebar show git status by color
+20521|VS Code creating a new file with same name just makes lowercase/uppercase first letter
+20522|Variable selection starting with dollar sign
+20523|wtf？
+20524|360 delete tsserver.js
+20525|Command palette should score shorter commands higher
+20526|Copying and pasting a JS function removes the space between function name and opening paren
+20527|VSCode Insiders will not launch on OSX
+20528|VS Code should enable navigation for more file/line formats
+20529|"IntelliSense suggests "".git"" in require path"
+20530|A call for more extension categories
+20531|Where did window.showFullPath go?
+20532|wont let me edit my work key typing different letter on my keyboard
+20533|VSCode debug controls positioned out of editor
+20534|Consider supporting files with .msil extension
+20535|Update Perl6 syntax highlighting to allow for kebab-case in addition to snake_case
+20536|Unable to open vs code - insiders after update
+20537|Drag and drop selection in editor
+20538|update method of WorkspaceConfiguration not working as expected
+20539|Insiders 1.10.0 Marketplace returned 'ECONNREFUSED'. Please check the 'http.proxy' setting.
+20540|Menu
+20541|Menu
+20542|[WelcomeUX] Add telemetry for clone action
+20543|Add Status Bar Item for JSConfig/TSConfig
+20544|what?
+20545|在过去5分钟内，TypeScript语言服务意外中止了5次
+20546|built in solarized themes: italic comments
+20547|the terminal of vscode 1.9.1 didn't work until restart the computer.
+20548|Possible Bug: Single-Stepping in JS involving 'Get' Property Accessor
+20549|[themes] Selection highlight color is too similar to the selection color on Monokai
+20550|Code view scrolls when code lens is dismissed
+20551|Apply search.exclude patterns to workspace symbol search as well
+20552|Uplevel node-pty@0.6.2
+20553|Can't startup extensionHost
+20554|Terminal links
+20555|Upgrade vscode 1.9.0/1.9.1, but it cant work!
+20556|Debugger error
+20557|Error not showing up when node2 is not supported
+20558|VS code crash
+20559|Mac Vscode doesn't start anmyore
+20560|Misplaced warning
+20561|inconsistent js highlighting
+20562|Colour for column selection in debugging mode added to high contrast …
+20563|Failed to start VSCode after installation -- entry pointer SymGetSearchPathW can't be located in dbghelp.dll
+20564|gulpfile icon
+20565|CUDA
+20566|Same file opened twice with different filename casing
+20567|Disable markdown formatting in showInformationMessage by default
+20568|TypeScript语言服务以外终止
+20569|"Debug adapter client sends ""evaluate"" request for watch variable after sending ""continue"" request"
+20570|File > Recent: Allow for larger list
+20571|Create Categories/Groups for extensions.
+20572|Typescript syntax highlight not with class properties initialized as a nested object
+20573|Breakpoint madness in wrapped line
+20574|Increase minimum limit for fontSize and lineHeight
+20575|No right margin in the Exception badge in the call stack
+20576|Debug variable value double click seems broken
+20577|goto definition with JavaScript class methods
+20578|Word-wrap not working for git diffs?
+20579|UI Document Pane doesn't match container size when VSCode's Zoom level is not at 100%
+20580|Debugger hangs on break points in PowerShell code
+20581|RTL menu regarding issue #20377
+20582|correct boundary for embedded languages in HTML
+20583|XHTML-style closing html tag should be scoped as tag end
+20584|./scripts/test.sh requires ./scripts/code.sh to be run first
+20585|Surprising Scroll Downwards in Diff View
+20586|Question: How to disable markdown preview sync
+20587|Error: Invalid problemMatcher description for correct problemMatcher
+20588|Choose Application: Where is Electron?
+20589|"""x results in y files"" message in file in files should use default cursor"
+20590|C source build task output wrapped when using the same terminal more than once
+20591|Simply having VS Code running majorly slows down internet speeds.
+20592|able to start from command prompt and still be able to close command prompt after
+20593|Make Code Insider executable with a shorter name like codei
+20594|"""Unable to open 'Unknown Source'"" if StackFrame.source is missing"
+20595|How to setup a development environment to debug an extension that uses local changes to vscode.d.ts?
+20596|Unaligned surrogate pairs are corrupted at multiples of 50 columns.
+20597|Autofill for JSDocs
+20598|non-latin characters (such as japanese) and Markdown preview anchor
+20599|Debug bar is draggable outside window
+20600|markdown-it-named-header custom slugify for non-latin characters

@@ -1,0 +1,100 @@
+29001|@kisstkondoros, thanks for your PR! By analyzing the annotation information on this pull request, we identified @sandy081 and @egamma to be potential reviewers
+29002|Some more related issues: #1394, #211, #4837, #1086, #178
+29003|https://youtu.be/fO9TR5aYt0E?t=93
+29004|Testing on a second computer with the same 1.2.1 version of VSCode and the same project didn't produce the slowdown, and trying out 1.3 on the initial system didn't have performance issues either.
+29005|No, there's no such checkbox. Please check [screenshot 2](https://i.imgur.com/pZHEvn5.png) from my 1st post, and the attached video capture of the install procedure: [Video_2016-07-03_235157.zip](https://github.com/Microsoft/vscode/files/345298/Video_2016-07-03_235157.zip).
+29006|Access to the indent styling in general through the standard settings would be great. I love the indents, but they're pretty distracting compared to other indent lines I'm used to. Access to change the opacity, specifically, would be awesome.
+29007|I can't reproduce, is there anything in your `keybindings.json` file?
+29008|There are some extensions that scan for TODO/BUG etc. - https://marketplace.visualstudio.com/items?itemName=MattiasPernhult.vscode-todo - https://marketplace.visualstudio.com/items?itemName=minhthai.vscode-todo-parser
+29009|yes, on version 1.3.0-insider  Its interesting that it actually asks user to confirm the deletion of the folder and all content inside it while it keeps the dirty files content as unsaved. Even after clicking on save icon the unsaved label does not go away. ![1](https://cloud.githubusercontent.com/assets/6610388/16549300/474d34d2-4163-11e6-95e1-175a6f91abd7.png)  I still think when user confirms the deletion of a folder with all its content there is no reason for the editor to keep the unsaved content. At least other edits (Atom, Sublime) does not do that.
+29010|Hello @dbaeumer , sorry for the late reply, I was off for the weekend. The project to reproduce was already usable at the time of my last post, [here](https://github.com/ezwiebel/VSCode_issue) Not to hard to build though.  Anyway, here is the trace you were asking for:  ``` Sending request: open (0). Response expected: no. Current queue length: 0 Sending request: quickinfo (1). Response expected: yes. Current queue length: 0 TypeScript Service: tried to cancel request with sequence number 1. But request got already delivered. TypeScript Service: canceled request with sequence number 2 TypeScript Service: canceled request with sequence number 4 TypeScript Service: canceled request with sequence number 5 TypeScript Service: canceled request with sequence number 8 TypeScript Service: canceled request with sequence number 9 ....... AND GOING....... ```  A line is added anytime I'm trying to inspect code, call completion, etc...  Hope this helps!
+29011|+1
+29012|+1
+29013|@gkalpak, thanks for your PR! By analyzing the annotation information on this pull request, we identified @alexandrudima and @aeschli to be potential reviewers
+29014|Hi **@gkalpak**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+29015|Duplicate of https://github.com/Microsoft/vscode/issues/6451, see there for advice
+29016|I am not so happy with all the dependencies from search => file, typically we try to keep the inter-part-dependencies to one file (a top level files.ts or search.ts) and do not reach into the more internal parts of it.   If this is about having an action to copy the path, I suggest to just contribute this one action from the search viewlet.
+29017|I am very sorry to hear you are having issues with VS Code. I wonder if this issue is being caused by an installed extension. Can you try to run VS Code without extensions? From the command line, execute: `code --disable-extensions` and try your steps again to see if it reproduces. If you see it is an issue with the extension, please file it against the extension repository itself.
+29018|@Tekbr is this about detecting links or what happens when you click a link?
+29019|I think if the tabs support animation it does not need this placeholder.
+29020|I filed https://github.com/Microsoft/vscode/issues/8704 for the bug about the dirty files closing. This is a regression.
+29021|I think it does not make sense to hook `SystemVariables` into the `extHostConfiguration` because that one is only being used from extensions and it would return different results from any client within other areas (e.g. workbench itself).   I would suggest to add SystemVariables into the configuration services we have (https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/services/configuration/node/configurationService.ts#L28 and https://github.com/Microsoft/vscode/blob/ben/july/src/vs/platform/configuration/node/nodeConfigurationService.ts#L35) so that loading a configuration section always replaces variables properly.  Some issues: - the dependency to editor service in `SystemVariables` cannot be met and should be made optional (configuration service gets created much earlier and cannot have a dependency to editor service) - you have to check all places where we expose the configuration from the service, there are more than one (looks like https://github.com/Microsoft/vscode/blob/master/src/vs/platform/configuration/common/configuration.ts#L20, https://github.com/Microsoft/vscode/blob/master/src/vs/platform/configuration/common/configuration.ts#L26 and also from the event in https://github.com/Microsoft/vscode/blob/master/src/vs/platform/configuration/common/configuration.ts#L36)  It would also be good to add tests for this, maybe `SystemVariables` could be taken out of the node environment so that it can be created from a test context? The only dependency it has seems to be to process (for the environment) which I think can easily be just passed in.
+29022|https://github.com/Microsoft/vscode/issues/2809
+29023|@DonJayamanne is starting to look into this from https://github.com/Microsoft/vscode/pull/8555
+29024|I documented this in https://github.com/Microsoft/vscode/wiki/Code-Organization#workbench-parts now 👍
+29025|Hi @bpasero   You are correct, sorry I didn't notice that myself.  Thanks for the quick response.
+29026|A number of days has past without answer on the questions asked. I am thereby going to close this issue to clean up our backlog of issues. Once you can answer on the questions, the issue can be reopened again. Thanks for understanding this process!
+29027|A number of days has past without answer on the questions asked. I am thereby going to close this issue to clean up our backlog of issues. Once you can answer on the questions, the issue can be reopened again. Thanks for understanding this process!
+29028|This is a designed as the debug target drop down changes size corresponding to the viewlet  This was initiated by this user request #3027 Closing as designed  ![launchdropdown](https://cloud.githubusercontent.com/assets/1926584/16553196/321706b0-41c7-11e6-8f9c-efdc395ac3a6.gif)
+29029|Currently we do not support this and it is a valid feature request -> reopening. PR's are welcome. Here is a code pointer https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/lib/node/systemVariables.ts#L17
+29030|Dup of #3528
+29031|Works on windows, but can repro on the Mac.  Requesting intellisense again after 'd' correctly shows the extensions.
+29032|same issue. using mac os x 10.11.5
+29033|Yes - the web view reloads the contents when it receives a document change event. Not really sure how to fix this on that level. It would require to diff the contents, check what to do in the scripts/no scripts changed case etc.   An easier fix for this specific problem might be to make this change in MD - by running a server that provides updates as you type
+29034|@bpasero Yes, I am aware of this and I think there are few other such corner cases causing due to not proper sync between search models.
+29035|https://github.com/Microsoft/vscode/issues/8659
+29036|All strings are properly localized, once we have nls build we can see locale specific strings.
+29037|@bgashler1 For the standalone editor, I removed this style. As you added these CSS rules, maybe you know what's going on?
+29038|As discussed, we stick to Ctrl+Shift+H keybinding for replace and change it for Output console in Linux.
+29039|@sandy081 ok tried it out and currently replace takes priority - which is good. So we decided to move this to july? Which is a good decision imho
+29040|One can even just make a single space  :)  ``` interface test {   a: Array< number>,   b: string }; ```  Thanks for the workaround!
+29041|Sorry, need to revert again due to #8531. There is still something wrong with the `json` language which doesn't allow me to make this change
+29042|Since the extension host and rendering of the preview happens in different processes that's not possible. If you control the contents of the preview (TextDocumentContentProvider) you can embed a script that sets those values.
+29043|The ['showTextDocument`](https://github.com/Microsoft/vscode/blob/master/src/vs/vscode.d.ts#L3175) allows you to set the `column` in which to open. The column of the [active](https://github.com/Microsoft/vscode/blob/master/src/vs/vscode.d.ts#L3136)-editor is exposed via [TextEditor#viewColumn](https://github.com/Microsoft/vscode/blob/master/src/vs/vscode.d.ts#L904)
+29044|Looks ok in dark theme, but in light theme it still has lots of blue:  ![image](https://cloud.githubusercontent.com/assets/900690/16555879/3c1f5bac-41d7-11e6-87da-96d829f3e52b.png)
+29045|It just delegates to the [search service](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/api/node/mainThreadWorkspace.ts#L40)
+29046|"@aeschli The problem is that the `filterText` is set to `""e` which doesn't match the word after more typing , like `""ed`."
+29047|@isidorn here are the details:  If breakpoints are changed and ... - source is **not dirty** then a `setBreakpoints` request with the attribute `sourceModified` set to false is issued immediately. - source is **dirty**, all breakpoint modifications are tracked but no `setBreakpoints` requests are issued until the next save of the source. In the meantime breakpoints are shown as unverified. After the save a single `setBreakpoint` request with the attribute `sourceModified` set to true is issued.  In both cases the result status returned from the `setBreakpoints` request is applied immediately.
+29048|For now we have made an extension available that is based on the atom-js grammar, please give it a try.  Extension: https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar
+29049|@ezwiebel thanks. Looks like the tsserver 'dies' already on the first quickInfo request.
+29050|After investigation: searches from extensions never fill in `filePattern` but rather `includePattern` and since our glob is case sensitive, you will not be able to find files not matching the exact casing.  Refs: https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/api/node/mainThreadWorkspace.ts#L50
+29051|@weinand sounds good, assigning to me so I look into it on the vscode side
+29052|@Tyriar Pls verify
+29053|"@ezwiebel cloned and was able to reproduce. The problem is the jsonfig.json setup. It currently doesn't support patterns which in your setup doesn't exclude the node_modules folder and as a result putting two much preasure on the tsserver. You can either move the jsconfig.json to the frontend folder (there is no JS in the backend) or change the jsonfig.json to:  ``` json {   ""compilerOptions"": {     ""experimentalDecorators"": true,     ""target"": ""ES6"",     ""module"": ""system""    },   ""exclude"": [     ""frontend/node_modules""   ] } ```  I will still move the issue to the TS team since the tsserver didn't warn me about problem with that setup."
+29054|This issue was moved to Microsoft/TypeScript#9504
+29055|Makes sense to me.
+29056|@Ashutosh-Tripathy can you share your test2.py file ?
+29057|We are using the tsconfig schema from here: http://json.schemastore.org/tsconfig which is backed by https://github.com/SchemaStore/schemastore/blob/master/src/schemas/json/tsconfig.json.  Moving to TS team which seem to contribute to the tsconfig.json.
+29058|This issue was moved to Microsoft/TypeScript#9505
+29059|@johnliu2016 can you please have a look. The keys in ( ) are down in the translation.
+29060|@serkanyersen no need for separate issue for the linters. It is a know issue. However a globally or in the project root installed linter should work. It tested it and it worked for me. Is there any project I can clone to see what is going on ?
+29061|Verified by user - thanks!
+29062|I can no longer open *.asar file within VS Code (which is correct), but I'm still able to open an *.asar from the command line. It shows up as an empty project folder and trying to create a file there runs into errors:  ![2016-07-04_12-10-24](https://cloud.githubusercontent.com/assets/1898161/16557522/a09b1fe0-41e0-11e6-9da6-9166867a0c72.png)
+29063|"Nice! Mostly works except that arguments to global functions doesn't seem to be properly identified and highlighted. They all end up the same color. See screenshot to compare to instance method:  <img width=""447"" alt=""screen shot 2016-07-04 at 12 31 20"" src=""https://cloud.githubusercontent.com/assets/328169/16558000/3f6f3bf4-41e3-11e6-8f26-5f93c99a76d7.png"">  In the screenshot, I would expect the string argument to the global function to have the same green color as the one passed to the instance method."
+29064|Using the snippet user provided I can still crash VScode after 1 minute, not sure if that is expected (there is a timeout of 1ms, so it is really adding a bunch of decorations). Though I do not get an error in the console, just after running the extension whole vscode crashes.  Reopening so @alexandrudima can decide if this is expected or not
+29065|I'll do it!
+29066|Agreed!!!
+29067|![image](https://cloud.githubusercontent.com/assets/22350/16558416/db1d07be-41e5-11e6-834c-a6a7d3346a2c.png)  Looks OK-ish in my screen... but I can see how it is very slight.  It's hard to pick another blue for the border since that is the one we use everywhere. We can maybe experiment with the background colour of the button itself.
+29068|@egamma I don't see `Encode/Decode` actions anymore. Is that the intent?
+29069|I'm still seeing the issue with these steps: - launch vscode-node-debug as a server - set a breakpoint in `nextRequest` - add the `debugServer: 4711` to your launch config - start a node debug session - press the step' button (breakpoint is hit in node-debug) - press 'stop' button:   ![2016-07-04_13-02-10](https://cloud.githubusercontent.com/assets/1898161/16558687/8742404e-41e7-11e6-8535-38b5d446bcfe.png)
+29070|@jrieken, yes, https://github.com/Microsoft/vscode/issues/8603.
+29071|I am facing scrolling issues in ubuntu 14.04,VSCode version 1.2.1.On scrolling up the text in the console goes far left sometimes(on using ctrl+shift+PgUp) and invisible at other times(on using trackpad).
+29072|Thanks @jrieken !
+29073|@niwsa those should be fixed in the upcoming v1.3.0, This issue is about scrolling not working at all using the trackpad.
+29074|Kim-Possible 👎 . The command that runs does close the window: https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/electron-browser/actions.ts#L53  So it must be something else, did you rebind Cmd+W maybe?
+29075|I do not think we can do this because the dialog is blocking the UI thread and I doubt anything would update in the background (at least on Mac).
+29076|@joaomoreno actually I am referring to the feedback when an item is selected in blue. Then you end up with blue on blue.
+29077|@weinand thanks, can you open a separate issue on this? I think the original issue should be verified.
+29078|That seems like a fine solution. In fact, I was convinced that we had designed that in our original mockups but it turns out we didn't. We should consider just doing this I think.
+29079|I like to keep this up for an extension, if we did this out of the box, many people might find it annoying and ask for a way to disable.
+29080|Thanks
+29081|Will investigate - not critical, assigning to july
+29082|![screen shot 2016-07-04 at 14 03 31](https://cloud.githubusercontent.com/assets/1794099/16559868/20e8eaa6-41f0-11e6-8de3-b0e07c6d744b.png)  Still seeing this with  ``` <äddddd> </ädddd>  <däddddd>  </dädddd>  ```
+29083|Verified by looking at the diff
+29084|@bpasero I'll create a new issue. BTW, the *.asar opened from the command line cannot be deleted as long as VS Code is open, so I did verify the original issue.
+29085|@JostCrow Is there any way you have a backup of the `.vscode-insiders/extensions` folder from when you had this issue? We will find the answer to this problem by looking at the folder structure at the time you had the issue.
+29086|@weinand good point, though I think that is not a very typical scenario and also not what the users are complaining about.
+29087|Oops... experimental leftovers... 👍
+29088|> I think we could hide the icon of the extension in this size. That gives ~30% of the space.  Awesome suggestion.
+29089|Argh I hate these build issues...
+29090|I see no sergeant icon at all anymore, so I guess that verifies it
+29091|@alexandrudima it is still there, just changed icon (now indicating a stack).
+29092|But yeah, I see how Steven points are obsolete now. Marking as verified.
+29093|Uhhhhhh... the row is never supposed to be `null`... Safeguarding it is just hiding a deeper problem.  @JostCrow Did #8605 also occur at the same time as this one? It would somehow explain it.
+29094|As @Tyriar suggests, previewing where the tab will be placed seems like a good approach. Edge does it too, seems like  a reasonably common pattern. Visual Studio does something similar, although not as smooth - the tab jumps into place as you drag with the mouse down.  I would recommend we do what the browsers do.
+29095|I don't think we have control over this.  @modigrv any ideas here?
+29096|@joaomoreno Yes they occured at the same time.
+29097|If this turns out to be a problem for only a few people then I'm fine with an extension. But if this turns out to be a problem for a large number of people then we really should reconsider and figure out how to solve this out of the box.
+29098|I did not make a backup of the folder. But I can recover the manually deleted items. But all the uninstalled are gone.
+29099|Let's leave it this way until we can hot activate / deactivate.
+29100|Yeah I'm curious to see what the `extensions` folder had at the time you had this issue.

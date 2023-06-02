@@ -1,0 +1,100 @@
+23501|@kisstkondoros can you merge this PR with master and resolve the conflicts? also I noticed a bug: you do not seem to read the status bar visibility setting on startup here: https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/browser/workbench.ts#L412
+23502|close on double click is the design - that allows you jump to preview location quickly. there is an option `stablePeek` to turn that off
+23503|No, don't think so.
+23504|@Merott those errors are OK, they come from an optional dependency, which should not install on Windows.  @Tyriar @alexandrudima The way I remember @bpasero was able to see errors was running with the `ELECTRON_NO_ATTACH_CONSOLE` environment variable set to `1`. Not sure what resulted out of that or why we don't enable it always.
+23505|@bpasero That sounds like a similar scenario. Opening a file from the explorer doesn't seem like you'd want a preview. But perhaps that's just my workflow. I use Total Commander, so I preview all my files using read-only notepad by pressing F3.  I see no problem with using the same setting.
+23506|@csholmq well the idea for preview editors in general is to reduce the number of tabs that get open when you click around. If we provide this setting most of the editors you open will be stable tabs and you will have to manage a lot more.   So it seems to me that the setting should be scoped to files only and then anywhere you open a file it will be pinned by default. Other editors (markdown preview, diff editors) would not be pinned by default even if this setting is enabled.
+23507|I am confused. The latest version is 1.1.1, Code is telling you to update to that. What is wrong with that?  @Tyriar What have you seen a lot in alpha? If you see an update notification and update, do you continue seeing it? If so, to which version does it tell you to update? Doesn't it always match the latest checked version in our builds?
+23508|There might be animation jank, but worth a try. Up to the tree user.
+23509|Forwarding to @seanmcbreen to decide if we want to keep it.
+23510|Today, quick pick closes on focus lost. We should add an option to prevent that.
+23511|@bpasero @weinand This might also be useful for the process picker work
+23512|#5615 added improvements to CJK IME handling. Not sure if it improves this case too.
+23513|@weinand candidate?
+23514|@aeschli fyi
+23515|please file against the omnisharp repo
+23516|@alefragnani  It's not really an API command - the behaviour isn't spec'd. For now I'd recommend to use a node_module to copy stuff to clipboard
+23517|do you use `previewHtml`?
+23518|file against typescript
+23519|I am closing this because in June we plan to move the extensions management UI out of quick open into a more stable experience.   There are other feature requests filed to generally keep quick open open even on focus lost.
+23520|This issue was moved to OmniSharp/omnisharp-roslyn#568
+23521|@jrieken @weinand this is already an option for the picker, see https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/browser/parts/quickopen/quickOpenController.ts#L389
+23522|This would probably apply throughout the UI.
+23523|@sincsc please report back - closing until more info is provided
+23524|I am not sure we want to zoom the entire UI when you use the mousewhell, I would expect only the editor font to increase. Thereby moving to @alexandrudima
+23525|I am not sure we want to zoom the entire UI when you use the mousewhell, I would expect only the editor font to increase. Thereby moving to @alexandrudima
+23526|@ChazyTheBest Thanks a lot, now I see it too.  The problem was the merging of the settings in php.configuration.ts and the settings is code. It was a timing issue, depending on what came first, the results from the file or from the extension.
+23527|Hmmm. No answers to the question. I could be good to see if the bug can be reproduced on a fresh linux install, if not, of course it can just be closed.
+23528|@Tyriar when I press the stop debugging button, the VS Code [extension development window] closes but VS Code stays open. This is the expected behaviour. Are you seeing something different?
+23529|@Tyriar You can also write a snippet for rule values. Snippets have no limitations.  But yes, the snippet experience is an unhappy one, theres many possible ways of looking at it: - need more context on snippets, so they only show when suited. Sounds easy, but difficult to implement as it needs language server smarts, or text mate scope dependecies which I'm sceptical that they will really help, especially in scenarios like the one above. Also, we will still have to support templates that have no context and we have to show everywhere. - separate snippets out of code completions, hide them better, sort them differently (see #2343)...
+23530|Closing. There are currently no restrictions on what snippets are for.
+23531|As designed.
+23532|@jrieken Then this only needs to be surfaced in vscode.d.ts.
+23533|Sass supports nested rules. `width:aut`can be a selector (with pseudo class). That's why it is highlighted orange(ish). Once you set the semicolon or add a space behind the colon, it is clear that it is a rule and will be colorised accordingly.
+23534|Surprisingly we haven't received any translations. So I restored the old translations. The menu bat is fine now.   In a monthly agile rhythm there will always be cases were not all of the UI is translated since we don't want to lock down on strings. We only do this for major releases. Since the menu bar is so prominent and was translated before it should be fixed. But new or improved features might always ship with some English text.
+23535|@aeschli I pushed the pattern to the state where it was in 1.1. This is for our 1.2 release.
+23536|Reopening because the change makes the glob pattern match too much.
+23537|I spun up a new Ubuntu 16.04 virtual machine, and installed VSCode. The icon and everything was fine. Must be an issue on my own machine. Closing now.
+23538|The suggested change is in the standalone definition which is not used by VS Code and likely will not help you with issue #7003. I'd rather not accept the PR unless there is any benefit.  The change would have to be made in the C# extension at https://github.com/OmniSharp/omnisharp-vscode
+23539|@tht13 You mean the view that shows when running `previewHtml`, right?
+23540|Added a comment to stackoverflow. This is supported right now via a watch task. But I agree that the tsconfig.json option should be supported as well, which has to come from the TS team though.
+23541|@alefragnani Can you try this with the `preserveFocus` when calling `showTextDocument`? It should not move focus away from the quick pick widget so that it stays open.
+23542|I opened https://github.com/Microsoft/TypeScript/issues/8884 since the support has to go there. I will close this issue as upstream.
+23543|@aeschli I extracted the one issue you found in https://github.com/Microsoft/vscode/issues/6936 where the same file pattern would show up twice into here and pushed a fix for June.
+23544|Proposals are filtered out again as the word rule includes the ':'
+23545|Assigning back to @vsccarl to verify the fix - should be in tomorrow's alpha
+23546|Facing the same issue in latest vs code version 1.1.1. I am able to search through the extensions but getting error while installing write EPROTO 0:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:y:\jenkins\workspace\electron-win-ia32\vendor\node\deps\openssl\openssl\ssl\s23_clnt.c:794
+23547|@Microsoft/vscode can I get some +1 or -1, the PR in https://github.com/Microsoft/vscode/pull/6997 suggests to just put the message on top of the results. This would look like:  ![image](https://cloud.githubusercontent.com/assets/900690/15645340/1c9e4bac-2658-11e6-90b8-cdec1720d71c.png)  @stevencl @bgashler1 fyi
+23548|Same problem. Is there any other solution except switching to git for windows? The official C/C++ Extension actually supports gdb in Cygwin.
+23549|-1 just a personal preference I never care about that information. I do not mind though if we include this - if users find it usefull. It nicely alligns with info in find wigdet - which I also do not use but I see ti can be useful for some people.
+23550|"the problem with ""watch"" is that vscode doesn't allow to run the test command while watching typescript, saying there is another command running, so at least with having to run the tests from under vscode ""watch"" isn't an option"
+23551|@zinechant What are the reasons for using it?
+23552|Yes I need a URI for dragging in the tree. Investigating if I can use some fake string when the URI is not present
+23553|@joaomoreno All right, I will switch to git for windows. Just more accustomed to Cygwin.
+23554|@joaomoreno I don't think the alpha notification on Linux tells you the version, just sends you to the list specified in the product.json.
+23555|'/' is not a valid character in a selector, at least not in CSS3. I wasn't able to find any details in a newer spec. Is '/' now a valid part of an identifier, or is it an operator or is just `/deep/` a new special selector?
+23556|:+1: I find it useful when I do mass find and replaces (#1690 :disappointed:)
+23557|@bpasero this change is exactly about that, it changes the font-size and line-height for the editor only (not a UI zoom)
+23558|@bpasero Will do it, thanks for spotting the issue :+1:
+23559|Did `/deep/` ever make it into a spec? I think Polymer backtracked on using it in favor of a shadow DOM shim.
+23560|This happened twice in a row while I was doing general extension development, I was hoping the steps would be more reliable. It definitely happened though, the window (that I launched the debug session from) grayed out after a short period and then crashed.
+23561|@jrieken yup that's the one
+23562|@Tyriar so you mean: all VS Code windows (as opposed to just the extension host window) closed after pressing the stop button?
+23563|Personally I'd prefer a separate setting. I will often click around files in the explorer searching for what I want, so it may not be a file I'm interesting in keeping open. But quick find I know exactly what I want.
+23564|@isidorn any idea why pressing stop could crash VS Code?
+23565|I had code alpha running full screen in the foreground and the extension host in the background. I hit the stop button and all windows closed after about 5-10 seconds. I'm not sure if the extension host closed first or not as it was in the background.
+23566|/cc @bpasero
+23567|I cloned the repository and here is what I see following the steps from above which IMO is not so bad:  ![bug](https://cloud.githubusercontent.com/assets/1931590/15646352/72f43ee4-265d-11e6-9430-b4c64af1c71e.gif)  I also noticed that VS Code shows you a tip at the buttom to exclude large folders like node_modules. I checked the setup and they are actually not excluded. Excluding them removes them from 'indexing' You can still import them and code assist works for imported modules however symbols from node_modules will not be part of the global symbol index (Ctrl+T)
+23568|I just tried 2 more times, no more repro. Maybe I hit some narrow edge case?
+23569|@weinand stop for debugging extension host development does nothing special on my side. We send the 'disconnect' request to node adapter. I believe then that the node adapter notifies the workbench to close the extension host window. It might be that in some edge case the workbench closes the wrong window - I know Ben has some funky logic of figuring out which window to close and there might be a flaw for some use cases.
+23570|@bpasero nice idea but this would not work if the tree does not occupy the whole vertical space and there is nowhere to scroll to.  I think we need a more general solution that would also cover the case with a small tree. Investigating some delayed open editor section expansion
+23571|@bpasero may be the 'funky logic' has an issue with fullscreen mode?
+23572|@weinand as far as I know ben uses workspace resource uris to identify each vscode window. Fullscreen mode has no influence here. Ben can correct me if I am wrong
+23573|I could not reproduce the issue in Elementary OS and Ubuntu 15.10. Currently I'm installing Ubuntu 16.04...
+23574|To experiment I have pushed the change that we update the open editors tree with 250ms, this improves the annoying behavior for me. However now there is always lag when the tree gets updated - I did not find this too bad. But it might not be the best idea. Try it out and let me know how it feels.  An alternative was that I just expand the tree with the delay - but the issue there is if I update the tree immedatly and expand after some time temporary a scroll bar gets rendered in the open editors view which is a little pesky.
+23575|Though changing the tree behavior that the scroll bar does not get rendered when added if tree does not have focus would make it the delayed expansion a good strategy imho.
+23576|That sounds promising.  Did you install the internal node_modules? I can't see that from your gif. Without internal node_modules it is fast like we see in your gif.  If we add those 20+ node_modules folders, the Loading... take ages.  I will research on the excluding things :)
+23577|I nicely hear the options in the combo box If I use OS X and voice over and use keyboard to go over the options. Thus it is a bug in nvda, or how chrome handles the html select element on windows - nothing we can do here it is native behavior.
+23578|I had that green text to exclude yesterday but I can't see it anymore. Can I trigger that somehow?
+23579|Assigning to @vsccarl to verify the fix which should be available tomorrow
+23580|Forwarding to @bgashler1 to get advice on how to hande this font issue
+23581|Well I can introduce an `IEditorContext` that would have an `IEditorIdentifier` and the event. Thoughts?
+23582|Ah nice, even better 👍
+23583|Are we really sure this is a native crash and not another edge case where I just close the window? @Tyriar do you get a core dump?
+23584|@isidorn good point. with the new delay a startup looks weird though because you do not get an animation but the elements in the view only get visible after like 250ms. So the initial tree input should load instantly.
+23585|@isidorn yes, sounds nice!
+23586|@isidorn I am also fine adding a property keymods similar as I do it now in quick open that contains the modifier keys pressed: https://github.com/Microsoft/vscode/blob/master/src/vs/base/parts/quickopen/common/quickOpen.ts#L46
+23587|I reproduced again randomly, I created a `.editorconfig` file in root and copy and pasted (from github.com) one of my `.editorconfig` files from another repo.  ![image](https://cloud.githubusercontent.com/assets/2193314/15648425/6c5f6b14-261f-11e6-844f-1f19c129a713.png)  It gets weirder, <kbd>ctrl</kbd>+<kbd>z</kbd> (undo) did this:  ![image](https://cloud.githubusercontent.com/assets/2193314/15648445/90917c5c-261f-11e6-9f28-6c8d09d40886.png)  One more undo:  ![image](https://cloud.githubusercontent.com/assets/2193314/15648454/9c05b300-261f-11e6-9d84-f8ec4bf92569.png)  Using <kbd>ctrl</kbd>+<kbd>y</kbd> (redo) I could go back and forth between these invalid states. Clicking on the last line did not set the cursor anywhere.  <kbd>enter</kbd> a few times just moved the broken line down:  ![image](https://cloud.githubusercontent.com/assets/2193314/15648487/e2c13788-261f-11e6-85d5-6ef4038fd545.png)  And here's the DOM:  ![image](https://cloud.githubusercontent.com/assets/2193314/15648517/017e389c-2620-11e6-8c0f-b880e92daec8.png)
+23588|Console output:  ![image](https://cloud.githubusercontent.com/assets/2193314/15648549/319fbc58-2620-11e6-9a7e-fc0d6e9ebb05.png)
+23589|The `Detect Indentation from Content` command put the editor back into a good state.
+23590|It's definitely to do with pasting multiple lines into the editor, which language seems irrelevant (repro'd in CSS and ini).
+23591|@bpasero no I didn't
+23592|Yes, this would need language awareness.
+23593|@alexandrudima I assume our indent on enter is not comment aware?
+23594|Which list?
+23595|Give it a try, there's been some really good progress in that project!
+23596|"The screen cast is without any additional exclude properties. I added them locally but they didn't improve things to drastically. The exclude should go into the closest tsconfig.json / jsconfig.json. In our case the one in the _example folder.   ``` tsconfig.json {   ""compilerOptions"": {     ""target"": ""es5"",     ""module"": ""commonjs"",     ""moduleResolution"": ""node"",     ""sourceMap"": true,     ""emitDecoratorMetadata"": true,     ""experimentalDecorators"": true,     ""removeComments"": false,     ""noImplicitAny"": true,     ""suppressImplicitAnyIndexErrors"": true   },   ""exclude"": [     ""node_modules""   ] } ```  However VS Code (or better the tsserver) still complains about to many files. Is there any reason why you don't have a tsconfig.json per example. The examples are self contained. And as said a tsconfig.json with excludes doesn't mean TS will not resolve imports from node_modules anymore."
+23597|I tried the tsconfig.json per example (by creating a tsconfig.json inside the architecture folder) and that makes it actually a snappy experiences.
+23598|Ok so it might be not a native crash. Actually one way to find out is to have a dirty file in the debugger to see if you get a prompt on shutdown.   Anyway, steps to reproduce are needed to debug this.
+23599|@pythondetective are you working against a network share? anything special about your setup?
+23600|@wardbell do you exclude the node_modules folder in the tsconfig.json file. If so, can I clone your project somewhere so I can have why are you seeing such a slow behavior.

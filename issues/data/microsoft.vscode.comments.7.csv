@@ -1,0 +1,100 @@
+601|I've added an optional attribute 'context' to the Evaluate request. Isi, please add the appropriate context values ('watch', 'repl') to the evaluate calls.
+602|Hi **@hoovercj**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+603|Duplicate of #160
+604|@tominon I already went through that issue, but it's not that much of a duplicate. Everyone is having issues related to php and stuff, while I just try to open up the Editor via the code.exe / desktop icon.
+605|Hi **@felixrieseberg**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (Felix Rieseberg). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+606|Damn gotta fix that build. @jrieken is the guy to review this.
+607|:+1:
+608|"Note that in ""normal"" visual studio, it does what I expect, that is that if you have highlighted text, then typing a quote char replaces the text. If there is nothing selected though it does it's magic thing and inserts two single quotes with the cursor between them."
+609|Same error here: [INFORMATION:OmniSharp.Startup] Omnisharp server running using stdio at location '/Users/jranderson/workspace/dot-net-apps/AspNet5Mac' on host 49392. [ERROR:OmniSharp.Dnx.DnxPaths] The specified runtime path 'default' does not exist. Searched locations /Users/jranderson/.dnx/runtimes/dnx-coreclr-darwin-x64.1.0.0-rc1-final /Users/jranderson/.dnx/runtimes/dnx-coreclr-darwin-x64.1.0.0-rc1-final /Users/jranderson/.dnx/packages/dnx-coreclr-darwin-x64.1.0.0-rc1-final /Users/jranderson/.k/runtimes/dnx-mono.default /Users/jranderson/.k/runtimes/kre-mono.default /Users/jranderson/.k/packages/KRE-Mono.default /Users/jranderson/.kre/runtimes/dnx-mono.default /Users/jranderson/.kre/runtimes/kre-mono.default /Users/jranderson/.kre/packages/KRE-Mono.default. Visit https://github.com/aspnet/Home for an installation guide.  Running on Mac OS X 10.11.1
+610|I'm fine with leaving the decision of whether to include a Linux installation script or not to the devs. But do note that usually the only thing the installation scripts do is create/link an executable in /usr/local/bin and copy the remaining contents to /usr/local/share. The system's package manager would be oblivious to the software, leaving the tasks of updating or installing to either the user or more scripts. I wouldn't call that friendly to Linux users at all. It's not that Microsoft is being unfriendly to them either, it was good enough in the first place that Linux is supported.  Without repeating myself: that script might have worked for you, but I wouldn't recommend it for the reasons already mentioned. Nothing personal even.
+611|Hi **@joaomoreno**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (Joao Moreno). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+612|@rbuckton the sourcemap for your async/await case is a bit 'spotty':  ![2015-11-20 00-37-01](https://cloud.githubusercontent.com/assets/1898161/11299331/36b76cd0-8f86-11e5-84e8-50c19f98568b.png)  It does not cover column 0. Using Bias.LEAST_UPPER_BOUND seems to help with that.
+613|Btw, for anyone who is interested, I've created an extension: https://github.com/buzinas/vscode-stylus  I'll be developing the full intellisense support over the next days.
+614|"You need to create: 1. a `yourproject.csproj` file for MSBuild or XBuild (OSX)    example:        ```     <Project DefaultTargets = ""Build"" xmlns=""http://schemas.microsoft.com/developer/msbuild/2003"">        <!-- Specify the inputs by type and file name -->    <ItemGroup>        <CSFile Include = ""main.cs""/>    </ItemGroup>    <Target Name = ""Build"">    <!-- Run the Visual C# compilation using input files of type CSFile -->    <CSC  Sources = ""@(CSFile)""        DebugType=""full""        Optimize=""no""        OutputAssembly=""main.exe"" >            <!-- Set the OutputAssembly attribute of the CSC task to the name of the executable file that is created -->        <Output TaskParameter=""OutputAssembly""            ItemName = ""EXEFile"" />    </CSC>    </Target>    </Project>    ``` 2. A `project.json` containing dependencies and other info. Example:        ```    {        ""dependencies"": {            },        ""commands"": {            ""ConsoleApp"": ""ConsoleApp""        },        ""frameworks"": {            ""dnx451"": { },            ""dnxcore50"": {                ""dependencies"": {                    ""System.Console"": ""4.0.0-beta-*""                }            }        }    }    ```  Once you've created those, restart VS Code and load your project. You should see OmniSharp ( a little flame in the bottom right corner) start. Your intelli-sense should now be working just like in JS or PHP.  Not sure why you have to jump through so many hoops to make this work, but sadly this is how it is."
+615|"This is Open Source, and ""scratch your own itch"" is definitely the way to go here. I don't have any answers, and currently I will live with it not working...perhaps you could go over to the razor repo and see if they have any thoughts on how to integrate razor with a now Open Source vscode..."
+616|+1
+617|"Also if you have unclosed ""comment"" in template literal `var path = `${root}/**/*.ts`;`"
+618|I think one of the issues seems to be that jsx is seen as different to normal js (which seems to work pretty well with autocompletion/intellisense etc). JSX and other variants of JS should still be able to support all the same functionality as the basic JS syntax if those features are available and there should be the ability for VS Code dialects to act as extenders as oppose to completely separate languages if that makes any sense...
+619|Yes. Attributes are the same color as tags. Also this is only on default themes, other ones are ok.
+620|As much as I would like this change to be merged and as correct as it will, I still have to reject. An attempt to explain:  Our current JavaScript implementation is based on a slightly out-dated version of TypeScript and a lot of code I am not so proud of - we basically rewrite JavaScript to TypeScript. It was the right thing to do back when we started but in the mean time TypeScript catches up and very soon we will replace our custom JavaScript language service with the TypeScript solution. And as long as TypeScript sets the default to [ES5](https://github.com/Microsoft/TypeScript/blob/master/src/services/services.ts#L1706) we shouldn't do anything different. Changing the default and then, by using TypeScript, changing it back won't get applause.   Tho having said that. [This](https://github.com/Microsoft/TypeScript/blob/master/src/services/services.ts#L1706) is where TypeScript sets the default ;-)
+621|Closing for now: https://github.com/Microsoft/vscode/pull/337#issuecomment-158404957
+622|Great!
+623|Good suggestions, we had discussions along these lines and this falls into the category of how to deal with many extensions and how to work with extensions in a team. This topic is on our 6 month roadmap.
+624|Same problem, extremely frustrating since usually after pressing semicolon you press enter, and then you select the top suggestion instead of getting a new row!
+625|Unless I'm misunderstanding something, this is just how the gallery is. It's a widget that you filter on. If you click somewhere else, it hides.
+626|Hi **@jrieken**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (Johannes Rieken). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+627|There are portable versions of Code for every platform. Including [Windows](https://code.visualstudio.com/Docs/supporting/FAQ#_windows-trouble-with-the-installer).
+628|"Open Settings and add `""editor.wrappingColumn"": 0`."
+629|:100:
+630|What do you read in `About > Version`?
+631|Agreed, this is one of the main annoyances of code. I don't know any other editor that behaves the way code does. The default should be new window with an optional flag to reuse if you really want that behavior.
+632|@BlackFrog1 Thanks, confirmed!
+633|https://developer.mozilla.org/en-US/docs/Web/CSS/frequency writes   > Though the units are case-insensitive in CSS, it is good practice to use a capital H for Hz  > and kHz, as in the SI, Hertz being a family noun.  so a I think this pull request makes sense, we should make intellisense proposals that follow that. Thanks @Tyriar
+634|Maybe this TypeScript issue is related: https://github.com/Microsoft/TypeScript/issues/2241
+635|Fixed with e5e79121
+636|@jrieken   I cannot reproduce this. Please try the following steps:  ``` git clean -xfd . .\scripts\npm install ```  This should populate `extensions\csharp-o\node_modules` including the `run-in-terminal` dependency. Please reopen if you don't see that behavior.
+637|Duplicate of #230
+638|@jrieken: Thanks for the explanation. I'm not married to any particular implementation, but I'm worried that having to create solution files for simple JavaScript doesn't exactly advertise Code as a great JavaScript editor.  Are you opposed to the user scenario of editing ES6 without further configuration? Since the issue is closed too, it seems like you'd rather have people use another editor. Leaving it open, even if the issue is upstream, would at least signal that we're aware that having to read documentation just to edit a simple *.js file with a `let` in it is a bad user experience.
+639|@bpasero Out of curiosity, is there a general timeframe for releasing changes merged into master?
+640|Much better. :+1:
+641|This is on the roadmap (code folding) -   https://github.com/Microsoft/vscode/wiki/Roadmap
+642|Like always, we will maintain a monthly release cadence. There are plans to get an unstable update channel out there, but this might take a while.
+643|Thanks for the info!
+644|The build failure comes from a hiccup in the build, the pull request is fine. However, to get the changes in VS Code , the 'generate_browserjs.js' script needs to be run. This will generate browsers.js from the xml file. I'll do that. Thanks @dstorey !
+645|"Your ""red squiggly"" doesn't look as bad as mine :smile:   ![image](https://cloud.githubusercontent.com/assets/10862380/11303199/eb33a4b0-8fa1-11e5-8481-f72570832a19.png)  Aside from the TS error, is it really intended behavior to underline every single line on errors? Or is this maybe another issue? I'm using 0.10.1 btw"
+646|"PowerShell Role Capability file, it's for a new feature in PowerShell called ""Just Enough Administration""."
+647|The error range is given by TypeScript, so that you can definitely file in their repo. :+1:
+648|Thanks João!
+649|Alright, will do! I also just noticed that this only happens for methods inside a `class`, but not for plain, standalone functions.
+650|Attribute and values sound great to me.
+651|"Note: the `@viewport` rule will not show up in browsers.js as it is marked `browsers=""none""`"
+652|No, thank you!
+653|I made the changes directly on master, no need to merge the conflicts. Thanks @dstorey !
+654|As a test, I modified TypeScript to not indent so that column zero was mapped and still saw the same issue.
+655|Applied and delivered the changed directly to master, to avoid merging. Thanks @dstorey !
+656|It would be nice to see the binary being renamed from `Code` to `code`.
+657|Appart form syntax highlights there is no real support for JSX yet, but it is on its way. Stay tuned.
+658|This is a copy of question I asked on stackoverflow (http://stackoverflow.com/questions/33785597/writing-definitelytyped-file).
+659|Yeah, no proper support for JSX yet. Closing as dope of #140
+660|That's a setup problem. Please refer to this guide: http://www.johnpapa.net/how-to-use-npm-global-without-sudo-on-osx/
+661|@Someguy123 Can you hit F8 on the compile error and tell me what projects they are reported for? Your project.json refers to coreclr and desktop clr and I am unsure the symbols you are asking for ship with core clr
+662|@Someguy123 Thanks for helping out. @Ah-Meow let me know if that didn't work for you
+663|> it was good enough in the first place that Linux is supported.  Yeah Linux isn't being ignored, well explained. I don't think there is any point in discussing this any further.
+664|Nice :)
+665|:+1:  Looking forward to using this!
+666|@felixrieseberg _Closing for now_ means we will reopen as soon as we have the chance to do provide a long term fix.
+667|Any thoughts on exposing this through the view menu to improve discoverability?
+668|With the file focused, you can press Command+C then Command+V. I know it's not as fast or the same as a dedicated menu item, but it's a nice workaroud.
+669|We could add a link to that info on the instructions, though.
+670|"@tionkje actually there was a bug how we constructed the command line in 0.9.0. What we did in 0.9.0 was the follow ${command} ${command args} ${tasks args} ${taskname}. But the task args should come after the task name. So we fixed that for 0.10.0 and the order is now: ${command} ${command args} ${taskname} ${tasks args}. As you found out you can use ""suppressTaskName"" to not add the task name to the command line."
+671|I can not repro this. I was even holding down F5 and all was good. @stevencl do you still see this on latest and with latest node version (e.g 4.2.1)? If yes please reopen this issue.
+672|We will not provide an installation script.  We will, though, get into repositories (deb, rpm, etc) so people can install Code just as they install other packages.  Closing this for now.
+673|Feel free to make a PR
+674|@joaomoreno by the way, I have found out some basic bugs in Code like replace all not working over the entire file, I wonder who looks after the Issues raised over this repo
+675|@Someguy123 Thanks that works.
+676|No need to wonder, rest assured the VS Code team looks after them.
+677|What is the motivation for JSX syntax in .js files? I don't understand what using the .js file extension buys you other  than possible tooling compatabilty. I don't doubt that there are valid reasons but they should be presented when making feature requests.
+678|Strange and concerning as I'm looking at making more use of submodules in the near future.
+679|Having this feature may also be a reasonable way to handle cases where some would like JSX syntax to work for files with a plain .JS file extension instead of .JSX. See #81 and #140 for more details.
+680|Hi **@Tyriar**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <span>We will now validate the agreement and then real humans will evaluate your PR.</span>  TTYL, MSBOT;
+681|@alexandrudima what do you think?
+682|@alexandrudima oh okay, my bad.. So it's only concerne the `*.ts` files?
+683|Couldn't figure out how to make a PR against the Wiki. I edited it directly, I hope that's fine?
+684|I agree with @felixrieseberg, closing the issue (#318, not the PR) sends a signal to other people with less context that Code will never support ES6 by default.
+685|@jpierson It's like having JS code in an HTML page. Also, from a developer point of view, JSX is Javascript with a different syntax.
+686|@andrew-w-ross this bug is about source maps, your problem with the wordcount example seems to be more fundamental. Could you please create a new bug for your problem and include detailed repro steps, since I wasn't able to reproduce the problem. Thanks.
+687|I am also noticing this issue with the beta version that was not there in the previous version.
+688|![debugger](https://cloud.githubusercontent.com/assets/1704059/11307318/35de570a-8faf-11e5-86af-624561e0a72c.gif) @isidorn Yes, I still see this issue in 0.10.1 and with the latest node (4.2.2). It happens when I step through the code very quickly.
+689|I tracked it down, and found that it's the plugin handler or something. I could close it from activation control. I forgot what it was called. But now it works perfectly (But I guess the plugins won't work)
+690|"@buzinas, many languages, including C# have pretty much the same kind of import mechanism, with aliases. When I click ""go to definition"" I want to see the actual code, not the import. ""Go to import"" isn't useful - I already have a Home key if I want to scroll to the top and see the imports (which I don't)."
+691|"It's called ""electron helper"" and takes 99% of CPU usage"
+692|[StackOverlow issue threah](http://stackoverflow.com/questions/33832902/vs-codes-launch-json-keeps-reseting-after-debugging)
+693|Yes, this is a common feature in notepad++, really effective when you have a new language and want to add the extension
+694|Hi **@jel-massih**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+695|Should this take into account the aria attributes are not really global? Some are only valid if the element is a particular role (either via role attribute or the element's natural semantics)
+696|I'm having the same issue with the latest November release (0.10.1) Looks like it was purposefully removed: https://github.com/Microsoft/vscode/issues/71
+697|Confirmed same here Looks like it was purposefully removed: https://github.com/Microsoft/vscode/issues/71
+698|That's beyond the abilities of the code currently, the same applies to a set of elements only being valid within certain elements (`ul`, `ol` can only contain only contain `li` elements) which doesn't happen at the moment. That and adding descriptions to all the tags/attributes (#323) I think should follow this. I made another issue to that effect #375
+699|We're making pretty good progress on a VIM extension over here: https://github.com/VSCodeVim/Vim. Feel free to stop by and leave a PR :smile:
+700|**@jel-massih**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;

@@ -1,0 +1,100 @@
+2501|editor.action.format does not use editor.insertSpaces?
+2502|JSON: can no longer intellisense inside string
+2503|Tests are not running on VSO Windows build agent
+2504|incomplete flag in suggest should not apply to all provider
+2505|Focus indicator in input fields can look weird in debug land
+2506|Mac: Select dropdowns in light theme are not styled
+2507|Improve marshalling/demarshalling perf
+2508|Linux Mint: Left menu bar unresponsive after closing folder.
+2509|Debug actions pane often blocks file names
+2510|Copy/paste from debug console does not work with selected content
+2511|Send smile to twitter
+2512|Windows - Insiders default install location is VS Code alpha
+2513|Editor textarea should not get focus border
+2514|Unable to launch on Ubuntu over an X2GO session
+2515|Remove the dancer emoji from the salsa status indicator
+2516|"Need to support ""updateChannel"": ""none"""
+2517|Add appendText option to DecorationOptions
+2518|Use original oniguruma since PR was merged in and published
+2519|Look into using npm@3 in build
+2520|Switch default theme to color +
+2521|Understand update.channel set to none
+2522|Editors: announce currently edited document to screen readers
+2523|Context menus do not seem to work anymore in trees and editor
+2524|closing window gives crash warning
+2525|[themes] Make it possible to import themes from https://studiostyl.es/
+2526|Build: Running a build from a branch seems to auto-update that channel
+2527|Messages are not announced to screen reader
+2528|Tree: Focus border cut on selected element
+2529|Combine the 3 OSS tasks into one and update for new folder layout
+2530|Auto indent not working with Salsa
+2531|invalid outDir makes extension host not start
+2532|unpretty focus border in debug panel
+2533|Find: Showing ? of N matches when doubleclicking a word and triggerin Ctrl+F
+2534|Fully Support Visual Basic (VB)
+2535|Duplicate module definitions upon opening JS file
+2536|New file box has a clipped focus border
+2537|Delete Permanently prompts two times when it fails to move to trash
+2538|Rename input box does not use our configured CSS theming
+2539|[themes] Two themse are marked as default. Why?
+2540|Debugger isn't showing TypeScript source
+2541|Debug: Stack view has quite some padding to the right
+2542|Debug: Editor jumps while stepping in readonly (core module)
+2543|Git: Commit box wraps place holder not so nice
+2544|"""diffEditor.renderSideBySide"" needs resize event to take effect"
+2545|Uri#file is off when path has no slash
+2546|"[JavaScript/Node.js] Support for ""Go to definition"" of code located in ""node_modules"""
+2547|[themes] MD editor model layer breaker
+2548|CompletionItemProvider not working when trying to complete on a whitespace when registering multiple in one extension
+2549|Breakpoints not hit when debugging NodeJS via Launch
+2550|Trouble with editor.action.format
+2551|without --nolazy option breakpoints are jumping to line in generated source
+2552|"Illegal token ""http"" in template string"
+2553|Inconsistent out structure when no test folder is available
+2554|Feature Requests: Add command/button to git branch delete (local and remote)
+2555|Update to Electron 0.37.x
+2556|TextLine.firstNonWhitespaceCharacterIndex
+2557|fix [sql] syntax highlighting error #1634
+2558|Not opening anymore
+2559|GitHub flavored markdown code blocks with language hint highlighting broken
+2560|[themes] Should the default theme be applied when a theme is active?
+2561|Markdown image links without alt text are not scoped
+2562|Fix md image link with no alt text highlighting
+2563|[less] Less rules containing tags with hyphens are not highlighted
+2564|Coffeescript object notation (*.cson) should be associated with the coffeescript language
+2565|Associate .cson with CoffeeScript
+2566|Nested links in Markdown are not highlighted correctly
+2567|CSS files still contain vendor prefixes
+2568|TypeScript React syntax highlighting tripped up by structural type argument.
+2569|[sass] syntax error inside @media using child or sibling selectors
+2570|source maps with non-empty 'sourceroot' entries don't resolve to the correct source path
+2571|Running code from command line does not open new instance nor open the folder specified in OSX
+2572|VSCode will not stop on breakpoints when first node prcess forks a second
+2573|Add option to turn off anti-aliasing for editor font.
+2574|Do not bind Command+P on Mac
+2575|All instances of VSC are not restored.
+2576|Tooltips and intellisense stop altogether after watching build command
+2577|Wrong caret position when typing with particular language
+2578|Allow to make edits to binary files
+2579|Node.js require('events') intellisense not working
+2580|Cannot lookup symbol of nested function in method
+2581|Any reason why Ctrl + Shift + 0 keybinding is invalid?
+2582|Replacing selected end-of-line with newline locks up the document
+2583|fix replacing end of line with newline
+2584|Display number of search results in popup
+2585|Cant tab back to the find input field from find/replace
+2586|[json] Auto-install imported/required npm packages
+2587|Auto Format setting(s)
+2588|Out of workspace files: Changes from git operations not reflected
+2589|do not introduce an empty line when switching output between stderr and stdout
+2590|scripts\npm install fails on Windows 10
+2591|Index file in Git repository constantly updating
+2592|Allow Code to be launched straight from Git Bash on Windows
+2593|TypeScript syntax highlighting error when inline comment appears after return type declaration
+2594|Intellisense: change more details icon
+2595|Linux: seeing the blue (stable) icon for Code even though I am not on stable
+2596|Repl: reveal last line when I expand an object
+2597|Windows: projectResolver.test.ts failing
+2598|Suggest is still slow (saw in selfhost)
+2599|QuickFix generate method should not add using directive
+2600|Find: Counter does not update when I Cmd+Enter a replace all operation

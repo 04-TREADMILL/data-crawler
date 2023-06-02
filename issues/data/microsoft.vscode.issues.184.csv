@@ -1,0 +1,100 @@
+18301|"Uncaught Error: Unable to display threads: ""Cannot find Delve debugger at dlv. Ensure it is in your ""GOPATH/bin"" or ""PATH""."""
+18302|"Uncaught Error: Unable to display threads: ""Cannot find Delve debugger at dlv. Ensure it is in your ""GOPATH/bin"" or ""PATH""."""
+18303|Terminal scroll bar overlays text, it should be up against the side of the panel
+18304|Toggle word wrap character insertion bug on Mac
+18305|Background terminal scroll bars are not synced when the foreground terminal is resized
+18306|PHP syntax coloring lost after encountering '?>' in comments
+18307|Support filtering search by folder with './' syntax
+18308|Exclude Definition From TS Reference Code Lens References List
+18309|Add createTerminal with options API with new option waitOnExit
+18310|C++ colorization is incorrect after a multi-line ? : expression.
+18311|Exclude Definition From TS code lens
+18312|object is possibly undefined for imported object
+18313|CSS intellisense add extra colon (again)
+18314|I keep reopening files that are automatically closed by VS code
+18315|Changelog replaces open file
+18316|ES6 React autocompletion
+18317|Sometime VS Code Debugger will Crash (PowerShell Extension) then odd things happen
+18318|How about support 'project' unit in VSCode?
+18319|Add Go To Implementation Api
+18320|Decorators Break TypeScript Reference Code Lens
+18321|TypeScript language service died unexpectedly
+18322|bug
+18323|Adopt node.js path over our paths library
+18324|Problems view: support navigation by keyboard similar to search
+18325|window.zoomLevel is ignored in User settings
+18326|diffEditor.ignoreTrimWhitespace does not work correctly if only whitespace is changed
+18327|Improve Extension UI
+18328|Using window.zoomLevel affects rendering
+18329|Rulers position is incorrect when using window.zoomLevel
+18330|Class names for code scopes are changed?
+18331|[Proposal] Move git related extensions from properties to git
+18332|Revisit the 'add configuration' button UI to add a configuration snippet
+18333|Allow task bindings (like Task Runner Explorer's ProjectOpened/SolutionOpened)
+18334|Fix bug in decorationRenderHelper
+18335|Integrated Terminal not auto-scrolling
+18336|Generated sourcemaps in vscode build are broken. Blocks debugging vscode sourcecode with source maps
+18337|Multiline object properties
+18338|Missing Text in titles and sections, and extensions.  Can see icons with --disable-gpu, but not text
+18339|Why does editor.action.marker.next/prev remove focus from the editor?
+18340|SEARCH:  Select file on the left when file is open on the right. (feature request)
+18341|All closed terminals are giving an error message box
+18342|Tasks::problemMatcher should highlight problems in output log and make files clickable
+18343|Terminal scroll bar does not appear (or work) sometimes
+18344|Sometimes initial CharMeasure.measure() does not give accurate measurements
+18345|editor.quickSuggestions setting for completion providers
+18346|source maps interpretation inconsistent
+18347|How should extensions programmatically set the languageId or files.associations?
+18348|Question - Can QuickOpen go to the open file in a different editor group?
+18349|Terminal should throw an event when a terminal has completed (and is waiting to close)
+18350|Allow terminals to be reused
+18351|Expose detected-link color to themes
+18352|Feature Request: Workspace-specific keybindings.json
+18353|Prototype Using Commit Characters for JS and TS Completions
+18354|Go to file - allow to type folder name after file name for better narrowing of many results
+18355|chore(performance test): Add performance test criteria
+18356|Add New Context For When an Html Preview Is Focused
+18357|Debugger stops at eval:122
+18358|Running process in terminal not terminated when closing window
+18359|"Persisting ""disable by workspace"" settings in source control"
+18360|The issue of command line about automatic scroll
+18361|Text is not saved when file is renamed
+18362|getaddrinfo EAI_AGAIN lukehoban.gallery.vsassets.io:443
+18363|vs code do not suite well when i use two monitors
+18364|Win10 input emoji error with touch keyboard
+18365|The highlighter of the opening and closing classes doesn't work sometimes.
+18366|Object literal may only specify known properties, and 'indentSize' does not exist in type 'FormatCodeOptions'.
+18367|Search is not working in Preferences/User Settings and Workspace Settings
+18368|can't install extensions
+18369|Honor 'deemphasize' hint of Source objects in CALL STACK view
+18370|Test: debug with no launch.json
+18371|internalConsoleOptions should be in settings and not in launch configuration
+18372|Debug toolbar draggable in the 4 edges of the VS Code screen.
+18373|do not add '--nolazy' flag when 'running' a target
+18374|Global launch.json option
+18375|HTML and CSS servers should have meaningful default settings
+18376|Second editor with specified window.zoomLevel is blurred
+18377|Investigate in adopting new Replace pattern in Search
+18378|[question or feature request] how to auto load synctax after change
+18379|Can assess go to definition and peek does not work
+18380|Snippets don't work in insider on MacOS
+18381|[html] useCodeSnippetsOnMethodSuggest for javascript not working in Script Blocks
+18382|cannot create multiple folders in the root folder using the New Folder action in the UI
+18383|Jumpy cursor with trim trailing whitespace and autosave
+18384|Allow Setting Syntax With Command Palette
+18385|Keybinding for opening files when navigating sidebar?
+18386|Bump Monaco to use TS 2.1.4
+18387|[Intellisense][HTML] Picking css property from intellisense suggestions list replaces the next property key
+18388|Integrated Terminal Going Blank
+18389|[html wrong comment syntax while still in script element attributes
+18390|Syncing with github in the app doesn't work behind a corporate proxy
+18391|style in 'th' element breaks html autoformatting
+18392|Cannot hide files on some conditions
+18393|Comment line in HTML <script> should only use JS-style if cursor is within the tags
+18394|.
+18395|Add command to post a message to an html preview document
+18396|vscode showing a nonexistent  parse error
+18397|The integrated terminal is firing the windows console host with high CPU percentage
+18398|Wrong reference count in code lens
+18399|Thread / program do not get focused in the model when clicked in the view
+18400|HTML tag autocomplete stopped working on JSX files (Code - Insiders)

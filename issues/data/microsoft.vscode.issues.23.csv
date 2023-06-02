@@ -1,0 +1,100 @@
+2201|Multi-cursor pastes in reverse order
+2202|Opening VS is restarting gulp nodemon automatically.
+2203|VS Code window does not open on Primary screen if it's set to an external display
+2204|[python] Replace TextMate for Python syntax highlighting
+2205|[editor] Inconsistent highlight colour/style in CSS. Leads to perceived slow perf
+2206|Add open in preview button to SVG files, like Markdown
+2207|Allow to bind keybindings for opening individual indexes of the opened editors
+2208|VS Code cannot update itself if the user is not an administrator
+2209|"How exactly do I download a repository if there's no ""initialize"" button?"
+2210|VSCode Alpha does not auto update (Mac)
+2211|Debug: Breakpoints not center aligned (Windows)
+2212|Debug: Hover shows up empty for complex objects with no children
+2213|Some API tests fail on Travis@Mac
+2214|Test Salsa
+2215|next level MarkedString
+2216|Find widget too wide
+2217|whether can get full type of variable when pop up completion item list?
+2218|Test MarkedString and MD rendering
+2219|"Error JavaScript on startup coming from the main process ""Error: watch EMFILE"""
+2220|express lack of completeness for completion items
+2221|TypeScript mode created to eagerly which results in unnecessary plugin activation
+2222|Hide the menu bar
+2223|Crash when backspace near double byte unicode character
+2224|Test localization Support
+2225|Improve find counter UI
+2226|Intellisense: full documentation
+2227|Configurable console support for Mono debug
+2228|Aria roles for tree
+2229|[debt] ThemeService and StorageService mixup
+2230|AbstractMirrorModel.getPositionFromOffset: Model is disposed
+2231|Uncaught TypeError: Cannot read property 'startLineNumber' of null
+2232|TypeError: Cannot read property 'apply' of undefined
+2233|Uncaught TypeError: Cannot read property 'galleryInformation' of undefined
+2234|Test new filename mappings
+2235|TypeError: Cannot read property 'getControl' of null
+2236|Uncaught TypeError: Cannot read property 'activateByEvent' of undefined
+2237|Uncaught SyntaxError: Unexpected token :
+2238|Uncaught SyntaxError: Unexpected token :
+2239|Uncaught TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+2240|Cannot read property 'uri' of null
+2241|Add json language server
+2242|[html] VSCode doesn't automatically close HTML tags
+2243|[html] SCRIPT closing tag does not get aligned correctly
+2244|[Suggestion] Git Blame info in gutter
+2245|Code loses keypresses when busy
+2246|Editor input
+2247|Welcome page in the website
+2248|a tab does not match the specified number of spaces spaces
+2249|Allow to customize word wrap for each language
+2250|Intellisense optimisations
+2251|Weird line rendering
+2252|Test more colorful default theme
+2253|Test JSON language as extension
+2254|Screen reader in editor
+2255|Second window to open does not open folder when first's cwd is deleted
+2256|Installing Extensions behind proxy fails
+2257|class Node highlighted with red line
+2258|decreaseIndentPattern doesn't always take effect
+2259|Task.json shouldn't need to be manually created to build .NET projects before debugging
+2260|OmniSharp doesn't run right away when vscode open a dnx project
+2261|Javascript support broken? jsconfig.json's file directive is ignored, and intellisense doesn't work
+2262|Cannot edit preferences
+2263|No drag and drop text support in editor?
+2264|Code complete in conditional breakpoints
+2265|Action shortcut conflicts
+2266|Unfriendly error experience when adding a new setting
+2267|Scroll bar looks broken in intelli-sense documentation widget
+2268|"Automatically indent ""end"" for ruby code"
+2269|Add math support to Markdown
+2270|SignatureHelp UI is still open when completionlist ui open
+2271|backspace no longer triggers intellisense
+2272|Anyone know why the description of completion item in c# didn't show full Signature ?
+2273|suggest details have no scrollbar
+2274|Indicate in the UI that conditional breakpoints are not supported by a debug adapter
+2275|Value hover jumps when expanding / collapsing nodes
+2276|Show output indicator instead of opening the Debug console on output
+2277|Conditional breakpoint: Does not use same decoration as normal breakpoint
+2278|monaco-shell does not show focus
+2279|JSON squiggle not showing
+2280|Breakpoint not hit
+2281|[css] CSS hovers not showing
+2282|Icon differences between Alpha and Stable
+2283|Focus on selected tree element actions barely visible
+2284|"Improve ""localRoot"" and ""remoteRoot"" documentation/usage"
+2285|Missing variables and call stack when pausing application
+2286|Debug: Conditional breakpoints are not keyboard accessible
+2287|Panel doesn't allign well when side bar is pinned to the right
+2288|Widgets inside editor should come last in their order of visibility when tabbing
+2289|Can not tab out of the left side of a diff editor
+2290|REPL is not keyboard accessible
+2291|Tab inside markdown preview moves focus around markdown preview element
+2292|Feedback New welcome page
+2293|Welcome page breaks continuous integration tests in Linux
+2294|Debug hover: Do not line function body
+2295|Titles are aligned towards the bottom
+2296|Horizontal panel separator look bogus
+2297|'Accessibility mode on' not persisted when new editor opened
+2298|Weird flashing marker when clicking around in debug
+2299|Horizontal panel cannot be dragged up again
+2300|'Accessibility mode on'  not persisted across VSCode sessions

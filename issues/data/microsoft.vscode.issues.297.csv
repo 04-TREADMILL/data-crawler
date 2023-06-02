@@ -1,0 +1,100 @@
+29601|Make split editor more useful (3 UX issues)
+29602|Auto Indent on Paste results in an extra undo stop
+29603|Terminal focus lost when closing Find widget
+29604|Esc from Find widget only returns focus to terminal for edit box
+29605|Keep undo history even when file changes outside Code.
+29606|Double clicking settings editor divider sash should set their width to 50% each
+29607|Search use .gitignore doesn't work when useRipgrep = false
+29608|Search include/exclude patterns are not applied to open files
+29609|Ruby Path
+29610|Search no longer allows you to search sub-folders easily
+29611|No next and previous keyboard shortcuts for Find widget in Integrated Terminal
+29612|Find in folders doesn't work at all when ripgrep is disabled
+29613|Auto indent should not do anything inside a string
+29614|Auto indent in json doesn't work that well
+29615|Default values don't work for objects' properties
+29616|onDidTerminateDebugSession maybe shouldn't fire when debug session doesn't start successfully
+29617|Screen Scrolls Down Whenever I Begin Typing, Only When Using Java
+29618|AutoIndent not consistent when moving lines in JSON
+29619|auto indenting issues with C# files
+29620|Integrated Terminal scroll bar hidden when focus in Find widget
+29621|getConfiguration2.inspect does not return folderValue
+29622|Auto indent in ruby doesn't play nicely with def
+29623|Extension suggestion displayed when testing said extension in dev host
+29624|Symbol search hangs VSCode
+29625|Allow extensions to update folder based configuration
+29626|Emmet expand abbreviation doesn't work in .jsx files
+29627|After debugging my powershell script and removing all breakpoints it still keeps breaking into [DBG].
+29628|Purpose of emmet.syntaxProfiles is unclear
+29629|Windows: Load environment variables without restart
+29630|emmet.excludeLanguages needs a window reload to take effect
+29631|Auto indent: Ruby multi-line string looses indentation level
+29632|Move lines includes next line
+29633|Window always restored in primary monitor
+29634|An additional empty is restored when launching window from command line
+29635|No source map when debugging unit tests
+29636|VS Code is taking 100 % of CPU very often
+29637|Triple click + drag doesnt copy the selection
+29638|Selecting a deleted line in the Diff Review Panel doesn't go to original editor
+29639|editor.wordWrap setting being ignored
+29640|Cant open context menu in terminal
+29641|"""Add root folder"" on windows adds ""file:///c%3a/Users/..."""
+29642|VScode output emit error: 'completionEntryDetails' request failed
+29643|The interface disorder
+29644|Filter settings from no search results link
+29645|Agile Community Enthusiast management
+29646|Line breakpoints verified to column breakpoints are still treated as line breakpoints on next launch
+29647|the minimap doesn't show
+29648|vscode-win32-ia32 build failure: JavaScript heap out of memory
+29649|feature request: migrate VSCode to another computer with ease
+29650|Feature 29241: Add option to disable git indicators in gutter
+29651|"settings.json error: ""(json-to-ast) Cannot Tokenize Symbol </> at (1:1)"""
+29652|The Explorer font is too small to set size
+29653|Suggest: let git support rebase workflow
+29654|Space added when adding newline on beginning of line
+29655|Add a scratch pad feature
+29656|No progress while cloning git repository
+29657|Vscode cpu 100% When the open subdirectory of the folder is more
+29658|Find: No find history
+29659|Some file events missing when large workspace
+29660|Find: No feedback when there is no match
+29661|Watcher crashes when large folder has lots of changes
+29662|Find: input not seeded with current selection
+29663|Move lines moves too much
+29664|Copy/Paste context menu actions on root folders don't work
+29665|Cannot rearrange root folders
+29666|Allow pickers to provide an action to show in the pick list
+29667|Windows: Switch Window action is not easily discoverable
+29668|In multiple overlapping folders, the label differs from the explorer selection
+29669|In multiple overlapping folders, `ctrl+p` shows duplicates for root files
+29670|The Git Viewlet refreshes when doing file operations outside of the main folder
+29671|Rename Global Task menu to Tasks
+29672|Auto Indent doesn't outdent
+29673|Running `clear` in Terminal leaves scrollbar in bad state
+29674|Auto Indent breaks indent
+29675|AutoIndent doesn't work well with css
+29676|Side by side terminals
+29677|Move lines doesn't handle context around the selected range.
+29678|Fix git ignore global command
+29679|Switch to the less invasive update UI and add an update reminder
+29680|Spelling errors (diagnostics) prevent debugging
+29681|Smoke Test: Error: ChromeDriver did not start within 5000ms
+29682|Make default group entry more usable
+29683|In source control, git can't support submodule operations
+29684|Prelaunch task does not terminate
+29685|Could not open link file with absolute path
+29686|No completion proposal for the new presentation property.
+29687|Copy on multi root folder is a no-op
+29688|Not existing multi root folder should not show an error
+29689|My C-Sharp work
+29690|No longer possible to compare 2 files from the explorer
+29691|Use + and - as aria labels in the diff review panel
+29692|Add telemetry event for task customization
+29693|editor.renderLineHighlight for all selected lines
+29694|bug
+29695|Highlight The Prompt Line Sometimes
+29696|Needs better macOS icons
+29697|Explorer: Title gets out of sync with shown root folders
+29698|Logout on Ubuntu 16.04 LTS when pressing Ctrl-C on integrated terminal to stop python3 script
+29699|Debug Typescript Not Stopping on Break Points - Electron
+29700|Integrated terminal default key does not match documentation

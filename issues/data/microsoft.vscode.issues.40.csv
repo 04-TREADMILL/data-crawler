@@ -1,0 +1,100 @@
+3901|In 'Run without debugging' mode the Stop button must terminate the extension host
+3902|'Run' action
+3903|CSSnext & preCSS Support
+3904|Quick open no longer accessible
+3905|Revive javascript.validate.enable setting
+3906|Define source for diagnostics that come from Salsa
+3907|[folding] add the possibility to always show the fold/unfold indicator
+3908|'Please consider to open a bug' should have an action with a link to github
+3909|Space in anonymous function when formatting JavaScript code
+3910|Investigate `.gitattributes` instead of hygiene
+3911|Render errors & warnings in gutter
+3912|Review TS/JS specific global flags if they are still needed
+3913|Allow to diff 2 files in VS Code with command line arguments
+3914|Git Sidebar Filters and Sorting
+3915|TS arrow functions in classes break theme coloring.
+3916|Strange exception after swapping out OmniSharp for dev version
+3917|JavaScript highlighting broken after template string.
+3918|Indentation improvements
+3919|php v5.4 short array syntax not supported
+3920|UTF-8 BOM setting and indicator
+3921|Configurable file path to language associations
+3922|Output handling improvements
+3923|"""let"" colorization on Javascript (ES6) changed with update to Version 0.10.10 (0.10.10)"
+3924|VSCode corrupts multi-line environment variables
+3925|preLaunchTask: isWatching & relaunching
+3926|Font Size isn't consistent with other editors
+3927|[php] opening php tag should be recognised as a valid intellisense option
+3928|Support Elastic Tabstops
+3929|"Javascript colorization for ""let"" & ""var"" parameters inside a function"
+3930|ctrl+del at end of line removes text to the left of the cursor
+3931|Images / media files cause error in git preview
+3932|Intellisense for nodejs doesn't work without a jsconfig.json after 0.10.10
+3933|Rename symbol on a HTML tag inside of JSX globally renames all tags
+3934|Reopen last files
+3935|syntax error hightlighting disappeared after upgrading to Version 0.10.10
+3936|Javascript colorization defining multiple var
+3937|Updated code command in bash (OS X) not working
+3938|fix activate extension telemetry event to include
+3939|[WebSite] The default download option for VS Code on Linux machine is displaying for OS X.
+3940|[Command-Palette] Getting error when trying to run command for dnx.
+3941|[Intellisense] Intellisense pop-up is not displaying at right position and options are misleading.
+3942|Keywords are not getting highlighted with 0.10.10 release
+3943|Italics and bold remove link syntax highlighting in markdown
+3944|Bold+italic style in markdown is styled as just bold in code view
+3945|[ERROR] Error: Failed to start OmniSharp
+3946|Intellisense not working after downloading tsd script for npm downloaded modules version 0.10.10
+3947|[php] Provide more specific PHP scopes
+3948|[json] Add telemetry event when user edit a json file for Azure RM.
+3949|vscode version 0.10.10 update failed on ubuntu 14.04 x64?
+3950|Open a diff of 2 files from the command line
+3951|[JavaScript] highlighting in Template literals broke with 10.10 update
+3952|[C#] Syntax highlighting issue
+3953|[folding] Collapse code block ignore comments inside this block
+3954|TypeScript Intellisense extremely lagged after upgrading to 0.10.10
+3955|taskService.run promise should always complete
+3956|Test Tour: Manual Test Script Node (JavaScript)
+3957|New setting to exclude folders from file watching
+3958|Collapse all and close all icons too similar
+3959|An invalid LanguageConfiguration.wordPattern can cause vscode to crash
+3960|PHP Variable tab key converts to HTML brackets
+3961|javascript syntax colors in space-less for loop
+3962|Mac OS X :: 0.10.10 :: Regex find for new line isn't working
+3963|[php] Highlighting / Colorization of Variables in Strings
+3964|"Missing ""focus"" command to focus on the project"
+3965|Add suggested completions for key chords
+3966|Error ...Microsoft VS Code/resources/app/extensions/jrieken.vscode-omnisharp: Cannot read file package.json
+3967|Extension status bar improvements & polish
+3968|stopOnEntry
+3969|Node.js can't autocomplete after update 0.10.10
+3970|Add copy context menu action to REPL
+3971|[PHP] Switch case definition inserts intellisense instead of newline
+3972|[C++] Semicolon in string literal messes up highlighting for rest of file
+3973|Distribute 64bit Windows
+3974|[php] PHP globals hovers on html tag
+3975|Close debug console when debugging is stopped
+3976|editor should ignore line ending edits
+3977|provide API for displaying color blocks like in CSS
+3978|"[CMD prompt] Command line arguments for ""Locale"" and ""extensions disable"" is not working as expected (when app is running)."
+3979|[PHP] Function autocomplete not formatting correctly
+3980|Guide doesn't grow
+3981|[VSCodeEndGameTesting-Aditi][Search][Ember] Searching a large folder causes unresponsive window when running Ember serve
+3982|Rename refactoring not preserved for untyped variable in single source file
+3983|Rename refactoring that renames constructor parameter doesn't apply to its use in the constructor
+3984|Open folder should start the folder picker at the current folder
+3985|Provide command to open most recently closed file/editor
+3986|Fixes #3650: Support stop-all-threads mode debugging for multi-thread…
+3987|[theme] Dark+ and Light+ should support git commit message scopes
+3988|Travis errors often due to Github request limit for vscode.d.ts
+3989|Comment block should handle nested comments
+3990|Caret position is wrong after select a candidate from auto-complete for Powershell New-object cmdlet
+3991|there is no hint when writing javascript in html file
+3992|"C# ""Language mode"" disappeared from the list"
+3993|We should not show the JS light bulb for files generated from TS
+3994|File watcher resulting in high CPU use on Mac/Linux for large folders
+3995|[Explorer] Project tree structure is broken when opening multiple projects and switching projects from status bar.
+3996|[0.10.10][Windows] Tab size is not working properly
+3997|Leak testing
+3998|tsserver version should not be shown in the status bar
+3999|Install extension with HTTP Proxy with Basic authentification not working
+4000|can't installing c# extension

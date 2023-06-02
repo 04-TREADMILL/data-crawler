@@ -1,0 +1,100 @@
+10401|Allow to disable developer related keybindings in extension host
+10402|workbench.action.quickOpen opens file in existing tab instead of creating a new tab
+10403|debugger sidebar data presentation
+10404|Application so slow
+10405|may be i made a mistake,i don't know what happen, just use the sync setting extension.
+10406|English mixed monospace aberrant
+10407|Support shortcuts to paste content from Linux different  X server's selections
+10408|IMHO suggest widget should not bind Home/End by default
+10409|Extra spaces between braces when formatting JavaScript objects
+10410|Support flat UI titlebar (Windows)
+10411|Debug: clicking on reconnect in attach case causes endless reconnect
+10412|dsql files not picked up as SQL syntax even when grammar has them
+10413|File list refresh doesn't work
+10414|Unexpected behavier when close a file
+10415|Prompts for loss of changes when closing split
+10416|suggest that vs could add default markdown to html with css
+10417|Feature request: per-language settings
+10418|Allow for menu contributions in folders of the explorer
+10419|Where the mouse prompt have shortcut keys so much the better.
+10420|feature request: configure OpenType font features
+10421|Extensions will not install
+10422|translateY vs top
+10423|Debug console only shows automatically for first debugging session.
+10424|`workbench.action.closeEditorsInGroup` does not close the group when tabs are disabled.
+10425|Extension host processes on Mac eating CPU (typing lag in vscode)
+10426|"Insiders ""Restart to Update"" should always check for the latest"
+10427|Creating new tab stack resets line wrap setting
+10428|Failed to start OmniSharp
+10429|Closing a C# code block corrupts text elsewhere in the file
+10430|Persist character encoding of open files across restart
+10431|opening new document replaces the one in an existing tab
+10432|workspace.asRelativePath returns nonsensical value
+10433|Feature Request: Custom Breakpoints For Extensions
+10434|Git: Ignore untracked files in change count badge
+10435|Way to hide the View Bar
+10436|Git integration with multiple git directories inside of workspace
+10437|Extensions intercept keystrokes pressed in Debug Console
+10438|VS open but not work
+10439|Auto-indentation problem with promise blocks
+10440|Peek/goto a imported symbol should reveal/goto what was imported, not the import statement
+10441|Include more icons
+10442|[decorators] spaced are collapsed in contentText (before/after decoration attachments)
+10443|"""コードの書式設定"" is translation error."
+10444|Chinese path cannot open integrated terminal
+10445|Tree no longer shows progress when expanding slow folder
+10446|download speed very poor
+10447|Extension list not load behind corp proxy with NTLM
+10448|VSCode does not detect file changes made outside of vscode
+10449|File watcher has issues across platforms
+10450|Use the license asset type to figure out whether an extension has a license
+10451|Extension installation telemetry is missing
+10452|Can't close an auto-opened window
+10453|Make editor.snippetSuggestions: bottom the default
+10454|Setting Git Sync Keybinding Breaks Git View Keybinding
+10455|Warning about async/await even when using Typescript 2 against ES5
+10456|Confusing behaviour with word highlighter overriding document highlighter
+10457|Lift `setContext` from a command to proper API
+10458|Allow to close quick open with ESC when opened and focus is outside
+10459|Cannot read property 'match' of undefined
+10460|npm test fails on Windows
+10461|Wrong order of Nuget package versions
+10462|Cannot start WAMP server from terminal
+10463|PS1 wrap in Integrated Terminal
+10464|.obsolete file is missing
+10465|[quick fix] context menu stuck using Ctrl + . command.
+10466|Extract ContextKeyService from KeybindingsService
+10467|"[vb] syntax highlighting for ""End Property"" and ""End Class"""
+10468|Issue with VbScript code
+10469|[monaco-editor-core] Language diagnostics cannot be changed after the first language change.
+10470|Editor IME break when using selection inside IME
+10471|Reusing repo README for marketplace is restrictive; add an option
+10472|Feature request: 'smart' scroll-lock in DEBUG console
+10473|Format Code not working
+10474|"""for""-template not initially selected"
+10475|Go to inferred type definition via keyboard shortcut
+10476|"PowerShell in integrated terminal sometimes has no cmdlet like ""Set-PSReadLineOption"" and fails to load module"
+10477|Always open the output panel!!
+10478|Close action should close all editors of a group not just one
+10479|Problem with PHP syntax check in Visual Code.
+10480|when i use the git,the vscode will broke down
+10481|c++ header <iostream> not recognised in vscode 1.4.0
+10482|Extension commands best practices
+10483|Cannot disable auto update for vscode
+10484|TypeScript first line matching added.
+10485|code . -n does not open a new code editor in version 1.40
+10486|vscode execute ~/.zprofile when startup with zsh as default shell
+10487|vsce publish fails due to linting issue
+10488|Indentation by language
+10489|Add support for passing custom config (that isn't in launch.json) into debug adapters
+10490|containerName on SymbolInformation is unexpectedly stripped of data in WorkspaceSymbolProvider results
+10491|Option to always open new windows maximized
+10492|Feature request: reload button on git tab
+10493|auto-indent issue with Ruby syntax
+10494|Fixed `code.sh` to start VS Code under Cygwin.
+10495|"Bad scrolling in ""Open Editors"" pane"
+10496|VSCode with gdb remote attach support
+10497|Always displays 0 Projects
+10498|Fix `import statement` snippet for typescriptreact
+10499|Too fast vertical scrolling in terminal with font Ubuntu Mono or with larger font size
+10500|What is the expected behaviour for an extension launching/debugging a console app?

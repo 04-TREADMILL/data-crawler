@@ -1,0 +1,100 @@
+4501|Bugfix: Prevent overwrite of modeAtPosition
+4502|Different font in different regions
+4503|(Discussion) Possible to launch multiple debuggers?
+4504|Improper progress during search
+4505|[sass] CSS functions are not being highlighted consistently in CSS and Sass
+4506|[python] Add quote surround/auto-completion for Python
+4507|[vb] add quote surround/auto-completion
+4508|Provide an option to not mix symbols and files in quick open
+4509|Remove watch expression X icon is misaligned
+4510|Open With doesn't work if code is already opened
+4511|checks models when file events happen
+4512|Selecting install extension then clicking Readme shows two conflicting dialogs
+4513|OmniSharp no longer works on Linux
+4514|Unhappy prompt to install extension after just installing it
+4515|"VsCode doesn't indicate the ""currently debugged thread"" when multilple threads are stopped during debugging."
+4516|Code will not start with locale='zh-cn' or locale='zh-tw'
+4517|Multiple messages with different action buttons look bad
+4518|"""configure locale"" is very technical"
+4519|Clicking error indicator multiple times displays fewer errors each click
+4520|[sass] @at-root showing as an error
+4521|Expose paths constants in API
+4522|"[Windows] Gettiing error ""Cannot convert undefined or null to object""  while adding .Js or .cs file."
+4523|tsserver drops project information if files section contains a faulty entry
+4524|translations: Single quotes are replaced by double quotes in German translation
+4525|How to get list of installed extensions?
+4526|"[GIT] Not gettinng ""Gutter indicators"" when updating items under folder mapped with git."
+4527|Copying a file from Windows explorer into same directory in VS Code removes all code
+4528|Improve File Association feature (status bar)
+4529|can't navigate javascript with manual namespaces
+4530|TypeError: Cannot read property 'verboseLogging' of undefined
+4531|[Uninstall] When user uninstall an app then system should delete all the VS code references, files and directories.
+4532|"Getting error message when launching app from command prompt with ""disable-extension"" argument."
+4533|No hotkey is available for navigating the call stack
+4534|Please allow javascript editor in html script block
+4535|reference tag in comment intellisense does not support https file
+4536|Feature request: install local extensions
+4537|Korean characters problem
+4538|File closes on save when working via gvfs
+4539|Is darwinBundleDocumentTypes is out of date?
+4540|VS Code does not recognize the currently active .net run-time.
+4541|Update the jsconfig.json schema descriptions
+4542|Try to unify import statements
+4543|TypeError: Cannot read property 'verboseLogging' of undefined (fixes …
+4544|Marketplace extension descriptions should style kbd tags
+4545|[ESLint] Configuration descriptions need localization.
+4546|There is no way to use FindController in minified distro
+4547|StandaloneCodeEditor throws exceptions
+4548|Spaces/Tab status bar should also shortcut to 'Trim whitespace' action
+4549|Unable to get intellisense from jquery IIFE functions
+4550|Update jsconfig
+4551|[var] keyword is also highlighted in any word starting with 'var...'
+4552|node-debug lacks translations for package.json
+4553|Make explorer keybindings configurable
+4554|process.env['VSCODE_NLS_CONFIG'] set in main.js will not reach renderer under Linux
+4555|Fixes #4558: process.env['VSCODE_NLS_CONFIG'] set in main.js will not reach renderer under Linux
+4556|Linux: Changes to process.env from main are not reaching renderer
+4557|VS Code Insiders installs always in the OS language despite of language selection during installation
+4558|Regression: stdFork patch of fs.writeSync in wrong
+4559|Debug type case sensitive
+4560|sass-maps are showing errors and are incorretly highlighted
+4561|[sass] @error and !global are showing as errors
+4562|Replace dialog opens with the wrong field focused
+4563|Not receiving configurationDoneRequest when no breakpoints are set
+4564|translation: translate enum values 'stopped reasons' by considering their context
+4565|translation: translate enum values 'scopes' by considering their context
+4566|translation: translate 'node' as the software product 'node.js' and not as 'knot'
+4567|[0.10.12-insider] Debug adapter client doesn't send configurationDone when no breakpoints are registered
+4568|Uncaught TypeError: Cannot read property 'version' of null
+4569|Cannot read property 'dispose' of undefined
+4570|Uncaught TypeError: Cannot read property 'firstChild' of null
+4571|Cannot read property 'hasOwnProperty' of null
+4572|Cannot read property 'dispose' of undefined
+4573|Cannot read property 'getControl' of null
+4574|Locking files in node_modules
+4575|Help > View License not redirecting properly
+4576|Please make the debug toolbar moveable.
+4577|`var` is highlighted too aggressively
+4578|Files pane remains darkened after rename, enter key
+4579|Read VSCODE_NLS_CONFIG form userEnv as early as possible
+4580|Fixes Read VSCODE_NLS_CONFIG form userEnv as realy as possible
+4581|Renaming files that was moved by drag-and-drop makes the sidebar grey
+4582|Mac: Watcher fails on folders with glob characters in name
+4583|Add to Watch allows the same variable more than once
+4584|Tabbing after a PHP variable turns the var into <1var></var>
+4585|--locale switch incorrect for Simplified Chinese, should be zh-cn not zh-ch
+4586|adding telemetry to extension widget
+4587|[TS]Getting duplicate error message in editor without adding linter extension for typescript.
+4588|Should --locale command line setting override locale.json?
+4589|[TS] 'require' function should be highlighted same as reserved keywords as it is provided by CommonJS compliant system.
+4590|Repeated module.exports expressions are erroneously flagged as problematic
+4591|viewing files causes them to jump / force scroll about 10 lines down
+4592|--locale command line switch as no effect if there is already a running VS Code instance
+4593|[Debug]Error pop-up should go away once user fix all the errors and started debugging.
+4594|Fixed wrong values in german translation
+4595|Curly braces in string literal in function call causes wrong syntax highlinting
+4596|Finalize default jsconfig.json
+4597|[ts lint] unable to find module references in TS project.
+4598|Fixes --locale switch incorrect for Simplified Chinese, should be zh-cn not zh-ch
+4599|target as the only compiler option
+4600|Fixes Help > View License not redirecting properly

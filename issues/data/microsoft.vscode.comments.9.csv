@@ -1,0 +1,100 @@
+801|Likely #160 .
+802|Thanks, will look into it!
+803|@halyavin our watcher implementation on Linux is not very good, it has to scan each folder for changes which can be time consuming. You can use the files.exclude setting to add folders you dont need to see in the explorer and it will also exclude them from watching.
+804|@Morgy93 can you try starting code.exe -n (will open an empty workbench without folder) to see if it changes anything?
+805|I can reproduce, looks like the tokens changed but the CSS did not.
+806|You can change the workspace encoding for all files in settings. We currently dont support this on a per file base.
+807|Can you see if you have a extension.js file inside d:/Playground/vsCodeExt/test/out/src folder? If not, can you run Ctrl+Shift+B (the build) and then run the test?
+808|the notepad.exe can do but vscode can not? I think add a file encoding detect from file header bytes(file BOM ) can solve this issue. wish it works some day.
+809|Same for me, VSCode 0.10.1, linux, using mono C#.
+810|I can reproduce that the plugin host process hangs at 100% CPU by simply completing on functions (e.g. fopen()). I also see the console full of normal messages and promise errors. Setting target to recovery build, this is pretty bad.  In my case I did not install any PHP, so the executable was still set to NULL in settings.
+811|@kissstudio yeah we do BOM detection but from my knowledge there are only BOMs for UTF 8, 16 LE and 16 BE. If you can tell me the BOM for your encoding I am happy to add it!
+812|Hi **@njcpn2**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+813|http://meta.stackexchange.com/questions/13501/links-to-urls-containing-parentheses
+814|+1
+815|This behavior is used in quite a lot of editors these days, along wrapping selected text in parenthesis, brackets, and braces. The setting `editor.autoClosingBrackets` seems to control the quotes as well as the brackets in its name.
+816|Hi **@jel-massih**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <span>We will now validate the agreement and then real humans will evaluate your PR.</span>  TTYL, MSBOT;
+817|@bpasero  I checked, when txt file saved as ANSI using notepad, its no BOM! I don't know how notepad can open it correctly even its gbk encoding(gb2312 or gb10830 and more) .  if I found how it works I will be here again.
+818|May be switch off global project watching (restrict it to currently edited files) and make user press refresh? There is a great chance an efficient Linux watching will never be implemented.
+819|Good idea, but unfortunately the underlying infrastructures (VS uses Roslyn directly, VS Code is using OmniSharp) are too different.
+820|This is on our backlog.
+821|The way the tree layout works, individual item heights are expected to be explicitly specified pre-render (at least from my understanding of it.) And as that's shared across the UI, wordwrap may not be the way to go.   I did a super janky wordwrap implementation in the commit above (using arbitrary height calculation so its pretty cringey) ![sample](https://cloud.githubusercontent.com/assets/1033731/11318270/75957d1a-9018-11e5-942e-c4436845ca82.png)
+822|+1
+823|What about doing something like Visual Studio where it opens a panel to the side? If the text would take up more than one line we can render it to a side panel.  ![sample2](https://cloud.githubusercontent.com/assets/1033731/11318304/f2e167d8-9019-11e5-9127-d2b35c882432.png)
+824|"Yes, but C too.  Lucas Rivoiro Em 20 de nov de 2015 6:30 PM, ""Benjamin Pasero"" notifications@github.com escreveu:  > @lucasrivoiro https://github.com/lucasrivoiro is this editing PHP maybe? >  > — > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/225#issuecomment-158516253."
+825|"@bpasero Well, it still took minutes to show up while using around 30% of my CPU, but at least I didn't get the ""crash"" message and were able to use it right away."
+826|Hi **@Jakeii**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+827|Thanks @jrieken
+828|Hi **@jepessen**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+829|:+1:
+830|@Morgy93 any extensions installed? Otherwise I am totally clueless...
+831|Is there really block select in the Windows build?
+832|@jel-massih :100:% correct about the tree layout mechanism. I would hate to do an extra panel though, just feels ugly... would be great to get more ideas here.
+833|Duplicate of #268
+834|Related to #337
+835|@njcpn2 May I ask: why?
+836|Thanks will take a look!
+837|@jeryanders you should have a typescript folder in your node_modules! We do not pick up the global typescript, so please install into the extension.
+838|you may want to indicate what platform you were on. Keep in mind that prior to 0.10, VSC was closed source and MSFT has no obligation to provide access to it.  Perhaps you could help the project and describe what you are seeing as far as _bad performance_?
+839|I could have sworn there was? I don't have a Windows build with me now, but I distinctly recall remarking to myself when I tried it out that the block selection worked correctly...?
+840|Nah.. never implemented. ;)
+841|"Oh ok, I thought this was open source right away.  Of course I can provide more details, I thought the downgrade was just a matter of not known the download link ;)  _My system:_ Model Name: **Dell XPS 15 9530 (Late 2013 Version)** Processor: **Intel(R) Core(TM) i7-4712HQ CPU @ 2.30GHz** Operation System: **Ubuntu 15.10**  _What is the term *bad performance_ referring to:* The general work flow of the program is weird. When I start Code, the program window is not loading ""instantly"", but the windows builds from the top to the bottom. Think about it like loading a massive image in your web browser with a shitty connection.  When I am typing, the letters does not appear ""instantaneous"", but appear of like half a second.  I did not go into more weird behaviour, since this already kills the whole experience. I though this was caused, because I am using 15.10 and the version 0.10.1 is labelled as beta.  If more information about my system is needed, just let me know."
+842|Duplicate of #65
+843|Got it! Works now, thanks!
+844|I was about to report that open-terminal seems to do nothing at all on my machine (Linux). I'm not sure what it's meant to do. I was kinda hoping it would open a terminal... ;)
+845|that should be helpful.   VSC was only made open source with the 0.10.1 release last Tuesday or so. I think they wanted to get it to a certain level before they open sourced it. The prior versions were free, but not open source. Thus there only being the open source releases here on GH
+846|"Same here, started with the latest update. One comment: when I open a PHP file, I get a message: ""Cannot validate the php file. The php program was not found. Use the 'php.validate.executablePath' setting to configure the location of 'php'""  This might be relevant."
+847|Where do you get that message?
+848|"I also have this issue with an XML file. The size of the file is about 80 MB. I can not provide you with the original one but you can reproduce it easy by creating a own file.  I was able to reproduce the crash with an XML file which is about 66 MB in size. Use the following C# Code to generate the file:  ``` XDocument xdoc = new XDocument(new XElement(""root"")); for (int i = 0; i < Math.Pow(10, 6) * 2; i++) {     xdoc.Root.Add(new XElement(""Child"" + 1, new XAttribute(""attr"" + i, i))); }  xdoc.Save(@""C:\temp\file.xml"");  ```"
+849|May releated or the same as #139 & #177.
+850|@bpasero Nope, I just made the automatic update from my previous version to the v0.10.1 which immediately caused this issue. Like I said I already reinstalled it, but nothing changed. I also don't know what else to do. Anything else I could provide to resolve this issue?
+851|This message appears when you don't have the php binary in your path variable and haven't set the path in the user settings. However, it is irrelevant in regards to the freeze. This issue sounds like a duplicate of #160
+852|I have the same error. :(
+853|Fixed link in _Footer.md, testing out build...
+854|I have the same issue
+855|I have the same issue.
+856|The license on code.visualstudio.com is for the VS Code product.  The license found in the vscode repo is for the open source code.
+857|this was just fixed...
+858|This is a known limitation, the ASP.NET guys plan on working on this soon.
+859|Happy to take pull requests!
+860|Please use Stack Overflow for questions, thanks!!  https://github.com/Microsoft/vscode/wiki/Submitting-Bugs-and-Suggestions#questions
+861|The same problem occurs when trying to use ES7 `async`/`await` syntax, which can be used with Babel or in newest Edge/Chakra versions. Imo jsconfig.json is completely unnecessary. Why do I need to set `compilerOptions` when I'm targeting a modern JS engine and not compiling anything? A better option would be to _enable_ everything by default and then auto-detect .babelrc files (or the same for Traceur) and if one exists, look at the constraints defined there.
+862|Yes it's a duplicate, I close this
+863|What about `async`/`await`?! See #408
+864|Yes, the ASP.NET and Debugging folks are working on this right now, we showed a demo during the Connect(); keynote.  Hopefully we will see something early in the new year.
+865|This is correct. VS Code the product has a different license than the code in the repository.
+866|"I'm having the same problem. Reported here: https://github.com/Microsoft/vscode/issues/162 It seems to be a problem that occurs with Atom also. I found that the problem ""is less of a problem"" (to say so) when Visual Studio Code's window is running on a screen with a lower resolution.  To downgrade (and keep using VSCode), I've looked into past downloads and found this link, for 0.9.1: https://az764295.vo.msecnd.net/public/0.9.1/VSCode-linux64.zip"
+867|"Title should be ""Univerial app version"""
+868|@chrisdias, could some clarification be added to that page? Also, what's the difference between the product and the source code? Please re-open this ticket.
+869|If it's similar on atom I bet it's an Electron issue.
+870|Which extension, what platform you are running on would probably help address your issue
+871|I think a jsconfig.json is just so weird. Why `compilerOptions` when I'm not compiling anything (already said this in #408). VS Code should have first class support for (modern) JS. If the internal implementation is ugly, at least set it to ES6 until it's improved.
+872|Duplicate of #84?
+873|Ah, good point :+1:   Running on Windows 8.1, and was trying to update this extension:  https://marketplace.visualstudio.com/items/odonno.pomodoro-code
+874|isn't VS Code based on Atom?  In Atom I didn't get those Errors.
+875|Ah, yes, OK. I think the product licence still mentions Preview though, not Beta.
+876|I had the same problem on Windows 8.1.  I checked the extensions folder after the first crash and I noticed the folder for the extension only had the icon file. I was trying to update this extension: https://marketplace.visualstudio.com/items/akamud.vscode-caniuse
+877|"I think a simple ""Extensions: Show Available Updates"" would be useful for people who prefer to do it manually."
+878|It uses Electron core. But the JS linting is handled by TypeScript I believe for the IntelliSense support (which, I have to say, is so much better than Atom)
+879|Yeah
+880|I cannot repro this problem. Did you run `scripts\npm install` prior to running `gulp watch`? That should install all necessary dependencies.
+881|Fixed
+882|@jepessen The change is fine, but please note that `src/vs/editor/standalone-languages/cpp.ts`  is not in use for colorization in VS code. It's for the editor standalone build. We use the C++ text mate colorization in `/extensions/cpp/syntaxes/c++.plist`which comes from https://github.com/textmate/c.tmbundle
+883|@mackenza Agreed. I'm always suspicious of wikis, tutorials, etc that put `sudo` in sample code. Copying and pasting commands into the console without double checking might turn a good day into a bad one.
+884|@Jakeii The JS text mate tokenizer is equal to https://raw.githubusercontent.com/textmate/javascript.tmbundle/master/Syntaxes/JavaScript.plist. We'd rather not have our own variant. Maybe you want to make a pull request to that repo as well? Once that repo is updated I'm happy to take the pull request.
+885|"There is a workaround by using ESLint. Have a look at ""JavaScript Linters (ESLint, JSHint)"" heading on this page: https://code.visualstudio.com/docs/languages/javascript  Very efficient!"
+886|@lucaslra Thanks for the contribution. Only the change to `src/vs/editor/standalone-languages/csharp.ts` is valid. If you remove the other changes I can accept and merge the pull request.
+887|Thanks @Tyriar, very nice pull request!
+888|"I think i found a way arround by putting a exclude instead of files:  ``` {     ""compilerOptions"": {         ""target"": ""ES6"",         ""module"": ""commonjs""     },     ""exclude"": [         ""node_modules""     ] } ```"
+889|this is a yo issue. if you make the terminal wider you won't see this behavior.
+890|Sorry, there is not enough information here.  What is the scenario, what is missing, etc.
+891|I think this can be closed, the wiki was modified to add this line:  > **Note:** For more information on how to install NPM modules globally on UNIX systems without resorting to sudo, refer to [this guide](http://www.johnpapa.net/how-to-use-npm-global-without-sudo-on-osx/) .
+892|what platform?
+893|I agree. Here is a screenshot of what I have in sublime.   ![screen shot 2015-11-21 at 1 41 13 pm](https://cloud.githubusercontent.com/assets/9119269/11320456/a16777bc-9055-11e5-905e-ebe213358a43.png)
+894|Windows.   But I suspect, it should be a problem with all platforms unless the window managers override it, which could hide the problem.
+895|Hi **@KindDragon**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+896|"You can press `cmd+shift+p` to search for a command. If you start typing ""format"", here is what you get:  <img width=""599"" alt=""screen shot 2015-11-21 at 22 10 08"" src=""https://cloud.githubusercontent.com/assets/2291025/11320555/abdf08c6-909c-11e5-95e5-43d0ecbffa48.png"">  So the shortcut is `shift+alt+f`"
+897|Hello, i have exactly the same problem  Running on Windows 10 Pro with VS 0.10.1
+898|Ok so what I can gather from @anibali and @gpbl is that jsx syntax inside .js files is useful for designers and there must be other editors that have set this precident and thus would make VSCode difficult to switch to for projects that have been taking advantage of this feature. Does that sound right?  Personally I would be more in favor of a feature that allows a global setting that makes all .js files be able to default to reactjs JSX syntax. This should be similar to the jsconfig files that are already used on a directory level to specify between es5 and es6. Any arguments against using that as a solution? My concerns about supporting any super set of JavaScript in .js files is that it could potentially make the code for standard JS parsing more complex, slow, and hard to maintain. Are these concerns valid?
+899|where did this standard of restoring un-maximized when you shut down maximized come from? I am on Linux (Mint Cinnamon) and every app I tried restored maximized if I shut it down maximized. I am not around my Windows machines right now so can't test there. Is this in some sort of Windows style guide item?
+900|@chrisdias informations are added.

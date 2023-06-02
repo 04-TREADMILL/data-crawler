@@ -1,0 +1,100 @@
+25801|Feature Request: MacOS Force Touch integration
+25802|TypeScript May 2017 UX Issue Prioritization
+25803|enhancement - explore adding quicklook for vscode for osx
+25804|Terminal rightClickCopyPaste doesn't work properly on mac
+25805|Incorrect 'cut' behavior (and delay?).
+25806|Treat <script> contents as JavaScript, not TypeScript
+25807|Treat Script Tag Contents in HTML as JS
+25808|Search - Spawn EACCES
+25809|Show tooltips for badges in git sidebar
+25810|Enable Semantic Diagnostics for Inline JS
+25811|Path with space in TFS and translated to %20 after clone won't debug/run.
+25812|Support URL specific encodings (query component)
+25813|VSC will hang when focus is returned in some occasions
+25814|Can't drag Markdown preview to start a new editor group
+25815|Add git.commitType configuration
+25816|Unable to DND over any <webview> editor (markdown, html preview)
+25817|Terminal captures Ctrl + R
+25818|Use Shared TypeScript to Compile VSCode Colorizer Tests
+25819|JS Syntax highlighting gets confused with `catch`
+25820|"Add ""Include"" to extension TSConfig Files"
+25821|Detect Markdown Reference Link Block Entries as Links
+25822|Add git delete branch command
+25823|Continue Investigation of checkJS in HTML Files
+25824|Git Commit All for single directory.
+25825|"""format code"" on .aspx/.jsp file results in unnecessary indents"
+25826|intellisense failed
+25827|Plugins do not work at all.
+25828|Monokai - Increase Contrast of Highlighted List Items
+25829|When tasks.json created the first time, restart is required to make it work
+25830|Issue with link highlighting in mardown files
+25831|bug in shortcuts at startup
+25832|Editor scroll bar has its bottom aligned to mouse the first time the mouse is moved on long files
+25833|Auto indentation doesn't work (C#, mac)
+25834|API Request: Getting the correct indentation level of a line
+25835|[Feature Request] Problem view should update immediately when compile problems occur
+25836|File menu wrong shortcut titles for some menu items
+25837|Problem loading reference ETIMEDOUT / ECONNRESET
+25838|终端换行问题（Terminal line problem）
+25839|VSCODE Keeps corrupting Git
+25840|[Feature request] Take into account location information in paths when following them in the terminal
+25841|Suggest: Text completions show empty documentation box
+25842|Suggest: widget is disconnected from the cursor, when in far right view
+25843|Hash Sum mismatch
+25844|Moving lag with arrow keys
+25845|Network: issues with network drives open mapped via Novell Client
+25846|"""Open with code"" actions and PATH are not set for other accounts of a computer after install"
+25847|Copy/replace/add left <-> right in compare views
+25848|blinking when vscode in max window
+25849|restartTask does not restart task
+25850|command + C does not effect on Mac
+25851|Context menu for tabs should include rename option
+25852|Suggest: Strange wrapping of documentation for `ArrayBuffer`
+25853|Suggest: documentation keyboard scrolling doesn't work
+25854|JSDoc: pasting text should automatically add * in front of each line
+25855|Stop rendering pseudo-italic fonts when italic is not available
+25856|[eslint] Parsing error: Unexpected token
+25857|[Feature Request] History of files opened feature
+25858|[html] provide translations of tag documentation
+25859|集成终端
+25860|Unmark file as changed if latest change makes file equal to the version on disk
+25861|Must type the same letter twice when one letter is selected
+25862|cannot access fromCache of undefined.
+25863|Golden-ratio split view
+25864|'Go to File' lists non-existent files
+25865|Debug Hover Widget Not Themed
+25866|Can no longer remove single matches from search results
+25867|Cmd-W closes tabs when About window has focus
+25868|Cannot Open TS Server Log File if it Grows Too Large
+25869|Open Editors section is redundant
+25870|Markdown scroll position jumps while editing and preview is shown
+25871|Open Editors section breaks slow double-clicking a file
+25872|Search viewlet gives padding to selected/hovered results incorrectly
+25873|Should go to implementation be in the editor context menu?
+25874|Reload, Install, Settings buttons in extensions viewlet not read by Voice Over
+25875|Developer command palette entries should always be at the bottom
+25876|[IntelliSense] jQuery insert autocomplete to VScode
+25877|Tabs close upon updating addons &/or updating vscode
+25878|v1.12.0 update errors on c# Targets: Error processing 'configurationDone' request. Unknown Error: 0x89720010
+25879|Add a command to open a new window as tab (Sierra tabs)
+25880|"Script element with type=""text/html"" not recognised as html"
+25881|Cannot download extensions / proxy settings
+25882|微软拼音输入法选择框不展示。
+25883|global search is not working - Error Parsing Glob
+25884|Slow performance resizing the panel when editors are showing
+25885|"Improved search in ""Go to file"" panel"
+25886|Error processing 'configurationDone' request. Unknown Error: 0x89720010
+25887|Thymeleaf syntax support
+25888|Latest update renders theme colors differently
+25889|shift  + < for maximising terminal ... :) how am I supposed to do arrow functions?
+25890|redundant enter character after auto-completion
+25891|HTML <script> tags containing HTML are not rendered with syntax colourization any longer
+25892|Close (Working Tree) tab when discarding changes in Source Control panel
+25893|release notes are NOT searchable
+25894|VS Code flickers when running on a high DPI external monitor
+25895|Unable to launch Visual Studio Code
+25896|Bring back ahead/behind counts while git syncing
+25897|Startup error messages for electron immediately following update to 1.12.0
+25898|Snippets using hard tab character no longer work
+25899|Capfile isn't displayed as Ruby
+25900|release notes should include browser link to online copy

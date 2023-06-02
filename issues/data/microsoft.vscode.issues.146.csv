@@ -1,0 +1,100 @@
+14501|VS Code debugger should be able to use an external file for environment setup
+14502|changes of tsconfig not updates error
+14503|Allow to undock the sidebar into a new window
+14504|Lots of borders in package.json hover
+14505|Extra separator in extension dropdown
+14506|Error when I open integrated terminal
+14507|Starting VSCode from PowerShell does not support UNC Paths
+14508|Several tasks in task manager
+14509|Launch external terminal as administrator
+14510|VSCode stops working
+14511|Couldn't find a compatible version of Scala with this version of Code.
+14512|Using VS Code as external tool to open a file sometimes results in file not found error
+14513|pre-commit npm package breaks GIT commit
+14514|variable.parameter can not be themed for TypeScript only
+14515|Fine black lines visible in multi-line selection
+14516|Allow saving markdown preview as an HTML document
+14517|[css] CSSLint - Support css-modules and its plugins
+14518|UI Render background-colors inconsistantly
+14519|Superfluous horizontal scrollbar is shown for hover dialog boxes
+14520|Uninstalling extension on Windows 10 does not prompt for a restart
+14521|Update hangs or is not installing
+14522|Allow to view and uninstall extensions depending on an extension
+14523|Disable Extensions Option Unavailable
+14524|import module intellisense working not well
+14525|TypeScript settings header has period in the title
+14526|Lock TypeScript 2.0.6 dependency in NPM shrinkwarp if necessary
+14527|Extension recommendations from Language Mode doesn't find Markdown extensions
+14528|Hide sidebar loses focus on terminal to editor
+14529|Wrong highlighting for angle bracket syntax in embedded language
+14530|PHP toggle-commenting not working
+14531|JSX comments
+14532|Feature Request:  Find in files>Replace All option to save and close
+14533|VSCode Debug: No Configuration loaded when .vscode/launch.json is on a network share.
+14534|New Toggle Maximize Panel command should have a keybinding
+14535|Release notes tab does not zoom properly
+14536|Folder path truncated after resizing window
+14537|Issue with vscode.workspace.getConfiguration
+14538|[javascript] Shebang should be highlighted as a line comment.
+14539|Let f8 show current marker first
+14540|Extension changelog only displays if extension is installed
+14541|[less] mixins - empty parameters
+14542|Only one type of contributes entry is displayed for Extension Details Contributions
+14543|UI scrolls when tabbing around in narrow window
+14544|Replace all shortcut doesn't work anymore
+14545|"Add Option to Disable ""Alt"" Showing Menu Bar When Toggled to be Hidden"
+14546|No squiggles on empty lines
+14547|Allow to set image as background of explorer panel
+14548|use ctrl+P open a file, and do this action again, the older file was colsed
+14549|Can't evaluate when not at a breakpoint
+14550|access modifier after decorator is not highlight
+14551|Support HTML comments in Markdown
+14552|Not being prompted to update vscode-go on Windows
+14553|No number shows how many files are found after searching
+14554|Editor: snap to minimize is not cleared in all cases
+14555|The cursor can't move in the Ruby irb Mode in the Integrated Terminal
+14556|Extensions: use a real dialog to confirm uninstall
+14557|VSCode API tests no longer run from within Code
+14558|Keyboard reference should get some UI love
+14559|"VS Code requires git ssh keys to be named as ""id_rsa"""
+14560|SCM: Show changes in tree-like format
+14561|Prioritize perfect match over substring match on code completion
+14562|Code intellisense should provide the variables in scopes or nearly first
+14563|Add Char to status bar (besides Line and Col)
+14564|Terminal fails to render João's name
+14565|Function calls are coloured differently in React-TS in VS Dark theme
+14566|Format for tsx remove some space in string
+14567|Monospacing broken by Chinese character
+14568|Html sample is not rendered/colored properly
+14569|Window title not updated on Open Recent
+14570|Investigate to leverage accessibility API in Electron
+14571|Debug: Extra whitespace when showing object variable inline
+14572|Vertical resizing minimizes panel
+14573|[C++] single quotes in numeric literals are parsed incorrectly
+14574|Tests in FileService/TextFileModel are flaky on Linux
+14575|Terminal content is shown on and off when changing terminal line height
+14576|Go To description mentions line, column but it should be line, character
+14577|TypeScript formatter suddenly forgets about formatting rules
+14578|Handle spaces in text mate rule name
+14579|Please add basic tool bar for formatting (comment/uncomment, do/ undo)
+14580|Show zoom scale indicator in status bar
+14581|Add KeybindingService.resolve(keybinding: Keybinding, target: IContextKeyServiceTarget)
+14582|intelliSense in configuration file can be improved
+14583|Render combining characters in different color in the F1 list (in keybindings)
+14584|Debugger tool uninstalled not disappeared or disabled
+14585|Debugger for Chrome extension not working
+14586|Tabs not rendering right
+14587|Linux: revealing a file in the native OS explorer opens it in the background
+14588|Disable middle-click paste
+14589|Launch: first argument for workspace path no longer reaches extension window
+14590|Allow users to restore files instead of just folders while restarting Code
+14591|Many shells launched from the integrated terminal on Windows don't function in various ways
+14592|t.getId is not a function
+14593|workbench.debug.viewlet.action.reapplyBreakpointsAction does not call setExceptionBreakPointsRequest on the debugger when only exception breakpoints are set.
+14594|Extension details view should show Marketplace version of README and CHANGELOG
+14595|Ctrl+Alt+Up Down Arrow flips display upside down.
+14596|"Add ""Code here"" for each platform's explorer context menu?"
+14597|Support instances across Win-10 virtual desktops
+14598|Wrong tokenization for text in hover for Python comment
+14599|Scrolling does not work in markdown preview using touch screen
+14600|Chord keybindings do not show up in menus

@@ -1,0 +1,100 @@
+11501|Support for file links
+11502|Is there a list of all stable commands we can call?
+11503|Add JS format option to insert space before parentheses in function definition.
+11504|How does your chrome-debugger integration work
+11505|Add postDebugTask to debugger launch.json
+11506|Running tests from command line crash
+11507|[folding] collapse block comment shortcut
+11508|Can't scroll on Terminal output
+11509|[Proposal] Display all properties (inherited or not) of a given class (in TypeScript)
+11510|Windows - The terminal process exited with code 1
+11511|ExtensionContext.globalState: Can't unset a Memento stored value
+11512|cannot install extensions or chage config files on linux
+11513|"""the file cannot be displayed in the editior because it is either binary ...""  but sometimes we need to read binary file  as text"
+11514|Provide better error messages when update fails
+11515|Word selection is weird around non-word characters
+11516|macOS 10.12: background artifacts
+11517|"[loc][Query][VSCode] More context for ""Language"""
+11518|Error message when opening Code with no internet connection
+11519|Typescript definitions not found when comparing changes on working tree
+11520|[json] completion suggests items already there: improve error recovery
+11521|"[loc][Query][VSCode] Please clarify ""languages"""
+11522|Explorer: indicate symlinks
+11523|I cannot start “javascript” debugger in Visual Studio Code (probably, because installed HPC)
+11524|'debugger' on first line - stop event received before initilized
+11525|Integrated terminal should remember scroll position
+11526|The 'x' button to close a tab doesn't always work
+11527|Tasks have different encoding than shell, breaks build task
+11528|Only shortcut in commandService.ts if the command is a core command
+11529|"Question: Is there any way to trigger a ""refresh"" of a CodeLensProvider?"
+11530|DiagnosticCollection.set(entries: [Uri, Diagnostic[]][]) overload doesn't replace all diagnostics
+11531|TypeScript: rename enum doesn't cascade changes
+11532|CPU often consumes 100%
+11533|Add symbol list for existing textmate syntax
+11534|JS Syntax highlighting breaks when creating new objects without parenthesis
+11535|As a user I want to be able to set the exception type for exception breakpoints
+11536|Inverted (natural) scrolling on Linux?
+11537|Empty untitled file should not show up as dirty
+11538|[snippets] How to get current Filename, LineNumber from Snippet
+11539|[themes] make color themes user configurable
+11540|"Linux build: Ubuntu Software Center complains ""The package is of bad quality"""
+11541|vscode-linux-*-build-deb - permission bits match expected
+11542|Cannot place a Bookmark on a line
+11543|Debug console recognizes DateTime as URL
+11544|Extensions not working at all
+11545|Figure
+11546|HTML CSS Class Completion: Fetching CSS rules from CSS files, please wait. Freezed.
+11547|Update to chokidar 1.6
+11548|[Feature] Ability to parse build.cake files to auto create task definitions
+11549|[Question] Is it possible to add debugging capabilities to other file types
+11550|Use F12 or other shortcuts to jump to a function definition
+11551|[Feature]Show pending git push and pull
+11552|[css] linear keyword is not coloured
+11553|System becomes sluggish after open a folder that contains many files and subfolders
+11554|Programs / executables / libraries are not signed
+11555|Regex find does not match on beginning and end of lines (missing multiline flag?)
+11556|Improve extension engine compatibility
+11557|Persist user choice in Find options (case, whole word, regex) in the Find widget in editor
+11558|Find with mult-line is not giving correct results if regex has beginning boundary
+11559|Command Pallete is empty while trying to select encoding or eol sequence
+11560|Save dialog whilst open multiple tabs of the same file
+11561|VS Code Blank screen
+11562|Jumping intelisense window when close to the bottom of window
+11563|[typescript] use the language service for tokenization
+11564|External Terminal support for runInTerminal request
+11565|Node apps do not terminate in debug mode
+11566|Joh/11455
+11567|Seeing a single space inserted at the end of strings when editing HTML/JS files
+11568|Add Seti theme
+11569|Launcher node js don't work anymore since last apple update
+11570|Provide guidance to language and extension authors
+11571|Add Seti theme
+11572|Markdown links that are indented 2 lines in a list are not highlighted
+11573|[sass] highlight bug and error
+11574|supportsCompletionsRequest is not respected
+11575|Visual Studio Crash when 'Open Folder'
+11576|minimalEditOperations can break formattings
+11577|Extensions should be able to define code folding regions in a document
+11578|Support multiple-indent levels for onEnterRules/IndentActions
+11579|Add line-wrap to file comparison
+11580|C++ code highlighting fails for large files
+11581|Adopt #11311 in TS land
+11582|Provide a way to remove a CodeLens in the resolveCodeLens
+11583|Handle undefined terminal name. Fix #11397
+11584|UX meeting agenda 04 September 2016
+11585|File search popup disappears when tabbing away from code
+11586|Git: Configure Git Username and Password
+11587|"Typescript 2.0.2: Global Types Not Found if tsconfig.json Contains an ""include"" Field"
+11588|Show high-contrast hover cursor on integrated terminal on Mac. Fix #11129
+11589|Show folder name prefix in tab if multiple files are having the same name
+11590|Search shows results for the same file twice if it's open as a differently-cased filename
+11591|Add Find in folder
+11592|Precedence in the presence of multiple formatting providers
+11593|[JS] IntelliSense disregards properties if defined via Revealing Prototype Pattern
+11594|can open cmd as administrator?
+11595|Configuration option for pre-tab behavior
+11596|Build task won't work at times
+11597|Update All Extensions Feature
+11598|"Clicking on ""0 references"" shouldn't show references popup window"
+11599|"Entering (, {, etc while editing a .c file automatically inserts a "")"
+11600|"Entering (, {, etc while editing a .c file automatically inserts a "")"" or ""}"" without user input"

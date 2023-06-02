@@ -1,0 +1,100 @@
+3301|I find it weird that the generated tasks.json has errors
+3302|If we generate a non empty tasks.json it should not trigger intelisense
+3303|"[folding] Fold-All breaks folding for a large file and ""editor.wrappingColumn"" to 0"
+3304|Output should not respect editor.rulers
+3305|[c++] wrong syntax highlighting results when using decltype and '::'-specfied names in templates
+3306|Action buttons are not announced in Explorer section title bar
+3307|QuickOpen: icon overlaps with 'recently opened'
+3308|When using word navigation, the screen reader announces tokens twice
+3309|Screen reader misses out '!' when reading lines of code
+3310|[folding] File contents scrolls if folding is turned off
+3311|[C++] using a operator() of a templated class leads to wrong syntax highlighting results
+3312|[folding] Opening a large file freezes VSCode due to folding decorations
+3313|Fold action does not always fold the inner most uncollapsed region
+3314|Switching files doesn't update indentation status bar
+3315|Fold/Unfold action does not support multiple regions
+3316|Suggest widget should beware of filterText
+3317|deb.package shows License: Unknown, updates: Unknown
+3318|None of the task snippets resolve to a working tasks.json setup
+3319|[folding] Double clicking a 'Find All References' does not expand a folded occurrence
+3320|[folding] Stepping through 'Find' results does not expand their occurrences
+3321|Support a localized version of the Readme.md
+3322|Duplicated 'Telemetry configuration' section
+3323|Working files list does not re-order if file is reopened
+3324|Toggle search details is not visible in Hight Contrast Theme
+3325|Wording of telemetry options
+3326|Duplicate definition warnings upon opening markdown file
+3327|Find all references matches in High Contrast Theme
+3328|Always offer installation of the mono debug extension
+3329|Bad phrasing in debug pre launch task
+3330|"Suggest to rename ""Shell Command"" to ""Code Shell Command"""
+3331|Default value of preLaunchTask should be null and not an empty string
+3332|Proposal: Have Chalk and other modules output to debug console
+3333|Allow a config option to change default line sequence (CRLF and LF)
+3334|Improve relative paths in launch.json migration
+3335|VS Code debugger doesn't exit after program run
+3336|mono-debug extension should not be offered for installation on Windows
+3337|Inform the user that the extension is being installed
+3338|[powershell] `configuration` and `node` keywords aren't highlighted
+3339|Bad error message with bad debug configuration
+3340|Debug console always comes up when attaching to target
+3341|No timeout error when timing out due to restart: true
+3342|[debug] can not stop on 'parseInt'
+3343|[folding] Add code folding for markdown based on heading level
+3344|Snippet list does not render correctly
+3345|[folding] Cannot code fold empty functions
+3346|[folding] Folded block comments should show */
+3347|Allow output channel to stay in scroll position
+3348|[folding] Collapse ending brace to the same line
+3349|[folding] should not fold whitespace after function
+3350|Ruller position is +1 from my expectation
+3351|Provide GUI for settings
+3352|Provide GUI for extensions/themes
+3353|how to make debug console vertical
+3354|Link to API docs from intellisense
+3355|Intellisense read more button should not appear when everything is already displayed
+3356|Allow multiple of the left panels to be displayed at once
+3357|Remove or move into languages/json the MonacoEditorSchemas
+3358|Polish about dialog
+3359|Tab moves focus message not consistently displayed
+3360|Provide jsdoc highlighting
+3361|PowerShell: DSC's Node keyword isn't highlighted
+3362|"Change project in ""Extension Development Host"""
+3363|build/gulpfile.hygiene.js complains about indentation in template strings
+3364|"""Visual Basic"" language should be labelled ""Visual Basic .NET"""
+3365|CompletionList on Travis - TypeError: vscode.CompletionList is not a function
+3366|vscode
+3367|Show Accessibility Help Alt+F1 hotkey is an invalid on Ubuntu
+3368|"[extension developping] Setting ""vscode"": ""^0.10.7"" fails on Travis"
+3369|Keyboard accessibility: Strange behavior when focusing item after text editor
+3370|Make the keyboard focus outline configurable
+3371|"QuickPick ""recently opened"" indicator is clipped"
+3372|Cross arrow in search panel is different to that used elsewhere
+3373|Top of debug panel should be responsive
+3374|strange sorting order of QuickPick help
+3375|Keyboard accessibility: Cannot check breakpoint checkboxes when selecting the line item
+3376|Make the quick open prefixes configurable
+3377|After installing VS Code from a debian package, I could not find a double clickable application
+3378|When writing a custom debug adapter, variables won't clear on the test client.
+3379|[folding] icon hides git gutter colouring
+3380|whether can set data to clipboard in vscode plugin?
+3381|Git checkout should also show remote branches
+3382|Restart and Stop actions have no keybindings
+3383|Cannot expand prototype
+3384|Show unverified function breakpoints in debug viewlet
+3385|`Reapply all breakpoints` seems like a bug exposed to the user
+3386|Folding icons don't match the font size
+3387|Line selection should always include the line under the mouse cursor
+3388|treat some regexp as a comment start
+3389|formatOnType: true breaks newline indentation
+3390|Pseudo localization doesn't seem to work in extension development
+3391|Suggest widget: Deleting characters sometimes does not highlight matches
+3392|Screen cheese with suggest widget
+3393|Nls: align `config` and `loadMessageBundle` calls
+3394|[folding] Fold action does not respect current folding block
+3395|on mac osx i can‘t update
+3396|[folding] Cursor should move after Fold action if it's inside the foldable region
+3397|[folding] Setting `editor.folding` to `false` should expand all folded regions
+3398|[folding] markers of regions that intersect with the cursor should be visible, regardless of mouse hover
+3399|[folding] Fold action should work on all cursors
+3400|Reapply breakpoints action should be enabled when function breakpoints exist

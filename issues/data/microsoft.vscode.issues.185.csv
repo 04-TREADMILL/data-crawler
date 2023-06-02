@@ -1,0 +1,100 @@
+18401|disable extension pack should disable individuals
+18402|Pick up TS 2.1.5 final release
+18403|Colorization of Javascript misses Unicode-flagged RegExp literals and some types of \u{...} constructions in RegExp literals
+18404|Insufficient gap between viewlet content and scrollbar
+18405|Sass list syntax not yet supported
+18406|IgnoreFocusOut
+18407|Emmet XHTML broken
+18408|when use ^- the focus is not currect
+18409|when use ^- the focus is not correct
+18410|ctrl + s didn't save anything
+18411|Multisave corrupts files
+18412|localStorage access is slow
+18413|`ext install <extension name>` not working
+18414|Setting to skip keyboard shortcut contributions of extensions
+18415|Ctrl-Shift-F displays Replace textbox after Replace has been used once
+18416|gulpfile.babel.js support #3043
+18417|Open file with space form terminal
+18418|Emmet tab-key not working
+18419|Modern Fortran Intellisense
+18420|CALL STACK views shows path instead of name
+18421|ssh alias not Working
+18422|100% CPU Usage with very small project open on Ubuntu
+18423|"Show ""Downloading Update"" instead of ""Checking for Updates..."""
+18424|Handlebars block expressions are not highlighted anymore
+18425|#ifndef Cppsnippets write #ifndef
+18426|ITerminalInstance.onData should be higher level
+18427|Allow custom link matchers to be registered in terminal API
+18428|vsce package command not including node_modules directory
+18429|Feature request: Search in folder of currently open file/buffer
+18430|Invoking vscode.startDebug does not invoke debugger with packaged extension
+18431|Status bar priority should apply reverse for alignment LEFT
+18432|PSScriptAnalzyer corrupts multi-line code during replace-aliases
+18433|Can commit code with unused imports and which is not formatted
+18434|Visual Studio Code takes forever to start and then runs incredibly slowly
+18435|Encryption code-compilation process?
+18436|does not list `trait construct and symbols in php`
+18437|variables in php double quote is not highlighted
+18438|Add onDidChangeModelMarkers to IEditor interface
+18439|First line of terminal isn't really visible when editor is zoomed in
+18440|Maximized panel should stay maximized after a zoom
+18441|Search button start from beginning of page...
+18442|[vb] Switch to a more active grammar for VB
+18443|Ctrl-Shift-B does not correctly detect when a process exits when sub-processes are started.
+18444|Python intellisense and autocomplete not working as expected.
+18445|Fixes #18427 Map jsx-tags lang id to jsx in emmet
+18446|EMMET does not work inside already created tags
+18447|TypeScript Codelens keeps scrolling the window while typing
+18448|Sourcemaps are broken in building from source
+18449|fix #13945. support format on paste
+18450|Fix 17584
+18451|extensions doesn't work
+18452|code-settings-sync  Shan  2.4.2  hava a problem
+18453|Cannot list all the extensions currently installed in cmd
+18454|Add Peek Implementation Command
+18455|Issue: Autocomplete not working for embedded JS exports
+18456|References Window Immediately Dismissed When Selecting Peek Definition From Command Pallet
+18457|Add peek implemenation command
+18458|API for extensions to know the scope as per grammar of the cursor position
+18459|Clicking Internal Link in Extension Readme Opens Webview.html in Editor
+18460|Do not display TypeScript References Code Lens for Anon Classes
+18461|Fix webview internal  links
+18462|路径 d:\Downloads\VSCode-win32-1.9.0-insider\resources\app\extensions\typescript\node_modules\typescript\lib 未指向有效的 tsserver 安装。将禁用 TypeScript 语言功能。
+18463|toggleSuggestionDetails when there is no jsdoc
+18464|cannot fold namespaces in c++ files
+18465|Fix build
+18466|Setting Powershell as default terminal for Windows 10+ (fixes #16838)
+18467|Words Should by Split by Em Dash and En Dash
+18468|In markdown preview, if the font size is not the original 12 px, the editor's preview window will have a row of blank space
+18469|update distro
+18470|Cannot read property 'length' of null when replace all
+18471|Can't make the function tooltip disappear after the braces have been removed
+18472|"No file icon in titlebar if titleBarStyle != ""native"""
+18473|about goto symbos
+18474|debug hover failed when using chrome debugger
+18475|"Compound debugging fails with ""Configuration '<name>'does not exist."""
+18476|Very slow when view the large-stack-array in debugging program
+18477|Go to Definition no longer works after update to 1.8.1
+18478|Ben/mixin
+18479|Need support to specify cwd per terminal instance
+18480|Cannot open Visual Studio Code when Offline (no internet connection)
+18481|Tooling stops working after VSCode update
+18482|Add line per line in Git panel
+18483|Suggest widget accepts hidden suggestions when opening parenthesis
+18484|Broken TypeScript hover
+18485|[less] Syntax checking error for mixins
+18486|Mixed keyboard menu shortcuts
+18487|Malwarebytes doubles VS Code startup time
+18488|May I strongly suggest that the setup for the basic program direct the installer to look at the Color Themes before anything else.  The default screen is almost unreadably dark and low contrast.  Some of the optional Color Themes are just great and very easy to read
+18489|Syntax highlighting bug with string interpolation in javascript?
+18490|Hide commands based on when clause when command does not apply
+18491|End of line sequence changing sometimes
+18492|progress api
+18493|ITerminalInstance.dispose results in exception if started with waitOnExit
+18494|Crashing immediately on startup
+18495|Would like to pass an environment when creating a terminal
+18496|[Feature request] In search, show total result count
+18497|TypeScript go to implementation goes to correct file but wrong cursor position
+18498|generate type fix does not work
+18499|Feature request: Put open folder name first in window title (better for thumbnails)
+18500|When connected to SharePoint folder I get an error that the Typescript Language Service died

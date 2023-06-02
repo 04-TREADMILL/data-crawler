@@ -1,0 +1,100 @@
+17801|"@anyong thanks for your insights!  For point 3, not sure if you know but you can customize this currently too with:  ``` json ""explorer.autoReveal"": false ```  I bind `workbench.files.action.showActiveFileInExplorer` as well so I can get to a random file in the explorer if I need to."
+17802|"Did you try the command ""code""? (That's how it registers itself on Windows at least)"
+17803|"Something like:  ``` ""files.associations"": { ""*.tpl"": ""html"" } ```  in your user preferences may work."
+17804|yes it can,very good! thank you!
+17805|It can be opened by wrtie code in console in linux,very good!
+17806|通过code命令是可以的，很好
+17807|还非常容易卡死，关都关不掉
+17808|Good point.
+17809|"Would not think so, anything printed to the console? Can you try running ""scripts/code.sh --verbose"" and copy the output here?"
+17810|This issue was moved to Microsoft/vscppsamples#11
+17811|+1
+17812|Which commands would these specifically be?
+17813|@Tyriar I think the naming is fine!  I tested it and it seems to work nicely. There is one case that you should maybe think about: You are adding closed working files to the stack but you do not remove them if I open the closed working file through another action. Imagine I close foo.txt, then open foo.txt again via explorer and then press Cmd+Shift+T, you would end up opening foo.txt again. Not sure how other editors behave here?  Please also write a test plan entry for this feature. Thanks!
+17814|`workbench.files.action.focusFilesExplorer` and `workbench.files.action.focusWorkingFiles`
+17815|I would appreciate if people could tell the `font-family` to use for Japanese as well. I like the idea of connecting this with the `lang` attribute on the root element.
+17816|"P.S. I left a solution regarding syntax highlighting on this issue for all vscode and pug user.  Add your User settings (`Command Palette` -> `Preferences: Open User Settings` -> edit settings.json) such as:  ``` json ""files.associations"": {   ""*.pug"": ""jade"" } ```"
+17817|"Brilliant! :+1:   Just for what it's worth - and if anyone is interested - here's my bindings:  ``` json // Place your key bindings in this file to overwrite the defaults [ { ""key"": ""ctrl+k ctrl+e""   , ""command"": ""workbench.files.action.focusFilesExplorer""   } , { ""key"": ""ctrl+k ctrl+shift+e""   , ""command"": ""workbench.files.action.focusWorkingFiles""   } ] ```  <br/> BTW: The `workbench.files.action.focusFilesExplorer` entry became available in the list of available keybindings with today's update of Visual Studio Code."
+17818|@sbusayarat not right now, feel free to file a new feature request. In the meantime please use the external console as a workaround for this
+17819|There exists a command for your need: `Shell Command: Install 'code' command in PATH`  Check [https://code.visualstudio.com/docs/editor/setup](https://code.visualstudio.com/docs/editor/setup) for the tips.
+17820|Can you post in English?
+17821|Hi **@differentmatt**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+17822|**@differentmatt**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+17823|@bpasero That's exactly what I suggested.   ``` css .monaco-shell:lang(zh-CN){     font-family: ...; /* Chinese fallback sequence*/ } .monaco-shell:lang(ja){     font-family: ...; /* Japanese fallback sequence */ } ```
+17824|Does simplified vs traditional Chinese make any difference?
+17825|@bpasero Yes. `zh-CN` and `zh-TW` should use **different** fallback sequence to provide correct character shapes. An example of different character shapes in East Asia is this: ![](https://raw.githubusercontent.com/adobe-fonts/locl-test/master/resources/locl-example.jpg)
+17826|Ok, I was asking if someone could comment here with the 3 different font families for Traditional, Simplified and Japanese.
+17827|@bpasero  Five actually, `zh-CN`, `zh-TW`, `zh-HK`, `ja`, `ko`. Though for `zh-HK` there may not be a specialized font designed for it.
+17828|Well, but we do not have translations for all 5 of those languages.
+17829|They should really not do that
+17830|Actually: Simplified Chinese, Traditional Chinese, Japanese, Korean
+17831|If I change `useCaseSensitiveFileNames` to true, IntelliSense starts working for me :)
+17832|@bpasero If `zh-HK` is not provided, then it can be removed :)
+17833|> I know that for .js we do not show 24/7 intelli-sense inside comments,  That's not true. We always show textual completions on type. The rule is that as long as the higher ranked provider returns a result, the lower ranked (textual completions) won't get a shot.  What is different between textual and other completion is the _commit on special character_ rule.  Once CSS becomes an extension the behaviour is the same. Nothing to do here
+17834|Glad that works. We'll have to follow up with the TypeScript team. The filenames they cache shouldn't be normalised. Or they should apply the same rules then to the file paths we send them
+17835|Indeed 👍
+17836|Well, TypeScript should really give you can compile error cos `CompletionItem` is spec as a class... We surely do an instanceof-check and might forget to resolve a promise along the way
+17837|In your case it will return [`undefined`](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/api/node/extHostLanguageFeatures.ts#L515) which we should handle along the way...
+17838|disapeared after uninstalling c/c++ extensions
+17839|Well I guess that means it's not going to be changed. What a shame...  You should at least consider also putting pre-built packages here on github as downloads which don't have this annoying licensing on top that nobody needs.
+17840|Please use other system instead of Deepin Linux.^^~
+17841|ok I'll post in english at next time,My english is not good,...
+17842|He is saying, after launching VS Code from terminal on Deepin system, he can't Open Folder from menu, Ctrl B doesn't work either.
+17843|+1
+17844|+1
+17845|"@isidorn it really is just:  ``` python print(""Test"") print("""") print(""Test"") ```  Which results in:  ``` Test Test ```  Instead of:  ``` Test  Test ```  But as soon as you simply add a space:  ``` python print(""Test"") print("" "") # tiny little space print(""Test"") ```  Then it does successfully print:  ``` Test  Test ```  As said it doesn't matter what application is running as a task, whether it is C++ doing:  ``` cpp std::cout << ""Test"" << std::endl; std::cout << std::endl; std::cout << ""Test"" << std::endl; ```  C doing:  ``` c printf(""Test\n""); printf(""\n""); printf(""Test\n""); ```  or Lua doing:  ``` lua print(""Test"") print("" "") print(""Test"") ```  VSCode always removes lines only consisting of a single new line."
+17846|I agree, that is annoying! An auto-close when there is only one matching string sounds like a good idea. Once you've typed out the complete suggestion, it should go away.
+17847|Perhaps partial transparency as long as you don't hover the box? Or simply that the box pops up below the marker, just like the auto complete does.
+17848|Hi **@hanxiaomax**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+17849|**@hanxiaomax**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+17850|Looks like the offending code is here: https://github.com/Microsoft/vscode/blob/c82ac047c4f43f738d212c3d6e600180475543d0/src/vs/editor/common/viewLayout/viewLineParts.ts#L162 but I'm not super sure how to modify it. Giving it a shot.
+17851|Putting the parameter hint under the marker would solve my problem. It would have to deal with potentially overlapping the auto complete box. Maybe it could go to the right of the auto complete box, or auto complete could go below the parameter hint.  On Sat, Apr 16, 2016, 06:53 Sebastian Holmqvist notifications@github.com wrote:  > Perhaps partial transparency as long as you don't hover the box? Or simply > that the box pops up below the marker, just like the auto complete does. >  > — > You are receiving this because you authored the thread. > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/5365#issuecomment-210820926
+17852|We invested quite a bit in memory leak fixing for the 1.0 release, so I would expect the situation to be better with 1.0. But there is still cases where it happens.   I might have a new theory because I recently found out that Electron applications (our UI framework) get throttled as soon as their window either looses focus or moves to the background. I wonder if this throttling could have an impact on memory consumption.  Whenever I tested to reproduce I left the VS Code window open with keyboard focus, so maybe one difference is to let it run in the background.  There is a way to disable background throttling so I could produce a build with a flag to enable this.  Otherwise it would also be interesting to hear from people if a crash after minimize is the typical scenario.
+17853|Fixed with the update to Electron 0.37.6
+17854|Can you post a screenshot of open folder not showing up? And by ctrl+b do you mean toggle sidebar?
+17855|All of my crashes happened when VSCode didn't have focus. Generally they happened after leaving it in the background all day while browsing the internet or using Visual Studio
+17856|I second this. I recently experienced a crash . It was with a VS in background when I had focus on sublime for most of the day.  On Sat, Apr 16, 2016 at 11:44 AM, Toni notifications@github.com wrote:  > All of my crashes happened when VSCode didn't have focus. Generally they > happened after leaving it in the background all day while browsing the > internet or using Visual Studio >  > — > You are receiving this because you were mentioned. > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/508#issuecomment-210872544
+17857|Not sure why this is closed, there is still no option to disable line highlighting. Came to open an issue for this exact thing.
+17858|@te1 glad to here that you find it useful.
+17859|@nelsonlaquet You're no fun! :grin:  But seriously, I don't believe that custom CSS would cause massive incompatibilities between plug-ins. People love customizing things, and it builds community.  I really hope that Microsoft doesn't do the Windows thing again, where you literally have to edit registry values just to change the font.
+17860|Duplicate of #3828 (?)
+17861|Yup, looks like a dupe to me. Thanks!
+17862|@JVimes @dvlsg I submitted #5402 for Alt+select behaviour.
+17863|You can knock the assumed off sublime, I can confirm it works that way. The shortcut isn't `alt-click` for me on windows, but the selection _does_ start where you click.
+17864|This is our target behaviour, and hopefully possible when virtual space is supported.  ![vs](https://cloud.githubusercontent.com/assets/5047891/13401144/47e9ea9e-df0b-11e5-8552-f2646376d763.gif)
+17865|+1
+17866|Duplicate of https://github.com/Microsoft/vscode/issues/1231
+17867|@jrieken seems like that is happens to early, so I cannot attach debugger to it :(   see https://www.dropbox.com/s/sozuwkjmvzb81ve/vscode-error.mov?dl=0  Any other ideas how I can help to debug this problem?
+17868|+1
+17869|Run `code` on the command line for this (you need to install via a package), if you're on OS X you may need to install it via the command that @hungys mentions.  For `sudo code`, that is captured in this issue: https://github.com/Microsoft/vscode/issues/3068
+17870|@jrieken this usually is not want you want, as people will start hating you for that.  Assume that you are working with legacy code, where a lot of trailing spaces left, or maybe you have plenty folks on the team who do not care about left spaces. Also imagine that you are modifying Nk lines file. If you will kill all trailing spaces at once - you will cause a lot of confusion in git blame, plus people will start to hate you for a lot of merge conflicts.
+17871|I think that C# is not bundled with the vs code now, you have to install it via the extension manager... take a look [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp).   > Note that I'm not 100% sure for that, but give it a try.
+17872|@egamma, thank you for the help. I will give it a try. And sorry for my bad attitude
+17873|Is there any way to open insiders build through the terminal?
+17874|@egamma Just want to say thank you. I tried and it worked well. With ESLint plugin, it works smoothly! I will try VS Code for some time and see how it goes.
+17875|@bachstatter `code` for stable and `code-insiders` for insiders. You can create an alias if you want something shorter if insiders is your daily driver:  ``` bash alias c='code-insiders' ```
+17876|+1
+17877|I think I understood the issue.  I have pushed this as workaround: https://github.com/Microsoft/vscode/commit/fe5ea709b1345f418cde4e775444dea67d0ffc8e
+17878|I'm just wondering if it doesn't make sense to refer to it as the May release, as it will be released in May and not April. I've seen some confusion around this before.
+17879|Recent versions of the C++ extensions put this file into the .vscode folder.
+17880|Duplicate: https://github.com/Microsoft/vscode/issues/5333
+17881|@jeysak how's you do that? make a gist. until vscode master does something, I need a temporary solution :3
+17882|Experienced a crash when using the insider build not long ago. Had been on for 2 days. It suddenly became slow. Selecting text with the mouse stopped working. Shift-Right worked but very slowly. The app crashed a few minutes after losing focus.  This is my first crash for the insider build but as for the normal build, I upgraded to v1.0 and it still crashes every few minutes or so after opening making it unusable. I don't even have to do anything special. Open it, edit a file (mostly .elm files) or just let it be and it just crashes. Doesn't even wait to lose focus first.
+17883|This works as expected, but you have to press ⌘K  (then release ⌘) ↑
+17884|The file is treated as a Typescript file due to this bug: Microsoft/TypeScript#7291.   Closing as a duplicate.
+17885|@katares is correct you need to install the C# extension.
+17886|There already is the `Configure Language` command available in the command palette, pls see https://code.visualstudio.com/docs/customization/locales
+17887|FYI @johnliu2016
+17888|There is the `files.exclude` setting, pls see  https://code.visualstudio.com/docs/editor/codebasics#_explorer. Does this cover your needs?
+17889|Can you attach a ruby file that is causing this problem? Can you reproduce the error with other ruby files?
+17890|@gregvanl can you update the doc accordingly. @aeschli I suggest we support both the `.pug` and `.jade` file associations.
+17891|This issue was moved to saviorisdead/RustyCode#96
+17892|Why did you close it?
+17893|Closing as a duplicate of #4679 that is on the April plan.
+17894|Works for me currently.  // CC @waderyan
+17895|// CC @alexandrudima
+17896|There is the `Trigger Parameter Hints` (cmd+shift+space) command you can use to trigger the parameter hint.  @JordanBelford does this cover your needs?
+17897|This issue was moved to PowerShell/vscode-powershell#147
+17898|@vsccarl this setup should work just fine. It is our recommended setup for debugging both sides of client and server type programs. So something must be broken in your setup.  What are the details of the error? What is the exact setup? If possible include zipped project including launch configs.
+17899|This issue was moved to Microsoft/vscppsamples#14
+17900|Did you try `View>Toggle Full Screen`

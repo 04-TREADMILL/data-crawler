@@ -1,0 +1,100 @@
+19301|To verify: - have a rename provider that returns an empty edit, like so  ```     languages.registerRenameProvider('abc', {         provideRenameEdits() {             return new vscode.WorkspaceEdit();         }     }); ``` - perform rename, it should not throw
+19302|this is tracked on the C# side now
+19303|I don't see  this anymore, JS is gone
+19304|duplicate of #2239
+19305|fixed by https://github.com/Microsoft/vscode/commit/0edca427dbef03a8bfd80a004bbec99003a88f7f
+19306|"In VS Code the directory I have always tried to open has been ""\\fileapp\Share\wwwDev02\www\tmk"" but in the error VS Code only takes ""\\fileapp\Share\wwwDev02"""
+19307|@tw1nk @dbaeumer  Thanks
+19308|Hi @yi-huan, first, thanks for taking the time to submit and translate the issue. Please, next time create one issue per item. Not all issues are handled by the same developer. It also make the discussion very difficult if there are multiple issues.  CSS 1: Is `[hidden]` valid css? CSS 2: that's #3481 SCSS 1: parameter name highlighting: I delivered a fix that will change it to the same color as variables SCSS: @mixin inside @if: I delivered a fix SCSS 2: Not sure what you mean. Please file a separate issue containing the values that you think are not valid. What you see there are also snippets. Issue for that is #2343 SCSS2: Coloring of invalid values. Please file a separate feature request. We currently have no plans to do the same as for CSS. JavaScript: Coloring of function and variable references: That's issue #3886.
+19309|This has to do with the delay on which we update the folding regions. I know it looks funny, but no plans to change
+19310|@jrieken  Thanks! I confirm that fixed it for me - though had to restart code (reasonable). I've left this open as there is an open Q above for @aeschli
+19311|@alexandrudima Assigning to you in order to asses the `setInstantiationService` calls on the thread service. Given the mutability of the instantiation service I see no reason for the setter injection except for a missing lifecycle event ala _services loaded_
+19312|@jrieken You could modify the schema so that true is not a valid option. I could also add support so a specific error message is shown.
+19313|@joaloez weird, out of curiosity when you try to open a folder even below \fileapp\Share\wwwDev02\www\tmk, would that work?  Btw would you be able to run VS Code out of its sources as outlined here: https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run-from-source
+19314|hm... don't even know if I can set that on the web view or web contents...
+19315|@bpasero Test plan item?
+19316|@aeschli assigned to Isidor as bug, don't think it needs a full test plan item.
+19317|"In other source, for example ""\fileapp\share.wwwdev01\apache.www\www.bpo\"" I don't have any problem. I will ask TI difference between these servers"
+19318|"@colhountech Does it work if you set `""http.proxyStrictSSL"": false` in your settings?"
+19319|@isidorn yes that is the case. Thank you.
+19320|I'll reject this since we simply can't update `minimatch`'s version manually. It is listed in the shrinkwrap file due to being a dependency of one of our dependencies, which specifically called for a `minimatch ^2.0.0`. Not sure which one it is though.
+19321|Moving to Salsa for investigation.
+19322|This issue was moved to Microsoft/TypeScript#8281
+19323|+1
+19324|moving to May due to too many open questions. Ideas is still to separate the data (TextDocumentContentPresentation) from the UI (label, description) but there might be more requirements, like expressing readonly-ness, linking an editor to a parent-editor, adding dynamic commands etc
+19325|Apologies for the delay. Using `https:` as a prefix (and both `true` and `false`) and the command appears to do nothing. No blue bar, no error message. The command window just closes after a time.
+19326|@bpasero  ok
+19327|Also, I will add a check if there already is `jsconfig` before hinting
+19328|Thanks @mahmoudymy
+19329|I did a simple approach which I personalyl like, we only show the repl and debug viewlet on first debug start, Please try it out and let me know how it feels.  Automatic closing we tried but it brings too many pains
+19330|dupe of #5747
+19331|dupe of #5748
+19332|I’d hate this for CSS. The snippets are almost never what I want to use, especially when completing CSS values (the predefined are all properties), so this would worsen the user experience.
+19333|belt and braces! :)  Steve Lee OpenDirective http://opendirective.com  On 25 April 2016 at 15:45, Johannes Rieken notifications@github.com wrote:  > Also, I will add a check if there already is jsconfig before hinting >  > — > You are receiving this because you were mentioned. > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/5699#issuecomment-214366686
+19334|Cool
+19335|In CSS it's usually more convenient to use emmet shortcuts then autocompletion. But in JS it's so annoying that you have to type things again and again. Especially things like `function` or `for`. I definitely do not want keyword `for` when i've already typed it.  However with last vscode update it became better, I don't know why. But now, in maybe half cases, vscode suggests me snippets, but not always. Example down below:   ![out](https://cloud.githubusercontent.com/assets/200119/14789345/bb4168fc-0b14-11e6-86a2-5a4a8d3e38ed.gif)
+19336|Yes, being able to take a json config directly would be ideal!
+19337|Thanks!
+19338|Duplicate of https://github.com/Microsoft/vscode/issues/5329
+19339|Sorry for not finding that on my own and thank you for your help @aeschli !
+19340|@weinand  Thanks for the reply.  Good to know that the feature is being worked on.  Fwiw, Chrome DevTools with a workspace configured (where it can read/write from the local file system, turning into a more or less full editor/debugger) manages to work well with the source maps produced by dynamic Babel transpilation.. so it can't be that tricky.  :)  It creates the illusion that you are debugging and editing only the original source files.  It even subtly shades the lines in the code editor that have been mapped by the source map (which is as example of providing feedback about whether or not source maps have been used).
+19341|My question was different. How will I pull from a remote1 and push to remote2.
+19342|Not supported yet. I suggest to use the command line for that.
+19343|Unfortunately, this will bleed into May. We need further architecture work in the cli and main processes for this to happen. Anything without it would be half baked.  Namely, we need to 1. Instantiate the gallery and extension services on the CLI process. Both of these have dependencies that are nowadays very hard to instantiate on their own. 2. Not only that but make that instantiation dynamic, such that the CLI runs as fast as possible to answer the simple questions such as `--version` and `--help`. 3. Further refactor the main processes' services to become more lightweight and possibly used by any process possible.  cc @egamma
+19344|I should wrap a `try catch` on this sucker.
+19345|I can help test here :)
+19346|Pushed back to May...
+19347|@joaomoreno great! that way you will have more time to think about it! ;)
+19348|Create a file full of (as in half a millon lines): 0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789  VS Code starts to work slowly (Version 1.0.0 in Windows). Also if you try to do Ctrl + A to select all the code it crashes. There are many ways to break VS Code or make it crash when using very large files...
+19349|@mattflix VS Code's node debugging is limited by the v8 debugger protocol, it cannot (yet) use the Remote Debugging Protocol. On the other hand the VS Code debugger supports many more languages/runtimes than the Chrome DevTools. One consequence of this is that the VS Code debugger doesn't know anything about source maps. Providing source map feedback in the UI requires more abstractions and protocol enhancements which we will add over time.  BTW, how do you debug node.js with the Chrome DevTools?
+19350|"@weinand  Thanks for the reply.  I don't debug Node.js per se in the regular Chome DevTools, but I can debug projects that take advantage of dynamic Babel transpilation via SystemJS there.  The source maps are provided inline (by Babel) and Chrome consumes them.  Used in conjunction with a DevTools workspace, to point to my local files, the debugging experience is very good.  Plus, I find that it is one of the fastest (most responsive) Javascript debugging environments out there.  In any case, the source map issues are a bit orthogonal to the ""pure Node"" debugging case but, to answer your question, I can simulate Node-style module resolution using SystemJS by ""pre-resolving"" all my module locations and writing them to a configuration for SystemJS (a bit like how JSPM works) such that all my requires and imports work as they would running under Node.exe.  Of course, I can't use Node-only APIs this way (fs, http), but I am usually debugging ""pure"" Javascript code, rather than anything Node-specific."
+19351|@bpasero I installed it friday but then went away for a long weekend, also my work PC was rebooted so I have nothing to report.
+19352|@bpasero Had a crash yesterday. Stayed up for 3 days before crashing.
+19353|Looks like it might be an artifact from using Code on a VM through Remote Desktop Connection. Not able to repro when not using a TS connection.
+19354|@venil7 do you have a tsdk setting either globally or locally pointing to an older version of the tsserver ?
+19355|I got something too. - VSCode Version: v1.0.0 - OS Version:  6.1.7601 Service Pack 1 Build 7601 - OS Name:          Microsoft Windows 7 家庭普通版   - Code page: 936 - Step: [ less config](https://code.visualstudio.com/docs/languages/css#_transpiling-sass-and-less-into-css)  ![image](https://cloud.githubusercontent.com/assets/2821085/14803838/fa4c9d5c-0b8f-11e6-99ed-c091c609feda.png)
+19356|Verified this is fixed for cpptools in master.
+19357|Verified this is fixed for cpptools in master
+19358|@bpasero   I'm sorry,the issues is  (ext install beautify)  ![out](https://cloud.githubusercontent.com/assets/2438224/14804891/a0d76130-0b99-11e6-9f2b-8336a43c8475.gif)
+19359|sorry,I mean that when I open a big img file,the vsc show a dialog,vsc spend long time to open it,why not open it with system soft(when it is big img)?
+19360|Verified that this worked as I'd expect in build 0.10.13-insider.
+19361|Tested cpptools on master, looks good.  One possible regression from 0.10.13-insider, filed #5784.
+19362|I'm new at this and so... is there any way to manually modify the other themes to add those keywords and other operators?
+19363|"Looks like editing <codefolder>/resources/app/extensions/theme-defaults/themes/\* ... and adding ""keyword.operator.logical.python"" to one of the scope would do the trick.  However, the next update would squash this so backup or put it somewhere else (??)."
+19364|By analyzing the blame information on this pull request, we identified @alexandrudima and @bpasero to be potential reviewers
+19365|Hi **@Ikuyadeu**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+19366|**@Ikuyadeu**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+19367|Well, I'm embarassed... that's exactly what I was looking for :disappointed: I should have make it clear right in the first post. I didn't know that you would expose that folder, so I was using it just for convenience, thinking in better alternatives.  I'm sorry, I didn't mean to make you waste your time with this. I will be more careful next time.
+19368|@joaomoreno go ahead and verify :)
+19369|I see, thanks.
+19370|要转英文，老外看不懂😄
+19371|Please report to them.
+19372|For our next release we update to 5.10.0.
+19373|@jrieken please decide if this issue should be moved
+19374|We currently do not support global tasks. @dbaeumer to chime in if this is a feature he had in mind.
+19375|I do not think this is a scenario that is very common...
+19376|@pipja can you please report this against the Chrome Debug extension?
+19377|Please report this issue again in english. Thanks!
+19378|"Initially I though this is related to long active debug session but I am keep getting error like ""Node.js did not respond"" whenever I am debugging. I tried couple of time after re-launching VSCode."
+19379|Not supported yet.
+19380|no worries. I have created a new request for that won't likely won't make it in April any more as we are in lock down since today...
+19381|This issue was moved to OmniSharp/omnisharp-vscode#246
+19382|"The fix for Microsoft/TypeScript#6700 is in the nightly TypeScript build.   Until VS code adopts a new version you can use a newer version of TypeScript by:  ### Install the new typescript version globally: - `npm install -g typescript@next` - in the user settings define ""typescript.tsdk"": ""_path to your folder_/node_modules/typescript/lib""   ### Install the new typescript version locally into your workspace: - `npm install -g typescript@next` - code will pick it up from there.  The version of the install TypeScript version is shown in the status bar at the right."
+19383|@dbaeumer I could not figure out how to launch Electron on a language other than the system's. How to do it?
+19384|pls see https://github.com/Microsoft/vscode/issues/3797#issuecomment-214650742 for how to use Code with a new version of TypeScript.
+19385|Electron update 👎
+19386|Closing due to #637
+19387|Adding the verified tag then.
+19388|Adding the verified tag then :)
+19389|@aeschli Thank you for your answer。 I am doing a vscode theme. As far as I know, heme colors are generated based on the `file.tmTheme` file control display inline styles. CSS 1 : `[hidden]`  Just for coloring, JavaScript:  For vscode method names, properties, variables   are not separated, so I can't all coloring.They do not have unique class name.
+19390|This feature makes my life so much easier!
+19391|maybe related to #5802
+19392|fyi @stevencl @isidorn @weinand
+19393|Good find. @bpasero How do I find out when dispose by Esc happens?
+19394|@alexandrudima @joaomoreno unsure to whom this belongs
+19395|No MYSQLi API suggestion in intellisenxe
+19396|All good, haltepunk is comming from debug adapter and that is translated.  Paused on is coming from vscode and we are about to recieve those translations some time this week
+19397|Closing as designed because we want the extension development lifecycle to be so fast that you do not get prompted for saving. This is also useful for our CI tests that tear down even with dirty buffers without confirmation.
+19398|Corner case because you manage to change window focus between the invocation of the command and the actual result. Fix is to make sure that calls to the native file/folder picker know the target window.
+19399|@jrieken hm, not so straight forward but I can see two possible options with the existing way it works: - I seem to dispose the actions of messages when they get hidden so you could detect that in your action (e.g. the close action if you have one) and know that the message hides - there is an event `onMessagesCleared` that gets fired after all messages get cleared (https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/services/message/browser/messageService.ts#L55). this event is currently not exposed on `IMessageService` but we could add it there
+19400|I have seen this too!

@@ -1,0 +1,100 @@
+1|Open Source VS Code|0
+2|gulp-symdest does not preserve links on electron|-1
+3|Omnisharp not included in Linux build|-1
+4|C# bracket insertion, indentation not working|-1
+5|welcome.md packaged wrongly|-1
+6|Windows only - OmniSharp does not provide IntelliSense for strong named assemblies|-1
+7|Can't run from dev [osx]|-1
+8|Flash between opening of workspaces, reload|-1
+9|Extension development: null and undefined values not printed to debug repl|-1
+10|Cannot find module 'sinon' when running test/run.sh from terminal|-1
+11|support to log null and undefined to the repl from an extension|0
+12|[clojure] Block comment is not colored any different|-1
+13|Bad coloring in Kimbie dark theme for some languages|-1
+14|C#: Line/Block comment does not work|-1
+15|CSS: toggle line comment is not preserving|-1
+16|[f#] Block comment not colored as comment|-1
+17|HTML: Not auto-closing quotes when typing attributes|-1
+18|Python: Block comment is three single quotes and not two|0
+19|PHP: extension console.logs when completing function|0
+20|[ruby] the mode failed to tokenize the input|-1
+21|[vb] Block comment is not colored|-1
+22|Development Environment Improvements (code.bat/code.sh)|1
+23|[xml] Element and attribute in light and dark theme use same colors|0
+24|TypeScript: Error: Promise did not implement oncancel(…)|-1
+25|Languageconf fixes|0
+26|https://twitter.com/code uses a Visual Studio icon which is confusing|-1
+27|Bundled files don't have a top copyright statement|-1
+28|No blue icon on linux|-1
+29|"Send a smile > ""Submit a bug"" should open Github repo"|0
+30|Variables in local window stop stop updating their value when stepping through code quickly|-1
+31|Extension uninstall leaves empty directories behind|0
+32|Program appears to continue executing after pressing stop in the debugger|0
+33|build errors: vscode.d.ts is not found|-1
+34|Javascript - regular expressions are not colored - Javascript mode instantiated twice|-1
+35|[extension] resolving a completion items is call twice for the first selected item in the list|0
+36|[Git] weird indicator for renamed file|-1
+37|"vscode ""--extensionHomePath"" option does not work when used with the vscode proxy"|-1
+38|activeTextEditor not correct while the extension is activated|-1
+39|broken selection feedback when selecting bold text in markdown files|-1
+40|Expected treatment of threads in debug viewlet UI?|0
+41|Update vscode extensions to package.json schema|0
+42|Document symbols are duplicated|0
+43|VSCODE|0
+44|Wakatime plugin|0
+45|Fixed Runnning typo|0
+46|Disabling telemetry before first run does not work|-1
+47|Commenting using ctrl+k,ctrl+c does not work for JSX files|-1
+48|Running Code should open a new instance, not activate a currently opened one|-1
+49|Fix typo particpate -> participate|0
+50|Crash when opening Code via the command line|-1
+51|Fix add selection above and add selection below hotkey on Ubuntu|0
+52|Interpolation strings don't have colouring|-1
+53|It should be possible to include paths in search in Go to file dialog|0
+54|ES6 jsconfig.json error|-1
+55|Searching large projects is too slow|-1
+56|Middle clicking a working file in the working file list should close it and remove it from working files|0
+57|Git integration doesn't work if the open folder in a sub-folder of a git repository|-1
+58|Provide API to open a new folder|0
+59|Cannot attach debugger to a node.js application running inside a Docker container|-1
+60|Menu license links to non Open Source license|0
+61|Fix small typo|0
+62|Go to definition and navigate back puts cursor in wrong spot|-1
+63|File Search got stuck with a great number of files|-1
+64|Rounded selection seems broken due to current word highlight|-1
+65|We need translation support|0
+66|Git conflict highlighting can get messed up easily|-1
+67|Electron-Build has wrong filename for the .exe|-1
+68|Git: Support git history in VSCode|0
+69|Proxy support for extension gallery|0
+70|choice of tool --> type of tool|0
+71|[xml] provide a formatter|0
+72|Add text/ng-template to the HTML mime types|0
+73|add support for TFVC in on-premise TFS resp. Visual Studio Team Services|1
+74|Vim modal editing|0
+75|Allow overriding hardcoded jsconfig/tsconfig defaults|0
+76|Allow to theme UI components of the workbench|0
+77|Simplify shell command for Linux and OS X|1
+78|use .gitignore to ignore search inside files and folders|0
+79|"Getting ""Visual Studio Code has crashed"" a few times"|-1
+80|Windows setup file version|0
+81|react file with .js extension and JavaScript React language doesn't work very well|-1
+82|Extension docs page gives a 404|-1
+83|"Changed the adapters separation from "","" to ""and"""|0
+84|Add more mouse gestures for multi-cursor|1
+85|Go Plugin: Show Method Type in Symbol Browser|1
+86|PHP autocompletion: $_GET completes into $$_GET|1
+87|Node error for Import saying no exports for files that use module.exports|-1
+88|Console is difficult to work with on a small screen|-1
+89|Add C/C++ support|1
+90|Document language type|0
+91|Incorrect Breakpoint bindings when using source maps|-1
+92|Unable to launch application on OSX|-1
+93|Documentation issue for Extensions, LanguageServer|0
+94|VSCode very slooow when opening minified css file|-1
+95|ES6 support does not work|-1
+96|Add support for Perl5 symbol indexing|1
+97|Fix grunt task detector retrieving task names improperly|-1
+98|Support user-wide installations|1
+99|Type Definition imports not working for *.ts files|-1
+100|GitHub link on page is broken|-1

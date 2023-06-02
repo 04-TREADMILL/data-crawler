@@ -1,0 +1,100 @@
+15401|API: vscode.workspace.findfiles() no longer works with subfolders (since version 1.7.1)
+15402|previewHtml iframe does not use entire space
+15403|Extensibility: Typed Commands
+15404|Error when using bash for windows in tasks
+15405|TypeScript multiple errors display problem
+15406|Allow file rename with long press on name
+15407|Add a setting to have VS Code always on top of other windows
+15408|Feature request: Live Preview as a Web Server
+15409|Move editor to next/previous group keyboard shortcuts do not work on Ubuntu
+15410|Broken syntax highlighting for template strings
+15411|How to add the WesBos vscode-theme-cobalt2
+15412|Command line arguments not working as expected
+15413|When saving a Go file (with either Ctrl-S or from menu) a line near to my cursor position is removed. Does not seem to happen on plain text, just Go, so far.
+15414|Reload problem with `previewHtml`
+15415|There are lots of errors about less style in .vue
+15416|Git commit messages are handled differently to the command line tools
+15417|I can't save in VS Code 1.7.1
+15418|Persist an extensions manifest file
+15419|Why do not the path IntelliSense features built into it?
+15420|"Tasks batch space in directory problem | Not encoding bug | bat doesn't work | Closed"
+15421|Show language service issues in VS Code
+15422|how to close auto format?
+15423|PHP 7 executable not found
+15424|Fix to retain and pass args in linux cli
+15425|Limit the amount of open editors
+15426|EH debugging: reload window or open project results in two reloads
+15427|Telemetry for Settings
+15428|Support per-window variable environments
+15429|VSCode corrupts 'registered sign' character
+15430|Status codes and well-defined errors in XYZProvider interfaces
+15431|Improve workbench start-up performance
+15432|Understand extension host reliability
+15433|[C/C++] syntax highlight after calling macro without semicolon
+15434|"Saving with ""files.trimTrailingWhitespace"": true clears the redo buffer if you have any trailing whitespaces."
+15435|Format selection inconsistencies
+15436|"files.associations ""javascript"" not forwarded to TypeScript Service"
+15437|"Does the VSCode support such debug situation: ""Python script call c function, and we want to debug this c function""?"
+15438|"Always start with ""Expression"" when editing breakpoints for the first time"
+15439|Invalid tabbing!
+15440|Resolve relative REPL paths
+15441|Meta viewport breakes HTML highlighting
+15442|How to enable / disable extension from API or commands
+15443|Hot exit on switching folders
+15444|Ctrl + backspace improvement for snake case
+15445|Signed commits broken?
+15446|remapping keyboard shortcut for delete not working
+15447|Missing Feature: File parser, element index, function list.
+15448|Add schema support for jsconfig.json to TypeScript extension
+15449|SCSS lint doesn't support CSS modules
+15450|File completer should score contiguous matches higher
+15451|Illegal argument: character must be positive
+15452|Cannot read property 'incomplete' of null
+15453|Support dependencies for VSIX extensions
+15454|Support MacOS Sierra application tabs for multiple windows
+15455|"Unchecking ""Uncaught Exceptions"" in debugger does nothing"
+15456|install error on CentOS 6.7
+15457|Integrated Terminal with git-bash sometimes drops letters
+15458|"Zooming causing ""reference"" indicator to become misplaced"
+15459|Update error telemetry website to add links to source code from deminified call stack
+15460|Build electron during npm install to solve issues with Cent OS
+15461|Improvement for Tree Explorer API
+15462|Syntax highlighting of HTML comments inside .md files fails with multi-paragraph or list-like comments.
+15463|Wrong Comment Syntax for TSX/JSX
+15464|Code Action Light Bulb Only Shows up when Cursor Is On First Character of an Error
+15465|Add .zsh-theme to shellscript extensions
+15466|Right click 'Find in workspace'
+15467|Editors in weird state after toggling maximize panel
+15468|"Tasks batch space in directory problem | Not encoding bug | bat doesn't work"
+15469|Move backup unload logic to an event
+15470|Configuring launch.json
+15471|"Bug due to ""c# 1.5.1"""
+15472|References not showing correctly
+15473|Intellisense not working correctly
+15474|Investigate to restore untitled dirty files via editor input factories
+15475|Check and clean up backup workspaces that don't have any files backed up on launch
+15476|Untitled files restored from backup issues
+15477|isues
+15478|Switch between Chinese and English input method, often cann't use Chinese input.
+15479|Zooming in messes up rendering of reference count adornments in C# files
+15480|workspace.getConfiguration('css') returns empty settings
+15481|setting c_cpp_properities invalid
+15482|"Provide a meaningful binary-file preview and ""diff"""
+15483|Add editor action copySelection[Up/Down]
+15484|Syntax breaking
+15485|Reloading window with dirty files shows save dialog
+15486|Expose EOL sequence in API and allow to change it
+15487|JSDoc+Intellisense. Not supported @method in auto-completion
+15488|Add .conf and .cfg file extensions for ini language
+15489|API to determine whether a TextEditor is a diff view
+15490|Backups are stored with user configured encoding
+15491|IBackupFileService: less IO?
+15492|Wrong order of sorting line ascending
+15493|Error in integrated console
+15494|Emmet tag expansion no longer works by default in JSX files
+15495|CodeLens doesn't scale together with editor
+15496|Node debug gives stale variables if evaluation happened
+15497|[ts] Property 'indexOf' does not exist on type 'string'
+15498|OVER and PARTITION BY keywords in SQL are not highlighted
+15499|Improve Scroll to bottom behavior
+15500|Feature Request: Button to clear old errors and warnings output

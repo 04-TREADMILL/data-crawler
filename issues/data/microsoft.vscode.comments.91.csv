@@ -1,0 +1,100 @@
+9001|Can you be more specific? The title doesn't say that much. It just seems like you are having issues with the `Find` feature of VS Code.
+9002|duplicate https://github.com/Microsoft/vscode/issues/2829
+9003|I meant using vscode api . If I want to locate a location of a word in texteditor.document , how to do that
+9004|fyi @gregvanl
+9005|closing as a duplicate of #2829. Thanks @SamVerschueren
+9006|And here it is: https://marketplace.visualstudio.com/items?itemName=raymondcamden.htmlescape-vscode-extension
+9007|Ideally, it would be nice if people could run it some other way too. But running it as a preLaunchTask is the biggest thing that we care about.
+9008|Cool that it worked for you.  > vscode.Uri.parse('html-escape://cfjedimaster/html-escape');  This looks good to me, you define your own URI scheme `html-escape` and all the rest is yours.
+9009|So 100% of the string is - basically - whatever we want? Well, within reason, and named something at least similar to what it is doing?
+9010|We have improved accessibility for debug sessions in the latest vs code alpha release which can be downloaded here: https://az764295.vo.msecnd.net/alpha/4090a5d2ea7a84f215e7f16929a12ad76045f94d/VSCodeSetup-alpha.exe It would be great if someone is willing to tryout the [debug experience ](https://code.visualstudio.com/docs/editor/debugging) and give feedback on accessibility so we could further improve here.
+9011|"Can you provide more information about your set-up. Do you have a jsconfig.json? From the footer I see it is a React project.  Can you reproduce it in a subset of your project? Does it work for a small sample:   ``` jsx var CommentBox = React.createClass({   render: function() {     return (       <div className=""commentBox"">         Hello, world! I am a CommentBox.       </div>     );   } });  ReactDOM.render(   <CommentBox />,   document.getElementById('content') ); ```"
+9012|It's just odd how there's no exe or zips on the Releases page... pretty easy to do, just add a changelog and tag, then upload the files.
+9013|"@jameslkingsley Ah ok, this isn't about the behaviour when pressing delete or being able to select empty lines then, those appear to be working as expected when using the keyboard.  When using the mouse clicking line numbers, it does indeed fail to select the last linebreak marker as well, which it should.  As for why there are two actions that seem to do the same thing, this is only the case when you are replacing linebreaks in your selection. So basically ""replace selection"" can be used to delete a line (which is a different action though), as long as you have linebreaks selected as well.  The dedicated ""delete line"" action will remove a line regardless of you having selected anything or not (as long as the cursor is in that line), or multiple lines if you have a selection (or multiple cursors) on multiple lines."
+9014|Yes, as long as it properly identifies the resource and conforms to an URI.
+9015|Moving to salsa for investigation
+9016|This issue was moved to Microsoft/TypeScript#7001
+9017|@bpasero fyi, line break marker selection seems to be having odd behaviour when selecting with the mouse
+9018|Moving to salsa for investigation
+9019|Well, I should have tried before but it does work with your sample in a new instance of VSCode, as well as in another project with no previous config.  Turns out I had my typings folder inside the `.vscode` folder, and when I put it at the root of the project it started working as intended.  I still have problems with making it understand modules, but I'll move to another issue for that.
+9020|This issue was moved to Microsoft/TypeScript#7003
+9021|@hoovercj It's good enough I guess. It's also machine parseable.
+9022|Please see https://code.visualstudio.com/Updates#_extension-authoring
+9023|@glen-84 looks like a duplicate indeed.
+9024|I use VSCode on a mac, and I have to say I much prefer having this as an option rather than not. Is it possible to make it a feature request?
+9025|> The vscode module will download the appropriate version of vscode.d.ts based on the engine field you declared.  where it file will be downloaded its not in the extension ?
+9026|@waderyan I've enabled the gallery caching. So we can now do all the filtering on our side and not depend on their API (or lack thereof - the documentation link doesn't even open anymore on my machine).  I will close this issue. If you still think we can do better when filtering down the list of extensions in the UI, figure out what could be done differently and create an issue to implement that on Code's side.  Here's the raw cache URL: https://vscode.blob.core.windows.net/gallery/index
+9027|Extracted a separate issue for   > I think ideally the module should be  es6  but  jsconfig.json  reports an error for that, which otherwise is acceptable inside a  tsconfig.json .  Moving to Salsa
+9028|This issue was moved to Microsoft/TypeScript#7006
+9029|"**_Note to self:**_ Just talked with Isidor, and we need 4 digit support.  Max value (999+).  Also address the less-nice-looking red ""no results"".  Make this consistent with the search viewlet."
+9030|Did you: - Make sure your devDependency to the vscode module is at least 0.11.0. - Ran npm install from the root of your extension.  This will update vscode.d.ts in the typings folder.
+9031|@Tomamais  Which OS (& version) do you have? Which version of VS Code do you have? Which version of git do you have?  What happens when you use the command prompt (or terminal), go into your workspace and run `git init`? Do the files disappear from Code there as well?
+9032|The settings file doesn't expand environment variables, you need to provide an absolute path or a path relative to the workspace.
+9033|Version 0.10.8 still not works (Ubuntu 14.04). Hope VSC has faster support team then Skype (bugs 2 years old not fixed).
+9034|Microsoft Windows [Version 10.0.10586] Visual Studio Code Commit: a80232bbcfe8a5cdad1ebc98638673d9dcb02458 Date 2015-12-19T11:34:58.895Z Shell 0.34.5 Renderer 45.0.2454.85 Node 4.1.1
+9035|No. I started a new folder project at that time. When I clicked on the git button, my folder has just disappeared with all code together
+9036|Related https://github.com/Microsoft/vscode/issues/2859
+9037|Which git version do you have?  What do you mean by _git button_? Can you maybe take a screenshot?
+9038|@Tyriar sorry man, I still haven't had the chance to test this, but will do first thing tomorrow morning!
+9039|:+1:
+9040|"@SamVerschueren @philipgiuliani @nchammas @sijad   Can you please try the following workarounds and let us know if they work.  ### Possible workaround 1  Edit `settings.json` to enable auto save with a delay <= 1000:  ```     ""files.autoSave"": ""afterDelay"",     ""files.autoSaveDelay"": 1000 ```  ### Possible workaround 2  Have a ""dirty"" file permanently open. (i.e. open a new untitled file, make a change in it) and then go about editing other files -- without any need to enable auto save as above.  ### Explanation  Took a few hours to track down, the problem surfaces so far only on OS X El Capitan 10.11.3 and only on an edit that causes the first file to become ""dirty"": (i.e. on the edit that brings VS Code from having 0 unsaved files to 1 unsaved file).  The underlying problem is we are updating the OS window to mark the VS Code window as containing a dirty file (icon gets greyed out) synchronously, in a model change listener, while the `keydown` event is still being handled. This causes `e.preventDefault()` to malfunction, producing a follow up unexpected `input` event, while still handling the original `keydown` event. We then react to the `input` event and begin applying edits to the model. Thus, the model gets edits applied while it is applying edits, which is unexpected (causing `undo` to malfunction).  Filed issue against Electron in atom/electron#4438 and we need to revisit all our code paths where we use `remote` during handling an event."
+9041|@joaomoreno no need to test the linux side, if you could look in to #2859 at some point that would be good though to help get rid of the manual set up on OSX.
+9042|So, you're using environment variable VSCODE_TSJS to turn on Salsa but you couldn't use another environment variable for Salsa configuration. This sounds very confusing. By the way can VSCODE_TSJS variable point to lib folder so we don't  need 'typescript.tsdk' option?
+9043|Absolutely, marked it for February. I would like to feel how cool this is. :+1:
+9044|git version 1.9.5.msysgit.1  ![screenshot 2016-02-10 15 12 19](https://cloud.githubusercontent.com/assets/1399241/12955162/e9831a9a-d008-11e5-800a-fc727f129990.png)
+9045|Indeed after investigating #2829 I can confirm this is a dup. We detect an extra tab was typed after pressing <kbd>Tab</kbd> in the case that the files dirty count increases from 0 to 1 in one VS Code window.
+9046|@daschult What OS are you using? I cannot reproduce this on Windows.
+9047|"@majidfn `Cmd+D` respects the find widget settings.  i.e. This one: ![image](https://cloud.githubusercontent.com/assets/5047891/12955428/484ee558-d023-11e5-8d63-c8fba1daea30.png)  They can be toggled via `cmd+alt+w` or `cmd+alt+c` on the mac.  I wonder how we can improve here -- would you expect that all find modifiers are ""synced"" -- we currently allow to have open multiple editors, each one with its own find box + the global find box."
+9048|IMHO, I think we need to be smart about compatibility and not update or install an incompatible extension (given current running vscode instance version).
+9049|@alexandrudima - Workaround 1 works for me. :+1:
+9050|@jrieken fyi  @sangrambal Do you mean to add some search api on the `TextDocument` ?
+9051|fyi @joaomoreno
+9052|Definitely, but there are cases like this where one package could work for both mainline and Insider builds. Would the alternative be a convention where extensions need a separate Insider version of their own?  I can see some benefits to that approach but I think it'd create extra work for extension authors.
+9053|I cannot reproduce this on Linux (Arch) either. One or more shift keys being pressed is enough to capitalize letters, regardless of previous key releases.
+9054|Just gave it a try. Looks good to me!
+9055|+1  Apparently, GitHub uses MagicPython as part of [Linguist](https://github.com/github/linguist).
+9056|"Although, it does kill the ""dirty"" indicator that shows up next to the file name. Is that expected?"
+9057|"@cfjedimaster I ran `yo code` and updated the package devDependencies for ^0.11.x, also added a `""postinstall"": ""node ./node_modules/vscode/bin/install""`. Ran `npm install`.   My extension stills says here is no exported member `TextDocumentContentProvider`.  I'm missing a step somewhere"
+9058|@alexandrudima confirming both workarounds fix the problem. Looking at the issue you created, it's fixed in the latest electron version?  @nchammas the file can't get (really) dirty anymore because it gets auto-saved ;).
+9059|I had a set of instructions for reproducing this, but it looks like it may be related to the fact that I’m running VS Code in a virtual machine. I can’t reproduce this outside of the virtual machine, so it looks like it is related to the keyboard event transition between the host and guest machines. Thanks for looking into this for me. It looks like VS Code is off the hook.  From: Alexandru Dima [mailto:notifications@github.com] Sent: Wednesday, February 10, 2016 9:21 AM To: Microsoft/vscode vscode@noreply.github.com Cc: Dan Schulte daschult@microsoft.com Subject: Re: [vscode] Holding down shift still types lower-cased letters (#2900)  @daschulthttps://github.com/daschult What OS are you using? I cannot reproduce this on Windows.  — Reply to this email directly or view it on GitHubhttps://github.com/Microsoft/vscode/issues/2900#issuecomment-182489464.
+9060|The only thing I can think off at the moment is by iterating over every line and using `line.indexOf('word')`.
+9061|@egamma Sorry you needed to do this spring cleaning, I'll try discerning between issues that belong to TypeScript. I hope this is all automated for you to copy over to the right repo :)  You and your team are doing an amazing job with Code :+1:
+9062|Right, but I thought the save interval meant it would be dirty for a short amount of time.
+9063|Try setting `autoSaveDelay` to `5000`, that makes it dirty for ~5s. I noticed VS Code uses 800ms internally for delaying some things in the view (like the progressbar in option dialogs etc.). This might be the case here as well. After 800ms the dirty icons gets visible but shortly after becomes invisible. Just guessing here :).
+9064|@csholmq good question. Wiki is limited in its discussion support. We could switch to an issue. My worry is that it will become too difficult to see the list of extensions with a lot of comments. Perhaps we'll keep the list at the top of the issue... Open to your feedback.
+9065|Oh I see, the delay is in milliseconds. Derp. :)
+9066|Workarounds are working for me! :)
+9067|@egamma Thanks this extension is exactly what I was looking for!
+9068|http://stackoverflow.com/questions/35283300/vscode-regex-sub-match-evaluate-instead-of-concatenate
+9069|@waderyan Perhaps this issue could be used as discussion on what the Wiki should contain? Because I do believe that the Wiki is better at summarizing the discussion.
+9070|+1
+9071|This has been addressed on a future version of the website that will be coming out soon. ![image](https://cloud.githubusercontent.com/assets/11839736/12960571/c3c715f8-cff0-11e5-9c76-ac6f6403dfc4.png)  Thanks for the comments and helping us make this even better :).
+9072|Hi **@hoovercj**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+9073|The example also makes it look like the process exit code is driven by main. When in actuality it is not. Maybe use void?🌹
+9074|**@hoovercj**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+9075|"One small detail please give the path using ""slash"" otherwise it doesn't work so it should be like this...  // Place your settings in this file to overwrite default and user settings. {  ``` // Points to the php executable. ""php.validate.executablePath"": ""C:/wamp/bin/php/php5.5.12/php.exe"",  // Whether the linter is run on save or on type. ""php.validate.run"": ""onType"" ```  }"
+9076|Thanks, the above workaround also worked for me!
+9077|@prashaantt no need to sorry. We need this feedback and the issue mover (https://github-issue-mover.appspot.com/) helps a lot. Also glad you like Code.
+9078|``` Ensure single trailing newline (Atom) ```  ``` ensure_newline_at_eof_on_save (Sublime) ```  ``` insert_final_newline (EditorConfig) ```  As this option is not configurable, there is no easy way to prevent 'No newline at end of file' warnings when using Git in merges (or just when reviewing commits).
+9079|hm: https://github.com/Microsoft/vscode-editorconfig/issues/18#issue-127438900
+9080|VSCODE_TSJS is a temporary thing we did outside of settings. The `typescript.tsdk` is generally supported setting.  > By the way can VSCODE_TSJS variable point to lib folder so we don't need 'typescript.tsdk' option?  No VSCODE_TSJS is just a flag, but you can install typescript locally. From the docs:  > Salsa requires TypeScript 1.8 but the final 1.8 release isn't available yet. Therefore, you need to install the nightly TypeScript build. You have two options: > 1) Install TypeScript locally into your workspace using npm install typescript@next. VS Code will pick up the TypeScript version from there. > 2) Install TypeScript globally to share the installation across workspaces. In this case, you install it using npm install -g typescript@next. You then have to tell VS Code the install location using the typescript.tsdk setting. Set typescript.tsdk to the path of the lib folder containing the tsserver.js file of the installed TypeScript module.
+9081|I'm seeing the same error on Linux.  It breaks for `i<5` and `i< 5` but not `i <5`.  Notice how the method name `test2` is also the wrong color.  Also, I'm using ES6 and not TypeScript.  ![image](https://cloud.githubusercontent.com/assets/290167/12963458/52b4a838-d010-11e5-92d1-3f914d061b31.png)
+9082|Thanks @egamma. @jamesmenera I'm working on TabSanity for vscode right now and I'm definitely making some good progress. I will keep everyone updated on this thread.
+9083|Probably https://github.com/Microsoft/TypeScript-TmLanguage/issues/17 ?
+9084|Just to append to this issue, I realize that I could navigate to the error/warning in the source to mouse over and view the full message, but I believe it would be a better experience to be able to discover all of the error/warning text directly in the palette area.
+9085|Indeed, the current handling of a file change on disk is to drop the old buffer and allocate everything fresh. I'm wondering what other editors do...  fyi @bpasero
+9086|I think it is `formatOnType`
+9087|@lionpants Do you have specific repro steps please?
+9088|Would be really neat if we could define active extensions as multiple presets, workspace setting with individual extensions would suffice I guess but having a way to quickly switch between extension presets would be awesome (even if that means restarting vscode).
+9089|Right now the find/replace simply replaces. It doesn't do math ops, but that is a nice idea.
+9090|me too!
+9091|@rhires You could install an extension that adds asp coloring (https://marketplace.visualstudio.com/search?term=ASP&target=VSCode&sortBy=Relevance)
+9092|Moved to Microsoft/TypeScript#7011
+9093|"I think the underlying problem is that the JS language service identifies the result of `document.getElementById(""inp"")` to be an `Element`. But not all `Elements` have a `value` property. So there's no way to know that `""inp""` points to an `input` or `textarea` to suggest `value`."
+9094|@anders16000 Do you mean to have a keyboard shortcut => insert single snippet sort of thing or a keyboard shortcut to show snippets (like Ctrl-Space but only snippets)?
+9095|"I have encountered the same issue. Using Windows 10, VS code 0.10.8, Sasla `with typescript@1.9.0-dev.20160128` and the following config. No extensions.  ``` // Place your settings in this file to overwrite the default settings {     ""editor.renderWhitespace"": true,     ""editor.formatOnType"": true,     ""editor.insertSpaces"": false,     ""typescript.tsdk"": ""C:\\Program Files\\nodejs\\node_modules\\typescript\\lib"" } ```  ![indentation](https://cloud.githubusercontent.com/assets/767001/12965012/1e146cfa-d0b8-11e5-8590-b5f3f29a0e91.gif)  The issue seems to be `formatOnType` as you mentioned. Disabling this or Salsa fixes it"
+9096|"And one more thing, change the engines field in the package.json to version of the API you want. The engines field determines which version of the API will be installed. For example:  ``` json ""engines"": { ""vscode"": ""^0.10.7"" } ```"
+9097|Forgot to mention: Before January update this was working just fine (albeit really slowly)
+9098|@joaomoreno So I'm now on 0.10.8 and I'm still getting the connect ETIMEDOUT 191.238.172.191:443 error. However I have noticed that even Check for Updates... fails, so maybe it's just an overly restrictive environment that's the real culprit.
+9099|![screen shot 2016-02-10 at 5 38 23 pm](https://cloud.githubusercontent.com/assets/11839736/12967598/2b128b80-d01d-11e5-8925-294d7e848efe.png)
+9100|here is a working vim command, was missing slashes `%s@{fileID: \([1-9][0-9]*\)@\='{fileID: '.(submatch(1)-4594)@`  the vim one seems to work with the parenthesis maybe instead of $1 we could use %1 or something for numbers idk  thanks

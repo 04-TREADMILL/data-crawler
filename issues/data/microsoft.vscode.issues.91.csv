@@ -1,0 +1,100 @@
+9001|"Add toggle for ""ignore trim whitespace"" while diffing"
+9002|Extensions update button hidden on narrow space
+9003|Deleting a file in the current editor while focus is in terminal will focus the editor
+9004|VSCode remains opened sometimes after being closed
+9005|Visual Studio Code will not start on Debian 8.5 over VNC
+9006|All pixels shifts up miserably
+9007|[cpp] Visual Studio Code highlights C++14 Digit Separators Incorrectly
+9008|Monokai theme shows different markdown syntax highlight at 1.3.0
+9009|Install extension extremely slow
+9010|Cursor gone missing
+9011|cant't load more than one directory in the explorer
+9012|Inline SVG images during build
+9013|Integrated terminal can not be opened,on path contains chinese char
+9014|Column selection with CJK character
+9015|Allow multi select in the files explorer
+9016|VSC
+9017|Request: Add a way for exstensions to show an update log
+9018|Cursor dissapear after move between parameters
+9019|Terminal on Windows using bash.exe (the ubuntu native one) doesn't work
+9020|When tabs are disabled, make the close button on editor panels to close the panel directly instead of closing one file
+9021|Update 1.3 breaks markdown code block highlighting
+9022|VSCode should self-configure debug settings when added to ASP.NET Core projects
+9023|Drag and drop selected text
+9024|Intellisense not working when creating new typescript file and referencing another ts file
+9025|.Git folder becomes too big
+9026|Do not require a type attribute for `enableBreakpointsFor` contributions
+9027|ANDROID_HOME env. var. not recognized
+9028|Can't install VScode v1.3 Source Code from Scratch.
+9029|Support sanctioned package.json comment style
+9030|Failed to execute git
+9031|output window is not realtime!
+9032|Clear search scope when find widget is hidden
+9033|can't run vscode correctly
+9034|Sudden inability to scroll and type in editor screen
+9035|The terminal cannot scroll to check logs?
+9036|Many issues with styling different tokens
+9037|"CTRL+<Right|Left> arrow is not working in integrated console"
+9038|Find in files using extenstion API
+9039|Terminal windows wont' update on resize
+9040|Multiline find in file (Ctrl+F) does not work for \s or [^] regular expressions
+9041|mouse-wheel scroll on integrated terminal scrolls 1 line at a time
+9042|Cant Scroll up on integrated terminal
+9043|TypeScript errors in new files until reload VSCode
+9044|Revisit OS X fonts
+9045|Extra : and ; getting added on pressing tab after : in css rules in scss file
+9046|vscode-extension: Provide an action to open the formatter settings file
+9047|Large JSON file don't even recognized
+9048|When using the C# plug-in development, will often lose the smart tips.
+9049|[scss] syntax highlighting breaks after nested braces
+9050|Debt: Support launch.json creation through extension host code
+9051|How to show errors in the editor
+9052|(Linux, V1.3) Cannot install extensions
+9053|Smaller Twitter logo
+9054|Jade/Pug comment syntax
+9055|Error of token transformation
+9056|.tsx code format broken
+9057|Feature Request: Right Click -> Copy Path on file list
+9058|Highlight current indent level
+9059|Closing split view prompts to discard saved changes
+9060|SCSS formatter doesn't work anymore
+9061|"Autocomplete for ""console.log()"" in JavaScript and TypeScript is wrong."
+9062|Dragging and Dropping a folder from file explorer doesn't work.
+9063|Zoom + not working when I preview file
+9064|Broken Markdown Syntax Highlighting since 1.3.0
+9065|"Even edited tabs I want to stay open go to ""temporary"" status and get closed if I open something else."
+9066|Be more explicit on what we expect from pull requests
+9067|support font-size in DecorationRenderOptions
+9068|Inconsistent colorization of multiline union and intersection types
+9069|TSX code formatter behaves incorrectly after encountering type arguments
+9070|"Duplicate search results after using ""Go to definition"" with C language"
+9071|[powershell] syntax highlighting error
+9072|Markdown preview is broken in 1.3.0 release
+9073|Applying replace on a file or on a single result is not removing the file or result if replace text matches search term
+9074|Feature Suggestion: Cloning a repo
+9075|[Feature Request] Drag and Drop Tabs to Different Windows
+9076|Improve logging when terminal process dies
+9077|The keyboard cursor disappears while side is open
+9078|Create terminal.integrated.cursorBlinking setting
+9079|Highlighting after HTML comments not consistent
+9080|Latest update causes intermittent freezes in active editor
+9081|Find & Replace new-line characters does not work
+9082|Debug toolbar custom positioning
+9083|Dragging folders no longer works on Mac
+9084|Initial terminal size has problems
+9085|global search and replace doesn't respect regex variables
+9086|Add commands to restore previous non-tabs behaviour
+9087|Sourcemaps not working in elaborate setup with system.js/node.js/babel/typescript (has example repro project)
+9088|Function breakpoints experience for debuggers that don't support them is still half-there
+9089|Test: Integrated terminal copy and paste
+9090|"Should ""Reopen with Encoding"" dropdown include UTF-8 with BOM?"
+9091|Why did we lose the ability to visualize markdown files?
+9092|Replace Context Menu/Edit Install Option
+9093|Occasionally my text buffer will get scrambled (parts of it will get jumbled)
+9094|有中文字符时 Tab键对齐代码有Bug
+9095|Implement conditional function breakpoints
+9096|Unable to Install Extensions in Ubuntu
+9097|Error
+9098|Right-click to make a menu and VSC Not Responding
+9099|incorrect translation
+9100|Drag and drop tabs from this window to other one

@@ -1,0 +1,100 @@
+27001|Feature Request: Minimap auto collapse
+27002|c++ build, output message is garbled
+27003|[Solved] Activating extension vscode.git failed
+27004|"API: Support glob pattern ""**/!(*.min).js"" for file watchers"
+27005|Expose status bar debugging and no-folder foreground colors.
+27006|Theming: Allow to change the colour of warning/error squiggles (fixes #9819)
+27007|The color of the modified files
+27008|Syntax Highlighting
+27009|tmLanguage for at least .cpp and .cs files require some little improvements
+27010|Show Disable/Enable all extensions actions in the Extensions viewlet context menu
+27011|HTML PHP hybrid writing
+27012|Search function can't use normally
+27013|Theme: Customise blue link color
+27014|Show Disabled Extensions at the Bottom of Extensions List
+27015|Ctrl + Click = go to link shortcut === bad UX
+27016|*/shell.i18n.json lost some translations in 2017-05-19. Merged in translations.
+27017|Add workspace setting to save SCM Provider
+27018|Use an iframe for I/O
+27019|Investigate improving Git SCM as done by GitHub for Atom
+27020|Workbench theme customisation for forground tab colour of inactive group appears to be missing
+27021|windows set terminal to bash cause workspaceRoot incorrect
+27022|intellesense working wrong
+27023|Perf profile
+27024|Slow ripgrep search on Windows network share
+27025|Feature Request: Allow to detect and switch the syntax highlighting for unsaved file
+27026|"""Format selection as..."" function"
+27027|VSCode jumping code issue
+27028|Deprecated propeties don't have a warning anymore
+27029|Editor doesn't render any problem markers anymore
+27030|[macOS] Replace keyboard shortcut does not work
+27031|Make terminal runner the default for new tasks.json.
+27032|Add Command: Keyboard assignable DebugOutput Copy All
+27033|Slow startup issue
+27034|powershell run selection not functional
+27035|"""Ctrl + Click To Follow Link"" on Windows w/Git Bash just does a Paste"
+27036|Find/Replace using selection is very messed up
+27037|Slow startup
+27038|Enter behavior on fully typed autocompletion suggestion
+27039|Improve issue template
+27040|Simplify task activation events
+27041|Extra [ displayed in define keybinding widget under Portuguese (Brazil)
+27042|Editor Font Ligatures not working
+27043|Keep support bogus snippets
+27044|Cannot debug a C# application
+27045|Hire a developer for the VS Code team in Redmond
+27046|Add TSC Task Provider
+27047|can't install
+27048|Snippets for YAML not showing up
+27049|Braille unicode characters are the wrong width in the terminal
+27050|workbenchThemeService.setColorTheme disposes themingParticipantChangeListener
+27051|Do not unregister themingParticipantChangeListener.
+27052|Adopt TypeScript 2.3.3
+27053|Extensions: onDidChangeActiveTextEditor raised with undefined event argument
+27054|Using vscode as EDITOR in WSL doesn't work to write git commit messages
+27055|HTML specific language user setting of tabSize=2 is being ignored.
+27056|Scrolling using trackpad is the worst
+27057|Recently opened files includes deleted files
+27058|Show Warning When a markdown.styles fails to load
+27059|Holding Alt-(key) on Sub-Menu item doesn't trigger that Command.
+27060|Use terminal's cwd for links
+27061|vscode is always crashed on Mac
+27062|Slow start report
+27063|"My vscode cannot recognize ""cout"" ""endl"" etc..."
+27064|Provide color customisation to intellisense
+27065|Add a jump back command from goto definition
+27066|Pepper emoji 🌶 shows up in black and white
+27067|cmd.txt
+27068|2017/05/23
+27069|js-atom-grammar make VS Code not response when open a compressed javascript file
+27070|File watcher is not working in windows 7
+27071|Theme: Add sideBarSectionHeader.foreground color key and...
+27072|multiselect by regex
+27073|Quickly deleting and then adding with multiple cursors sometimes leaves behind characters
+27074|Kimbie builtin theme has dark curly braces
+27075|Javascript: Single line comment followed by multi-line comment, has incorrect syntax highlighting on multi-line comment
+27076|Add entry file of oniguruma when packing
+27077|Sharepoint search refiners
+27078|Reindex Document library
+27079|Control Refinement
+27080|Add option for config sync across multiple installations
+27081|"Peek Definition menu option missing in the ""Peek Definition"" window"
+27082|Syntax highlight Razor ASP.Net Core
+27083|Zooming out is settings cursor position off some pixels left in editor
+27084|code helper high CPU
+27085|"the file with ""//@flow"" tag showing a new window with some code"
+27086|code helper high cpu
+27087|Unsafe C# and Unity
+27088|Shared profile feature request
+27089|GPG support
+27090|Regex Search in Folder is broken
+27091|"on save file ""Error with mkdirp: Error: EEXIST: file already exists"""
+27092|Environment variable GOOGLE_API_KEY  set by Electron on each launch
+27093|Git: Use Preview for Working Tree Diffs
+27094|Layer-breaker in telemetryUtils
+27095|Sense the element change and respond with closing tag and viceversa
+27096|Snippets for Find and Replace feature
+27097|find widget inserts view zone in the editor scroll event handler
+27098|Support reopening session (all windows, tabs, etc.)
+27099|HTML formatting inside <template> tags
+27100|Uninstall or Disable Multiple extensions at once

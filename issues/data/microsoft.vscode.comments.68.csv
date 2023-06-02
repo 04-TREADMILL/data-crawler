@@ -1,0 +1,100 @@
+6701|@DelvarWorld thanks for joining our journey up to now. We got some really good insights from your project and we will continue to use it as a test case.   Just FYI, the ES7 spread operator, it is on the [Typescript roadmap](https://github.com/Microsoft/TypeScript/wiki/Roadmap) for TS 2.0.  Good luck to you as well.
+6702|@darktutu What does the OmniSharp log read (press Cmd+L, L)? It should not be empty
+6703|Please provide the necessary details
+6704|Please provide the necessary details
+6705|Okay, how do I understand which extension is causing the error, as I said there is no command line error message
+6706|this is either omnisharp-vscode or omnisharp itself
+6707|This issue was moved to OmniSharp/omnisharp-vscode#2
+6708|closing as duplicate of OmniSharp/omnisharp-vscode#2
+6709|This issue was moved to OmniSharp/omnisharp-roslyn#381
+6710|duplicate of https://github.com/OmniSharp/omnisharp-roslyn/issues/355
+6711|This issue was moved to OmniSharp/omnisharp-vscode#3
+6712|This issue was moved to OmniSharp/omnisharp-vscode#4
+6713|This issue was moved to OmniSharp/omnisharp-vscode#5
+6714|This issue was moved to OmniSharp/omnisharp-vscode#6
+6715|@weinand Please do not assign typescript items to me
+6716|This issue was moved to OmniSharp/omnisharp-vscode#8
+6717|This issue was moved to OmniSharp/omnisharp-vscode#9
+6718|This issue was moved to OmniSharp/omnisharp-vscode#10
+6719|@thewhitetulip I think we need to do better error reporting in the future to help you. currently the only way forward is to manually remove extensions one by one until the issue is gone I fear.
+6720|@aeschli I see that `object` uses the `module` icon but I can't see how `null` is used - also `key` isn't used. what icons from our set do you want them to map to?
+6721|Thanks! :heart:
+6722|I can reproduce with 0.10.6, but not with our master stream so I assume I fixed this already :+1:
+6723|@billti thanks for the background.  Adapted the package.json (04b451c914c16a60d0030ab990141fac9e23b2b2) and we will need to change `gulp-tsb` to use peerDependencies as well jrieken/gulp-tsb#25.
+6724|This is really cool. It's possible that you even fixed #1912 which I couldn't, so thanks for that! :+1: :beer:
+6725|Hey @SkyPol0, this might've been fixed with #2118. Pull and give that a try!
+6726|@felixfbecker, @dwbruhn I made a fix for this, please update to the latest version of the extension.
+6727|Not planed in the near future, but we hope someone can provide a custom extension for this.
+6728|This issue would only come up if the definitions are not in sync with the library.
+6729|"@joaomoreno  Maybe. But  different with him In the Command Prompt, what do you get when running the following snippet from the vscode directory?  `powershell -Command ""(Get-Content -Raw package.json | ConvertFrom-Json).electronVersion""`  I get some error messages. because my powershell`s version is 2.0.0."
+6730|@aeschli fixed, thanks!
+6731|'null' never worked, we pass 'null' as icon, which doesn't exist. No icon is shown right now. I guess the Boolean icon is a better match. For keys we use the 'string' icon.
+6732|@pocesar: could it be that git deletes it. We don't have any logic in regards to git operations. (e.g. what happens if you checkout the branch without having VSCode open)
+6733|"i would add ""{ expected"" when using mixins without params  ``` .element:after {   .clear(); } ```"
+6734|Ok empty mixins are problem only inside @media queries, will leave it in this issue tho :)  ![code_mixins_bug](https://cloud.githubusercontent.com/assets/10975377/12448584/4abd1272-bf77-11e5-9a52-723afe17bbee.jpg)
+6735|@btroncone you set the moduleResolution to 'node'. Where do ionic-framework/ionic live. With moduleResolution: 'node' the tsserver which VSCode uses looks in the node_modules folder for these files. Same for angular. You might want to read up about node module resolution of d.ts file here: http://blogs.msdn.com/b/typescript/archive/2015/09/16/announcing-typescript-1-6.aspx
+6736|Hi **@ajkerrigan**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+6737|"@andy-hanson I assume you have set  ""typescript.useCodeSnippetsOnMethodSuggest"": true. Right?"
+6738|@alexandrudima Thank you for your suggestions in #2004. I've followed them, and made what I think is the smallest change possible that is still functional.  I think there's some value in handling Replace/Replace All keyboard shortcuts similar to how Find Next Match is handled. That is, the shortcut would work even when the Find/Replace widget isn't open (forcing it to open if necessary). That is a more involved change though, and could certainly be done as a refactor/extension of this one. I think this is a good first step if nothing else.
+6739|**@ajkerrigan**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+6740|@bpasero I did have the folder open. There is obviously some action that appears to kick off the memory leaks beyond the initial opening of a file within the folder. I'll continue to monitor and try and narrow it down.
+6741|I tracked this down to the fact that the promise we use was 'resolved' to early hence loosing output sometimes (we resolved the promise on child process exit not on stream close). This is fixed with the next update.
+6742|Would love to have this too. Very useful for scratch buffers and crash recovery.
+6743|:+1: Cool. At least some positive aspect for the editor :smile:
+6744|That's correct, these modules live in the root of the project under the node_modules folder. The example I am referencing above is the base Ionic v2 project in case you need to reproduce.
+6745|delete lines: 570-590, it will work fine. https://github.com/k--kato/vscode/commit/ca1924c032c0153c36ac2a84b0363dbdc55f51ce
+6746|Indeed, I can reproduce this.
+6747|Created https://github.com/atom/electron/issues/4171 and closed the Atom issue in favor of it.
+6748|Hi @aeschli, I'm running version 0.1.10 of the extension, but I'm seeing the same issue: `testSource` and `reportsDirectory` are both variables but different colors. It's just a little weird to see only the first one colored:  ![image](https://cloud.githubusercontent.com/assets/8230981/12454661/5320886a-bf4d-11e5-8070-00c9524259fa.png)  Webstorm, for example, leaves them uncolored, but they're _both_ uncolored at least:  ![image](https://cloud.githubusercontent.com/assets/8230981/12454777/cc7873d0-bf4d-11e5-87fa-f44d8085efda.png)
+6749|@dwbruhn That's https://github.com/Microsoft/TypeScript-TmLanguage/issues/41. Sorry, I didn't realize that before.
+6750|Alt+Select would be fab! (CTRL-F2 does the trick for what I was just trying to do in any case: kill a bunch of empty columns)
+6751|I think I fixed this, @weinand did you try with latest?
+6752|@jrieken hm I wonder if this is a CSS caching issue and you get the native OS outline instead of the configured one. Is this a built version or out of dev?
+6753|![image](https://cloud.githubusercontent.com/assets/900690/12456655/200c5874-bfa1-11e5-8a4e-de66a7e95824.png)
+6754|@bpasero I saw this with 0.10.6 but I just verified that it no longer occurs in the latest.
+6755|@iHuahua you can set the encoding globally or per workspace. We only detect the encoding for UTF 8, 16 LE or BE when a BOM is present in the file.
+6756|"@bpasero since this is the most annoying problem with VSCode, I have to label this bug as ""Important""..."
+6757|duplicate of https://github.com/Microsoft/vscode/issues/172
+6758|it is out of dev - I try again recompiled
+6759|better, but still some clipping  ![screen shot 2016-01-20 at 18 23 54](https://cloud.githubusercontent.com/assets/1794099/12457095/02ce4b3a-bfa3-11e5-9978-2cb8abb43f71.png)
+6760|@jrieken with clipping you mean that the box does not appear to have the same width on all edges?
+6761|Closing as duplicate of #2054
+6762|@weinand thats fine, but note that there is nothing we can do until we update to Electron 0.36.x.
+6763|@bpasero That was the only vscode-related process I could see in the output, it's possible that it wasn't visible in the output because it was already killed due to unresponsiveness? As shown that process was only using 0.5% of memory and 0% of CPU. I think out of my recent discoveries the issue I'm experiencing probably isn't due to a JS service.
+6764|Btw even if we do not find the reason for this until end of month, I pushed a change so that the crash dialog you get by default selects an action to reopen the window so that you can continue to work where you left. This is also good for the case where you have multiple windows open and only one of them crashes.
+6765|(one thing missing and for the future is to be able to periodically flush UI state to disk so that reopening also restores your previous work environment)
+6766|@bpasero :+1: that would be helpful.
+6767|I have this same issue with ubuntu 14.04, i increased the file handle limit, still have the problem.
+6768|I'm still hitting it when I try open a second instance after setting the watch limit `fs.inotify.max_user_watches=16384`.  @JC1738 are you using symlinks for your config files? Or is there anything else special about your set up?
+6769|I have read https://github.com/Microsoft/vscode/wiki/How-to-Contribute but I cant build anything (I have received no error), I dont see vscode app anywhere.
+6770|If the file already has multiple empty lines at the end, it would be great to trim all but the last one.
+6771|That would be great  > On 20 Jan 2016, at 16:24, Uristocles notifications@github.com wrote: >  > Alt+Select would be fab! >  > — > Reply to this email directly or view it on GitHub.
+6772|@dbaeumer nope, tsconfig.json is on all of my branches. when vscode is closed, the tsconfig.json is kept intact, when vscode is open, I always need need to reset it
+6773|"@huttarichard I do not really understand when you are seeing these artifacts: only when running VSCode? Only if you are typing in VSCode or even when typing in a different app but VSCode is running.  What do you mean by ""chrome is doing the same along with vscode"". Please provide steps that explain what apps are running, and in what app you are doing what...  Thanks."
+6774|@huttarichard If it's happens in Chrome as well it's likely an issue with the tile manager in Chromium. Can you get it to reproduce using only Chrome (multiple windows with multiple tabs)? Also do you know if memory is maxing out on your machine when this happens?
+6775|"I was hoping (little bit) that this is known issue and I'm just an idiot which didn't really make a quality issue research :smile:. Im guessing this will be hard to reproduce, since this is happening for me randomly every few days (not really like immediately after startup, usually need some time). I know that ""randomly"" is not really what you are looking for, I can try to explain little bit more...  @weinand   > ""I do not really understand when you are seeing these artifacts: only when running VSCode?"" > ""Only if you are typing in VSCode or even when typing in a different app but VSCode is running.""  Not sure about typing in different app. But my guess, only if you type in vscode...  > What do you mean by ""chrome is doing the same along with vscode"".  Same time and issue. Black squares pops out in every tab you have in chrome as soon as vscode starts doing that.  > ""Please provide steps that explain what apps are running, and in what app you are doing what...""  Im developing an meteor web app, which is mobile app as well (cordova). In a moment when issue happens, those apps were on: meteor process, mongodb, robomongo, charles debug proxy, genymotion emulator, few more terminals with fish shell, chrome and 2 instances of vscode.   Usually I execute command like `code ../meteor_app` and start coding. After few hours (in vscode) issue starts with just one square, for example in the middle of screen, just one 3cm square in the middle. You take a mouse, move over the square and square disappear for few seconds. While you are doing that, more squares pops out, until you get a screen like the one above I sent.  @Tyriar   > ""Can you get it to reproduce using only Chrome (multiple windows with multiple tabs)?""  I tried this. Not really able to do that.  > ""Also do you know if memory is maxing out on your machine when this happens?""  This was actually first thing which came to my mind. Since debug proxy (charlesproxy.com)  taking a lot to keep a history of request you made to the internet. But to be honest, I was just too lazy to look up for memory stats, I rather kill vscode and run it again and had fun with my code for next few hours :smiley:"
+6776|"I'm actually having this exact same issue and I'll be glad to supply a screenshot.  This is about the simplest example I can create.  index.html has both a reference to app.css which only contains the teststyle class and the inlineTest class is declared directly in the html file.  Neither of these classes are shown in intellisense when typing in a class attribute of a html element.  The screenshot shows ""No suggestions"" which is what comes up with Ctrl+Space.  Also, Find All References is greyed on when right clicking on either of the css classes.  I'm sure these 2 issues are related.  ![vscode no css intellisense](https://cloud.githubusercontent.com/assets/5757764/12466231/91b09958-bf98-11e5-81e7-437e3e4dfa34.png)"
+6777|"FWIW I found a workaround of this issue by starting code with ""--disable-gpu"", then the blurry font is gone."
+6778|Attaching profile of when things started to go bad. Things went slower after but VSCode crashed when I was recording so wasn't able to capture that. Hope this helps - will send you another profiling when it happens again.  [CPU-20160120T154639.cpuprofile.zip](https://github.com/Microsoft/vscode/files/98389/CPU-20160120T154639.cpuprofile.zip)
+6779|Hi **@chrisbenti**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+6780|"@huttarichard my guess is something to do with RAM or your GPU, a cursory search for ""black tiles"" on http://crbug.com didn't yield anything relevant so I'm not sure it's been reported to Chromium."
+6781|Likely a duplicate of https://github.com/Microsoft/vscode/issues/508
+6782|Another option that worked for me is to use a function and return the absolute path to your source directory for every file.  ``` sourceRoot: function(file){     return file.cwd + '/src'; } ```  file.cwd should be the root directory of your project and then just append the source directory to it. At least for me it worked for files in nested directories as well. Not ideal but something that works with the existing sourcemaps repo.
+6783|Another syntax highlighting issue (not sure if this should go in a separate issue):  The new [`async` and `await` syntax](https://www.python.org/dev/peps/pep-0492/#asynchronous-context-managers-and-async-with) in Python 3.5 is not highlighted correctly.
+6784|@bpasero BOM header? It does not work in gcc env. the *.cpp file start with BOM, it will be so much error. Then, ATOM editor has encoding detect.
+6785|Could one simply configure their product.json to point to the official extension repositories? Is that allowed? In the analog of Chrome/Chromium, referenced in the split license issue by @chrisdias, Chromium is allowed to install Chrome Web Store extensions. Also, the actual README.md of the vscode repository includes a screenshot of the extension installer UI via F1, so if that's not allowed, I'd recommend the screenshot be changed to show a feature which is available when the repository is actually built.
+6786|@rezonant yes, you can configure product.json to point to the official marketplace. look in the product.json that is installed with the visual studio code distro for the url.
+6787|Right.
+6788|I believe you could do this with an extension
+6789|@iHuahua what is wrong with configuring the encoding for the workspace using settings?
+6790|Below is the visual treatment that we agreed on today (please disregard the inaccurate changes in variables).  I will be pushing these visual changes to master branch soon. ![conditional-breakpoint](https://cloud.githubusercontent.com/assets/11839736/12473614/8c10ae72-bfc8-11e5-99f1-8e39e56008fb.gif)  ## Design Rationale - Fading after a fixed amount of time emphasizes a change has occurred (while avoiding a misrepresentation that a change is in progress) - Helps to visualize the order and timing in which each variable has been evaluated… may also help solving race condtions in ansynchronous code. - Chrome DevTools uses this approach (combined with inline REPL)
+6791|Reopening until I have a commit to update this issue with
+6792|@joaomoreno I'm now issue the same proxy problem, and have read all posts. But the build you mentioned above can't be downloaded, it says 'AuthenticationFailed'. Could you please provider a new package?
+6793|[Here you go](https://ticino.blob.core.windows.net/build/0e17d138ca2e7f5a342e049836a2b2b0beb54685/VSCode-win32.zip?st=2016-01-20T08%3A28%3A00Z&se=2016-01-26T08%3A28%3A00Z&sp=r&sv=2015-02-21&sr=b&sig=Xit%2Bxckw2%2BoMzH%2FNjkiBWOLzP5Th%2Ba21mE7hBTGEdYU%3D).
+6794|@nchammas Please also file this against https://github.com/textmate/python.tmbundle and please add a code snippet as well. Thanks!
+6795|Got it. Thanks! :+1:
+6796|Hi, for setting up debugging please check out this document https://code.visualstudio.com/docs/editor/debugging  In short, the generated `launch.json` tries to detect your program file automatically, if it does not it points to a generic `app.js`. In this case you need to change the `launch.json` to point to your program entry point.  Out of the box we support node and mono debugging, and there are extensions that support Go, Powershell and Chrome debugging. So Python is not currently supported if that is what you are looking for.
+6797|@othebe Thank you!  From looking at the profile, it does not appear any code in particular is going haywire, but that there must be a huge memory pressure, as the GC uses 73% of the time.
+6798|@jrieken fyi This is a project with many small JS files. Do you have any tips on using `jsconfig.json` to limit the number of files we load or other ideas that could reduce memory pressure?
+6799|@ritcoder what OS?
+6800|I checked the node behavior new Date().toLocaleTimeString() which is used by tsc and the only two formats it prints is 24 hours and am/pm. Closing since these two patterns are matched

@@ -1,0 +1,100 @@
+3701|Alright, super reproducible. Let's see if we can get a nice fix for December.
+3702|agree. or a fancy cross session object identify ;-)
+3703|Needs more thinking. Tend towards not doing this.
+3704|we adopted the latest version of omnisharp which should fix this
+3705|Reopening, when I change the order, the primary button is not the right one. I filed https://github.com/atom/electron/issues/3810
+3706|"So Cmd++ works for me, which is cool. However what is weird is that we set the keybinding like this:  `{ primary: KeyMod.CtrlCmd | KeyCode.US_EQUAL }`  I could not find KeyCode.US_PLUS.   @alexandrudima can you comment on this maybe?"
+3707|closed in favour of the wiki
+3708|@bpasero
+3709|I think the issue here is the wildcards, have to investigate.
+3710|Yes, if I just use one \* it behaves better
+3711|I am also not 100% sure about the name, but the setting has no impact on the picker that extenson writers can use.   @egamma @chrisdias @stevencl maybe you have an idea how to call this setting and describe it better. It enables alternate scoring and matching for the file picker.   ![image](https://cloud.githubusercontent.com/assets/900690/11786785/c5a1ede8-a288-11e5-93e8-79e898d278fb.png)  Interestingly Atom calls it like this:  ![image](https://cloud.githubusercontent.com/assets/900690/11786795/d7e5fdaa-a288-11e5-86e9-db69f375538b.png)
+3712|I created https://github.com/SchemaStore/schemastore/pull/68
+3713|:+1: , might happen for 1.0
+3714|@bpasero I think you are talking about different issues here. Can you please create a bug for Joh about the providers. Then I will take this one for the TS specific isse (e.g no complete in literals)
+3715|I think this is just an issue with how we highlight differently for the editor history. Might also be related to wildcard highlighting.
+3716|The colors are the same as we had it 0.9.0 and older.
+3717|Thank you @egamma / @aeschli
+3718|@bpasero does Cmd++ work for you on a non-US keyboard?
+3719|@dbaeumer Under Windows AFAIK software needs to run as admin to write to `C:\`. What works for me is when I write to `C:\Alex\log.txt`
+3720|"@weinand yes I am on german keyboard layout (ibm) and interestingly when I type ""Cmd++"" into the keyboard widget, I see it prints Cmd+= for me. What does it print for you?"
+3721|:+1: +99
+3722|All the cursor operations are character index based and not unicode point based. So, any Unicode point outside the [Basic Multilingual Plane](https://en.wikipedia.org/wiki/Plane_%28Unicode%29) (i.e. needing more than 16bits or more than one char code under JS terminology) can be corrupted by cursor operations such as delete, etc.  Moreover, selection should never be allowed to be placed inside a unicode point (i.e. to not allow even for copying of invalid unicode points).
+3723|adding @bgashler1
+3724|"@bpasero I'm on a Swiss German keyboard and I see ""shift+cmd+="" and I know where the '=' comes from. On a US keyboard the '+' and the '=' are together on a key and since we only have KeyCode constants for the unshifted key, it is KeyCode.US_EQUAL.  @bpasero restating my question from above: did Cmd++ work for you **without** changing the keybinding?"
+3725|Interestingly, other editors do not have a select previous line
+3726|@weinand yes always worked for me without changing anything. and I see that we did not change this keybinding in months.
+3727|"@bpasero I would prefer to leave them to <kbd>Enter</kbd> and <kbd>Escape</kbd> as these are the expected keybindings used for accepting and canceling throughout VSCode.  Since <kbd>Enter</kbd> and <kbd>Escape</kbd> do not change in any keyboard layout, it is reasonable that you must type them in by hand.  Otherwise, a workaround is always to create a rule for <kbd>Ctrl</kbd>+<kbd>Enter</kbd> for example and then edit the `""ctrl+enter""` to remove the `""ctrl+""`"
+3728|@dbaeumer if you have the window still open, we can inspect together what's going on.
+3729|:heart:
+3730|+1
+3731|@weinand fyi
+3732|@arafato it is possible to programmatically call the debugger but we do not (yet) have an official client library for this (because VS Code is the only client). But you can find the code for talking to debug adapters in VS Code. See [rawDebugSession.ts](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/debug/node/rawDebugSession.ts).  [Here](https://code.visualstudio.com/docs/extensionAPI/api-debugging) is an overview of the API from an implementer's perspective.
+3733|@bpasero yes, it worked for you because on a German keyboard the '+' doesn't require a 'Shift' modifier. For a Swiss-German keyboard it never worked.
+3734|fyi @weinand
+3735|@joaomoreno Thanks for looking into it.
+3736|I have documented this here now: https://github.com/Microsoft/vscode-docs/blob/vnext/docs/extensions/testing-extensions.md#running-tests-automatically-on-travis-ci-build-machines  @gregvanl fyi. I hope its ok to make the example with Travis CI.   @egamma @lukehoban I think it would be cool if we enable this for Go so that people have a live example. I have setup https://github.com/bpasero/ci-testing as showcase (see https://travis-ci.org/bpasero/ci-testing). There are some gotchas: - since we have not released 0.10.4 (December) yet, I am hardcoding the VS Code download location in the .travis.yml file: https://github.com/bpasero/ci-testing/blob/master/.travis.yml#L10 and https://github.com/bpasero/ci-testing/blob/master/.travis.yml#L14 - since we have not released the associated vscode npm module for 0.10.4 yet, I have pushed it to the npm tag `next`: https://github.com/bpasero/ci-testing/blob/master/package.json#L30 - once the December release is out, you don't have to set environment variables, and 0.10.4 will be picked by default  @dbaeumer also fyi since you have asked for this. there is still a gap that we currently do not have published stable links for nightly releases of VS Code. But I think once we change our update server to produce something like a stable link that always points to `latest` we could enable CI tests also for extensions that want to test pre-release versions of VS Code.
+3737|@weinand that is odd, I leave it to @alexandrudima if we can provide the keybinding that works for Swiss and other keyboard layouts, but we might be limited here because we cannot express per-language keybindings.
+3738|Me again... actually, `ctrl+shift+]` didn't work either :(  But, hey! I found the reason why: VS Code is not detecting my ES keyboard distribution, because if I press this combination:  ![keyboard](https://cloud.githubusercontent.com/assets/8533075/11789512/1d4e16c8-a254-11e5-9293-f156b409a221.PNG)  VS Code triggers the `ctrl+shift+]` shorcut command. Looks like those shorcuts work only for people with EN keyboard distribution
+3739|++++ :100: for not showing this when a watch task is running. I think this would especially make the extension development case nicer.
+3740|Imho it would be nice to tackle this for December, I think the solution in https://github.com/Microsoft/vscode/issues/1194 would help!
+3741|@dbaeumer makes sense, I have created https://github.com/Microsoft/vscode/issues/1304 for the issue with object literals and this one I am not sure if it should go to @joaomoreno or @jrieken
+3742|@jacdavis I should be able to set this up in my parallels. Can you share the ISO to install what you have?
+3743|H
+3744|@bpasero
+3745|Might be Electron reality.  @bpasero
+3746|Should be fixed with my changes, but I will check.
+3747|Just because it was the same since the beginning of time does not mean this is not valid. Feel free to leave it closed if you disagree with the points I make. But if you agree leave it open and put it to backlog please.
+3748|There is a documentation here how to implement a language server in general. https://code.visualstudio.com/docs/extensions/example-language-server
+3749|@Alphapage regarding the specific questions: - import { Hover } from from 'vscode-languageserver';   There are a lot more type to import from there. - Promise: all handlers can either return a value or a Promise. So for the Hover simple declare the return type as Thenable<Hover> and return a Promise (e.g. native Promise or some other Promis implementation).
+3750|@bpasero Thanks. Starting with Joh.
+3751|See also #1194.
+3752|@bpasero after discussions with @alexandrudima I now better understand the issues around this problem and yes, we came to the same conclusion that we can only solve the issue with keyboard layout specific keybindings.
+3753|"Thank you for the info.  My onHover looks like this:  ``` connection.onHover((event):Thenable<Hover> =>{ return  getHover(event.uri,event.position).then((str):Hover=>{         return new Hover(str);     }) }) ```  But I always get ""cannot find name Hover"" from the line:  ``` new Hover(str); ```  Thenable< Hover > doesn't throw any error !!  Can you help me a little more ?"
+3754|I would like to add some information regarding this:  Windows Explorer does this too but there seems to be a timeout of about 500ms to 800ms (I screengrabbed a video :stuck_out_tongue: ) before the tooltips show up. Maybe you could also implement a similar timeout?
+3755|Woah!!! We need this, but this looks to be better suited as an extension really. It should have some kind of modifier key though because I sometimes would like to replace a word with a special character.  Maybe `Alt + special character`?
+3756|Sorry about that, we have done work in December to improve the keyboard layout support. And I plan to do more this week. See #713
+3757|Is this the right regex for this? https://github.com/Microsoft/vscode/blob/master/extensions/typescript/syntaxes/TypeScript.tmLanguage#L1067
+3758|@jijojv Can you please help me out with some sort of spec regarding what exactly you want...  We already have: - add cursor below <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Down</kbd> - add cursor above <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Up</kbd> - add selection to next selection match <kbd>Ctrl</kbd>+<kbd>D</kbd> - move selection to next selection match <kbd>Ctrl</kbd>+<kbd>K</kbd>, <kbd>Ctrl</kbd>+<kbd>D</kbd> - add selections to all selection matches <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> - undo last cursor action <kbd>Ctrl</kbd>+<kbd>U</kbd> - <kbd>Alt</kbd> + `Click` adds a new cursor  I understand there might be more to it, I think something with <kbd>Ctrl</kbd>+<kbd>Alt</kbd> + `Click` which would add selections in a block-like manner, is that what you mean?
+3759|Awesome! thanks a lot @alexandrudima
+3760|@bpasero We render in there the key codes (i.e. the rule you have to write in keybindings.json). I will make a change to also render in there a UI label. Please see #713
+3761|![screen shot 2015-12-14 at 5 55 35 pm](https://cloud.githubusercontent.com/assets/5505433/11796756/00d9eeee-a28c-11e5-9fb0-f45073a3e588.png) ![screen shot 2015-12-14 at 5 55 48 pm](https://cloud.githubusercontent.com/assets/5505433/11796764/0b6066d6-a28c-11e5-95d2-506d09c081b7.png) Sublime inverts the color of the text cursor, which is easier to see. Maybe there should be a setting associated with themes to do this?
+3762|It very well maybe addressed by existing features but having it match expecting functionality of almost all other editors and IDEs would probably really help new users and thereby adoption.
+3763|@alexandrudima Its a common feature https://www.sublimetext.com/docs/2/column_selection.html . I believe VS has it http://joelabrahamsson.com/select-columns-of-text-in-visual-studio/  http://www.visualstudiotipsandtricks.com/blog/2013/04/20/select-and-edit-vertical-blocks/ but is missing from VS Code.
+3764|@aeschli @egamma if this isn't going in until Jan then I’ll probably add more commits to it, as there are some more things to add to CSS.plist (such as property values…currently I've just updated the long list of properties), and to remove a lot of the duplication in the XML file (all colours are repeated for each property when they’re already included via the restriction attribute. This makes it really difficult to maintain the list as it is multiple screens of entries each you need to scroll through.)
+3765|"Heres the markdown. Thanks  ``` ## Status code |Status code|Meaning                                                  | |-----------|---------------------------------------------------------| |`200`      |Successful                                               | |`201`      |Something create (account, visit, patient, etc)          | |`400`      |Somthing's wrong (Usually bugs)                          | |`403`      |You have no permission (permission = false in role table)| |`409`      |Some kind of conflict                                    | |`497`      |Token does not exist                                     | |`498`      |Token expired                                            | |`499`      |You have not provide token to me                         |  ## Permissions ### Rules on creating new permission - nouns should be singular - If the action are listed in the following table, it must start with their corresponding prefix      | Action               | Prefix | Example       |     |----------------------|--------|---------------|     | add/create/insert    |`add`   |`add_patient`  |     | delete/remove/revoke |`delete`|`delete_token` |     | read/get/see/check   |`get`   |`get_inventory`|     | modify/update/edit   |`edit`  |`edit_any_user`| ```"
+3766|Never mind! I can verify that this works on `master` - deleting my prior (misleading) comments :)
+3767|reopening this as the send-a-smile was pulled back into the Dec release. We are not fixing this bug for Dec though.
+3768|"Why is it under the `search` category? The other search option(s) apply to the search viewlet (`search.exclude`).  Perhaps we need the `quickPick` category? If so I suggest:   ``` json ""quickPick.useFuzzySearch"": boolean ```  or  ``` json ""quickPick.useAlternateScoring"": boolean ```"
+3769|It was fixed in this commit: 545b62b80df16713a5823888aa732ee583b2f3c8  Line of code to look at: https://github.com/Microsoft/vscode/blob/master/src/vs/base/browser/ui/resourceviewer/resourceViewer.ts#L82
+3770|For example I have a project and I configure a build task for it, but I also want to configure a unit test task, code analysis task and so on, but vs code cannot do it. Or , I have to write a broker tool for it.
+3771|Yes, we can introduce a new category. Note though that the search.exclude setting has an impact on quick open too.
+3772|"Nothing that fancy.  I can fake out VSCode and create a `faux` variable to act as my container.  Here's what it looks like - `Automatic Variables`: ![filteredvariables](https://cloud.githubusercontent.com/assets/5177512/11804556/13c67dc0-a2c2-11e5-969c-1953980b82cb.png) Think of ""Automatic Variables:"" as a filtered view - could be called ""Auto"" or ""My Variables"".  It is not a `real` variable - it is a container like the top level `Local, Script and Global` containers.    I want the end user to be able to **easily distinguish between these ""container"" nodes and real variables**.   I suggest displaying these container nodes just like the top-level nodes - using white text and not appending a `:`."
+3773|"@jonnyguo1988 to suppress the task name set ""suppressTaskName"": true"
+3774|@mohsen1 Thanks. Closing.
+3775|@nevir can you provide a tasks.json file that shows the behavior. Usually VSCode should ask you to terminate the task when it closes.
+3776|@mohsen1: two ways: - F1 > Change Language Mode - click on the Language indicator in the bottom right corner of the status line (e.g TypeScript) if a TypeScript file is open.
+3777|@bpasero Ben, start with you here since this sounds like a mark down feature. I think there is no underlying support needed in the editor to make this happen.
+3778|"@dbaeumer  Thank you I tried and succeed. because when i set this option is promotes ""true"" is the default value and it doesn't work when i did set it which mislead me to set it as false.  Thank you."
+3779|"`""quickPick.useFuzzySearch"": boolean` works for me."
+3780|:+1:
+3781|will be addressed by #1198
+3782|This is because we sort each group of proposals by itself
+3783|"+1 we should make sure that we use consistent wording for the publish action/push branch action in the hover in the status bar and in the quickbox, when you have more than one remote.  Currently the prompt says: ""Pick a remote to push ..."" should this be 'publish'?"
+3784|Currently this is possible by opening multiple instances of VSCode. Running them in one instance is a feature-request for the future.
+3785|"VSCode supports word wrap. Use ""editor.wrappingColumn"": 0 in the settings. (File > Preferences > Workspace settings)."
+3786|closing as duplicate of #1190
+3787|@jijojv So this is about adding more mouse gestures since we have this:  ![image](https://cloud.githubusercontent.com/assets/5047891/11806124/362c1d76-a311-11e5-81ae-ad71912e9a30.png)
+3788|This is a problem of the grammar. `:` get scope `token annotation body declaration function meta method object parameter type ts`
+3789|This is a problem of the grammar, both using and name use the `keyword` scope
+3790|This coloring looks correct to me. You can have a variable inside a comment. The handlebar transpiler comes first and will replace the content
+3791|"I can also repro with the following extension:  ... what changed since last week?  ``` javascript console.log('I am loaded');  var fs = require('fs');  exports.activate = function() {     fs.writeFileSync(""C:\\Alex\\log.txt"", new Date() + "":: activate called""); }  exports.deactivate = function() {     fs.writeFileSync(""C:\\Alex\\log.txt"", new Date() + "":: deactivate called""); } ```"
+3792|Problem of the grammar. The scopes we get for the 3rd and 4th number is `token block decl function meta js`
+3793|"Tried again with and this seems to work....  ``` javascript console.log('I am loaded');  var fs = require('fs');  exports.activate = function() {     fs.appendFileSync(""C:\\Alex\\log.txt"", new Date() + "":: activate called\n""); }  exports.deactivate = function() {     fs.appendFileSync(""C:\\Alex\\log.txt"", new Date() + "":: deactivate called\n""); } ```"
+3794|@joaomoreno Please always paste the code snippet as well...
+3795|It's a problem of the grammar
+3796|Detecting the encoding like that is a feature request.
+3797|Yes, fixed.
+3798|watchedTaskEndsRegExp  and watchedTaskBeginsRegExp  is deprecated and got replaced by waching.beginsPattern and watching.endsPattern.
+3799|Hi, any news on this before the holidays? Thanks!
+3800|I was misreading the log, the version with `writeFileSync` had only one message and it was deactivate called

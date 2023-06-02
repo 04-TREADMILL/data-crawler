@@ -1,0 +1,100 @@
+29401|Duplicate of #507
+29402|@isidorn yes that would be great and follows our pattern of what should get pinned by default. I can then look into pinning the settings file when it is being created.
+29403|This will likely not happen in the near future.
+29404|https://github.com/Microsoft/vscode/issues/3742
+29405|@modigrv Do we have any progress on this item?  Specifically, when extensions are published to the marketplace, they indicate [a specific VS Code version range they are compatible with](https://github.com/Microsoft/vscode-parinfer/blob/master/package.json#L9). Is there any way vsce can send this information to the marketplace such that VS Code can then query on this (or at least get it through version properties?).
+29406|👍
+29407|@bpasero did it for launch and tasks, forwarding to you so you can investigate settings
+29408|And it's now supported in the product!  ![image](https://cloud.githubusercontent.com/assets/22350/16586462/5d0be2a0-42c6-11e6-8591-b558aa9bc0dd.png)
+29409|Seems to be working now!
+29410|@modigrv Is there any concept of deprecation?
+29411|@modigrv Is there any such concept? Maybe accessible through version properties, which vsce would properly map from our `package.json`?
+29412|@alexandrudima I know you are going through you bugs today so a friendly ping on my question here :)
+29413|Thank you! Looks good!
+29414|Well, I'm refrencing more to the Visual Studio panels 'auto-hide' : you click on it  - it shows, you click outside - it goes ... simple as that. Hovering/timeouts etc. are not really necessary, but anyway - #3742 is similar, I must admit. Btw., the GIT sidepannel must be totally hidden (no icon on the bar at all) when git is disabled in settings, I think.
+29415|It still fails on the latest nightly build.  It seems to be because there is a large amount of data in a value attribute. Removing that tag but leaving that data behind in a div doesn't cause an issue.  I was able to reproduce with non-useful data here:  https://github.com/TotzkePaul/SpacesVsTabs/blob/master/Test.html#L1  EDIT: I also have this issue with Atom. Maybe this isn't an issue with VS Code. Electron issue?
+29416|Yessss @joaomoreno - trick with `mark` works like a charm
+29417|"Decided to always open all settings files pinned (also ""Default Settings""). Why? Because this does not destroy any preview editor the user might have so you can nicely escape settings by closing 2 editors and restore the previous view state."
+29418|This will likely not happen in the near future.
+29419|Maybe add your comment to #3742 then.
+29420|I have made two tweaks: - merged `nextMatch` and `previousMatch` in one field since they cover the same case and would always be equal - removed the default keybindings, users can still easily write keybinding rules for them
+29421|I pushed a fix for it, @f111fei maybe you check it out when we push July insider builds (sometime after we released stable this week).
+29422|It would be interesting to tackle this considering #6403 and #6614.
+29423|@Ashutosh-Tripathy: this is a problem with the regular expression you defined in the tasks.json file. The regexp result in catastrophic backtracking. See the details here: http://www.regular-expressions.info/catastrophic.html. There is little we can do about it. I am closing the issue. We have an issue to move the task output parsing to another process but that will not happen soon.
+29424|To the **verifier**: This should be verified across **Windows**, **Mac** and **Linux**. Dragging 1-N files over Code should give the usual drop feedback over editor area or explorer. However, as soon as you start dragging a folder or an extension (*.vsix), the entire Code window should report drop feedback and do the expected thing on drop (install the extension if it is one, open the folder otherwise).
+29425|Visual Studio panels 'auto-hide' : you click on it - it shows, you click outside - it goes is pretty neat and more than enough. As of 'push editor to the right' - this more a separate option to 'dock' the panels or not. Would be also nice to have, though.
+29426|i pushed a fix so that this no longer happens for dragging from outside Code into Code because it was needed for https://github.com/Microsoft/vscode/issues/8726
+29427|Solved by #637
+29428|Actually addressing this might cause some work inside multi line problem matchers. Multi line matchers are made for a use case like  Errors in file A.ts    1,1: An error on line one    2,1: An error on line two  I will keep this as a feature request but I think we would benefit more from a project wide TS builder than addressing this use case in the problem matcher.
+29429|@Emeryao that's off too, this is what I see on Ubuntu  ![image](https://cloud.githubusercontent.com/assets/2193314/16587236/73536e4a-427e-11e6-86d9-676cf36f369e.png)
+29430|Closing as Marketplace owns the issue.
+29431|There is now `scripts/code-cli.sh`.
+29432|Closing this since it is a discussion issue. We can keep talking here.
+29433|There is now cleanup code to make sure old cruft gets removed.
+29434|Closing due to inactivity. Suggest to update git and retry. Let us know if it still happens.
+29435|"@joaomoreno Note that JSON.parse doesn't work for me with the latest iteration of your test code, and that is because the output contains some stuff from iTerm2 integration before the JSON begins. This is with `strip` applied:  ``` begin; function imgcat --wraps ~/.iterm2/imgcat;  ~/.iterm2/imgcat $argv; end   ;end <&3 3<&- begin; function it2dl --wraps ~/.iterm2/it2dl;  ~/.iterm2/it2dl $argv; end   ;end <&3 3<&- {""ATOM_SHELL_INTERNAL_RUN_AS_NODE"":""1"",(... stripped for privacy)} ```"
+29436|Let's: 1. Disable auto status when application is not in foreground and, 2. Provide setting (or checkbox in viewlet) to disable auto status altogether.
+29437|Closing as duplicate of #901
+29438|"I do not think we allow to escape the workspace like that, at least when I try. Other relative links with ""../"" work for me though.  @Emeryao @hzmnet is the resulting path pointing outside of the workspace maybe?"
+29439|@joaomoreno I have iTerm2 integration and this one works for me too!
+29440|Closing as duplicate of #901
+29441|Closing as duplicate of #901 - the setting/checkbox would mitigate this.
+29442|Absolutely, looks very similar to #281.  I suggest to try the latest version and to install git `>= 2.0.0`.
+29443|To **verify** - have an extension that adds three items to the editor context menu where two have a group and one has not. Use titles `a`, `b`, and `c` where the menu item without group is called `b` - Make sure that the item with a group are rendered together and that the item without shows below
+29444|LGTM
+29445|Closing due to inactivity. Please report whether you still see this issue.
+29446|Works on macOS.
+29447|Alright guys, thanks for your replies, we'll go with this then. Props to @weinand for coming up with the idea!
+29448|@vba sorry for not responding earlier but this slipped through the cracks. The problem is the case sensitive FS under Mac. Please see  #5161 for the problem behind it and a workaround.
+29449|@bpasero I could still repro this:  ![image](https://cloud.githubusercontent.com/assets/22350/16587920/1f837090-42cd-11e6-8f1f-b388fb591fdc.png)
+29450|@jrieken does the new menu contribution story make it any easier to associate keybindings with actions? or is that a different concept that needs to be implement using the keybinding service and co?  I think both concepts are similar: You select an entry in the tree and set a context. Then you press a keybinding and expect one of the actions on this context to be invoked. All of those actions are likely also present in the context menu of that item.
+29451|@bpasero Yes it is.
+29452|Please reopen if this still happens.
+29453|What surprises me is how slow the images are added back, these are cached I assume?
+29454|It's like this: - you can associate an `id` to a `function` (think of `function` as `run` in an action) - you can associate a `keybinding` to an `id` - you can associate a `menu item` to an `id`  Since the menu item story is just adding another UI gesture to invoke a command it's not making it easier or harder it's just a second way to invoke a command.   Today, there is a little debt as that we define the command (id -> function mapping) when defining a keybinding. We should extract a command registry and command service but using the existing stuff does everything you want - you can register a keybinding without keys - but stuff is a little clunky and we should add some convince functions.  Tho to truly adopt the keybinding/(future) menu item story these things need to be done - implement the _logic_ as command handlers (outside of an Action) - add good context keys such that enablement/etc can be computed from the `when` clause - define default keybindings and menus
+29455|I actually don't know... I can image they aren't cos they are meant to represent some live state about the repo...?
+29456|Please reopen if you still see this.
+29457|"I'm sorry, but that makes no sense. Every other IDE I've used traps focus in the find widget/panel.  I just tested with what I have installed: - Sublime Text - `Esc` key escapes the find panels. `Tab` toggles between ""Find What:"" and ""Replace With:"" - Visual Studio 2015 - `Esc` key escapes the find and replace panel. `Tab` toggles between all the fields & buttons. - Atom - `Esc` key escapes both the `Find in current buffer` and `Find in project` panels. `Tab` toggles between the text fields. - I could go on...  The `Esc` key should escape focus and restore focus to whatever was found.  **Edited to add:** Even VS Code responds properly to `Esc`."
+29458|Closing as not supported.
+29459|Closing as _as designed_.
+29460|Fixed since.
+29461|Fixed since.
+29462|??? VSCode is designed to turn my hard drives on without any need?
+29463|To be fixed along with #8687
+29464|@joaomoreno show me
+29465|Do you still have this issue using the latest version? Sorry for the long silence.
+29466|@steelheaddigital Sorry for the long silence. Is this still a problem nowadays with the latest versions?
+29467|Closing due to inactivity.
+29468|Closing due to inactivity.
+29469|Fixed!
+29470|Fixed since.
+29471|"""Synchronize"" isn't clear on what it will do. I initially assumed it would just fetch (or pull) and was surprised it pushed.  Is there telemetry on how often these actions are used? I'd guess that pull (and pull with rebase) are used more often than push or sync.  I don't favor a confirmation dialog either."
+29472|I inline the value of the variable as the title (same as chrome) - i need to cut it to one line, this does not make much sense
+29473|Actually it is also used by the InputBox down in base: for when the user types an invalid regex for example. It is hidden away an identical interface `ContextViewProvider` since services don't exist down there.
+29474|Not favoring a confirmation dialog, just surprised my change was pushed.
+29475|"@joaomoreno I've looked at that a little bit. I am unsure what is meant by the ""default git message"" in #6403. I'll have to look at that. But if it means the git template, then what I've done so far should work for that. I don't know about #6614 though, that is a little out of my current scope (I think). If it involves getting commit information though, again, it should work.  Speaking of which, I've got the ""pipeline"" up and going, for lack of a better term. I've added commit information to the model and I have added a `getCommitInfo` all the way from the client(s) to the server. This `ICommitInfo` contains both the `git.template` (if it exists), and the previous commit message.   Basically, to get the template, the server has to execute the git command. When doing so, the client is expecting a status. So I had to add the commit info to the model, and implement the interfaces, etc. all the way.  You can check out my latest commit [here](  At the moment, I am figuring out (in my spare time ;) how to parse the git template file (if it exists). After this, I will parse the previous commit message (if it exists), and then the contribution should be complete (without requirement creep).   As an aside, I would like to note overall, I think the [contributing documentation](https://github.com/Microsoft/vscode/wiki/How-to-Contribute) is freaking awesome! That said, it is made a little more difficult without being able to actually debug the node server process, as the guide only speaks to debugging the client process and the host extension process, not the node server process - and I can't figure it out. But I'm doing it the good ol' fashioned way of log/console messages ;)  Also, I wanted to note that I've added some more moving parts to my [previous comment](https://github.com/Microsoft/vscode/issues/7830#issuecomment-227515411) for reference. ). So that should help anyone else, should they do this or something else that involves the git portion of vscode."
+29476|Makes sense, that might be the reason then. Typing in the markdown source effectively refreshes these.
+29477|Fixed since.
+29478|@joaomoreno After looking at the [git commit documentation](https://git-scm.com/docs/git-commit), it looks like that issue would require adding an option to the commit operation from the client and then interpreting it on the server.   I don't _think_ it necessarily is related to this issue, as this is more getting prior information. That issue is about passing a different argument to the commit operation.
+29479|I think this is the chrome bug on your machine - the grabbing cursor looks good on my machine  ![grab](https://cloud.githubusercontent.com/assets/1926584/16590723/f7031c9a-42d8-11e6-8240-f9ba6705c9ec.gif)
+29480|If you run the [bare Electron](https://github.com/electron/electron/releases/download/v0.37.6/electron-v0.37.6-win32-ia32.zip), do you get the same problem?
+29481|Since they are actions, we do have telemetry for it. Hey @seanmcbreen can we get some rough numbers here?
+29482|@vadimcn the protocol has already a BreakpointEvent for this. Please see: https://github.com/Microsoft/vscode-debugadapter-node/blob/master/protocol/src/debugProtocol.ts#L135  @isidorn are you already tracking this event?
+29483|@virtyaluk any update on my last question?
+29484|Just: `Electron`
+29485|@weinand yes [here](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/debug/electron-browser/debugService.ts#L304)
+29486|"@alexandrudima @aeschli this could also be resolved by #3422 if it gives extensions a flexible API to control code folding.  The API would need to allow specifying: - a range of text to be folded; - different rendering options for each range (or sets of ranges); - how to render ""fold"" (e.g. ""-"", an SVG, or none); - how to render ""unfold"" (e.g. ""+"", an SVG, or none); - how to render the hidden text (e.g. ""..."" or none); and - a hook to receive (and optionally cancel) requests to fold or unfold the region (e.g. in response to double-clicking, clicking ""+"" or ""-"", or a keyboard command)."
+29487|"Should be ok now as long as ""C:\"" is passed in with trailing backslash."
+29488|Not supported unfortunately.
+29489|I think I fixed this for the editor part by changing the cursor on mouse down (I was not doing that before). So if you change it on mouse down, then indeed a chrome bug maybe.
+29490|Closing, this should be resolved by now.
+29491|Likely a problem with the Command Prompt, won't do nothing here.
+29492|@bpasero I'm now using this: [a1293f5056e79c3f0e2cd3e24909f41ff4eef472](https://github.com/Microsoft/vscode/commit/a1293f5056e79c3f0e2cd3e24909f41ff4eef472), which should include your patch if I'm not mistaken. But it still functions incorrectly:  ![image](https://cloud.githubusercontent.com/assets/64731/16591830/72bda4b0-42e6-11e6-8385-aa255accf311.png)  **Edit** I might be looking different branch, maybe your patch is not yet in insider.
+29493|@weinand isn't this to do with debug? Does the debug stuff rely on parts/execution?
+29494|Are we going to go through the 300-odd unassigned issues as part of this? https://github.com/Microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee
+29495|"I agree, this behavior is counter-intuitive. I realized I run into [my issue](https://github.com/Microsoft/vscode/issues/2812) (of the find widget not trapping focus) a lot because I'm accustomed to hitting `Ctrl+H` instead of `Ctrl+F` (because many apps have separate ""Find"" and ""Find & Replace"" dialogs). When I `Ctrl+H`, I notice the focus is on Replace, intuitively hit `Tab` to go back to `Find` but then I realize the buttons are tab-focusable (in many IDEs they aren't, just `Alt`-shortcut-able (Atom & Sublime Text to name a few)). Okay, that's fine. Now, to get back to Find, I have to `Shift+Tab` twice or `Tab` a few more times; `Shift+Tab` is uncomfortable to hit so I'll instead go for 4 more `Tab`s, just to realize focus has fallen off the find widget.  If this issue was fixed, I probably wouldn't run into [my issue](https://github.com/Microsoft/vscode/issues/2812) as often."
+29496|Can't reproduce anymore... (Tried Windows 8.1 and 10.)
+29497|"To solve this problem simply open the normal bash on ubuntu on Windows then type in order: 1) `sudo vim ~/.bashrc` to open the default ""setting"" of the ubuntu bash. 2)  press `i`. 3) at the end of the file add this line `alias codolor='LS_COLORS=""ow=01;36;40"" && export LS_COLORS'` 4) close the bash and re-open it in Visual Studio Code and then type `codolor`.  I solved in this way the problem. Adding this line not change by default the ""theme"" of the bash, but you can use it only when you are using the bash on ubuntu on Windows  in Code."
+29498|Closing as there have been no reports since.
+29499|Added the icon to the rpm didn't seem to fix it, not going to invest more time into this.
+29500|Doesn't seem to hang anymore, the browser doesn't launch but this is a fine compromise considering we don't advise running as root.

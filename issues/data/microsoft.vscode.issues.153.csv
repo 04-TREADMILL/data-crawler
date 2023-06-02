@@ -1,0 +1,100 @@
+15201|[i18n] Improve jpn locale
+15202|Update vscode error
+15203|Provide workbench.action.nextEditor/previousEditor that cycle through current active group
+15204|Select files or forders by key pressed
+15205|Keybinding warnings in insiders build: Invalid accelerator token: numpad_add
+15206|VSCode
+15207|Hope that the built-in terminal support git bash or win10 bash
+15208|Build succeeded after failed npm install for an extension
+15209|MD file preview seems lost CRLF,pls check
+15210|Can't drag debuggee window
+15211|Render modifier only keybindings correctly
+15212|Add command to 'Switch to Changes View' and 'Switch to Editor View'
+15213|Is an extension able to contribute menu items dynamically?
+15214|Selections broke after deleting text using vscode.TextEditor.edit
+15215|Indent to bracket option??
+15216|No intelli-sense is provided for the properties or methods of a TypeScript object
+15217|JSDoc syntax highlight. Not supported type '...*'
+15218|Mouse wheel scroll deadzone on MacOS Sierra
+15219|Can not open file after opened folder
+15220|Explorer doesn't fit width when double clicking on the resize handler
+15221|Format code doesn't work!
+15222|"Feature suggestion: Auto select the current word in ""find in files"" as it does in ""find"""
+15223|Add .cfg in properties mode and update case of properties
+15224|Exploration: SCM providers
+15225|Inline PHP tag brokes HTML highlight
+15226|Intellisense, closing punctuation, and bracket matching stop working
+15227|windows git bash Ctrl-C doesn't terminate process
+15228|Editor scrolls downwards as I'm typing
+15229|Keyboard navigation in sidebar: jump to letter
+15230|Stop resetting default apps.
+15231|Debugger doesn't step into
+15232|Using Windows 7 taskbar popup menu to open recent folder name containing spaces fails probably due to lack of quoting
+15233|Add keyboard shortcuts information to tooltips
+15234|Code layer breakage: .../electron-main/windows.ts is referenced in .../common/urlipc.ts
+15235|Markdown Preview failure
+15236|New macOS bar - intellisense issue
+15237|Ensure hygiene filters are restored before moving to next task
+15238|Move main process unload backup removal logic to be handled by an event
+15239|Consider introducing ctrl+q to close all windows on Linux and Window to compliment hot exit
+15240|UI: Add dock for switching viewlets/panels
+15241|tslint in ghooks coverage should be increased
+15242|Tag matching erratic in JSX javascript
+15243|Issue on debug in VS Code
+15244|something changed with the way the app starts
+15245|Suggestion that adds a line - cursor goes to the wrong line
+15246|Autocomplete for typescript string literal types not working in all cases
+15247|"""Toggle maximized panel"" no longer un-maximizes it"
+15248|Windows: Allow to open file paths that contain slashes
+15249|Remote Server Files Saves Close Tab
+15250|[scss] Incorrectely reporting syntax as invalid.
+15251|0006-0906
+15252|Investigate regression to `code <folder> <path>` in hot exit
+15253|Update all button for all extensions, reload all updated extensions on restart
+15254|Opening a file changes its edit status, even if there is no change in file content
+15255|Add test coverage for new events onDidChangeContent and onDidDisposeModel in untitledEditorService.ts
+15256|vscode 1.7.1 html tag completion is not working in .jsx file
+15257|Add test coverage for new events onModelDisposed and onModelContentChanged in textFileEditorModelManager.ts
+15258|Investigate BackupService listening to ILifecycleService.onWillShutdown instead of being called from TextFileService
+15259|Shortcut key for Git is inconsistent on Mac
+15260|Intellisense for C# does not work in multiproject environment
+15261|Running Tasks Are Using Incomplete Export Path
+15262|When formatting code, resulting in JS template engine language which can not be used to break
+15263|HTML Tag Matching doesnt work.
+15264|repeating save
+15265|Allow scoped snippet
+15266|VSC should not allow the bottom of the document to scroll away from the bottom of the window
+15267|Bug in parsing embedded language
+15268|editor.formatOnSave is within files section in Default settings
+15269|Relative path to workspace in title bar
+15270|auto format js. spacing is wrong
+15271|Layer breakers here and there
+15272|First instance of Code opens full-screen, subsequent instances open in smaller windows
+15273|captouring group support in search and replace
+15274|tree-work should be in `window` namespace
+15275|Update to electron 1.4.x
+15276|Word wrap falsly applied on load
+15277|Intellisense space issue
+15278|Auto Format pasted/moved code
+15279|"When disable the Spell, you can't back to the ""Enable"" Mode"
+15280|Copyright Symbol Not Encoding Properly in UTF-8
+15281|Warn users that their default editor will be affected when installing on Windows 10
+15282|Test: manual launching of multiple debug processes
+15283|Allow to copy workspace relative path of file from explorer
+15284|Green light bulb not showing.
+15285|Feature Request: Vertical select at the end of line
+15286|Prevent scrolling to the selected file when you switch between tabs
+15287|Feature Request: Hide Activity Bar
+15288|Code outline/file structure
+15289|Keyboard Shortcut for editor.action.format not working
+15290|"Search is not excluding the folders in the ""files excluded through settings"""
+15291|"Trying to start the debugger two times in a row ends in a ""endless loop"""
+15292|VS Code doesn't send 'pause' request to the debug adapter when the button is hit
+15293|Format document inserting 4 spaces instead of 2
+15294|Allow to sort list of opened editors
+15295|Use :: as a comment for batch language
+15296|Add commands to navigate tabs in MRU order without picker
+15297|Support opening files through URL handling (fixes #4883)
+15298|Improve existing telemetry data
+15299|Editor crash with some time of use
+15300|View Menu Items are disabled inappropriately

@@ -1,0 +1,100 @@
+4401|GO TO Definition doesn`t work.
+4402|Do you even have 'go to definition' in php?
+4403|ES6 yield keyword doesn't have blue color
+4404|F# using keyword is not highlighted
+4405|[html] formatting puts <a> and <button> tags on one line
+4406|Add comments in nls so translators to a better job
+4407|Forward wordwise delete (Ctrl+Del) deletes whole line if performed at EOL?
+4408|Align new selection height with other decorations height
+4409|Remove suggest widget telemetry
+4410|Selection highlight is too aggressive
+4411|debugViewer does not nicely dispose the templates created
+4412|After update the Unity to Latest version,I cannot use the IntelliSense.
+4413|About windows7 ahci and native ide
+4414|[feature request]Support vertical indent level line and renderWhitespace when selection
+4415|"""Open to the side"" action does not work from quick open"
+4416|patch header looks bad in dark theme
+4417|Possibility to open markdown preview editor into new window
+4418|Test Tour: C#
+4419|[folding] Fold action doesn't work in the last foldable region in a buffer
+4420|Remove extension tips from OSS Code
+4421|Mouse column selection odd for vscode-docs LICENSE.md
+4422|Include CLI in Linux zip archive and support custom install locations
+4423|formatOnType wrong tab/space format c#
+4424|editor.glyphMargin
+4425|Store workspace UI state also for empty workspaces
+4426|App crashed when trying to launch dev tool from Help menu on MAC.
+4427|File/Folder Watcher fails or out of sync in some cases, e.g. after `typings install something --ambient --save`
+4428|Sorting installed extensions
+4429|Incorrect font on overall GUI on Japanese environment
+4430|After 0.10.8, 'Code' executable has been renamed 'code'
+4431|Support callstack with more than 20 stack frames
+4432|html lang attribute should be set to current locale
+4433|Context menu in wrong location after increasing font size
+4434|Report of RHEL7 crashing after around 10 seconds
+4435|Open with Code not visible for unprivileged users
+4436|"Add ""Open with Code - Alpha"" action to Windows Explorer file context menu shown twice on setup wizard"
+4437|file
+4438|Add a post install script to remove the legacy symlink
+4439|Mac: after native crash, sometimes application disappears from dock
+4440|HTML within markdown is incorrectly highlighted as markdown
+4441|Multi-line strings in Javascript not being color-coded correctly
+4442|[c#] Add support for new C# 6 keywords
+4443|[vb] Make NameOf a keyword for Visual Basic
+4444|Why open Unity3d project aways 300%+ cpu usage?
+4445|VSCode & Task Output freezing, printing and sleeping
+4446|update to 4.x node.d.ts
+4447|Update our node.d.ts to 4.x
+4448|Support to pass in a name for the diff editor when using --diff
+4449|Prompt clicking on debug wrench if there is no launch.json
+4450|Peek definition shows import line with typescript and es6 style modules
+4451|Issue highlighting JS code when the property name starts with 'var'
+4452|vscode marketplace shows wrong installation instructions
+4453|can't download the installer
+4454|"""namespace"" as a property name gets highlighted in JavaScript"
+4455|story for pulling in remote origin topic branch that already exists into local repo
+4456|wrappingColumn
+4457|Using horizontal scroll with mouse breaks search text boxes
+4458|[ember] Provide syntax highlighting for .ember-cli files (JSON)
+4459|[ember] Provide syntax highlighting for .watchmanconfig files (JSON)
+4460|[ember] Provide syntax highlighting for robots.txt files
+4461|Provide syntax highlighting for .gitignore files
+4462|Settings in tsconfig.json file not being applied if tsconfig.json is in a subdirectory rather than root
+4463|C# support not working after C# extension installed
+4464|New line always starts at the beginning of line (Col 1)
+4465|Rename and fine all references of Typescript's string literal values
+4466|sometimes get a warning in the default settings.json
+4467|Feature Request: Need a Git Commit command in the Command Palette
+4468|Proper Way to get value of change event for a HTMLElement
+4469|[Bug] Using the Tab key to indent messes the code
+4470|[JavaScript] Broken syntax highlight for multiple variable definition using single 'var'
+4471|Feature request: multiple commands in tasks.json
+4472|Introduce a setting to configure display of hover widget
+4473|Problems with C++ syntax highlighting
+4474|"""Open in Terminal"" not working on Fedora"
+4475|The type or namespace name `Forms' does not exist in the namespace `System.Windows'. Are you missing `System.Windows.Forms' assembly reference?
+4476|Constantly updating file runs git and causes PC to freeze
+4477|Markdown shows stylesheet with preview, but not with the compiled files?
+4478|add emmet support for .ejs files
+4479|Add support for a bunch of zsh configuration files
+4480|Should JavaScript snippets automatically be made available to other JavaScript based languages (TypeScript, JavaScript React)
+4481|[snippets] Allow snippets where the prefix ends with =
+4482|Selecting a line when file is auto-updating causes to scroll down near to the end of file
+4483|tsd and typings different?
+4484|Cannot read property 'scheme' of undefined
+4485|Explorer text color error
+4486|Macro recording
+4487|VSCode crash report, But the app can run. what's wrong?
+4488|Feature request : add in code 'debugger;' to breakpoints panel for .ts and .js files
+4489|Creating editor with model does not send model changed event to contributions
+4490|When I minimize VS-Code while using windows-key + arrow keys, VS-Code becomes unresponsive untill I maximize it to fullscreen.
+4491|Format Code fails for javascript depending on line breaks
+4492|Syntax highlight failing on variable names starting with 'var'
+4493|Task spinner gets out of sync if process got kill from the outside
+4494|Provide comments in jsconfig.json to guide people towards using tsd to install typings file
+4495|Open the automatically created jsconfig.json file in a new editor, if one is available
+4496|[html][angular] Provide string based autocompletion when writing angular directives in html
+4497|Unable to fork a node process from extension server
+4498|red in default light theme too subtle
+4499|remove IExecutionService and base/hash.ts
+4500|Allow keybindings.json on .vscode folder.

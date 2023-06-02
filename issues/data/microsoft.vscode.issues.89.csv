@@ -1,0 +1,100 @@
+8801|request: ease-out transition for TextEditorDecorationType (extension API)
+8802|Insiders doesn't update on first shutdown after running overnight.
+8803|Terminal window loses input during git pull
+8804|ctrl+tab + ctrl+shift+tab doesn't cycle tabs in different directions
+8805|Can't find module with extension .es6
+8806|Cursor position changes when you cancel multicursor
+8807|Add conditional ctrl+c/v to copy on integrated terminal similar to cmd
+8808|Allow to Ctrl+click in File > Open Recent to open in new window
+8809|Fixes #7500: Only update CSS if needed
+8810|Markdown formatting of link labels is inconsistent.
+8811|Should mentionbot work off a whitelist?
+8812|ERROR toggleRenderControlCharacters
+8813|Intellisense does not work on newly created JS files until VSCode is restarted.
+8814|Replaced README image of product to reflect new UI
+8815|Make resource URI available from all editor inputs
+8816|Feature request: ability to open url from the terminal
+8817|Cursor invisible on long lines when scrolled horizontally
+8818|TypeError: Cannot read property 'results' of null
+8819|Cannot close extension editor if extension is not in the marketplace
+8820|hover markdown formatting is too spacious
+8821|Missing Node task in Configure Task Runner
+8822|formatting does not work for newly created JavaScript file
+8823|npm_modules/vscode/bin/install silently uses github_token causing 404 to be injected to vscode.d.ts
+8824|npm_modules/vscode/bin/install does not handle 404 properly
+8825|Show errors returned from sourceRequest
+8826|Crash after resuming from sleep
+8827|Path must be string recieved null
+8828|Rename and format document is really slow
+8829|When selected text is replaced by tab, option editor.insertSpaces is not respected
+8830|Give API to theme things OUTSIDE the editor frame
+8831|Ensure settings files are owned by process.env.USER and not root when running under sudo
+8832|Create command for find in selection and add default keybinding
+8833|Typing in Find field disables Find In Selection button
+8834|Tyriar/cli help format
+8835|Editor layout not preserved on restart
+8836|1.2.1 OSX El Cap: Reopen loop after copying to Applications folder
+8837|Integrated terminal doesn't open in workspace folder
+8838|ES6 class member not showing in Intellisense
+8839|Let me configure whether to autocomplete single quotes in comments
+8840|Honour the optional `endLine` and `endColumn` attributes of `StackFrame` and `Breakpoint`
+8841|Try chjj/pty.js@0.3.1
+8842|Fixes mousewheel zoom in case of inline diff view
+8843|Fixes invisible cursor in long editor lines
+8844|Fixes #8617: Use native EOL sequence
+8845|Suggestion: Change command to Show Recommended Extensions
+8846|Suggestion: add @installed filter to Extensions View
+8847|return 'supportsVariableType' == true for `InitializeRequestArguments`
+8848|Unable to install extensions [Linux]
+8849|Issues with error splash bar.
+8850|VS Code doesn't recognize project files
+8851|[sql] Incorrect interpertation of a backward slash in single quotes ( '\' vs '\\' ) in sql files.
+8852|Add shortcuts to select different tabs
+8853|Toggle Control Characters doesn't work in 1.3.0
+8854|[powershell] Incorrect Powershell Parsing
+8855|Freezing linux
+8856|Exploration
+8857|Fixes #7346: Paste native EOL
+8858|Ctrl+D should match whole words instead of substrings
+8859|Coffeescript syntax grammar
+8860|Hard to place caret before first character of line by mouse
+8861|Syntax highlight bug in .tsx files around < >
+8862|Fail to update to version 1.3.0, from China
+8863|Prevent menu bar from showing up on Windows after Alt+mouse.
+8864|Local language support for Version 1.3
+8865|Perl mode fails while tokenizing
+8866|Extension viewlet is broken on Ubuntu
+8867|Include Linux distribution in Help > Report Issue
+8868|ASP.NET Debugging No Longer Working
+8869|Fix context menu redundant separator
+8870|The BUG about files
+8871|How to add a button to the sidebar? Like git, debug, explorer.
+8872|can't choose debug environment
+8873|Panel is not rendered correctly
+8874|Fix window title prefixDecoration
+8875|Add openedTextEditors, onDidOpenTextEditor, onDidCloseTextEditor to the extensions API
+8876|Installing Extensions not working
+8877|'Split Editor' should move the active tab rather than duplicate it
+8878|The editor have breakdown
+8879|tsx style error
+8880|[Request] Keep 'Save All' and 'Close All Editors' buttons available when 'OPEN EDITORS' view is collapsed
+8881|Integrated Terminal  can not display and input Chinese word
+8882|Terminal: cmd+click top open a file in editor
+8883|terminal cut zsh PROMPT to two lines and not show fully
+8884|Extensions Web View does not follow zoom
+8885|incorrect window title when has unsaved files in Chinese
+8886|Unable to see installed extentions in v1.3 from Extensions
+8887|Unable to install Protocol Buffer extension
+8888|export markdown preview to pdf
+8889|phpcs: Unable to locate phpcs, Please add phpcs to global path
+8890|Menu issues in Linux (menu items hide)
+8891|Horizontally resizing the integrated terminal messes up the viewport on Windows
+8892|Markdown syntax highlighting stops working after `default` keyword is used in TS code block
+8893|html css class completion  plugin bug, vs code not work, only close
+8894|TSX syntax is broken after as statement
+8895|Menu uses unkown command warning
+8896|When I start Visual Studio Code by using command,it will open a command line window and can't automatically close
+8897|Integrated terminal can not be opened, flash back
+8898|Terminal cd command
+8899|I can't install extensions
+8900|Git UI loses focus on message field once staging a file has been completed

@@ -1,0 +1,100 @@
+13401|This is still happening to me for some reason.  Code Version 0.10.10 (0.10.10) 5b5f4db87c10345b9d5c8d0bed745bcad4533135 2016-03-07T10:13:52.490Z OS X Version 10.11.4 Beta (15E61b)  I've just reproduced this 3 times in a row. The trick is to rename 2 files. After renaming the second file (in the same folder for me), the modal grey effect is stuck.
+13402|"You can use forward slashes in a path with PowerShell. WRT can you try putting single quotes inside the double quotes e.g. `""'C:/program files (x86)'""`."
+13403|@Tyriar I am blocked too. I am able to install and verify that 1-4 runs nicely. But then Fedora does not have apt-get by default. I tried to install it and then use it to remove VSCode that did not work. Tried to use DNF as well and this does not work. Is this supposed to work?
+13404|The Change Indentation Size command is removed with the March build.
+13405|validated javascript/typescript validation options. Still waiting on #3980 for extra formatter options. @dbaeumer please ping me when it's done.
+13406|It’s OK now,but it takes a really long time to finish the installation.
+13407|dupe of #4216
+13408|@aeschli @bpasero I didn't want to just go off and do this without first discussing with you.  Now that there is the new json theme capability I think we should have strategy pattern for each theme file format (json, tm and css). The current loading and parsing code would be exactly the same as now but will be encapsulated and easier to test and support for each theme file format.  How's that sound?
+13409|"Debug has ""Select Environment"" as the prompt, i suggest we are similar with tasks: ""Select Task"".  The list should be trimmed down, i don't see the need for Jake nor 4 different TypeScript tasks.   Also, the list should be sorted somewhat alphabetically.     grunt gulp MSBuild .NET Core TypeScript Other   Do we even need the descriptions?  do they add any real value?"
+13410|made comments in #4196
+13411|@aeschli @ianwesterfield sorry I wasn't aware of the way issues are managed, I should have checked.
+13412|I am getting this in Windows 10 with the newest update to vscode.
+13413|@isidorn, I updated the PR addressing your feedback, as well as adding some testing.  For testing the existing debug adapters, on top of what is in brackets (which is the stuff that needs to be tested thoroughly), is there a standard list of stuff to test (e.g., list of stuff for breakpoints, list of stuff for step, etc.)?
+13414|@bgashler1 That is looking good so far. Just keeps it simple. - The size of the text and radio button look right for people with disabilities. Maybe size could be tailored for preference but default to big so new starters to vs code with disabilities can jump right in. - I think using radio buttons for true and false is spot on because their best for choosing a single option in a list, where as check boxes are best for opt-in opt-out lists.  Be cool to have a search filter to quickly get to each configuration from inside or outside of the settings file, it could also hide non-relevant settings too. Also categorization for things like theme overrides and extension settings would be wonderful.  I've never liked the way ide's have handled their preference gui's. I've always felt removed from the actual environment I'm working in and to top it off I'd always find a crucial area of configuration stuck in a horrible little single line text box. (:cough: :cough: just like (the old) Microsoft Windows Env Path editor in system properties).
+13415|"Sorry, my English is poor. I mean, a cursor that is moved by keys points the ""current line"", not a mouse cursor (pointer). I hope that, when that line includes problems that are found by linter, the messages by linter about that line are shown in the status bar.  If the message is shown in the status bar such as Sublime Text, IntelliJ, Atom Linter, etc., I can know the reason immediately without additional operation, when I am typing. Those are shown automatically, but I like the bottom of window such as the status bar than a popup."
+13416|Hi **@golf1052**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+13417|Hi @santiagohdzb, Now, it seems that IntelliSense indicates some types other than primitive data type and `Object` as `any`. Some types of JavaScript's built-in-object (e.g. `Date`, `RegExp`, etc.) are recognized, but some types (e.g. `Array`, `Map`, etc.) are not. https://github.com/Microsoft/vscode/issues/3802
+13418|delete still not highlighted. Is it intended?
+13419|@Tyriar I did some testing, <kbd>ctrl</kbd>+<kbd>alt</kbd> will work, it does not trigger the same window move behavior in gnome that <kbd>alt</kbd>+click does, <kbd>shift</kbd>+<kbd>alt</kbd> does still trigger the move mode.  Whichever combination you end up going with can we please get those configurable in the `keybindings.json` file?
+13420|@felixfbecker   > The benefit is easier discovery of settings. Currently, you have a) the default settings where you can discover what settings are available and b) the actual settings.json. You always have to copy+paste the settings or use IntelliSense. In a UI you can see what settings are available, see what values they have and change them at the same place.  Okay, you make some fair points here.  > I don't get this, there would be an actual UI.  Yeah, what I meant by that is that exchanging text with controls _might_ not be as intuitive as a custom made GUI and _might_ be somewhat limited.  Don't mind me though @bgashler1 did a great job so I'm looking forward to see this in action and try it out. :)  @bgashler1 well done! mate.  Paths might be tricky to determine because there's no convention but maybe you can check whether the key ends with `.path` or `Path` and replace it with a file input instead of a textbox.
+13421|@pflannery How about supporting themeing more UI components, like the color of the status bar?
+13422|@weinand great I can change the default then :+1:
+13423|@pflannery I appreciate your work but we are currently not planning to support theming outside the editor. We might revisit this post GA when we decide our 6 months roadmap and keep you in the loop.
+13424|this is https://github.com/Microsoft/vscode/issues/172
+13425|@dzearing can you attach a screenshot where it is still showing in Cmd+P?
+13426|Thanks!
+13427|That seems to fix my issue, thanks!
+13428|@andersonferrari would you be able to help me out and setup vs code to run out of the sourcecode as described at https://github.com/Microsoft/vscode/wiki/How-to-Contribute so that we can see where the error is coming from?
+13429|Once you can run scripts\code.bat from the command line, open the workspace with the samba share and wait for it to crash, you should get the crash dump as output to the console.
+13430|#1023
+13431|+1
+13432|Moving to TypeScript for investigation.
+13433|This issue was moved to Microsoft/TypeScript#7515
+13434|We should inform the user about the result of the auto detection in particular when auto detection isn't successful.
+13435|"> open a new file, add a workspace setting to enable javascript validation ""javascript.validate.enable"": false  Setting validation to false disables the built-in validation.  Even if you set the setting to `true` you will not get errors. Salsa doesn't report type errors. Closing as a duplicate of https://github.com/Microsoft/TypeScript/issues/6802"
+13436|Whoops, shouldn't have closed this, since there was a remaining open issue referencing this.
+13437|"@rkeithhill in node-debug and mono-debug the debug adapter takes care of quoting arguments if they contain spaces. So the following:  ``` json ""args"": [ ""-g"", ""foo"", ""bar"", ""hello world"" ] ```  will just work on all platforms and terminals without tinkering with more quotes..."
+13438|":+1:  on removing the descriptions, but on informing the user when auto detection took place and what was auto detected.  > Debug has ""Select Environment"" as the prompt, i suggest we are similar with tasks: ""Select Task"".  If we want to be consistent with Debug I'd suggest ""Select Build Environment""."
+13439|I'm now on 0.10.11-insiders but no sign of `javascript.validate.enable`. Did it not make the cut?
+13440|We close testplan-items once all the testers have checked off. So it is fine to close this We do not track state of issues here.
+13441|![image](https://cloud.githubusercontent.com/assets/172399/13771201/87992b0a-ea8c-11e5-8376-c5d19dc868ac.png)  ... but it is correct http://windows.microsoft.com/de-de/windows-vista/open-a-command-prompt-window
+13442|@joaomoreno I haven't seen dates properly localized anywhere else in our product, but I think the hope was that we do not display dates :smile:   The string is properly externalized but dates also needs to be localized using toLocaleDateString().
+13443|"@SamVerschueren  I have this issue even if I use EditorConfig. in my .editorconfig file:  ``` # 4 tab indentation [*.*] indent_style = tab indent_size = 4 ```  in settings.json (user preferences):  ``` ""editor.insertSpaces"": ""auto"" ```  Even so, a new file that is created always insert spaces when tabbing.  I have to paste some code with tabs, close the editor and re-open. Then it picks up the right tab setting."
+13444|@ole1986 can you please check whether this the same setup as in this issue: https://github.com/Microsoft/vscode/issues/3860?
+13445|@nilzona Try using `[*]` instead of `[*.*]` and make sure you are using the correct plugin. The Microsoft EditorConfig plugin is deprecated in favour of the plugin from the EditorConfig community.
+13446|This issue was moved to Microsoft/vscode-go#245
+13447|This issue was moved to Microsoft/vscode-go#246
+13448|Dups #4120
+13449|It is neither selecting a 'task' nor a 'build environment'. I still think 'Pick a task template' is the right phrase.  We can't remove Jake since we would not be possible anymore to run the Jake auto detection :-). If we remove Jake we need a 'Auto detect template' entry.
+13450|And which TypeScript compile do you want to keep. The one with tsconfig, watch or single file.
+13451|Setting to march for discussion
+13452|@RANUX this is the design of the TS compiler (tsc and tsserver). As soon as you add a files section only files listed are consider to be part of the project defined by that tsconfig.json file. The other file will be in its own project scope. This is how tsc works. If you think tsc should change that behavior please file an issue here: https://github.com/Microsoft/TypeScript/
+13453|@egamma I have an issue about letting the user know the outcome of the auto detection. I will move this to you since you 'own' the grunt detection :-) to look into why it fails.
+13454|Not sure. This one seems lighter: it's about simply restoring the input when you open quick open, selecting the whole text, such that if you type you'd still get the old behaviour.  You don't even need to detect that focus leaves the workbench. Just store the value of the input every time it changes.
+13455|@chrisdias I would create a seperate issue instead of commenting here. Are you done testing this item, I do not see it checked off?
+13456|@waderyan are you done testing this item? If yes you forgot to check off the checkbox?
+13457|@jokeyrhyme It is fixed in `master`, just never published into a release. The fix will come with the next release.
+13458|@jsloyer Where is the code located that tries to access that node module? In the VS code main code base (/src) or is it an extension?
+13459|Moving to TS.   What we do in this case is we send a close request of the file in its old location and then an open at the new location. There is now API to signal a move right now. If there is something VSCode can do different to solve the problem, please move back.
+13460|This issue was moved to Microsoft/TypeScript#7516
+13461|Duplicate of #3560  Please reinstall Code
+13462|duplicate of https://github.com/Microsoft/TypeScript-TmLanguage/issues/11
+13463|Good idea. You could also do some auto detection of tasks based on the script names 'build', 'test'.
+13464|"There is an options property which takes a cwd property to specific the current working directory of the command executed.  ``` json         ""command"": ""..."",         ""options"": {             ""cwd"": ""...""         } ```"
+13465|Agree on the auto detect. But not for March :-)
+13466|will add _ignore_ action such that one won't see this again
+13467|@jinyutao Maybe you can add a screenshot? The current indentation strategy is based purely on the indentation of lines, A folding region starts when a line has a smaller indent than one or more following lines, and ends when there is a line with the same or smaller indent.  To be more smart and to, for example, understand code blocks, we will have to go one step further and introduce language agnostic folding regions. We have issue #3422 for this.
+13468|@SofianHn #3980 is done. You can test it with the latest nightly build
+13469|"In March, there is a new setting `editor.detectIndentation = true|false` that replaces the usage of ""auto"" in `editor.tabSize` and `editor.insertSpaces`.  When `editor.detectIndentation` is true, and the file has sufficient hints (e.g. it is not empty, it contains indented lines), `editor.tabSize` and `editor.insertSpaces` will be overwritten. This allows to cover the new file case by using:  ``` editor.insertSpaces: false, editor.tabSize: 4, editor.detectIndentation: true ```  This will make new files use Tabs@4 and existing files will be scanned to detect their indentation."
+13470|Thank you for filing. Dup of #3882
+13471|duplicate of #3903. It's fixed in the latest stable, released yesterday. Please update...
+13472|But that is exactly what I do, as per the snippet in my last comment. Apparently it doesn't work?
+13473|@isidorn agree but it had more hints what to change. That is why I kept that one open :-)
+13474|'delete' is Microsoft/TypeScript-TmLanguage#37 and will be fixed in the March release.
+13475|Sorry for that @fbertin. Can you show me your `.bash_profile`? Maybe I can pinpoint the line number that makes it popup that message.  Also, #4169 might help you.
+13476|@RANUX but in our example you only list typings/meteor/meteor.d.ts in the file section. So if you add another file the meteor typings will not be available in that files and therefore you will not get intellisense in that file for meteor typings.
+13477|Yesterday, we created a new release that contains the fix for the coloring of `var`, `let`, `const`, `function` etc. Please update...
+13478|You could reproduce this on **both** Windows 8.1 and Windows 10?  Does it work if it auto updates itself from within the product?
+13479|@MKHenson if you can share your project I can have a quick look at the setup. May be I see something.
+13480|Closing - the disucssion has answered the questions.
+13481|Yes on both, no, auto update does not work, no error is thrown in auto update.
+13482|@alanouri can I close the repository somewhere. Then I can have a look
+13483|When selecting text and typing <kbd>&lt;</kbd> in HTML, the selected `text` will become `<text>`.  Not relevant to column selection. Certainly not for March.
+13484|Is your disk drive somehow full?
+13485|@robcaldecott   > I'm now on 0.10.11-insiders but no sign of javascript.validate.enable. Did it not make the cut?  the 0.10.11 insiders only includes the same critical fixes that went into stable. We look into pushing another insider update today.
+13486|Dup of #4105
+13487|This might cause some data loss, I prefer we keep it the way it is and make it an explicit user action to get rid of the dirty state that he caused in the buffer.
+13488|The mouse gesture dispatching doesn't go through the keybindings rules, but I agree this should be configurable somehow.  Here is where the built-in editor mouse dispatching happens: https://github.com/Microsoft/vscode/blob/c4b514244e2651117b9990295730265f5b902436/src/vs/editor/browser/view/viewController.ts#L66  There are other places in code, such as the link handler that handle Ctrl+Click programmatically.  It would be a bit tricky, but doable I think, to have the `IMouseDispatchData` go through a rule engine that determines what command to invoke on the editor.  We can easily change the code to do something different in Linux, but implementing a rule engine (that would ultimately solve all problems since it would allow configuration) would be a bit more complicated.
+13489|@weinand didn't we discuss that run should not open the console. I have no strong feelings here
+13490|+1 on labels, git even supports that such that it would appear as `Theirs` and `Ours` in the UI
+13491|No, C drive has 99 GB free and D drive has 848 GB free...
+13492|Looking great @bgashler1. When do you expect to get sign off on the design?  I think the technical side of things should be manageable, but as a few people (like @eyalsk) have pointed out - we need to make sure that the JSON translates into a GUI as seamlessly as possible. @felixfbecker's earlier JSON Schema suggestion seems like it would cover this.  My feedback/thoughts: - There could be a Windows-style settings search/filter, where it effectively filters the settings shown as you type. There's a lot of whitespace, but I think that fits with the design of VSCode.. - There's a lot of whitespace. This isn't necessarily a bad thing, but could make the GUI quite long - especially as people start using more extensions with their own settings. - Has there been much thought to how extensions would be handled in settings? Would it literally represent the JSON structure? Or would it highlight extension settings vs app settings?
+13493|Does a restart help?  I've found [this link](http://www.tomshardware.co.uk/forum/61736-63-unable-execute-file-temporary-directory-setup-aborted) that doesn't explain the root cause but does have a workaround.  It seems to be that your Windows installations are in some strange state.
+13494|Thanks the answer. Add screenshot: Source code is: ![image](https://cloud.githubusercontent.com/assets/11645091/13772451/44f0a36c-eacf-11e5-89f0-955ab572373c.png)  click the [-]icon ![image](https://cloud.githubusercontent.com/assets/11645091/13772472/666601ea-eacf-11e5-9010-721214ec916d.png)  According to answer，modify indent to same,then OK. before: ![image](https://cloud.githubusercontent.com/assets/11645091/13772592/f1d6edb6-eacf-11e5-8b5c-1270d4e173d9.png) after: ![image](https://cloud.githubusercontent.com/assets/11645091/13772602/fe502ff8-eacf-11e5-9bb1-8f44516b8419.png)  But,I think If we can customize the collapse rules according to different languages. Just like the syntax highlighting rules, is not better.
+13495|@SofianHn @Tyriar I fixed typo in step 5, can you please re-test
+13496|strange thing is after I fully rebooted the system it is gone (until now)
+13497|Sure thing, you can view it from [here](https://github.com/MKHenson/users)
+13498|No repro here on Windows 8.1 x64, update went through without a hitch.
+13499|I've had this issue on the last two updates. I, too, had to end a couple of idle git.exe processes.
+13500|Dup of #4145

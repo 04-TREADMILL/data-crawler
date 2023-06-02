@@ -1,0 +1,100 @@
+28301|Hot exit: set backupPath as configuration to windows
+28302|Tasks executed in the terminal should always echo the executed command
+28303|Theming does not work
+28304|[suggestion] Support for JavaScript Environments: Adobe ExtendScript
+28305|HTML Comments Not Colour Coded when there is a <?php> in the script tag
+28306|PHP Strings on New Lines After Quotes are Broken
+28307|Menu bar colouring?
+28308|Project Centennial version of VSC
+28309|A way to identify code differences between 2 project folders
+28310|Directory name shows up twice in shell status line
+28311|[Merge extension] Support GNU patch --merge results
+28312|Search symbols showing duplicated results
+28313|Incorrect visualisation russian output in integrated terminal
+28314|Autocomplete expressions (AKA Intellisense) in the watch section of Debug
+28315|Untitled: picked encoding is not restored after restart
+28316|environment variable substitution not working in tasks.json
+28317|SCSS Syntax Highlighting is now incorrect
+28318|"[Language Server] ""Switch to document"" request handler should be added to the Document Request Handlers"
+28319|"[Merge Conflicts] Incorrect background decoration of splitter with empty ""current"" or ""incoming"" changes"
+28320|eruti
+28321|hard to find files on mac. It needed to be open first before i can find it
+28322|VSC show a message with placeholder for typescript version check
+28323|VS Code doesn't render correctly at 2560x1600
+28324|JavaScript Syntax Highlighting broken after template literal
+28325|Preview windows blank when using Ctrl+Shift+H to find/replace variables
+28326|Snippets and Code Hints for ionic are not working properly
+28327|Can't type µ due to merge keyboard shortcuts
+28328|Border color not working
+28329|100% cpu load on single CPU system
+28330|Run Task should be sorted using MRU list
+28331|Can't figure out how to disable documentation popup when typing TypeScript code
+28332|Editor keys don't work correctly on Ubuntu LXDE desktop
+28333|Markdown syntax hylighting for pug and sass/scss?
+28334|command 'workbench.view.git' not found on keyboard shortcut execution
+28335|debug node js applications in visual studio 2015 produce deprecation warning
+28336|[Javascript] Go to definition not working
+28337|Better experience with bower and other package managers
+28338|Iteration Plan for June 2017
+28339|Integrate xterm.js's new terminal selection feature
+28340|terminal.foreground should apply to the terminal cursor
+28341|Editor area has an extra space on the top when opening find/replace panel (ctrl+F)
+28342|Tab selection with keyboard shortcuts
+28343|Keep deleting lines when triggering deleteAllLeft on column 1
+28344|'Trigger Parameter Hints' Does not Work when `editor.parameterHints` is disabled
+28345|Settings tab doesn't preserve which items are expanded when switching tabs
+28346|Add an API for showing Wizards and Dialog Boxes
+28347|Update parameter hint setting desc
+28348|Implement selection inverting in the terminal again (or add terminal selection theme key)
+28349|VS Code can not open a folder which managed by onedrive for business
+28350|Compiling files with spaces in the filename
+28351|Incomplete suggestion results cause re-triggering when typing w/o further context.
+28352|could not pop up the parameter hints window when ctrl+shift+space insider the branckets
+28353|The localization no longer has any effect.
+28354|NodeJS debugging won't stop on breakpoints, works fine with debugger
+28355|Output what C++ compile command is executed on the output view.
+28356|Terminal - Bash for windows when using and then exiting top command background in terminal is blue
+28357|Excess CPU usage editing C file
+28358|Extension host terminated unexpectedly. Please reload the window to recover.
+28359|"Ctrl-C doesn't kill process in command prompt when using ""open new command prompt"" command?"
+28360|"Add ""line_padding_bottom"", ""line_padding_top"" like sublime text"
+28361|Show Suggestions and Hints in a fixed location instead of in a pop-up near the cursor
+28362|Request word suggestion
+28363|"Option ""editor.mouseWheelScrollSensitivity"" does't works"
+28364|emmet.triggerExpansionOnTab is not working
+28365|OSX shell directory is appearing twice in Integrated Terminal
+28366|MenuKey remapped by AutoHotKey can not work well
+28367|Display language changed to en after update to 1.13
+28368|vscode intellisense stop working
+28369|Contributed tree views can crash the explorer
+28370|editor.wordSeparators does not work on search field
+28371|tab as enter when working with emmet in visual studio cod
+28372|VSCode Icons look gross when launching it from Terminal
+28373|Feature request: vscode.CompletionItem::documentation should support markdown
+28374|Hijack of Show In File Manger on Debian and PyCharm
+28375|vscode not launching
+28376|Save as: incorrect file extension for unsupported file types
+28377|NPM module autocomplete (Mocha) turns on only after creating a jsconfig.json file
+28378|Incorrect word wrapping with Unicode quotes
+28379|Text may blurry on Windows
+28380|window.openFilesInNewWindow: 'default' update
+28381|fontLigatures stopped working (Fira Code)
+28382|Improve usability on portrait monitors
+28383|File explorer is not updated after many file changes occur
+28384|"Disable ""Unable to open file"" during debug"
+28385|Downloading ripgrep failed: Error: API rate limit exceeded
+28386|The .gitignore file logo is GitHub's logo
+28387|Git gutter indicator incorrect after commit
+28388|Integrated terminal ZSH prompt doubles and flashes as I type
+28389|Typescript language Service died expected
+28390|Text trembling while scrolling
+28391|Feature Request: Add ability for cursorLineStart to work like Visual Studio
+28392|Tab Drag and Drop between editors is CPU intensive
+28393|[css] propose class names and ids that exist in HTML
+28394|90% CPU usage
+28395|C# functions lose syntax highlighting when moving entire parameter list to the next line.
+28396|Sort Changes list According to last modified
+28397|`code .` command in the Terminal
+28398|Plugins stuck on installing for ever !!!
+28399|Accessibility of finding text
+28400|Minimap disappears when closing Peek Definition window

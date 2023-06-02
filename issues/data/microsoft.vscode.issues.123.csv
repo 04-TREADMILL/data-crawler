@@ -1,0 +1,100 @@
+12201|Introduce cursor history navigation
+12202|Introduce incremental expression selection
+12203|`Illegal argument: range` when using `Format Code` with HTML content
+12204|The fonts not look properly
+12205|Possibility to display line endings in text area
+12206|Mixing open files into each other on Save
+12207|Change color based on daytime
+12208|Link highlighting makes it hard to see underscores
+12209|Workspace setting to open files as read-only/non-editable via editor.
+12210|VSCode not picking up global/ambient types in node_modules/@types when editing typescript
+12211|Error: Path must be a string. Received null due to some plugin
+12212|Files copied via file explorer don't show up in editor
+12213|html tag rename works only on the opening tag but not the closing tag
+12214|"Sporadic ""contents on disk are newer"" issues when saving to network share"
+12215|VS Code won't open in xrdp session.
+12216|功能建议：文档修改状态的保存
+12217|"Allow an ""open with…"" in files view"
+12218|tsc output messy code
+12219|Process hang if preferred local display language doesn't support by OS
+12220|Install a specific version of the package
+12221|"Replacing "" with ' causes two ' to be added at the end of a word in JavaScript files"
+12222|[Feature Request] Support ES6 class property type annotation by comment
+12223|Vscode crashes every time after it mistakenly analyses grammar.
+12224|Collapse the xml node 折叠xml节点显示错误
+12225|Util clean code
+12226|showInputBox does not pass preset value
+12227|Show errors and warnings in the files explorer
+12228|'Enter' on a quick fix is not working
+12229|ERROR:terminal terminated with exit code 1
+12230|"Windows: Show file types for ""save"" dialog boxes"
+12231|PHP7.1.0-RC1 not supported ?
+12232|Windows: source maps no longer working in selfhost insiders?
+12233|C/C++ plugin crashes various operations in TypeScript (and Javascript) code
+12234|Test External Terminal support for runInTerminal request
+12235|Test launch option that allows run node project by npm script
+12236|Test globbing support for the `outFiles` attribute in the launch config
+12237|Debug: breakpoint doesn't work with `babel-register` and source maps
+12238|Debug: investigate how to present inline values in source when stepping through code
+12239|When output channel is cleared and new content is written, it is always scrolled to the last line
+12240|rxjs `switch()` method breaks syntax highlighting
+12241|onInitialize() should check if params.initializationOptions is null
+12242|Not enough storage is available to process this command in terminal
+12243|Is there a plan to develop 64bit version on Windows?
+12244|Ability to listen for command events in the extensions API: `onCommand(...)`
+12245|[contributes.menus] how to show menu only in editor not Output window
+12246|Terminal - Can't skip shell commands that are bound to some F keys
+12247|Window freeze when receiving lots of output (renderer)
+12248|Ability to pin folders, files by workspace to the explorer top
+12249|Double-click does not select $
+12250|textModel.getMode is not a function
+12251|travis with node 6.3.0?
+12252|ctrl-shift-f in output window does not populate the search box with text
+12253|Update handlebars block comments symbols
+12254|[feature request] Add support for SymbolKind.AnonymousMethod (or SymbolKind.UnnamedMethod, SymbolKind.Lambda?)
+12255|Not indenting label and option tags in HTML5
+12256|Preview does not render colors correctly
+12257|Ability to auto detect encoding when opening a file which is not encoded in UTF-8
+12258|Request: vim-like scroll - like scrollLineUp/scrollLineDown, except keep cursor in view
+12259|UX meeting agenda 14 September, 2016
+12260|Backslash incorrectly escapes single quote in MSSQL language
+12261|Add Syntax Highlighting for C# Fenced Code Blocks in Markdown Files
+12262|window.showTextDocument Performance Problems
+12263|Extensions are becoming dissociated with themselves
+12264|html document unchanged running on mamp server and in app database
+12265|Feature Request: Open new file buffer via API
+12266|Error when trying to open HTML file
+12267|Feature request: Sort NuGet package versions in descending order
+12268|Error when Updating/Installing Extension: Response doesn't appear to be JSON
+12269|Option to change default behavior of cursorHome and cursorEnd
+12270|Mac flipped cursor on standard dpi monitors is blurry
+12271|HTML in Markdown Prefixed by Spaces is not Colorized
+12272|Fix colorization of html prefixed by spaces in markdown files
+12273|Remove simpleMarkedWorker.ts
+12274|Artifacts in UI after Code is open for a little while
+12275|Block cursor doesn't match parenthesis correctly.
+12276|When switching between 2 files, position continually shifts down
+12277|Fix Markdown Paragraph Colorization Terminating Early for Multiline Paragraphs
+12278|Navigation/Goto Anywhere
+12279|Automatically open containing folder when opening a file
+12280|Bad TypeScript colorisation
+12281|find symbol is slower than sublime text
+12282|command output automatic refresh should refresh the main screen, this is a bug
+12283|Feature Request:Add MS Account support
+12284|Reference code color is missing.
+12285|Wrong color schema for TSX files
+12286|Diff view for images
+12287|Fix #12264 - Add initial value to reduce
+12288|IntelliSense does not work for object property functions
+12289|"Borken color in typescirpt decorator, use token "":"""
+12290|LUA function colorizing error
+12291|Remote drive: Execute permission removed from file on save when saving
+12292|JavaScript code coloring break when using ES6 destructuring of Objects spread on multiple lines
+12293|Tree: dragging an item no longer shows drag feedback of the item that is dragged
+12294|Menu actions affect wrong window/project if menu in second window is clicked while menu active in first window.
+12295|Should we drop the minimal icon theme?
+12296|String inspector incorrectly escapes \ escape codes (both \r and \\r becomes \r)
+12297|Debug: is there a way to terminate preLaunchTask process (when debug stops)?
+12298|sorry. wrong place, please delete
+12299|i18n: incorrect strings at feedback panel
+12300|Feature Request: Zoom control UI

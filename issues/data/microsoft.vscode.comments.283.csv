@@ -1,0 +1,100 @@
+28201|@jrieken -- `[word definitions](#LanguageConfiguration.wordPattern) can be defined.` - do you have any idea how we can make sure these links are not broken
+28202|I can't reproduce this with 798b41ab1cf 2016-06-29T05:14:50.570Z. Also there hasn't been any changes on the filtering side. ![image](https://cloud.githubusercontent.com/assets/6461412/16443333/813673fe-3dd8-11e6-8588-268d272917b8.png) Maybe something special with the settings file? What about other settings?
+28203|@DonJayamanne thanks for the PR however we are currently in the endgame. So I will review this first week of july -> july milestone
+28204|Not a regression.
+28205|Yes - it's based on the tokinizer info and not on word info. The whole thing should be redone
+28206|Yes. you see, when you want to use markdown commenting in JS/TS or anything that comes in flavor of c comment style, there comes a problem when you want to bold a path as `**/` in start of these pats indicates comment's ending. I thought it would be good to have `\/` scape sequence so that you can do so.
+28207|Thanks!
+28208|Right, but this is really something the language has to support, nothing we can do on top.
+28209|We consider the empty string as `null`/`undefined`
+28210|Cheers
+28211|We only use (and can verify) them when the html doc page has been generated. For each symbol (class, interface, enum, method, etc) we generate a anchor-target with its name. Only then those links work...
+28212|To clarify, the editor not only gets really slow, it completely stops responding, meaning I get an errormessage saying the window is not responding (vs-code message, not windows message) and need to restart. Your workaround might fix this, but it doesnt take away the fact that a long time after I used the search, the editor seems to be indexing a huge amount of files to the point it stops responding.
+28213|Not a regression, we never did any validation on values. Could be trivial for some properties where we know all values, but trickier for others that take multiple arguments.
+28214|June to clarify. Petty sure we only honour `=` in the `query` part of `http` uri not in others cos only http defines this 'grammar' on the query part
+28215|Some things: - dragging from the desktop ideally contains information about the resource being dragged being a folder or not - dragging a file from the tree should use the same native file transfer  I think there is some upstream dependencies on this issue.
+28216|I can not reproduce this. Do you have any formatting extension installed.  The formatter usually honors the setting of a file, not the gobal settings. So if the editor detects that a file uses 2 spaces as indent the formatter will format it with two.
+28217|"@serkanyersen can you please provide your tasks.json file so that I can see if there are possible workarounds.  You can always declare a matcher per task. In addition you can redefine global available matchers as well:  ``` json     ""problemMatcher"": {         ""base"": ""$tsc"",         ""fileLocation"": ""relative""     } ```  This takes the gobal $tsc matcher and changes its fileLocation property."
+28218|thanks a lot again 👍
+28219|Created https://github.com/Microsoft/TypeScript/issues/9387 directly against TS.
+28220|Not sure if this is connected but i also get random files in my project marked as modified even if nothing really changed, but if i save the nonexistant modification it also appears on git as changed file.
+28221|@egamma, you are right.
+28222|I agree that we should have tests for the emmet `integration` (EditorAccessor class) but not for emmet itself. Emmet is an upstream component and the testing belongs to the component.
+28223|I can reproduce using @chrmarti small example. Need to find out whether this is TS or the UI.
+28224|If we introduce a cwd per task we should also allow to modify the env.
+28225|I fold this issue with #8143. That one asked for cwd per tasks and if we do that we should for consistency also support env per tasks
+28226|Glad to hear that it's gonna be redone. Its one of the missing features for me after switching from webstorm.
+28227|I am closing this in favor of returning search results on enter.
+28228|This issue was moved to Microsoft/vscppsamples#86
+28229|Moving to the owners of the C++ extension then.
+28230|Thanks it is working now
+28231|PR welcome?
+28232|Well, it complained that I had few other libraries missing, which pacman can't find, so I just installed from AUR, so maybe you can mention that for arch linux or pacman based users somewhere, maybe in README or in website
+28233|Yes, it is a issue with the TS language server and it shows when Ctrl+Clicking as well. I know that they are working on it for 2.0. The idea is that if the symbol is not renamed we directly show the information of the definition. However it renamed we jump to the import statement.  I will close this one since there is nothing we can do in the editor itself. Please ping if you think otherwise.
+28234|Agree.
+28235|By analyzing the blame information on this pull request, we identified @egamma and @bpasero to be potential reviewers
+28236|Hi **@mrmlnc**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+28237|I am not aware of one. I tried to do a import and then use navigation but that didn't work. Will move to the TS team since such a smartness has to come from them.
+28238|This issue was moved to Microsoft/TypeScript#9413
+28239|Good catch. Will check with them why they do this ?
+28240|Maybe we can use the native `DOMParser` for this (https://developer.mozilla.org/en-US/docs/Web/API/DOMParser)
+28241|I can confirm this is a bug for any commands, not only build tasks, but also run commands. Commands that should be available under PATH seem not to be found under macOS.
+28242|Good catch.
+28243|"@nevir how did you configure the task. Is if configured as a watching task then this should not happened (e.g does it have a ""watching"" property). If not the task framework always assume that all files are validated and all valid errors are rereported. Otherwise errors would never be cleared in cases where you have inter file dependencies.  @Ciantic I assume that your problem is different. If I look at your task configuration here #8304 then you use ""typescript"" as the problem owner. So as soon as you type in a TS file your errors will be overridden since the typescript language server uses ""typescript"" as an owner as well. Have you tried to give them a different owner."
+28244|"After commenting on #1397 I wonder if the problem is that both of your matchers are using ""typescript"" as a owner. By design problems have an owner and they override each other when reported on a specific resource. What happens if you give them both different owners."
+28245|@mrmlnc thanks for the investigation anyways, it shows that the bundling of emmet is not a win.
+28246|This happens when you once navigated to the lib.d.ts file. It looks like the tsserver then doesn't filter it correctly anymore. Since the file is open in the editor we sent an open event to the tsserver. Need to understand what we have to do in this case.
+28247|@bpasero I don't see this. Can you try to reproduce ?
+28248|What's the status on this ? I see it has been closed but doesn't seem to be mentionned anywhere else.
+28249|Sorry, it was because of this extension https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standard-format (that maybe I was completly blink and out of myself when installed it...)  However I don't understand why before updating, this extension was not interfering and so was after update.
+28250|Now `null` or the empty string unset an URI component
+28251|I wasn't able to reproduce but iff it's an issue with the context menu not picking up any contributed commands. Also the (at least disabled) 'Switch to Changes View' action doesn't show for @sandy081   ![screen shot 2016-06-29 at 11 22 46](https://cloud.githubusercontent.com/assets/1794099/16447281/0096ea3a-3dec-11e6-9240-6c7394e37398.png)
+28252|Seems ok now.
+28253|Fix pushed, should work now also when auto save is enabled, but please verify for both cases.
+28254|@rebornix what are you trying to do? the command we expose is only `vscode.openFolder` at the moment.
+28255|I suppose the doc issue is because we only show different key  bindings per OS but not command name.
+28256|I'm trying to implement Vim's `:e filename.js` which will open file in current tab, but seems I can't do this directly with command ?
+28257|@bpasero Good idea, please open a discussion issue when you have some time :+1:
+28258|@rebornix what are you trying to do? Please more verbose 👍
+28259|Hi guys, Any news on this issue? it's making it much harder to debug like that (i'm used to use the mouse to set a breakpoint)  ![image](https://cloud.githubusercontent.com/assets/18007791/16448008/e645373e-3df7-11e6-931a-a6b2b64d5fbf.png)
+28260|By analyzing the blame information on this pull request, we identified @egamma to be a potential reviewer
+28261|Hi **@mrmlnc**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+28262|First a recap of this OS X problem:  If an application is launched via the Finder (e.g. by doubleclicking), it does not automatically inherit your existing bash environment. So if you have set an environment variable like PATH in .bash_profile (or any other profile), this value is not available in the application (or any of its sub processes).  VS Code tries to work around this by launching a shell that reads the .bash_profile and then returns the environment variables so that VS Code can merge them into the environment that gets passed along.  The problem is that any customisation of the used shell might affect how the list of environment variables is returned. This makes parsing difficult. The `const strip = s => s.replace(/[\u001b\u009b...` from above tries to cope with that but it seems that your case is (again) different and not covered by the regular expression.  @joaomoreno I think we have to find a more sustainable way to handle this.  As workaround you can launch VS Code from the command line. In this case PATH will be what you expect.  You can install the 'code' shell command from within VS Code: ![2016-06-29_11-45-45](https://cloud.githubusercontent.com/assets/1898161/16447933/2d62e57a-3def-11e6-9465-c7a8e1c27e06.png)  After that you can launch VS Code from the command line with `code` (or `code-insiders`).
+28263|I can reproduce this seldomly, not cruical -> july. This is how the tree.reveal behaves for me, currently the tree API can take a number with the reveal to know how much to scroll to the top when revealing this element. However there is api missing to never scroll if the element is already revealed. I would need some better tree api or advice from joao thus also assigning him
+28264|Here is the replace preview in different themes.   In Replace preview I used same color as in Search results for search string but with strike through.  ![screen shot 2016-06-29 at 11 43 13 am](https://cloud.githubusercontent.com/assets/10746682/16448332/308e488c-3df1-11e6-8b9e-6e01f786ab5f.png)  ![screen shot 2016-06-29 at 11 43 31 am](https://cloud.githubusercontent.com/assets/10746682/16448338/35f407da-3df1-11e6-8c85-5612a7e537cd.png)
+28265|@sandy081 nice, can you also attach when using same as diff colors?
+28266|@sandy081 I would use the same color we use in the diff editor. The impression I got from looking at these images is that it is a different one (might be due ot the gray background)
+28267|Reason being, there will be more color changes user has to adopt to..   Search - 1 color Replace - 2 colors  If we use single color for Search results, then only difference user will see is Replace color
+28268|I do not think it is bad that we use 2 completly different colors than regular search results as that address my concern that the replace mode needs more ux affordance. So the colors could differntiate it.  Only if it turns into the disco mode I would go back to your suggestion
+28269|Maybe `info` is better than `warning`?
+28270|Attaching pictures using Diff editor color  ![screen shot 2016-06-29 at 12 14 10 pm](https://cloud.githubusercontent.com/assets/10746682/16448732/48053fe6-3df3-11e6-9444-26533c22d03f.png) ![screen shot 2016-06-29 at 12 15 49 pm](https://cloud.githubusercontent.com/assets/10746682/16448734/4afac716-3df3-11e6-964c-5a4967bc70de.png)
+28271|@weinand Note that I don't use **bash**, but **fish** as my default shell. `.bash_profile` is not the only canonical way to extend PATH env under OS X. There's also the `/etc/paths.d` directory which is more universal. Perhaps as a workaround VSCode could launch the default shell, extract the PATH, set it and close it immediately?
+28272|I like this more, though it is just my personal preference (due to the reasons specified above).
+28273|Thanks @isidorn @bpasero   I will go with this and we can always change with feedback.
+28274|Verified this is fixed with Chrome >=  51. I do not want to add hacks to  force a repaint.
+28275|Love it!
+28276|Agree - it is nothing mayor, any update in the header area fixes the issue
+28277|The menu item uses the wrong `resource`. It gets that from the keybindings service...
+28278|@kisstkondoros Thanks for providing a quick and nice fix. Fix looks good to me. But, if you see the checks our builds are failing due to bad indentation. Can you please fix it and re-submit the request.  Thanks
+28279|To me this happens as well.   First run is fine. But re-running fails. After a restart of vscode it works (only) once again.  In my case it happened after I installed some typings (`typings install registry:env/meteor --global`). When I remove them it works again.
+28280|@vuhrmeister can you please file a new issue with reproducable steps (possible a small repository I could access to investigate this issue) - thanks!
+28281|@aeschli I'm not able to reproduce this problem on elementary: ![2016-06-29_12-42-09](https://cloud.githubusercontent.com/assets/1898161/16449303/e7e7c2e2-3df6-11e6-9a29-dc4d45595a36.png)  Variable substitution works fine for me.
+28282|Since we are not shipping this in June, I'll investigate in July.
+28283|@isidorn will do, thx
+28284|Works fine with HTML and other syntaxes that are supported by Emmet, but does not work with files with `plain text` syntax and syntaxes that are nor supported by Emmet.  ![2016-06-29_13-50-15](https://cloud.githubusercontent.com/assets/7034281/16449514/985c3c30-3e00-11e6-9074-4a8bb7a4e66e.gif)  The method `noExpansionOccurred` returns _native_ tab for all Emmet commands.
+28285|Fixed with #8330
+28286|@bpasero I am not able to reproduce this.. I tried navigating into different views back and forth. Let me know if you are able to reproduce it?
+28287|Fixed by https://github.com/Microsoft/vscode-css-languageservice/commit/243bf6a546bf1be5880c1176119eb1debd5aca60
+28288|It is caused by us reusing the same keybindingService instance across different editor widget instances --- reproducible when opening a read-only file (such as default settings) and then switching to an editable file
+28289|@kieferrm  The indent guides use 100% the folding regions. I have just pushed a change that improves whitespace-only or empty lines:  This is the new rendering: ![image](https://cloud.githubusercontent.com/assets/5047891/16450215/3d9212e2-3dfc-11e6-8b82-6d78eeff99ff.png)  My change also makes it that the indent guides respect 100% the folding regions -- you can inspect this by hovering over the line decorations area between the line numbers and the content and the folding regions should reflect the indent guides.  I don't know why we don't create a folding region for the last lines in the file. @aeschli here is a copy-paste friendly version of Kai's screen shot:  ```      indent1         indent2         indent2     indent1    indent0     indent1   indent 0.5     indent0     indent1     indent1     indent0          ```
+28290|@aeschli Here is where I moved your code that computes folding regions:  https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/model/indentRanges.ts#L32
+28291|I am using the `invisibles` color from the theme, 100% the same as `renderWhitespace`. @aeschli owns the Dark and Dark+ themes (including the `invisibles` color):  https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/services/themes/electron-browser/themeService.ts#L385
+28292|Same as #8427 , the indent guides now reflect the folding regions  @aeschli see copy-paste friendly version in the comments of #8427
+28293|To the verifier: it is now `editor.renderIndentGuides`
+28294|No .git folder in the home directory itself . But in subfolders I do have .git folders. I tried the git enabled false and that didn't work.  Plus I lost all the Git functionality of vs code. Which isn't optimal for me.   Sent from my iPhone  > On Jun 28, 2016, at 11:54 PM, Benjamin Pasero notifications@github.com wrote: >  > @calam1 do you happen to have a .git folder in your home directory? >  > @csnover can you attach the profile as zip next time? that allows me to open it >  > — > You are receiving this because you were mentioned. > Reply to this email directly, view it on GitHub, or mute the thread.
+28295|"@dbaeumer having unique string in ""owner"" works, it doesn't work if I omit it, then it cancels each other out again.  It's very unclear what owner property even means, I was in a illusion it should be the language (because it auto-completed to that). The tooltip is not very clear either:  ![image](https://cloud.githubusercontent.com/assets/64731/16450490/e2869a30-3e05-11e6-8d08-a1c18ff8f0ae.png)  It should say it must be unique string if multiple problem matchers are used. Preferrably one should always define unique string there, to avoid copy & paste problems."
+28296|:+1: `workbench.editor.openPositioning` works
+28297|"If you have problem with problem matcher clearing itself out every time editor changes, remember to put a unique string in the ""owner"" property of all problem matchers, e.g.   ``` ""problemMatcher"": [     {         ""owner"": ""SOMEUNIQUESTRING"",         // ...     } ] ```  Forgetting this, can cause weird problems with multiple matchers."
+28298|I had both the user settings and the workspace settings ...
+28299|:+1: `workbench.editor.enablePreview` works
+28300|The editor layouts the widget correctly (next to the cursor). The widget should not change its height when there is no detail

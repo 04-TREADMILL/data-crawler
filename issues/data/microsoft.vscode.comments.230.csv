@@ -1,0 +1,100 @@
+22901|We decide to not show the overflow when it does not apply.
+22902|We decided to not show the arrow down if it does not apply.
+22903|"@bpasero `--verbose` on the executable no longer gives Chromium output for some reason. Also the Chromium output is useful in debugging as it contains extra stuff like console.log|warn|error."
+22904|How about requiring `VSCODE_CLI` or something?
+22905|Thanks for the feedback!
+22906|I'm all for increasing the priority of #1231, was going with settings values as that's what most other editors. I'll remove the colors for now, it was trivial to add.
+22907|I was thinking similar to how npm works: `npm install foo uninstall`. Requiring `--install-extension` multiple times is so verbose.
+22908|I see it still on Mac at least.
+22909|Actually maybe you have to opt in to see it. We set it in https://github.com/Microsoft/vscode/blob/ben/stacks/scripts/code.sh#L25 when running out of dev.  If you enable `ELECTRON_ENABLE_LOGGING` does it work then?
+22910|"settings.json:  ``` json {   ""window.commandLineArgs"": [     ""--disable-direct-write"",     ""--disable-gpu""   ] } ```"
+22911|Thanks for the suggestion @rozzzly, my main concern with something like that is that it's not leveraging people's terminal setups. For example, I would probably be losing some information I find most useful as I have a custom prompt to display git status for me. Will check it out though.
+22912|That works:  ``` ❯ ELECTRON_ENABLE_LOGGING=1 /usr/share/code-alpha/code-alpha --verbose [6574:0525/101618:ERROR:browser_main_loop.cc(217)] Running without the SUID sandbox! See https://chromium.googlesource.com/chromium/src/+/master/docs/linux_suid_sandbox_development.md for more information on developing with the sandbox on. bash: cannot set terminal process group (-1): Inappropriate ioctl for device bash: no job control in this shell (10:16:19 AM) ### VSCode main.js ### (10:16:19 AM) /usr/share/code-alpha/resources/app { pathArguments: [],   programStart: 0,   enablePerformance: false,   verboseLogging: true, ... ```  I guess they removed it by default in a recent update, probably a good move.
+22913|I have actually tried black-screen before, it seemed kind of cool but it was different to what I was used and didn't particularly want to change :P
+22914|I'm also running into this issue where I'm developing on a repo clone, but VS Code isn't picking it up as a repository.  I'm on a Windows 7, 64-bit machine. Git version 2.8.3
+22915|Thanks for the responses @weinand.  > The string is not communicated back from the debug adapter, but from the picker command running in the extension (host).  Yes, sorry for mixing both.  > The string (pid etc.) becomes the command's result  I assume this can be a `Promise<string>` that the callback of the command would return.
+22916|Duplicate of #3091 and #3130
+22917|+1
+22918|I'm just directing the console output to OutputEvent, there is no such line information...
+22919|After trying again on Windows 10 with the new cmd, it seems to work just fine. As such I think I'll make the default `%COMSPEC%` which points at cmd by default. This makes it consistent with the open in (external) terminal command. https://github.com/Microsoft/vscode/issues/6886
+22920|Yes, that is the most disturbing part of this :) When my `command` and `args` are set up as in the comment from yesterday, the environment variables are set up just fine (including `MOZCONFIG`). Same thing if I add an `env` property to the `options` in the sample task.  If I do nothing but change the `command` to `env` (and drop the `args` property, so as to not confuse `env`) then the environment variables aren't set up properly (and this behaves the same when trying to run the actual build - `MOZCONFIG` is never picked up, so my build config is not what I expect).
+22921|Oh, and just for completeness, the behavior persists even with latest insiders build 1.1.1 commit def9e32467ad6e4f48787d38caf190acbfee5880
+22922|@alexandrudima @aeschli is there some event I can listen to for when the theme changes?
+22923|@Tyriar is that setting already available in the software, or is that a proposed solution?
+22924|Thanks for the contribution @marvinhagemeister!
+22925|ping @joaomoreno
+22926|@RandScullard just a suggestion
+22927|Yeah, the Chrome debug protocol provides the URL/line/column of the source of the log message. I could easily resolve the URL to the original path and pass that back.
+22928|Note that this is less important now with cmd.exe becoming the default (#6886).  This is what the HTML shows:  ``` <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W</div> <div>indows&nbsp;PowerShell</div> ```
+22929|The Git Bash bit makes sense - but kinda defeats what I'm trying to do here; segregate dev tooling to Ubuntu on Windows.
+22930|I can no longer reproduce, the default shell is now cmd.exe so it's not as big of an issue. I guess we'll wait and see if more can repro.
+22931|:thumbsup:
+22932|By analyzing the blame information on this pull request, we identified @alexandrudima and @jrieken to be potential reviewers
+22933|Hi **@kisstkondoros**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+22934|**@kisstkondoros**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+22935|**@kisstkondoros**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+22936|By analyzing the blame information on this pull request, we identified @egamma to be a potential reviewer
+22937|Hi **@juanfra684**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+22938|Benjamin,  Thank you for your answer. I will watch for it and if i find a way to repro i will let you know. I will also check modification time.  Sent from Outlook Mobilehttps://aka.ms/qtex0l  ---  From: Benjamin Pasero <notifications@github.com<mailto:notifications@github.com>> Sent: Wednesday, May 25, 2016 12:22 AM Subject: Re: [Microsoft/vscode] Lost my work on unix mount (#6830) To: Microsoft/vscode <vscode@noreply.github.com<mailto:vscode@noreply.github.com>> Cc: pcherkasova <polina.c@live.com<mailto:polina.c@live.com>>, Mention <mention@noreply.github.com<mailto:mention@noreply.github.com>>  @pcherkasovahttps://github.com/pcherkasova sorry to hear that. first thing to try out is if you are able to reproduce this with some reliable steps.  Next time it would also be interesting if the file contents on disk are really the same version as remote. In the end VS Code will always try to fetch the contents from disk if it sees that the modification time is different. Could it be that the modification time did not change for some reason?  ##   You are receiving this because you were mentioned. Reply to this email directly or view it on GitHubhttps://github.com/Microsoft/vscode/issues/6830#issuecomment-221493294
+22939|Alt left / right actually interferes with workbench.action.navigateForward and workbench.action.navigateBack (those are defined in vscode\src\vs\workbench\browser\actions\triggerNavigation.ts)
+22940|Never mind, I found `ThemeService` :smile:
+22941|By analyzing the blame information on this pull request, we identified @egamma and @alexandrudima to be potential reviewers
+22942|**@juanfra684**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+22943|I brought this up because ExternalTerminal is working without file extension. Basically if you see all these terminals are part of environment variables, so I think it should work with IntegratedTerminal as well without providing file extension (i.e. .exe for windows).
+22944|"Do you have `""editor.wrappingColumn"": -1`?  I do also get freezes because of this. And I think there's a global wrapping limit, because I can see javascripts like Jquery cutted at the end of the row with three dots."
+22945|By analyzing the blame information on this pull request, we identified @joaomoreno and @egamma to be potential reviewers
+22946|Hi **@kisstkondoros**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <span>We will now validate the agreement and then real humans will evaluate your PR.</span>  TTYL, MSBOT;
+22947|"The reason for this is because it's launched from the cmd process `process.env['comspec'] || 'cmd.exe'` (full shell path or cmd.exe) with args `['/c', 'start', '/wait', '""""', exec]`. I don't think it's possible to do this for the integrated terminal unfortunately."
+22948|I had trouble getting the integrated terminal running `cmd.exe` to recognize bash. I think it's integrated in some weird way. My impression with playing around with it for the first time a few days ago was that it's definitely early days and probably not worth trying to integrate until it's matured more.
+22949|@bpasero Do you mean delaying the moving down when double clicking?
+22950|Also doesn't work, because we still need to execute the executable directly when double clicking it or launching it via an application launcher.
+22951|Ah ok, I guess the answer is no :)
+22952|Could work, but I will simply close this. We enabled this so people can automate installations, this is not the usual way to install an extension; the product UI is for that. If someone wants to install multiple extensions, they can still do it.
+22953|@justinboyd can you show me a screenshot?
+22954|I'd like to do it... but not really sure how to. Maybe a warning at startup if detected that it is a tty... but still...
+22955|@dbaeumer Given these findings, I believe this is somewhere in the tasks framework.
+22956|Oh I see, I misread your suggestion, sorry! Might be nice, yeah.
+22957|How about Mason: perl inside html?
+22958|Reopening. This will likely be solved by adding the ability to theme UI components https://github.com/Microsoft/vscode/issues/1231
+22959|K sounds good, I have already done [the automation I wanted to do](https://github.com/Tyriar/dotfiles/blob/master/modules/vscode/install_extensions.sh), just waiting on https://github.com/Microsoft/vscode/pull/6366 so it doesn't error out
+22960|"In my case setting is :  ``` ""editor.wrappingColumn"": 300, ```"
+22961|That's the default setting. My VS Code doesn't brick nor freeze with that setting, only if I set it to -1 and start moving horizontally. Also I have multiple minified plugins in the same file.  If you've upgraded recently try cleaning the old config and start fresh (save your config in your project folder) and see what happens.
+22962|Install is already clean ...
+22963|"I can provide a screenshot later tonight or tomorrow, but I'm beginning to believe this is an issue with Git and not VS Code.  When executing the ""git status"" command on my clone repo I get the following error:  ""error: object directory /[Path]/.git/objects does not exist; check .git/objects/info/alternates. error: refs/heads/master does not point to a valid object! error: refs/remotes/origin/HEAD does not point to a valid object! error: refs/remotes/origin/master does not point to a valid object! No revs to be shown.""  This does not happen when i execute ""git status"" on the master repo. I'm a little new to GIT and am more familiar with TFS. This may be a rookie mistake on my part."
+22964|Oh sorry, you're in Windows, in Linux you have the config in a different folder.
+22965|@alexandrudima Yeah, NumLock is the very first thing to try. But alas, no. Mac doesn't really know about the NumLock. No matter what, numpad9 is just 9 now.
+22966|Awesome!
+22967|Do you think there is any use in showing that kind of output from VS Code?
+22968|@joaomoreno yes. this issue is very specific to the explorer only, if you have another idea how to solve it, please let us know.
+22969|Since this is not an issue specific to node 6.2, I've created a bug that better reflects the real issue: https://github.com/Microsoft/vscode/issues/6894
+22970|By analyzing the blame information on this pull request, we identified @egamma and @joaomoreno to be potential reviewers
+22971|By analyzing the blame information on this pull request, we identified @egamma and @alexandrudima to be potential reviewers
+22972|Hi **@tht13**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+22973|👍
+22974|@bpasero I think so, the console output would be useful in making certain problems on our side very obvious and the other output could help identify upstream issues. The whole purpose of `--verbose` is debugging issues right?  If you think it's necessary we could consider adding a log level cli arg like `npm` has.
+22975|Looks like https://github.com/Microsoft/vscode/pull/6897 is fixing this issue too
+22976|Does anyone know if it is possible to add text to the gutter? If not we should create a separate feature request for that. This should then probably be moved to https://github.com/waderyan/vscode-gitblame and reference the extension API request.
+22977|@Tyriar we have `Stage` and `Clean` on the treeview of git changes, #6897 is adding these two to the right top of diff editor view, but it's still file level operation. #6896 is focusing on selected lines :smile:
+22978|**@tht13**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+22979|**@tht13**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+22980|Nice, I can definitely see myself using this!  It looks like the change is failing `gulp hygiene`: https://travis-ci.org/Microsoft/vscode/jobs/132931000
+22981|**@tht13**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+22982|**@tht13**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+22983|Can't believe you guys went past version 1.0 without this!  Makes me wonder if the editor has already a similar functionality that I'm not seeing??
+22984|Seems to work fine for me, <kbd>&uarr;</kbd> to go to recent commands, <kbd>ctrl</kbd>+<kbd>r</kbd> to do a lookup. Regardless, this sort of stuff we can't mess with at the moment as input and output is done by external libs. Restoring any state would also be very difficult currently. There's the possibility for this to change in #6838
+22985|It's also valid for folding directories in the sidebar. On a Mac for example it's a native behavior, when you fold or expand something pressing `alt (option) + mouse click` all nested elements in that folder are folded or expanded respectively.  It would be nice upgrade for VS Code if it could follow the same rule.  Thanks.
+22986|By analyzing the blame information on this pull request, we identified @alexandrudima and @egamma to be potential reviewers
+22987|Hi **@Merott**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+22988|Improved light theme in https://github.com/Microsoft/vscode/commit/a38efd89f992b75644cb0e8f997bab2543d2bd65
+22989|**@Merott**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+22990|"The follow data is received from Powershell:  ``` ""[?25l [0m[0K [1G[?25h""` ```  This is the one that adds all the spaces:  ``` ""[?25l [64G[?25h"" ```  ``` ""[?25l Windows PowerShell[0K Copyright (C) 2016 Microsoft Corporation. All rights reserved.[0K [0K [0K [1G[?25h"" ```"
+22991|Stepped through the code, the second message is `\e[?251\r\e[64G\e[?25h`  `\e[64G` sets the position of the cursor to 64 (ie. 63 as its 0-based) `\e[?25h` runs: `this.cursorHidden = false;`
+22992|We could intercept this message and fix this case, but the greater question is why Powershell would tell us to go to the 64th column. Powershell correctly passes `\e[1G` on most new lines with content.
+22993|"Compare this to the first message from cmd:  ``` ""[?25l [0mMicrosoft Windows [Version 10.0.14342][0K ↵(c) 2016 Microsoft Corporation. All rights reserved.[0K ↵[0K ↵c:\Users\Daniel>[0K [17G[?25h"" ```"
+22994|@lzybkr sorry to bother you again, but have you got any ideas on this? Powershell seems to be telling our terminal to go to the 64th character for some unknown reason.
+22995|Reproduced, I likely caused it in https://github.com/Microsoft/vscode/pull/6588 because `code --wait` and `code --verbose` works. Looking into it.
+22996|Should be fixed, I queued new Windows and Linux builds, OSX build servers seems to have an issue.
+22997|...So, are we going to get smooth scrolling?
+22998|@cesarvarela I agree. Maybe there is an extension or something. I tried looking and couldn't find one.
+22999|So right now, vscode is not supporting extended globbing for their exclude options. Can someone briefly explain what the holdup is?
+23000|PowerShell doesn't generate any VT100, and I don't see any code that sets the cursor position before displaying the logo - so I'm at a loss how that could happen.  The banner message doesn't even start out with any whitespace or newlines.

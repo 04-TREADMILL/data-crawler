@@ -1,0 +1,100 @@
+28301|Today there is space in there for one glyph.  I guess we need to implement an overflow experience in there.  This is a feature-bug, as the code was never designed to handle more than one glyph margin for a line.
+28302|Thank you !!
+28303|The UI must not filter
+28304|@warpdesign   #7590 is a duplicate of this issue, so given this issue was created before #7590 I closed #7590 in favor of this one.
+28305|@jrieken `vscode-textmate` is a node module and should in theory not use browser API. We can, as always make it injectable with a different plist parser.
+28306|@chrmarti I'm assuming you're using the dark theme. I tried on Windows 10 and the `I` is rendered by Windows in white. Maybe it does have something to do with your setup? Do you see the Windows cursor or the OSX cursor?
+28307|The same applied every Emmet commands. ![2016-06-29_15-14-51](https://cloud.githubusercontent.com/assets/7034281/16451541/68f06fd2-3e0c-11e6-856b-e338cbfa3ed0.gif)
+28308|Agreed with @bpasero that this is nothing we want to tackle in endgame week -> moving to July, joao
+28309|@bpasero and I discussed it an neither filtering in the UI nor filtering in the model is the right solution. So we decided to have Ctrl+T list all workspace symbol and Ctrl+P only the global once. We will therefore add the container name to the symbol and check if this allows for proper filtering. I opened  https://github.com/Microsoft/vscode/issues/8502 to track the UI changes.
+28310|After discussing with @bpasero we agreed this is nothing we want to do this endgame -> July
+28311|@Emeryao Thank you! I have added it to the wiki - https://github.com/Microsoft/vscode/wiki/IME-Test#windows-chinese-test-2
+28312|@bpasero The container name is already part of the SymbolInformation. Will close this one now and see how the UI behaves after addressing #8502
+28313|"@isidorn What's the rush with closing this?   In general, we have [124 open upstream bugs](https://github.com/Microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Aupstream). Just because it's upstream doesn't mean we cannot try to work around it on our side.  Specifically, for this issue, here is an example of improving the user experience on our side: - if an extension does not have a license, show the label ""No License"" and do not put a link that opens a browser - imagine the marketplace fix their empty page - by rendering the text ""No License"" ... because what else could they do if an extension does not have a license? How is that a good user experience? We might want to go and workaround on our side.  Just my 2 cents."
+28314|@alexandrudima makes sense - let me reopen
+28315|Will do!
+28316|@alexandrudima yes we have some people asking for globally enable or disable preview and some users that want to have an editor in non-preview mode when you use quick open. I do agree that eventually we would need settings for all those places.
+28317|This got fixed via: Microsoft/vscode-languageserver-node#45
+28318|Interesting what ST does in this case:  ![image](https://cloud.githubusercontent.com/assets/900690/16452144/420f9aa0-3e07-11e6-99d2-0691cb9a99af.png)
+28319|Removing my assignment since this is in very good hands.
+28320|@alexandrudima any additional input?
+28321|Likely the tree...
+28322|I don't agree. In my opinion, each input box should have its own undo stack that allows you to undo mistakes. We can discuss this in next's week UX meeting.
+28323|"@alexandrudima for now I am only replacing `fs` with `original-fs` in the renderer. All other forked processes run with ""`process.noAsar = true`"" except for the main process."
+28324|@bpasero Does this change come from a bug that is reproducible or do you want me to review the commit? Also, how do you handle the git service, search service, etc.
+28325|Ah ok, I didn't see your comment. Ok, the first question still remains Does this change come from a bug that is reproducible or do you want me to review the commit?
+28326|"@alexandrudima works for me when using ""on screen keyboard"" pressing the context menu key:  ![image](https://cloud.githubusercontent.com/assets/900690/16452419/af15b642-3e08-11e6-9929-884296ad68a7.png)  I do not know about Shift+F10."
+28327|All I have is a context menu event handler on the DIV that is the tab, so I am not sure what else I need to do.
+28328|Actually Shift+F10 also works for me, just tried.
+28329|@alexandrudima yes sorry, it is the bug where you cannot delete a *.asar file once it becomes visible in the explorer.
+28330|https://github.com/Microsoft/vscode/issues/7751
+28331|OK. Thinking about it again autorestart is a bad idea for watching tasks which have a lot of state. So I will do the following: - if a task is already running and Ctrl+Shift+B is pressed then I only show an information that auto hides - will add a restart action.
+28332|@dbaeumer   https://github.com/Microsoft/vscode/blob/master/src/vs/base/node/stdForkStart.js#L130  I give to `process.stdin` the exact named pipe connection that node gives me. If node decides to give an error, process.stdin should get an error, etc.  If you don't want to, I can debug what node gives in there, maybe with the new node version something has changed... ?
+28333|But why does it work fine with VSCode 1.2.0 ?
+28334|"@bpasero The context menu key works for me too. Under Windows, I think it is expected that Shift+F10 also opens the context menu. Maybe for keyboards without a context menu key?  AFAIK that needs a manual listener. i.e.:  ``` { ""key"": ""shift+f10"",             ""command"": ""editor.action.showContextMenu"",                                      ""when"": ""editorTextFocus"" }, ```"
+28335|@dbaeumer sorry, but the imports are showing up without containerName so they still appear in CtrlCmd+P.
+28336|@alexandrudima for me it just works, when I press Shift+F10 on a tab that has focus (with blue outline) I get the menu. Weird that you are not?
+28337|Even on my thinkpad without VM and without the context menu key.
+28338|There is a similar request which asks for focussing the filter and start filtering as soon as typing in tree - #7337   duplicates #7337
+28339|So the usecase you mention is   `workbench.editor.enablePreview = true, workbench.editor.enablePreviewFromQuickOpen = false` ?  But what does it mean when I set `workbench.editor.enablePreview = false, workbench.editor.enablePreviewFromQuickOpen = true`
+28340|Yeah, I don't get it, I just tried dev, in case I missed a commit. I don't get contextmenu on Win10. Maybe we can ask @dbaeumer to try.  @dbaeumer If you focus your way to a tab title, does shift-f10 show the contextmenu for you?
+28341|"I would probably call it simply ""Filter"", since one can filter by - type - description - source - file name"
+28342|In `private handleWorkspaceContainsEagerExtensions(): TPromise<void> {`  around:  ```         return TPromise.join(             Object.keys(desiredFilesMap).map(                 (fileName) => pfs.fileExistsWithResult(paths.join(folderPath, fileName), fileName)             )         ) ```  https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/node/extensionHostMain.ts#L249 should accept folders not only files
+28343|@alexandrudima yes you found the issue with that solution, what I really need is a way to provide settings that impact other settings below. If I had UI it would be something like VS solution to this:  ![image](https://cloud.githubusercontent.com/assets/900690/16453042/ab83fb9e-3e0b-11e6-8d00-59163c314583.png)  With using JSON I am not sure how to express this.
+28344|":+1: I don't know either. Maybe @aeschli knows  `workbench.editor.enablePreview` could be of type false | { quickOpen: boolean; }  I wasn't fishing for the issue, I simply didn't realize these two settings are hierarchical when I saw the settings description."
+28345|Since this has been like that since day one, and my proposed solution using a webview is rather large, I am moving this to July to investigate further.
+28346|duplicates #8284
+28347|Underlying issue was that the editor title action bar considers an action to be equal if the `id` didn't change. Now, the menu keeps the same action instances (since they are already scoped to 'this' menu) and updates them with the proper context instead of re-creating them.   Tho it is somewhat unexpected @bpasero that `id` means equality
+28348|No real reasoning behind it other than I did not want to recreate the toolbar when nothing changed. My weak attempt for not having react components...
+28349|Yeah, some UI would totally help here, just the keys is not enough.
+28350|This works for me. @sandy081 could it be you recently added this?
+28351|"Please report this against the typescript team. I am assuming you run ""tsc -w""."
+28352|Please report issues for extensions to their related GH repositories.
+28353|@bpasero Yes, I fixed/implemented this with Global replace functionality
+28354|The challenge here is that we don't sync decorations back to the extension host. We could do that proactively in case someone wants to read them and then provide synchronous read API. IMHO async read API would be unsuitable in this case.
+28355|Ok, sorry.
+28356|@sandy081 A great find: attach to a node process didn't work on Windows at all because the electron based node doesn't have a working implementation of process._debugProcess(<pid>). This didn't show up in development because we are using a regular node there. The fix is to run the process._debugProcess in a regular node.
+28357|Does the doc page provide a good enough explanation? https://code.visualstudio.com/docs/customization/keybindings#_keyboard-layouts  If not, I can provide additional details
+28358|Dup of #8251
+28359|Also is it intentional that these styles show up when tabs are disabled?  ![image](https://cloud.githubusercontent.com/assets/900690/16454040/5026ee88-3e0f-11e6-92d2-fdbcde9638a0.png)
+28360|I am having the same issue, though it does not occur for me unless I have something like browser-sync running in the terminal and I switch themes. In the Developer Tools, I see the following error:   ![image](https://cloud.githubusercontent.com/assets/2192911/16454076/31e36e88-3ddd-11e6-9745-51afba71436b.png)  ``` Cannot set property 'innerHTML' of undefined: TypeError: Cannot set property 'innerHTML' of undefined     at Terminal.refresh (C:\Program Files (x86)\Microsoft VS Code\resources\app\node_modules\term.js\src\term.js:1704:32)     at b.setTerminalTheme (file:///C:/Program Files (x86)/Microsoft VS Code/resources/app/out/vs/workbench/parts/terminal/electron-browser/terminalPanel.js:4:4779)     at file:///C:/Program Files (x86)/Microsoft VS Code/resources/app/out/vs/workbench/parts/terminal/electron-browser/terminalPanel.js:4:4368     at e.invoke (file:///C:/Program Files (x86)/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:31:21140)     at e.fire (file:///C:/Program Files (x86)/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:31:22593)     at o (file:///C:/Program Files (x86)/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:99:12820)     at file:///C:/Program Files (x86)/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:99:7930     at Object.h [as _notify] (file:///C:/Program Files (x86)/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:23:16006)     at Object.__dirname.undefined.P.enter (file:///C:/Program Files (x86)/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:23:19168)     at __dirname.undefined.t.Class.define._run (file:///C:/Program Files (x86)/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:23:20994) ```  VSCode Version: 1.2.1 OS Version: Windows 7
+28361|"@sandy081 I agree, getting a description of all the different filter types into the initial text is not possible.  So ""Filter"" sounds ok to me. But there is still a need for some guidance or help: Could intellisense be used? You could propose the available problem types and file names. Or you could have a longer description in some hover?"
+28362|@weinand Can you pls provide more detail?
+28363|After the discussion I opt to leave this with <kbd>Alt</kbd>
+28364|"It might be on my side, it is not clear to me how these indent guides should be rendered in this case. I am unsure if there is a ""correct"" way"
+28365|I am unsure what that involves, I've personally never used Bower, but I'll look into it.
+28366|As i understand it, the inputBox (`quickOpenService.input`) has no automatic closing when you change focus? I found this opportunity only for Pick.
+28367|Maybe we could inline our svgs in the css. I do that for monaco-editor
+28368|Fixed by #8489.  Before: ![2016-06-29_17-06-20](https://cloud.githubusercontent.com/assets/7034281/16455150/ffbc8798-3e1b-11e6-8415-9e0e0a1177fe.gif)  After: ![2016-06-29_17-09-53](https://cloud.githubusercontent.com/assets/7034281/16455302/7ceaccfc-3e1c-11e6-8fa8-4fd54d45b468.gif)
+28369|I implemented the first bits. (Not showing an annoying message if the task is running). The second part is still not nice. Do we need a Restart current task or Restart build, Restart test, ...  Ideas?
+28370|same bug as in #8325
+28371|"@jrieken since I had no `group` specified, the menu item was defaulting to the overflow area where an `alt` command is not supported. After adding a `""group"": ""navigation""` the menu showed up and had an 'alt' command on hover.  It would be more consistent if menu items in the overflow area could show an alt command too."
+28372|Duplicate of #8325
+28373|"Moving to July because of the builder work. I suggest to implement the following:  add property whenActive which takes the following values:  ""keepRunning"" -> nothing happens the tasks is simply continuing running ""restart"" -> terminate and restart ""auto"" -> keepRunning if is a watching task, else restart ""showMessage"" -> show a message to the user"
+28374|See discussion in #6578
+28375|@mrmlnc Thanks for the PR. If refactored the implementation so that there this special casing on the actionId is no longer needed.  ``` js         if (actionId === 'editor.emmet.action.expandAbbreviation') {             this.editor.trigger('emmet', Handler.Tab, {});         } ```  The solution was to move the noEpansionOccurred from the EditorAccessor to the EmmetAction base class. The method is then overridden for the ExpandAbbreviation action.
+28376|"@josser   > No, files.trimTrailingWhitespace controls removing spaces at the end of the file but not in the middle of the file.   Having written that code, I am pretty sure that `files.trimTrailingWhitespace` trims trailing whitespace on every line. Code for proof: https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/commands/trimTrailingWhitespaceCommand.ts#L41  Here is the current behaviour: - none if `files.trimTrailingWhitespace = false` - all except lines with cursors if `files.trimTrailingWhitespace = true` and save is caused by auto-save - all if `files.trimTrailingWhitespace = true` and save is explicit (i.e. ctrl+s)  I agree that the last bullet point needs additional configuration, perhaps we could change `files.trimTrailingWhitespace` to be `true|false|""polite""` where `""polite""` would make an explicit save skip lines with cursors on them.  @bpasero thoughts?"
+28377|@Instagit would ALT + double clicking do the trick for you? The reason is that CTRL + clicking is taken by the go to definition feature. I have a feature request to allow to customize the mouse bindings, and we need to do that soon
+28378|@egamma Great idea :tada:
+28379|I am sorry, but @be5invis is correct, we cannot implement this as the font fallback is handled by Chromium and AFAIK there is no way to associate a different font size with each fallback option. Maybe a feature request against w3c?
+28380|@bpasero yes this was what I was testing, but I did not succeed reproducing this state yet.
+28381|Let's track in #1477
+28382|@egamma, but we have a problem:  ``` *** Error: /src/vs/workbench/parts/emmet/node/actions/base64.ts(81,24): Property 'noExpansionOccurred' does not exist on type 'EditorAccessor'. *** Error: /src/vs/workbench/parts/emmet/node/actions/updateTag.ts(38,24): Property 'noExpansionOccurred' does not exist on type 'EditorAccessor'. *** Error: /src/vs/workbench/parts/emmet/node/actions/wrapWithAbbreviation.ts(38,24): Property 'noExpansionOccurred' does not exist on type 'EditorAccessor'. *** Finished with 3 errors. ```
+28383|A couple of fixes went into the June build: - linter problem matcher have now there own id. So a Salsa problem can't clear a eslint problem. - the workbench doesn't auto remove errors anymore on close. It is up to the error producer to do so. - the case described by @joaomoreno got addressed in VS Code's tasks.json by using the applyTo property.  I will close this issue. Any further discussion on how we proceed with project wide errors should be discussed here: https://github.com/Microsoft/vscode/issues/6973
+28384|Different icons for Extension View buttons https://github.com/Microsoft/vscode/issues/8461. Consider blue for Extension enable button https://github.com/Microsoft/vscode/issues/8514
+28385|Closing this issue, the PR with all the features has been merged into master.
+28386|Nice catch! We don't count matching parens in link detection  The text is:  ``` 7. At this point, ServiceMain has been called.  There is no functionality presently in ServiceMain, but you can consult the [MSDN documentation](https://msdn.microsoft.com/en-us/library/windows/desktop/ms687414(v=vs.85).aspx) to add functionality as desired!  ```
+28387|Didn't get to it because of the builder explorartion.
+28388|Let's track in #1477
+28389|WE decided on the following story. Single file markers should be removed when a file closes. Moving to @aeschli to fix.
+28390|@mese79 Do you have a special setup?  Can you please profile where the CPU time is spent: - `Help > Toggle Developer tools` - `Profiles` tab - `Start profiling` - type... - `Stop profiling` - save file and attach it here.
+28391|Yes, we should inline all SVGs if possible. I also noticed once that Chrome would decide to load the images from disk later after the workbench was opened so it felt a lot like a webpage opening...  @alexandrudima if you did this already for the standalone editor, can you give pointers how to hook it into the workbench?
+28392|@miguelchico we are sorry, but support for intellisense for injected dependencies has been lost as part of the migration to the new Salsa implementation.
+28393|This will be addressed in CSS. The agreed story is to remove markers when a file closes for single file marker generation.
+28394|Yes, I like that. Also its not a breaking change.
+28395|@alexandrudima  I've found the reason why when I've tried to change files.trimTrailingWhitespace = false it doesn't actually change anything.  Everything is because I have editorconfig and specific settings for my project.  So, when I disabled editorconfig everything became to work.
+28396|@miguelchico did you try to type the injected dependencies using JS Doc comments? https://code.visualstudio.com/docs/languages/javascript#_intellisense
+28397|-> backlog until we have steps
+28398|Exactly the same problem: #8136. A potential solution: https://github.com/Microsoft/vscode/issues/8136#issuecomment-228551736.  ![2016-06-29_17-32-22](https://cloud.githubusercontent.com/assets/7034281/16456164/a8aad816-3e1f-11e6-8436-d30ec807b3d3.gif)
+28399|@mrmlnc LGTM, thanks. I agree this should be an `info` not a `warning`
+28400|Hi **@mrmlnc**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;

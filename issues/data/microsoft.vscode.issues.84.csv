@@ -1,0 +1,100 @@
+8301|Not possible to open command pallete from terminal by F1
+8302|Integrated terminal auto completaion produces bogus prefix
+8303|Debug: toolbar grabbing cursor does not show up until you release the mouse
+8304|Attaching the process gives different errors in different platforms
+8305|Emmet: error decoding DataURI without workspace
+8306|Markdown preview: does not preview the file I picked?
+8307|Open browser [Node.js]
+8308|Terminal actions: hover description too long
+8309|Standalone editor: strange code assist behaviour
+8310|Standalone editor css: no code assist on color values:
+8311|Deeper inspection when CTRL+hovering over imported symbols
+8312|[css/less/scss] validation on values
+8313|Emmet: error handler for read function
+8314|CSS: No code complete for css variables
+8315|Add Edit > Replace in Files and keybinding
+8316|Replace in search viewlet is hard to discover
+8317|Replace: action should only be enabled when something can be replaced
+8318|Replace: Replace button should be outside of input field
+8319|Replace: should not be possible to run without results
+8320|Rename in SCSS breaks syntax
+8321|Replace: make it more obvious that you are in replace mode
+8322|Context menu in terminal
+8323|Markdown preview should be able to render images
+8324|Replace: preview diff does not update when removing individual replacements from the view
+8325|Horizontal resize screws up horizontal terminal layout
+8326|Install counters should be more proeminent
+8327|No icon in before/after
+8328|Integrated terminal does not support screen readers
+8329|uppercase/lowercase string - use String.toUppercase() etc.
+8330|[decorations] TextDecoration#after not working?
+8331|Integrated terminal always eats up tab key
+8332|Terminal does not support ballistic scroll
+8333|Debugger: after step into with source maps current line not highlighted
+8334|Monaco Editor / CSS: Intellisense for variables is not using 'var'
+8335|Terminal settings per OS not alligned with rest of vscode
+8336|Outline issues with Twistie in Find and replace widget
+8337|Replace: Pressing enter in replace input field should invoke the replace all action
+8338|[debug] variables hovers switches between type and value hover
+8339|Undo action on Find/Replace widget should undo in the editor
+8340|"Replace: removing last match of a file should not show ""no matches"""
+8341|Fix emmet error decoding DataURI without workspace
+8342|Theme dropdown should be re-placed appropriately
+8343|Files: logic to open dirty editor does not work well for many edits
+8344|High Contast Dark theme looks fuzzy
+8345|pressing cmd/ctrl+f in problems view should focus search field
+8346|screen cheese with long error messages
+8347|big type check when class internals change
+8348|replace settings variables in debugger config #8042
+8349|don't type check dependencies when there are syntax errors
+8350|Warnings generated in VSCode Readme.md
+8351|Dragging a folder onto  a tab should not show drop acceptance feedback
+8352|Replace: viewlet size broken when replace expanded
+8353|Dragging a folder onto the empty spaces opens the currently selected file
+8354|Problems: selecting problem should highlight problem line in editor
+8355|Monaco editor page could have some revisions
+8356|type check all in `internal` projects
+8357|No margin between Extensions viewlet and the editor
+8358|Search: did we loose the upper limit for search results?
+8359|Provide completion proposals for variables in launch.json
+8360|Replace: is very slow for many results
+8361|Conflict detected editor.action.quickCommand
+8362|Empty editor area can stick to drop acceptance feedback
+8363|HC theme selection makes the text unreadable
+8364|Slow scrolling through suggetions
+8365|Header tags are not rendered correctly in preview if not separated by space
+8366|Go to symbol not working
+8367|[launch] variable substitution replaces full content
+8368|vscode.previewHtml is not correctly validated
+8369|Open Preview action on a markdown file is not shown when right clicking on the file in tabs mode
+8370|Double click on find all references view throws exception
+8371|Context menu + scrolling moves the context menu to unexpected locations
+8372|A tiny little ambiguity problem with markdown in comments
+8373|Icons missing in find widget in IE
+8374|Preview is in stale state after undoing changes in source from Git view
+8375|Extension viewlet uses weird clear icon
+8376|Horizontal lines glitch in editor selection (Edge)
+8377|Editor context menu on diff view has strange text color
+8378|Duplicate defintion of json modules
+8379|Syntax highlighting example does not highlight syntax
+8380|Scroll bars in high contrast theme look broken (Edge)
+8381|Context menu not dismissed with esc
+8382|[decorations] renderWhitespace collides with before decoration
+8383|Intellisense autocomplete not working with Powershell (module version 0.6.1)
+8384|Autocomplete should be case insensitive for suggesting strings
+8385|Slightly misleading error message
+8386|Variable substitution doesn't seem to work when running in extension dev host
+8387|Tab does not always gets revealed when activating it via keyboard
+8388|UX meeting agenda 29th June 2016
+8389|Crashing/failing to open on new install
+8390|Remote Desktop: Mouse cursor for text selection is black on black
+8391|Run selected text in terminal fails with error
+8392|Activating replace in file when focus is on find in file dialog should not change the find keyword
+8393|Cannot disable find in selection
+8394|Cannot use alternate shell under Windows
+8395|Default extension image contrast ratio is very low
+8396|Extension images look bad in dark themes
+8397|Terminal: Bind Ctrl+C and Ctrl+V
+8398|Extension README content should be wrapped to 80-100 characters
+8399|Indentation guides hard to see in darker themes
+8400|Extension README license is so far from everything

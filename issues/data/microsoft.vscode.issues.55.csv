@@ -1,0 +1,100 @@
+5401|Reload from dev tools does not go through our lifecycle
+5402|Toggling working files shows error
+5403|Some forms change to fuzzy pixels
+5404|Update Accessibility Help
+5405|js files are not excluded from explorer view in Mac OS X 10.9
+5406|C# syntax highlighting missing
+5407|Editor is not responding to clicks after it has been snapped to the corner, and then expanded to full window height.
+5408|ProblemMatcher default values improvements
+5409|I hope vscode can provide better auto-complete like eclipse
+5410|Suggest npm module name in commonjs require
+5411|"Glob parser: Wrong result for  '**/bower.json"""
+5412|Emmet settings and other features
+5413|do i have a way to change native windows console ?
+5414|Debugger not working properly, breakpoints won't trigger
+5415|Editor improvements (#4637, #3685)
+5416|VS Code won't highlight C# files
+5417|Chinese translation error.中文翻译错误
+5418|[html] issue with the <template> tag
+5419|Tabbing through snippet placeholders is circular, the cycle breaks on ENTER or ESC. Need better user experience
+5420|Lines conflict
+5421|Debug adapter process has terminated unexpectedly with PowerShell
+5422|Error in path localization
+5423|syntax highlight error
+5424|Introduce keywords for actions to filter on (for #4679)
+5425|ignore .ignore is not a function
+5426|Git control out of sync
+5427|Remove extra single quote
+5428|Can't open txt which file size is 90M
+5429|bind command(workbench.action.files.openFile) failed
+5430|Glob regex is inefficient and can produce wrong results
+5431|German commit message placeholder is too long and gets cropped.
+5432|When openning a folder, i can only open one tab, if i click another file, the file opened before will be covered.
+5433|Don't offer autocomplete it the only option is what the user has already typed
+5434|No intellisense when exporting es3 style class
+5435|InstantiationService debt
+5436|Feature Request: Add separate Panels  for Updated Files(Newly Added, Modified and Deleted) and Unstaged Files
+5437|Feature Request: Add the ability to create and manage Git pull requests from VS Code
+5438|Disable autoindent
+5439|Is there any way to select all the text matched by a regex search in column selection mode?
+5440|Extension host API should support custom close action in show*Message calls
+5441|No jsDoc intellisense when function is declared as part of prototype.
+5442|Translation : Some translations are confusing
+5443|tasks.json update error when working from mapped network drive
+5444|No intellisense when object definition and declaration is splitted
+5445|Suggestion: Nightly builds or way to produce own build
+5446|Message service should show a little more
+5447|OnClick event on Gutter
+5448|adding support for a custom `node path` or setting version with NVM
+5449|TypeError: Cannot read property 'startLineNumber' of null
+5450|Build and distribute Snappy packages
+5451|Support goto symbol for markdown files
+5452|Fixes #3841: Accessibility: Support exposing current language to screen readers
+5453|"Test: ""Open in Terminal"" not working on Fedora"
+5454|Support custom terminal launch settings on OS X
+5455|Test: Custom terminal launch settings
+5456|Text selection performance is poor on 1.0 alpha
+5457|ES6 generator syntax highlighting (generator name and `yield` keyword)
+5458|Can not Replace Enter or New Line
+5459|Resize find widget
+5460|HTML error comment with Key Binding
+5461|Spacemacs(evil) Style Key binding
+5462|PHP PDO ?! Not showing on intellisense
+5463|File association for bash_profile not working
+5464|jsconfig not working for ES6
+5465|vscode 1.0 can't auto detect charset
+5466|Garbage collector end point  missing under Windows
+5467|File Converted Into Either Binary Or Unsupported Text Encoding
+5468|I fond that I begin to love vscode,But I not found the mutiple window function in vscode
+5469|Debug pointer should not highlight blank line while debugging (with F10).
+5470|e.getViewer is not a function
+5471|Cannot read property 'onTokensChanged' of undefined
+5472|Cannot read property 'document' of null
+5473|Illegal value 31 for `line`
+5474|Uncaught TypeError: Cannot read property 'id' of null
+5475|Cannot read property 'getControl' of null
+5476|Cannot read property '_acceptIsDirty' of undefined
+5477|Is vscode can open files by mutiple window?
+5478|source: property 'sourceReference' is missing
+5479|Uncaught TypeError: Cannot read property 'length' of undefined
+5480|i.label.toLowerCase is not a function
+5481|Extension management in viewlet
+5482|How to index functions in vscode?
+5483|Freeze up after leaving running overnight
+5484|Uncaught Error: Not an extension entry. Found quickOpenService,openOnPreview,... instead.
+5485|Cannot read property 'title' of undefined
+5486|Illegal value 82 for `line`
+5487|Internal module service_remote.js not found.
+5488|number is not a function
+5489|vscode can not index functions in PHP files
+5490|Crash when copying large amounts of data to clipboard
+5491|Go to Definition doesn't work in Diff View
+5492|JSON completion extensibility
+5493|suggest give a plugin for user-defined snippets
+5494|uninstall outdated extension with correct version
+5495|Add support to configure the UI Language through menu entries
+5496|don't use setter injection
+5497|let's avoid cycling service dependencies
+5498|Why is the version 1.0 in German?
+5499|Consider to change development process
+5500|There is no search history

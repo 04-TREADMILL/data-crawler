@@ -1,0 +1,100 @@
+2001|MD content renderer is off
+2002|Should we auto-reload from time to time?
+2003|Test virtual document provider API
+2004|Test quick pick enhancements
+2005|Fuzzy search sorting seems broken
+2006|Accessibility: Tab focus moves into hidden find widget
+2007|Make telemetry support available for debug adapters
+2008|Support 'EvaluateRequest' based data hovers
+2009|Support to update breakpoint status asynchronously
+2010|No replace widget in untitled new files
+2011|[php] heredocs not colored
+2012|Support to drag the debug hover inspector
+2013|Hovering over a conditional breakpoint in the gutter should show a tooltip with the conditional expression
+2014|Consider distinguishing between conditional breakpoints and regular breakpoints in the breakpoints pane
+2015|Support syntax highlighting when user enters the expression for a conditional breakpoint
+2016|Communicate when there are unsaved changes in the conditional breakpoint expression editor
+2017|Trouble with scripts\npm.bat: it calls itself
+2018|call ConfigurationDoneRequest only if debug adapter supports this
+2019|De-indenting does not update visible workspace position to show cursor
+2020|Code crashes / slows down after a period of time
+2021|losing new breakpoints and current launch-configs on auto updating VS Code
+2022|show full path when source is not available
+2023|Suggest widget stalls typing
+2024|support to validate user input
+2025|"php ""here doc"" not getting highlighted"
+2026|Integrate tslint
+2027|Commands: inconsistent matching
+2028|Error when using plugin.
+2029|move find widget's match counter to a better spot
+2030|1080P Dysplay Improvement
+2031|Document the vscode-languageserver-node modules
+2032|Customisable double click-select behaviour
+2033|[html] completions for src, link, href...
+2034|VSCode crashes every night
+2035|Theme picker no longer applies theme while navigating through list
+2036|Debug: viewlet should implement focus() method
+2037|Localize Code
+2038|Implement a horizontal panel for the workbench
+2039|Font becomes blurry after a certain amount of tab indentations
+2040|Auto format as you type!
+2041|Custom Language IntelliSense and Go to Symbol
+2042|Completion does not work with instanceof operator (typescript)
+2043|Warnings disappear when opening files from the Error and Warnings quick box
+2044|Git Commit trying to spawn ssh?
+2045|Typescript type definition files not picked up from scoped npm packages. Cannot handle @ in paths
+2046|Git authentication
+2047|VSCode icon on OS X is not transparent
+2048|Feature request: Code hinting/Intellisense for custom angularJS modules
+2049|Sort extensions by install count rather than alphabetically.
+2050|NONE of the code features work in ES6 projects for language type: Javascript
+2051|Language: Javascript vs Language: Javascript React breaks context menu
+2052|No intellisense for Javascript projects
+2053|Can't open this git resource.
+2054|Document how to write a grammar or theme.
+2055|Providing a code action for diagnostic which also has quick fix options doesn't work
+2056|What's happened with c-sharp language service?
+2057|"After click ""Open Folder"", the dialog coming 10s later, when my last folder is Samba and not exist."
+2058|C# Language Extension missing?!
+2059|ubuntu 14.04 c# intellisense
+2060|Fix connecting to debugAdapter by port when offline
+2061|saving file shows `Error: Error: spawn EACCES`
+2062|whole line selection on word-wrapped documents
+2063|Is there any event called when a you Open Projects/Folders in Code?
+2064|[Bug] Replace with characters like 'É'
+2065|Backspace deletes incomplete surrogate pair
+2066|bug in JS highlighting multiline string
+2067|Treat surrogate pairs as one character
+2068|VS Code - Info: Resolve Dependancies Fails if User Path contains a SPACE
+2069|vertical or Box select
+2070|how to install c# plugin for vscode?
+2071|Duplicate selection action/shortcut
+2072|TypeScript coloring off in this case
+2073|Support and indicate keyboard focus on elements
+2074|Rename widget isn't focused when out of view
+2075|html preview part and command
+2076|Models getting disposed randomly
+2077|Hover sometimes shows nice colors and sometimes not
+2078|Restore contents of quick open when reopening quick open after closing
+2079|after removing mono-debug from VSCode help users to install from the marketplace
+2080|CodeLens exception when editor input changes
+2081|Visualize full-width space character (render whitespace in selection)
+2082|launch.json preLaunchTask
+2083|Hover should protect itself against huge data
+2084|double JSON.stringify/parse when talking to extension host process
+2085|no snippets in comments
+2086|no snippets in comments
+2087|Ctrl-Up and Ctrl-Down don't advance cursor when hits page limit
+2088|Typescript: import autocomplete fills in function arguments
+2089|"""Add Function Breakpoint"" shows as disabled, but can be clicked"
+2090|Expose the state of the system on core crashes
+2091|VS Code restores original window position when opening files in a docked position.
+2092|vscode-eslint not fully uninstalled
+2093|Search for newline character (\n) in regex mode
+2094|tslint module is missing?
+2095|Test html preview command
+2096|Cannot read property 'length' of null
+2097|snippets show 'undefined' in suggestion details
+2098|Adopt tslint in our development
+2099|Attach launch configs should support to automatically re-attach
+2100|Watch task should execute automatically on workspace open

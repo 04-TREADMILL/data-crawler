@@ -1,0 +1,100 @@
+10301|I agree with your reasoning however sometimes it the debugger adapter does not know when is a good time to reapply breakpoints. @weinand can provide more details.  Also the react people really want this feature, so we will for sure not remove it. We can make it more hidden by removing it from the viewlet and keeping it as a global workbench action @weinand opinions?
+10302|"e.g.:  ``` |   /* Just some text a+= 3 +5-3 */   |/* Just some text a+= 3 +5-3 */   | Just some text a+= 3 +5-3 */   | some text a+= 3 +5-3 */   | text a+= 3 +5-3 */   | a+= 3 +5-3 */   |+= 3 +5-3 */   | 3 +5-3 */   | +5-3 */   |5-3 */   |-3 */   |3 */   | */   |   ```"
+10303|Absolutely, I find it ugly as hell.
+10304|ping @isidorn
+10305|"@alexandrudima console.log is not a global function, so it is not supported by node. Global functions are something like ""setTimeout"" or this:  ``` // global function foo = function(n) {     return n; } ```  The problem is, that the debugger UI does not seem to show errors for function breakpoint."
+10306|Ahhh got it. That actually makes good sense.
+10307|@Tyriar Can you please get the workbench in the same state as you had (the tab order is dependent on what you have opened) and open the developer tools and run this snippet:  ``` javascript setInterval(function() { console.log(document.activeElement); }, 1000); ```  This will print every second the DOM element where the focus is. We then need to figure out who owns that elements and why there's no focus indication on it.
+10308|![image](https://cloud.githubusercontent.com/assets/22350/13280331/a3bda810-dadd-11e5-953a-9e0d944dd938.png)  I can't reproduce.  What do you get when running `git branch -a` from the command line?
+10309|ok, sorry my bad, would be nice to get a warning or something
+10310|"``` json {     ""exclude"": [         ""tmp"", ""node_modules""      ],      ""compilerOptions"": {         ""target"": ""ES6"",         ""module"": ""commonjs""     } } ```"
+10311|"``` | +5-3 */ |5-3 */ ```  This is not right. It's the same as the example provided by @DickvdBrink. It should not remove the `+`."
+10312|"@alexandrudima I just debugged this and the problem with ""console.log"" is that it is a native function. The debug adapter returns this error nicely, but it is not shown in the UI:  ![2016-02-24 10-19-32](https://cloud.githubusercontent.com/assets/1898161/13280806/666c586e-dae0-11e5-9b1d-1db82f94ebb3.png)  @isidorn we need to find a way to show these errors in the breakpoint viewlet."
+10313|But now, with the previous comment, I am confused. So I can set a function breakpoint for `setTimeout` (which is a native function), but not for `console.log` which is also a native function? I would expect in case of native functions the program to stop at the call site.
+10314|We now use the same grammar for js and jsx (both using js in the scope names)
+10315|We could get rid of this in the UI if we would call it on every stopped event. This would slow down stepping.
+10316|duplicate of #3388
+10317|Agree, dup of #1029 Will look into it next milestone probably
+10318|"@glen-84 The difference is 1 whitespace vs >1 whitespace.  There is only 1 whitespace in this case:  ``` | +5-3 */ ```  and >1 whitespace in this case:  ``` |   /* ... ```"
+10319|@vprasanth, no. @anseki seems to not have a `default` alias in nvm. You are maybe in the same position. You should run `nvm alias default node` to set up a default. It should work then.
+10320|This looks even worse now.  ![image](https://cloud.githubusercontent.com/assets/22350/13281058/dddaf4e0-dae1-11e5-9693-97a1ba767c96.png)
+10321|This is not fixed.  ![image](https://cloud.githubusercontent.com/assets/22350/13281102/1d6d644e-dae2-11e5-8e0a-a248507069bd.png)
+10322|If you compare breakpoints to watch expressions, I find it nice that there is no refresh button on the watch expressions (the debugger knows when it's a good time to re-evaluate them).  Maybe the debugger could keep a list of function breakpoints it could not apply and every chance it gets it tries to reapply the function breakpoints until they were applied successfully. Or perhaps report it to the UI on every pause that this function breakpoint is not active, is active, etc.
+10323|@bgashler1 either push your changes to our master branch or don't close your items
+10324|@bgashler1 I just noticed you keep your changes in your own fork of the repository... Either push them to our master branch or don't close your issues...
+10325|I can't verify since you didn't push your changes to our master branch.
+10326|@alexandrudima setTimeout is not a a native function:  ![2016-02-24 10-30-42](https://cloud.githubusercontent.com/assets/1898161/13281042/c0a67692-dae1-11e5-92f8-260e5a1ef2d4.png)  It lives in timers.js.  Node behaves like this (even if this does not match our expectation). Node's function breakpoints are weak, but since we have no other debug adapter that implements that part of the protocol, we can only test it with node-debug.
+10327|@seanmcbreen   I think a ruler at 20 should help me keep my lines <=20 characters, therefore its positioning after the specified column.
+10328|@alexandrudima,  I understand that, but it doesn't follow the behaviour of other editors like VS and Programmer's Notepad, and is not really intuitive IMHO.  Edit: And Eclipse as well.
+10329|Push the code, or don't close the issue.
+10330|@gamtiq I actually prefer how it works now. When I use the zoom keys it's only for a temporary reason so I'm happy that it resets after I close vscode. Is there a particular reason why using the `window.zoomLevel` setting isn't convenient?
+10331|"The editor is trapping <kbd>Tab</kbd> by default. This means that when inside an editor, by default, pressing the <kbd>Tab</kbd> key will not move focus and will insert a tab character or spaces for indentation. This is OK, as <kbd>Tab</kbd> is used a lot while coding.  However, we must have a way to escape the <kbd>Tab</kbd> trap and move focus to the next element in the focus ring. To do so, you can press <kbd>Ctrl</kbd>+<kbd>M</kbd> which now toggles this specific editor that it no longer traps <kbd>Tab</kbd>. Think of it similar to ""insert/overwrite"" mode (which we don't yet support, but which would have a similar status bar behaviour)."
+10332|@bgashler1 Looks good! But, the icons need to scale with bigger and smaller fonts. I created #3390
+10333|@alexandrudima for structured objects, we do not know whether it has properties without fetching them (the v8debugger protocol does not provide a mechanism for retrieving the number of properties independently from fetching them all). Fetching all properties all the time just to learn whether a twistie is required or not can be very expensive if the object is large (e.g. an array).  This strategy is consistent with the VS Code navigator: it shows a twistie for folders even if the folder is empty.
+10334|Good catch
+10335|"Here is VS:  ``` |   /* Just    some text a+= 3 +5-3 */   |/* Just    some text a+= 3 +5-3 */   |Just    some text a+= 3 +5-3 */   |some text a+= 3 +5-3 */   |text a+= 3 +5-3 */   |a+= 3 +5-3 */   |+= 3 +5-3 */   |3 +5-3 */   |+5-3 */   |5-3 */   |-3 */   |3 */   |*/   ```"
+10336|Same for breakpoints. Looks like Visual Studio also doesn't grow the breakpoint and folding icons with the font size. Users can always use the Zoom feature, which zooms everything.
+10337|@glen-84 I admittedly haven't tried it yet, but I think it makes sense... there's no reason to use use `ctrl+del` or `ctrl+bksp` unless you want to remove more than one character at a time. And if you're holding them down or repeatedly pressing them you probably won't even notice because you just repeat the action until you have the result you want (in other words, you don't count the number of times you press it).  I'll try it out tomorrow, but this is my initial thoughts on it...
+10338|I removed the code that grows the folding icon gutter by font size to avoid the clipping that can bee seen in the second screenshot. We can add that again if we decide to grow the icons along with the font size
+10339|I personally don't have a strong feeling about it, we can go and do what VS does, which in a way is nicer as it always deletes until the beginning of a word (not until the end of a word).
+10340|You're correct, we do the same in the explorer, which I also find weird :). I guess I don't deal with empty folders often. Check this one out:  No twisties next to unexpandable folders (folders without subfolders)  ![image](https://cloud.githubusercontent.com/assets/5047891/13282339/d2d996f8-dae8-11e5-9cde-01e653b3af9b.png)
+10341|@ctlajoie It's just easier to work with, as you don't want to have to count the spaces and then use a different key combination depending on how many there are, to avoid deleting too many characters.  @alexandrudima Yes, other editors have the same behaviour, and it's more intuitive for the key combination to perform one logical action, instead of varying it.
+10342|oh, ok, sorry my bad again.
+10343|@alexandrudima The way VS does it isn't necessarily better if you want to delete a word to replace it with another word. ~~If the new implementation isn't to everyone's liking, I would suggest doing what Sublime Text does... which is the same as your new implementation minus the 1 whitespace caveat.~~ Nevermind... that is not what ST does.
+10344|`configuration` seems to use the `storage.type` scope, which is a bit of a complicated case. Some grammars use that for type references, other for keywords like 'var'. Our default themes color it with the 'type' color which is turquise in the dark+/light+ and regular background color in the dark VS/light VS themes.  I have to read more on what's the expected use of `storage.type` and might change it in te future to a keyword color. But if you want to move foreard, better use a scope like `keyword'.
+10345|Experiencing the same with Node.js & babel require hook. Not all values are undefined though.
+10346|@peterbourgon I am sorry for the bad behaviour. We currently don't have per-file type settings, but there is something great that we work with: `.editorconfig`.  http://editorconfig.org/  And the VSCode extension:  https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+10347|More detailed testing steps would be appreciated. Also, I have no idea how to setup and test a Portuguese translation...
+10348|Oh, ok, I almost never use those behind `Ctrl+K ...` and looks like they need some love.  Those are useful if you don't want to toggle, but really force insertion / removal:  This is what I mean. `Ctrl+/`: ![toggle](https://cloud.githubusercontent.com/assets/5047891/13282980/e0979bd4-daeb-11e5-9c7e-75786366d07d.gif)  `Ctrl+K Ctrl+U`: ![remove](https://cloud.githubusercontent.com/assets/5047891/13283001/fbc989a8-daeb-11e5-8fad-3637650c0f58.gif)
+10349|Setting as an enhancement as IMO what we have now is consistent in that what's folded are all indented lines. The folding strategy is not language aware, e.g. doesn't know that it's folding a comment. It just happens that Javadoc comment styles indent every line after the first with a space.
+10350|"@joaomoreno we do not have any translations other than the pseudo translation. If we had, you could test Portuguese by launching code with ""--locale=pt_PT"" or ""--locale=pt_BR""."
+10351|Yes, as designed, but maybe the design can be improved :-)
+10352|That just makes the label longer.. @chrisdias Chris, what do you think?
+10353|Isn't each extension supposed to ship its own translations files? If so, how can I set up a Portuguese file?
+10354|@joaomoreno the process (i.e. tools) that produces these files is not yet ready (https://github.com/Microsoft/vscode-nls-dev). The default package.nls.json I've created manually. I assume that you can make a Portuguese clone of it but we would have to reverse engineer the name of that file from the source in vscode-nls-dev. For the other nls files it is even more complex to manually doing it because the keys that you pass to localize() are converted into sequential numbers...
+10355|I don't believe that this has come up during any of our interviews or studies and I don't recall any feedback from elsewhere on this but I do agree that we can do more to make the initial experience smoother. For example, we are doing some work on first launch to encourage more people to go to our web site and hopefully read our docs so that they can get acquainted with VS Code more easily. I would rather wait and see how that pans out before we start adding more UI and more commands to the product. I will keep this issue open so that I am reminded to come back to this once we have more data.
+10356|Actually there is no particular reason besides that is necessary to change the setting (and a user should know about `window.zoomLevel` setting which he can miss as I did). Moreover the setting's description in [User and Workspace Settings](https://code.visualstudio.com/Docs/customization/userandworkspace#_default-settings) is not clear (at least for me).  Should the `zoomLevel` be integer value? Is fractional value possible? Which are minimal and maximum boundaries? There is no evidence from documentation.  Maybe it is worth to add a setting that would regulate ability to save and restore zoom level between work sessions.
+10357|Every core is 100%
+10358|Here is a screenshot: ![image](https://cloud.githubusercontent.com/assets/5312607/13285567/b3f67766-dafb-11e5-9f99-e4309a27c55f.png)
+10359|Right, you only have the `chartjs-2.0` and `master` branches. Those surely appear in the list?  We don't show the remote branches in the dropdown. We could do that.
+10360|We don't have such information in the gallery, unfortunately.
+10361|Got it
+10362|Thanks for the comment. No need to apologize. An extension like that is probably inappropriate to use for Go, as in Go there is nothing to configure: the language strictly defines valid code format rules, including but not limited to tabs for indentation.
+10363|After discussing with Andre we agreed on 'Open launch.json' since that is readable and makes it clear to the user what is going  to happen.
+10364|Actually dupe of #2300 I set that one to feb so we can discuss it in our bug triage
+10365|Fixed by a commit in node debug
+10366|@joaomoreno  whoops ... I totally forgot that I'd already mentioned the node keyword in that one. Total oversight. Sorry.
+10367|Done in 9d64fe7 9c5cefb 856fb0b
+10368|@joaomoreno Can you add a screenshot?
+10369|Ah, now I get it, so depending on the cursor position, you want the folding icons be always visible for the folding regions that cover that position?
+10370|Opinions/preferenes @weinand and @joaomoreno?
+10371|@egamma users not interested in JavaScript might be confused by the combination. I suggest to introduce a separate action.
+10372|Suggest to move this to March, I want to clean up the suggest model.
+10373|@weinand yes, a separate action is cleaner for users that only use TypeScript or JavaScript, but then there are users that use a hybrid TypeScript/JavaScript setup. This is supported and one of the goals of Salsa. In this case this can  mislead users that TS and JS are separate projects.
+10374|:+1:
+10375|Which user group is larger?
+10376|duplicate of #3349
+10377|Unfortunately I can't do exactly this since at the point I require it I don't know whether the shortcut will be called `code`, `code-alpha` or `code-insiders`.  I will name the action `Install 'code' command in PATH` and simply inform the user that it is in fact `code-alpha` after it has been installed.  @bpasero The reason for this lies on the need to provide the label to the `SyncActionDescriptor` constructor. At that time, I don't know the name of the shortcut, since I get it from the context service.
+10378|@joaomoreno sounds good!
+10379|@bgashler1 Assigning to you, Brad, to make a decision. If you like the suggestion, feel free to add, or assign back to me.
+10380|duplicate of https://github.com/Microsoft/vscode/issues/2967
+10381|Actually, this was intentional, we did not want to change the selected theme behind the user's back. Consider users that like the less colorful theme, they would not appreciate if we upgrade them automatically.  However, given this issue I wonder whether we should provide some more active guidance to users to upgrade to the '+' theme (they obviously do not read the release notes :disappointed:).  One idea would be a 'once message' (shown only once) to a user that uses the Dark, Light theme that there now is a Dark+/Light+. The message could provide a command to change the theme to the corresponding '+' one.
+10382|duplicate of #3403
+10383|duplicate of #3398
+10384|Since I'm neither a keyboard nor a Windows user, it is incredibly difficult for me to test this since I had to lookup and map almost every keyboard shortcut (and this on a Swiss-German keyboard!). So I did not find any new issues but now I'm even more impressed that some user are able to use this...
+10385|> Which user group is larger?  JavaScript only is the largest group, so let's go with two separate actions.
+10386|It's not correct though as I believe the language was forked for .Net and it adopted that name.
+10387|What's about these two:  - `Reload JavaScript Project' - `Reload TypeScript/JavaScript Project'  instead of: - `Reload JavaScript Project' - `Reload TypeScript Project'
+10388|"In File explorer:   Tools > Folder Options > View >   Disable ""Hide extentions for know file types"" in the scroll section"
+10389|This would cover both scenarios. Only concern is when I type 'JavaScript' into the quick box then the filtering returns both commands and as a user I wonder what is the difference between those two.
+10390|Having this capability would unblock PowerShell Script Analyzer identifying a Warning for new scripts authored using VSCode.  [Use BOM For Unicode Encoded File](https://github.com/PowerShell/PSScriptAnalyzer/blob/development/Rules/UseBOMForUnicodeEncodedFile.cs)
+10391|@egamma good point. So then let's go with: - `Reload JavaScript Project' - `Reload TypeScript Project'
+10392|@aeschli Thanks for the analysis. I'm not sure why the `storage.type` was used, because I don't understand custom grammar authorship for Visual Studio Code at this time. I could go ahead and update it to `keyword`, but unfortunately I don't understand the potentially negative implications of doing so. Any thoughts on what that could affect?  @egamma Good idea to mention this in the release notes, somehow. _In fact, I didn't even realize that release notes were available. Normally I love reading them._ Perhaps we could do something to encourage reading release notes, like showing them in the editor after an upgrade or new installation of VS Code?
+10393|Looks good!  @bgashler1 any reason for the `+` background not being transparent like `-`?
+10394|sold :smile:
+10395|@bgashler1 @stevencl any recommendations?
+10396|@joaomoreno Just pushed all the code to master from my fork for all issues you reopened.
+10397|"> Disable ""Hide extentions for know file types"" in the scroll section  That's already disabled. I'm referring to the label that appears in the ""Type"" column when viewing a folder in the Details view."
+10398|To implement that, we would need to have knowledge of the sources language and understand that `}` is closing a folding region but does not open one. Without knowing that we would also create a folding region from line 3 to line 5. ![image](https://cloud.githubusercontent.com/assets/2193314/13258746/4bf18806-da09-11e5-9882-18b4dea62383.png)
+10399|@SofianHn if you look at the stack trace, I merely show a warning using the message service. Why is this showing up in our telemetry?
+10400|To implement this we need to know more about the underlying language. Does a definition end with the last non-whitespace line, or with a line of the same indent. The current implementation is tuned for the JavaScript case:  ``` javascript function alwaysNull() {   return 0;  } ```

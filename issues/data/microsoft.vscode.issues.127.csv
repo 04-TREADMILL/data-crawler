@@ -1,0 +1,100 @@
+12601|Java: toString is not... auto completed
+12602|javascript,typescript template string HTML,CSS etc... color,Supplementation(I can't write English.)
+12603|typescript decorator not color
+12604|Add option to pin tabs similar to Visual Studio
+12605|Sometimes the 'scroll' class is not removed from tabs container after dropping
+12606|search.exclude stopped working!
+12607|Show full path in Title Bar
+12608|Mouse wheel scroll not working when mouse is not moved
+12609|Changes to the problemMatcher only recognized after restart
+12610|Inline the toolbar for macOS
+12611|Braces, Parens, Brackets do not autocomplete in HTML when next to an opening or closing tag.
+12612|VSCode should reopen when machine rebooted for updates
+12613|Allow to switch workspaces from the explorer
+12614|Jump IntelliSense
+12615|Test: TypeScript 2.0.3 upgrade
+12616|FiraCode ligatures dissappeared with a recent update.
+12617|Error: invalid marker service state
+12618|Visual Studio Code only runs from Administrator command prompt
+12619|Touchpad scrolling doesn't work
+12620|Feature request - Icon set - PowerShell icons
+12621|Test format on save
+12622|Test onWillSaveTextDocument event
+12623|style of href in <a> tag
+12624|Not possible to have SyncActionDescriptor with an Action constructor with more arguments
+12625|Test: panels in sidebar
+12626|Add support for side-by-side diff between branches
+12627|Change the default shortcut of Search history navigation to up and down arrows
+12628|Debugger not working
+12629|Test: Install a set of extensions
+12630|TerminalPanel focus() does not get called when terminal panel first shown
+12631|Test: Extension installation dependencies
+12632|Test: cache objects between main and ext host
+12633|Enh req: Need to be able to specify a scope which is not expensive but should be hoverable
+12634|Test: Improved Markdown grammar
+12635|Test: Setting for relative line numbers
+12636|Test: Go - support ongoing maintenance
+12637|Extremely slow services in the presence of `paths` option
+12638|Some unknown extension freezes VS Code on startup
+12639|Test: Inform user about TS 2.0 in the product
+12640|Test extension engine compatibility
+12641|Test: Inform users that they are running a patched version
+12642|Only absolute urls are supported
+12643|background extension is not uninstallable
+12644|Feature flag/setting for Panels in Activity Bar buttons UI
+12645|Terminal crashes on startup
+12646|Debugging node w/ source maps in linked code in node_modules doesn't work
+12647|Reconcile file changes between restarts
+12648|'osx' is used as the name for the Mac platform settings, should we consider using 'mac' or 'macos'
+12649|String autocomplete issue with dots
+12650|Expose API to know current theme (light/dark)?
+12651|Use Workspace Typescript causes settings to be ill-formatted
+12652|Test: Yeoman vscode extension generator
+12653|Find in (root) Folder does not work
+12654|Can we get this request off the startup path, pretty pretty please
+12655|Can highlight line numbers by right clicking
+12656|Code info not visible when it's on the top of the window
+12657|Too hard to tell which extension is giving errors/warnings/info messages in the Problems window
+12658|Support Other Markdown Variants
+12659|Application crash upon removing emoji
+12660|Setting description with \n characters breaks highlighting
+12661|Settings API doesn't work if no .vscode folder exists
+12662|Test: TypeScript version selector
+12663|Cannot install tools such as goreturns, golint, guru, gorename
+12664|Toggle Integrated Terminal keyboard shortcut not working (backtick vs single apostrophe)
+12665|Cannot read property 'hasOwnProperty' of null
+12666|Cannot read property 'length' of null
+12667|Test: New terminal commands
+12668|Test: workbench.action.focusActiveEditorGroup Command
+12669|Cannot read property 'length' of null
+12670|Cannot read property 'start' of undefined
+12671|Cannot read property 'document' of undefined
+12672|Cannot read property 'startLineNumber' of null
+12673|Test: Monarch tokenizers for html, php, razor and handlebars
+12674|Markdown Incorrect Highlighting When Html starts with Comment
+12675|Cant drag select upwards in console
+12676|File details gets stripped out of call stack in Linux and Mac while logging error telemetry
+12677|Cannot read property 'dispose' of null
+12678|Improve Markdown Html Block Colorization
+12679|Cannot read property 'getItem' of undefined
+12680|Log changed user settings keys
+12681|Cannot read property 'child' of undefined
+12682|Cannot read property 'configuration' of null
+12683|Cannot read property 'startLineNumber' of undefined
+12684|Assertion failed (item already registered:
+12685|Allow to install more then one extensions and enable all together
+12686|Bgashler1/watermark tweeks
+12687|javacript code formatting not working after typescript v2.x update
+12688|auto refrsh task output should refresh the main screen too
+12689|Cannot read property 'body' of null
+12690|"Remove extraneous ""..."" that breaks gulpfile"
+12691|Cannot read property 'toCustomLabel' of undefined
+12692|Ability to disable extensions
+12693|The scrollbar of integrated terminal disappear
+12694|Patched bits: issue reporting should mention it
+12695|Investigate to update to Electron 1.3.7
+12696|LineNumber config variable in launch.json and tasks.json
+12697|"Shortcut, Shortcut Tooltip for ""Replace Next"" ""Replace All """
+12698|Improve letterpress shortcuts
+12699|build with electron 1.3.7
+12700|Drag selected text to move it

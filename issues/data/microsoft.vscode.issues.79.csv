@@ -1,0 +1,100 @@
+7801|Test setting variable values
+7802|Bad extensions rankings
+7803|[js] syntax highlighting: Regular expressions are hard to read
+7804|Test draggable debug toolbar
+7805|Add a link to the settings description from the default settings.json
+7806|Integrated terminal scrolling not working in oh-my-zsh
+7807|Folding actions have no effect in read-only editor
+7808|Settings - The Default settings should be folded to level 2 when first opened
+7809|when i do alt-sht-f to format code it adds a semicolon to places with a starting parentheses and a starting curly bracket!!
+7810|VS Code incessantly invokes an OpenSSH dialog
+7811|Conflict detected, command `cursorWordStartLeft` cannot be triggered by alt+left due to editor.action.moveCarretLeftAction
+7812|"Expose command for ""Switch to Inline View"""
+7813|When resizing tab width smaller, Find window truncated.
+7814|Only Render Whitespace on Selection
+7815|Tabs Not Showing in Insiders Build (June 17th Build)
+7816|Prevent goto definition when trying to copy
+7817|How do I debug vscode itself?
+7818|Git submodule support
+7819|Git commit message templates
+7820|jsonschema $ref not loading relative URL
+7821|Markdown extension: Needs to contribute markdown.style configuration option
+7822|First level allOf contributions in package.json should be handled as top level contributions
+7823|Move terminal process related code to node/
+7824|Using for as a prefix for snippets, does not allow comments to be included
+7825|Breakpoints don't work on imported TypeScript modules
+7826|Peek Definition doesn't show up when right-clicking
+7827|Formating code is not working
+7828|Sometimes SVG icons do not show up on Windows 7
+7829|Save yourself time and do not use vscode with OSX & Unity.
+7830|rhel 7.2: after upgrade to 1.2.1 symlink: `/usr/bin/code` not present
+7831|search for extensions via command line
+7832|vscode reports a wrong typescript error and there's no way to ignore it .
+7833|Debug toolbar: Can be dragged a bit out of the window
+7834|Debug toolbar: Grab cursor too early
+7835|[Update] cannot update: the setup files are corrupted
+7836|Allow custom object types in JSDoc
+7837|"""Opened Editors"" view: can collapse groups using keyboard"
+7838|String interpolation confounds text coloring
+7839|Integrated terminal: execvp(3): failed. No such file or directory
+7840|Is JavaScript IntelliSense forever gone?
+7841|Drag and Drop editors and tabs
+7842|Install extensions from Marketplace in China
+7843|Tabs
+7844|follow link issue
+7845|Debugger + NodeJS + Error Stack + SourceMaps (TypeScript)
+7846|hotkey 'ctrl+c' invalid in outer terminal
+7847|[js] highlight break
+7848|Add 'vscode' as a keyword in the .desktop file
+7849|Support to use groups over position in IEditorGroupService
+7850|"""Unsaved"" label stays around in opened editors view"
+7851|No auto-suggest for React components' props interface
+7852|Allow to run multiple tasks concurrently
+7853|fix : Standalone Monaco text edit validation
+7854|Show/hide open editors and/or tabs
+7855|error from the extension host: spawn /usr/share/code/code (deleted) ENOENT
+7856|"docs(vscode.d.ts): fix typo (""a a"" --> ""a"")"
+7857|中文出现乱码了
+7858|c/c++ features request. pointer and function list.
+7859|find free port based on node-portfinder package
+7860|can not Markdown preview an image file that contains a space in the file name
+7861|"""zoom in"" vscode key mapping needs to be [Ctrl +] instead of [Ctrl =]"
+7862|Right-Click Context Menu No Longer Opens Files in Current Code.exe Window
+7863|Can't install dependencies with npm >= 3.9
+7864|Nested Launch Configurations
+7865|Allow to use Ctrl P/N for up and down navigation in quick open
+7866|Confusing message: No build tasks configured
+7867|"Regression: ES6 & TypeScript ""go to definition"" jumps to import"
+7868|could you write extensions for  bootstrap v4 ?
+7869|Keybinding conflicts 'cursorWordStartLeft', 'cursorWordEndRight' in console
+7870|Grunt autodetection fails if local grunt is not installed
+7871|Pressing <Tab> key adds tab to incorrect editor pane
+7872|1.3.0-insider breaks alt+left/right word skipping
+7873|Fix markdown issues
+7874|Diff tool will not identify tabs additions if there is any real code change
+7875|Tmux and integrated terminal
+7876|Support Emmet for Sass and Stylus
+7877|⌘⇧/ should focus `Help > Search`
+7878|Double click on empty header area should open a new tab
+7879|Tab context menu actions to open a new tab
+7880|Markdown preview doesn't apply transparency to linked transparent png image
+7881|Starting code from console emits what looks like debug information.
+7882|tweet feedback button - make it hideable
+7883|[php] syntax highlighting issue with strings
+7884|Variable view update on variable changes from the debugger console
+7885|Windows: F1 should open some kind of help and not command pallette
+7886|Install Extension fails: does not properly install node_modules into extension folder
+7887|Markdown preview no longer shows images
+7888|Right alt key does not work in terminal
+7889|Incorrect rendering of some ASCII in Terminal. Try F7
+7890|Monaco API: Standalone editor doesn't support markdown
+7891|Focus and scroll issues with built-in terminal window
+7892|"Reconsider using the term ""editor"" for files and views on files"
+7893|Why do we differentiate preview open files with italic font?
+7894|Allow configuring language explicitly
+7895|"Bogus ""Canceled"" error message when stopped debugging in certain scenarios"
+7896|No way to apply four slashes //// using shortcut
+7897|Multiple-Integrated-Terminal discoverability/usability issues
+7898|Emmet: support all the features
+7899|Question on Build and Run From Source instructions: Node version
+7900|Terminal lines appears to have margin

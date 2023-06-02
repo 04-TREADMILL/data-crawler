@@ -1,0 +1,100 @@
+15001|Terminal in a Window Tab
+15002|Why dont you add a shortkey for open folder?
+15003|heinous purple status bar when i do a clean install
+15004|no possibility to do a replace in selection only
+15005|Add a vertical ruler that follows the cursor
+15006|Add a setting to prompt before closing window
+15007|typescript word hightLight issue
+15008|HTML snippet will be chosen while typing CSS code in <style>
+15009|CSS Coloring issue
+15010|CSS mixin marked as error.
+15011|[html] closing tag intellisense always in lowercase
+15012|Question: Does vscode support multi-line statements while debugging?
+15013|Extension Icons are not visible in Extensions panel
+15014|Suggestion: Line selection Count
+15015|DVORAK keyboard support
+15016|Allow for floating and/or movable sidebar views
+15017|[themes] Latest update makes syntax highlighting too intensive
+15018|Format using custom keybinding no longer working
+15019|i686 dependencies on x86_64 machine
+15020|Emmet multiplication with multiple class names fails
+15021|Format Selection default to current line if no selection made
+15022|Gutter could not be themed
+15023|"""editor.renderWhitespace"": ""boundary"" does not work correctly"
+15024|"Hitting CTRL + S to save a file wont change ""dirty"" icon in the file TAB."
+15025|.gitignore file not visible in file explorer
+15026|Allow to shrink tabs instead of keeping a minimum width
+15027|Quotes
+15028|Cache release notes. Fixes #13257
+15029|JavaScript Syntax Highlight: RegExp literals improperly parsed
+15030|"Windows 10: Jump list no longer shows entries once you removed a single entry from ""Recent Folders"""
+15031|[css] provide class names as workspace symbols
+15032|Auto complete guided by remote ipython server
+15033|.jsbeautifyrc for default VSCode beautification
+15034|C++ 14 digit separators break C++ syntax highlighting.
+15035|SCSS no longer has single line comments
+15036|Add command to move cursor to within the visible area of the viewport
+15037|"createStatusbarItem can not run ""workbench.action.files.saveAll"" command"
+15038|Provide a function to change the color of status bar
+15039|space after constructor name breaks syntax JS highlight
+15040|Writing to `launch.json` via `WorkspaceConfiguration.update` doesn't format nicely
+15041|Cannot open file path in warning with spaces in path
+15042|How do I support new features added in Code 1.7 in my extension while still supporting users on Code 1.6?
+15043|Escape special characters like !,?,' ' in Terminal
+15044|Plugin feature request: new default setting value
+15045|Triggering actions.find causes active match to lose its highlight.
+15046|Incremental Replacement should not depend on focus. (No keybinding to replace current match.)
+15047|C# Debugger not working - Breakpoints won't trigger
+15048|files.trimTrailingWhitespace should not trim indentation in snippets.
+15049|Support piping text into the editor from the command line
+15050|JavaScript syntax highlighting for new expressions w/ white spaces
+15051|ctrl+1 and ctrl+2 do not change focus.
+15052|Performance drop on fullscreen with hardware acceleration enabled
+15053|Unable to find a .app or a .ipa to install
+15054|Enhancement - save anyway.
+15055|Portuguese Translation
+15056|Node debugger does not stop at breakpoints in CoffeeScript source file of Meteor app
+15057|Feature request for characters lower/upper.
+15058|global search can not search file of encoding utf-16 , it will ignore the file
+15059|Add compare/diff options to File explorer context menu
+15060|Custom window title
+15061|undefined is not a JavaScript/TypeScript keyword
+15062|Feature request
+15063|updatable git menu (feature request)
+15064|VS Code does not shrink the code view's horizontal scroller automatically
+15065|Unable to open folder from task list that contains spaces
+15066|C# references displayed incorrectly
+15067|Scrolling is not as smooth as it used to be
+15068|Context error in translation
+15069|Ability to create simple macros
+15070|Apt/Yum repositories for Linux users
+15071|Windows: task list not updated until doing a full restart
+15072|Code snippets and other suggestions stop working
+15073|npm install fails at `scripts\npm install`  step
+15074|Same, same but different completions
+15075|VSCode doesn't watch for tsconfig.json
+15076|Mac: allow for more custom title bar styles
+15077|November/December Iteration Plan
+15078|Console process (yarn install) runs slower then in native console
+15079|Extensions Not Working Behind Corporate Proxy
+15080|some times vscode save js file document confusion
+15081|Next terminal is not focused when a shell process dies on its own (then terminalFocus doesn't act as expected)
+15082|Display breakpoints in scrollbar
+15083|Save file slowdown and intellisense not working
+15084|Option to render proper scrollbar
+15085|Renaming symbol is broken
+15086|VSCode is horribly slow to start on Windows 7 Enterprise 64-bit
+15087|--jsx flag in .tsx files, weird behavior
+15088|html comments work wrong
+15089|External file watcher fails for editors that do atomic saves
+15090|SCM: Change the focus to the next file after staging a file
+15091|Network share issues
+15092|"Warning: ""Cannot validate the php file. The php program was not found...."""
+15093|Add a CLI option to switch to fullscreen or maximize new or existing window
+15094|This test delays test execution by 500ms
+15095|Render Markdown of JSDoc
+15096|Extra spaces being added to JS files on copy/paste
+15097|Using zsh theme for my terminal and I'm missing a font inconsolata for powerline
+15098|Opening a file should ignore casing if file already opened (Win, Mac)
+15099|Get Line Home with WordWrap
+15100|Side-by-Side diff - collapse missing lines, maintain vertical alignment

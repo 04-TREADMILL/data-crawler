@@ -1,0 +1,100 @@
+4301|Provide API to access the locale and ui language
+4302|Green light bulb feels out of style
+4303|Different cursor when moving over line numbers
+4304|"Unable to debug extension, warning message: ""Plugin host did not start in 10 seconds"""
+4305|Make addSelectionToNextFindMatch (ctrl+d) case-sensitive
+4306|tab-space-heuristics cannot figure out correct tab size if indentation level is 4 spaces but a tab is 8 spaces
+4307|Remove rewriting and project resolver code
+4308|trying to type a tab character over a sequence of spaces results in unexpected behaviour
+4309|Document edits from an extension and the Undo stack
+4310|View state of in-memory editors not preserved
+4311|URL encoding causes link to not work when ctrl + click
+4312|Typescript errors remain when running in watch mode
+4313|editor.setDecorations doesn't update the hover message
+4314|"[html] Typing ""<something.hidden"" in an HTML file will hide the entered text"
+4315|collapse
+4316|Intellisense parameter help popup reappears after dismissing it
+4317|Review if Behavior.TextFocus is really needed for EditorAction
+4318|Languages: Add `yield` keyword in PHP
+4319|Languages: Add `.php4` and `.php5` as extensions
+4320|Single quote in JSX breaks vscode code formatting
+4321|Starting VS Code got slower
+4322|Page Up / Page Down in Debug Console
+4323|"""Attach"" debug to a non existing port results in timeout but doesn't end debug session"
+4324|One scanner flags installer with malware on VirusTotal.com
+4325|[CSS] provide color picker
+4326|[js] No color to variables not in the same line as var
+4327|Add just-in-time tips to discover keyboard shortcuts and other techniques in context
+4328|Linter message is hiding under the debug action control.
+4329|When i update to the latest version intellisense doesn't download *.d.ts
+4330|Cannot create jsconfig.json file
+4331|Format Code doesn't work for an unsaved buffer
+4332|The high contrast theme has a serif font for the Output window
+4333|Should be able to search for extensions by creator
+4334|Debug Console should support find
+4335|#2500 and #2352 add focus indication to text editors / panels.
+4336|simplify task template creation, fixes #4196
+4337|[Node.js] Browser does not launch and missing set breakpoint
+4338|Syntax coloring in JSX changes when a destructured object preceding it in the same file is spread over more than one line.
+4339|[Debugging] Error message should match with the configuration property to help user to understand problem better.
+4340|Extension host crashes over night
+4341|Text selection bug in PowerShell editor for Edge browser
+4342|Conflicting default key binding
+4343|[C#] Intellisense for the common operations are not user friendly (or irrelevant) and not displaying in correct order.
+4344|[Node] Debugger is constructing invalid path when providing non-existing file or folder name in the launch.json
+4345|Matched quote/paren/brace/bracket deletion
+4346|ENOENT errors with file event avalanche
+4347|Screen reader: loosing cursor in Suggest widget
+4348|Screen reader: Alt+Cursor in Suggest Widget reads line two times
+4349|[Feature Request] Open Powershell as native console
+4350|"""Go to symbol ..."" does not behaves like before the 0.10 version"
+4351|[PHP] variable selection doesn't work (anymore)
+4352|[ruby] Update ruby grammar
+4353|Go To Next Error does not go to next error
+4354|Output Window is removing new lines
+4355|[Setup] Unable to Update Insiders
+4356|f# not shown in status bar
+4357|[VSCode Alpha] Freeze on startup
+4358|Leak: history service (back/forward) navigation is unbounded
+4359|Add auto detection of task to npm
+4360|FileEditorInput: Holds on to all inputs that got created until file is deleted
+4361|Java import colors hurt my eyes
+4362|Provide a command to delete the currently opened file
+4363|Improve wording of the missing activation event
+4364|Leak: quick open (files) leaks ActionBar and HiglightedLabel
+4365|JS intellisense doesnt work in HTML script tag
+4366|Wrong file icon when associating VS Code as default editor for an unknown file type
+4367|Feature Request: Ability to position multicursor via mousewheel
+4368|Fails to debug Node.js with Segmentation Fault:11 error
+4369|Cannot read property 'document' of undefined
+4370|Formatter option could be inferred from linter options
+4371|Creating multiple cursors by using Cmd-Option-Down arrow goes to the next visual line, not the next logical line
+4372|Switching to inline diff view gives bad scrollbar position
+4373|exception when installing extension locally
+4374|Debug: If debugging steps, stops, or restarts after a stopping event but before obtaining locals have finished, Loading graphic in the locals cannot be dismissed.
+4375|Markdown internal links within the page in preview mode are dead
+4376|[Themes] Predawn Markdown theme is all red text
+4377|[Themes] Should return to default theme to after uninstalling the current theme
+4378|"""Copy"" as in Copy/Paste works intermittently from editor screen"
+4379|Diff view becomes misaligned wordwrap is turned on
+4380|Failed to set Path Error
+4381|High-contrast theme should be default when OS is in High-Contrast Mode
+4382|Predawn theme not coloring functions properly
+4383|Is it possible to require optional extensions, or one of two extensions?
+4384|Make color and shape of error markers configurable
+4385|Should repeating code folding key board commands Ctrl+k, Ctrl+<number> unfold code?
+4386|[Extension][Ruby][Ruby-Linter] Ruby extensions are not displaying in the recommend extension list when opening ruby file or folder.
+4387|Can't do column selection with keyboard over Windows remote desktop
+4388|"[Extension] Getting message like : can't lint ""c:\.<xyz.rb"" file , after installing ruby-linter extension."
+4389|Copy Word in Cursor extension no longer working in 0.10.11
+4390|[Ruby] Unable to debug .rb file and getting debugger terminal error.
+4391|Inconsistent behavior when viewing extension README/License
+4392|cannot move focus between buttons on message bar with keyboard
+4393|Ignore node_modules/vscode/typings/node.d.ts and use one of my own
+4394|linux package names
+4395|Adding C/C++ extension to recommended list of plugins
+4396|Would you please add update notify for linux Editor?
+4397|Generated npm task list is invalid, missing comma in tasks array
+4398|#3769 fixes the light theme focus on buttons in message bar and viewlet
+4399|Remove the prompt for C# installation
+4400|os.homedir() is only supported in node >= 4

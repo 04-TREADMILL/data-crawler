@@ -1,0 +1,100 @@
+20801|JSDocs toolip not showing for classes
+20802|Performance Report
+20803|Update to latest C# TextMate grammar
+20804|Implementations Code Lens For TypeScript
+20805|Duplicate extension in search results
+20806|Quality of Life Suggestion: open files in the same window
+20807|GoToDefinition doesn't scroll to the top of the blue definition UI
+20808|Markdown Preview Suggestion
+20809|copy/paste with another theme
+20810|Word filter for debug console
+20811|[WelcomeUX] Missing modifier key notation in interactive editor playground (Korean)
+20812|support smooth scrolling and zooming with touch pad like edge browser
+20813|update Renderer to latest Renderer because RAM usage in version 56 is less than current version 53.0.2785.143.
+20814|Feature request: Incremental / emacs style search/find
+20815|[frature] expose api to run single file or project
+20816|[html] Line breaks in attributes break Format Document command
+20817|[git] Add extension api event for when a file is commit
+20818|Completions in watches
+20819|Improve Translation in Chinese
+20820|Markdown preview problem
+20821|"Open ""included file"" in php."
+20822|showTextDocument() should allow to set { pinned: false }
+20823|[Enhance]Minimap enhancement with some features!
+20824|Change all occurrences works for first 1000 entries only
+20825|Custom keybinding have different priority then default keybindings
+20826|VS Code spawn too many processes
+20827|Suggestion widget: Fix overflowing text problem (fixes #20679)
+20828|"The terminal process command ""C:\Windows\system32\cmd.exe"" failed to launch (exit code: 1)"
+20829|Language capabilities and URI schemas
+20830|Editor picker: Increase visible length and add close buttons
+20831|Quick FTP
+20832|Add 'Focus to terminal X' action
+20833|Squirrel automatically changes the bits while Code is running
+20834|Performing Azure: Login multiple times duplicates subscriptions in subs list.
+20835|IntelliSense duplicate method as property in completion and miss parameters
+20836|nvm
+20837|vscode.window.visibleTextEditors returns closed document
+20838|Problemas
+20839|API: provide a wrapper for electron `printToPdf` function
+20840|How to show suggestion every key input using provideCompletionItems?
+20841|"ERROR: Unable to start debugging. Unexpected CLRDBG output from command ""-exec-run""."
+20842|"""Rename Symbol"" in unsaved file"
+20843|use official solarized
+20844|Inline Comment Incorrectly Applied in JSX Attribute Properties
+20845|typescript
+20846|Don't update or ask to update file content if it is changed on file system
+20847|Theme: theme change no longer applied to settings
+20848|"Theme: default value for icon theme is ""null"""
+20849|"""files.associations"" does not recognize upper case letters and lower case letters"
+20850|[Ctrl+K R] doesn't open a containing folder, but opens a browser window
+20851|Implement #12910
+20852|Debug Batch (.bat) files
+20853|Create missing intermediate pathname components for new folders
+20854|Insiders build: installing any npm module fails
+20855|Working with spread array parameter
+20856|Compute word based suggestions from all open editors
+20857|Feature Request: Command to fast deploy to multiline Object and Function Params
+20858|Command palette fuzzy matching prioritizes caps matching over exact matches
+20859|[Feature Request] Undo branches
+20860|redirect input from file
+20861|All cursors should do the same thing when typing
+20862|Parameter types not colour-coded properly
+20863|Code - Insiders Helper stealing 100% CPU (and doesn't go away when closing Code)
+20864|[json] support format 'uri'
+20865|Automate yum repository install
+20866|Use official solarized themes
+20867|Test if git username and password are entered before pushing commit
+20868|Add negated inDebugMode context to fullscreen keybinding
+20869|Fix #20897
+20870|Terminal: Parent Folder relative path formatting issue in terminal
+20871|File models get disposed when contents change on disk
+20872|在过去 5 分钟内，TypeScript 语言服务意外中止了 5 次
+20873|Go to File... preview of currently highlighted file in drawer
+20874|I meet loop warning!
+20875|vscode format js code is not i want
+20876|Always alert 'Typescript' is error
+20877|Build fails due to resource missing (404)
+20878|connect ECONNREFUSED 191.238.172.191:443
+20879|Git: focus moves out of list when clicking into changes list
+20880|File search takes time to search
+20881|path.dirname is wrong for files in root
+20882|TerminalInstance: test warnings
+20883|[css] suggest class names that exist in other css files
+20884|[i18n] Fix ru locale
+20885|[i18n] 'Select icon theme' in RU locale has ugly translation
+20886|Extensions tab hangs forever
+20887|Instructions for debugging Code dev builds
+20888|Debug javascript angular-cli, breakpoints ignored
+20889|how open file with spaces in cli?
+20890|search counter doesn't update
+20891|Debugger clog icon does not exist
+20892|Warning pop-up screen scraper
+20893|"(settings) Multiple ""workbench"" categories"
+20894|Support for intelliSense in requirejs projects
+20895|启动速度太慢了
+20896|aaa
+20897|Debug configurations with the same name
+20898|Command sorting is wrong
+20899|Minimap: 2x1 font has too many irregularities
+20900|VSCode doesn't remember a previous session

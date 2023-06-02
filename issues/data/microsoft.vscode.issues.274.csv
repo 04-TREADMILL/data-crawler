@@ -1,0 +1,100 @@
+27301|Test: TSC Task Provider
+27302|[less] suggest class names from other .less files
+27303|Test: Webviews / Markdown Preview Preserve Scroll Position
+27304|Task Quick Open Sort Order
+27305|Expose autofocus configuration settings
+27306|Expose autofocus configuration settings
+27307|export XXX from '...XXX'  warning
+27308|Please support feature duplicate lines
+27309|The project name is lowercase after importing vscode into all uppercase
+27310|Addresses #26184 - use configuration for pinned default
+27311|Duplicate object key in settings.json
+27312|Blacklisting Extensions
+27313|Git diff can't open with Encoding
+27314|Files Opened Through Git Panel (Working Tree) Aren't In Temporary Editor
+27315|syntax highlighitng for HTML is wrong after adding meta viewport
+27316|Is it possible to keep window splitted without any editors on the one side?
+27317|New merge conflict compare title shows \u2194 instead of ⟷
+27318|Fixes #27364 - title showing \u2194 instead of ⟷
+27319|扩展主机意外终止。请重新加载窗口以恢复。
+27320|Being able to push multiple times at once
+27321|Scrolling Bug
+27322|"VS Code ""still"" won't open in xrdp session"
+27323|Wrong/no icons on folders and files in some cases
+27324|浏览器插件打开文件问题
+27325|[Feature Request] Toggle sidebar when double clicking on tab
+27326|Issue with syntax highlighting on .ts files
+27327|Slow startup warning
+27328|Allow Download extension's latest version or specific version from API and CLI
+27329|CTRL+C not working
+27330|Intellisense not working. no highlighting
+27331|Feature Request: Zero-latency Typing
+27332|TypeScript and contextually-dependent type definition packages
+27333|Long Text longer than 10000 letters wrapped with [...]
+27334|Debugging vanilla html page does not work.
+27335|macOS: custom titlebar double-click not consistent
+27336|Need a clarification regarding client area get in builder.ts
+27337|Home - My Visual Studio
+27338|Add option to use windows keymap on MacOS
+27339|Extra space showed in Terminal
+27340|Multi select should be case sensitive.
+27341|Rename symbol occasionally stalls forever (and language services seem to stop entirely)
+27342|Clearing console in node is not clearing it, instead dumping weird characters
+27343|Terminal kill does not kill
+27344|SERIOUS BUG: Node debug sometimes shows incorrect working directory
+27345|Wrong bulb actions
+27346|UX: align file names when renaming
+27347|Test snippet changes
+27348|Opened search adds extra-lines
+27349|Can't start a cucumber test in terminal
+27350|Improve Javascript intellisense type inference for cases where Object.assign(this, ...) is used with an object with known type information
+27351|'Press any key to close the terminal' should be visually more distinct
+27352|Separate the task provider name from the task name in the task API
+27353|Incremental search causes text overwrite in code editor
+27354|find.history.showPrevious/Next and search.history.showPrevious/Next should be available in the command palette
+27355|Settings search -- can't easily search your own settings
+27356|Go to implementation (and implementation code lens) are missing
+27357|Need an opinion on possible solutions when dealing with files not informing their content type in C++
+27358|Handle diff3-style merge correctly
+27359|Workspace settings not respected
+27360|Error message for terminal shortcuts
+27361|showTextDocument & vscode.diff always default to ViewColumn.One
+27362|Fixes #27408 - stops forcing column ONE as the default
+27363|Git: Allow Open File & Open Changes commands to support multi-select
+27364|Closes #27410 - support multi-select on open file/changes commands
+27365|Test: Find Widget no longer covers find results
+27366|Test: Find Widget is resizable
+27367|Hot exit should include undo history
+27368|May Endgame
+27369|Can't run node in integrated terminal
+27370|Travis build cannot test extension (missing lib of node-native-keymap)
+27371|Autocomplete from all files in project.
+27372|Wrongly guess encoding as Windows 1252 or ISO-8859-2
+27373|Disable typescript.referencesCodeLens.enabled and javascript.referencesCodeLens.enabled
+27374|"activationEvents: [""onContributedCommand""] shorthand for extension's own commands"
+27375|Extensions double click: Promise did not implement oncancel
+27376|Request: Open remote folder via SSH
+27377|Navigate forward -feature request
+27378|Extension contributing task
+27379|Add runner information to telemetry
+27380|Paths relative to some parent directory in task with problemMatcher
+27381|Unable to download VS Code Linux tarball archive
+27382|SCM: initialize git repository should use an icon
+27383|Test restructured welcome page
+27384|Test theming in the welcome page
+27385|Test: --skip-getting-started prevents from opening 'Getting Started' webpage
+27386|Test improved presentation of documentation in intellisense
+27387|--
+27388|Test VIM improvements
+27389|Ctrl+Backspace not working in search input
+27390|Context menu depends on file size
+27391|Correct translation: Change of 'Cut' in Brazilian Portuguese (pt-br)
+27392|do not delay variables request when stackframe changes
+27393|Quotemark for reference import
+27394|The format of powershell is wrong...
+27395|Invalid position of cursor when changing zoom level
+27396|Test: Terminal runner as default runner
+27397|Can't save files after running Meteor
+27398|Test: new theming colors
+27399|Zen Mode Freezed , now can't able to kill the process also
+27400|Bundle a task provider for package.json scripts

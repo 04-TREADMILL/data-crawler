@@ -1,0 +1,100 @@
+11901|Expose terminal process ID through API
+11902|files.associations
+11903|C++ Syntax Highlighting not handling multi-lines macros properly
+11904|Feature Request: File->Print
+11905|Can you add a new feature of formatting code, I can't format my codes,thx
+11906|Local history supported
+11907|Incorrect git comments
+11908|Function calls with function arguments tab-complete incorrectly
+11909|Integrated terminal starts cutting off first letter
+11910|Possible to bring up multiple dialogs on same dirty file when closing
+11911|"How to deal with error ""connect ECONNRESUDED"" when I don't have a internet connection"
+11912|Flaky test: onTitleChanged event is fired by the process on creation (Linux & OSX):
+11913|Cannot install extensions
+11914|Intelisesnse loading bug
+11915|Markdown preview no longer shows images with whitespace in path
+11916|Not consistent C++ code highlighting
+11917|"Question: Is it possible to ""merge"" completion provider results"
+11918|Workspace extension recommendations
+11919|Extension installation dependencies
+11920|Intellisense doesn't work on JavaScript file until I change language mode
+11921|No open several integrate onsole
+11922|Show CHANGELOG.md if present in an extension
+11923|Right click, Copy Full Path on file open in editor
+11924|Enable extensions to contribute actions to the editor tab context menu
+11925|Make Updating Extensions Easier
+11926|Have to press enter twice after typing out full completion
+11927|Tab click automatically changes tree view
+11928|"Using ' or "" in JSX crashes code formatting"
+11929|Allow debug adapter to list dynamic scripts in the file explorer
+11930|TS compiler to compile only changed files
+11931|TypeScript file indexer is not exposed to extension developers
+11932|Support text editing keybindings customization for quick open input
+11933|Bad syntax highlighting when using template strings in TypeScript
+11934|Small but annoying regression - credentials dialog opens every few minutes on OS X
+11935|'KeyboardEvent.keyIdentifier' is deprecated and will be removed in M54
+11936|intellisense in comments
+11937|Match whole word dosn't work in Chinese
+11938|Modify shortcuts of multiple-line edit
+11939|Formatting code no longer works
+11940|Format nested arrays
+11941|Formatting code inserts carriage returns
+11942|Make a pass over all places where we show paths and use white-space: pre
+11943|Adjust cursor position on new line or don't emit empty spaces
+11944|getPathLabel(): Cannot read property '1' of null
+11945|Code Helper high CPU usage on MacBook Pro 15
+11946|无法打开终端
+11947|Run python in terminal with path having spaces
+11948|A few suggestions to make this the best code editor ever!
+11949|Cannot move lines when find widget is open
+11950|Debug an already running task
+11951|Terminal - Cannot read property 'className' of undefined
+11952|Reorder Tab should show indicator as to where the tab goes
+11953|Integrated terminal panel can become unresponsive briefly when closing the last instance
+11954|Kill terminal command should focus new active terminal if one exists
+11955|Keyboard shortcut editor.action.selectHighlights selects only first 999 matches
+11956|Use new configuration write API for: file associations, auto save
+11957|[Proposal] Keyboard shortcut to duplicate a line
+11958|MarkerService and ProblemsView do not scale well and block UI thread
+11959|Display language identifier in Language Mode drop down
+11960|"Mistranslation of ""Open Editors"" in all locales"
+11961|Support dark theme in Gnome
+11962|Fix string 'rejected promise not handled with 1 second'
+11963|Request: option for find/nextMatchFindAction to search forward only, previousMatchFindAction to search backward only
+11964|Add shellArgs. Fix #10917
+11965|Open recent fsproj file results in window hanging
+11966|Extension Contributions Languages section should show language id
+11967|How to delete this issue?
+11968|The terminal hollow cursor shows when alt+tabbing twice despite focus still being on the terminal
+11969|Fix Markdown Preview Code in Header Font Size
+11970|Please tag v1.5.2
+11971|UX meeting agenda 14 September, 2016
+11972|Terminal refactor broke Terminal API in Insiders
+11973|cmd-shift-left/right triggers focusRightEditor warning
+11974|Update Markdown Preview on External File changes
+11975|Powershell Write-Host/Output/Warning/Debug problem
+11976|Cmd + P searching for a file doesn't work
+11977|Pressing Command + = doesn't increase the font size
+11978|.jsx Does not support the   shift + alt + f    format code
+11979|Keep dirty contents when renaming a dirty file or its parent
+11980|always noresponse  when i code for css
+11981|PHP command description out of date
+11982|Terminals created in the background by the API will not display/retain any output until the terminal panel is initialized
+11983|Prune find traversal with basename patterns
+11984|Error commands not found
+11985|show double File Icon Themes
+11986|Files and folders not showing in explorer tree
+11987|Emmet in template literals
+11988|Setting Cmder.exe as integrated shell still opens in separate window
+11989|Installer shows EULA garbled text
+11990|Uninstaller should have option to remove all data
+11991|Debug broken or changed?
+11992|Updater should delete /out/ folder
+11993|Extension marketplace caching issues
+11994|Add Changelog link in Insiders build that shows changes since last build
+11995|Explorer should not trim leading or trailing whitespaces
+11996|Double click to edit variables should select the text
+11997|Fix Perl POD comment syntax highlighting
+11998|black screen problem
+11999|Automaticly assign Tab name from file content
+12000|Support bundling extensions from Marketplace at build time

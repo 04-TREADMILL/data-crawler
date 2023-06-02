@@ -1,0 +1,100 @@
+19201|Integrated Shell does not match Shortcut keys in linux terminal-emulator
+19202|[WelcomeUX] Typo
+19203|Allow having more than 3 code windows open simultaneously
+19204|duplicate deprecation message for isWatching attribute
+19205|Editor drop-down not working in no-tabs mode
+19206|Typo in task info message
+19207|Emmet Expansion looses against completion proposals
+19208|Wording in tasks warning message
+19209|Emmet expansions: implicit tag names not expanding correctly
+19210|Typo in info message
+19211|Backspace triggering completion proposals can be confusing
+19212|Allow Visual Studio Code to run on Windows 10 Mobile in Continuum mode
+19213|Completion proposals stay after backspacing first character
+19214|Cannot terminate task when running using the regular task runner then switching to terminal runner
+19215|Tree rendering cheese
+19216|Terminating terminal task moves focus to output panel (and doesn't terminate)
+19217|User Snippets not showing up in quickSuggestions
+19218|[WelcomeUX] Welcome page - description is innacurate
+19219|Emmet Expansion CSS exit point should be at end of inserted property
+19220|[WelcomeUX] Welcome page - Interface overview is tough to see in some cases
+19221|Remove ctrl+k to clear keybinding on Linux
+19222|[WelcomeUX] Interactive Playground - keybinding design isn't great
+19223|Saving .vscode/task.json should always refresh task list
+19224|Task reuse of terminal is inconsistent
+19225|"Support workspace-relative ""emmet.extensionsPath"""
+19226|Changes to Emmet config files not picked up without reload
+19227|Git Diff Doesn't Show Changes in New Line Characters
+19228|Add JSON schemas for Emmet config files
+19229|Unwanted line breaks in debug console output
+19230|Allow to define custom keybindings for navigation in quick peek
+19231|"""emmet.syntaxProfiles"" setting does not overwrite all in syntaxProfiles.json"
+19232|VS Code cannot load extension with prerelease version if earlier, non-prerelease version is installed
+19233|Callback functions don't have the expected indentation
+19234|insertCursorAtEndOfEachLineSelected: Should not add cursor to last line if that line's selection is empty
+19235|Setting to control the terminal's buffer size
+19236|Terminal cursor doesn't change when in override / insert mode
+19237|No Launch Gear to create launch.json file when no workspace is open
+19238|Terminal should inherit fontFamily and fontSize from editor
+19239|Task execution could give focus to the terminal
+19240|Terminate task dialog doesn't terminate
+19241|Multiple debugging sessions when play button is hit multiple times while debugging single file without launch.json
+19242|Popup to chose environment shouldnt show up when file type is supported by debugger from an extension
+19243|[WelcomeUX] Whitelist workspace.welcome.enabled
+19244|Improve 'Press any key to close the terminal'
+19245|"""This workspace specifies executables"" message box should remember ""Do Not Trust Workspace"" selection"
+19246|Decorations offset horizontally after zooming in
+19247|"Why the ... at the end of ""Add Configuration"" ?"
+19248|Node related configuration snippets showing up in non Node environment
+19249|Task runner writes to output and terminal
+19250|"""terminal.integrated.scrollback"": 0 results in funny terminal behavior"
+19251|Merging of args of tasks
+19252|Quick fix inserts spaces instead of tabs (file is configured to use tabs)
+19253|Why show total # of settings or # of settings matched at all?
+19254|Formatting json file removes new line at the end and save adds it back
+19255|rename TypeImplementation Provider to Implementation Provider
+19256|Why isn't security.workspacesTrustedToSpecifyExecutables a string[]?
+19257|No debugging without launch.json file when using debugger from extension
+19258|"Linux: ""Open with Code"" doesn't work when a Code window is already open"
+19259|security.workspacesTrustedToSpecifyExecutables shows a warning message box registers an error problem
+19260|SCM doesn't persist diff view - inline vs side-by-side
+19261|Terminal not updating view correctly. Backspace not removing all characters on screen
+19262|SCSS differences in coloring
+19263|SCM 'Sync' and 'publish' commands should be disabled when there is no remote
+19264|Closing parenthesis dedents the line, but Format Document re-indents it
+19265|Linux: 'Git: pull' and 'Git: push' commands have no effect
+19266|JavaScript and TypeScript differences in coloring
+19267|Formatting broken while copying settings
+19268|inline debugging shows variable value even the line is not executed
+19269|Double Edit icons: one for click another for hover
+19270|inline debuging shows incomplete json parse result
+19271|inline debugging is showing result in other paths that the code doesn't go into
+19272|"""window.newWindowDimensions"": ""fullscreen"" opens with menubar visible"
+19273|"""window.newWindowDimensions"": ""inherit"" does not inherit fullscreen/zen mode"
+19274|How to open a new folder in the Extension Host window with window.openFoldersInNewWindow
+19275|launch.json is not created when pressing F5 for non-Node workspaces
+19276|Options for automatic indentation
+19277|improvements in autocomplete
+19278|Using up/down arrows should only be rate-limited when there is no keyup event
+19279|"href=""#"" Does not Work in markdown Previews"
+19280|Consider not updating the selection when holding arrow key up / down through search results
+19281|Skip Files not working after initial attempt at stepping into skipped code
+19282|Separate windows don't have enough border contrast when on top of each other in high contrast mode
+19283|Feature request: Search/replace preview should show differences
+19284|Document links not very high contrast in high contrast mode
+19285|Fix Typescript Quick Fix not using correct tab/spaces setting in TS 2.1.5
+19286|Search UI missing bottom input box border in high contrast mode
+19287|Should be able to use `..` in relative markdown workspace links
+19288|Relative path in adapterExecutableCommand
+19289|[WelcomeUX] Enable experiment
+19290|Enable opening relative markdown links from editor
+19291|Strange selection behavior in markdown editor
+19292|disable launch of VScode when installing with /verysilent
+19293|Triple clicking in the last line of settings file selects too much
+19294|Find In Files stalls in folder with 40000+ files, doesn't show results unless cancelled
+19295|Moving divider side-to-side in markdown preview sync is choppy
+19296|Consider choosing a different color for markdown preview highlight text
+19297|Markdown sync - Scroll location is obstructed when Find box is open
+19298|Debugging yeoman generator doesn't launch on Windows
+19299|Markdown Scroll Sync Should Map Fenced Code Blocks
+19300|Mocha debug launch config should use mocha in node_modules

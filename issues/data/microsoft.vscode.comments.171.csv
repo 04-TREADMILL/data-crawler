@@ -1,0 +1,100 @@
+17001|"i got it working on my mac... i corrected the python path in the bash file  ``` open -e /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code #!/usr/bin/env bash # # Copyright (c) Microsoft Corporation. All rights reserved. # Licensed under the MIT License. See License.txt in the project root for license information.  function realpath() { **/usr/bin/python** -c ""import os,sys; print os.path.realpath(sys.argv[1])"" ""$0""; } CONTENTS=""$(dirname ""$(dirname ""$(dirname ""$(dirname ""$(realpath ""$0"")"")"")"")"")"" ELECTRON=""$CONTENTS/MacOS/Electron"" CLI=""$CONTENTS/Resources/app/out/cli.js"" ATOM_SHELL_INTERNAL_RUN_AS_NODE=1 ""$ELECTRON"" ""$CLI"" ""$@"" exit $? ```  then i installed the Electron app from http://macappstore.org/electron/  i can now run code . from my app folder neatly"
+17002|Also noticed the folder panel does not get updated automatically when files are add, remove, or renamed.
+17003|This issue was moved to Microsoft/vscppsamples#4
+17004|"> I am having trouble with the GitHub issue mover @egamma, can you help? I keep getting an exception: Cannot call ""ez"" on null.   @delmyers I could move it. I did it from Chrome. I remember I saw the ""ez"" null error, but I cannot remember whether I saw this error in Chrome or IE."
+17005|+1
+17006|Ok. If you want the gory details, go visit that other issue.  I tests a few alternatives and found it isn't just node.js' fault.  The short version is that if VSCode wants clean file watch events, we'll need to do the tmp file / rename trick--or something similar.  It isn't so much a bug in node as it is a limitation of the operating system, one that we'll have to work around if we want clean behavior.
+17007|+1
+17008|There's are extensions for this. I use https://marketplace.visualstudio.com/items?itemName=ryzngard.vscode-header-source personally
+17009|I think I know how to solve this, I will try
+17010|Hi **@pjmeyer**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (PJ Meyer). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+17011|the current production version happens, but not happens development version. I think in the next build everything will be ok
+17012|the current production version happens, but not happens development version. I think in the next build everything will be ok, I execute the development version and this is the ![testecpp](https://cloud.githubusercontent.com/assets/5808206/14417140/ac23c414-ff7f-11e5-93b8-a39a6787f6df.PNG)  results:
+17013|"I've looked further into the code now. The keyboard shortcuts for the current context menu actions are configured in [`keybindingForAction` (fileActions.ts)](https://github.com/Microsoft/vscode/blob/52c47af70511ec3ecd72033bd35ed2bb997ada08/src/vs/workbench/parts/files/browser/fileActions.ts#L2338). The ""Find in Folder"" action is added in [`getSecondaryActions` (search.contribution.ts)](https://github.com/Microsoft/vscode/blob/55dfa604084153e47d09b2dcf54933394fa8721d/src/vs/workbench/parts/search/browser/search.contribution.ts#L77) and defined as [`FindInFolderAction` (searchViewlet.ts)](https://github.com/Microsoft/vscode/blob/55dfa604084153e47d09b2dcf54933394fa8721d/src/vs/workbench/parts/search/browser/searchViewlet.ts#L66).  As far as I can tell I'd need to solve three steps to reach my goal: 1. Make keyboard shortcuts for context menu actions configurable. 2. Call context menu actions if the relevant keyboard shortcut is pressed when the element in the tree is _focused_. (E.g. you can press ⌘C to copy a file when the element is focused in the tree view _or_ via context menu. Rename works in the same way. I think this should be the default behaviour for all context menus.) 3. Allow focusing more than one element, so I can copy multiple files at once or search in multiple folders.  To solve step 1 I need a little bit more explanation about editor actions and keyboard shortcuts. I guess I'd need to replace `keybindingForAction` with some `CommonEditorRegistry.registerEditorAction` logic. `CommonEditorRegistry.registerEditorAction` gets an `EditorActionDescriptor` instance, which has `IEditorActionKeybindingOptions`. These `IEditorActionKeybindingOptions` probably need a _new contex_ to express _when context menu is open or element is focused in tree_ right? Is [this](https://github.com/Microsoft/vscode/blob/2395a89ab84cb92ef41400408a71a1956f830d4e/src/vs/editor/common/editorCommon.ts#L2552) the complete list of all available contexts? Where would I start to add a new context?"
+17014|I do not think this is an easy task for a pull request, there is too much debt in the way the tree exposes a controller for keybindings. Imho the keybinding service should be properly hooked up from the tree controller so that it becomes easy for clients of the tree to configure keybindings properly.
+17015|same as @jonathanfishbein1. Linux Mint 17.3
+17016|No it's in the coming release which you can already try out as an insiders build (https://code.visualstudio.com/insiders)
+17017|Moving to vscode-omnisharp for investigation.
+17018|This issue was moved to OmniSharp/omnisharp-vscode#166
+17019|duplicate of #4889
+17020|moving to omnisharp-vscode for investigation.
+17021|This issue was moved to OmniSharp/omnisharp-vscode#167
+17022|> As reported in my repository, everything is fine with Insider's version.  We will push the insiders version to stable this week, no further action on this planned on this one for now. // @isidorn @weinand
+17023|"> I do not think this is an easy task for a pull request.  ~~If you have time for mentoring I could try it :)~~ If you think this pull request is to big for an outsider, what is the best way to find issues for easy tasks? [Label ""help wanted""](https://github.com/Microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)?"
+17024|Closing as per comment.
+17025|This issue was moved to OmniSharp/omnisharp-vscode#168
+17026|@Tyriar When I say that _we don't really know what the runtime consequences of unsetting it will be_, I mean it in the extension host process. We do want that process to run as Node, and I'm not sure if that flag is only read on process startup or during runtime too.
+17027|There is currently no Intellisense for razor. Moving to omnisharp-vscode for investigation.
+17028|@chrisdias ping
+17029|> I'm not sure if that flag is only read on process startup or during runtime too.  It depends on how much testing you have in place. :stuck_out_tongue_winking_eye:  Just chiming in and not trying to be harsh in any sense :rose:
+17030|Thanks for that @0x0ade. Does it solve it for you, @kripod?
+17031|Are you behind a proxy?
+17032|Is your proxy http or https? Is there any chance I can use it too to try to reproduce?
+17033|This case should be doable, tho not everything can be done like that cos of our proxying story
+17034|interesting...
+17035|I'll see what we do there
+17036|@bpasero Did you try to run the extension host with [this](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/api/node/extHostDocuments.ts#L297) avoiding the `isWeak` call, like make it return false?
+17037|@gilberto389 from your description I have no clue what the bug is, please attach a video.
+17038|Hi **@Ikuyadeu**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+17039|Virtual documents are part of the normal model resolution chain. Assigned to Ben for making the command work with that
+17040|We made quite some changes for 0.10.14. Closing and keeping an eye open for this
+17041|Well, having listened to @Tyriar, I'm not signing my commits anymore, but thank you for all the help provided!
+17042|@jrieken indeed, when I return `false` I cannot reproduce the crash so far. I wonder if node-weak thinks an object is not yet dead and we return the proxy and shortly later the object gets garbage collected and calls into the proxy result in the crash.
+17043|:+1:
+17044|Covered by 73f842356d6e7da96afed0f4720ffc7ffcd02129
+17045|@isidorn please investigate whether this is a frontend or backend issue. Are you receiving any errors in this scenario?
+17046|Thanks! :+1:
+17047|Fix https://github.com/Microsoft/vscode/issues/821
+17048|This issue was moved to DonJayamanne/pythonVSCode#72
+17049|Is this TS or JS? What is an example of an external module? Can you add a snippet please.  In general of no types can be inferred and `any` is shown then it is expected that ctrl+click does not work.
+17050|@bgse: You're right. Adding spaces fixed the highlighting. Feels like a kind of workaround though. Should I close the issue then?  @ericmartinezr: Thx!
+17051|This issue was moved to OmniSharp/omnisharp-vscode#169
+17052|Actually, we cannot do this without reasonable effort. The proxy story is all about knowing both endpoints _MainXYZ_ and _ExtHostXYZ_ on both sides. This approach gives type-safety but the drawback is that the code is loaded on both sides.
+17053|fyi @alexandrudima
+17054|yeah, that's why I added the `isNearDeath` check which in the end causes more trouble... But it's definitely the right direction.   @bpasero Did you also try the opposite? Leaving the `isDead` check but never returning a proxy but always fresh documents?
+17055|Thanks
+17056|Yes, that how the format feature is implemented. When both document and range formattings-provider are present the range-based provider will be used - with the whole document range.   Closing as I think that assumption is valid. @alefragnani Do you have a scenario in which the implemented behaviour doesn't make sense?
+17057|its  a js module  and it was a module that was symlinked to node_modules now i gave absolute path to actual module rather than symlink seems it is working but still does not understand what is __dirname etc.
+17058|and aint support class keyword  on bubble  that opens written typeof (my class name)
+17059|closing as the changes that caused the issue are reverted and on-top more careful `isWeak` check is used. Unsure where the electron adoption is tracked but discussion about incompatibly should happen there.
+17060|"It's a company proxy so no you can't use it... I think it's a http proxy but I'm not sure. In any case it ""works"" the same with both 'http' and 'https' in the proxy url."
+17061|@jrieken when I always return a fresh weak-reference (but still do the isweak check) it also does not crash. so the issue seems to be returning a weak reference that actually maybe is near death and calling methods on it.  Btw I also tested with your changes in https://github.com/Microsoft/vscode/commit/edc2d3fa5b1ab92edab29cd87d7e87c049896063 but could still reproduce the crash unfortunately.
+17062|+1
+17063|Try to add **files** section in your tsconfig.json, like in this example ` {   compilerOptions: {...},   files: ['./src/index.ts'] } `  Not sure that will help, but that's the first thing that I would do.
+17064|Tried already to add `files` or `exclude` to my `tsconfig.json`, but this did not work for me. The test repo works as expected on my colleagues mac.
+17065|Awesome, much thanks!
+17066|Ok, It make sense :+1:  But shouldn't the range be the _whole_ document?  I'm creating a formatter that uses _external tools_ and I'm supporting 2. One of them only works for _well formed files_ and so, it does not work for _selected pieces of text_. If both providers where called, I would only need to check the _tool_ in the right provider, to avoid error messages.  Thanks for your help.
+17067|Let's continue in https://github.com/Microsoft/vscode/issues/5162
+17068|fyi @jrieken
+17069|This was fixed 7 days ago
+17070|Thanks @bpasero 😊
+17071|> it is working but still does not understand what is __dirname etc.  To get Intellisense for node or for other node modules you need to add a type definition file, pls see https://github.com/Microsoft/vscode-docs/blob/vnext/docs/languages/javascript.md#typescript-definition-file
+17072|fyi @joaomoreno
+17073|I think this was fixed last week via f56ccb001a8d3fa2678303cd9ad6e46181c40b41
+17074|Well this is the current design limitation of our approach. After a prelaunchTask is finished we check the global error count, if > 0 then we abort. The task framework is not giving me a correlation between a task run and the errors. Due to this limitation we have a 'Continue' action in the message box  Closing as designed
+17075|The fix didn't work so well...
+17076|@rkeithhill great! Sorry for the slow responses, I was out on vacation for a couple of days. Anyways, is there something that still needs to be done here? (except us improving the documentation and figuring out the right order of events on startup)
+17077|> They're valid JS syntax... rest parameters?  @rui-infotrack your snippet is using Rest Spread Properties, which are not part of ES6 and therefore this construct is not yet supported. Please refer to Microsoft/TypeScript#2103 for background and check this comment https://github.com/Microsoft/TypeScript/issues/2103#issuecomment-182195915.  To get the sublime behaviour you can disable diagnostics using the `javascript.validate.enable: false` setting. This setting is available in the [insiders channel](https://code.visualstudio.com/blogs/2016/02/01/introducing_insiders_build) ([release notes](https://github.com/Microsoft/vscode-docs/blob/vnext/release-notes/latest.md)).  The recommendation is to use eslint together with the vscode-eslint extension to get validation, pls see this [documentation](https://github.com/Microsoft/vscode-docs/blob/vnext/docs/languages/javascript.md#javascript-linters-eslint-jshint).
+17078|@bpasero check this, it is aria
+17079|Thanks!
+17080|pushed https://github.com/Microsoft/vscode/commit/6d7880101e2dbcdf823646797fe4533b0dc439bd as an attempt to work around the issue
+17081|> Ok, It make sense :+1: But shouldn't the range be the whole document?  If it's not the whole document it's a bug. Tho, this seems about right: https://github.com/Microsoft/vscode/blob/master/src/vs/editor/contrib/format/common/format.ts#L40
+17082|related to #5162
+17083|@joaomoreno I'm not behind a proxy. I've tried both with and without a VPN and on different networks/ISPs.  Should I be expecting to see network requests in the network tab?
+17084|I do not see myself able to handle this issue, @egamma please advise.
+17085|"@mkyjakova for example ""master, git branch"". the first part is the branch name and the second just an explanation for screen readers."
+17086|@aeschli Can you add the verified tag?
+17087|Here is a list of modules we load from the renderer and their times, weak seems to cause around 10% of the overall loading:  ![image](https://cloud.githubusercontent.com/assets/900690/14429912/aa76f0e8-ffff-11e5-942e-f3fc25d0ce97.png)
+17088|duplicate of https://github.com/Microsoft/TypeScript-TmLanguage/issues/11
+17089|I know - it's a said story...
+17090|@isidorn Well, with the `1.0.0 Alpha` build I just installed, I'm back to getting the strange `error cancelled` popup after the debug session ends.  :-(   I think this issue should be re-opened.
+17091|Sorry I just realised there is a small blue indicator!
+17092|the <<HEREDOC syntax seems to work now (there has been a recent update). But I can reproduce the issue for <<-'EXPECTED'
+17093|This issue was moved to textmate/ruby.tmbundle#96
+17094|@yongthecoder did you try the window.zoomLevel setting? it can have negative values.
+17095|Weird. @joaomoreno @Tyriar ever seen this?
+17096|That works for me. Thanks
+17097|Thanks @pjmeyer !
+17098|@rkeithhill no, nothing should have changed in the ordering between insiders and alpha. If you want me to investigate please give me repro steps - is it enough to use latest powershell and just any ps script? Is this the behavior you are mentioning https://github.com/Microsoft/vscode/issues/4567
+17099|@aeschli Hey, I noticed you added tokeniser tests for coffee.. Do you want me to add this specific case and some more there as well (If you are not planning to do it yourself)?
+17100|Thanks a lot for the many screenshots. I think what's special in your code is that the closing bracket on line 273 has a larger indent than the code following on line 275. The currently implemented folding strategy looks solely at the indentation of lines. A folding region starts when a line has a smaller indent than one or more following lines, and ends when there is a line with the same or smaller indent. Empty lines are ignored. My guess is that if you'd reuce the indentation between line 275 and 416 by one to be the same as on line 273 you'd see a more normal behavior. Can you verify that?  To get smarter here we need to add language knowledge to the indentation strategy. E.g. the knowledge that a } is the end of a block, but never the start. We have issue #3422 for this.

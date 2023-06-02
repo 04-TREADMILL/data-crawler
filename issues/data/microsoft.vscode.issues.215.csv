@@ -1,0 +1,100 @@
+21401|open visual stadio code  ,CPU will 100%
+21402|Support Inrease & Decrease Number using key bindings
+21403|[IntelliSense] [JavaScript] Go to Definition Doesn't Use Source Map
+21404|Replace In File very Slow For Many Replacements
+21405|Paste to Replace File Contents Shows Old Colorization Locations while Computing new Colorizations
+21406|bug
+21407|typeScript error
+21408|闪烁
+21409|Can no longer create branch when running `Git: Checkout`
+21410|Treat podfile as ruby
+21411|Setting to disable sound when using backspace in Integrated Terminal?
+21412|high cpu
+21413|C++ Code Highlighting Fails For Large Files - Broken Again
+21414|Auto-Import should use tslint's quote setting
+21415|Retrigger completions on accept
+21416|Degrees character '°' is corrupted on saving a file
+21417|Multi-line pastes are handled improperly when using multiple carets
+21418|Allow Cloning Git repositories using ssh instead of http
+21419|Order folder by groups
+21420|Expand line selection does not select all of wrapped line
+21421|Terminal not loading ~/.zprofile and not setting LC_ALL
+21422|Render block by default on minimap
+21423|Cannot indent properly
+21424|Any plans for resolving JS function parameter types from .d.ts?
+21425|Copy or cut all occurrences found?
+21426|Can't close the tab of a deleted file
+21427|Multicursor highlighting on selection behaves oddly
+21428|Provide extensions a way to localize their messages
+21429|Make overview ruler border less obtrusive
+21430|Exception in fileActions.ts
+21431|typescript
+21432|Can not watch the hole linklist in golang when debugging
+21433|error
+21434|input method bar misplaced on 4K resoluation
+21435|A better way to provide multi-line Snippets support
+21436|Double-click anywhere on an un-pinned editor should pin it
+21437|irritating
+21438|Output Window: Setting to Stop Wrapping
+21439|No longer possible to paste into explorer without selection to duplicate a file
+21440|Migrating VS 2015 C# Windows Universal app Missing TargetFrameWorkVersion 4.5.2
+21441|"Support ""Paste"" & ""Paste and Indent"""
+21442|Support line ranges in links and to navigate to file to a particular line column
+21443|Unable to edit code/write code on visual studio code editor...please help
+21444|Provide a way for extensions to get a list of the opened editors
+21445|VSCode 1.9.1 crashes when using git compare a large file
+21446|Hard break at 100 column which break ligature for Fira Code
+21447|Snippets should work with JSX DOM
+21448|Guidance for transferring ownership of extension
+21449|VSCode crach when Drag and drop a gif image from an extension page to a new tab
+21450|Translation input: can not find module iconv.node
+21451|one field missing
+21452|TypeScript returns stale code actions
+21453|TypeScript returns stale code actions
+21454|Trigger character always force a new completion session
+21455|Marketplace Request: Allows extensions to be published to a beta channel
+21456|Auto indentation in C++ extension
+21457|Toggle Word Wrap gets lost after touching settings.json
+21458|importing module with backticks breaks IntelliSense
+21459|Add font configuration for the output console
+21460|The Help Menu is strange!
+21461|"Markdown preview scrolls to top when ""scroll-lock"" is turned off"
+21462|MDX code style
+21463|Syntax highlight for C code breaks with macro definition containing a function/parenthesis
+21464|"After using Replace All the find/replace dialog shows ""No results"""
+21465|Find (Cmd+F) and Replace (Cmd+Alt+F) non-standard behavior
+21466|PHP snippets not showing up. Instead, VSCode uses HTML snippets
+21467|Stop scrolling when there's nothing more to scroll to
+21468|Fix renderParameters
+21469|API Request: onSelectionsChanged(Selection[])
+21470|Error in HTML comment parsing
+21471|move/rename operation with git
+21472|Debug bar gets stuck out of screen bounds on the left
+21473|there is a nag hint bar when edit golang source file
+21474|Quick fix: select first entry by default
+21475|Require cmd/ctrl+click to follow links in the terminal
+21476|“Find All References” across files for a method/function in javascript
+21477|Strange theme background color
+21478|Remove white background of the icon
+21479|SCM preview does not support multi-select
+21480|Markdown's Open Preview editor toolbar item: Open to the side
+21481|[WelcomeUX] Interactive playground should be localized
+21482|Git: Stage [Un]Selected Ranges doesn't truly follow the selected range
+21483|"Automatic ""editor.emptySelectionClipboard"": false in user settings"
+21484|"Syntax highlighter does not escape Clojure \"""
+21485|feature: allow selecting search results
+21486|Cannot Shift+Tab back to editor tab name
+21487|signatureHelp gives buggy results when one parameter is a subset of another
+21488|Mapped types incorrect intellisense
+21489|Network: Left side explore folders don't always open
+21490|bump version for 1.11
+21491|Add When Clauses for TypeScript Extension Commands
+21492|Error squigglies don't appear for zero-length diagnostics on empty line
+21493|[Debugger] Adding a Watch expression sends 'evaluate' command twice
+21494|Add when clauses for TypeScript command palette commands
+21495|Phantom `git:/` virtual paths sometimes appear in Problems View
+21496|Spaces in path to git repositoy leads to error: ENOENT: no such file or directory
+21497|git gutters not visible for network paths
+21498|Use Atom-Clojure Grammar
+21499|Create-React-App Waring
+21500|Fix Webview scroll position Preserving

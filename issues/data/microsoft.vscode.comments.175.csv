@@ -1,0 +1,100 @@
+17401|Can you elaborate what you exactly mean by remote access? Remote desktop access? Working on a folder that is mounted from a remote file system?
+17402|What you are invoking is not reference completion, but you are invoking the 'reference' snippet.  So this is the expected behaviour.   What you are expecting is tag completion inside /// reference. I've changed the title and mark this as a feature request.  This could actually be done in an extension. FYI @jrieken
+17403|fyi @bpasero
+17404|+1
+17405|My output looks different (yeeah)  ![bildschirmfoto 2016-04-14 um 11 37 37](https://cloud.githubusercontent.com/assets/3391052/14523738/89d1b430-0235-11e6-998c-b8268dcd8fa5.png)
+17406|Thanks for asking! Git commands have to be locked by the core team in order to remain in English. If they are not locked, our translators translate them as regular words.  So my question here is whether this is a git command (because it looks like one) or not. If it is, it should be locked so that it is not translated. Hopefully, this makes more sense, if not please let me know. Thanks!
+17407|"Using large number in `editor.wrappingColumn` doesn't work. If I use a large number (above 300; e.g. 1000 or 30000) for this setting, lines are always wrapped and `Alt+Z` (or menu/palette command) doesn't do anything. I think that the problem occurs if you have lines longer than 300 characters in the file you're editing (300 is the default `editor.wrappingColumn` setting). Whatever setting (above 300) I use here, I can't unwrap lines once they're wrapped.  The only thing which partially works is `""editor.wrappingColumn"": -1` (I think this setting means ""never wrap""). In this case, lines (including very long lines) are always unwrapped when you start the editor, but as soon as you wrap them, they usually remain wrapped (that is, `Alt+Z` only works the first time, to wrap the lines from the initial, unwrapped state). In some cases, you can unwrap them again, but any lines longer than 300 characters remain wrapped at column 300. I would say that this default number (300) is still somehow involved somewhere.  The version I'm using is 0.10.11 and all this is easy to reproduce. I'm using VSCode for making manual edits of some generated scripts with very long lines and would be quite happy to have the ability to wrap and unwrap lines with 500+ characters. Another use case would be viewing and searching log files which often have very long lines (with VSCode you can open, view and search entire directory tree of such log files)."
+17408|@Innovative-Ideas looks like you started VS Code as root once maybe and created the settings?
+17409|"I think it would be good to keep ""Git"" untranslated."
+17410|+1
+17411|No, it is not a git command. It is used for screen reading: it informs the user that `{0}` is a branch coming from a git repository.  But really nice of you to stay alert to these type of things. :+1:
+17412|@Janne252 You Ok with the github style links using the fragment? Like `file:///my/files/test.txt#L42`?
+17413|@jrieken Absolutely, that's short and simple.
+17414|deal
+17415|also hide nested functions.
+17416|@jrieken @kumarharsh @dbaeumer Thanks guys! I installed the insider build and it solved my issue. Looking forward to the next stable build as well. Much obliged!
+17417|@dbaeumer can you pls assign this one.
+17418|Thanks for bringing this feature to our attention @alexandrudima fyi
+17419|We do not have a full terminal yet and the output channel doesn't support input.  Duplicate of #143
+17420|Is this fix ever going to be merged into VS Code? Without this, running any dnx command on Windows through VS Code fails if there is a space in the path, making VS Code useless, without having to ensure there aren't spaces in the path.
+17421|This information is still correct :smile:, pls stay tuned.
+17422|This is on Windows?
+17423|I think I got the solution, it's pretty easy. in the launch.json file do below steps. 1. open the global package folder and set the entry file path to the program config 2. set the cwd to the project root folder  vscode will handle all the breakpoint in the command code and project code.
+17424|Yes. Sorry, I did not mention that. Editing.
+17425|"@tomi This is now implemented but be aware of how it works: In your case you have a virtual document that contains a link to another virtual document. Since the link only becomes _a link_ when rendered via the `vscode.previewHtml` command, your link must do the same.   Therefore we have added support for _command-links_, like so `command:vscode.previewHtml?""link-test://auth/path""`. It tells VS Code to execute the command using the query-part of the URI.  If your links reads like `link-test://auth/path` it will show the sources but not render it. When showing sources, there is support to denote the line using a fragments ala `link-test://auth/path#L42`."
+17426|"I rebased my branch on master` to solves the (trivial) merge conflict. I also added a commit to address your https://github.com/Microsoft/vscode/pull/4702#issuecomment-207813241 points.  Points 1 and 3 are fixed, but I have a doubt about 2. You say that I’m not handling the case when `explorerViewlet#getExplorerView()` returns `EmptyView` but the return type of this function is `ExplorerView` and not `ExplorerView | EmptyView`. Should I change that?"
+17427|Can you check your `tsconfig.json`-file for errors or warning and comments? Maybe tsserver fails to process that and therefore responds with _No Project_ errors
+17428|@alexandrudima Isn't that a config options?
+17429|@v-pavanp To clarify - you mean it not wrap, or? Because I don't see what is missing about the message, it looks complete to me.
+17430|@otbe and I use the same repositories without any changes. It can't be really a project-specific reason. It must be his global setup somehow :(
+17431|I reward anyone with much  🍻 for writing such an extension.
+17432|Awesome!  Thanks @bpasero
+17433|"@jrieken  @donaldpipowitch and @egamma used the same `tsconfig.json` without problems.  Is it possible to ""debug"" tsserver.js? Tried to place some `console.log`s inside `getProjectForFile()` but it crashes with `unexpected end of input` ...  EDIT: same with 1.0.0"
+17434|This is better with the latest Electron update but initially, when loading the web view I still see a short flicker of white background, no matter if I statically set the background color to transparent or black etc
+17435|That got fixed by being properly in the dom
+17436|@jrieken, @bpasero found it! It wasn't a communication problem between dev and alpha but we were just calling `dock.hide()` on dev way too early.
+17437|Duplicate of #4899
+17438|@edumunoz Thanks for the nice issue report. Though it might have been less work if you submited a PR instead. Do you have a suggestion for a fix?
+17439|Remote desktop access. Specifically, running visual studio code on a remote computer and using the editor in a RDP session. It redraws slower than other editors over RDP. It's particularly painful if you are on a low bandwidth connection like a corporate VPN for example.
+17440|@rkeithhill and where would you show that message in the breakpoints view without introducing too much clutter? I suggest to show it on hover. What do you think?
+17441|@MrVallentin are you writing an extension that writes to the output? Or are you debugging the program that writes to the debug repl?  Small sample where this is reproduced would also be useful.
+17442|@alexandrudima did this make it into the insiders build 0.10.15? I don't see a difference there
+17443|No. You can try it on master branch.
+17444|"This is currently disabled by default, you can turn it on by adding this to your `settings.json`:  ``` json {   ""editor.selectionClipboard"": true } ```  I believe it is being turned on by default in the April release."
+17445|@isidorn Yeah but I was also thinking that the Breakpoints viewlet could show a glyph indicating there is a problem with the breakpoint and then provide a tooltip (hover as you put it) to display the message e.g.:  ![vscode_invalid_breakpoint](https://cloud.githubusercontent.com/assets/5177512/14534792/f9de7758-0227-11e6-8a67-78ee560c3bcf.png)  But if you don't like the extra glyph - maybe the checkbox is shown in an indeterminate state?  Or perhaps the breakpoint text is red or perhaps the text uses strike-through.  You just need some sort of indication to draw their attention and then the hover would explain why the breakpoint wasn't set.
+17446|I posted an issue about that 2 days ago https://github.com/Microsoft/TypeScript-Sublime-Plugin/issues/466
+17447|A better solution should be show the translated version and the original version side-by-side and search the command using both of them. When editing source code, Chinese and Japanese users will **turn off** the IME to avoid it affecting inputting special symbols, however the “translated” command palette will force them turn the IME on.
+17448|Yes, it is not wrap. If you see the first screenshot, the path for the node.d.ts is not displaying completely. https://cloud.githubusercontent.com/assets/17735796/14512656/db1da3b2-0195-11e6-851f-71c1c17583ed.png
+17449|Have you ever considered the length of a string and the width of the command palette? If both versions are shown we need to solve this problem so our users can see a full string.
+17450|Problem still exists in just released Version 1.0
+17451|Seems to be https://github.com/electron/electron/issues/4842  Workaround: reload when focus is in the renderer and not dev tools
+17452|@lychichem I think for most commands we have enough space to show both of them. ![image](https://cloud.githubusercontent.com/assets/240091/14535767/043ed6fa-02a2-11e6-8776-b12f95ee81e7.png)
+17453|Related #5260  The fallback font shown here is `SimSun`, which is a **serif** **Simplified Chinese** typeface. For Japanese it is completely wrong. However, AFAIK Electron's font fallback sequence is not good enough either. Perhaps Code needs to write its own style sheet to perform high-quality font fallback sequence for these locales.
+17454|cc @egamma
+17455|cc @bpasero
+17456|+1
+17457|![](https://raw.githubusercontent.com/adobe-fonts/locl-test/master/resources/locl-example.jpg) A image of @kenlunde’s LOCL test. For Source Han Sans, enabling `locl` feature plus a language tag will perform correct characters for all languages, but since SHS is not installed on most computers, a specific fallback sequence for each language is a better choice.
+17458|Ah, understood. Most likely the limits of browser wrapping cos the string is quotes is long and likely no proper break position can be found. We might consider overflowing them from the editor area
+17459|@jrieken ok, maybe follow up with Electron if you think webview should not have this flicker, I know that for the window itself they did quite some work for me to set the background color very early, even before the DOM gets any chance to set it.
+17460|The brand new 1.0 release actually fixed this! I don't know if anyone did anything for this between the insider release and 1.0 but I'm glad it works now.
+17461|@be5invis a good font fallback and setting `lang` on `<html>` should hopefully fix both issues. Currently it's set to `en-US` for all locales which means Chromium doesn't know which glyph to select.
+17462|@Tyriar right. There are two styles for Chinese is mentioned in #5260. I am not very familiar with Japanese typefaces so I cannot provide a good advice. Maybe you can ask @kenlunde.
+17463|Hi **@eyalsk**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+17464|Related: https://github.com/Microsoft/vscode/issues/4433 https://github.com/Microsoft/vscode/issues/5260  I marked them as important as it's mixing up characters for the various CJK languages.
+17465|Is an API for changing `charset` somewhere on the roadmap? It's the last missing piece for `EditorConfig`.
+17466|Any update on this?
+17467|Note that running `./scripts/code.sh` works as intended.
+17468|Hi **@henkmollema**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+17469|Cool, thanks for implementing this! It fits my needs well.
+17470|@OneOfOne interesting, has this happened before on other builds of vscode? I haven't tried on Arch Linux before.  @joaomoreno is there a way to view logging from Electron on master currently? `VSCode-linux-x64/code` seems to hit the CLI now.
+17471|@bpasero I tried that and got some warning during the build which looks like it had some issue with a circular dependency or something. I'll try again.
+17472|Duplicate of https://github.com/Microsoft/vscode/issues/3422
+17473|@Tyriar I haven't tried that before, I was using insiders, I just wanted to test the $go matcher.
+17474|An extension was published recently for this https://marketplace.visualstudio.com/items?itemName=ms-vsts.team
+17475|We recently updated Electron to a newer version, try to run scripts/npm install first
+17476|this was a completely fresh git pull, like I said I've been using insiders, I just wanted to try the $go matcher.
+17477|"I also noticed this today  ``` xml <configuration>   <packageSources>     <add key=""AspNet CI Feed"" value=""https://www.myget.org/F/aspnetcidev/api/v3/index.json"" />     <add key=""api.nuget.org"" value=""https://api.nuget.org/v3/index.json"" />   </packageSources> </configuration> ```  and I am only getting version (probably package names as well but I've not tried) info back from the main nuget feed  ![image](https://cloud.githubusercontent.com/assets/50543/14541797/065f6082-028c-11e6-8ab8-f2c82fa5f5e9.png)"
+17478|This just reproduced on a second Windows 10 machine with OS build 10586.218
+17479|cc @joaomoreno
+17480|+1  Is there any chance of this happening?
+17481|may you point where I can correct translation of this menu action
+17482|"@isidorn the output is coming from programs launched by the ""Tasks: Run Build Task"". It happens no matter which program (Python, Lua, Batch, any exe, etc.) I've been using (as I would expect).  To be more specific, I've been doing a lot of Python lately, and for ease of testing/execution, I've used the following task:  ``` json {     ""version"": ""0.1.0"",     ""showOutput"": ""always"",      ""windows"": {         ""command"": ""python"",         ""showOutput"": ""always""     },      ""args"": [ ""${workspaceRoot}/main.py"" ] } ```"
+17483|Within 3 minutes, I stopped using VS Code and went back to Atom. No tabs, no go. Sorry, my workflow has  been drilled into me. I would bet a quick poll 4 years ago would have gotten your UI answer much faster. But leave it too Microsoft arrogance to fix something that's not broken.
+17484|I deleted the vscode folder and cloned it again and reran npm.sh install and gulp electron, now it's downloading ffmpeg, have been for the last hour but that's new, it didn't do that the first time around.
+17485|Happy to know!
+17486|This is `alpha`. String will be translated soon enough...
+17487|I was finally able get past this by uninstalling Code then manually deleting `%USERPROFILE%\AppData\Roaming\Code` then reinstalling.
+17488|@BeauBender This is intentional. The C# plugin is now an additional install instead of bundled with the installer. https://code.visualstudio.com/updates/vFebruary#_languages-c35
+17489|Verified all these scenarios work on Windows 10 and Ubuntu 15.10.
+17490|@zunama we haven't forgotten about users who want tabs and improved document management.  Now that we're 1.0, it's one of our highest priorities to address these concerns.  Awesome things are coming to VS Code soon.
+17491|Thanks for the contribution! :smiley:
+17492|Tried column selection in VSCode 1.0. Well, rectangular selection does work, cutting and pasting back also works, but that's about it. Cutting and pasting into a different part of the code does not work as expected. Both Notepad++ and VS remember that copied text was a rectangular block and paste it as a rectangular block. VSCode treats copied block just like a regular text, so pasting it anywhere outside of the current multi-cursor context would create a mess. It's good that the feature is being worked on, but it's not fully baked yet.
+17493|The issue is very likely chrome's use of directwrite to draw the UI. The same problem appears in chrome for me (chrome 41 and above?). I tried this http://www.trilithium.com/johan/2015/03/chrome-directwrite-2/ but doesn't seem to work (may be others can try and see?).
+17494|Let me upvote this as strongly as possible. HTML is so highly structured, and in such a variety of ways, that selection of specific tags and strings is really crucial to working quickly and well. Without this feature, editing becomes not just unhandy, but too error-prone for my purposes. It would transform the utility of the editor if the same selection abilities were present in HTML as in other languages.
+17495|I believe this is good to go, pending tests. @bpasero can you give it another look when you get a chance?
+17496|Duplicate of https://github.com/Microsoft/vscode/issues/3130
+17497|@sangohan I opened https://github.com/electron/electron/issues/5165 to expose the flag in electron.
+17498|Someone beat you to it in https://github.com/Microsoft/vscode/pull/5238, thanks for the PR though
+17499|"Thanks, @mattyork !   It seems like there might still be a bug since this didn't work for me: ""...or if you already have a project with C# files, VS Code will prompt you to install the extension as soon as you open a C# file."""
+17500|"I'm not 100%, but I think you want to keep ""from"" original year and add an optional ""to"" year for this sort of thing. @chrisdias?"

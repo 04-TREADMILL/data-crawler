@@ -1,0 +1,100 @@
+27001|Yeah I think #7964 will fix it
+27002|@joaomoreno not sure if you or @bpasero
+27003|@Tyriar how do ST, VS, Sublime solve this?
+27004|@dbaeumer Yes Ctrl+Shift+M opens problems view. But, I changed the command id to `workbench.actions.view.problems.` I think, I should either revert/support the old command `workbench.action.showErrorsWarnings`
+27005|@isidorn please file markdown issues against @kieferrm
+27006|@joaomoreno starting with you because of the reference to the .bash_profile
+27007|You are like an eagle 🐦
+27008|Yeah as designed. Last close closes the window. Has been like that from day 1.
+27009|Thanks for the issue! Closing as duplicate of #7969
+27010|Ok please comment if it reproduces. We can reopen then.
+27011|I will keep the `ext install foo` and redirect the user to the viewlet for now.  The link will come.
+27012|"You can disable auto fetching with `""git.autofetch"": false` in your settings."
+27013|@dilijev we only add items there if you go via File > Open...  Do you open files differently and expect them to show up?
+27014|Can you provide the tasks.json file you are using.
+27015|Thanks for the issue and the encouragement! 😄
+27016|This should be fixed in the latest insiders and will the fix will be available in the june release of vscode
+27017|@hummervee you say you use F1 but this is the command palette. Can you share screenshots what you do?
+27018|@aeschli do you know of anything special we are doing here?
+27019|Strange that it works with `open Visual\ Studio\ Code.app` but not double click.  When it is running, can you install the `code` shortcut in the `PATH` (<kbd>F1</kbd>, `Install 'code' command in PATH`), quit and then try running it with `code` from your terminal?
+27020|Closing then.
+27021|@Urahara ping
+27022|@androllen I assume you have the python extension installed. Please file the issue there since the error message comes from that extension.
+27023|FWIW, `workbench.action.showErrorsWarnings` is handy both for its limited scope, and that it is easy to close. (If `workbench.actions.view.problems` could easily be toggled that'd be great -- reaching for the mouse is such a stretch)
+27024|@xenopeg @wllfoxe13 do you have any C/C++ extensions installed.
+27025|@leegee There is a keyboard shortcut to toggle display of views in bottom bar - Ctrl + J (Just like Ctrl + B for toggling side bar views)  We are in the discussion of making views behavior consistent across. Side bar views and bottom bar views - See #7540
+27026|+1 svn
+27027|Also looks horrible on linux  ![screen shot 2016-06-22 at 10 50 35](https://cloud.githubusercontent.com/assets/1926584/16260325/3802200a-3867-11e6-9a01-7aeedc7ef409.png)
+27028|Also looks horrible on linux + the other scroll bar should get hidden  ![screen shot 2016-06-22 at 10 51 37](https://cloud.githubusercontent.com/assets/1926584/16260356/5c267274-3867-11e6-887b-971ea31db3d4.png)
+27029|@r0flbear Thanks for your pull request.   We consume (via npm) the lib.d.ts file from the TS project here: https://github.com/Microsoft/TypeScript. So you need to create this PR in their git repository.   Closing since I can't move PRs
+27030|#7946
+27031|I can't join however if you have time: do we need to have a global progress indication in the workbench. I am working on a builder for TS and want to report progress. I started to have my own TS specific status bar item, however if we have more builders then we will end up with quite some status items to show progress.
+27032|No extensions installed, using the Insiders build.
+27033|@tosho if you open a terminal on the same workspace and type eslint --version what do you get ? And what do you see with which eslint. This might be an environment problem as well.
+27034|It's fixed but it's sitting on a branch, will likely be merged tomorrow for the next Insiders - the terminal had some pretty big refactors so it went there.
+27035|We do have a issue requesting this.
+27036|Makes sense to me. @jrieken objections
+27037|Them marking as important since we shouldn't crash.
+27038|Good catch!
+27039|Hi **@ph1ll**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+27040|Not sure, haven't used them in quite a while.
+27041|i got it thank you @Tyriar  and @rebornix
+27042|Duplicate of https://github.com/Microsoft/vscode/issues/7061
+27043|**@ph1ll**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+27044|Can you check whether those files exist in disk at all?
+27045|Well they do not extist anymore because I have deleted all my extensions. Let me try to get better steps for this...
+27046|Ok here are the steps: 1. Install extension 2. Uninstall that extension -> it is still present in list -> click on it -> notice error in console
+27047|They show a hover on the tab, same as we do.
+27048|Thanks for the tip! I missed that one because I simply had to map CTRL+J to 'join lines' :-)  On 22 June 2016 at 09:47, Sandeep Somavarapu notifications@github.com wrote:  > @leegee https://github.com/leegee There is a keyboard shortcut to > toggle display of views in bottom bar - Ctrl + J (Just like Ctrl + B for > toggling side bar views) >  > We are in the discussion of making views behavior consistent across. Side > bar views and bottom bar views - See #7540 > https://github.com/Microsoft/vscode/issues/7540 >  > — > You are receiving this because you were mentioned. > Reply to this email directly, view it on GitHub > https://github.com/Microsoft/vscode/issues/7974#issuecomment-227681189, > or mute the thread > https://github.com/notifications/unsubscribe/AAfTMKD7Ufb_TWojrxs67R2s4wpMUjlKks5qOPa5gaJpZM4I7hQe > .
+27049|my tasks are resolved from my gulpfile.js automatically by vscode
+27050|![](http://i.imgur.com/Cth0okF.png) here is the tasks json generated by vscode
+27051|@IgorNovozhilov What is inside your extensions folder? Do you have any extensions installed at all?
+27052|![](http://i.imgur.com/qAOp3uT.png) and here is the gulpfile
+27053|> I can click on the update button infinite number of times. I would expect the update button gets disabled after first click
+27054|Expected.
+27055|@siegebell thanks for the feedback, please file separate issues for the issues you have encountered.
+27056|@joaomoreno yes, but this would still have the statistics issue in that the download count is now accounted to 2 extensions. For a not yet popular extension this is not an issue, but for a popular one it is. So I still think we need support for this from the market place.
+27057|Agreed, I believe this is then not a bug but by design.
+27058|Assigning to @seanmcbreen he was driving the unity documentation.
+27059|Thank you, works perfectly.  Remaining question: Any reason not to use 6.2.2?
+27060|@isidorn yes I am hunting this down for a while, super hard to reproduce. Happy to hear if you can find steps to reproduce.
+27061|Since this is a bit hard to reproduce and not a huge issue I propose to fix this once the C++ extension starts supporting `totalFrames` attribute. Then I can investigate on my machine why this is happening.
+27062|#7946
+27063|Do it in `extensionsEditor.css`.
+27064|Yeah. Some Code dependencies are shared between Code and the dev tools. Some of them are binaries, compiled against Code's node version. If you have the same node version as your dev tools, you will benefit from better performance when running `gulp watch`.
+27065|LGTM - tho I believe this affects only tsserver
+27066|Tricky. And not a new issue. 😉
+27067|No, that's currently not possible and I wouldn't know how to do that... The implementation loads the document in an iframe that runs out of process.   What you can do (and other do that) is starting a server on local host which serves the actual document content.
+27068|This issue was moved to OmniSharp/omnisharp-roslyn#590
+27069|This issue was moved to OmniSharp/omnisharp-roslyn#591
+27070|Merged.
+27071|@isidorn if it helps to reproduce, this must be related to closing the last editor in a group in the left area such as the right group moves to the position of the left one. Somehow during this move, I end up opening an editor which does not know in which group it belongs to...
+27072|Oh, ok. Just wanted to know in order to verify the fix.
+27073|Looks about right, except I'm not using C++ symbol search, I'm just using ctrl-shift-f, ie, text-based find-in-files. So from that perspective, I find it hard to imagine how it's related to the C++ plugin? Find-in-files works without the C++ plugin installed (although I am using it too).
+27074|@dbaeumer @bpasero you want file that have locked? Sorry i didn't understand.
+27075|@TurkeyMan thanks for the info. Will reopen then.
+27076|@sandy081 can you please try to reproduce this on Linux with search only.
+27077|We need the command line of the Code.exe holding a lock on one of the files. To do so select one of the file handles, which reveals it on the process explorer main window. Then select properties from the context menu and let us know about the command line.
+27078|I think it's better to use English for issues Xiongdi
+27079|I installed the code command and it works (repeatedly). Is there a way to get more debugging output on startup?   It's really strange. After running it with code and open, It opened once from Finder, but then it stopped again. Also, yesterday, I saw this behavior. It failed to open from the terminal with a specific path, but only at first. I'm beginning to suspect some other issue and these are all just coincidences.  **open ~/Applications/Visual\ Studio\ Code.app/        failed to start open ~/Applications/Visual\ Studio\ Code.app/        failed to start** cd ~/Applications/ open Visual\ Studio\ Code.app/        started cd .. open Applications/Visual\ Studio\ Code.app/        started open /Users/hchapman/Applications/Visual\ Studio\ Code.app/        started **open ~/Applications/Visual\ Studio\ Code.app/        started**
+27080|"``` typescript export class sampleClass  {         public equipmentTypeList: string[] = [""FAX"", ""OFFICE PHONE""];         public pbxEquipmentType = ""FAX"";         public spliceRightStripName = ""TE"";          public cablePairStatusValues: any[] = new Array<any>(               [                        { statusText: ""Assigned"" },                 { statusText: ""Faulty"" },                  { statusText: ""Not in Use"" }             ]);         public cablePairStatusValueForAssigned = ""Assigned"";         public cablePairStatusValueForFaulty = ""Faulty"";         public phoneCircuitType = ""Phone"";  } ```  codes above works fine on my vs code:1.3.0-insiders.  maybe the way of directly asignning a `[]` to a property/field is not a very typescript way :smile:   PS: noticed that the highlight is not working even in markdown syntax with your codes, see blow and compare with the codes above  ``` typescript export class sampleClass  {         public equipmentTypeList: string[] = [""FAX"", ""OFFICE PHONE""];         public pbxEquipmentType = ""FAX"";         public spliceRightStripName = ""TE"";          public cablePairStatusValues: any[] =               [                        { statusText: ""Assigned"" },                 { statusText: ""Faulty"" },                  { statusText: ""Not in Use"" },             ];         public cablePairStatusValueForAssigned = ""Assigned"";         public cablePairStatusValueForFaulty = ""Faulty"";         public phoneCircuitType = ""Phone"";  } ```  so I don't think it's a bug"
+27081|"@reggieboyYEAH , have you tried creating an .eslintrc file at the root dir of your project with  `{     ""compilerOptions"": {         ""target"": ""ES6"",         ""module"": ""commonjs""     } }`  in it?  That solved it for me as suggested above"
+27082|maybe it's related to your input method. 可以换个输入法试试兄弟，我输入中文是OK的
+27083|Removing `C:\Program Files (x86)\Microsoft VS Code` from `PATH` resolved the issue. Thanks...
+27084|I just checked the typescript handbook  https://www.typescriptlang.org/docs/handbook/basic-types.html It looks like the way I initialized is allowed and it does compile with tsc. ![capture](https://cloud.githubusercontent.com/assets/10986887/16266710/3da0911c-3854-11e6-9ca1-84c07ff20e27.PNG)  Edit:  I take your point regarding the markdown syntax. I guess I have to format the code differently :(  Thanks Abhilash
+27085|@oaabhilash  I think the local variable announcing by `let` is a little different with the proerty/field of a class. JUST my own opinion. :laughing:
+27086|"@dbaeumer done.  `""C:\Program Files\Microsoft VS Code\Code.exe"" ""c:\Program Files\Microsoft VS Code\resources\app\extensions\typescript\out\utils\electronForkStart"" ""c:\Program Files\Microsoft VS Code\resources\app\extensions\typescript\server\typescript\lib\tsserver.js""`"
+27087|+1 as long as it is not modules from the nodejs core, Intellisense is not able to give any useful informations by default.  Furthermore I'm working on a project with specific modules developed for it and having to add a typing file for each of them is clearly not the solution. Too bad I enjoyed vscode a lot but this poor support of nodejs modules with Intellisense makes me want to use WebStorm again more and more.
+27088|+1  visual studio also has an option for this
+27089|this: https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint and `npm install -g jshint` https://github.com/Microsoft/vscode-jshint/blob/7bbb7eaef8a5e862a8865e3234b229df8c0e500c/jshint-server/src/server.ts#L408
+27090|"@joaomoreno Whoa, slow your roll there cowboy! :horse_racing:   Judging by your questions, it is apparent that you did not read my link and are unaware that ""commit templates"" [are already a thing in the basic configuration of git](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#Basic-Client-Configuration). So the ""collection"" and ""storage"" of them is done via the git CLI (Command Line Interface), using the `git config` mechanism. This `git config` mechanism has an inheritance structure, with a base `global` configuration that it usually stores in the user's profile or home directory and with a repository-level configuration that is stored with the repository directory itself. It uses the repository-level config for repo-specific things, as well as overriding any corresponding global configuration.  Because of this _already existing_ git CLI architecture, I spent my (unpaid ;) time and effort ""diving into the code"" to highlight the pertinent areas of the vs source code base. Git does the ""managing"", and there is no ""template picker"". The template is a file that you point your git repository at via git config.   Now **snippets** (which are not the same thing as _templates_ in vs and git parlance) could provide a more dynamic functionality for when the user wants to type a commit message, thus ""picking"" a ""template"" (in the more general sense of the term). But snippets don't seem very feasible in the near future without being a hack. But the _template_ is just a configuration setting that you would read to pre-populate the `InputBox` (if the template exists).  As an aside, this GitHub issue, and the words and such-like contained therein, is all about **not** diving into code but talking about it! :droplet:"
+27091|and it: https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext
+27092|@johnfn please try the following: - open a terminal and print your environment (e.g. by using `env`) - in VS Code open the Development Tools (<kbd>F1</kbd>, `Developer: Toggle Developer Tools`) and type `process.env` in the console and expand the Object.  Now compare both environments (especially the PATH). In theory they should be (almost) the same because VS Code tries to import the environment that you get in a terminal into the VS Code environment. If you see big differences then we have a problem...
+27093|"My info.. this is what I see:  In terminal from env: PATH=/Users/John/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin  In VS Code, in dev tools, from process.env: PATH: ""/usr/bin:/bin:/usr/sbin:/sbin"""
+27094|@joaomoreno it looks like our env copying code is not working properly?
+27095|How about trying to delete **all** copies of Visual Studio Code and trying all over?
+27096|"I'm not sure what this ""file watcher"" is, but all I know is using vscode with unity (in place of mono develop) results in a climbing cpu memory usage (electron helper) that becomes unbearable at a point. At that point, restarting vscode temporarily fixes the issue for me.  I'm assuming this bug is related to the issues I'm having.  What exactly does the file watcher do and is there a way to disable it? Would disabling it be a bad idea?"
+27097|"Yeah, I can take this.  #7644 had a similar issue. Throughout it, we figured out the root cause for the issue, with the help of the user. @jtsom I hope you can help me out as well. Can I ask you to paste this block of code into the Developer Tools in Code and let me know what you see?  ``` es6 const electron = ""/Applications/Visual Studio Code - Insiders.app/Contents/MacOS/Electron""; const cp = require('child_process'); const env = Object.assign({}, process.env, {     ATOM_SHELL_INTERNAL_RUN_AS_NODE: '1',     ELECTRON_NO_ATTACH_CONSOLE: '1' }); const command = `'${electron}' -p 'JSON.stringify(process.env)'`; const result = cp.spawnSync(process.env.SHELL, ['-ilc', command], {     detached: true,     stdio: ['ignore', 'pipe', process.stderr],     env,     encoding: 'utf8' }); const strip = s => s.replace(/[\u001b\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g, '');  try {     console.log(JSON.parse(strip(result.stdout))); } catch (e) {     console.log(e); } ```"
+27098|Thank you!
+27099|This is awesome, I didn't realise nor know that a commit template was already a _thing_ in git. It does make things much easier, sorry for not realising this earlier.  I think we have all the knowledge and tools necessary to start a PR on this. Your research was right on point. The remaining question is to know **when** to actually ask git _what the template contents are_ and thus populate the input box. I suggest to do it on startup and after every commit. Possibly also every time the git view shows up... we'd have to see.  I'd be happy to review a PR, if you're still interested. 🎆   PS: I didn't mean to put you down... I really appreciate your effort here and applaud your enthusiasm! 💯
+27100|Any change you could zip up the entire folder and send me?  Do you get these errors right on Code startup?

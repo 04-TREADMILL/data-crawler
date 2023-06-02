@@ -1,0 +1,100 @@
+19701|v1.9 not receiving ENV vars when opened from console
+19702|VSCode doesn't update to 1.9 on macOS Sierra
+19703|Create Docs Section on TypeDefinitionProvider
+19704|VSCode 1.9.0 breaks MSSQL extension - preview HTML pane never refreshes on
+19705|Default language-specific settings
+19706|vscode 1.9 breaks my syntax theme.
+19707|Provide a way to theme diff highlights
+19708|Interface Overview can be wrong after reordering Viewlets
+19709|TypeScript language service died unexpectedly 5 times in the last 5 Minutes
+19710|Cannot connect to runtime process
+19711|VSCode freezing/hanging when trying to indent improperly formatted rule in .less file
+19712|Find and replace capture group/backreference inserts `undefined` instead of empty string
+19713|User settings warnings in workspace settings file do not show immediately after saving
+19714|command 'extension.togglecodeinline' not found when attempting to toggle integrated terminal with ctrl + `
+19715|No tasks found (gulp file autodetect no longer works)
+19716|multi-cursor editing bug
+19717|Markdown preview doesn't fill editor
+19718|Powershell is the default and the only terminal from VSCode when using the new 1.9.0 version of vscode.
+19719|Change Zoom / font size on a per window basis
+19720|Git not working in visual studio code.
+19721|Add action to show inline all diagnostics in file.
+19722|process.stdout.write calls don't show in the console from node2 debug sessions
+19723|Can't override cmd+enter in terminal
+19724|[Feature Request] UI Theme vs Syntax Theme
+19725|Extensions not loading
+19726|"""window.menuBarVisibility"": ""hidden"" fails after restart"
+19727|After update to 1.9.0
+19728|Reordering tabs takes file out of preview mode
+19729|Ordering of items in command palette is not as expected
+19730|Setting a terminal by workspace settings is broken! User settings are not sufficient!
+19731|UI Bug
+19732|[css] autocomplete adding an extra '-' when autocompleting
+19733|Cannot reliably open a folder from CLI with `code .`
+19734|Restrict quick open file to project files
+19735|Some Unicode characters like ß not working in terminal
+19736|characters don't repeat when `ApplePressAndHoldEnabled` is on
+19737|make renderMarkedString properly handle language='markdown'
+19738|Extra characters being rendered in terminal
+19739|Support TFVC
+19740|VSCode is quite slow to start
+19741|Switch from tslint's no-unused-variables to tsc's noUnusedLocals
+19742|terminal.integrated.commandsToSkipShell is unintuitive
+19743|Fix #19769 - adopt typescript's noUnusedLocals
+19744|Yellow lightbulb always asking to add include path
+19745|Empty launch.json causes files to take a few seconds to save
+19746|Theme & theme extension problem in 1.9
+19747|Launch another window via --new-window-if-not-first appears to be broken
+19748|When on Fullscreen, Alt + tab makes the screen blink
+19749|Menu Bar Resets to Visible When Reopening Window
+19750|window.menuBarVisibility setting is not respected on restart
+19751|Allow MarkedString in CompletionItem details and documentation
+19752|error
+19753|Update from Original
+19754|Goto symbol in workspace ignores methods in prototype object
+19755|Improve concurrency of git commands
+19756|WHERE is NORMAL COMMAND PROMPT in TERMINAL?
+19757|ghci in integrated Terminal doesn't go to newline on reaching line width limit
+19758|Debug Console panel font cannot be changed
+19759|Space leading trail should be enabled by default
+19760|workbench.action.terminal.runSelectedText w/PowerShell inserts extraneous >>
+19761|Preview does not work well
+19762|openFilesInNewWindow is off, but always without effect
+19763|Cannot read property 'length' of undefined
+19764|Configure Recommended Extensions (Workspace)
+19765|Possibility to open debugger in new window
+19766|Braces/brackets/parentheses matching is slow on big files
+19767|"warning of ""typeScript language service abort 5 times in last 5 minutes"" show repeatedly"
+19768|"Problem with translation of the new ""Output"" tab"
+19769|"The message ""The TypeScript language service died unexpectedly 5 times in the last 5 minutes"" keeps flickering above my file tabs all the time."
+19770|Node debugging does not work after update
+19771|The TypeScript Language Service died unexpectedly 5 times in the last 5 minutes flickering above the file-tabs all the time
+19772|When a file is modified by extensions , it loses the undo history.
+19773|The TypeScript Language Service died unexpectedly 5 times in the last 5 minutes flickering above the file-tabs all the time
+19774|Markdown preview scrolling not working in v1.9.0
+19775|The TypeScript Language Service died unexpectedly 5 times in the last 5 minutes flickering above the file-tabs all the time
+19776|The TypeScript Language Service died unexpectedly 5 times in the last 5 minutes flickering above the file-tabs all the time
+19777|Size of the Side-Bar keeps resetting when resizing the window
+19778|Suggested commands have a weird sort order
+19779|The TypeScript language service died unexpectedly 5 times in the last 5 minutes
+19780|Block cursor is not rendered properly (visual glitches)
+19781|Cannot refactor - File not found
+19782|`showOutput` setting is not respected anymore if a build task is programmatically started when an extension is activated (appeared in 1.9)
+19783|How to find all references / peek definition / go to definition work across whole project ?
+19784|Html code formatting not working for angular Projects
+19785|[html] embedded Javascript gets corrupted on format
+19786|在过去五分钟内，TypeScript语言服务以外终止了5次
+19787|Terminal input broken for Julia
+19788|Extensions not working, C# not recognized
+19789|Support more than one running tasks
+19790|Release Notes tab always reload its content on tab focus
+19791|Write diff editor inline/side-by-side preferences to user settings
+19792|completeFunctionCalls does not work properly with commit characters
+19793|preLoadTask for a task
+19794|Questionable use of QuickPick as a confirmation dialog or alert
+19795|Terminal closes immediately on macOS
+19796|[Feature Request] Make it easy to create file or folder in the root directory
+19797|Request for Ctrl+D (find next): if no text is selected, find next whole word; if selected, match all occurrences instead (like in Sublime)
+19798|Undo history is gone if currently opened file is edited by external application or extensions.
+19799|Window scrolls while selecting text, causing selection to jump
+19800|Autofix doesn't handle cursor/selection correctly

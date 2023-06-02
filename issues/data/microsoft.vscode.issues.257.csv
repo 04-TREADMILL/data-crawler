@@ -1,0 +1,100 @@
+25601|model.findMatches is called twice for local matches during a search
+25602|Tomorrow Night Blue - Status Bar Text Not Legible in Debug Mode
+25603|Tomorrow Night Blue - Debug Widget Needs Blue
+25604|"C++ highlighting fails detecting quotes like '\""' or single "" in comments"
+25605|"UI Themes: Should Have option/""old base grayscale"" UI themes"
+25606|Error: Illegal value * for `lineNumber`
+25607|Resizing Bottom Panel Does Not Trigger Request For New Code Lenses
+25608|Ooops and Oops
+25609|Keyboard Shortcut incorrect on British keyboard
+25610|Question: Plugin for PHP class auto-use?
+25611|Grunt task detection fails silently when grunt is not installed locally
+25612|View: Show SCM displayed twice in Command Palette
+25613|Feature request: Remember UI state for search panel
+25614|Single step in debugger collapses all variables being watched
+25615|"Debugger does not support ""Move to line"""
+25616|"Windows Narrator: Inappropriate announcement for text in ""select additional"" window while installing Visual Studio code."
+25617|[icon themes] Hide sidebar's Tree View/Explorer arrows
+25618|If there are more than one c++ files having the same file name under different folders, setting break point (gdb backend) in one of them may fail.
+25619|Monokai Color fixes and adds
+25620|Allow auto-close quotation marks per file type and global
+25621|cannot resolve the markdown.
+25622|Docblock editor not expanding when asterisk is not preceded by a space.
+25623|Request: Ability to write snippets in yaml.
+25624|visual studio code doesn't work offline, works only when im connected to a network
+25625|broken integrated terminal display
+25626|Terminal panel is not properly restored after restarting
+25627|[Feature Request] Custom background image without any extensions
+25628|Git icon keeps refreshing when 2 projects open sharing git parent
+25629|Provide a command to close all unchanged files
+25630|Typescript error : shell.ts:475 Cannot read property 'on' of null
+25631|Formatting: space is not added in parenthesis with arrow function
+25632|Source control doesn't detect changes when changing from symlink to normal file
+25633|host_name() in SQL Server Vnext in Visual Studio Code returns NULL
+25634|Incorrect size of Markdown preview when non-zero zoom level
+25635|Side-by-side preview of Markdown should close when switching to non-markdown file.
+25636|SUGGESTION: make types in comments colorized
+25637|CDATA sections in XML files not collapsed properly
+25638|Tooltips on imports are useless
+25639|Is it possible to run multiple commands with Shift+Ctrl+B?
+25640|Inline snippets should have lower precedence then actual properties if no match.
+25641|on ctrl+d not recognize case sensitive
+25642|request keyboard shortcut to navigate quickfix
+25643|Code launches but won't open code files.
+25644|command palette sort order weirdness
+25645|Add setting for sidebar visible
+25646|highlight newlines decorationOptions
+25647|Focus follows mouse
+25648|how to go to definition with react className attribute
+25649|Content of editor window jumps up and down when markdown side-by-side preview is open
+25650|Cannot get extentions with ./script/code.sh
+25651|Failed at stage: downloadPackages
+25652|Update php language package
+25653|Folder name does not change
+25654|Provide a command to close all unchanged files
+25655|pug auto compile: WebStorm and Atom plugin
+25656|VS Code Needs an Extension Blacklist
+25657|Find out what extension is causing what behavior
+25658|Add command to install an SCM provider to the Switch SCM Provider menu
+25659|Preventing duplicate tab close when doing a middle click
+25660|search: ? of 2
+25661|Adopt TS 2.3.2
+25662|Windows: dropdown selector empty after reload of window
+25663|SUGGESTION: improve CSS coloring for all themes
+25664|disabled extension causes overridding extension to not load (even after uninstall)
+25665|Shortcuts like ctrl+s, ctrl+c, ctrl+v etc does not works
+25666|Git version control can't interact with repos that are already local on the machine.
+25667|Arduino library by Microsoft is not listed in this repo or on GitHub
+25668|Can't set port or board to upload Arduino code to
+25669|Unable to Uninstal extensions
+25670|"Search in files is not working well with ""Match whole word"" and some symbols (e.g. $)"
+25671|YAML language mode for `.stylelintrc`
+25672|Does not kill processes spawned by plugins, even after uninstall
+25673|Would love to be able to fast-project-switch
+25674|showInputBox overwrites input with initial value when input is empty string
+25675|ANSI character set
+25676|"JSON from settings.json suddenly appearing in a document when pressing shortcut with ""Cmd"""
+25677|"Assign ""hover over tool-tip"" to a  keyboard combination"
+25678|Extensions: Command callback arguments are getting harder to deal with
+25679|cannot to disable the tab close button when turn off show tabs
+25680|WIP: 23797 git manage ignore files
+25681|Linux
+25682|Add commit + push key combination in the git panel.
+25683|TypeScript version not shown
+25684|New feature to switch to the last focused editor tab
+25685|Feature to assign a particular file name to appear first in a directory listing
+25686|Copy Paste shortcuts don't work at search text fields.
+25687|"""Split Editor"" function needs a modifier or alternative function"
+25688|Please make it possible to just close error messages/warnings. They hide the tabs!!!!!!!!!!
+25689|Viewing installed extension version
+25690|Files opened with untitled scheme are closed on save.
+25691|gitignored items not excluded from search
+25692|#10542 Ability to merge local git branches
+25693|TypeScript switcher -> show current version on the same line
+25694|restart to update issue
+25695|Add option to start vscode in Zen Mode
+25696|enhancement - add (google) sign in to restore previous install plugins to hot swap dev environments (like chrome)
+25697|Crashes instantly on startup - Error: EACCES: permission denied, mkdir (macOS Sierra)
+25698|[js] 'type aliases' can only be used in a .ts file
+25699|Installing extensions is broken for shared VS Code installs
+25700|Support refactoring commands provided by TS Server

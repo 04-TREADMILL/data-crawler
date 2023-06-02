@@ -1,0 +1,100 @@
+25901|View is flickering when scrolling
+25902|Ctrl + mouse scroll zoom in & out
+25903|C# Snippets do not work after update to 1.12.0
+25904|Code Commenting Doesn't Uncomment Block Comments
+25905|cursorMove to viewPortBottom should not scroll
+25906|VSCode, PlatformIO and AVR: Header files not resolved correctly
+25907|autosave
+25908|Breakpoint still shows as unverified despite hitting it
+25909|"editorScroll command should support ""left"", ""right"" by ""character"""
+25910|CodeLens increments references every time a file editor is opened
+25911|Customize Files and folders' order in Explorer
+25912|GitHub credentials aren't saved when prompted from vs code
+25913|Old version of extension not replaced properly during update
+25914|Setting to change color/opacity of indent guides
+25915|sudo dnf update code, not updating to v1.12
+25916|Setting to change the color and opacity of whitespace characters when made visible…
+25917|TypeScript: Tooltip not registering recursive type
+25918|TypeScript: Unable to type class constructor with destructured params
+25919|Typing the beginning of a JSDoc comment no longer picks up method arguments
+25920|C/C++ extensions fail to install
+25921|Ctrl - Hover popup definition dissapears when cursor moved inside popup
+25922|Twig native support?
+25923|PopClip can't work on vscode terminal  in MAC
+25924|"It's easy to use ""Multiple cursor"" ,but autocomplete not working correctly  & how to remove one of the cursor ?"
+25925|UI Theme Add: select-box(drop downs) selection and hover colors
+25926|[themes] Text selection color (find, search, etc)
+25927|UI rendered VERY LARGE
+25928|Win 10 - the layout of VSCode panel is out of order after Windows was upgraded to version 1703
+25929|The latest version of the custom code snippet does not work~
+25930|希望可以一个窗口打开多个项目
+25931|This update switch statement has bug
+25932|now vscode can change file from dos to unix?
+25933|terminal bug
+25934|Added Enabled View to Extension Viewlet
+25935|Using CLI to uninstall extension without uninstalling its dependent extension
+25936|Hi, I am using Lenove laptop with high resolution, but when I open VSCode explorer icons looks very small, it is very difficult to use this editor in high DPI systems.
+25937|Launching speed (not an issue but a kind note)
+25938|.ejs template file not formatted  use alt+shift+f key.
+25939|Customize the Application Icon
+25940|Support new extension #25709
+25941|Clean Up JSDoc Completion Provider Implementation
+25942|扩展主机意外终止。请重新加载窗口以恢复。
+25943|Allow changing a SourceControlResourceGroup's label
+25944|Markdown Preview - Undocumented change?
+25945|"The ""Color Theme"" Affects the Color of Integrated Terminal"
+25946|[theming] Separate workbench theme and syntax theme
+25947|"Support opening a file via the CLI starting with ""file://"""
+25948|How I can rename my theme extension
+25949|"Remote debug throws ""[node-debug2] Error processing ""attach"": 'Schema.getDomains' wasn't found"""
+25950|MacOS Sierra Window Tabs doesn't work on vscode 1.12.1
+25951|Integrated Terminal links with mixed styles don't work
+25952|Terminal output is not well arranged
+25953|VSCode typechecking mars react syntax as invalid
+25954|Duplicate line numbers in gutter in Git diff view
+25955|Code doesn't recognize linked modules in node_modules (using pnpm)
+25956|output channel confuse location when there are multiple vscode window
+25957|"""PATH"" are not set if open the app directly"
+25958|JSDoc comment no longer picks up method arguments -onEnter keybinding condition must honour additional text, command, and snippet type
+25959|Mark Completion Items with Command as MakesTextEdit
+25960|update new VSCode 1.12.1.
+25961|Terminal: link detection fails for WSL paths
+25962|Maximum call stack size exceeded on JavaScript file format
+25963|Feature request: Don't remove search results when text is changed?
+25964|[css] /deep/ selector is still broken (scss)
+25965|Allows conflicting key bindings
+25966|workbench.action.navigate strange behaviour
+25967|Error when running the debugger
+25968|Show ahead/behind indicator while git syncing
+25969|CheckJS marks global variables and text in comments
+25970|Search exclusion broken ?
+25971|UI: Use em dash (—) as window title separator on macOS
+25972|Automatic insertion of parens doesn't interact nicely with completions, results in duplicated characters
+25973|Terminal bug after VS Code is reopened
+25974|Unable to write settings on VSCode 1.12
+25975|[jsx] Show correspond html close tag when click on start tag
+25976|"javascript: ""Unreachable code detected"" should be a warning"
+25977|'editor.lineHighlightBorder' not working if lineHighlightBackground is set
+25978|Release Notes window just shows headings
+25979|Open Editors view doesn't react on mouse clicks
+25980|Reference search broken?
+25981|clicking the files under OPEN EDITORS does not come upto focus
+25982|workspace settings are not respected for terminal.integrated.shell.windows.
+25983|no 'when' context when in Zen mode
+25984|Powershell auto-complete not displaying if line starts with <
+25985|Ben/next
+25986|Merge in translations
+25987|Cannot make the completion item to overwrite further than the current identifier/token
+25988|32Bit Linux VS Code Distributed With libjunixsocket-native-2.0.4.so Built For 64Bit amd64
+25989|Allow styling of the sidebar disclosure triangle icons
+25990|window.zoomLevel should affect the menus
+25991|Alt-Tab Display Corrupted on Linux Centos7
+25992|Typescript died upon attempting to view release notes.
+25993|Git: open file in diff view title bar should always open in the same editor group
+25994|`git.countBadge` `tracked` should only omit unstaged unknown
+25995|how to add java json jar to visual studio code
+25996|Window Menu Font Sizes Too Small (<6)
+25997|Syntax highlighting broken for embedded languages other than JS in html script tags
+25998|Terminal: Unicode characters in or near linkified text are causing links to be duplicated
+25999|[Feature Request] CheckJS configure NODE_PATH variable
+26000|Preview on Git diff seems to work incorrectly

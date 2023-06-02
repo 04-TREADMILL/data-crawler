@@ -1,0 +1,100 @@
+16101|How to display main keymap shortcut in empty entry area (see attached image)
+16102|Integrated terminal up and down arrow keys with bash on ubuntu on windows
+16103|File tree in Explorer creates some confusion
+16104|Log errors from feature providers as external
+16105|inline values as decorators when debugging
+16106|Watermark should hide when size becomes too small
+16107|Telemetry not being disabled
+16108|Autocomplete on HTML element selector adds double colon
+16109|Double output words when switch chinese input to english input
+16110|Table row gets broken when using back-quoted backslash(\)
+16111|Debugger - Cannot connect to runtime process, timeout after 10000 ms - (reason: Cannot connect to the target: Parse Error).
+16112|Settings file lack intellisense
+16113|CSS auto completition isn't working
+16114|Git: dirty diff lost when switching back and forth in file
+16115|Completions in repl should work even if program is not paused
+16116|/usr/bin/env: ‘ruby_executable_hooks’: No such file or directory
+16117|Edit a file using Vim in the terminal of VS Code cause the terminal hang
+16118|Freezes when select some lines in a HTML file
+16119|Breakpoints not hit when attaching to a language server
+16120|Find regex too greedy
+16121|Default Dark Theme highlight issue
+16122|Visual Code should reopen files that was closed when reloading
+16123|Test: View Picker
+16124|Javascript syntax colouring bug
+16125|Debug console: some output appears in red if it shouldn't
+16126|Format Code no longer available for JSON files
+16127|Remove getmac-dependency
+16128|Having the ability to move the tab close button to the left of the tab
+16129|[Intellisence] How to reference auto-fetched typings in my custom typings file?
+16130|Suggest widget glitch
+16131|Paste into multiple cursors has edge case when number of lines equals number of cursors - 1
+16132|Improved sorting criteria for extensions
+16133|JIS (Japanese) Keyboard Layout: Define Keybinding popup window shows wrong key
+16134|Cannot build VSCode from source following the 'How to contribute' instructions
+16135|Don't translate Markdown.category
+16136|Dynamic code evaluation for vscode hacking
+16137|Remove automatic new untitled file in empty workbench
+16138|Use better recognizable icons for keymap extensions
+16139|hover help is not available on attributes
+16140|IntelliSense does not work in tsconfig.json
+16141|Revisit strategy for picking an existing window when opening a single file
+16142|Filter file-based recommendations to those relevant to the file
+16143|Breakpoint area disapeared
+16144|Add extension to triggers for recommendations for PHP
+16145|Support building Flatpak application bundles
+16146|Cannot set breakpoints where I choose
+16147|Improve flow to get to a running debug session
+16148|Some SCSS items syntax coloring improperly scoped
+16149|Debugger and runTimeArgs order
+16150|Toggle codelens via key bindings command
+16151|cast highlighting inconsistent across many themes
+16152|Powershell write-output does not write to debug console
+16153|Extract markdown setting strings  for localization
+16154|Extract Html Extension package.json Strings for Localization
+16155|Extract Css Extension package.json Strings for Localization
+16156|Extract Json Extension package.json Strings for Localization
+16157|Can't focus on menu Bar using alt+anything
+16158|Extensions don't work on Win10
+16159|Extract settings strings in html extension
+16160|Extract settings strings for Localization in css extension
+16161|Use enum for Markdown.previewFrontMatter setting
+16162|Extract Json Extension package.json Strings for Localization
+16163|Fix #15765. Update textarea state even if there is no selection change in composition
+16164|Use enum for markdown.previewFrontMatter setting
+16165|Cannot read property 'fsPath' of null
+16166|Avoid reloading Html Preview window when changing tabs
+16167|VIM emulation - Ctrl-o in insert mode does not work as expected
+16168|Give user access to a stylesheet for the editor.
+16169|Special keys don't work as shortcuts in dvorak layout
+16170|Expose IBackupFileService interfaces to get lists of backed up files
+16171|Terminal inputing's issue
+16172|themes.dark+: Highlight keyword operators
+16173|React JS Files Autoformating Issue
+16174|introduce shutdown reason (fixes #15509)
+16175|Color update: title, activity bar, status, tabs, panel (#16001)
+16176|Improvement: Own git tracking for each branch / marking files
+16177|Find in files issue
+16178|How to edit Comment Line style
+16179|Option to stick output to bottom
+16180|Themeing for editor squiggles background
+16181|JSON completion breaks syntax
+16182|tmTheme highlighting issues in vscode (Material Theme)
+16183|connect ETIMEDOUT
+16184|"Test: ""Just my Code"" feature of node and node2"
+16185|open VSCode from task bar using right click
+16186|Add support for printing variables from the debugger sidebar
+16187|Use XmlHttpRequest when making requests from a renderer
+16188|JSON should not replace ${workspaceRoot} as a snippet insert value
+16189|JSON should automatically insert a comma after a snippet
+16190|Test: snippets in launch.json
+16191|Bugged Highlighting in Javascript in all '(default ...)' Themes
+16192|Update Config giving error unknown key
+16193|All characters are invisitable.
+16194|JavaScript Syntax highlighting bug when having forward slashes and parentheses
+16195|end of central directory record signature not found
+16196|Code folding gets confused when code isn't properly indented
+16197|Parameter Hints shown inline all the time (like IntelliJ)
+16198|Better highlighting on errors to spot them faster
+16199|Untitled files restore badly with associated file path when bypassing stacks restore
+16200|Consider removing full screen toggle from Zen Mode

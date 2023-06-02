@@ -1,0 +1,100 @@
+14601|format json adds an additional empty line after selection
+14602|Integrated terminal should trim whitespace from copied lines
+14603|Update menu when reassigning keybindings or installing keybinding extension
+14604|Fix Fenced Code Syntax Highlighting in Markdown Leaking
+14605|Tmux in integrated terminal ignores mouse scroll events/shits itself on selection events
+14606|Stack traces function names are always off by one?
+14607|Cant add User Snippets to cshtml files
+14608|.asar file comes and goes
+14609|Windows 10: VS Code doesn't open
+14610|Extension activation fails as `env` is null when restoring VSCode
+14611|When I change the HTML files in the vscode, preview will not change
+14612|Improve Markdown Syntax Highlighting of Nested Lists
+14613|save failure
+14614|Automatic Update Not working
+14615|Menu stays open after ALT + F in fullscreen mode
+14616|Add a setting to bypass recycle bin or detect if recycle bin is supported
+14617|Missing command to open errors / warnings window
+14618|VSCode keep not responding when opening large project/files
+14619|Alt + Shift + O does not work to type Ó in Polish Keyboard
+14620|how to make the font italic
+14621|Debug: breakpoint gets deleted when removing leading whitespace
+14622|Variable not showing up in this case
+14623|Wrong usage of fs.utimes
+14624|Build on Ubuntu gets stuck after monaco.d.ts generation
+14625|Repl cursor at position 0 is cropped
+14626|Is there a way to hide tabs?
+14627|Repl console height is off
+14628|Extension throws 'not found' error for commands after publishing.
+14629|Add variable to tasks.json for foldername
+14630|Emmet not working on multi-line editing
+14631|[macOS] Add support for the touch bar in the new macbook
+14632|Unable to uninstall this extension
+14633|EH debugging: after reloading the EH window breakpoints no longer verify
+14634|Scientific linux VScode install fail glibc version and libXss.so.1
+14635|editor.action.smartSelect.grow does not work with inputs in the editor
+14636|Binary files being opened in staged diff view throws
+14637|"Git: creating new branch shows ""master"" still"
+14638|Strange default pick of Intellisense
+14639|Comment shortcut in SCSS now using CSS style comments
+14640|[file icons] Adding default fileicon support to language contributions
+14641|Isidorn/next
+14642|jsdoc typedef (strange behaviour)
+14643|[html] Provide a Jinja2 template file formatter
+14644|In built Kimbie Dark theme is broken for Typescript files
+14645|Format on Save, makes JSON file growing more and more
+14646|SignatureHelp below IntelliSense window
+14647|JSON snippets show up twice in package.json intellisense
+14648|Lagging Scroll on Surface Book Touchpad
+14649|Unable to see some files/folders in visual code explorer
+14650|Error installing extension behind corporate proxy
+14651|Unable to get installed npm package completions via IntelliSense
+14652|Provide workbench.action.closePanel for keybindings
+14653|Keep previously opened files when opening a single file instead of clearing all files
+14654|OmniSharp invalid CIL
+14655|No discoverable way to turn off a task in vscode once its started
+14656|Implement tab close button configuration.
+14657|Intellisense in package.json shows packages inconsistently
+14658|Debug adapter type traceability
+14659|"Include debug adapter ""type"" on extension ""contributions"" page"
+14660|Empty box in package.json intellisense
+14661|Build fails on a clean clone of repo with SyntaxError: Unexpected token
+14662|Stack trace doesn't show up (in a very specific case)
+14663|launchservicesd CPU usage on MacOS Sierra
+14664|Bash syntax defect
+14665|vscode output and console  accented
+14666|JavaScript use strict
+14667|html editor cant beautify some code
+14668|Hot Exit: Untitled files with no content should be restored
+14669|Fail to launch integrated terminal in a folder its name contains a non-ASCII character
+14670|Bad screen partial repaint issues making VSCode very unpleasant to use
+14671|VSCode is wiping out my search
+14672|navigator in open panel
+14673|CTRL + ALT + ENTER not working to Replace All
+14674|half of code in html file has lost syntax coloring
+14675|Viewport for Extensions doesn't scale on high resolution displays
+14676|import completion should not triggered by dot
+14677|Feature request: lock ranges of the TextEditor
+14678|vs
+14679|Terminal's sendText adds extra empty lines in CRLF mode on Windows
+14680|Better java, gradle support
+14681|Code formatting doesn't work on long lines with commas.
+14682|VSCode Main Window is blank
+14683|Notify the user that backups exist but have not been restored if the folder to be restored no longer exists
+14684|Wrong underline for src link in script tag
+14685|KeyBinding warning
+14686|Hitting backspace doesn't move cursor to previous indent column.
+14687|express static folder and go to definition
+14688|Add an option to confirm before quitting
+14689|Debug widget doesn't show up until successful attach
+14690|Powershell Plugin - Inconsistent Debug Console Output
+14691|gith
+14692|Add go to declaration or function
+14693|Variable readonly -> readOnly
+14694|Lag when scrolling with Trackpad on Dell XPS 13
+14695|add setting to open folders in a new window, fixes #371
+14696|Add option to prevent same file opening twice
+14697|Sections in Debug Viewlet not preserving height
+14698|Unable to Remove Binding for Workbench ZoomIn and ZoomOut
+14699|"If you modify the ""editor.lineHeight"" setting, multiline tooltips will overlap"
+14700|Array preview shows item count as first item and drops last item

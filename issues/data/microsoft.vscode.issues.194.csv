@@ -1,0 +1,100 @@
+19301|Can't kill the vscode build task
+19302|Change TypeScript Configuration Flow For workspacesTrustedToSpecifyExecutables
+19303|JS -> TS sourcemaps aren't working for me when debugging tests
+19304|"Using ""window.newWindowDimensions"":""inherit""  with FullScreen Editor on OSX Does not Open FullScreen on Second Monitor"
+19305|Node debug Print of Function Object generates errors for `arguments` and `caller`
+19306|Cannot Expand Thrown Errors in Node Debug Console
+19307|Debug console using integrated terminal should not run under the user defined shell
+19308|typescript formater randomly adds and removes spaces
+19309|"Incorrect Comment Highlighting for ""ini""."
+19310|[WelcomeUX] Walk-through: Use Git or SCM commandId depending on SCM preview
+19311|[Enhancement Request] Remove specific sub-folder from Explorer
+19312|Markdown Preview: Links to markdown files in the workspace should also open in the preview
+19313|Support untitled JS and TS format and suggestions
+19314|Editor does not properly update folder structure when changing to different git branch
+19315|IntelliSense not working when using absolute import paths
+19316|Fire change event when References code lens is enabled/disabled
+19317|Red Theme no longer applies fully
+19318|API: Allow disablement for contributable menu commands
+19319|node-debug should also register for javascriptreact, typescript
+19320|Richer `files.exclude` config options like 'hide' or 'grayOut'
+19321|Allow users to do copy paste in the integrated terminal using ctrl+c, ctrl+v
+19322|introduce 'default' for menu bar visibility
+19323|Feature Request [Editor] [Preview] with different Themes
+19324|Markdown: editing our 1.9 release notes flickers more than before
+19325|Get rid of updateEnablement in debugActions
+19326|Unable to create 'launch.json' file inside the .vscode folder
+19327|Wording tweak to openFolderInNewWindow setting
+19328|Share word matching between hover and inline values
+19329|Auto suggestion dialog moving up & down as I navigate between suggestions
+19330|inline values do not work with mono-debug
+19331|Showing compilation error for Observable.delay() in rxjs 5.0.1
+19332|Clean all and Stage all options should be disabled when there are no changes
+19333|inline values: debugger UI holds onto some state which confuses future debug sessions
+19334|Scroll lock icon does not fit with the rest of the icon set
+19335|Git Pull command is not working
+19336|Warning in default settinsg
+19337|inline values do not work in mock-debug
+19338|Reconnect doesn't pass on the added skipFiles argument
+19339|Git: status bar after window reload is gray first, then white?
+19340|Git: I can commit without typing any message
+19341|Opened editors: right-click on close button invokes close
+19342|git-bash integration truncate some multiline command outputs
+19343|Code action provider not called on initial open
+19344|Allow to copy the name of a file
+19345|[WelcomeUX] Layout glitch after opening from tabs
+19346|Find widget is not showing options for reg ex, match case, whole word in high contrast theme
+19347|Run Selected Text in Active Terminal should not execute when nothing is selected
+19348|Black rectangles which disappear on hover-induced repaint
+19349|Explorer refresh not working for folders with same prefix
+19350|Integrated terminal's width not adjusted correctly when window is maximized
+19351|Split Command Terminals
+19352|HTML comment
+19353|Reveal in explorer context item is confusing on Windows
+19354|Tab file path truncation of files in folder root should show `.`
+19355|The refresh button in left side bar (EXPLORER) is not working properly. When click, it doesn't refresh!
+19356|Consider make tab file path truncations for paths out of the folder show the drive/root
+19357|Lose terminal scrollback after resizing in vim
+19358|VS Code insiders breaks C# and C++ debuggers with 'Cannot determine executable for debug adapter' error
+19359|Fixes #18999 - Added .npmignore as a known file type
+19360|workspacesTrustedToSpecifyExecutables squiggles decoration is not updated when save
+19361|Predict undefined parameters' properties after first run in nodejs
+19362|Composed unicode characters break cursor motion
+19363|Background color not right for themes whose bgcolor is neither black or white
+19364|experimentalDecorators not recognized in vscode
+19365|Fixes #19194 - Added option to clear Terminal in Terminal Context menu
+19366|Fixes Webview reload Flickering
+19367|workspaces can't override settings for executables
+19368|Feature request: commandline argument to autoexecute debugger with given configuration name
+19369|"""press any key to close the terminal"" key is passed on to editor"
+19370|Files need to ignore hash/query portion of URIs and only check for fsPath
+19371|VSCode does not like inline CSS
+19372|Should panel toggle keybindings focus instead of toggle when the panel is not active?
+19373|Detect `const arrow function` as function
+19374|Background color for theme is not applied
+19375|Missing coloring on method parameter reference
+19376|Update Documentation for new Typescript Version Flow
+19377|HTML attributes not properly highlighted
+19378|Snippet insert expansion is incorrect in some cases
+19379|Quiet Light is very pink
+19380|Support workspace relative emmet ext path
+19381|[WelcomeUX] Log walk-through snippet interaction
+19382|VSCode 1.8.1 ships with insecure node.dll 6.5.0
+19383|Support In-Document links inside of the markdown editor
+19384|[WelcomeUX] Windows Hotkeys Color on Overlay
+19385|Inline debug - missing var
+19386|problems with the cursor when I press enter
+19387|Unsaved file - single file - debug
+19388|Cursor is black in dark theme
+19389|Update markdown-it version
+19390|Keyboard stops working after holding a key down in an editor
+19391|[WelcomeUX] Contrast is low in light theme
+19392|reindent lines break backtick strings
+19393|Make PHP binary location configurable in user settings only
+19394|Autocomplete / Intellisense stopped working
+19395|tsdk: changing TS version from status bar does not update it in the status bar
+19396|Make it obvious that the version details in the About box can be copied
+19397|Cannot read property 0 of undefined
+19398|Unable to debug using custom debug command
+19399|Inform the user that switching the used TypeScript version requires a restart
+19400|[WelcomeUX] Page is not scrollable

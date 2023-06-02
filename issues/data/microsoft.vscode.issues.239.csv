@@ -1,0 +1,100 @@
+23801|VSCode Insider: Unexpected Identifier problem while opening the app on MacOS Sierra
+23802|Focus returned to search bar after requesting next search result
+23803|Adopt menu service and commands for save conflict actions (for #23420)
+23804|"Ugly flicker in ""opened editors"" view when preview is enabled"
+23805|List: ugly flicker from time to time
+23806|Uncaught Exception (cannot start program on Ubuntu)
+23807|Update to electron 1.6.x
+23808|Search viewlet is not themed well in Quiet light theme
+23809|Detect if running on battery and force blinking cursor style when doing so
+23810|'Open Extensions Folder' command opens upper folder to 'extensions'
+23811|"Make ""files to include"" box multi-line."
+23812|Calculate extensions table limit with respect to URI length
+23813|Pause fancy blinking after 10 blinks
+23814|"Small fix for Italian ""Go To Bracket"" command"
+23815|[c++] grammar in endless loop
+23816|Language mode switches to 'Plain Text' if the file is not saved
+23817|Font changes if editor contains a special unicode code point
+23818|[themes] simpler way to create and edit themes
+23819|git diff bug
+23820|VSC freezes X on verifying git SSH fingerprint
+23821|Configure 846147  link
+23822|Problem formatting document or formatting selection in html (select and option tag)
+23823|debug javascript , Object.defineProperty have a problem
+23824|Function/ method level searching is missing. like in netbeans or geany
+23825|Hours after closing all VS Code windows, the process still eats ~18% CPU
+23826|Error
+23827|[less and scss] inner media query can't understand lines which begins with `>`
+23828|about files.encoding：can you make this setting brush-fire。or build a file to recode each file‘s encoding!
+23829|Scrolling horizontally doesn't work in in Electron@1.6.5 build
+23830|There's no way to refresh new files/directory
+23831|Right clicking on a portion of the terminal that is not selected sometimes drops selection
+23832|Replace old vscode icon to match new Visual Studio 2017
+23833|Improve the syntax highlighting for ShellScripts (sh bash scripts)
+23834|File Word Wrap disabled as soon as you leave the tab
+23835|"[Insiders] SCM: ""..."" menu has too much left padding"
+23836|Consistent highlighting of puctuators in ts/js return types
+23837|Bug with CSS color squares when moving line up
+23838|Provide a mechanism to automatically syntax color files that lack an extension
+23839|Invalid Regular Expression when Searching for super long input
+23840|Some C++ navigation commands are broken on my machine
+23841|Handle typesInstallerInitializationFailed events
+23842|Add restart TypeScript Server logic
+23843|Let the widgetactions debug UI reflect the state of a focused thread
+23844|[SCM] git is missing in last few insider builds
+23845|"Add extension context state as source for ""when"" clause contexts"
+23846|"""launch"" tag not recognized in settings."
+23847|theming - use flex for tree actions to avoid background color duplication
+23848|Use product.commit as filename for cached data
+23849|Handlebars comment issue
+23850|Alert before quit when no files in workspace
+23851|Dynamic launch.json program javascript file
+23852|Add a setting to stop grouping the errors by file
+23853|onDidOpenTextDocument not triggering when changing active tab
+23854|Isidorn/action items lifecycle fixes #23822
+23855|some image urls can not be shown with <img> tag in both html and marksown
+23856|Save all with multiple tabs open populates all the open tabs with code from random opened file.
+23857|[regression] Searching for `$acceptDocumentsAndEditorsDelta` with whole words gives no results
+23858|Fix child_process event name typo in nodejs typings
+23859|Find in files files to include should override exclude settings?
+23860|Test Tour: Angular 2
+23861|cant open terminal
+23862|How to get back the HTML from previewHTML?
+23863|"Add missing import use package.json ""typings"" property"
+23864|COntrol-C kills vscode
+23865|Vscode node debugger not stopping on breakpoints when launching with nodemon
+23866|Program Icon
+23867|Option to keep file selected in sidebar without forcing a scroll
+23868|Feature: Filter by completion kind in intellisense
+23869|Explorer gets messed up when creating a new folder and scroll without typing anything
+23870|Quick & Easy Installation
+23871|Git Diff not showing the diff
+23872|文件夹打不开
+23873|When I select one area to delete, the chosen area won't disappear. This is not convenient.
+23874|共享进程意外终止。请重新加载窗口以恢复。
+23875|vsce readme image not showing up
+23876|终端格式有问题
+23877|Search tree: adopt templated rendering
+23878|Greater than 1000+ multi cursor typing replacement text appears inverted, lines begin to drop off selection.
+23879|Cannot debug Hello World NET Core application - dependent assemblies not found
+23880|On Save Cursor moves to the end of line
+23881|Release notes reloaded when switching between tabs
+23882|Support links that point outside of the workspace (output pane)
+23883|Icons for extensions don't show up
+23884|Move to ISO639 two-letter i18n mapping
+23885|No output when running `scripts\test.bat` on Windows
+23886|Symbol outline multi-line highlight is visually inconsistent when interleaved with code lens
+23887|Preview markdown icon too similar to git show changes
+23888|Go to Implementation talks about definitions
+23889|Go to Implementation highlights everything
+23890|Go to Implementation should be 'Find All Implementations'
+23891|Use diff3 for showing diff
+23892|"Allow for [Completion|Symbol]Kind modifiers"
+23893|Typescript language service died unexpectedly 5 times in the last 5 minutes
+23894|javascript format: disable insert space inside curly braces
+23895|Allow extensions to add new entries to the activity bar
+23896|Display search results in a tab instead of the side bar
+23897|"Typo ""Golbal"" instead of ""Global"" in Info message after saving Formatter Config"
+23898|"Make separate ""editor.tabsize"" settings for different languages"
+23899|debt - decouple app from main code
+23900|the ability to format typescript is easily lost.

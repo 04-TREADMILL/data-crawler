@@ -1,0 +1,100 @@
+8201|Test the VS Code CSS/LESS and SCSS Mode
+8202|CSS/LESS and SCSS in the Monaco editor
+8203|Markdown highlighting issue in nested lists
+8204|Extensions UI
+8205|No syntax highlighting for Unity
+8206|Unsaved file warning for deleted files inside a deleted folder
+8207|refactored serviceCollection
+8208|Lines containing unicode characters in integrated terminal differ in height
+8209|Default settings does not retain position in document when put in background
+8210|Update JSON Schema for JS and TS
+8211|Test: Integrated Terminal (June)
+8212|API: Support hyperlinks to code locations in MarkedString
+8213|Extensions: Show Installed Extensions command missing
+8214|"Tabbing out of global find should go to ""files to include"" instead of case-sensitivity button"
+8215|Cannot select text from deleted lines diff view
+8216|makefiles should always have insertSpaces:false
+8217|Opening a link in editor should focus opened browser & support filesystem paths
+8218|Standalone Editor
+8219|Multiline find
+8220|Font-weight is now numerically light. Fixes #6759
+8221|Indent guides
+8222|getWordRangeAtPosition does not respect word separator settings
+8223|API Request: Move Tab
+8224|Staging/Unstaging commands missing in Diff View with Tabs enabled
+8225|Git not installed, even when it's installed (NOT DUPLICATE)
+8226|When terminal is focused, selecting test in editor won't focus the editor
+8227|Tab color refinements
+8228|font-weight 300 on Mac for italic font styles
+8229|Window Title Not Instantly Updated when showTabs Enabled
+8230|Screen cheese when close all to the right
+8231|Tab DnD sometimes gets the wrong editor group as destination
+8232|Adopt platform specific CSS rules
+8233|Is there a quick way to jump into JS source code from TS?
+8234|Preview tab does not have a stable position
+8235|Tab should move focus from search to replace box
+8236|Markdown: Menu item references the same command as default and alternative command
+8237|Error: ...src/typescriptMain.ts(70,13): Property 'storagePath' does not exist on type 'ExtensionContext'.
+8238|Error: /Users/bpasero/Development/monaco/extensions/markdown/src/extension.ts(11,31): Cannot find module 'vscode-extension-telemetry'
+8239|Double click on debug bar could center it again
+8240|Add margin/padding to webview hosting extension readme
+8241|License links to completely empty webpage
+8242|fontLigatures is always true for Fira Code font.
+8243|Extensions: readme could have some margins to the left
+8244|Markdown: open preview to the side should be Ctrl/Cmd click, not Alt
+8245|Webview: sometimes loosing the scrollbar
+8246|Extension UI: introduce a small margin around the
+8247|Links look bad in dark theme in extension README
+8248|Markdown: coloring wrong after fenced code block
+8249|debug doesn't show completion
+8250|Extensions should be allowed to define a light icon and a dark icon,
+8251|Markdown: preview opens to the side when being opened from tab context menu
+8252|Changing the query should bring scroll to the top in extension viewlet
+8253|Markdown: links not colored when indented
+8254|Extension Images should be painted in the tree only once fully loaded
+8255|Markdown: shades of blue in dark theme when using lists
+8256|Initiating drag and drop from explorer reveals file or opens it in a preview tab
+8257|Test before and after decorator attachments
+8258|Reloading a window should restore the active viewlet
+8259|Wrong syntax highlighting with division on new line
+8260|Missing a global command to open markdown preview to the side
+8261|Markdown: navigating to local links jumps to source file
+8262|Unable to set an already defined variable to another variable
+8263|Markdown: hand cursor showing up in editor
+8264|Extension UI: don't apply themes to extension description
+8265|IPC library watcher spitting errors like crazy
+8266|Markdown: nested HTML not colored anymore
+8267|Do not show me a file if there are no results
+8268|Open editors list jumps after selecting an editor in the list
+8269|Wrong replace-one icon in HC theme
+8270|default launch.json talks about 'action.PickProcess'
+8271|Editor zoom sometimes acts too early and needs a way to get out
+8272|Markdown: default markdown.styles should not be null
+8273|Global replace all not very accessible
+8274|Keyboard accessibility: Ability to set the variable value by pressing Enter on the variable
+8275|Replace vs search background color difference too subtle
+8276|Custom markdown styles not working?
+8277|No variable substitution for env
+8278|Replace all button disabled when search box has focus
+8279|Extensions: styling is bad for links in markdown preview
+8280|Extensions: markdown preview links cannot be clicked
+8281|Process Picker to picky?
+8282|Problems: search filter box should show a icon to clear it
+8283|Tab title background should not be current line highlight
+8284|activationEvents.workspaceContains for directories
+8285|Problems: pressing ESC in filter box should clear filter box
+8286|Replace tree refresh feels a bit slugish
+8287|Uninstalling an extension should notify the user that a VSCode restart is required
+8288|Problems: double click on problem should pin the editor
+8289|Replace all as global editor action in replace diff view
+8290|Problems: allow me to navigate from filter box to error list
+8291|Replace mode needs more UX affordance
+8292|Staging dirty new or existing file removes dirty editor
+8293|Multiple Problem Matchers on same task clears out each other
+8294|Problems: Improve filter text
+8295|Extension UI mixes with editors
+8296|bad spacing for extension readme
+8297|extensions have split editor button which doesn't make sense
+8298|Inputs are oversized when zooming in
+8299|Too much empty space between terminal header and first line
+8300|Tab is not revealed if it is too large to fit

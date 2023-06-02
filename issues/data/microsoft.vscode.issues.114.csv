@@ -1,0 +1,100 @@
+11301|Stale image preview when updating an image file
+11302|Highlight the line for current search result
+11303|Rename input box drops down now
+11304|Mystery about recently opened menu and dock context menu
+11305|debug console: broken spacing
+11306|Remove whitespace and indent to the right spot when the line has more whitespace than necessary
+11307|Find match color is hardcoded at multiple places
+11308|Launching from command line disables ability to launch from shell
+11309|Terminal.show does not preserve focus
+11310|Typo in closeOnFocusLost setting comment
+11311|Correct docs for Hover.range
+11312|remote php.validate.executablePath
+11313|Emmet: Provide Intellisense for emmet settings that use a language Id
+11314|Syntax highlight large files
+11315|Indented code blocks in Hovers should use the correct language for the hover provider
+11316|Use a configuration object when creating terminals via API
+11317|Emmet: svg abbreviations dont work
+11318|The terminal IME composition view appears on top of text sometimes and keeps moving while typing
+11319|syntax highlighting broken for large(?) C++ file
+11320|Fix typo in doc
+11321|Provide a homeDir system variable for use in launch.json
+11322|VS Code delays file save operation
+11323|onDidChangeTextDocument Api timing issue
+11324|Add a quick intellisense navigation search to the explorer tab.
+11325|Typos in files.autoSave comment
+11326|Custom Icon for symbols
+11327|Command Line Options Not Working
+11328|git localization for index should not be translated
+11329|English versions of Terminal commands in command palette don't show up
+11330|Cannot add include path to settings.
+11331|Updated integrated themes indent guide colors
+11332|Rename symbol in single file only
+11333|Diff should show trailing spaces
+11334|<enter> in an empty debug console produces 'undefined'
+11335|Filename completion for imports?
+11336|Debug console tree twistie is misaligned
+11337|"""More Informaiton"" typo in new infobar"
+11338|Editor selection colors should be simplified
+11339|"Eagerly show tab or Preview Editor when using ""Quick open"""
+11340|Subproject adds don't always show up in the git pane
+11341|Allow to send feedback through other services than twitter
+11342|[UX] Indentation level unclear
+11343|Keyboard word selection does not include the space and is inconsistent with other editors
+11344|Issue with dynamic content providers and reference ui (and more)
+11345|"Can we at least have ""Do not show me again"" for this thing?"
+11346|When I write CSS, window is not responding
+11347|"""gotoSymbol"" failed in golang"
+11348|rebuild computer,and version back to 1.3
+11349|Stylesheet color preview display issue
+11350|Revert the code around terminal.integrated.fontWeight
+11351|The window is no longer responding when right-click to see the context menu without action on Windows.
+11352|Swapping places of elements between each other that are divided by an operator
+11353|Remove workerMainCompatibility.html #11306
+11354|change terminal to bash.exe, when press 'ctrl+`', open internal good, but not auto change directory to current work space
+11355|Implement PHP symbol search
+11356|Debug console is shown when launching Node application with integratedTerminal
+11357|Cannot read property 'getId' of null
+11358|build with node 6 to workaround VS 2015 update 3 issue
+11359|Debug: Twistie in hover tree is not properly aligned
+11360|Debug console appends output from different channels to seperate lines
+11361|"TypeError: ""Cannot read property 'getContainer' of null"
+11362|Cannot open .exe - Javascript Error occurred in main process
+11363|Quitting application and re-opening only persists one window
+11364|Debug: Hovering on same object is not moving the hover
+11365|[css] color decorators not showing
+11366|terminal screen cheese
+11367|delay `sendText` until terminal is ready?
+11368|Creating a terminal and sending text to it should not show it
+11369|Page-Up / Page-Down in git commit text box scrolls entire page
+11370|Autocomplete Doesn't works in any language.
+11371|Support word wrap in the diff editor
+11372|Close tags as you open them
+11373|ReplEditor sometimes does not relayout
+11374|Find widget needs better responsive design
+11375|Typescript extension throws when opening a single file
+11376|New macOS Icon
+11377|Feature Request: R language extension
+11378|Infinite loop when closing several tabs
+11379|Cannot read property 'charCodeAt' of null when saving untitled file in Makefile mode
+11380|Running commands as tasks
+11381|Brief `undefined` shows up when creating a new terminal
+11382|Poor highlighting of typescript code
+11383|Add an API to access the problems view
+11384|Light bulp still visible behind the F8 window
+11385|Website keybindings font issue
+11386|workspace.asRelativePath doesn't work for path outside workspace
+11387|workspace.asRelativePath doesn't work for URI paths
+11388|Collapse imports
+11389|Feature Request: Add Current Token to Keybinding Context
+11390|The window has stopped responding - Right Click in solution
+11391|F8 widget text doesn't update if diagnostics change while the window is open
+11392|F8 widget steals focus from document on every key press
+11393|Blank lines in Hovers are removed
+11394|tsc version mismatch more information button does nothing
+11395|Debug expand/collapse misalignement
+11396|VS Code doesn't show workspace after latest update
+11397|[json] JSON Schema intellisense markdown/jsdoc not parsing links anymore
+11398|"MAC Intellisence ""Tab"" keypress not selecting highlighted item (inserts regular Tab instead)"
+11399|Make errors descriptions more visually clear
+11400|Fix terminal exception when create new is called on uninitialized panel

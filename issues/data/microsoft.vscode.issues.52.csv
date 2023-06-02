@@ -1,0 +1,100 @@
+5101|Loading long strings while debugging is clunky
+5102|Add to watch for large Map/Set is undefined
+5103|Markdown indent code highlighting overrides HTML highlighting
+5104|Allow debug-actions-widget position adjustable and configurable.
+5105|VS Code Version 0.10.11 (0.10.11) - No intellisense available for razor
+5106|Missing provideDocumentFormattingEdits call
+5107|Introduce a Go problem matcher
+5108|#4746: adjusted the send a tweet's maximum character limit to accomodate hashtags and via @code.
+5109|node-weak is evil
+5110|Diff editor: Show encoding and eol differences
+5111|[Coffeescript] Fix coffeescript parse bug
+5112|Peek Window Refinements
+5113|Promote snippets over other suggestions
+5114|Get access to DOM event from tests
+5115|synax check error
+5116|copy navigate lines in files opened
+5117|Suddenly can't use breakpoints on TypeScript file (source map error)
+5118|Process crashes and graphical glitches occasionally when running on ubuntu through virtualbox
+5119|Xamarin project error
+5120|Object spread operator on new line breaks formatting
+5121|Numbers like 10e15 should be highlighted as any other numbers
+5122|C++ syntax highlighting bug on strings containing semicolon
+5123|"[Extension] ""write EPROTO"" error while trying to download an extension through proxy"
+5124|Code Folding Oddity with Indented Subsequent Lines
+5125|Collapsing large folder in file explorer with keyboard has parent folder selection go off screen
+5126|launch.json is not autoloading after created
+5127|File (taskName) not found when running task
+5128|Switch header / source file for C/C++
+5129|Package dependency not found
+5130|Accessing the extensions menu hangs forever
+5131|Update Dockerfile highlighting to support 'ARG'
+5132|Cannot read property 'id' of null
+5133|Editor: navigate to next error/warning should keep focus in editor
+5134|Cannot read property 'id' of null
+5135|Cannot read property 'substr' of null
+5136|Cannot read property 'getValueInRange' of null
+5137|Cannot read property 'result' of undefined
+5138|Cannot read property 'className' of null
+5139|Cannot read property 'contents' of undefined
+5140|Cannot read property 'reveal' of null
+5141|Tree error, onRemoveItems: viewItem doesn't exist.
+5142|Limit snippet typing bounds
+5143|blur
+5144|Starting VSCode with a non-English layout and then switching to English
+5145|Extension host only modules gets loaded in renderer side
+5146|"Fonts are rendered with blur when ""jumping"" to some text."
+5147|[ruby] add support for non-interpolated (and others) heredoc syntax
+5148|Remove the space between the semicolon
+5149|Update translations
+5150|Fixes #821
+5151|"[loc][Query][VSCode] Please clarify whether this should be locked ""{0}, git branch"""
+5152|cannot create random location multi cursor
+5153|No IntelliSense for TS/JS files
+5154|node-weak issues with Electron and node 5.x
+5155|feature: Add an option to hide private members in Intellisense
+5156|Certain key combinations are treated wrong in MacOS
+5157|Links on Visual Studio Code Feature Poll page don't work
+5158|"No ""in progress"" indicator for committing inside editor"
+5159|Cannot zoom out to a good level on a large low-res screen
+5160|VS Code can not be launched from terminal on Mac
+5161|Same User, Multiple Sessions, Instance collision
+5162|Can't add predefined launch configurations with the menu to an existing launch.json file
+5163|"Tab Order for ""Replace"" doesn't work"
+5164|Can't rename a folder
+5165|Ruby def/end should highlight the same as brackets
+5166|JS `var` syntax highlighting leaks
+5167|Open Change option should not show for files without changes
+5168|Installing should default first launch to selected language
+5169|Update setup dialog defaults to English
+5170|optimize postinstall
+5171|"User should get ""Build success"" message when build is successful."
+5172|How to debug node global command
+5173|In debug mode user should not get context menu and value pop-up (datatips on hover) together.
+5174|Output and debug windows are hidding when user try to adjust window height.
+5175|Open containing folder of open file
+5176|Supported .ru extension and Guardfile
+5177|Find all references on a Typescript class constructor returns no results.
+5178|Unfolded telemetry events
+5179|Uncaught TypeError: Cannot read property 'version' of null
+5180|Cannot read property 'unshift' of null
+5181|spawn /usr/bin/gnome-terminal ENOENT
+5182|Tab character not treated as whitespace when deleting
+5183|The functions in JavaScript are not displayed
+5184|Search results not in monospace font
+5185|warnings are not updated after changing language mode
+5186|Allow for refactoring (renaming) across multiple Typescript projects
+5187|Cannot read property 'then' of null
+5188|Linux: Snippets (C#)
+5189|Multi instance of the file should preserve the break points.
+5190|When user launch the Compare tool then it should not be part of multi-screen window.
+5191|Regex search does not work with \n or \r
+5192|Normalize all file paths in the workbench
+5193|[folding] Odd behavior typing next to a folded section
+5194|Launch.json program path intellisense suggestions
+5195|Not able to perform folding action on <HTML> tag.
+5196|Feature request: Provide more diagnostics information for source mapping
+5197|Changing language mode keeps previous linter and shows non-errors
+5198|Mouse hover on truncated string should display full string in command pallete window.
+5199|Application behaving weirdly and keep adding multiple files with the same name and showing up ESLint error.
+5200|Go back/forward should not consider points every 5 lines when navigating with keyboard

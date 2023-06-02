@@ -1,0 +1,100 @@
+17601|I can reproduce this issue with Visual Studio Code 1.0 on OS X El Capitan.
+17602|"How about:  ``` node -p ""require('dns').getServers()"" ```"
+17603|"And also:  ``` node -e ""require('dns').lookup('dc.services.visualstudio.com', (err, result) => console.log(err, result))"" ```"
+17604|#4430
+17605|@zersiax whenever an alert shows up in VS Code we set its text content to an aria-alert container. Testing with NVDA I can get the alert text to be read when it happens. What screen reader are you using?
+17606|"@ashwinaj what do you mean by ""parsing"" / ""indexing""?"
+17607|I get this (I think it is safe to show them) :   ``` [ '10.8.68.251',   '10.8.132.253',   'fec0:0:0:ffff::1',   '10.169.96.251',   '10.8.132.253',   '10.169.96.251',   '10.8.132.253',   'fec0:0:0:ffff::1',   '10.169.96.251',   '10.8.132.253' ] ```
+17608|In the end, I could follow steps but I am running first into #5313
+17609|Hi **@PhilHannent**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+17610|@daewin hm I tried to reproduce on my Windows 10 and failed. I wonder if this is a windows issue with your version of Windows. Can you make a video to show?
+17611|@bpasero I see that we only handle ansi output for repl, have we ever done this for output? How was this working before might you know?
+17612|How about the last snippet?
+17613|We call this word completion and it should be enabled by default. In which language do you not see word completion as expected.   ![image](https://cloud.githubusercontent.com/assets/172399/14556014/365cbd74-02f6-11e6-9109-900f72a55f96.png)
+17614|+1
+17615|Please provide more steps and add a screenshot that illustrates the issue.
+17616|Just updated to v1.0 but spread operator is still marked as an error :disappointed:  I've also added `jsconfig.json` with target `es6` to my project, but no luck
+17617|@be5invis I see. Thanks.
+17618|my mean is in other file ,not in same file. like atom，see the image: ![Uploading QQ截图20160415165035.png…]()
+17619|No plans yet, will also be a little extra work as for us. I have created https://github.com/Microsoft/vscode/issues/5318 for taht
+17620|This is a duplicate of https://github.com/Microsoft/vscode/issues/239
+17621|// @isidorn and insights?
+17622|This issue was moved to OmniSharp/omnisharp-vscode#189
+17623|does this one cover rpm repository as well, or should I create a new issue?
+17624|![qq 20160415165035](https://cloud.githubusercontent.com/assets/13378254/14556323/3fd76654-032a-11e6-8549-c43c06c7e91e.png)
+17625|Just my personal opinion but please, stop doing -1, +1 posts... I mean besides suggesting that you either like or dislike this feature something that reaction/emoticon can be used for it doesn't say anything about your experience and so if you already writing a post, make sure it's useful! I'm sure you have your own preservative on things and how you would like them to work! otherwise, just use emoticons.
+17626|Thanks @jrieken
+17627|@Beingbook could you try out what I suggested above?
+17628|This is on purpose. VS Code works with multiple suggestion providers and merges the results of all of them. There is a hierarchy of providers - more specific ones that return a result will make not make textual completion show.  Take, for instance JavaScript for which we have 'smart' suggestions - if that provider yields a result we won't add textual completions, iff not we will. In your case both suggestion are textual (not smart) and therefore both show - that's the default unless there an extension that understands C like https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+17629|There was a issue before that custom themes would inherit the colors of the default theme. This led to problems when the color in the default theme matched with more scope segments and therefore overrules the color of the theme. Now custom themes no longer inherit colors. Only the colors defined in the theme are used. You have to update your theme to also contain a rule for the scope used by json properties (The scope is `support.type.property-name`)
+17630|Intellisense now only works for .js files. So you have to save the file with .js suffix and it will work as before.  ![image](https://cloud.githubusercontent.com/assets/172399/14556496/bfce07b4-02f8-11e6-8c3a-39320a07f657.png)
+17631|@albertogasparin Object spread is not es6 but up for es7 discussion. There is a [setting](https://github.com/Microsoft/vscode/issues/1974#issuecomment-209515625) to disable validation such that VS Code doesn't complain about the future there.
+17632|Great. Thanks both :)
+17633|English-speaker may wonder. It is difficult for the Japanese user to type accurately the command of the Japanese language.  > Debug:Toggle Breakpoint  This command can be translated this way.  > -  デバッグ: ブレークポイントの切り替え > -  デバッグ: ブレークポイントの切替え > -  デバッグ: ブレークポイントの切替  All correct. as Japanese language.  And,It would mistake once a days.  > - デバッグ: ブレークポイントの切り**替**え > - デバッグ: ブレークポイントの切り**換**え    <- Not exactly  And,Fullwidth symbol has been plagued us.  > : > ：  Until include Cortana in VSCode, Japanese command would be difficult.
+17634|@egamma Thank you so much.
+17635|Well we just looked at other areas where this issue comes up. For example the Windows start menu allows you to find commands by english label but you would still see the translated label. They do not show mixed languages in the UI ever.
+17636|@JoshStrobl no, this is post 1.0
+17637|I think the editor has has file size limit of 50MB. Tokenization is disabled for larger files
+17638|@isidorn check if output mode is still properly being used: https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/output/common/outputMode.ts
+17639|@alefragnani There no such thing as a _project name_ constant but you can use the `ExtensionContext` and the `extensionPath` constant. That's the location your extension which will contain the product specific install location, like `.vscode-insider/extensions` (https://code.visualstudio.com/docs/extensionAPI/vscode-api#ExtensionContext)
+17640|@v-pavanp could you please make your project available so that I can investigate. Ideally just attach a zipped up project folder.
+17641|@egamma when I revert https://github.com/Microsoft/vscode/commit/fcb8e57b609f068d4bd05cf09f98a89b6be94049 I can get the overwrite to happen. Looks like a regression from that commit...
+17642|"Last snippet : `node -e ""require('dns').lookup('dc.services.visualstudio.com', (err, result) => console.log(err, result))""` returns :  ``` { [Error: getaddrinfo EAI_AGAIN]   code: 'EAI_AGAIN',   errno: 'EAI_AGAIN',   syscall: 'getaddrinfo',   hostname: 'dc.services.visualstudio.com' } undefined ```  (I have no ip mappings in etc/hosts)"
+17643|Thanks so much, merged to master!
+17644|https://github.com/electron/electron/issues/5175
+17645|I might be able to workaround this by playing with `visibility` styles...
+17646|Yes, we have changed this behavior in our latest release - more details can be found under 'Tab and Space indentation' [here](https://code.visualstudio.com/updates#_editor).  Here is the issues which motivated us to do the change https://github.com/Microsoft/vscode/issues/3259 Shortly use `editor.detectIndentation:false` if you want your old behavior back,
+17647|"@egamma sorry, I'm late. I installed the flow extension and made the language type flow. Result: <img width=""677"" alt=""2016-04-15 6 42 20"" src=""https://cloud.githubusercontent.com/assets/2682865/14557781/e3522e54-0339-11e6-8eae-a046d2899630.png""> I think it is still."
+17648|"Meta: @eyalsk In this instance, the discussion is ongoing so that it does indeed seem redundant. But for issues which you wish to gain traction, is really the ""Add your reaction"" the equivalent? Doesn't that only alert the comment op rather than indicate that the issue is a hot topic? I.e. does it alert devs that are tagged to the issue or set the issue as modified?"
+17649|And [your last link](https://github.com/Microsoft/vscode-docs/blob/vnext/release-notes/latest.md#file-to-language-association) looks broken
+17650|thanks!
+17651|+1
+17652|Hi @be5invis, I guess you have either installed additional fonts (such as Monaco) or modified the FontSubstitutes registry settings or so. I have the default font set and VSCode falls back to Consolas in the editing area. It looks OK.  ![vscode-zh-cn-01](https://cloud.githubusercontent.com/assets/7012225/14557191/a2f26c76-032e-11e6-94f1-669874d6cf86.png)  However, in the explorer area the text looks a little blurry, but can be fixed by increasing the font-size to 12px. Please note the difference between two Chinese lines in the image below, 资源管理器 (original) and 工作文件 (up-sized to 12px). I guess it's because at 12px SimSun performs well with raster glyphs instead of vector ones, which can be quite blurry at small sizes.  ![vscode-zh-cn-02](https://cloud.githubusercontent.com/assets/7012225/14557201/a9fae76e-032e-11e6-9e6b-c304b444883b.png)    ![vscode-zh-cn-03](https://cloud.githubusercontent.com/assets/7012225/14557202/ac1c6522-032e-11e6-8854-ae140f5a2aff.png)
+17653|This is the actual design behaviour.  1. You type `fun` and trigger intellisense (discard the suggest on type box) -> no 'foreach' shows 2. You type `f` and intellisense comes up cos of typing -> It shows all suggestions for `f` keeps selecting the best match as you continue typing
+17654|@SilentTiger VS Code already supports to open more than one project folder. And every project has its own window and supports its own debug session. What is currently not supported is opening a **single** project in **multiple** windows. A consequence of this is that you cannot have more than one debug session for a single project. A workaround exists: add a subfolder to your project and open that folder in another VS Code window. This helps if your project consists of a client and a server: if you move the server into a server sub folder you can debug client and server at the same time.
+17655|@isidorn unrelated to Electron update.
+17656|Comparing this to search/replace I don't think we should do it. Please reopen when and explain why this shouldn't be like search/replace or quick outline/
+17657|Thanks!
+17658|@jackqq The edit area uses [Inziu Iosevka SC](http://be5invis.github.io/Iosevka/inziu.html). What I am talking about is the font used in the UI, instead of the editing area, since it is configurable, and you can actually set to ANY fallback sequence you want.
+17659|"Also bad: We show ""Debug: Run"" so I assume the debugger is connected. In fact, the debugger is not connected.  ![image](https://cloud.githubusercontent.com/assets/900690/14558428/b7666224-0302-11e6-8818-32097566a630.png)"
+17660|@egamma I retested the extension and I saw it works correctly!
+17661|+1
+17662|I must add that the project.json autocompletion bug may still be in OmniSharp only, and not in VS Code feature. There was some confusion at the time as it was figured out.
+17663|@bpasero I move this to you. If we should set different fonts in the explorer depending on the UI language you can use the API vs/base/common/platform#language to know the languge used for the UI.
+17664|@bpasero use case: I do not want to hit breakpoints and exceptions.  If users have learned that Cmd/Cntrl-F5 'runs' a program instead of debugging it, they should be able to apply that knowledge in every situation. Why make extensions special?  I suggest to improve the wording, which is covered by #5323.
+17665|I am not sure why @alexandrudima added a check here (https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/services/languagesRegistry.ts#L151) that would prevent the language override.   @jrieken @dbaeumer any clue?  If I take out this if check, it seems to work.  Btw I think the language is picked up, just the label in the status bar and the picker is not changed.
+17666|@dbaeumer the original bug report is about the editor though? if there are multiple issues discussed in here I suggest to split them up by topic.
+17667|It seems like it was a bad fix for  #4360 which was about not seeing the language name in the status bar. The regression is definitely worst than the previous bug
+17668|@bpasero This issue has no relationship with the editor. It's just the “UI”. Actually we can specify the fallback sequence for the editor.
+17669|@bpasero doesn't looks like it, if i inspect the code with devtools the tags are the default ones
+17670|This issue was moved to Microsoft/vscode-backspace#3
+17671|@be5invis in your screenshot, you say the font in the explorer is broken? it looks good to me.
+17672|@be5invis can you try the workaround you describe to see if it helps?
+17673|This work around is easy (but still weird):   http://apple.stackexchange.com/questions/214879/visual-studio-code-app-wont-run-from-applications-folder
+17674|@bpasero The Latin fonts are OK, but focus on the “工作目录” and “资源管理器”. They are in consistent with the Latin one (which is Segoe UI). And I think this is related to #4433.
+17675|@bpasero  ![image](https://cloud.githubusercontent.com/assets/240091/14559259/f825992e-0339-11e6-9918-17c7198afb41.png)
+17676|I like what VS does:  ![image](https://cloud.githubusercontent.com/assets/900690/14559360/78322826-0308-11e6-88e2-4d293d04612f.png)  Also, starting without debug does not change the status bar color.
+17677|Duplicate of #3192
+17678|This issue was moved to OmniSharp/omnisharp-vscode#190
+17679|+10086
+17680|@bpasero yes, I like the VS wording too. @isidorn let's try this and do not change the status bar color in no-debug mode.
+17681|@weinand Thanks for your reply. I'm afraid my description made you misunderstand. I did not mean to open single project in multiple windows, I mean open **multiple** projects in **single** window.  For example, a project consists of a client and a server, if I can debug them in just one VSC window but not two VSC windows, such as what I did in VS, that would be great.  I opened this issue because I have a big project consists with 5 different NodeJS projects, and I need to run and debug them at the same time, so if I open them in separated windows, there will be 5 VSC windows full of my screen.  Thank you so much!
+17682|Arguments that this should respect the code font: - lives more connected to the source code than search replace - always has the variable name as the content - visually not appeleaing to have two different fonts so close to each other  Thinking about it, I would vote that search / replace and quick outline also respect editor fonts. What is the reasoning for those to have different fonts? QuickOpen makes sense to have different font when displaying titles of files, but not when displaying variable names imho.  Feel free to leave closed if you do not think the arguments are strong enough.  @bpasero @stevencl opinions welcome
+17683|@SilentTiger how should multiple debug sessions in one window work?
+17684|This is the broken link https://github.com/Microsoft/vscode-docs/blob/master/release-notes/latest.md#file-to-language-association sorry.
+17685|> @egamma I retested the extension and I saw it works correctly!  Did you retest it on Version 1.0?
+17686|"@bpasero  I mean creation of symbols for intellisense. The bar at the bottom always says ""parsing"" and never moves to complete."
+17687|Thanks for the nice steps, however both bugs are dups of #2163
+17688|Looks like this feature-request is intentionally ignored.
+17689|@rottingcorpse There're 13 hundred other issues in the tracker, and Mercurial support is obviously not the most critical one.  Nobody's ignoring this feature request intentionally, it's just a low-priority one, which is 100% understandable.
+17690|@csholmq I don't know if I'm getting you correctly but I wasn't referring to the reaction/emoticons but to posts that contain nothing but +1, -1 in them, it adds no value, a more meaningful input could have been written instead of writing a post with +1, -1... just my opinion, I'll modify and emphasize this in my post.
+17691|Probably this one again:  https://github.com/Microsoft/TypeScript-TmLanguage/issues/11
+17692|@weinand  This is my screen on VS2015 with NTVS 1.1 I run two projects at same time, and I can set break point on both projects.  ![shot](https://cloud.githubusercontent.com/assets/764862/14560026/83b63ef8-033f-11e6-9bfd-b0d8271549b2.png)
+17693|@SilentTiger what's about the stack trace and data views?
+17694|How configure php.validate.executablePath for docker container?
+17695|Maybe this is related to my problem. I use a case-sensitive filesystem on my mac.
+17696|Same here with: - VSCode version 1.0.0 - Windows 10  It was working before updating yesterday. I have a `jsconfig.json` and some `d.ts` files but I'm not getting any intellisense or go to definition etc.  After I updated, I got a lightbulb saying that I should add a `jsconfic.json` even though I already had one.
+17697|Just had a `rebase` blow up with `fatal: Unable to create '.git/index.lock': File exists.` with VSCode open. Had to recover one of the commits from reflog. I tested again a few times and the rebase fails consistenly unless I close the application.  Also on OSX Yosemite.
+17698|@joaomoreno I don't see `git diff-index HEAD` reporting a touched file as modified. That would be a bug in git itself, no?
+17699|I seem to have got it working again by closing VSCode and then re-opening it using the Open with Code context menu item. Just closing and re-opening didn't help, but opening it this way did.   Fingers crossed it'll be that simple for @mshi.
+17700|:+1:

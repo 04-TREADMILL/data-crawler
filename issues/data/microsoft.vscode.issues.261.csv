@@ -1,0 +1,100 @@
+26001|Highlight ShellScript built-ins in format 'var=true' without space.
+26002|Snippets
+26003|HTML custom tag has wrong color when name partially overlaps with standard tag
+26004|Add pattern matching to `when` clause, when contributing menus
+26005|Issue: Select element border radius and color
+26006|typescript.tsdk doesn't work as workspace setting
+26007|Find dialog gets in the way too often
+26008|Environment variables in path are not expanded in integrated terminal or Code-launched command prompt
+26009|Integrated terminal is getting bug
+26010|Don't use transparent colors in terminal themes
+26011|"Add section ""OS specific properties"" to debugging documentation"
+26012|Support terminal bg and fg color keys
+26013|Extension Host Terminated Unexpectedly
+26014|VS Code Helper Crashing OSx
+26015|TERMINAL display incorrectly
+26016|window.nativeTabs dosen't work
+26017|Add hint about preview to theme selector
+26018|Error: Path must be a string.  Recieved undefined. when editing unsaved doc
+26019|Support terminal colors in solarized light/dark
+26020|Allow changing horizontal scrollbar height
+26021|"SCM: Add ""stage ranges"" action/button to diff view"
+26022|May Iteration Plan
+26023|Keyboard does not work in html files
+26024|It's very difficult to use 'Snippet' after version update lately.
+26025|this subclass inference problem
+26026|Script tags inner html snippet format color is white
+26027|GitHub repo clone not recognized by SCM
+26028|panel.border isn't being applied when contrast color is specified
+26029|TERMINAL works badly with national (Cyrillic) symbols
+26030|Automatic Type Acquisition only partially retrieving types for project
+26031|Slow tab switching experience when having 3 or more open tabs
+26032|Allow Theme Specific CSS in the Markdown Preview
+26033|Contribute tasks for building TypeScript
+26034|Initial preparations for adopting TS 2.4 in June
+26035|Improve checkJS experience with React
+26036|Setting custom terminal shell for a workspace doesn't work in more than one workspace
+26037|Toggle Match Case shortcut on macOS doesn't work
+26038|Toggle Regex hint is not shown if the Find Widget is not visible.
+26039|"""New Window"" no longer works from Jump List"
+26040|Terminal all weird when running gulp task
+26041|Enable Theme Specific CSS in Webviews
+26042|The Angular Language Service server crashed 5 times in the last 3 minutes. The server will not be restarted.
+26043|Better UX for recommended extensions
+26044|Chinese ime can not be changed
+26045|[loc] Adding language - Romanian to transifex VS Code project
+26046|Invalid terminal links mess with selection styling
+26047|Add theme key for selection
+26048|Update ts/js grammars in order to support colorizing JSX components differently from standard HTML tags
+26049|Out-of-the-box SCM experience needs improvements
+26050|Vscode 1.12 no longer obeys 'sortText' in completion items (from language server)
+26051|HTML syntax does not work when the extension is PHP
+26052|终端文本对齐混乱  Terminal text alignment chaos
+26053|Paste doesn't work
+26054|Add git amend commit to Command Palette
+26055|1.12.1 c# snippets are very wired. Extra comma in {}.
+26056|Theming: Decorations overview color
+26057|Theming: Minimap slider
+26058|Theming: Bracket matching colors
+26059|Theming: Codelense color
+26060|ViewModelDecorations: Cannot convert undefined or null to object
+26061|how to disable mnemonics on vscode ?
+26062|Is there any way to show up markdown snippet automatically?
+26063|acceptSuggestionOnEnter will start new line when typed whole word
+26064|Bad string encoding when commiting with git
+26065|Missing basic code snippets: ctor, prop after upgrade
+26066|为什么代码没写完就跳到当前行的末尾了
+26067|Contrast border on first split view
+26068|Menus are slow and commands do not execute
+26069|Weird color changes when moving cursor over line numbers bar
+26070|Text in Windows title bar updates with big delay
+26071|Dimming of inactive group and tab makes text unreadable
+26072|Text Escaping issue in hover tooltip
+26073|Text at terminal got shifted?
+26074|Bad Internalionalization In the Menu
+26075|In Pascal-like languages begin-end brackets incorrectly match words containing them as parts
+26076|Wrong underline for src link in angular component tag
+26077|$msCompile problem matcher doesn't work with parallel builds
+26078|Hitting arrow down after ctrl+left does not take current position into account
+26079|Freeze when Chrome is rendering 3D scene in the background
+26080|Why does Vs code cannot prompt me when import node-modules after the upgrade?
+26081|Autocomplete in Visual Studio Code not working correctly (SASS,CSS,LESS)
+26082|[theming] Allow theming workbench fonts
+26083|Allow theming borders, spacings and metrics
+26084|[theming] Theming for workbench icons
+26085|More theme options — Merge icon pack and theme pack
+26086|Default dark theme too low contrast on inactive tabs in inactive editor
+26087|Git: rename 'Publish' to 'Publish Branch'
+26088|Feature request: Drag files for  automatic relative paths
+26089|Caret render position not always updated
+26090|Adding option to report issues about extensions
+26091|Visual Studio Code (with the ‘golang’ extension) very, very slow?
+26092|"Multiple files with edits (not saved) - ""Dont Save"" saves all files"
+26093|Suggestion: provide settings to show/hide the context menu in explorer
+26094|Provide a way to permanently dismiss the 'there is an available upgrade' message
+26095|"Typescript language server will occasionally ""refresh"" constantly when editing a ts file"
+26096|Word suggestion does not respect editor.wordSeparators
+26097|Wrong error message for path for found
+26098|Link matcher thinks that the regex for a url is an actual url
+26099|feature-request: sort files in explorer by type
+26100|"""You cannot rename this element."" error when renaming undeclared variable in JS"

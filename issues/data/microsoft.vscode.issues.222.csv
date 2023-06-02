@@ -1,0 +1,100 @@
+22101|When I simultaneous display a webgl page in browser.  Vscode is not smooth for type and select
+22102|"""Rename Symbol"" should not rename shorthand property names"
+22103|Settings: Cmd+F to focus search input should select all in input
+22104|Polish affordance to maximize panel
+22105|Allow to toggle status bar visibility in zen mode
+22106|Cache a theme to apply it fast on startup instead of waiting for extensions
+22107|Improve `app.quit()` calls
+22108|Provide new proxy settings based on Chrome's network stack
+22109|How to reference the parent directory of the ${workspaceRoot} in tasks.json command?
+22110|Editable settings (RHS) in Settings editor does not retain the previous state
+22111|files.autoSave: onFocusChange - No longer working or seems intermittent
+22112|html.format.wrapLineLength: 0 -- breaks with long script tags
+22113|Format Typescript code cause error
+22114|Allow users to opt-out of apt repository install
+22115|"No way to edit ""expandable"" watch items"
+22116|Remove loop cursor.ts -> viewImpl.ts -> cursor.ts in editorScroll
+22117|Do we have an action for minimap toggle?
+22118|`Find all references` does not finish in Angular 2 / TypeScript project
+22119|Set env to extensionHost type in launch.json did not work
+22120|connect ETIMEDOUT 191.238.172.191:443
+22121|Always fails to launch any external program
+22122|Sublime Text style auto completion for words and member functions with fuzzy matching
+22123|More friendly terminating of running task
+22124|Breakpoints ignored for JavaScript module that requires another JS module
+22125|More task output windows
+22126|Settings editor - shift+enter should search backwards
+22127|Odd terminal behavior on Chinese locale
+22128|Settings editor - Put cursor at current find result
+22129|Path truncation doesn't correctly truncate for 3 same named files in similar folders
+22130|Mac OS X: Change shell for integrated terminal
+22131|Spinner or indicator while saving
+22132|Server initialization failed.
+22133|Configured debug type 'composite' is not supported.
+22134|Add terminal kill confirmation message when exiting
+22135|Rename common.machineId in main process
+22136|kill terminal and close panel do the same thing.
+22137|Rename common.machineId in main process
+22138|Migrate machineId from renderer to main process
+22139|Color coded project identification
+22140|Prompt to pick TS version when both are same value
+22141|column breakpoints displayed when i edit a line
+22142|Performance Report + CPU Profile
+22143|Debugger unable to attach to node process (node version 0.12.12)
+22144|Scrolling jittering after a day
+22145|"HTML ""script"" tags improperly scoped"
+22146|Cannot find module 'gc-signals' when running tests on windows
+22147|Follow up to PR #22021 to respond to feedback
+22148|Jump to logical EOL as well as Physical EOL
+22149|Git amend - message and staging
+22150|cursor appearing on wrong position when beyond 300 in php file
+22151|Add hints for terminal links without ctrl/cmd
+22152|debug console code completion stays after closing function parenthesis, with __defineGetter__ highlighted
+22153|Format Html file cause css style with extra spacing
+22154|Markdown Fenced Code Block in Indented List Not Properly Highlighted
+22155|Fix borderRadius for decorations
+22156|VS Code background operations should not steal user's text input focus
+22157|Can't step into Node.js code using F11
+22158|c# anonymous type breaks syntax highlight
+22159|Too many menus
+22160|Language specific colorTheme user setting
+22161|Option to disable sidebar sync
+22162|"about ""Process exiting with code: null"""
+22163|顶栏一直出现警告
+22164|Partition our main.ts into different performance categories
+22165|How to hide lines like notepad++ or VS region?
+22166|The editor.wrappingColumn option was deleted ?
+22167|JSLint error with ES2017 Decorator
+22168|crash when debug python web application which use the framework odoo
+22169|Detection of tasks  does not work with tasks 2.0.0
+22170|Debugger doesn't stop at a breakpoint which is set in my extension's code
+22171|Option for tasks.json 2.0.0 to always run task in new terminal
+22172|vscode crash
+22173|Feature Request: Setting shortcut
+22174|Snippets don't show up after trigger characters
+22175|Add ability to change snippets icon
+22176|Viewing temporarily unzipped files using 7-Zip
+22177|Can generate html directly from markdown preview?
+22178|HTML IntelliSense not working.
+22179|Can't search in symlinked folders
+22180|Chords not working when terminal has focus
+22181|More robust deprecation warning for launch.json (Fixes #21946)
+22182|Feature Request: $-Prefix selection on double click
+22183|Help Wanted: Test new networking stack
+22184|"Align ""Amend Commit"" with ""Smart Commit"""
+22185|Snippet's prefix can't be superset of another prefix
+22186|How about history in search?
+22187|grunt watch not worked on my lunux system where it worked with other editors.
+22188|always open file in the same editor window
+22189|TypeScript: Quick fix all
+22190|When entering Chinese, the cursor does not follow(BaiDuPinYin)
+22191|Losing window input focus closes Go-to-File result
+22192|VSCode hangs while search is running
+22193|On multi-selection I'm not able to select to the end of line
+22194|Open file from diff defunct
+22195|Typo in Spanish Translate of Welcome Page
+22196|window.zoom decimals numbers are not working as expected with zoom in/out
+22197|Add hover help for the 'trace' launch config attribute
+22198|Changing setting programmatically can open settings
+22199|How do I add prompt() command and others to visual studio 2017 ?
+22200|Update Snippets for TypeScript

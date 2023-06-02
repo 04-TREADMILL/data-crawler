@@ -1,0 +1,100 @@
+12901|Error Installing Test-extension-pack-2 on Windows
+12902|Create new terminal affects layout if status bar is off
+12903|Markdown preview clipped when VS Code is zoomed in
+12904|Windows Debugger breaks on lowercase filename
+12905|Renaming an open file is jarring
+12906|Extension Search Default Query Should Have Space After It
+12907|Allow user to pick multiple options from showQuickPick list
+12908|Send feedback dialog doesn't provide correct affordances
+12909|Extensions UI Should Have Some Sort of Text/Indicator When No Results Are Returned
+12910|Accessibility Options have permanently disabled checkboxes?
+12911|Enter key non-functional
+12912|"""Save as type"" is very very wide"
+12913|500 Error on Workspace Recommended Extension Search with Invalid extensions.json
+12914|Help > Accessibility Options context menu should be hidden
+12915|Errors icon in status bar missing tooltip
+12916|Search very confused about UTF-16 LE file
+12917|Hang on Workspace Recommended Extension Search with Too Many Recommended Extensions in extensions.json
+12918|Extraneous <global> symbol from Salsa
+12919|Console/Output don't maintain their scroll position when hide/show panel, terminal does
+12920|`Show accessibility help` no longer appears in All Commands list
+12921|Ctrl+M doesn't work from markdown Preview window
+12922|Feature Request: Distraction free (zen) mode
+12923|Implement an overflow design for the status bar
+12924|Inconsistent Behavior When Using 'Toggle Word Wrap' and 'editor.wrappingColumn'
+12925|Help > Release Notes still goes to website
+12926|Add Space After Default Extension Queries
+12927|--locale cmd line argument not working (Windows)
+12928|Incorrect Markdown Colorizaiton for Block Element on Line Immediatly After a Paragraph
+12929|With tabs disabled, dirty indicator doesn't change to Close X on hover.
+12930|Markdown No Colorization of Block Quote Punctuator When Indented
+12931|QuickFix selection reset
+12932|Cannot Double Click To Insert Emoji Using OSX Emoji Panel 😞
+12933|Breakpoints not resolving properly in attach configuration on Windows
+12934|Hovering over argument with same name as outer variable produces nothing
+12935|Support Drag and Dropping From OSX Emoji and Symbols Panel
+12936|HTML mode produces non-normalized links
+12937|Installing an extension pack should also list other dependencies it intends to install
+12938|Closing integerated terminal after stopping launched debug session prevents further launching.
+12939|Uninstalling an extension w/ dependencies should also offer to uninstall those dependencies
+12940|Extension not appearing in @outdated list
+12941|"Adding a new dependency to an installed extension pack does not yield ""would you like to install dependencies"" prompt"
+12942|"Never-ending extension ""update available"" loop after updating vscode.engines property"
+12943|Page-Up in git commit text box shifts everything to the left hiding the activity bar
+12944|engines.vscode property not appearing in package.json intellisense
+12945|`code --list-extensions` should also show extension versions
+12946|Format html/handlebars messes up on meta tags
+12947|Provide an option to always show parent folder for files in tabs
+12948|scrolling issue #12562
+12949|Git / Clean
+12950|the insider can't use System.Diagnostics.Process.Start open path
+12951|HTML: comments inside a script tag no longer sensitive to script language
+12952|property 'table' does not exist on type 'Console'.
+12953|Pressing enter before a closing tag that was just created indents it in a level
+12954|[html] format inside the script tag
+12955|Fallback to word highlighting when contributions don't provide document highlights
+12956|TSC Compiler not matched VS language service.
+12957|Adding a div causes an extra stray bracket in Razor
+12958|"VSCode annoyingly autocompletes `""""""` in Python to `""""""""`"
+12959|Razor doesn't auto indent on inserting new tag
+12960|Strange formatting for Razor
+12961|Untitled file remains dirty even though it has no content
+12962|Bad overflow with letterpress
+12963|Select text + Shift/Ctrl + Scroll behaviour
+12964|Show release notes without prompting the user
+12965|Shortcut to toggle (show and hide) explorer view
+12966|How can I use the existing Language Service Host for JavaScript?
+12967|"Can't install ""Latest Typescript ..."" extension"
+12968|[scss] Option to remove scss functions from property autocomplete
+12969|markdown preview not work
+12970|Regression: can no longer copy empty lines
+12971|Variables view list array entries twice
+12972|[snippets] How can I excute some javascript in snippet
+12973|File search (ctrl + E) should suggest more relevant options
+12974|git.path doesn't work
+12975|Cmd-X does not delete/cut the current line
+12976|Lua function colorizing error
+12977|Can't scroll in embeded terminal
+12978|react syntax highlight is broken
+12979|Window switcher should indicate the currently active window in the list
+12980|`quickOpenNavigateNext` broken?
+12981|[loc][Query][VSCode] the string Please clarify
+12982|[loc][Query][VSCode] Please clarify string
+12983|Keep scroll position stable when closing a tab in the tab well
+12984|Can't edit file after git revert
+12985|[css] support /*csslint ignore:start,end */ directives
+12986|Hover seems to use different layout algorithm than suggest
+12987|VS Code node debugger stuck on: Debugger listening on [::]:[port]
+12988|Save all files shortcut
+12989|error counts not showing at bottom left of VSCode
+12990|[loc][Query] Possible typo in source
+12991|Debugger: editing variable hides variable name
+12992|IntelliSense does not understand this keyword when bind is used
+12993|Autocomplete/syntax & type validation performance is horrendous in 1.5.3
+12994|Menus do not always initialise correctly
+12995|Terminal Process terminated if the folder contains Chinese characters
+12996|"VSCode fails to open file when another instance of VSCode is already running as ""Administrator"" user."
+12997|Switch app windows keyboard shortcut not working on OS X
+12998|Multi-line Next Match Selection (Cmd+D)
+12999|Remove extra letter-spacing from keybindings in watermark on Windows & Linux
+13000|Keyword 'new' as object property access and TypeScript highlighting

@@ -1,0 +1,100 @@
+2301|Object hover should show indication when string is clipped
+2302|Debug hover: function hover is always the same?
+2303|Debug hover: does not seem to work so well when in file inlined from source map
+2304|Would like to see the changed value indication in the Watch pane as well
+2305|Debug hover: Show after delay
+2306|Json hover should Loading... only when hovring string value without description
+2307|machineId not passed to welcome site on first startup if telemetry.machineId deleted
+2308|getWordAtPosition is slow in very long lines
+2309|Intellisense full documentation - using `x` for `go back` not intuitive
+2310|Updating to vscode alpha breaks my command line shrotcut
+2311|[json] No code complete for $schema property name
+2312|OS X: using the Pinyin input method results in internal error
+2313|no migration path for vscode.d.ts installation
+2314|Salsa support doesn't work with 1.9.x version of typescript
+2315|bracket decoration don't show when using ligatures
+2316|incomplete selection rendering when using ligatures
+2317|IntelliSense window leaves the editor when it should open to the top
+2318|OSS README in TypeScript extension needs to be updated
+2319|IntelliSense: Moving through elements with comments causes flicker
+2320|[json] Inline schema in settings don't work
+2321|Focus indication in non-active viewlet icons is waaaay too subtle
+2322|Migrating auto-save settings sometimes produces an incorrect user json
+2323|Focus should not reach <body>
+2324|[json] No code assist in schema property in settings.json
+2325|Hiding actions using display:none causes keyboard a11y issues
+2326|Rendering of documentation in Intellisense and hover inconsistent
+2327|[json] No value suggestions in project.json for dependencies property
+2328|"one tiny change - ""Go To Definition in on Side"""
+2329|filenamePatterns auto complete fills in foo*bar
+2330|extension installer not in package.json for JS extension
+2331|JSON - unable to fetch jsconfig schema
+2332|The focused element should always be visible
+2333|OutputChannel#show doc comment broken
+2334|Find widget should close itself or adapt when the editor is too tiny
+2335|JavaScript doc hover doesn't use Markdown
+2336|Properties are listed with different icons
+2337|Cannot create a virtual document with URI: bpasero://mySuperDocument
+2338|[json] JSON suggestion completed incorrectly
+2339|Sorting snippets along with regular proposals leads to an unhappy user experience
+2340|Hover padding is broken
+2341|Focus moves to <body> in this case
+2342|MonacoLocalization npm install should install all the dependencies (lib ones)
+2343|Empty tree should not be focusable
+2344|Automatically adjust ulimit for Mac/Linux when running Code
+2345|<input>s and <select>s should have the same focus style
+2346|Debug console doesn't show stderr output
+2347|Virtual documents: Allow me to provide a description label for the editor
+2348|Implement focus indication for editors and panels
+2349|generated launch config is erroneous
+2350|Virtual documents: allow the document to be colored with a mode
+2351|No code complete on command ids
+2352|Hover in JSON files has quiete some white space
+2353|The unsaved file marker (the dot thing) should appear when content in buffer != content on disk
+2354|cannot copy from watch view
+2355|Provide a way to instantiate an Emitter from an extension
+2356|Screen reader skips characters when using cursor right/left
+2357|Tree focus is on the wrong element
+2358|Markdown/HTML Preview: Isolation issues
+2359|Weird wording when migrating auto-save setting
+2360|[json] schema less JSON intellisense could be smarter
+2361|[json] JSON could complete identifier with quotes
+2362|Cannot tab out of Output pane with accessibility Mode on
+2363|all of the explorer is selected
+2364|Cannot distinguish editor in output pane from the other editors
+2365|Bad contrast when salsa is broken
+2366|Failed preLaunchTask's should abort debugger launch
+2367|Expanding splitview with the arrow keys shouldn't focus content
+2368|Left and right arrow keys seem to do the same thing in the splitview header
+2369|Up and down arrows should jump through splitview headers
+2370|Regression in inputting Korean
+2371|Markdown hover: Command action does not work
+2372|Activity bar focus indication is too subtle
+2373|Salsa: formatOnType does not respect current line indendtiation
+2374|Hover can get very large and should rather allow for scrolling
+2375|Focus decoration go away on hover
+2376|Salse: inferred proposals not visually distinct from global identifiers
+2377|Dark+theme: cannot distinguish current selection from write access occurrence
+2378|"Show the ""Windows"" menu on Windows and Linux too"
+2379|Salsa: d.ts files are not respected
+2380|`end of central directory record signature not found` during extension install
+2381|Salsa is weird around assigning twice to the same member
+2382|Salsa: bogus intelli-sense proposal
+2383|Salsa: werid rendering of hover for arguments with jsdoc
+2384|[json] Completing a JSON suggestion enters snippet mode
+2385|Salsa: paramter hints for jsdoc functions give at least two proposals
+2386|There's a tiny time window in which suggestions don't get accepted
+2387|Introduce version variable to vscode extension API
+2388|Specifying a specific VS Code engine in package.json does not work on linux
+2389|Improve quick open accessibility
+2390|ES6 syntax support isn't working in VSCode
+2391|SecretManager broken when running in vscode
+2392|SCM telemetry data seems to be low
+2393|Confirmation on git Sync
+2394|Debug console doesn't respect order output #2231
+2395|Variables, Watches not updated when changed from debug console
+2396|Check that the user is internet-connected before loading the getting started page
+2397|Find / Replace UI Out-of-bounds on small window sizes
+2398|Feature request: prettify symbols mode
+2399|Some targets of the Tab sequence aren't visible
+2400|Add React Native workspace detection

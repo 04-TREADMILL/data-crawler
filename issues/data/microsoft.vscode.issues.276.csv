@@ -1,0 +1,100 @@
+27501|Annotation tasks break old 0.1.0 task behaviour
+27502|Test merge conflict editor
+27503|"No indication that ""editor.multicursorModifier"" affects go to definition behavior"
+27504|editor.multicursorModifier not discoverable (add toggle menu item)
+27505|js loop switch and .ts types
+27506|Where is the mobile version of Code. There are too many times that I have to rdp into a PC to make a minor change because I dont have an editor on my mobile device... (Windows phone, iPad, iPhone, Android Phone) ??? Please provide a mobile version!!!
+27507|Make the Automated Smoke Test faster
+27508|Slow symbol searching in PHP
+27509|Automated Smoke Test: prevent VS Code from auto updating
+27510|Too Many Buttons on Tab Bar
+27511|Merge conflicts: cmd + click on compare changes should open it side by side
+27512|Stopping the debug session is not stopping the node server running in docker
+27513|Toggling line comment on certain file types breaks when there is already a comment
+27514|"Feautre: Open Files for Window Pane listed in ""..."" button"
+27515|Merge conflicts: no way to go back from compare changes to diff view
+27516|Merge conflict - compare changes view: Next change / previous change make no sense
+27517|Shows problems in excluded folder files in tsconfig.json
+27518|Update badge is not rendered on Linux
+27519|Debug control isn't re-centring
+27520|Tasks ignored
+27521|Merge editor: Unicode character in compare editor title
+27522|Merge conflict action titles should have upper case start of word
+27523|Merge conflict: stale update of decorations with multiple editors
+27524|Confusing warning message
+27525|Too many new actions just for merging
+27526|YAML user snippits not working in latest release
+27527|Merge conflict ranges only show when editor is in focus
+27528|Nuke TaskGroup
+27529|Disable telemetry when running the smoke test
+27530|Streamline Tasks
+27531|Don't mention VS Code in jsdoc
+27532|After migrating vscode's task.json to version 2 no tasks are detected
+27533|Merge conflicts should use outlines in high contrast
+27534|Unspecific names: TerminalBehaviour and RevealKind
+27535|"Align [Shell|Process]Task#identifier"
+27536|strict property missing in jsconfig.json schema
+27537|Merge Conflict: Console output after merging
+27538|merge conflict: Error in console when opening compare
+27539|Vertical scroll in vscode not work properly after the suspension . It is not smooth, it jumps
+27540|Fold Shell and Process task?
+27541|'Occurred' is misspelled at multiple places
+27542|Inconsistent use of ProblemMatcher
+27543|[css] support grid layout properties
+27544|Representation of regex in JSON
+27545|Langugage specific editor settings eat up all the other suggestions in settings.json
+27546|Git view doesn't open merge conflict
+27547|Search results disappear
+27548|Git askpass trigger windows firewall warning?
+27549|Could not install typings files for JavaScript language features.
+27550|Hide deprecation messages when debugging node 8 with inspector protocol
+27551|Breakpoints/Call Stack: clicking on entry with column info should jump to that column
+27552|Wide characters should apply editor.letterSpacing twice
+27553|Should editor.letterSpacing affect the EOL selection too?
+27554|Can't collapse code in large file
+27555|"tasks.json's version property missing ""2.0.0"" completion proposal"
+27556|Insiders: open welcome playground prints many errors to the console
+27557|Automated smoke test terminal test fails when using a multi-line $PS1
+27558|Change the MP queries to supported API
+27559|Automated smoke test data migration test fails on Linux
+27560|When launching settings, the search is focused instead of json file
+27561|[Loc] Request to add Hungarian language in VS Code
+27562|emmet.useModules setting is a little confusing
+27563|Intellisense popup is aligned incorrectly
+27564|Hide keybinding in cmd pallet when the when clause doesnt apply
+27565|Undoing an emmet expand retains multiple cursors
+27566|Show info box for keybindings if it uses keycode
+27567|If emmet.useModules is going to be the default there should be a setting to disable it
+27568|Docs of previous suggest widget appears in the manually triggered widget
+27569|"""No build/test task defined"" messages need update"
+27570|"Emmet uses the ""references"" icon"
+27571|Emmet expansion is not presented when } is at the end of the abbr
+27572|"Very wide ""No suggestions"" intellisense can still occur"
+27573|Slow starting in Windows 10
+27574|Wrap with abbreviation and Expand abbr commands do not work with multiple cursors
+27575|"""showOutput"": ""silent"" not working"
+27576|Emmet go to matching pair doesn't work at the very start of opening tags and very end of closing tags
+27577|New task runner does not show multiple tasks from old configuration
+27578|Integrated terminal over-tabulates text
+27579|Suggestion: Source Control Git: Add way to use the last commit message
+27580|Left clicking in the editor when the focus is outside occasionally pastes the selection
+27581|Invalid emmet abbr returns weird expanded value in css files
+27582|Emmet toggle comment does not consider the position at the end of the selection
+27583|Emmet toggle comment fails when cursor is not inside a rule
+27584|Task should not be drop if identifier is undefined
+27585|Make it possible to disable the underlining and clickability of URLs in the editor
+27586|Emmet next/prev edit point should start with a verb
+27587|Emmet go to next/prev edit point ignores newlines with whitespace
+27588|[html] intellisense for css class names that exist in other files
+27589|Quick commands fuzzy search doesn't work for text in brackets
+27590|Task execution should have an option to show problems
+27591|Promise did not implement oncancel
+27592|Fail gracefully when getChildren fail to provide a list
+27593|"""Cannot read property 'toLowerCase' of undefined"" when debugging"
+27594|Expandable doc: Close button hit zone misplaced
+27595|Fix some issues with dnd to the terminal
+27596|Output Channel Drop-down does not track active channel on startup- with PR fix
+27597|Dragging folder from file explorer collapses the node
+27598|Fix current output drop-down selected Issue #27643
+27599|When showing proposals above current line: Show proposals bottom to top
+27600|Style the terminal press any key text

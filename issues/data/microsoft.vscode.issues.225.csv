@@ -1,0 +1,100 @@
+22401|Enforce a minimum for editor.lineHeight
+22402|version 1.10.1  plugin vetur 0.5.1 *.vue不能格式化
+22403|The typographical errors of the terminal text go after leaved and cutting back
+22404|Cannot redeclare block-scoped variable 'name'
+22405|Support for TSServer Request Cancelation
+22406|Whenever I open a new visual studio code file the folder never gets copied to the ide or there could be an option for importing the folder to the explorer tab
+22407|Add opacity/transparency setting for intellisense suggestions popup
+22408|mssql extension - Installing SQL tools service behind a proxy - Error: Request error: EPROTO
+22409|How extension authors can open Code multiple instance to debug their extension
+22410|Blur after scroll in Extensions
+22411|Split color themes into UI and Syntax themes
+22412|Marketplace doesnt publish extension when previous version of extension file is uploaded
+22413|php Selected variable problem
+22414|Perhaps not an issue regarding minmap hover-appear request
+22415|How to WordWrap ?
+22416|I want to change the font size of sidebar
+22417|Silent crash on startup
+22418|Breakpoints not being hit correctly with TypeScript
+22419|Add option to follow the last valid active path for untitled editors outside of a workspace
+22420|Feature Request: Language support for Objective-C, Objective-C++ and Swift
+22421|window.showQuickPick doesn't return when cancelled (esc key) with a long running items promise
+22422|Update terminal title from xterm.js title event. (#22325)
+22423|Unable to Open Unicode File Containing XML
+22424|jsdoc auto-insert parameter names and render HTML
+22425|Typescript app stopped working
+22426|Markdown preview window shrinks when zooming in with 'Cmd + ='.
+22427|The Typescript language service died unexpectedly
+22428|Refactor to fix compile error with noImplicitAny
+22429|Don't update disabled extensions
+22430|Use link cursor instead of select for details section in Markdown preview
+22431|Incorrect background color for themes on insiders build
+22432|Fixed #14311 by adding preserveFocus parameter to vscode.previewHtml
+22433|"Provide ""terminal.integrated.enableBold"" setting connected to #22422"
+22434|Debugger not showing breakpoint highlight
+22435|SCM: Keyboard activated context menu (shift-f10) action disappeared
+22436|format html disorder
+22437|CPU still running at 50% after closing VS Code
+22438|Possible feature request: Edit parts of a file as if they are separate files accessible by tabs.
+22439|Override git global username & email in both User Settings & Workspace Settings
+22440|ENOENT: no such file or directory, lstat ' '
+22441|Go to File with current text selection as search query
+22442|Graphic error
+22443|feature request: XML support
+22444|Debug adapter process has terminated unexpectedly
+22445|Elixir.tmLanguage works in Sublime but fails in VSCode
+22446|Addresses #14221 by reading wordPattern from language-configuration.json
+22447|vscode preview the markdown format file
+22448|new tab position depends on active tab
+22449|"Visual Studio Mac asks to save file on red ""x"" out of window"
+22450|"Add ""isFolder"" capability to explorer/context when clauses"
+22451|Spread operator can break JS highlighting.
+22452|Still can't launch external programs
+22453|WebGL/GLSL rendering issue
+22454|Backspace doesn't handle zero width joiners (and combining marks) correctly.
+22455|When the menu is hidden by default, toggling should be temporary, and dismissed by non-menu actions
+22456|Hotkey for displaying a hidden menu is accepted even when combined with other modifier keys
+22457|"[WelcomeUX] Request: Option to remove directory from ""Recent"" section if it doesn't exist"
+22458|Ruby: editor.action.addSelectionToNextFindMatch does not work for numbers
+22459|Don't want to see typing errors for plain JavaScript files.
+22460|Edit + undo removes all BPs in file
+22461|Automatic zen mode option?
+22462|"Markdown Header is not displayed (empty) in ""Go to Symbol"" of Markdown mode."
+22463|Automatically delete +1 comments
+22464|Method Folding doesn't work correctly
+22465|Preferences search can't search backwards
+22466|Invalid JS highlight
+22467|How to make VSCode to replace the word when accepting autocomplete hint?
+22468|gbk
+22469|Input Chiness with Microsoft input method
+22470|Cannot create another instance when there's already one instance ran as administrator
+22471|Allow to select multiple items in the EXPLORER window to copy/paste
+22472|Add more styles to the matching bracket
+22473|I'm facing trouble in reformatting source code lines.
+22474|Improved behaviour of dealing with deleted files (for #11642)
+22475|Blank lines inserted when formatting html files
+22476|Feature request: compare with clipboard
+22477|No more selection highlight in IntelliSense box
+22478|[build error]Cross Compiling for ARM platform on ubuntu
+22479|wrong editor/context format of command shortcut text
+22480|Performance tests inside unit tests?
+22481|Opened editors view: weird behaviour when deleting a file
+22482|Not to escape debuggerPath of pipeTransport in launch.json
+22483|BUG : jsconfig.json file in $HOME crash computer
+22484|���
+22485|Strange tslint + quick fix behaviour
+22486|TypeScript Decorators: IDE doesn't suggest to Add import decloration
+22487|C language syntax highlighting breaks after declaring pointer to function argument
+22488|No notification on newer Version availability.
+22489|CTRL+Scroll doesn't zoom in / zoom out
+22490|hiding the file explorer is not working
+22491|I cannot switch tabs by touch gestures in Surface Pro 3.
+22492|editor.action.formatDocument for HTML span not indenting properly?
+22493|Shell syntax broken on code embedded in string
+22494|Add The integrated terminal loses focus automatically hidden.
+22495|rename of unsaved new file erases all so far edited contents.
+22496|Relative paths sometimes not included as links in integrated terminal
+22497|Give an option to show files before directories in file explorer
+22498|[loc][Query][VSCode] Please clarify context for comma
+22499|"[loc][Query][VSCode] Localizability of ""legacy"""
+22500|Adding check of full folder name instead of suffix

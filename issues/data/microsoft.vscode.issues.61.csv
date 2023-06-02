@@ -1,0 +1,100 @@
+6001|No syntax highlighting on centos 7 by installing rpm
+6002|Can't start as normal user on Arch Linux
+6003|Not responding PHP
+6004|Intellisense, navigation (ctrl+click) stops working for react-native projects
+6005|Word wrapping turns automatically on and can't be turned off
+6006|Move working file model shutdown to DoShutdown phase.
+6007|c# syntax highlighting parameter named 'value' improperly
+6008|Expanding debug variables
+6009|shortcut in DVORAK Keyboard
+6010|Refactoring (rename symbol) is broken in certain cases
+6011|Debugger stopped working (context python)
+6012|Debugger fails silently (Python)
+6013|Markdown preview cannot support language highlights
+6014|Frequent svn command attempts on file save
+6015|VSCode eats memory and slows down my Macbook Pro
+6016|overriding core command doesn't fix key binding hint on menu
+6017|May2016
+6018|debug doesn't work on node v6
+6019|Scrolling issues windows 10 switching desktop
+6020|LinkedMap for bounded caches (#5621)
+6021|May fixes and debt
+6022|Add a menu for extension commands
+6023|JavaScript multiple variable declaration not highlighted correctly
+6024|fix #5888
+6025|syntax highlight fails
+6026|libgdx - RoboVM: blank screen after pause and resume
+6027|"Can't navigate to ""find"" field of replace widget with shift-tab"
+6028|nls: wrong translation of 'DEBUG CONSOLE'
+6029|Joh/zonedebt
+6030|Error dialog cuts off message
+6031|Hover popups while debugging don't work when using Unity3D.
+6032|Column selection should either not include ALT or it should be configurable
+6033|Word wrap broken in debug repl
+6034|Open file dialog dont appear after the disconnected network
+6035|When minimizing vertically using Win+Left, the cursor is lost
+6036|Keep history independent of splits
+6037|Black blocks on editor everywhere
+6038|Colorization changes based on formatting (spaces)
+6039|"Closing HTML tag shows ""unclosed regular expression"" error"
+6040|CSS inside JavaScript not colorizing or giving suggestions
+6041|How to hit debug break point for AspNet C# console app.
+6042|The regex /.*/ cannot match anything in Editor while /.+/ is ok
+6043|How to set keywords highlight for each language ?
+6044|Not getting any response while running DNX command multiple times.
+6045|Provide list of scopes available to themes
+6046|remove Unnecessary IModeSupportChangedEvent
+6047|Drop untyped events and align names with tabs work
+6048|"Cannot keybind ""workbench.action.files.newFile"""
+6049|[loc][Query][VSCode] Ampersand position
+6050|Passing arguments to preLaunchTask in launch.json
+6051|Emmet Stylus snippets not working
+6052|Cursor and focus gone after toggling the side bar.
+6053|Rename widget broken
+6054|default light theme - UI text hard to read
+6055|"runtime arguments are interpreted by ""Electron Helper"" as files"
+6056|VSCode doesn't find app.ts if it isn't in project root
+6057|Open files are not auto-saved, when extension installation restarts the VS Code
+6058|Unable to read long message in debug console.
+6059|System internal message should not be displayed on debug console.
+6060|Sell extension on VS Marketplace
+6061|Visual Studio Code is no longer responding again
+6062|Markdown preview not coloring code blocks
+6063|shift + alt+ f , code formatting  shortcut  broken
+6064|Rename Symbol hidden under Peek/References window
+6065|Peek Definition to Find all References closes peek window
+6066|Can't insert nbsp character
+6067|Multiple monitors: focus is not put to window when opened on different monitor
+6068|Menu bar items not translated in latest alpha
+6069|Git folder shows .VC.db* files as modified
+6070|Tooltips stop working after opening context menu in the editor
+6071|Render problem under high DPI monitor
+6072|Better IntelliSense for TypeScript/JavaScript
+6073|Typescript class field types don't have the 'type' class
+6074|Repl: reveal on error or reduce minimal height
+6075|mac - workspace history lost when showing app windows
+6076|Allow html/markdown in displaymessages
+6077|Focus moves to editor after debug sessions terminates
+6078|Errors Compiling from Source on Arch Linux
+6079|Markdown previewing a link to a URL containing round brackets (like MS Technet URLs) fails
+6080|Using launch.json to do simple tasks (without debug)
+6081|test
+6082|Move core services from main back into shell
+6083|Should stop sending global settings and keybindings via IPC
+6084|IWorkspaceContextService should only exist on renderer side and have less functionality
+6085|Clean up BaseRequestService and the one in workbench
+6086|debug adapter telemetry doesn't honour opt-in/out flag
+6087|Incorrect and inconsistent text-editor highlighting for C# List<T> across all color themes.
+6088|Test: Command line extension management
+6089|Show error returned from 'callstack' request prominently in CALL STACK view
+6090|"Open file via URL creates a ""ghost"" file in the ""working files"" section"
+6091|Publisher name should not be part of extension name.
+6092|package.json files for private packages should not warn about missing name and version properties
+6093|"TypeScript syntax highlighting breaks on ""<{}>"""
+6094|May Iteration Plan
+6095|Extract the MarkDown editor into an extension
+6096|externalConsole: true does not open terminal, just hangs
+6097|"ZH-TW | VS Code 1.0 Unable to Work with English Command Correctly"
+6098|fixes issue with array iterator
+6099|Code on insiders started from GUI does not pick up environment variables on Linux
+6100|[Suggestion] User should get a message if there is no extension installed for VSCode.

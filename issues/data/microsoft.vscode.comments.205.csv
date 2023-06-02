@@ -1,0 +1,100 @@
+20401|Installed Apricity... everything seems to work ok. 😕
+20402|@jrieken we are now showing paused / running next to the thread. Check it out and let me know what you think :)
+20403|Postponing until @Tyriar is back
+20404|#4429
+20405|Sorry, I think I do not have this key on my keyboard.
+20406|Well, must be something specific of my system/configuration...I'm going to try and debug/build it from source and report back if I find the root cause. In case nothing shows up, I'll close this ASAP.  Thanks a lot for the help, and sorry for the trouble!
+20407|No worries, I'd definitely be interested in knowing what is happening. 👍
+20408|Ok, nervermind and thank you for the feedback.
+20409|@else yeah, I just got the 1.1.0 Insider release yesterday
+20410|Yeah this seems to be pretty random. It sporadically works fine or doesn't work at all - same as @pkeuter the debugger pauses execution but no breakpoint or variables are shown. This is with vanilla ES6 and babel transpiled ES6.
+20411|Hmm, I tried downloading it from [here](https://code.visualstudio.com/docs?start=true) but that version tells me its build date is 26th of April.
+20412|@joaomoreno Nope. AMD
+20413|Not sure how to verify this.
+20414|this will be awesome. let us know if we can help anyway.
+20415|> Allow user to manually adjust the size of the peek window by dragging a splitter at the bottom of the peek window.  ✅ on that. The rest will likely come as user options
+20416|It actually changes order of suggestions https://github.com/Microsoft/vscode/pull/5121/files#diff-518e736f78c3288400a5d064bb875c59L71. But I can remove this code and It'll still work and than there is no need to change tests.
+20417|@bpasero Have you seen this?
+20418|@outcoldman Thank you for the contribution! :heart:  I have merged the proposed changes in fb5b68d199918fbe58e57d4faa3909580430fa4e and I also did quite some improvements to them, specifically: - in the backspace case to better handle mixed whitespace (e.g. a space followed by a tab) - in the trim whitespace case to better handle:   - remove only whitespace that the editor has added.   - editing a file in two editors at the same time (the auto whitespace lines are recorded in the model)   - when pressing Tab or Enter, the whitespace only-lines introduced are marked as auto whitespace lines   - on any edit of the model that involves the undo/redo stack (i.e. normal editors, not output editors) the marked auto whitespace lines are trimmed if trimming does not interfere with the current edit operations to execute.  P.S. It does not appear as a merge here because this PR contains two 2 MB files and I dropped the parent reference on the merge commit to try to keep our repo .git folder footprint small.
+20419|Thanks to @outcoldman this has now landed with PR #5423 . It will most likely come out with the May release in about a month.
+20420|Thanks to @outcoldman this has now landed with PR #5423 . It will most likely come out with the May release in about a month.
+20421|I've never seen it in my other electron apps. Only vscode
+20422|Wonder if newer Electron fixes it. @EWhite613  You can give it a try from our insiders release today: http://code.visualstudio.com/Download#insiders
+20423|@Ikuyadeu There are merge conflicts, can you please rebase with master?
+20424|@delmyers here's the issue I mentioned during the meeting
+20425|I'm hitting this issue in 1.1.0-alpha (76625649235f4e9e4fbc9ec466f35061a944758a) and it prevents me opening any *.ts files.
+20426|@aeschli Do you have this key on your keyboard? :)
+20427|@bpasero That's because they wasted all the space on `F13`-`F16` :)
+20428|:)
+20429|Being visually impaired, I would also love this option.
+20430|@Jasper76 hard to argue, when you bring in the sidebar we move focus to it because your intent seems to be to work with the sidebar. I could equally argue why focus should stay in the editor?
+20431|@maroonedsia I cannot reproduce. Could it be that you did all of this in an `Extension Host` window where you debug/run your extension? That is the only window where we actually do not prompt for saving when you close or restart.
+20432|@v-pavanp This is a problem of the C# extension. Please file bug against them.
+20433|[sarcasm] Nice, so you are basically took my work and sign it with your name. This is how folks in Microsoft are getting promotions :D [/sarcasm]
+20434|+1
+20435|Yeah, it's not ready to be merged yet, the dependency issue is the main blocker. Thanks for the comments, I'll check them out when I'm back.
+20436|@bpasero I understand. Personally I often hide the sidebar so I have more space for the code. Then I can toggle the sidebar to check for info like debugging info. I understand it's by design so feel free to close the issue.
+20437|👍
+20438|Would be really nice if the tab close buttons matched the platform conventions: On the left on OS X, on the right on Windows.
+20439|It would be nice if you could mention #4702 in the release notes :)
+20440|Dup of #6044
+20441|Did this go through in 1.1.0-insider? I am still having this issue with a few extensions. Both of the below extensions rely on reading the configuration on the `*` activation event.  ![image](https://cloud.githubusercontent.com/assets/6961317/14995953/2451fe0c-1195-11e6-94bb-56caaa9b94ea.png)
+20442|Hi, I love that vscode has the markdown preview feature! Unfortunately, the marked project that you're depending on appears to be dead :-(  Are there any plans to move to something more active where support for things like task list support will actually have a chance of being addressed?
+20443|VS does not support pause / continue all, or at least I could not find it in their UI. So instead of that I added context menu actions for threads, so this would give the user better control as to what threads to pause / continue...  If we get the request to pause / continue all then we just need to enable multi select in call stack view
+20444|@joaomoreno now next to each thread we show paused / running, that should help with this problem. The issue with appending thread is that some debug adapter give nice names to threads already, like `Worker Thread 1`.  Can you please try it with the new paused / running badge and let me know what you think?  ![screen shot 2016-05-03 at 22 37 30](https://cloud.githubusercontent.com/assets/1926584/14997590/cc74ab04-117f-11e6-9ab1-3544a30e1a56.png)
+20445|@bpasero Insider 1.1.0 stacks better, took almost a week before it crashed.
+20446|I'll pick up 1.1.0 now and see how it goes
+20447|Agree with @WhiteCat6142. The current gray color is not enough to tell the actual commands from the translations. If the translations (or, for some case, the actual commands) are smaller, it's easier to see what are on the palette.
+20448|@jrieken Thanks, I did.
+20449|@bpasero The editor does not allow the contents to be scrolled after switching desktops using touch-pad.  ![scrollable content](https://cloud.githubusercontent.com/assets/11528019/15003692/a62b10ee-117c-11e6-9a54-fc2c370ae957.png) ![taskview](https://cloud.githubusercontent.com/assets/11528019/15003693/a62c0a26-117c-11e6-980f-5b73ae4c90ad.png)  In the first screenshot I have a file open that has scroll-able content in Desktop 2. When I switch to Desktop 1 using task view and switch back to Desktop 1 the content does not scroll, even when I click inside the file.  Hopefully this helps.
+20450|My extension (Guides) is working properly on 1.1.0-insider (1865ad05c331b3426ac51f05ddd1a999a5515ce6) without any code changes  ![screen shot 2559-05-04 at 09 30 57](https://cloud.githubusercontent.com/assets/1087399/15003884/f1935164-11da-11e6-90e7-eb8d9940584f.png)
+20451|Could you try it on different editor? Key mappings are different from each other. DVORAK, for example, has many varieties including DVORAK (command QWERTY) which I think is what you need.  If you want an alternative key mapping (not try to advertise though), I would suggest Karabiner which also supports most varieties of DVORAK.
+20452|Is this related to #1896?
+20453|Hi team, I try to supplement some info about this issue, I also meet this issue in GNOMO 3.14 on debian VM ( in virtual box), the vscode's gui always on the top of the desktop, and obscure all other applications ( include terminal),, I also try the latest vscode-insiders, the vscode can be launched successly, bu the UI of vscode-insiders cannot be shown( it will only shown a black area). after I disable the 3d feature of the VM, It works well.  Hope those info can help this issue,  Is there any way to get a previous version vscode deb release file?
+20454|@shardulm94 can you share your extensions where this still happens?
+20455|@vsccarl did you restart?
+20456|Just make sure it says `Thread` when I hover it...
+20457|Duplicate of #1896 👍
+20458|YES! I've seen the hover stop working several times but never found a way to reproduce it...
+20459|What does `git status` return on the command line?
+20460|thanks
+20461|That's the designed behaviour cos we want to reduce clutter by not allowing to many nested editors. That's why one nested editor closes the other one.  fyi @stevencl
+20462|I will bring this up in the team discussion and then we'll see how we go forward. Snippets mixed with suggestions is a point of discussion. Expect a little delay cos public holiday and long weekend is around the corner.
+20463|Does it work with `javascript` instead of `js`?  @bpasero, is it worth it to configure this alias?
+20464|Unfortunately this is not supported as all Code extensions are meant to be free. You can always implement that functionality within the extension itself although you'd be handling all the payments and distribution yourself.  cc @chrisdias
+20465|I assume you are talking about debugging?
+20466|@nchammas does this happen only when code is already running or also when code is not running?
+20467|@nchammas or do you mean focus is on another VS Code window, not the one opening?
+20468|"@mkyjakova nls.localize({ key: 'miReopenClosedFile', comment: ['**&& denotes a mnemonic**'] }, ""&&Reopen Closed File"")"
+20469|Thanks!
+20470|I have the same problem...
+20471|Or maybe we have a configuration in launch.json that forces the repl to show up when you run? I am fine to  close it manually afterwards.
+20472|For this issue I reduced the minimal height.  For showing the repl when there are errors I will look into by addressing #5870 Configuration to force replShow will look into by addressing #5889
+20473|@bpasero how does `debug.openConsoleOnStart` sound to you? Default value would be `false`
+20474|@isidorn maybe this should be a setting within a launch config instead of global?
+20475|I can't seem to take a heap snapshot without it crashing when the memory usage is over 150mb.
+20476|@bpasero also fine by me. I think that actually makes more sense since you might want different behavior per configuration. Like in your case, launching unit tests vs launching app. If we put it inside `launch.json` I would just call it `openConsoleOnStart`  @weinand opinions?
+20477|@v-pavanp 'smart step' makes only sense if your project is using source maps and those sourcemaps cover most of the source code of the project. It seems your project is a plain JavaScript project without a single source map. Why would you use 'smart step' in this case? Just to be slower?
+20478|@egamma Are there any news or issue tracking on typescript side yet? Or this is only problem on vscode side?
+20479|@isidorn some comments: - since this will only apply to the internal console, we probably should use 'internal' in the attribute name. - instead of making the attribute boolean, I suggest to make it more open ended like Dirk's `showOutput`. It is very likely that there will be more settings in the future. I suggest to call the attribute `internalConsoleOptions` and use a value of `openOnSessionStart` or `revealOnSessionStart` for the case considered here.
+20480|duplicate of https://github.com/Microsoft/vscode/issues/6029
+20481|@felixfbecker and getting the same information (stack traces etc.) in an output window like the following would not work for you?  ![2016-05-04 10-57-31](https://cloud.githubusercontent.com/assets/1898161/15009527/18de3d04-11e7-11e6-9103-42ce59107c63.png)
+20482|After using VSCode for some time now, I think the _Working Files_ mode has grown on me, a lot!  Here are a few reasons: 1. Although it sounds counter-intuitive, closing a file I'm not using (ctrl-w) does not take it out of the Working Files. This is very good because many times I find myself re-opening recently closed files (in a React project) when working with related files (or children classes). So, when I _feel_ like I should close a file does not map one-to-one to the time when I _should_ have closed it. 2. I like the explicit Force-Close, which is offered by the `workbench.files.action.closeFile`. 3. I've remapped `workbench.files.action.closeFile` to <kbd>Ctrl+k Ctrl+w</kbd> because it requires (slightly) lesser effort than <kbd>Ctrl+k w</kbd>,  4. I can see the full file name and path in the top bar of the editor -> This is very important in deeply nested projects (like I have) which has files with similar or same names (`index.js`?) and only way to differentiate is by path. 5. Less noise of tabs = Zen!  So, in a way I'm trying to say that please _don't remove_ the current flow if you introduce the tabs thing.
+20483|@weinand That would work too, but it is only for extension developers, so I have no problem with going to the dev console for this. But node-debug still logs a message on stderr on startup, which appears in the debug console... I think that should be changed to an OutputEvent
+20484|"Yes, tasks in ""preLaunchTask"" are actually referencing tasks in `tasks.json`. Inside the `tasks.json` you can pass arguments to your task. More about configuring tasks can be found [here](https://code.visualstudio.com/docs/editor/tasks)"
+20485|Build task is unique I can't dublicate it in task.json passing different arguments. I need to define arguments in launch.json
+20486|@felixfbecker the message 'waiting for stdin/stdout...' had been removed from the vscode-debugadapter module for v1.8.0: https://github.com/Microsoft/vscode-debugadapter-node/commit/e6f8ad955b562cef26e5db1e6ef8ed5b64f7cb60
+20487|Forwarding to @dbaeumer to get his opinion what is recommended here
+20488|@isidorn let's try to use an output channel for the debug adapter's stderr pipe.
+20489|@weinand sure, what name do you propose for the output channel?
+20490|@kumarharsh why would they remove that? if anything they will probably improve it for you! :)
+20491|Please consider: Is the stderr output of the debug adapter relevant to the user? It is only relevant for extension devs. If adapters want to log info for the user, the can use an OutputEvent...
+20492|@outcoldman I am very sorry, it was not my intention to not give you credit for your work, you get all the credit for what you have contributed! :heart: .  I have tried my best to do the right thing (give credit where it's due) in the commit message (fb5b68d) and in the comments of #4637 and #3685. We will also link to this pull request and mention it in the VSCode May release notes.  Looking forward to further contributions from you where I can just click the merge button -- you can ignore `.vscode/.browse.VC.db` and `.vscode/.browse.VC.db-wal` in your local vscode git repo by editing `.git/info/exclude` such that they don't get committed by accident.
+20493|I was about to come on to raise this issue. The tooltips stopped working - I had not pinned it down to use of the context menu - some sort of global state issue? This is also happening on OSX 10.11.5 beta.
+20494|Closing this due to the reasons above. Will reopen if we somebody has a nice idea on how to tackle this
+20495|Its a regression that does not appear to be happening on earlier versions of VSCode - specifically this is not occurring on 1.0.
+20496|Oh yeah, I was actually thinking about how it is possible for tasks to control this and was expecting something similar.
+20497|ping @bpasero there is no smart way to dispose these error messages that get handled in the central error handling location?
+20498|Could be the electron update...
+20499|"No, we would have to introduce more smartness around errors (e.g. have a category ""debug"" for them) to be able to do this. Or actually allow to generate a UUID with an error that you could then use in the message service to close a message."
+20500|@felixfbecker if a debug adapter is crashing for some reason, a user should be able to find (and report) the stack trace more easily than using the dev console.

@@ -1,0 +1,100 @@
+10801|"Thank you for your reply Chris, however there isn't any option for me to create a project (is ""New Project"" menu item missing?), and I want to work on a Class Library. The page you pointed out, http://code.visualstudio.com/docs/runtimes/ASPnet5, has nothing on this.  I appreciate your reply. I am however disappointed with this tool. How basic is Intellisense? Isn't it obvious that whatever instructions are needed to get Intellisense on VSCODE for C# need to be really obvious if they're not on by default?"
+10802|You are right. And I thought I tried this also before.
+10803|@aeschli @bgashler1 not sure how much you care about code size, but would be nice to put the icons through an SVG optimiser to remove Adobe meta data and now invalid stuff like SVG Doctype. Might be better to make the colour a presentational attribute rather than a CSS block too.
+10804|Colours are valid values for text-decoration, as it is a shorthand which includes text-decoration-color https://www.w3.org/TR/css-text-decor-3/#text-decoration-property
+10805|@Tyriar: Yeah, the CSS.plist from TextMate is really old. I updated a bunch of it, but didn't add @keyframes or @supports. They'd be great to have, but I didn't have time to look into the plist syntax to write the rules for those.  Ideally some of the descriptors that only belong to certain at-rules should be broken out of the property-name section into the correct at-rule section too. I'm not remembering off the top of my head which ones, except src, which is only valid in @font-face.
+10806|Yeah they had some interesting data on why they made that change. I'll get with the team and understand what they did.   Any suggestions for a new, less distracting icon?
+10807|@arolson101 yeah sorry. Unfortunately we're not quite there where we can make the website open sourced.
+10808|Nice, could be anything that doesn't catch the eye really, speech bubble etc.
+10809|Created an issue to look into options.
+10810|I found node app is not terminated when VSCode is quit. So the port is occupied by the node and cause the error.    Why not terminated corresponding node when terminating VSCode?
+10811|@chrisdias Please no. I hate it when applications open pages in web browsers. The experience needs to be more integrated. /cc @joaomoreno
+10812|@joaomoreno Thanks for filing that.
+10813|Because while one is through our internal message service, the other through our API which I found to be more limiting by, e.g., not allowing me to omit the Close.  Correct me if I'm wrong, @jrieken @bpasero
+10814|I think the message service will do just fine.
+10815|"@kumarharsh Thank you for the feedback. In the upcoming 10.10, the word navigation has been refurbished and these will be the new stops for <kbd>Ctrl+Right</kbd> for your example:  ``` |""command"": ""actions.find"" ""|command"": ""actions.find"" ""command|"": ""actions.find"" ""command"":| ""actions.find"" ""command"": ""|actions.find"" ""command"": ""actions|.find"" ""command"": ""actions.|find"" ""command"": ""actions.find|"" ""command"": ""actions.find""| ```  There will also be a new setting `editor.wordSeparators` where you can customize what a word is."
+10816|``` tsc -v Version 1.9.0-dev.20160130 ```  I'll file a bug.
+10817|"The smoketest repo doesn't have a jsconfig.json.  When I add the following `jsconfig.json`  ``` json {     ""compilerOptions"": {         ""module"": ""commonjs""     } } ```  Then this works.  However, this should also be the default when there is no `jsconfig.json`."
+10818|I agree, our C# story needs improvement. We're early in this journey and our E2E experience will get better. I should have also referred you to the C# doc that gives you a little more background on what we do and do not support today: http://code.visualstudio.com/docs/languages/csharp.    VS Code doesn't have the notion of a New Project dialog as is in the traditional Visual Studio IDE. Code is more aligned with editors such as Sublime or Notepad++ where you scaffold projects outside of the tool. ASP.NET has a yeoman generator to create applications (see [docs.asp.net for an additional walkthrough](https://azure.microsoft.com/en-us/documentation/articles/web-sites-create-web-app-using-vscode/#create-the-web-app)).  Going forward [.NET Core 1.0](https://docs.asp.net/en/latest/conceptual-overview/dotnetcore.html) will have a scaffolding tool for creating traditional console/class library/etc. applications.  Debugging support is also on its way.    Again, sorry for the rough edges, your feedback is certainly valid and we'll continue to work on the e2e experience.    CC @DustinCampbell @AnthonyDGreen
+10819|Document in README
+10820|Documentation
+10821|"That page http://code.visualstudio.com/docs/languages/csharp says  ""IntelliSense just works hit ⌃Space at any time to get context specific suggestions.""  However this isn't true. InstelliSense does not work. To prove the point, just open any .cs file with VS Code and see if works. I don't know what a yeoman is, all I wanted was a C# editor for OSX and one of the very basic requirements was Intellisense. Notice I said ""C# editor"", not ASP.NET editor.   It's 2016 and we've become used to good software by now. While I understand that you're trying to help, the fact that this is being marketed as a C# editor, even though it doesn't have the features listed on the site, is very misleading."
+10822|#3023
+10823|@innerlee Thanks for the reference~
+10824|@1dot75cm we are currently blocked by a native crash in V8: https://github.com/atom/electron/issues/4299
+10825|When I rename the file to `www.js` then the errors go away. So this might not be a Salsa issue, but an issue in how we associate the language/mode with the file `www`. I suspect the file is treated as a TypeScript file.  Assigning to @dbaeumer he has debugged such a problem previously.
+10826|@egamma what does the status indicator say about the language type. The problem I had was exactly the opposite. The shebang forces VSCode to treat all files as JS regardless of the extension. So even TS files where treated as JS if they have a shebang. So I am pretty sure the shebang forces VSCode to treat the file as JS but may be Salsa fails with it due to a missing extensions.
+10827|I checked the samples and inside VSCode the bin/www file is treated as JavaScript. When the extension transfers the file to the tsserver VSCode has no means to tell the tsserver the type of the file. So I really guess that this is a tsserver issue falling back to TS type if a file has no extension.  ![capture](https://cloud.githubusercontent.com/assets/1931590/13391174/1f9b5b0a-ded3-11e5-9768-2a502936ed28.png)
+10828|@egamma see my latest comment. I am pretty sure that the tsserver treats files without an extensions as TS. I am experimenting with a jsonfig.json file to tell the tsserver this is a JS project.
+10829|_From @bpasero on February 29, 2016 9:6_  @aeschli fyi
+10830|Filed issue against TypeScript and documented the limitation in the release notes.
+10831|I think you have the same control over actions both for internal and API use.
+10832|@dbaeumer any ideas?
+10833|Currently the sorting is based on our scoring algorithm. I do not think it would make sense to change the sorting based on other criteria unless there is a good way to explain this to the user.
+10834|We should enable this action (and maybe Save) only when the file is dirty.
+10835|@aeschli is it possible with our theming story to add global CSS rules that alter things outside the monaco editor? I would think not?
+10836|Docs are:  ``` /**  * Show an information message to users. Optionally provide an array of items which will be presented as  * clickable buttons.  *  * @param message The message to show.  * @param items A set of items that will be rendered as actions in the message.  * @return A thenable that resolves to the selected item or `undefined` when being dismissed.  */ export function showInformationMessage(message: string, ...items: string[]): Thenable<string>; ```  I call it with  ``` vscode.window.showInformationMessage(     'Our JavaScript support has been enhanced, would you like to view the Release Notes?',     'No',     'Yes' ) ```  And I get the `Cancel` button.
+10837|See https://github.com/chjj/marked/issues/296
+10838|the sorting can stay the same, just ignore the files listed in `.gitignore`. this is the absolute main thing that keeps me from using code.
+10839|Yep: https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/api/node/extHostMessageService.ts#L60
+10840|"I like the way it is and we already pushed this to people. We could add ""on"" to be an alias for ""afterDelay"" though."
+10841|@pflannery which version of Code is this?
+10842|@antonydeepak which code version? and is this windows?
+10843|Yeah I noticed this new environment variable.
+10844|No screen reader support in Chrome for Linux.
+10845|"> Hi, > I've been able to identify an unresolved issue that might help solving the issue. > when setting > ""http.proxy"": ""http://[user]:[password]@[url]:8080"", > ""http.proxyStrictSSL"": false >  > It doesn't work for the following reason: > workbench.main.js:87 getaddrinfo ENOTFOUND [user] [user]:80: Error: getaddrinfo ENOTFOUND [user] [user]:80 > at errnoException (dns.js:25:10) > at GetAddrInfoReqWrap.onlookup as oncomplete >  > Our corporate proxy is NTLM based and can leverage on declarative authentication in the Proxy Url >  > Seems like the parsing of the username and password is bugged,  It's work for me we %5С as delimiter between domain and login in username: http://superuser.com/a/395177/64719  `""http.proxy"": ""http://DOMAIN%5CUSERNAME:PASSWORD@PROXYIP:PROXYPORT""`"
+10846|I can make the description clearer.
+10847|@joaomoreno descriptors are static enough that you cannot create them if you need services. the point of F1 is to show descriptors and not instantiated actions.
+10848|@bpasero you did the handle ansi output, forwarding to you. Feel free to give back
+10849|Documented in readme for Februar release
+10850|The plan is to add a 'url' and a 'urlLabel' attribute to the debug protocol's `Message` object. The UI would turn this into an action in the error notification.
+10851|looks good!
+10852|looks good.
+10853|verified
+10854|looks good.
+10855|@bpasero I tuned this a bit based on your feedback, check it out and let me know what you think
+10856|:+1:
+10857|I've noticed this as well on Ubuntu. It could be related to https://github.com/Microsoft/vscode/issues/3127,  I haven't tested it since that went in.
+10858|@isidorn the output panel uses https://github.com/Microsoft/vscode/blob/master/src/vs/base/common/strings.ts#L551 to remove ANSI codes. I suggest REPL does the same and adds the [2K thing which does not seem to get handled yet.  The output will still not make much sense though because the real fix is to fully support ANSI in output and repl which is a feature on our backlog.
+10859|@isidorn much better, but I suggest to also emphasize the default, similar how encoding does it:  ![image](https://cloud.githubusercontent.com/assets/900690/13395155/47568e98-deed-11e5-9fef-2ed187963d6e.png)
+10860|"Maybe it should read ""Configured tab size"" or something like that."
+10861|@stevencl @bgashler1 fyi
+10862|https://github.com/Microsoft/vscode-extension-vscode/issues/12
+10863|This is as designed. Currently you cannot open the same folder in multiple Code instances.
+10864|@Tyriar since you seem to have some ideas, I am happy to review a PR on this. Unfortunately the native dialog does not give us much options what to put in. Not sure if we want to stop using a native dialog and use a custom one instead. I favour native over custom if possible.  Sublime seems to open a little new window for the about dialog. We could certainly also do that and just host some HTML in there:  ![image](https://cloud.githubusercontent.com/assets/900690/13395285/2a01dce8-deee-11e5-9f5f-478d3708c786.png)
+10865|@stevencl @bgashler1 fyi
+10866|:+1:
+10867|@tstringer Windows 10?
+10868|I would think that people assign a keybinding for working files picker and not always type the character.
+10869|Dupe
+10870|@stevencl unfortunately we do not have a global action to enable tab to move focus on, instead you have to enable it per editor. The diff editor is not a normal editor, so when it opens, you have to enable it again.  @alexandrudima I wonder if the action to enable tab navigation should be global for all editors, instead of local to each editor.
+10871|@chiangf can you please verify that adding the large dir to exclude really is the source of the high CPU use? does the CPU change just by making a change to this setting? If so, which one?
+10872|@SetTrend I'm not familiar with chalk but from looking at chalk's description I'm pretty sure that `chalk.blue('Hello world!')` is not supposed to output anything but only creates a string with ANSI colour sequences. So you still have to use console.log(...).
+10873|@bpasero watching tasks (expecially tsc) are not executed in the Electron Helper. They are executed in a separate node environment (e.g. what is specified in the tsc shell script).  What could have an impact is if a tasks produces a lot of output which will cause constant scanning of that output. But the described issues doesn't sound like this.
+10874|@bpasero 0.10.8
+10875|@alexandrudima in the keybinding settings I am getting a warning for my locale for the action workbench.action.navigateBack and I am not seeing the keybinding show up in the menu:  For your current keyboard layout press ⌃+ß  You think the reason for the keybinding not showing up could be my locale? We set the keybinding to be Ctrl+US_MINUS in https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/browser/actions/triggerNavigation.ts#L58
+10876|Can people here open the output window to see if we spam the output when this happens?
+10877|"You can remove entries from the list by opening an entry and invoking the ""Close File"" command (Cmd+K W).  I do agree though that it is nice to have more control over the recent list."
+10878|@alexandrudima can we not use the tabindex property with a non-zero positive value to control the tab navigation within the editor? I filed this bug originally because I was expecting to first tab into the editor (from the outside) before tabbing e.g. into the find widget.
+10879|I am also not sure why the find widget would appear before the editor, isnt the editor the container of the find widget in the end?
+10880|Currently there is only support to run one task at a time. Being able to run multiple tasks in parallel is on the backlog.
+10881|See https://github.com/Microsoft/vscode/issues/981
+10882|"@Tyriar please make sure that https://github.com/Microsoft/vscode/issues/1579 is still fixed after this change. The original issue was that someone managed to save a file called ""cd.."" which is an invalid file on Windows. Maybe a better fix is to remove trailing dots only when there are no leading dots."
+10883|@alexandrudima thanks <3!
+10884|Verified.
+10885|@jrieken I guess the issue is that the untitled model actually gets disposed when being saved and a new file is being created. I am not sure if I should introduce a new event for an untitled file getting saved, or maybe the existing events are already good to go? We should talk :)
+10886|Please do.
+10887|@sarbbottam Cmd+K E is for focussing the working files list!
+10888|I can still reproduce this on 0.10.11-alpha. @alexandrudima you can step by and we can debug it if you want.
+10889|@joaomoreno thats a tough one, would you want explicit API to listen to a .git folder in the parent chain? I think if git does not find a .git folder to listen on, it should fallback to some polling mechanism instead.
+10890|In Feb.
+10891|@bpasero Yes sure. The theming CSS rules are all global and can be used anywhere. But there's a limited set of standardized colors that TextMate themes define and they are editor related. Custom colors are also possible, of course.
+10892|@bpasero - Could you elaborate? I think the change I'm describing is very easy to explain.  Here's take 2 at explaining the change, simplifying what I said earlier:  Search results are divided into 2 sections--tracked files and everything else. Results within each section are sorted according to the current scoring algorithm. The tracked files section always shows up first.   In addition to being easy to explain, this is the behavior I wager most people would expect.  As I commented earlier, Python projects generally have `venv`, `dist`, and `build` subfolders which contain many Python files, some of which are even copies of the main project files from the last packaging build. These are not part of the project and you don't check these files in because they are copied from third-parties or auto-generated.   Treating these files as equal to the main project files severely detracts from the usability of search. No one wants to see results from these files at the top, if even at all.   I'm sure other languages have similar problems as well.   If ignoring these files in search results is too big of a step to take, then I think the tweak I'm describing here yields the same usability benefit while being straightforward to explain.
+10893|I can't reproduce this. @httpete can you share your project ?  ![capture](https://cloud.githubusercontent.com/assets/1931590/13396092/fef4f440-def2-11e5-82e2-f16c7ea76d88.png)
+10894|@nchammas I do think that the right fix is to just exclude those files when .gitignore is present and the setting to respect it. otherwise one could also argue why we are not doing the same sorting trick for the search/files exclude setting.  The real work here is to translate .gitignore patterns into our ignore patterns and making sure the solution scales. I have seen .gitignore files with 1000+ rules that would need to be applied many times over many paths.
+10895|@cwliu as a workaround you can put a leading and trailing 3 \* backtick to indicate a code block.
+10896|Fixed for Feb.
+10897|@pflannery currently you cannot really theme anything outside the editor. @aeschli please chime in unless I am correct with that statement.
+10898|+1
+10899|I am sure we have a dupe for this...
+10900|@kthompson can you share the workspace and its location?

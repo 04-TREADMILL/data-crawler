@@ -1,0 +1,100 @@
+16901|Extraneous error message when running scripts\test.bat --coverage
+16902|Maximize current file/tab/editor
+16903|Add disconnect icon
+16904|Increase size of stop icon
+16905|Copy path from editor tabs
+16906|Remove message insider builds are becoming daily builds
+16907|Debug dropdown: selecting an entry should not launch it
+16908|Debug: start and then attach is still weird
+16909|Change All Occurrences not respecting capitalisation
+16910|"Debug: step into node.js core function results in ""Path must be string, received undefined"""
+16911|Escape characters visible in Hover
+16912|Adopt configurationSnippets in debug adapter
+16913|Check usage of Selection menu items
+16914|Use a round border for start debug action
+16915|editor.formatOnSave adds and then removes spaces to function definitions, cluttering up the diff
+16916|Looking for information on debugging a node C++ addon using nan and node-gyp
+16917|Add telemetry event for hot exit triggered
+16918|New watch expression shows old value while being evaluated
+16919|Cannot read property 'reason' of undefined
+16920|Add hot exit educational message
+16921|Launch drop down no longer updates
+16922|Zooming UI
+16923|Fresh install of Visual Studio Code does not launch
+16924|high contrast mode - results badge while searching settings not very high contrast
+16925|"""edit"" button for settings not discoverable"
+16926|high contrast mode - links in tooltips unreadable
+16927|Save all will perform paste operation
+16928|Late diff decorations in rulers and diff editor
+16929|Whitelist domain names
+16930|Fix TS/JS Completion Item Provider for Completions that are not whole words
+16931|ERR_FILE_NOT_FOUND for nls.js and editorSimpleWorker.js
+16932|At least 2 VScode  were started
+16933|Move @types/semver in TS Extension to devDependencies
+16934|Update to ThirdPartyNotices for 1.8.0 release
+16935|Multi-select is not correct
+16936|Diff view not displaying differences anymore
+16937|Snippets should appear first with IntelliSense
+16938|Visual Studio always uses significant energy
+16939|[loc][Query][VSCode] Please clarify localizability
+16940|Live Preview
+16941|diff display does not work (1.8.0-insider 2016-12-09T07:02:57.714Z)
+16942|Debt - Ensure vs/nls is not dependent upon in worker code
+16943|[loc][Query][VSCode] Please clarify the string
+16944|[loc][Query][VSCode] Please clarify the placeholder
+16945|"[loc][Query][VSCode] Please clarify ""compound"""
+16946|[loc][Query][VSCode] Please clarify translatability
+16947|[loc][Query][VSCode] Please clarify the string
+16948|[loc][Query][VSCode] Please clarify the context for a string
+16949|Is there a way to disable Ctrl Click go to reference feature?
+16950|Enable / Disable activit bar shortcuts back to default position
+16951|Unpretty language name
+16952|Fishy corner case with auto save on when save fails
+16953|smoketest: switching projects results in a black window
+16954|Add outline support for Markdown files
+16955|smoketest: generating launch.json creates file with deprecation warnings.
+16956|smoketest: seeing 'Duplicate object key' warning for settings.json
+16957|NVDA testing workbench reads many times clickable when tabbing through editor tabs
+16958|Per language settings are needed
+16959|undefined when searching for symbol
+16960|Resize file explorer window horizontally doesn't work on windows 10 when terminal is visible
+16961|Inside built-in terminal - tabbing through folders makes text jump
+16962|Show preview editors while navigating through the search results
+16963|Expand Sample Collection
+16964|"Feature Request: API: Subscribe to the ""data"" event on a terminal"
+16965|Changing a selection to the end or beginning of a line while selecting multiple lines behaves wrong
+16966|[macOS] Properly handle Window Restoration during Sudden Termination (for Spaces)
+16967|Linux: Flickering when starting to drag editor tab
+16968|Git colored files for staged and not staged
+16969|VSC does not start on VM, GLX 1.3 is requied -
+16970|num pad on the keyboard does not work in VSCode when Chrome browser displays a notification
+16971|Searching settings which are not listed in Most Commonly Used expands sections incorrectly
+16972|Deleted files show up in quick open if they were deleted when vscode was closed with the file not open
+16973|Add SmartIndent capability
+16974|Debug dropdown play button should have click feedback
+16975|Automatically Restart TypeScript Service on TypeScript TSDK Change
+16976|Bump up version for applicationinsights
+16977|Feature Request: Sticky Decorations
+16978|[Question] How to programatically access New Unsaved File
+16979|Problem with debugging python code.
+16980|Apparent package.json corruption in conjunction with npm install --save whatever
+16981|Select a block of code and edit in new tab
+16982|Git: Branch (Command Palette) closes and clears input box upon switching apps
+16983|Pressing Command Key (while text selected) in Left-hand Side of Diff Editor Makes it Vanish
+16984|Windows: allow more styles in the menu bar and hide the title bar
+16985|There isn't Chinese Documentation
+16986|Shift+home/end now go to the end of the selection start's line, not the selection's end
+16987|php file issue
+16988|Build fails for 1.7.2 on a Ubuntu 14.04 Travis CI instance: Error: Cannot find module 'gulp-watch'
+16989|Signed git commits do not work without an agent
+16990|No color javascript after `${+new Date}`
+16991|When Auto Save enabled Run Build Task should trigger save before building
+16992|Feature Request: Git Diff/Undo from gutter
+16993|VSCode Version: ERROR Code 1.7.2
+16994|While Publishing Project in Visual Studio Code MarketPlace
+16995|Duplicate of #16338: Add context actions along the lines of IntelliJ
+16996|Where do we help with translations?
+16997|"""Go To Symbol in Workspace"" command provides inconvenient UX in some cases."
+16998|Commenting out code does not work properly
+16999|LanguageServer Crash after successuflly executing onDidChangeContent callback
+17000|Autocomplete triggered on backspace

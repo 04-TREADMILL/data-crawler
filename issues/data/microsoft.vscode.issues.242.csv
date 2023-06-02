@@ -1,0 +1,100 @@
+24101|Font weight changes when hovering over the sidebar
+24102|"Code no longer respects the ""Dvorak - QWERTY"" keyboard layout on OSX"
+24103|Empty Source Control actions after update
+24104|Sidebar selected and hover colors in colorCustomizations
+24105|Git: change wording for 'Disable Preview SCM'
+24106|Support Redhat 6
+24107|"Node-debug: show empty property names as """""
+24108|Suggestion: support file path completion in launch.json fields
+24109|Default Cmd+k keybinding doesn't work with terminalFocus
+24110|Cannot run build after upgrade
+24111|Portuguese (Brazil) Keyboard Layout: IntlRo appears as 'unknown' key on Keyboard Shortcuts
+24112|Can't find a C++ source file on ecryptfs home directory during debug process on Ubuntu.
+24113|Source control is missing entirely... No changes, no files, nothing...
+24114|git viewlet doesn't react to new file changes
+24115|1.11.1 has rendered code on remote linux host unusable
+24116|console.log in Webview only Logs First Argument
+24117|"ISO Keyboards: Backslash and IntlBackslash ""swapped"""
+24118|formatting issue when looking at settings defaults
+24119|After update to 1.11.1 error creating new window
+24120|1.11.1 Git is slow and occasionally works since upgrade...
+24121|Version 1.11.1 causes blank screen on Mac
+24122|Disable minimap in Output pane
+24123|git don't work on mounted ntfs wolume on ubuntu 16.04
+24124|Scrolling with touchpad not working on elevated mode (run as Administrator)
+24125|Please support SVG preview (like MD)
+24126|"ctrl+b(toggle sidebar visibility) twice on ""Keyboard Shortcuts"" tab"
+24127|Add `when` context: editorGroupMaximized
+24128|BreakpointEvent causes all other breakpoints in file to be cleared
+24129|use Emmet syntax insert html element will create a odd cursor look at attachment^.^
+24130|KDE: Reading keyboard layout reads the wrong one
+24131|Synchronize changes not showing animations while pulling changes
+24132|Global search with regex just shows opened file
+24133|Needs to improve as atom
+24134|Source Control section running forever
+24135|Unnecessary empty space beside the scroll bar of the Markdwon Preview panel
+24136|there is no animation when clicking the synchronize changes button on status bar.
+24137|Open New Terminal command not working
+24138|Cannot read property 'length' of undefined Error After update (v1_11)
+24139|Extension host terminated unexpectedly. Please reload the window to recover.
+24140|Saving the code is not formatting anymore in 1.11.0/1
+24141|`this` is undefined on debug mode
+24142|Dutch keyboard layout: ctrl-` is displayed wrong
+24143|Blank window on startup (network related?)
+24144|Cycle trough previous searches in 'Go to File' input
+24145|Use GUID for Marketplace telemetry ids
+24146|files.defaultLanguage does not work with PowerShell
+24147|Switching Interpreter should also change terminal environment
+24148|"Intellisense shows ""mousewheel"" as an applicable event"
+24149|After hotexit file.encoding сhanges to UTF8
+24150|Keyboard shortcuts have reversed position of ` and §
+24151|Merge in translations
+24152|File not opening up in VS Code when set to default
+24153|Add option to order tabs by file type, then alphabetically
+24154|Integrated terminal display problem
+24155|Areas of different color then rest of the window on Mac
+24156|Extensions for MEAN
+24157|Ability to detect a Mean project and provide extension recommendations
+24158|Russian keyboard layout: hotkeys don't work
+24159|Issues auto guessing file with GBK encoding
+24160|Code completion not working inside strings
+24161|Allow to open a file in a specific editor group
+24162|Default node launch does not work when there is no .js extension for Program attribute
+24163|VS Code 1.11.1 – Do not see Git repository
+24164|Debug in JS stopped working
+24165|"Git option ""Push"" is not greyed anymore right after push"
+24166|Open Editor section goes nuts!
+24167|Git: Can no longer create a branch using the checkout button
+24168|editor.action.quickFix command cannot be completed using the keyboard
+24169|Sometimes editing not possible
+24170|Not able to launch MEAN application from VS Code
+24171|Selection of change in git view
+24172|regression: word wrap does not work
+24173|Confusing References code lens
+24174|Extension host terminates...
+24175|Window Freezes after I click on source control
+24176|Ctrl shortcuts for Mac not working in latest update
+24177|Diff editor fails to update
+24178|vscode has some error on the new wondows10 pro(version1703,the os version 15063 )
+24179|There should be a theme-invariant markdown preview with white background
+24180|Icon `Synchronize changes` doesn't spin
+24181|Disable custom title bar style on older macOS
+24182|Unable set Ctrl+/ for Toggle Line Comment
+24183|Extension host terminated unexpectedly. Code:  3  Signal Error
+24184|Key remapping using xkbd options broke with the keybinding changes in 1.11
+24185|icon of SCM not really visible with high contrast theme
+24186|Selection in GIT View does not change the editor view
+24187|Command palette hidden when app focus lost
+24188|File destination info when jumping to a multi-defined symbol
+24189|Warning french translation
+24190|Zoom level on separate windows
+24191|Window not restored to its previous location and size
+24192|Report search results in a treeview
+24193|"""maccenteuro"" encoding works but not accepted value!"
+24194|Strange syntax highlighting
+24195|Crash when using Traditional-Chinese IME with integrated terminal
+24196|File explorer opens file under cursor on [Esc] key.
+24197|CPU IS HIGH
+24198|Git sidebar no 50char warning
+24199|FileLabel can't handle UNC paths very well
+24200|Error running tests: TypeError: Cannot read property '0' of null

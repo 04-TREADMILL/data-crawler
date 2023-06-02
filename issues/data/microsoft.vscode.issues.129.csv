@@ -1,0 +1,100 @@
+12801|Asyncawait + Fibers = extension errors
+12802|"Find and Replace: ""Find in selection"" includes current line of multi-line selection"
+12803|Output panel grabs focus when tsc is restarted
+12804|Markdown Incorrect Colorization of Fenced Code Blocks Inside of Block Quotes
+12805|Markdown Incorrect Colorization of Block Quotes Containing Html
+12806|Markdown Preview View Has Incorrect Size With Zooming
+12807|Comments mess with syntax highlighting on the next line in TypeScript
+12808|More contrast to selected line in peek definition
+12809|Format on Save and Format produce different results
+12810|integrety -> integrity
+12811|Gutter color should be consistent with scrollbar for new content
+12812|TextDocumentSaveReason literals
+12813|Support standard tab navigation key shortcuts on macOS
+12814|Auto format after saving a non-open tab corrupts undo history for it
+12815|Next/Prev Group should not create new group
+12816|Auto format on save doesn't work when quitting VS Code (and saving changes)
+12817|Markdown Should Highlight ! for Images
+12818|Empty workspace: keep UI state and reopen files
+12819|Markdown Show Source With Tabs Sometimes Switches To Previous File
+12820|Markdown Preview Show Source Menu Button In Tabs Should Switch Back to Source File
+12821|Bizarre empty line behavior when using a proportional font
+12822|"市场返回 ""ECONNREFUSED""。请检查 ""http.proxy"" 设置。"
+12823|Highlight Markdown Image Starting ! Punctuator
+12824|Installed extensions should be sorted by display name, not publisher
+12825|Can install node-debug2 in old versions of vscode
+12826|Quick Info should apply to all completion items, rather than selectively
+12827|Should be able to arrow key through quick info boxes
+12828|Replace 'outDir' with 'outFiles' in the error message for missing setting in Launch config
+12829|Quick info view provides improper affordances
+12830|[json] no completions for enum values in alternatives
+12831|Completion list showing bogus completions
+12832|JS completions are... too complete
+12833|Font sizes / styles of IntelliSense tool tips are disconcerting?
+12834|Module exports should appear in completion list as functions, not properties
+12835|Conditional breakpoint can not be restored after restart and breaks debug UI
+12836|strange error warning with ts quickstart showcase
+12837|VS Code freezes when loading big file
+12838|"""Open with code"" context menu should open in already open VS Code window"
+12839|Can't edit with VSCode
+12840|Nextline automatically when writing a markdown code
+12841|Completion list items is not vertically centered
+12842|"VSCode does not remember the UI settings. ""Render Whitespaces"" and ""Zoom"" levels reset after every restart"
+12843|on windows can't open line with absolute path on windows
+12844|Keybindings watermark on Linux is quite complex
+12845|"""Copy Full path"" and ""Open Containing Folder"" should also e present in on the context menu of file open"
+12846|No more action in debug viewlet to open repl?
+12847|Markdown preview: some files flicker/reset scroll position on type
+12848|Application Hang
+12849|Implement a completion item provider for extension identifiers
+12850|Preview window and zoom rendering issue.
+12851|As a user, I should be able to see the extension dependencies in the extension editor
+12852|cannot search file name in folder
+12853|Inspect a Webview
+12854|Poor coloring of JS inside HTML in light theme
+12855|Feature request: add ability to manually check for updates
+12856|Outdated extensions are not removed anymore
+12857|Files with same name get overwritten when editing only one of them
+12858|Workbench broken when panels visible in activity bar right on startup
+12859|Watermark logo should not move when closing all editors
+12860|WorkspaceConfiguration#update should make global optional
+12861|lineNumbers: 'off' still renders a lineNumber div
+12862|tab size - bug
+12863|sass default save as .sass,not is .scss
+12864|NPE when editing file
+12865|High CPU usage.
+12866|TypeError: Cannot read property 'getRepositoryRoot' of null
+12867|Debugger: issues with editing variable via double click
+12868|Feature request: disable an extension without uninstalling
+12869|Double-click highlighting separating white space
+12870|Extension ID should not wrap
+12871|Files getting corrupted arbitrarily
+12872|Java: toString is not in auto-completion list
+12873|Error
+12874|Show preview editors while navigating through quick open results
+12875|Allow to enter paths for creating/renaming files
+12876|App/Electron won't start on macOS Sierra 10.12
+12877|Follow up on fix for #12750
+12878|Restore ability to create a file from a link that points to non existing file
+12879|"Feature Request: Default ""find"" settings (e.g., case sensitivity, regular expression settings)"
+12880|Bug: TextEditor.insert() fails to update TextEditor.selections
+12881|Improve layout and typography of the Getting-Started watermark
+12882|watermark changes
+12883|Details of extension dependencies should show up in details or contributions tab
+12884|C# (powered by OmniShar) Extension
+12885|Debug console input has a large gap on the left
+12886|Installing an extension with dependencies that are already installed still displays install dependencies dialog
+12887|Extensions with 0 installs should say 0 installs in viewlet
+12888|extensionDependencies should support @x.y.z annotation in addition to ^ and ~ as in dependencies
+12889|Extensions publish do not warn/error on invalid extensionDependencies
+12890|Should extensionDependencies be tied more closely to their parent extension?
+12891|Let me refresh the extension list in a reliable way
+12892|Why can't I sort the installed extensions list?
+12893|"Command Palette should show ""Go to Symbol in File"" and ""Go to Symbol in Workspace"""
+12894|Updating an extension should present the version of the update
+12895|Extension detail pane should indicate the version of the readme, particularly when an update is available
+12896|vsce should not publish with duplicates in extensionDependencies
+12897|Menubar and Context Menu invisible on Windows High Contrast
+12898|Workspace or Folder or both?
+12899|Updating an extension will install new extensionDependencies without prompt
+12900|Info prompt to restart Code after uninstalling extension, but not installing

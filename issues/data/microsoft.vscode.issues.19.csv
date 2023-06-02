@@ -1,0 +1,100 @@
+1801|Expose ILinkSupport in API
+1802|Could Let's select to update
+1803|Uncaught TypeError: Cannot read property 'startLineNumber' of null
+1804|Expand selection and shrink selection in HTML
+1805|AbstractMirrorModel.getPositionFromOffset: Model is disposed
+1806|TypeError: Cannot read property 'apply' of undefined
+1807|Uncaught TypeError: Cannot read property 'activateByEvent' of undefined
+1808|Uncaught NotFoundError: Failed to execute 'insertBefore' on 'Node': The node before which the new node is to be inserted is not a child of this node.
+1809|TypeError: Cannot read property 'getWordAtPosition' of null
+1810|Uncaught TypeError: a.getType is not a function
+1811|Uncaught TypeError: Cannot read property 'startColumn' of null
+1812|TypeError: Cannot read property 'friendlyMessage' of null
+1813|Non-git repository causes Code to grab all files on Mac
+1814|yield keyword is not highlighted in js file even though target:es6 is enabled in jsconfig.json
+1815|The execution process is not correct of Python
+1816|Putting a breakpoint in an internal module does not work
+1817|Add a keyboard shortcut for staging the current file
+1818|Add autocomplete for keybindings.json
+1819|Add support for ctrl+k + (second command) in the Define Keybinding helper
+1820|Notification of conflicting keybinding
+1821|Mouse Drag & Drop causes undocking of window
+1822|January Iteration Plan
+1823|Cannot read file from Folder
+1824|call ConfigurationDoneRequest from debug frontend
+1825|Build and Run From Source for Ubuntu: directory vscode not created
+1826|Conditional breakpoints
+1827|register text document provider
+1828|Debug hover complex inspection
+1829|Add some API to support GUI customization
+1830|Use StringMatch for finding files
+1831|Provide access to current editor column
+1832|Print margin or similar
+1833|Italics break in Markdown mode when there's linebreak
+1834|Accented vowels are not rendered correctly
+1835|'dnu restore' EACCES on Mac OS X.
+1836|mouse select doesn't work in rename text box on OS X
+1837|Extension Marketplace Page: Support Emojis
+1838|"ubuntu, v0.10.6, tab works ""too"" hard in find/replace mode"
+1839|Recent files (not folders) support in Visual Code?
+1840|Some suggestions！【such as image!】
+1841|[php] Newline characters not escaped correctly
+1842|Issue with markdown table
+1843|Cannot watch for file changes for files on disk root
+1844|Sporadic test failures
+1845|[themes] More colorful default theme - Feedback
+1846|Text highlighted with double click intermittently can't be edited
+1847|Allow to map a filename to a language based on a prefix
+1848|OSX - Chrome - All links broken on home page: https://code.visualstudio.com
+1849|Installing plugins behind corp proxy is broken
+1850|Auto save settings
+1851|Extremely slow loading and operation
+1852|Add links to MarkedString
+1853|"F3, Find Next, acts like ""Find Under Cursor"""
+1854|Suggestion: open latest edited file when closing a file instead of closing/emptying the view
+1855|prevent bogus hovers
+1856|Debug adapters cannot access workspace settings
+1857|ugly working files section
+1858|Proxy error: unable to get local issuer certificate
+1859|Extensions: typing while search is running always resets progress back to 0
+1860|[themes] Comments are not colored
+1861|Expose diffEditor to plugins
+1862|editor.insertSpaces: auto always inserts spaces in new files
+1863|Default light theme does not colorize comments in typescript
+1864|revealRange won't scroll horizontal with default reveal type.
+1865|Find Widget tab order
+1866|Find widget does not reveal match when selecting
+1867|Linux: userData path changed due to Electron update
+1868|Installing an extension with multiple Code instances open
+1869|Operating System Specific Properties in launch.json
+1870|Can't edit a file with very long line
+1871|Position the output window and debug console in a horizontal panel
+1872|Design header bar for debug console/output window horizontal panel
+1873|Define the actions and keybindings that will control the horizontal panel
+1874|Add animation-fill-mode property
+1875|"do not pass ""address"" attribute to launchRequest"
+1876|Dark+ theme: fields hard to see
+1877|Extensions API consumption
+1878|The counter should always have width >= height
+1879|goto back/forward works poorly
+1880|Status bar background color
+1881|VSCode sometimes thinks tsconfig.json is missing.
+1882|Rename the currently open file
+1883|Increase the default contrast of command window
+1884|Mac OS X :: CMD + K, DownArrow shortcut doesn't work
+1885|Invoke 'Rename' on delayed double click
+1886|Implement directional window splitting
+1887|workbench.action.focusRightEditor splits the view when 2 views are open
+1888|"Add ""New Workspace File"" action"
+1889|[json] Support extending JSON completion
+1890|Prevent code.cmd from being found in Start Menu search
+1891|VS Code with NVM
+1892|Provide an option to enable DirectWrite
+1893|Replaced all old style imports to ES6
+1894|debug v0.10.6 launch chrome attach to wrong tab
+1895|Display warning when extension node version constraint is not met
+1896|[css] Consider stylelint for CSS linting
+1897|"Cannot Read ""/extensions/csharp-o/packages.json"""
+1898|Git error message should include git output
+1899|Clicking git sync icon should only push when there are local changes
+1900|Git stashing

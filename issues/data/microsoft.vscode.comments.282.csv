@@ -1,0 +1,100 @@
+28101|High contrast shares the same link color.
+28102|I hve the C/C++ extension from M$ installed.
+28103|@zhu-liang Thank you! After I updated the C/C++ extension and put that option in I was able to start debugging. Is this a long term fix or something temporary on the insiders build? Unsure of if I should be closing this or not.
+28104|Is this a bug?  This is the correct rendering according to the CommonMark specification for [ATX Headings](http://spec.commonmark.org/0.25/#atx-headings).  It goes to show that that things like this should not be rendered as a header:  `#5 bolt` should be rendered `<p>#5 bolt</p>` and `#hashtag` should be rendered as `<p>#hashtag</p>`
+28105|"My error, this works: ""terminal.integrated.shell.windows"": ""E:\cygwin64\bin\bash.exe"""
+28106|Duplicate of https://github.com/Microsoft/vscode/issues/6602
+28107|Dupicate of https://github.com/Microsoft/vscode/issues/7269, @isidorn interested in your thoughts on this if you use <kbd>F1</kbd>. I think the eventual solution to this is being able to tell the terminal which keystrokes to not pass to the terminal, it could be a bit tricky to do though.
+28108|Possibly related: https://github.com/Microsoft/vscode/issues/8219, https://github.com/sourcelair/xterm.js/issues/149
+28109|@Tyriar yes I use F1 and I can see that some of our users do too, so we should look into a solution to this problem. The issue is that user can have custom keybindings so it becomes more tricky. Though sometimes that covers the 90% case should be fine in this case imho
+28110|Not cruical -> july
+28111|Not cruical -> july
+28112|Not cruical, feature request, july
+28113|I like the current design, but that is just me, letting @joaomoreno decide in july
+28114|This is as designed by joao, leaving it for him and july for more comments
+28115|@souptown I've just verified with VS Code 1.2.1 that the variables from above work fine. Please provide more detailed information why this doesn't work for you.
+28116|By analyzing the blame information on this pull request, we identified @sandy081 to be a potential reviewer
+28117|I saw this docstring in the hover info for getWordRangeAtPosition, but unfortunately the link [word definitions] does not perform any action when I click on it (like opening in a browser or view). So I did not realize there was an explanation for how to do this. Given that I think what you have is sufficient. I will try to add a language customization and see if it works as it should. If so I will close this issue.  Thanks, James
+28118|Thanks for investigating this @wallverb! :+1:
+28119|By analyzing the blame information on this pull request, we identified @bpasero and @egamma to be potential reviewers
+28120|Upstream issue, repros on http://docs.emmet.io/actions/expand-abbreviation/
+28121|Does not repro in upstream http://docs.emmet.io/actions/match-pair/
+28122|To be honest I never thought this could be a problem when I've implemented the editor zoom... It looks like this: ![image](https://cloud.githubusercontent.com/assets/14231157/16432089/e7319d28-3d83-11e6-9967-ad75f41b39c5.png) I guess it's better than nothing...
+28123|@mrmlnc   > i just moved require(['emmet']... from promise run() into constructor.  The EmmetAction constructor is called during startup. This means your version activates emmet on startup, which is what we want to avoid we do not want to add to the startup time. This is why we load emmet on the first tab key.  > And settings apply when they are changed.  Keep in mind that the Action constructor is called for each action, this means you register a listener for each action (which I think there are now 17). This also means you update the preferences multiple times.  1) Moving the loading of emmet to the constructor is something we must not do.  2) The listener should only be registered once.
+28124|Verified that getWordRangeAtPosition respects language settings.
+28125|Updated title to be more generic, this seems to be a problem with most commands if not all.
+28126|Other variables are substituted both in args and in env.
+28127|I'm a F1 person. Not having F1 is particularly weird for cases like when you want to use the command palette to create a new terminal or navigate between them.
+28128|Potentially related: https://github.com/Microsoft/vscode/issues/8447
+28129|@sant123 this is not possible, but it is a valid feature request.
+28130|The same applied top the decode data image uri command.
+28131|Putting my comment on #8312 here on the potential way forward:  > I think the eventual solution to this is being able to tell the terminal which keystrokes to not pass to the terminal, it could be a bit tricky to do though.
+28132|Not sure what's going on but the extension is not working well for me.  Here's atom & vscode side by side:  ![image](https://cloud.githubusercontent.com/assets/39191/16434395/64c4d57e-3d44-11e6-8ef7-85332c4a40e9.png)
+28133|@isidorn what OS and shell are you using?
+28134|Requesting feedback @Microsoft/vscode  What is the ideal format for the settings? :+1: the comment you like if you can't be bothered talking :smiley:
+28135|"#### Option 1  What is currently done:  ``` json {   ""terminal.integrated.shell.linux"": ""bash"",   ""terminal.integrated.shellArgs.linux"": [""-l""] } ```"
+28136|"#### Option 2  ``` json ""terminal.integrated.shell"": {   ""linux"": ""bash"" } ""terminal.integrated.shellArgs"": {   ""linux"": [""-l""] } ```"
+28137|"#### Option 3  Put both the shell executable and args into OS key:  ``` json ""terminal.integrated.shell"": {   ""linux"": {     ""exec"": ""bash"",     ""args"": [""-l""],   } } ```"
+28138|"#### Option 4  Hybrid of Option 2 and 3, where the os key can take either a string (the executable), or an object (the executable and optionally the args array).  ``` json ""terminal.integrated.shell"": {   ""linux"": {     ""shell"": ""bash"",     ""args"": [""-l""],   },   ""osx"": ""bash"" } ```"
+28139|@alexandrudima thanks for the feedback, that's why I assigned it to you instead of going ahead and doing it :smiley: I'm also a fan of keeping the options slimmed down as much as possible for my workflow.  By user customization do you mean turning this on via a setting?
+28140|Duplicate of https://github.com/Microsoft/vscode/issues/7684, fixed in Insiders
+28141|This is happened because you probably installed `git` in a non-standard way that is not recognized by your package manager. Good news is the package's dependency on git was removed since it was a soft dependency and is no longer required on the Insiders build and v1.3.0 (coming soon). To work around this you can use the stable zip file or try out the [Insiders build](https://code.visualstudio.com/insiders) (daily build).
+28142|Upstream issue for prompt messing up on resize: https://github.com/sourcelair/xterm.js/issues/103 Upstream issue for output messing up on resize: https://github.com/sourcelair/xterm.js/issues/325
+28143|Yes, just saw these and agree these could be improved.  We might want to make this part of #8017
+28144|By analyzing the blame information on this pull request, we identified @egamma and @bpasero to be potential reviewers
+28145|Thanks. Next week I'm back home and will be using Code more heavily, so will get back to you.  On Tue, Jun 28, 2016 at 1:37 PM, Benjamin Pasero notifications@github.com wrote:  > @cfjedimaster https://github.com/cfjedimaster and it would be > interesting if this reproduces without extensions. From the command line, > execute: code --disable-extensions. >  > — > You are receiving this because you were mentioned. > Reply to this email directly, view it on GitHub > https://github.com/Microsoft/vscode/issues/7414#issuecomment-229123875, > or mute the thread > https://github.com/notifications/unsubscribe/AAYBvPbJpiV3bkCY46dM91IXmOg_l8Vcks5qQVvZgaJpZM4Iw7xV > .  ##   #   Raymond Camden, Developer Advocate for StrongLoop at IBM  Email : raymondcamden@gmail.com Blog : www.raymondcamden.com Twitter: raymondcamden
+28146|"Just want to add that maybe in the future there could also be a request to add a task group. For example to be able to build for different environments at once. In this case there can be multiple builds with the same taskname. But I suggest to just keep it simple at first and just go with the extra ""environment"" property for now."
+28147|Can we use octicon-star and octicon-thumbsup?  These are already available in the included octicon css.
+28148|B-E-T-A ?
+28149|Thank you @weinand ☺
+28150|Same with the other parts: scheme, path, query and fragment.
+28151|Also with .toString(false)
+28152|Duplicate of https://github.com/Microsoft/vscode/issues/8205
+28153|It applies to all commands as far as I'm aware.
+28154|@weinand You are absolutely correct. I forgot the curly braces in my launch.json file.
+28155|I emailed the icon team a request for new icons for this.  Will update this issue when I hear back.  As placeholders in the interim, the star icon makes sense for popular, but thumbs-up does not.  Thumbs up is often times associated with a direct action (+1 something, like something), so I wouldn't recommend it.  Maybe you can use octicon-person temporarily for recommended.  In any case, we'll get some better icons for this soon.
+28156|A workspace config for extensions is something we are definitely thinking about.
+28157|Nice work!
+28158|Good find :smiley:
+28159|What do you mean by non-standard way? `pacman -S git` is the standard way to install `git` in systems with `pacman` as package manager. UPDATE: That insider's build also didn't work, so I went ahead and installed from AUR instead which works! So if someone is coming to this issue, you can just use your aur tool (or yourself) to install the package `visual-studio-code`
+28160|The example I'm using is in an extension's source file. I can reproduce with:  ``` import * as vscode from 'vscode'; let editor: vscode.TextEditor; ```  Hovering over TextEditor shows its doc comment with a blue 'document' link in it. That link doesn't work when clicked on.
+28161|I added focus so that <kbd>ctrl</kbd>+backtick didn't need to be hit twice to focus an already visible terminal. Related discussion here #7540
+28162|Consistent with the rest of the panels, currently all of them are non-interactive. The debug output in particular is very similar.
+28163|Duplicate of https://github.com/Microsoft/vscode/issues/6451
+28164|Workaround by opening via CLI. `code .`
+28165|Going to investigate for June, may not be able to get a fix though.
+28166|@cyberhck what was the issue you had with the insiders build? It shouldn't have complained about git.  But yes, the AUR build should be good https://aur.archlinux.org/packages/visual-studio-code/, I've communicated with the package maintainers and they seem to be doing a good job.
+28167|Related: https://github.com/Microsoft/vscode/issues/8088
+28168|+1 for OSX
+28169|+1
+28170|I do think it is common for Mac users but not for Linux/Windows users.
+28171|@calam1 do you happen to have a .git folder in your home directory?  @csnover can you attach the profile as zip next time? that allows me to open it
+28172|Maybe emmet?
+28173|Unfortunately I cannot accept this PR as such because it introduces a dependency from files land to git land. Logically files land should not be aware of git land but rather we should have extension points that allow us to modify the colors and possibly icons in the explorer from the outside. This would maybe also allow extensions to do this.
+28174|Cannot reproduce:  ![jun-29-2016 06-58-57](https://cloud.githubusercontent.com/assets/900690/16441009/f8de620c-3dc6-11e6-9a97-f0554c713b36.gif)
+28175|@pmkary whatever you can do there is defined by the typescript language. I am not sure what you are asking for, please report it to the typescript team.
+28176|@lc9er please report this to the powershell extension.
+28177|We are releasing preview releases of the next stable VS Code version for everyone to try and give feedback. These preview releases are not 100% tested and might be unstable but contain our latest features and bugfixes. You can give our preview releases a try from: http://code.visualstudio.com/Download#insiders
+28178|Currently no plans, but we can use this item as discussion place for people.
+28179|@iRonJ please report this to the debugger extension you are using for debugging.
+28180|@brentwa please report this against the Omnisharp repository.
+28181|@dilijev did this not happen before in 1.2.x? can you attach a video?
+28182|@bpasero If I got you right then we could do the following: The FileRenderers get's a registry whose items can be processed in renderContents method. This way there is no thight coupling, and this registry could be used maybe even from extensions.  the interface in use could be e.g.  ``` typescript interface FileRendererDecorator {     decorateItem(tree: ITree, stat: FileStat, explorerItemLabel: HTMLElement) : void } ```  perhaps this could even be used to support icons in the explorer.
+28183|@alexandrudima  thanks for you reply.  I mean when i input brackets  auto completed,  then enter other characters. When I entered the end , how the cursor out of the brackets it ?  input:  (abc + tab  I hope to achieve:  (abc) cursor here
+28184|Yes, we need a registry where other components can participate in decorating explorer items. I actually think this should be generic enough for any tree we have and not just the explorer. Trees can then opt in to decide if they want to participate in decorations or not and the explorer could be the first one of those.   Have not yet thought about how the API (both internal and possibly external could look like). Maybe we open a discussion issue first?
+28185|The latest build seems to work properly, at least allowing me to open via double clicking the app. I'll probably still just use Stable since I usually call from the CLI anyway, and that's working fine for me. Thanks guys.
+28186|This issue was moved to Microsoft/TypeScript-TmLanguage#198
+28187|What theme are you using?
+28188|When I saw it (sorry, no reproducing steps), tab was changing focus. But the 'Accessibility mode' was not showing and turning it on and off didn't make a difference.
+28189|@bpasero oh I'm terribly sorry, I thought the markdown thing is a native vscode module. thanks for your time :D.
+28190|@pmkary from the screenshot it looks as if you are typing into a JS or TS file?
+28191|Verifier please do some testing around staging/unstaging files and modifying them or not. You should never loose the editor that is dirty and not see issues otherwise.
+28192|Didn't get to this today, will pick it up first thing tomorrow.
+28193|For me it even reveals the tab while I am tabbing through.   ![jun-29-2016 08-38-01](https://cloud.githubusercontent.com/assets/900690/16442742/e4d0006e-3dd4-11e6-9f7b-530ca338cb55.gif)
+28194|Duplicate of https://github.com/Microsoft/vscode/issues/8336
+28195|Sometimes it works, but maybe after clicking on them or selecting a few it stops working. I will try to see if I find what brings it in this state...
+28196|"It could be this ""Accessibility moves focus"" thing."
+28197|The problem is that the filtering of the proposals is in the UI code. But yes, we should really have a test.
+28198|"If you have `""editor.detectIndentation"": true` (which is the default), the editor should detect that you use spaces and show it in the status line. From what I understand and observe, that is what the formatter gets and uses. I can't reproduce what you are seeing.  @chrmarti What did the status line show for you?"
+28199|@Tyriar No. @jrieken and I discussed last week how it would be very nice to expose each menu (editor contextmenu, editor primary actions -- the ones at the top, explorer contextmenu) to end users for configuration, such that an end user could remove a menu item, add a menu item, reorder menu items, etc.
+28200|All my issues are OS X, shell oh my zsh https://github.com/robbyrussell/oh-my-zsh

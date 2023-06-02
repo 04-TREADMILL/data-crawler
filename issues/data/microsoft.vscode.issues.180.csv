@@ -1,0 +1,100 @@
+17901|Error
+17902|[html] Auto-complete entity names (&lt, &gt ...)
+17903|[typescript] syntax highlighting:  wrong precedence rule
+17904|Can't to add other folders to the project!
+17905|javascript syntax highlighting breaks when using template literals
+17906|Wrong save on lost focus
+17907|New tokens format & theme matching
+17908|About the use of the terminal
+17909|Feature Request: Collapse All for find results
+17910|Git log
+17911|What are git-index-files
+17912|File compare not retaining position, when swapping between tabs
+17913|URLs with parens not recognized as full URL
+17914|java error
+17915|Fullscreen zen mode setting removed?
+17916|C Syntax Highlighting Bug
+17917|[Feature] Adding a button to toggle terminal
+17918|Multiline snippet expansion
+17919|"VS Code refuses to install any extensions, Green Install button says, ""Installing"" then never changes, even after 20 minutes"
+17920|Debugger does not stop on function breakpoint
+17921|Syntax highlight for styles-jsx?
+17922|Better line wrapping for markdown files (and other relevant file types)
+17923|in-product release notes hyperlink text is hard to read
+17924|vscode + python virtual environment + mac terminal
+17925|Can no longer expand Array types in Debug console when debugging extensions
+17926|FIrst call to vscode.startDebug does not show debug starting indicator (blue line)
+17927|vscode doesn't replace problems in problems view after they are fixed
+17928|VS Code is broken encoding some strings files
+17929|Show selected line count in the editor status bar
+17930|"""process"" module cannot be imported"
+17931|Folder drag override bug!
+17932|UI is broken when changing Terminal font size
+17933|Find and Replace Fails for large replacements
+17934|Debugging babel transpiled code not fully working with node2
+17935|Sometimes syntax isn't recognized...
+17936|Add a setting to disable mnemonics in the menu so that Alt+F can be bound
+17937|Expose -webkit-text-stroke (Fonts are too thin on Ubuntu 16.10)
+17938|TextMate grammar regexes able to only match a single line
+17939|C/C++ for Visual Studio Code won't update.
+17940|HTML preview size is broken
+17941|VSCode opens the same file in multiple editors if the names use different cases
+17942|"""Cannot read property 'substring' of undefined"" using elm + elm-format"
+17943|diff window use only one pane
+17944|git window show path behind name
+17945|modified key binding is not reflected on the UI
+17946|Ability to undock views and panels to new window
+17947|feature request: diff to support inline diff
+17948|feature request: put word under cursor in search box
+17949|Builtin official python support
+17950|Wide terminal chars should be properly sized
+17951|"Preserve undo/redo buffer when saving a file ""as"" or untitled file"
+17952|Compile jsx for vue.js
+17953|Use a more flexible indentation in different files
+17954|Unable to run Code in Ubuntu
+17955|Zen Coding Command Outputting Extra Closing Tag
+17956|connect ECONNREFUSED 127.0.0.1:8087
+17957|Add a macro symbol kind for languages that have macros
+17958|VSCode crashes when building ionic app
+17959|"Downloaded VS for Mac OS X (Sierra) 2017-01-01, but ""cannot be opened because of a problem"""
+17960|VSCode on Windows 10 + Docker: Wrong build path
+17961|How to publish test results in build step of visual studio online
+17962|save all working wrong
+17963|Inserting snippets beginning with a placefolder does not select the placefolder text properly.
+17964|Default value for 'markdown.previewFrontMatter' setting should be 'show'
+17965|Split Editor doesn't work
+17966|Add API to allow customization of the debug console's input box prompt from code
+17967|Can't run tests under different directory with CLI
+17968|"Rename ""Code - OSS Dev"" to ""Visual Studio Code OSS"" or something similar"
+17969|Issue about Setting-window.zoomLevel and webpage that browse extensions content
+17970|"Website for Visual Studio Code states ""Free. Open Source."" which is extremely misleading given the download button below is leading to EULA licensed proprietary software. Please don't mislead users intentionally"
+17971|whitespace indicators are bold when the theme is bold
+17972|More verbose updates
+17973|Ensure vs-whitespace is normal weight
+17974|[Debug] Need help to configure launch.json for Core.Net API  (Debian 8)
+17975|Non-stop 'variables' requests after logging with variablesReference
+17976|RenameController depends on UNKNOWN service fileService
+17977|Search relevance in Quick Pick control
+17978|[folding] Hovering on code folding dot icons should show respective code
+17979|Set editor.lineHeight to 1 - squishes all the lines of code
+17980|Some debt and feature work
+17981|Not able to see git log for a specific file
+17982|Second window is not maximized
+17983|Missing rule - Insert space after and before braces when format
+17984|Open multiple folders in one instance
+17985|[css] Disable prefixes from CSS/SCSS autocomplete suggestions
+17986|Multiple background gradations
+17987|It would be nice to have the close button on the left, or tabs with the same width.
+17988|Feedback - Improve loading time
+17989|Issues with Setting Debug Breakpoints via F9
+17990|Reloading window in zen mode goes into fullscreen mode without zen
+17991|"""Please set up the launch configuration file for your application"" when launch.json exists in new project"
+17992|Can not input Chinese in termial with zsh shell.
+17993|refacetor name in 'LF' mode
+17994|Mismatch between preview pane and main pane when editing two Markdown files
+17995|vscode不能设置断点
+17996|打断点的功能突然就没有了  搜索不到相关的设置
+17997|"Change jsconfig.json ""target"" default value to ""es2015"""
+17998|Unable to select prev/next item in Command Palatte using ctrl+p/ctrl+n
+17999|PHP 7 Return Type Declarations
+18000|Format will work very slow on big files

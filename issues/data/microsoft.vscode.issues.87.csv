@@ -1,0 +1,100 @@
+8601|Editor inherits Abyss theme in find widget
+8602|Atom Java Script Grammar doesn't work  with the Oceanic - Next theme
+8603|VS Code is becoming unresponsive If there is any error in python code.
+8604|Current line highlight appears compressed and then expands when switching files
+8605|"Hovering over ""module"" in tsconfig.json gives incorrect suggestions"
+8606|Run selected text in active terminal is not running the selected text on Windows
+8607|Resizing diff makes annotations lag
+8608|Duplicate commands to show problems view
+8609|Problems: change color when item is selected
+8610|List widget keyboard accessibility needs to be on par with tree
+8611|Extensions: outline over buttons not clearly visible
+8612|"How to turn off the ""Tabs"" feature at the top?"
+8613|Replace: clicking on an individual replace action should keep diff open
+8614|Replace: replace action does not turn disabled when removing matches
+8615|Store if replace input box is visible
+8616|Problems: results and message are not so nicely aligned
+8617|Windows: Opening VSCode as admin while already open as non-admin does nothing.
+8618|VSCode becomes unresponsive when reordering files in Working Files list
+8619|Toggling comment requires multiple undos in this case
+8620|Active tab disappears when starting to drag
+8621|"""Conflict"" message overlays resolution bar"
+8622|Mac OS - Highlighting text in the editor requires two clicks when the integrated terminal is open
+8623|Loads empty screen with the last line of a file at the beginning
+8624|Regex Lookbehind doesn't work
+8625|Markdown lists containing fenced code blocks with language hints breaks formatting
+8626|Remove .pp from Ruby extension list. Issue #5366
+8627|"Urls in markdown files do not get the ""hyperlink"" styles in preview and are not clickable as well"
+8628|Debug popup collapses when mouse goes into the debug console
+8629|Php errors
+8630|macOS: Allow mouse buttons 4 and 5 to navigate history
+8631|"Add ""breakpoint created/deleted"" notifications."
+8632|Persist and restore window when opening multiple
+8633|Terminal window doesn't have a scrollbar
+8634|Allow extensions to handle launching of the debug adapter.
+8635|Debugging fails if Stopped event occurs before command Response.
+8636|[html] tokenizer state holds attribute value and runs OOM
+8637|Problems view should be refreshed when files are moved
+8638|Go back in menu is missing shortcut key in Korean
+8639|Actions and menu items on the UI are not localized
+8640|Output panel channel dropdown in Chinese has incorrect line height for CJK characters
+8641|Translations in command palette should only show up when they differ
+8642|Several CJK strings on the UI are very difficult to read on standard definition monitors due to font weight and size
+8643|Markdown preview shows flickering batches in smoke test's readme.md while updating
+8644|Git: status bar lacks indication that it will push
+8645|Alt text on tabs' close button
+8646|Save All in editor group not readable by screenreader
+8647|Tree element actions not readable by screen reader (open editors, git, search)
+8648|Close Editor button on tab not readable by screenreader
+8649|Screenreader issues in global search/replace
+8650|Cannot access extensions search result using the keyboard
+8651|Auto closing brackets not functioning for c# in 1.3.0-insider
+8652|Issues with reliability and usability of  built in Extension command line commands, and Question about metrics and guidance.
+8653|code --uninstall-extension only uninstalls latest version
+8654|Update to Electron 1.x
+8655|API: allow case insensitive find files via vscode.workspace.findFiles()
+8656|vscode.workspace.openTextDocument should open in the active editor
+8657|terminal.external.windowsExec Cannot be changed to powershell
+8658|[API]: Access variable from vscode.previewHtml
+8659|DND color of tabs in light theme is not very visible
+8660|Scrollbar does not go over active tab
+8661|mix-blend-mode causes all kinds of issues
+8662|Exact matches in symbols fuzzy search are not on top
+8663|I don't use Japanese IME on integrated terminal
+8664|Electron Helper in processes is very confusing for Electron projects
+8665|Local Typescript to be used by default (minor issue)
+8666|Add Selection To Previous Find Match
+8667|Sass Maps warning
+8668|Emmet Wrap with Abreviation removes vertical bar character.
+8669|Search is slow
+8670|"""Alt Gr"" (Alt ground) not working inside terminal"
+8671|Ability to change the number of items stored in the recently used list
+8672|Allow VSCode save files that need administrator permission.
+8673|[jsx] Provide HTML tag matching
+8674|[html] Don't mark quoted strings as links
+8675|Add additional context to debug adapter `evaluateRequest` calls.
+8676|VSCode not to associate itself with any file type unless the user chooses so during installation
+8677|Stop using sha256(MAC address) for telemetry machine ID
+8678|Allow projects to suggest extensions
+8679|Ctrl+Shift+2 marks the editor as dirty even if no changes are made
+8680|Cannot read property 'filter' of null
+8681|Remove ELECTRON_RUN_AS_NODE env var from terminalProcess
+8682|Debug Target drop-down too narrow
+8683|Enable file actions in search results viewlet
+8684|list of todo
+8685|list of todo
+8686|list of todo's
+8687|Allow extensions to send output to the debug console.
+8688|Terminal should not get first focus if visible on launch
+8689|In the integrated terminal CTRL + V prints ^V and do not paste.
+8690|"Lost short cut key for ""integrated terminal"""
+8691|HTML CSS Class Completion: Fetching info message causes lock up.
+8692|docs(LanguageConfiguration): fix typo (interfaces --> interface)
+8693|Deleting folder containing dirty files closes dirty editors
+8694|tsconfig changes to baseUrl, paths, etc require restart.
+8695|It would be great if F5 would open the debug console automatically
+8696|"Linux: Keybinding for ""Replace in Files"" conflicts"
+8697|Cursor over line numbers is oversized (Chrome 51)
+8698|[ini] Language Colorize working incorrectly for INI files
+8699|Search results can differ between disk match and editor match
+8700|"No completion for ""export default exports"" modules"

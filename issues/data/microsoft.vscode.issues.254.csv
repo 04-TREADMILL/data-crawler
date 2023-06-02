@@ -1,0 +1,100 @@
+25301|Test IME
+25302|Feature Request: Doc Block Annotations (vscode / Typescript)
+25303|Test: Workbench Theming Generation
+25304|Test: HTML range formatting
+25305|Markdown headings are treated as modules and properties simultaneously
+25306|Expand selection doesn't always work with every theme (for quotes)
+25307|PR to add showParentInTab setting and functionality
+25308|MacOS build error with node V6.10
+25309|allow scripts in markdown preview
+25310|"Support MacOS ""vibrancy"" in Electron shell"
+25311|Unable to debug Typescript files in Visual Studio Code
+25312|Bug editing header of collapsed method
+25313|Can't open files with click
+25314|Focus does not return to file tree.
+25315|Install Icon is Pixilated in Installer Window
+25316|Context menu triggered when tree has focus selects an item
+25317|Solarized Light Active Tab Label Needs More Contrast
+25318|Problem saving keybindings
+25319|Markdown Preview Word Wrap Setting Not Working As expected
+25320|Test plan for Emmet features from extension using new APIs
+25321|"""Encoding not recognized"""
+25322|终端内容显示错乱问题
+25323|Cannot build VSCode from source in port blocked proxy
+25324|Fix protocol specification in node packages.
+25325|Typescript suggestion for object members and keyof not being shown
+25326|Issue 15613 all files committed
+25327|Intent Guides
+25328|Red Theme List Item Styling Needs Polishing
+25329|Red Theme - Editor Bar Needs Theme Color
+25330|Intellisense not working in VSCode typescript watch window
+25331|Solarized Light - Title Bar Text Is Not Legible on MacOS
+25332|Changing Themes Resets Extension Page CSS
+25333|Can't focus on the third layout directly from the terminal using ctrl+3 , can only focus on layout #1 and #2.
+25334|hex.charCodeAt is not a function
+25335|"""Go To Next Error"" steals focus until esc is pressed"
+25336|Ability to print
+25337|Custom titlebar broken with the latest insiders
+25338|[debug console] support column (box) selection
+25339|Build: Integration tests are not running on Windows build machine
+25340|Add command line switch to enable proposed api for some extensions
+25341|infoBackground needs better name
+25342|Make Ctrl+D use `editor.wordSeparators` instead of language word definition
+25343|Restarting type script server after changing the version shows an error in the log
+25344|A command to restart the typescript server
+25345|Settings editor gets emptied
+25346|Breakpoints tree does not grow
+25347|terminal display bug
+25348|"consider to support ""nvm"" in node-debug extension"
+25349|Editor drag n drop: unable to duplicate selection sometimes
+25350|New log files are created after changing the log settings
+25351|"Multiple column breakpoints that get folded together remain ""duplicated"""
+25352|Previews are not full screen
+25353|Editor drag and drop mouse feedback missing
+25354|What are buttonXYZ colors?
+25355|Unable to bind Ctrl+shift+2 under Ubuntu
+25356|Not possible to drag and drop selection between editors
+25357|A context menu action or a command to do ts check on a javascript file?
+25358|Allow for short hand hex colors
+25359|Error: null from tslint extension
+25360|not working git in vscode
+25361|Illogical names for activity badges
+25362|Window in fullscreen does not restore to correct monitor in some cases
+25363|Drop cursor missing if drop location === current cursor location
+25364|Editor scrolls up as we type
+25365|Drag and drop not working sometimes
+25366|Drop copy does Drop move
+25367|TSCheck: ignore checking this file inserts an unexpected newline
+25368|TSCheck: duplicate fix actions
+25369|TSCheck: dot not needed on the end of quick fix action titles
+25370|Git doesn't update when init repo from within VSCode
+25371|javascript.implicitProjectConfig.checkJs too complex title
+25372|How is javascript.implicitProjectConfig.checkJs different than javascript.validate.true
+25373|[theming] Provide foreground colors where we allow background colors
+25374|`javascript.implicitProjectConfig.checkJs` requires a vscode restart
+25375|@ts-check and @ts-nocheck should be suggested by intelli-sense
+25376|Cursor left & right can't be used to navigate main menu bar
+25377|error navigation widget should default to editor error color
+25378|Intellisese for tsconfig.json module is incorrect
+25379|Generate tree/list colors based on a single color
+25380|Electron keeps main menus underlined if Windows are switched using Alt+Tab
+25381|Editor should provide shortcut to defocus editor to help navigate controls using tab
+25382|explorer.autoReveal setting is ignored
+25383|Can navigate status bar using tab key
+25384|Search: using ripgrep ignores any external file that I have open
+25385|extra space is added after every line of the selection
+25386|Terminal: link detection fails for paths with spaces inside
+25387|Terminal: link detection fails for UNC paths
+25388|Inconsistent naming for editor groups/tabs
+25389|Settings getting wiped out
+25390|Consider to use dots instead of camel-case
+25391|Powershell Terminal gets really messed up when accepting input
+25392|FileWatcher fails with too many sym links
+25393|Skip TS restart confirmation
+25394|Switch between recent files Immediately
+25395|Theme generator: colors for light theme should be used
+25396|Emmet: `html:5` and `html:xml` snippets don't work
+25397|Theme generator: trying out theme must work without switching to the theme
+25398|PowerShell Debugging does not start correctly if calling script from Powershell Terminal in VS.
+25399|Braket in Template literal next line auto indent size  wrong.
+25400|Emmet: Double suggestions?

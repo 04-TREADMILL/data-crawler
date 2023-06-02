@@ -1,0 +1,100 @@
+22001|vs repository error
+22002|Disabling the bottom bar showing up on startup
+22003|Fixed to be able to search commands in English command name when locale set to `ja`
+22004|Unable to select all text in internalConsole or integratedTerminal
+22005|Linux Nautilus Integration
+22006|Allow to configure `window.title` with _external variables_
+22007|I drag&drop a floder in to VSCode then it make me come here.
+22008|TypeScript意外终止
+22009|Trigger save even if file is not dirty through API
+22010|目录显示错误，刷新几次之后显示正常
+22011|Markdown Preview right side display problem with zoom
+22012|Intellisence not recognizing folders as modules for node
+22013|谁帮我看看
+22014|help me
+22015|Folder created by npm/webpack does not show up
+22016|submit
+22017|submit
+22018|Leaving zen mode restores tabs
+22019|Auto save triggers save conflict error very easily
+22020|Improve Insiders release notes
+22021|Opening a file on a specific line number is remembered in the Recent Files
+22022|"""Save All"" replaces file content with other file content."
+22023|Empty foreground in TM themes get parsed as red
+22024|tab autocomplete is wrong
+22025|Debug menu - Install Debuggers - use same sort order as in the marketplace
+22026|Add alias support to commands
+22027|Coloring issue with Peacock theme?
+22028|"""Open change"" button on extension description page"
+22029|Cannot find insertSnippet method and SnippetString class within vscode namespace
+22030|Add alias labels for task commands.
+22031|"""Format Selection"" doesn't work with Multi Select"
+22032|[json] Prevent IntelliSense suggesting previous filled value
+22033|Animal
+22034|Help users to migrate to new tasks.json version 2.0.0.
+22035|Allow extensions to contribute named problem matchers via package.json
+22036|Allow extensions to participate in tasks using commands
+22037|Investigate better UX for previewing things
+22038|Define extension story for tasks
+22039|Explorer how to leverage Transifex to translate VS Code
+22040|"Clear ""replace"" field when opening the search/replace dialog via ""Find in files"""
+22041|For files with long rows the word wrap features only works on newly created empty tabs.
+22042|Allow reporting of extensions
+22043|Publicly monitor power-usage progress
+22044|Pull in latest translations
+22045|php formatter
+22046|Add debug menu to improve discoverability
+22047|Surface new Exception DAP in UI
+22048|vscode.extensions.getExtension case sensitivity behavior has changed
+22049|Consider to support a server mode for debug adapters
+22050|Fixed typo in jsdoc of function tail
+22051|Continue from #21999
+22052|Extensions not loading in 1.11
+22053|Hightlight of closing tag doesn't work in High Contrast theme
+22054|"Select more files to open from ""Go to File"" dialog"
+22055|tryListenOnPipe can be slow
+22056|delayed app-ready event
+22057|Improve on inconsistent language: Side Bar vs Activity Bar
+22058|`unhookAllWindowMessages` slow
+22059|readFromDomElement sometimes slow
+22060|Launching shared process is slow
+22061|Move to XLIFF format for string localizations
+22062|Move lines honor indentation rules
+22063|Drag and drop enhancement
+22064|Copy with formatting enhancement
+22065|[scss] when completing functions place cursor between brackets
+22066|Separate 'configuration' from 'learning' quick links
+22067|Investigate to provide guidance for technology stacks
+22068|"""suppressTaskName"" incoherence when running multiple commands in task.json"
+22069|"Option to ""keep open"" by default for all new tabs?"
+22070|Track TS Server Extension API
+22071|Investigate performance issues reported for TS Server
+22072|Control script execution in HTML preview
+22073|Output console error catch (feature)
+22074|[php] syntax highlighter issue with SQL
+22075|code slow startup
+22076|Unable to open 'Release Notes: 1.10.1': Cannot read property 'replace' of null
+22077|NT eE
+22078|Differently encoded files show modified decoration
+22079|Reformat ternary operator
+22080|Feature Request: Ability to synchronize settings between multiple machines/operating systems via Microsoft account.
+22081|Add Specific No Result Found Messages for Implementations and Type Definition
+22082|VSCode generates wrong ${command.pickProcess} for .NET Core project
+22083|Drag&Drop from Open File Dialog causes VS Code to Freeze
+22084|support for theme-per language
+22085|"""editor.minimap.enabled"": true"
+22086|Use Gulp To Generate Markdown Langauge Includes
+22087|debug.addConfiguratoin error (spelling)
+22088|VS Code do not show side bar after press hotkey(ctrl+shift+F，G or E).
+22089|Error
+22090|Allow to save editors from text model content providers
+22091|format document to html
+22092|VS Code - Typescript service died unexpectely 5 times in last 5 mins.
+22093|Add a tagbar to VSCode
+22094|Auto-indenting fails when the line contains '$var = $(something)' [using PowerShell]
+22095|The horizontal scroll bar is somewhat hidden
+22096|Codelens Location setting to the right of the code
+22097|Support to synchronize dirty changes across windows
+22098|error typescript service
+22099|Shortcut to Reveal file in sidebar
+22100|Make the git SCM Provider the default git support

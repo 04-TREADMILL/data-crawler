@@ -1,0 +1,100 @@
+27701|[php] Syntax highlighting breaks when using <script> injection
+27702|"""ctrl+/"" matches ""ctrl+o"" in the Keybindings Editor UI"
+27703|扩展主机意外终止，清重新加载窗口以恢复
+27704|Inactive tab titles on inactive editor pane are unreadable when two editor panes are open
+27705|workspaceContains activation event default text should not be 'filename'
+27706|Surpress warnings from other extensions
+27707|Clean up package.json in merge conflict extension
+27708|Add option to enable Proposed API with settings
+27709|Consistent name for overviewRuler.currentContentForeground
+27710|The Python auto-indent does not align functional input over multiple lines
+27711|Disable automatic updates but allow manual updates
+27712|Align explorer sorting with platform sorting
+27713|ATA is Automatic Type Acquisition
+27714|workspaceContains doesn't activate
+27715|typescript.npm doesn't work on Linux
+27716|Emmet: Select prev item gets stuck in comment blocks
+27717|Allow custom icons for reference/IntelliSense components
+27718|Up arrow in a read only editor sometimes moves you outside the editor
+27719|Arrow down in a wrapped line gets read in its entirety by NVDA
+27720|It's not clear what emmet.suggestAbbreviations does
+27721|merge the code-insiders to code command
+27722|"Callstack shows ""VMundefined"" when debugging typescript with legacy protocol"
+27723|MacOS crashes when using <COMMAND>+Q with --wait option
+27724|Add some tests for terminal path DND parsing
+27725|Hard wrap
+27726|New emmet suggestions dont show up in an untitled file with HTML type
+27727|MERN Starter Recipe should include a note to add nodemon to PATH
+27728|Remove the search results when a file that does not belong to workspace is closed
+27729|Too slow to start sometimes
+27730|Support multi-line jsdoc annotations
+27731|Turn autocomplete off on Mobile device keyboards
+27732|Hover on the new icon or the update badge doesnt show any tooltip
+27733|Check for updates in the new menu doesnt show keybinding
+27734|Check for special URLs
+27735|Emmet expansion doesn't work with non-ascii characters
+27736|vscode is claiming that NPM is not in PATH on Linux, but it _is_ in my PATH
+27737|Emmet abbreviation with (...)*n doesn't work
+27738|[theming] extension header background color
+27739|Always link to plugin's repository if provided
+27740|Theming: debug callstack and breakpoints annotation labels
+27741|Support for VS2017
+27742|suggestion: default to ./node_modules/.bin/nodemon in launch.json
+27743|Use outlines in high contrast
+27744|Integrate Hyper and vscode
+27745|Fix for console warnings on merge #27584 and compare view #27585.
+27746|Edge case of #21209
+27747|Cannot reattach to mern app after saving file
+27748|Snippets for header files
+27749|Open new file in language mode current active tab
+27750|Enforce a minimum for markdown.preview.fontSize
+27751|Shift+arrow after backtick selects two characters
+27752|macOS: OS services cannot pick up selected text from editor
+27753|"""Example"" entry included in extension recommendation code complete"
+27754|Emoji keyboard is a little too close to the cursor
+27755|Searching with inline regex backreference only searches open files
+27756|Excessive `TextEditor disposed` console output
+27757|Regex look ahead groups fail in workspace search
+27758|a display problem in breakpoint  list when adding break point
+27759|CSS syntax for PHP files
+27760|Explorer API samples do not work
+27761|Wrong operate selection while selecting characters in Korean IME mode
+27762|[uncaught exception]: [object Object] in console when creating jsconfig.json via message
+27763|Link detection in output channel seems occasionally broken
+27764|Add editor.multicursorModifier to most common editor settings
+27765|Panel height isn't showing properly after several toggles.
+27766|Add editor option to forcefully enable/disable accessibility
+27767|Chinese IME: file is considered as modified after cancelling input (revert model version id when composition is canceled)
+27768|Debug configuration select box looks broken when opened for the first time
+27769|[json] Built-in JSON schemas should allow to be modified at runtime
+27770|TypeScript language service dies after 5 times updating 'typescript.npm' to the wrong value
+27771|Remove pt-BR from Stable release
+27772|Unclear what 'Revert File' does
+27773|Global settings: bad overflow behaviour
+27774|don't have unit tests that take multiple seconds
+27775|Activity bar: active item decoration lost when hovering
+27776|Enhance custom tree views
+27777|Welcome page customise links text is cut when 3 extensions are already installed
+27778|JavaScript Intellisense Request
+27779|Confusing TypeScript mismatch error
+27780|eslint constantly compains about no-use-before-define rule
+27781|VS Code's Source control doesn't show controls
+27782|Defining own variables in tasks.json
+27783|Inconsistent representation of 'this' when debugging javascript
+27784|The find widget should use aria-hidden when it is hidden
+27785|Code intelligent didn't display as markdown content for param comment.
+27786|Add doc fwlink and Screen Reader detected status in Alt+F1
+27787|Add search function to Source Control window.
+27788|Breakpoints/Callstack view: double click to move focus into editor
+27789|Pressing ESC should cancel drag operation
+27790|Allow to copy/paste files across windows
+27791|Update proxy settings documentation
+27792|Shortcut with enter in Integrated Terminal
+27793|locale is not completely switched??
+27794|Exclamation mark in Swiss-German keyboard is not typed in the smoke test
+27795|Icons not rendering correctly
+27796|Automated smoke test
+27797|Task quick selection needs to filter on label
+27798|Build definitions for smoke test
+27799|Debugger on restart doesn't restart app
+27800|Use new UUIDMap from task configuration in extHostTask

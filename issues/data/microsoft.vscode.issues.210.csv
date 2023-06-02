@@ -1,0 +1,100 @@
+20901|Minimap: Limit its width to a maximum of 150px
+20902|Terminal encoding problem related to issue #14586
+20903|[Feature Request] Open Problems/Output/Debug Console/Terminal in different window
+20904|Minimap: Render git status decorations
+20905|Minimap: Implement dragging the minimap slider.
+20906|Minimap: editor button cut off by minimap
+20907|setup environment using Visual studio
+20908|Hot Exit: Opens the same file twice in two separate windows
+20909|IntelliSense conflicts with Emmet in PHP files
+20910|django开发web项目，终端命令导致运行报错
+20911|Debugger: show variables in multiple ways: hex, dec, ascii, binary
+20912|debugging with edge
+20913|git errors more often now
+20914|run checks when committing from F1
+20915|keep input box when committing via F1
+20916|Typescript Task Runner does not transpile and will not display any error in Output view
+20917|Minimap: Add option to render blocks instead of characters
+20918|distinguish configurations base on pressing F5 (debug) or ctrl+F5 (launch)
+20919|Feature Request: When opening Command Palette, have the last command used selected
+20920|[WelcomeUX] Disable minimap in Interactive playground
+20921|[WelcomeUX] VS Code Insider - Welcome tab is hung...
+20922|Peek definition works like Go to Definition if it runing from command palette
+20923|Emmet Update Tag does not work with JSX, but works file with HTML
+20924|Faster and/or consistent mouse scrolling
+20925|newline issues in integrated terminal
+20926|[html] Add symbol support for HTML files
+20927|Minimap: can only click outside of current 'view'
+20928|Allow to swap left and right hand side in diff editor
+20929|"Colon in | text block"
+20930|I use to be able to highlight a word and see copies on my scroll bar they were marked by a grey marker on the scrollbar
+20931|Extensions Details and Changelog views scroll bar broken after Zoom In/Out
+20932|Syntax coloring bug on certain C++ preprocessor constructs
+20933|Allow emmet and keyboard-shortcuts in the help menu even when being offline
+20934|Vs code debug angular 2 webpackq
+20935|Extension is not starting after publishing
+20936|Remove dependency on window.event in ListView
+20937|Callback parameter for TestEditorService() is optional
+20938|Open large file with only one row(40Mb json file) no response
+20939|upgrade telemetry package used by git extension
+20940|upgrade telemetry package used by json and html extensions
+20941|Upgrade telemetry package used by TS and markdown extensions.
+20942|Language Support for Java(TM) by Red Hat
+20943|(ctrl + p) can access to any location we need something like it to create any location as well.
+20944|some problem
+20945|high cpu use
+20946|The editor highlights errors, despite the fact that the code runs fine
+20947|VSCode doesn't seem to override html.format.extraLiners config prop
+20948|command palette not in schema
+20949|Ability to select and launch debug configuration
+20950|Git operations don't show in reflog history
+20951|February Endgame
+20952|Test: Ability to select and start a launch using keyboard
+20953|Can't edit commit box with VIM extension
+20954|Doubleclick on debug views (stack, breakpoint) should open pinned and move focus
+20955|Select box debug configuration listener
+20956|Feature Request : Adding folders to project like SublimeText
+20957|typeScript wrong
+20958|Add gnupg and apt to depends
+20959|TypeError: Cannot read property 'element' of undefined
+20960|_typescript.tryCompleteJsDoc steels Enter key
+20961|Test: Evolve node2 and node into a single node debugging experience
+20962|Pull out debug control panel
+20963|Deprecate debug type 'node2'
+20964|Execute Code Selection
+20965|Why Git Readme Stuffs aren't coming in extension home page.
+20966|win32AppId in product.json has too many parenthesis
+20967|Allow extensions to change font for source code in editor
+20968|Test: Put theme configuration to settings.json
+20969|Test: Git as an SCM provider
+20970|Polish SCM viewlet
+20971|Remove last scroll event from tree and list
+20972|Option to show project path in title bar
+20973|Exception widget styling
+20974|Test: API Modal messages
+20975|Invalid shortcuts formating in the menu
+20976|Cut-off button in keybindings editor when enabling minimal
+20977|Minimap in output panel does not immediately respond to theme change
+20978|Insiders is nearly unusable on Linux
+20979|SCM preview: Consistent .git/index.lock: File exists
+20980|Escape paths in npm.sh to fix #20907
+20981|File opens two tabs with inconsistent edits in each?
+20982|Test: Drag and drop
+20983|Test: Copy with syntax highlight
+20984|Bring back vertical splits!
+20985|Co-maintainer with push access to extension marketplace gone. Is it possible for me to get push access?
+20986|Escape paths in code.sh
+20987|Inconsistent wrapping behaviour
+20988|[extensions] Add support for a RelatedFilesProvider
+20989|Quick open highlight should match consecutive characters better
+20990|"[Suggestion] minimap: ability to drag and drop the ""window"""
+20991|Test: Terminal Links
+20992|Test: apt and yum repos
+20993|native-keymap@0.4.0
+20994|Feature Request: CVS Support
+20995|Use CompletionItem for JsDoc Auto Complete
+20996|Intellisense replaces correct path when manually typed
+20997|TypScript error when opening a JavaScript file from a SharePoint 2010 site
+20998|Test: minimap
+20999|Test: Ensure the tsconfig.json validation is exposed
+21000|Color file and folder names in explorer view according to their git status

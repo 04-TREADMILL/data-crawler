@@ -1,0 +1,100 @@
+1401|Format html code TypeError
+1402|Hooks to improve the debugger for compile-to-js languages?
+1403|Can't close a file without saving changes
+1404|document.isDirty appears to report false for dirty untitled document (fixes #723)
+1405|Error in npm intall after cloneing
+1406|Quick find next (Ctrl + F3) - Document loses focus
+1407|"Clicking ""README"" on an installed extension prompts to install it again"
+1408|Can't type Vietnamese
+1409|Can not run decorator sample anymore
+1410|"There is no confirmation window while drag-dropping project files in the ""Explore"" panel."
+1411|intellisense is not loaded correctly when nodejs require json file
+1412|Find All References / Shift F12 Not Working across project
+1413|Debugger gives no error message when node isn't installed
+1414|debug viewlet changes font size on select
+1415|Check date pattern match for world wide languages
+1416|"Unable navigate to file from ""Errors and Warnings"" when errors occur in TypeScript."
+1417|Allow terminal configuration on Linux (currently hard-coded to gnome-terminal).
+1418|Allow editor commands to be registered in extension code without adding to package.json
+1419|Triple click should select whole line
+1420|Pressing End key twice should move to end of line
+1421|git.exe, pageant.exe, ssh.exe builds up over time
+1422|Mac: file events are not reported when using workspace path with different casing
+1423|Closing with unsaved changes
+1424|Go To Symbol (Ctrl+Shift+O) doesn't pick up on prototype methods
+1425|Ctrl+P (find) takes way too long even on a small project ~1000 files
+1426|TypeScript: extends or implements not colored correctly when both are used at the same time
+1427|Support onDidExecuteCommand
+1428|Access to KeybindingService in extension API
+1429|Add a keyboard shortcut to focus on the working files view on the sidebar
+1430|Show syntax error while open all es6 files in folder 'node_modules' and it subfolders, and
+1431|Shared configuration (tasks/settings)
+1432|"Amend the hint ""jsconfig.json-file"" to ""jsconfig.json file"""
+1433|TypeError: Cannot read property 'activateByEvent' of undefinedon
+1434|Windows: Running code in a console after code.bat was run causes issues
+1435|Reading file that is constantly being modified causes a crash
+1436|Intellisense for XML files
+1437|'Install Extension' searches by name, but only shows displayName, description, and version in the results
+1438|TypeError: Cannot read property 'startLineNumber' of null
+1439|Make breakpoint colour configurable/themeable
+1440|Can we have open tabs horizontally
+1441|File picker: bypass exclude rules when picking a full file path
+1442|Changed code.visualstudio.com hyperlink to HTTPS
+1443|Grid: support proportional resize
+1444|scrollbar-position changes:  ctrl+a and then right-click displaces the scroll
+1445|Windows/Git: password prompt does not seem to work on windows
+1446|Windows 7: Watcher fails for subst directories
+1447|Provide Memory Profiling and Snapshots tooling
+1448|[theme] Typescript: argument values not colored
+1449|Stepping in debugger is too smooth
+1450|Cannot invoke an expression whose type lacks a call signature (ES6)
+1451|Don't save / Abort swapped
+1452|Windows: can't save file into disk root folder
+1453|"[c++] keyword ""noexcept"" added"
+1454|Ctrl-up/down bindings cease to work on 0.10.4 insiders update
+1455|Previous file functionality
+1456|eclipse keymap ?
+1457|More complete Unity Support
+1458|ctrl+_ isn't functional on mac os x
+1459|Crash during startup 0.10.5
+1460|Javascript line continuation characters not syntax highlighted
+1461|Call out contributors by name
+1462|Go to definition not works in nodejs
+1463|[python] syntax highlighting breaks on function annotations
+1464|0.10.5 latest build crashed at startup on OS X 10.11.2
+1465|Always show path information even for non-focus editor
+1466|[themes] Dark theme in 0.10.5 less colorful than in 0.10.3
+1467|use version 0.1.2 of native-keymap
+1468|virtual keyboard not shown
+1469|JSX syntax highlighting in 0.10.5
+1470|Extension issues after latest vs-code update
+1471|"[c++] Syntax highlighting makes mistake when meeting with ""using namespace std;"""
+1472|Suggestion: show the number of matches when running a search
+1473|"Provide editor.renderWhitespace ""selection"" option"
+1474|typings intellisense
+1475|Implementation of editor.action.insertCursorAtEndOfEachSelectedLine
+1476|Support before() and after() for tests
+1477|Markdown preview does not show a SVG image
+1478|Markdown tokenize issue after using # in triple ticks
+1479|[c#] syntax highlighting is broken when function has Unicode characters
+1480|Do not snap to minimize when resizing window or sidebar/panel
+1481|Windows 7: Deleting always fails with error message
+1482|Unable launch VSCode on Linux Fedora 23
+1483|Support slashes in Quick open dialog even on Windows
+1484|Intellisense causing performance issues
+1485|The possible values for `editor.CursorBlinking` are not shown in `settings.json`
+1486|Option to wrap at specified column only when window is larger than the specified number of columns
+1487|OS X - When quitting in fullscreen mode, it should reopen in full screen mode
+1488|Command-/ with Dvorak keyboard on Mac OS X no longer comments/uncomments
+1489|Insert Line Above/Below keyboard shortcuts are swapped relative to Visual Studio
+1490|Unable launch VSCode on OS X 10.11.2
+1491|Cannot Open Command Prompt in Windows 10 Insider Preview Build 11082
+1492|add os version breakdown to the dashboard
+1493|"Caret jumps to start on ""Save As"" or save new document"
+1494|Opening a path with a space in it from the command line doesn't work correctly
+1495|Terminal window needs to be closed twice after code.cmd invoked
+1496|node-debug module doesn't compare script_name with path correctly on Windows platform
+1497|Visual Studio Code has crashed (0.10.5, os x el capitan)
+1498|[css] restriction attribute in css-scheme.xml doesn't work as expected for some types
+1499|Tsx file intellisense on 0.10.5
+1500|[theme] Monokai theme: parameters are not colored in Orange

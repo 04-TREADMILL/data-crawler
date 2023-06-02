@@ -1,0 +1,100 @@
+27601|Click on menus on explorer title bar collapses the explorer
+27602|Suggestion list jumps between below and above position
+27603|group for menus is not intuitive
+27604|Confusing focus border on docs
+27605|Update to latest C# TextMate grammar
+27606|Can't debug Docker recipe with inspector protocol
+27607|Only display icons for navigation group of menus
+27608|Second time proposal is selected it is not read in VoiceOver
+27609|Docs not read in VoiceOver when expanding docs
+27610|Cannot focus docs with VoiceOver enabled
+27611|Changes to jakefile doesnt reflect in task list
+27612|Unclear what exactly gets installed when clicking on the links in Tools and Languages
+27613|Shift + Alt + F not working
+27614|Links inside link in Quick links in Welcome page
+27615|Missing top border when link is selected in Quick links
+27616|Improve Docs for Activation Events
+27617|Ghost top border in quick links while tabbing thru
+27618|workspaceContains activation event does not fire when debugging the extension host
+27619|Aria-label missing in quick links
+27620|PHP closing tag no longer syntax colored
+27621|Gap between status bar and window when zoomed in
+27622|Inconsistent position of keyboard shortcuts in the new menu
+27623|Allow getTreeItem be Thenable
+27624|Space/Enter doesnt trigger the new menu when the new icon is in focus
+27625|Task Detection For Gulp
+27626|Don't resize suggest with no docs
+27627|Add Suggest Toggle to View Menu
+27628|Suggest widget to large in very small windows
+27629|Suggest widget should reflow when window size changes
+27630|Wrong match in Settings search
+27631|Editor: broken font render with UTF-8 text
+27632|Feature-Request: Document/Selection Formatting to support vertical alignment
+27633|editor.multiCursorModifier ctrl/cmd settings are not portable between OS
+27634|"settings search does not search entire ""file"""
+27635|Large file can not auto refresh until close and reopen
+27636|Cmd-W ignores the About window
+27637|Add an option to remember side-by-side git diff cursor/editor position
+27638|New shortcut for Start Without Debugging on macOS?
+27639|Layer-breaker in telemetryUtils (fixes #27141)
+27640|git integration not working (loading?) in VSCode
+27641|Theming: Add scrollbar.background
+27642|Why is there a tasks v 2.0.0 (provide migration to 2.0.0)
+27643|Go to Matching Pair doesn't scroll the editor to the matched location
+27644|Cannot see entire task output in terminal in Linux
+27645|"tasks.json does not complete ""terminal"" property"
+27646|Ctrl + Click is not working
+27647|Empty Callstack when stopped on a breakpoint
+27648|Test TypeScript.npm Setting
+27649|"Error processing ""stepIn"": Can only perform operation while paused."
+27650|Complete Emmet 2.0 support
+27651|"""Screen Reader detected"" doesn't go away after closing the screenreader"
+27652|"""Screen reader detected"" in the status bar should not be clickable"
+27653|Crash when long tap in terminal
+27654|AutoComplete enhancement: press enter on selecting suggestion.
+27655|Support for .dist file language detection
+27656|[Feature request] Add an option to display errors inline
+27657|DeprecationWarning: node --debug is deprecated
+27658|Adopt templated tree renderer in references widget
+27659|autoDetect setting: why is it a string and not boolean?
+27660|TypeScript npm setting: tell user about it
+27661|Suggest Docs: I cannot close the docs using close button when zoomed
+27662|TypeScript.npm setting does not give a warning about missing npm on Windows
+27663|Remove further occurrences of VS Code in api file
+27664|Unable to install typescript@2.3.4 via npm 5: EINVALIDTAGNAME
+27665|Cannot click on nodejs built-in modules
+27666|Debug console does not have link detection
+27667|Help > Check for updates appears as a no-op on Windows
+27668|Git gutter diff highlight not refreshing after commit
+27669|Add a way to bind a keybinding for a command from the F1 list
+27670|[themes] TypeScript `(this: Type)` parameter color
+27671|Funny dot rendered in the tab
+27672|"which ""build"" task is picked if I run the ""Run Build Task"" command?"
+27673|File not found event it exists when clicking on a link in debug console
+27674|Can't see the complete link when there is no enough space in the editor
+27675|Vscode
+27676|Not showing N further errors or warnings
+27677|Not able to start MERN program using out of the box Debug configuration
+27678|"Opening a file with ""ctrl/cmd p"" slow after restart"
+27679|Tasks.json: Provide intellisense for problem matcher
+27680|Task file validation should use error markers
+27681|"package.json task provider: no ""npm install"" task suggested if scripts attribute is missing"
+27682|JSDoc do not generate param for ES6 methods
+27683|Deprecation warnings in our package.json
+27684|use '--inspect-brk' instead of '--debug-brk' when connecting to node v8
+27685|Find all points to the wrong line
+27686|Find All result gets the wrong line
+27687|make ‘inspector’ the default protocol if a 'runtimeExecutable' is set
+27688|Extension host crashes on MacOS when crash reporter is disabled
+27689|Tasks: Customized tasks are incomplete
+27690|Can not find preLaunchTask
+27691|Defer switching to Tasks 2.0.0 as the default
+27692|make `inspector` the default protocol when a `runtimeExecutable` attribute is set
+27693|Tasks: Unclear property descriptions in tasks.json
+27694|Clojure mode for .cljc files
+27695|Edit jupyter notebooks (Markdown + Code), extension candidate
+27696|扩展主机意外终止。请重新加载窗口以恢复。
+27697|'Rename Symbol' while editing python often makes no changes.
+27698|TreeDataProvider.getChildren is called on extension activation
+27699|Titlebar remains blue when window looses focus
+27700|"Clearly document that the value 'undefined' is passed to TreeDataProvider.getChildren to indicate the ""Root"""

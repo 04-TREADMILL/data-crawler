@@ -1,0 +1,100 @@
+12701|Impossible to launch the React Native Debuguer
+12702|"[less] ""} expected"" error with "">"" in selector within @media query"
+12703|Info message about `typescript.tsdk` is a bit too much
+12704|Opening a file containing Korean that was created in Eclipse has encoding issues
+12705|Watermark overlaps möbius-band
+12706|Marketplace connection error after waking from hibernation
+12707|Format on Save must be guarded
+12708|watermarks should be more interactive
+12709|VScode does not run/load without internet. New window crashes when No connectivity.
+12710|Markdown links rendered unreadable in dark theme
+12711|Inconsistent loading feedback
+12712|"""editor.lineNumbers"" should use ""on"", ""off"", and ""relative"" instead of false, true, ""relative"""
+12713|some time files code will become same
+12714|use new readonly modifier
+12715|keep the space when formatting
+12716|Submit a bug should do the same as Help > Report Issue
+12717|launch-config should allow me reference any command
+12718|Suggestion: add more files to integrity check
+12719|Can't launch debug target via npm
+12720|Problems: Activity for panels not updated
+12721|Update vscode-extension schema
+12722|Code complete in empty extensions.json not very helpful
+12723|Goto line and relative line numbers. Usability issue
+12724|Goto line with relative line numbers renders wrong lines
+12725|Global search stops working after a while
+12726|Extension recommendation code complete should propose extension names
+12727|Allow dragging extension from the extension viewlet into the extensions.json file
+12728|Debug Map: weird value changed indication
+12729|Can't format typescript code with tabs (latest insider build)
+12730|Parsing lots of files asynchronously and in parallel seems to be freezing my extension and VS Code to death. Looking for some help
+12731|Debuging es6 Proxy as property -> Internal error: illegal access
+12732|No coloring of JavaScript in HTML/Razor/Handlebars
+12733|Handlebars: if-else-statements no longer colored
+12734|Hover verbatim font too large
+12735|I can't use format!
+12736|CSHTML: no indentation after opening a tab
+12737|Need to press Command+S twice to save a file.
+12738|Show the user the list of extensions that will be installed
+12739|No bracket matching and auto indent in CSS (HTML, Handlebars)
+12740|xml tag auto completion produces malformed tag
+12741|extensions.autoUpdate makes uninstalling extension impossible
+12742|'Toggle control characters' - not specific enough
+12743|Inability to uninstall extensions (some(times))
+12744|Infinite loop saved modified
+12745|Privacy statement link leads to a 404 page
+12746|Ability to install older extension
+12747|Windows: terminal crashes when created with shellPath
+12748|Error: IPC channel is already disconnected
+12749|We need an overflow design for the activity bar
+12750|Terminal.processId is null immediately after creating the terminal
+12751|Some unknown extension causes backspace to no longer works in json files
+12752|Questionable implementation of getProcessId
+12753|vscode shows 'not responding' alert when opening a context menu and waiting
+12754|Colon cancels completion
+12755|Horizontal lines break hover a little
+12756|Environment variables in cmd different than in integrated terminal
+12757|[loc][Query][VSCode] More context for string
+12758|can't have two files with the same name open at the same time
+12759|[loc][Query][VSCode] Please clarify string
+12760|[loc][Query][VSCode] Please clarify string
+12761|Center watermark commands
+12762|Make commands watermark translatable
+12763|tsconfig baseUrl helper is misleading
+12764|Make it possible to select multiple lines
+12765|marked text is not case sensitive
+12766|Git tab with commit target information
+12767|[Razor] No coloring for the code in the global scope
+12768|CodeSnippet doesn't support empty brackets anymore - {{}}
+12769|[html] closing </script> tag is not proposed
+12770|Word highlighting is broken for closing tags
+12771|An underline is shown for empty src or href values
+12772|'Run in external terminal' does not reuse alternate terminal
+12773|External terminal not working for debugging node program
+12774|Release notes for insiders launches a tab, closes it and then launches a web page
+12775|Restart debug task doesn't close previous externalTerminal
+12776|Parameter hints widget size is awkward when the cursor is up against the right of a left or center split editor
+12777|UX meeting agenda 28 September 2016
+12778|Clarify global parameter of WorkspaceConfiguration.update
+12779|"Watermark command for up/down shouldn't use ""or"""
+12780|TS error stays around
+12781|How does a user know what settings are overridden by an extension?
+12782|Mention backtick for Watermark Commands Toggle Terminal
+12783|Different behaviour of Ctrl+K + Ctrl+C
+12784|files.autosave doesn't get toggled for first time
+12785|Cannot read property 'then' of null
+12786|Can not use Command-ArrowDown to open an editor from a search match
+12787|Allow workspace relative files.associations setting
+12788|Show a prompt before reverting file
+12789|"""telemetry.experiments.showCommandsWatermark"" switch not working"
+12790|`create eslint` matches nothing
+12791|Scrolling terminal keyboard shortcuts not working on MacOS
+12792|Integrated Terminal has large empty space when zooming out
+12793|WorkspaceConfiguration.update should warn when setting invalid values
+12794|Unclear how to delete a config value using WorkspaceConfiguration.update
+12795|Unclear how to edit values in launch.json and tasks.json
+12796|"Spurious ""No task to execute found"" info"
+12797|Format-on-type: Cursor on wrong side of edit
+12798|In-product release notes design issues
+12799|Update: Support disabling auto updates
+12800|vscode.previewHtml appears to modify (or restrict) HTML/Javascript of the passed URI

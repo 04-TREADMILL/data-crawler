@@ -1,0 +1,100 @@
+28501|Allow debug adapters to report messages to be displayed in status bar (or custom messages)
+28502|JS/TS Auto Indentation Rule Validation
+28503|CSS @supports throws errors
+28504|Terminal selection does not show up if selection.background is not defined
+28505|[c++] and, or, ... keywords in C++
+28506|"Improvement: Combine ""Complete Emmet Abbreviation"" and ""Expand Emmet Abbreviation"""
+28507|Integrated console: Certain Unicode characters followed by a link cause the link to duplicate itself and jump around when scrolling
+28508|Terminal erratic behavior + duplicate path after updating VSCode
+28509|Intellisense with word wrap breaks below the wrap when using vscodevim.vim
+28510|[Request] Option to format Javascript flat ternary expressions
+28511|Syntax highlighting for PHP files has stopped working
+28512|Hover over terminal and black shadows appear / disappear randomly
+28513|I could not find command 'Print'. Does it exist at all?
+28514|tmux pane_current_path is duplicated
+28515|Task Experiment 1.1
+28516|Task Experiment 1.2
+28517|Add memento for running a task
+28518|Only update viewlet switcher if it has already been rendered
+28519|Correct misspelled occurrences and occurred
+28520|shrinkwrap and OSSREADME.json for emmet
+28521|Terminal doesn't support RTL languages
+28522|Typo in for callstack viewer implementation - presenationHint should be presentationHint
+28523|Strange rendering issue with icons
+28524|Select multiple lines with ALT+CLICK+Scroll?
+28525|Quick info shows on hover over comments
+28526|Add support for BrowserBack and BrowserForward
+28527|Command + P - Opening new code (abc.cs) does not always make new page
+28528|Support Sublime-Text-style selection transpose
+28529|Intellisense popup appear and disappear on every keystroke
+28530|Remember all UI state even for empty windows (fixes #207)
+28531|Emmet: Wrap with abbreviation doesn't work anymore on new version of vs code 1.13.0
+28532|Adopt Electron 1.7.x
+28533|Es7's observable not support!
+28534|Installer and Updater without administrator privileges
+28535|Uninstall extension did not remove previous betas
+28536|Smoke test build status indicator
+28537|Out-of-the-box color picker
+28538|Fat icons on Mac with Insiders
+28539|A slow startup has been detected. Profiling data attached
+28540|Fat icons on macOS Sierra 10.12.5 after installing VSCode 1.13.0
+28541|Editor display bugged when search bar is opened.
+28542|Different icons from procedure and function in Symbol list
+28543|Is code fighting with npm?
+28544|an option to display search results in output window
+28545|NPM scripts dont runs via buil-in tasks support.
+28546|Selecting, copying and pasting causes editor to freeze
+28547|tasks 2.0 incorrectly handles relative paths
+28548|Font ligatures not working (Fira code)
+28549|Feature Request: Add support for HTML applications with .HTA extension
+28550|"Possible dispute between the renderer process and the main process on new version installation ""hot reload"""
+28551|Feature Request: Is there any way gives me about binary file info instead of “The file will not display in the editor......” ?
+28552|Keybindings in quick open aren't vertically aligned
+28553|Type casting autocompletes as HTML tag in TS
+28554|Unhandled error in debug adapter: TypeError: params.args[0].value.match is not a function
+28555|Bug in display array in watch area - http://prntscr.com/fj6h2o
+28556|Staged selected ranges still appear in the unstaged file
+28557|[build-windows] Error running scripts\code.bat
+28558|Blurry icons when opening from terminal
+28559|[Selection - Output Panel] Selection extended to the current opened file
+28560|"Code font in ""Find References"" does not work for me"
+28561|when terminal address have Chinese， will be repeated
+28562|Unable to update extensions under proxy
+28563|Tasks: Issue with Windows env variables
+28564|Context menus come up with an overflow when it should go above
+28565|hardware acceleration should be configurable in settings
+28566|Disable icons in VS Code - Ubuntu 16.04
+28567|Add prefix argument to Quickopen command (CTRL+P)
+28568|Insiders randomly crashing
+28569|Text disappeared after update to 1.13 [Bug]
+28570|${workspaceRoot} is empty when no file is open
+28571|end of central directory record signature not found
+28572|Allow quick open to control focus of the next viewlet
+28573|[Usability issue] Highlighted and completely selected strings have the same highlighting color
+28574|Support JSDoc `@link` inline tags
+28575|change language is not working
+28576|my suggest for making the file icon better
+28577|Output tab steals focus from Terminal tab
+28578|[decorators] renderIndentGuides don't move with a before decoration
+28579|Terminal doesn't print output from scripts\test anymore
+28580|Sometimes Typescript errors keep showing in the PROBLEMS tab although the code has been fixed
+28581|Polish Github extension
+28582|Clicking on a view node's arrow (from TreeDataProvider) to expand it shouldn't execute its command
+28583|Streamline keybindings.json editor split view
+28584|Allow for a `inline` group on a custom view item to show on hover -- like the search close x
+28585|[Terminal - Windows] Ctrl+c doesn't work
+28586|On highlight/select text - cannot unhighlight/deselect text on click - need to do ESC
+28587|Go To Definition and Breakpoints
+28588|Integrated terminal redraws $PS1 repeatedly while typing
+28589|Callstack not correct when exiting a function to top-most frame.
+28590|Cannot open folder in a OneDrive for Business path
+28591|[BUG] Enviroment icon render
+28592|Terminal autocompletion prints twice when using emojis in $PS1
+28593|Adopt TS 2.4 For VS Code Build
+28594|tsserver should be restarted upon crash
+28595|Separate DocumentSymbolProvider structure semantics from type semantics
+28596|VsCode not responsive since last update when typing TypeScript code
+28597|Slow Launch
+28598|"Support curly braces for defining ""chunk options"" in fenced code blocks of markdown documents"
+28599|Add DocumentSymbolProvider support for indicating imports
+28600|Debug viewlet section headers are blank

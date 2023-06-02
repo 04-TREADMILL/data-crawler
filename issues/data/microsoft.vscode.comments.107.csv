@@ -1,0 +1,100 @@
+10601|I suggest to for now the current behaviour and get more feedback on it before changing it to the VS way.
+10602|@joaomoreno ah, that makes sense. Thanks.
+10603|It is as if the tsconfig.json isn't there. It is picking up none of my tsconfig optins.
+10604|"re: Second sentence...  How does someone get into the state where there are multiple tasks with the same name?  It looks like if I have a gulpfile with multiple tasks gulp always picks the last one and when i run a task from the command palette it always runs the last one, so we should be consistent with when you run a task manually. I have not seen any other errors from running tasks that prompts you to ensure that a task name is unique, therefore I think we should be consistent and we don't need the second sentence.  re: Continue/Stop...  The model where there is an error if there is no task.json or gulpfile.js/gruntfile.js is that you can ""Debug Anyway"".  This is essentially the same scenario - the task specified in preLaunch does not exist/is in error. to use the argument above, we should not allow the user to Debug until they fix the fact that they don't have a gulp/grunt file or a tasks.json.  Therefore I suggest we follow the same response model with a ""Debug Anyway"" and ""Close""."
+10605|"@joaomoreno @dbaeumer why not Feb2016? If we did, we don't need the ""Reload TypeScript"" and ""Reload JavaScript"" commands in #3417."
+10606|The settings listed above have already been fixed by #2856. Marking this a duplicate of #2856.
+10607|I'm on Linux. Version 0.10.10-alpha Commit cecdf875d510948053fb815e9cfc48bb1e31eec7 Date 2016-02-25T08:07:21.481Z Shell 0.35.6 Renderer 45.0.2454.85 Node 4.1.1  That's pretty new, right?
+10608|ok
+10609|@isidorn @weinand thanks for the info on the comments, i always use bits from https://github.com/microsoft/vscode-samples so I never regenerate the `launch.json` :)
+10610|This issue was moved to OmniSharp/omnisharp-vscode#43
+10611|@bgashler1 Feel free to deliver!
+10612|This is a known limitation since we switched to Salsa. I will document this in the release notes for the february update
+10613|Currently changes to tsconfig.json require to run the  'reload typescript' command. Unhappy, but we work on improving this.
+10614|Because there is no one confident enough of making this change and there is the `Reload` workaround. Marking it for March.
+10615|"There is the command ""Extensions: Show Installed Extensions"" does this address your needs?"
+10616|As I said before, it would be nice to mark the installed components from the drop down. It's a hassle, having to manually take note of installed extensions. This should be marked from the drop down list.
+10617|Moving to Salsa
+10618|This issue was moved to Microsoft/TypeScript#7243
+10619|> Ember looks ok, i was able to get some IntelliSense with ember.d.ts, no crashes.  This is good news Salsa fixed the limitation we have with the 'default export'.  @chrisdias you should mention this to MS teams that build ember apps :smile:
+10620|@waderyan fyi
+10621|They've seen this feedback in VS as well...
+10622|I spent some time on this and using 'typings install --ambient xxx' is the backward compatible way to do this.  We should do this change to: - docs @gregvanl  - vscode-sample @chrisdias   moving to vscode-docs.
+10623|I'm trying to verify with 00035055 and I'm not getting prompted to install the C#/OmniSharp extension at all.  I've cleared out all of the local storage for the Code - Alpha build, reloaded the tool, and I'm opening a .cs file.
+10624|This issue was moved to Microsoft/vscode-docs#181
+10625|@waderyan  actually you can disable an eslint rule on a per line basis using:  ``` javascript //eslint-disable-line //eslint-disable-line no-unused-vars ```
+10626|Good to know. I talked to @gregvanl today about some of this in a doc for React / ES6 developers. Wasn't easy for me to figure out.
+10627|> Wasn't easy for me to figure out.  fully agreed, this is why I was much interested into this issue. I'll cover setting up eslint in the change notes, deferring to @gregvanl to add this to the main docs.
+10628|Great. I've created [an issue in vscode-docs](https://github.com/Microsoft/vscode-docs/issues/182) to track this.
+10629|fixed with commit e68a6bd3e
+10630|fixed with commit e68a6bd
+10631|Nice!
+10632|This has been fixed for the next release
+10633|Duplicate of #850
+10634|This only makes sense if it indeed failed to delete the extension. When the extension successfully gets removed, this won't repro.  I agree with the suggestion!
+10635|Is there nothing else you can give me here? From the screenshot, scrolling down wasn't the only thing you did, since `findPreviousMatch` is focused. Show me tomorrow morning?
+10636|I just tried to reproduce again, but wasn't able, all looks fine now. Same version, same file content. Nasty!
+10637|@rkeithhill @daviwil you might want to consider to do the lookup yourself: enable eval based hover and then in the eval request do the lookup yourself if the `context` == 'hover'.
+10638|@chrisdias aha, I see (and love those fancy looking launch.jsons ;-)  ![2016-02-25 23-23-11](https://cloud.githubusercontent.com/assets/1898161/13336571/e823aa74-dc16-11e5-83a3-11afc0dcd523.png)  Another reason why comments in json files a problematic...
+10639|@weinand I'll look at this tonight but when I first enabled supportsEvaluateForHover, we wound up evaluating PowerShell commands which blocked because most commands have mandatory input.  This caused the command to ask the debug host to prompt the user for that input.  Now I could implement some code to try to distinguish variables from other things (commands, expressions, etc) but that seems more dangerous to me.  :-)
+10640|@chrisdias Has the C# extension been published? If not it could be that Joh's prompting mechanism verifies the existence before offering the download.
+10641|It has not yet, I'm awaiting getting permissions set up for publishing. :frowning:
+10642|@rkeithhill you are using your own implementation of eval. So you are in control what to do in the 'eval' that is used for the hover. Instead of using the normal 'eval' you could lookup the 'expression' in a data structure that you have prepared in the last stopped event (probably the same data structure that the adapter returns in the stacktrace > scope > variables requests). So basically you would mimic what the VS Code UI does, but you have more control over the details. BTW, I don't think this is dangerous because VS Code sends you the 'context' information, so you are sure that your 'special' eval implementation is only used for hovers.
+10643|"@Tyriar basically any kind of settings page; those can only be closed with the ""close editor"" command."
+10644|This was a bug in https://github.com/Microsoft/vscode-cordova which should be fixed in the latest update of the extension.
+10645|Ah, sorry, I missed that there was a docs repo.
+10646|yes dark+ works as intended. what i'm qqing about is having broke dark not plus instead of just adding dark+ and leaving the previous alone.
+10647|This exact issue plagued me today.  I couldn't see the remote branches.  I also wonder what flags are sent when `git fetch` is run which I think is an analog to `refresh` in vscode?  Also I'd expect the tool to mirror the functionality of the git command line, for example `git checkout` appears to actually be `git checkout -b` which creates a local branch.  I don't like that.    It should mirror the git command usage and if I run `git checkout <branch_name>` and that branch does not exist locally, it should then checkout the remote branch.  If there is no remote branch of <branch_name>, it should error out with the appropriate pathspec error.    I would instead expect to use `git branch <branch_name>` and then need to checkout that branch.    I very much like a vim fugitive feature which wraps the `git` command and allows me to issue any git command if there is not a convenient mapping for what I want to do.  Perhaps vscode git integration could introduce a similar capability?
+10648|Duplicate #3450
+10649|Ran into the same situation. Whenever I create a new promise, the intellisense keeps saying it's undefined.
+10650|Unfortunately, because we're using a parent hover technique, I don't believe it's possible to do a fade out.  I think it's still valuable to do the fade in though—it makes things less abrupt.  Hopefully we can figure out the fade out later, if it's possible.
+10651|Assigning to @aeschli to verify.
+10652|I can fix this by converting the icon sizing to ems, but it could possibly affect the pixel-perfect lines of the icon; I wouldn't be able to test it before the freeze (because my Retina screen lies to me about how other screens will alias it.  I would need my desktop).  Let's hold off until March on this one just to be safe and not compromise the icon.
+10653|Considering these are such minor changes, going to push this back as suddenly my locally built packages are not displaying the short description anymore. Probably a local issue as the build server deb file seems fine, still not risking it though.
+10654|@bgashler1 I'm not understanding why fade out doesn't work. Seems like it would work fine since the parent isn't hiding or anything is it?
+10655|As mentioned above please wait for the c# extension to be published before verfying
+10656|Assigning to February for discussion today.
+10657|https://code.visualstudio.com/Updates#_editor tries to explain the motivation behind the changes. Sorry for back and forth in the recent months, but we hope we now have a solution for both classic VS users as well as users that the classic VS theme is too limited. And there's always lots of other themes to pick from.
+10658|I also get this wrong every time I'm there.  `onSave` doesn't make much sense, though. One would _auto save on save_?  Besides `onFocusChange` (which I would personally have called `onFocusLost` or `onBlur`), the only other two options that make sense are `on` and `off`.
+10659|Makes sense. As the breakpoints also don't grow/shrink I think we are consistent.
+10660|Awesome.
+10661|The `scrollTop` should be kept at `0` if that is so before the codelens decorations kick off, imo.
+10662|This is currently not implemented.
+10663|Let's keep an eye out then.
+10664|"@joaomoreno, thanks for the idea of trying with a different extension. Indeed, it looks like I can publish the Hello World extension without issues, which led me to believe there must be something wrong with my extension's package.  I found what the problem was. The name of the extension was ""Date & Time"" and the description contained ""Date & Time"" as well. When I renamed it to ""Date and Time"" and removed all occurrences of `&` from the name and description, I succeeded in publishing it.  I also noticed that the generated package contains an `extension.vsixmanifest` XML file with a `<DisplayName/>` and a `<Description/>` tag matching the values from `package.json`. So I unpublished it, replaced all `&`s with `&amp;` in this file, then succeeded in publishing the extension again, this time with the name and description containing `&`.  I created this pull request: https://github.com/Microsoft/vscode-vsce/pull/69"
+10665|Yeah, fade out is surely possible, pushed a change. Also sped up the opacity transition, it felt too slow.
+10666|@voxking did you try the [Chrome debugger extension](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) for VS Code? If the Chrome DevTools work for NWJS then the Chrome debugger extension should as well.
+10667|Very cool catch!
+10668|It would be nice if VSCode supported git submodules..
+10669|Sounds pretty much like the problem I'm having only that I've defined some maps in a SystemJS config.js file and vscode can't find the mapped names. It would be nice if it would be possible to use the mapped names and still get IntelliSense.
+10670|Would it be possible for javascriptreact to inherit (user defined) javascript snippets?
+10671|Giving to you Joao since you had it on the test plan
+10672|@isidorn there is a leftover checkbox
+10673|I believe there's no necessary API to implement it at the moment.
+10674|Console still comes up on debug start, but no more on restart.
+10675|I suggest to remove the `No` action, since users can easily block themselves into never seeing this message again.
+10676|Added it to the extension tips of CS projects
+10677|The reasoning behind @isidorn's change is: the user might block themselves into never seeing this message again but the extension will show up as a tip.
+10678|@isidorn we could consider to not reveal the debug console on 'attach' (but then your code would have to know the semantics of 'attach'...)
+10679|@alexandrudima is this a regression?
+10680|@bgashler1 after switching the theme the problem disappeared.
+10681|Make sure you extract `launch.json` from the localize call.
+10682|Using VoiceOver I do not get any feedback when the search is finished, or when the search has no results. Moving to march since it is not critical.
+10683|Related to #3439
+10684|This is also the default behaviour in Sublime and Atom.
+10685|@aeschli  Regression in latest alpha, colouring only appears when hovering on the gutter due to [this line](https://github.com/Microsoft/vscode/blob/master/src/vs/editor/contrib/folding/browser/folding.css#L14)  and the below screenshot  ![image](https://cloud.githubusercontent.com/assets/817264/13351612/3f522142-dc88-11e5-9ce2-e63638316b82.png)
+10686|"@krizzdewizz @joaomoreno  I have an issue when setting comspec to use `bash`.  The issue is that the forced arguments passed to spawn affect bash in a different way and closes the process immediately.  Source here -> https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/execution/electron-browser/terminalService.ts#L27 Looking at the code I cant see how this would work for other terminals as it's trying to pass `/c start /wait` as command arguments which other terminals may or may not support.  I've done some tests and I can get bash to work when supplying `cp.spawn('cmd.exe', ['/c', 'start', '/wait', 'bash'])`.  (Replacing `bash` with `powershell` works for too. Also omitting bash leaves `cmd.exe` to work as default)  This is the test script code I used to get this working for bash.  ``` js 'use strict'; const cp = require('child_process'); const child = cp.spawn('cmd.exe', ['/c', 'start', '/wait', 'bash'], { cwd: __dirname }); child.on('error', err => {     console.log(""error"", err); }); child.on('exit', code => {     console.log(""terminal closed""); }); ```  I think we should also add the error handling code as it's not present"
+10687|"I think we can keep the %comspec% environment variable as is and add a new user\workspace setting like ""terminal.launchCommand"" for spawning new terminals that are requested by the user."
+10688|I find the only dis is to remove the line from tsconfig and reboot vscode. Then the red goes away.  > On Feb 25, 2016, at 3:23 PM, Erich Gamma notifications@github.com wrote: >  > Currently changes to tsconfig.json require to run the 'reload typescript' command. Unhappy, but we work on improving this. >  > — > Reply to this email directly or view it on GitHub.
+10689|Please verify that `Ctrl+H` (`Cmd`+`Alt`+`F` on mac) seeds the search string from editor's selection
+10690|"To verify, have a python file:  ``` python     if displayName == """":         displayName = groupName     description = getAttr(attributes, ""description"")     mailAddress = getAttr(attributes, ""mail"")      print ""||Group name|%s|"" % displayName     print ""||Description|%s|"" % description     print ""||Email address|[mailto:%s]|"" % mailAddress` ```  Select All, choose from F1 > Add Line comment (Ctrl+K Ctrl+C in Windows). The empty line should not get touched"
+10691|@tht13 What do you mean by colouring? All seems to work for me.
+10692|Oh, I see, the git decorators.
+10693|yes the git decorators, you could try [this](https://css-tricks.com/snippets/css/transparent-background-images/) to do background image opacity?
+10694|Fixed by @alexandrudima with 8b702c2
+10695|Hehe good trick @tht13. Let's revert the fade for now, since it is endgame, and address it later.
+10696|We reverted the commits since the opacity also fades out the git diff decorations. See #3383. Reverted commits are b0ca83f and 20d655f.  Reopening, but not for February.
+10697|I delivered a workaround. The real fix is to disallow snippet syntax in settings default value and add snippet syntax escaping to the jsonSuggest code
+10698|@bgashler1 after reloading the window the problem comes back.  CC @isidorn
+10699|- when clicking on a fold icon, I make sure that this line stays visible - in all other cases we make sure the current cursor line stays visible
+10700|To verify: The messages above should not appear anymore.

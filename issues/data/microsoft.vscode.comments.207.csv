@@ -1,0 +1,100 @@
+20601|@isidorn is it possible to configure a launch configuration that does not start debug?
+20602|@isidorn @weinand fyi
+20603|You can give it a try from our insiders release today: http://code.visualstudio.com/Download#insiders
+20604|6.0.0. I should have said I found a solution (see the comments on https://aur.archlinux.org/packages/visual-studio-code-oss/). Namely (changing `gulp vscode-linux-x64` to):  ``` bash node --max_old_space_size=2000000 /usr/bin/gulp vscode-linux-x64 ```  where the `2000000` can of course be adjusted to how much memory (RAM) you're willing to allocate to this process and `vscode-linux-x64` should be adjusted to match your platform.
+20605|Might also be @dbaeumer for tasks.
+20606|@gwynjudd this setting is coming from an extension? which one?
+20607|Closing for https://github.com/Microsoft/vscode/issues/2686
+20608|Related:  https://github.com/Microsoft/vscode/issues/5411 https://github.com/Microsoft/vscode/issues/1896 https://github.com/Microsoft/vscode/issues/1334 https://github.com/Microsoft/vscode/issues/254 https://github.com/Microsoft/vscode/issues/959
+20609|@simonguo can you clarify? does this come from an extension?
+20610|"The 99+ over git is very suspicious so I assume the folder is not empty. @xsstomy is there a parent .git repository maybe that is very large? Can you send me the `ps aux | grep` of the process that is high?"
+20611|@stereokai not if you stage the change though, right?
+20612|@pocesar please provide us access to this typescript repository.
+20613|@mkyjakova this does not seem to be in our workspace?
+20614|@mkyjakova this does not seem to be in our code (ApplicationInsights.dll), why is it being picked up?
+20615|"We are very sorry to hear you are having issues with VS Code. Reading your description it seems that the issue originates from an extension and not VS Code itself. Thereby I will close this issue and kindly ask you to report this issue against the extension repository.   Most extensions are on GitHub as well so it should be easy to file it against the extension. If you open an extension on the market place, click on the **Support** link to find out more.  <img width=""196"" alt=""screen shot 2016-05-05 at 12 51 17"" src=""https://cloud.githubusercontent.com/assets/900690/15041943/263e2282-12c0-11e6-9a33-d2b3b500d61b.png"">  Thanks again for your feedback!"
+20616|@bpasero Well, if you `git mv` any file, it gets staged consequently. Is that what you mean?  This behavior is present in WebStorm by default, for example.
+20617|@stereokai yeah so git typically is smart enough to detect a rename even if you do it from the file system as soon as you stage the change. Otherwise any 3rd party tool that is not aware of git would not cause a git mv in the end.
+20618|@bpasero Well, as I described, unfortunately with VSCode git doesn't recognize a rename.  To be clearer, once I stage a VSCode rename, it doesn't show as a rename in git, but as a deletion and a new file.
+20619|@isidorn I assume we are using the telemetry API. Is this correct?  @jriekenI I don't think that every client of the telemetry API should have to honor the opt-out setting themself. This would be too error prone. Isn't there a central place in the telemetry API implentation that does this?
+20620|Could somebody sum up all this in a readable fashion ? I downloaded the insider zip and tried to launch vs code with --user-data-dir without success (does not prompt anything)  This is a must have for such a lightweight editor (as ST, it's going to sit in my dropbox ;) )
+20621|Thanks for all the feedback.  We're running a UX study on our latest designs at the end of this month. If you can spare an hour on 25th or 26th May and would like to participate in the study, please sign up here: https://calendly.com/stevencl/vs-code-docmgmt/  Unfortunately I can only offer times during the day (British Summer Time) and can't run sessions in the evening.  We are hoping to have some working bits that you can try out, as well as some design wireframes that we haven't shown yet.
+20622|+1
+20623|Actually @bpasero, this isn't limited to when git opens VS Code. I'm seeing the same behavior when I just run `code something` from a terminal on a different monitor.
+20624|@bpasero I used the insiders for two days and didn't get the problem. But then again I have no idea how to reproduce it
+20625|"@bpasero yes,you are right, there is a parent .git repository.  the follow?  xiashishi       79779 102.1  3.8  4796332 322824   ??  R    11:09PM   0:26.77 /Applications/Visual Studio Code.app/Contents/Frameworks/Electron Helper.app/Contents/MacOS/Electron Helper --type=renderer --no-sandbox --lang=en-US --node-integration=true --enable-delegated-renderer --num-raster-threads=2 --gpu-rasterization-msaa-sample-count=8 --content-image-texture-target=3553 --video-image-texture-target=3553 --channel=4687.21.1463192446 xiashishi       79823   0.0  0.0  2423376    240 s000  R+   11:10PM   0:00.00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn 79779  sorry, I don't know much   about   `ps aus | grep`."
+20626|@bpasero sorry please close this, I'd forgotten to install the final-newline extension in the insiders build
+20627|@stereokai makes sense, I think this only happens though if the 2 files have so many changes that git does not recognize they are the same.
+20628|Ok lets assume it got fixed and reopen when it happens again.
+20629|"No changes, only rename  Try for yourself :) On May 5, 2016 7:02 PM, ""Benjamin Pasero"" notifications@github.com wrote:  > @stereokai https://github.com/stereokai makes sense, I think this only > happens though if the 2 files have so many changes that git does not > recognize they are the same. >  > — > You are receiving this because you were mentioned. > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/6127#issuecomment-217195190"
+20630|@xsstomy does it reproduce if you disable the git integration in settings?  `git.enabled: false`
+20631|By analyzing the blame information on this pull request, we identified @weinand and @egamma to be potential reviewers
+20632|Hi **@sijad**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+20633|"Is there a ""cutToEndOfLine"" command in vscode that would could use to override in our keybindings.json? I'm looking into switching to vscode and as silly as it may sound this sort of small thing will keep me away."
+20634|Any ETA on this yet?
+20635|👍 - really love the lightweight, snappy implementation of VSCode.  If it had similar support to IdeaVim I would most likely be an overnight convert.
+20636|:+1: I too would be a quick convert and spend more time developing in VSCode with better Vim support. I currently use VS2015 (with ViEmu), gVim, and/or WebStorm (ie. with [IdeaVim](https://github.com/JetBrains/ideavim)), depending on the project I'm working on.
+20637|@RDeluxe have same issue
+20638|:+1: To date, the VIM extensions are very buggy for me (right now mine never paints a cursor among other issues).  This needs to be implemented in the core product.
+20639|Do you mean this ? https://code.visualstudio.com/docs/customization/locales
+20640|@bpasero it doesn't reproduce after that  i set  `git.enabled: false`
+20641|thanks
+20642|Does not repro on latest insiders so this is a recent regression.
+20643|@psulek I'm runing node 5.11 and I'm having the same issue with the insider and the stable (and I had randomly for quite a few versions of vscode and node now).
+20644|"@jrieken Regarding the ""update items based on input"" story that got removed, is there an alternative for this? It would be useful to allow the user to enter some custom text if none of the options suffice."
+20645|This can be very useful. +++. hope we can have this soon!
+20646|"ESLint config   ``` js {     ""env"": {         ""browser"": true,         ""es6"": true     },     ""parserOptions"": {         ""ecmaVersion"": 6,         ""sourceType"": ""module"",         ""ecmaFeatures"": {             ""jsx"": true,             ""experimentalObjectRestSpread"":true         }     }    ... } ```"
+20647|what's the status of this feature now? I just moved from windows to mac and found that sublime doesn't have the feature anymore!!!
+20648|@bpasero do you know if `~/.cache/Code` is something we need to worry about for this?
+20649|+1
+20650|No, but how about mixed TypeScript and JavaScript projects.
+20651|Already fixed on master
+20652|@egamma @dbaeumer please chime in for ESLint.
+20653|@Tyriar I am not sure who creates that folder, what are the contents?
+20654|"I am very sorry to hear you are having issues with VS Code. Reading your description it seems that the issue originates from an extension and not VS Code itself. Thereby I will close this issue and kindly ask you to report this issue against the extension repository.   Most extensions are on GitHub as well so it should be easy to file it against the extension. If you open an extension on the market place, click on the **Support** link to find out more.  <img width=""196"" alt=""screen shot 2016-05-05 at 12 51 17"" src=""https://cloud.githubusercontent.com/assets/900690/15041943/263e2282-12c0-11e6-9a33-d2b3b500d61b.png"">  Thanks again for your feedback!"
+20655|"I am very sorry to hear you are having issues with VS Code. Reading your description it seems that the issue originates from an extension and not VS Code itself. Thereby I will close this issue and kindly ask you to report this issue against the extension repository.   Most extensions are on GitHub as well so it should be easy to file it against the extension. If you open an extension on the market place, click on the **Support** link to find out more.  <img width=""196"" alt=""screen shot 2016-05-05 at 12 51 17"" src=""https://cloud.githubusercontent.com/assets/900690/15041943/263e2282-12c0-11e6-9a33-d2b3b500d61b.png"">  Thanks again for your feedback!"
+20656|@Zalatos can you check if you have errors for extensions reported (bottom left corner in the status bar) and can you check bottom right in the languages indicator if C# shows up for the file you open? can you attach a screenshot?
+20657|@imperez can you clarify? VS Code does search as you type.
+20658|@seemsindie weird, I have seen this error before but only if you try to start a second instance after deleting the folder from which the first instance started. Does it work after a reboot? Does it work from the insiders build?  We are releasing preview releases of the next stable VS Code version for everyone to try and give feedback. These preview releases are not 100% tested and might be unstable but contain our latest features and bugfixes. You can give our preview releases a try from: http://code.visualstudio.com/Download#insiders
+20659|@venkatmca008 are you talking about code folding?
+20660|Unsure who to ping, @jrieken @dbaeumer @egamma fyi, should this be always filed against TypeScript?
+20661|@vsccarl are other keybindings being read fully?
+20662|Yeah, duplicate of #4893
+20663|Might be because quick open focusses the editor when it closes...
+20664|Not reproducible for me on my Windows 10.
+20665|Weird. Can we try to launch it from the console to see if there are issues. cd into the application bundle into `Contents/MacOS` and then run `./Electron` and send the output here.  Also, are you maybe running as root user?
+20666|"@waderyan, back to the original question:  There are many things I use on a daily basis that are not in the current extensions. YY, yank a line, diw, delete inner word, visual selections, ciw ci"", change inner.  After going through a couple of the standard commands one realise that the question is a bit strange. There are hardly anything but the most basic movements in the current extension so the answer would be _everything_"
+20667|"@elgrego  Have you tried amVim? We have `yy`, `di""`, `ci""`, visual mode, visual line mode and many other commonly used commands implemented. I use it every day, and I'm keeping adding commands people asked frequently. Contribution are welcomed too."
+20668|Wait, I love the current UI behavior, will there be a configuration?
+20669|@kumarharsh I cannot accept this PR because it doesn't have any tests (which makes it very difficult for me to maintain the code).  Given we're waiting since December, I don't think tests will be added.
+20670|@aioutecism  is it on par with VsVim, IdeaVim, ST3  Vintageous? Are there any limitations to the plugin API that would keep it from supporting (or slow down) core vim functionality (cursor configuration, macros, regex search, : commands, etc.). Does it parse .vimrc?  If it doesn't, ST3 is a superior editor for me.
+20671|@Ikuyadeu Thank you for the contribuiton! :heart:. In the future please do not edit anymore files in `/i18n/`. They are generated, no need to edit them manually.
+20672|Yes if you start a task that has output the output panel will get opened.  But the debug console in that case would never get automatically opened.
+20673|> Another idea would be to make the get return a Promise. This, to me, would be much cleaner.  unsure what that means?
+20674|We are tracking that in #426
+20675|go for it @daviwil
+20676|@weinand Today there is not such API... The value is stored in the config. I like the idea of API and I will add `ITelemetryService#isOptOut` for that
+20677|I'd say TypeScript. Looks like thy miss a file event
+20678|@alexandrudima OK, I will be careful :smile:  Thank you.
+20679|@gregvanl Thank you for spotting this!
+20680|@MLefebvreICO @bpasero yes, this should be possible. Please use the debug: start without debugging action.  ![screen shot 2016-05-06 at 09 22 45](https://cloud.githubusercontent.com/assets/1926584/15066777/1f7dd49a-136c-11e6-984c-e5e20401dcc1.png)
+20681|Here is what we have today (Windows bindings): - `editor.action.deleteLines` bound to <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd> that deletes lines and does not place them in clipboard. For example, one of the reasons I like this one is specifically because it doesn't mess with the clipboard. - `editor.action.clipboardCutAction` bound to <kbd>Ctrl</kbd>+<kbd>X</kbd> that deletes the selection or the **entire current line** if there is no selection on the line.  @dimdin @dotDeeka You would want another action more similar to the first one that also writes the deleted content to the clipboard?
+20682|moving this to TypeScript from which VS Code gets TS and JS smartness
+20683|This issue was moved to Microsoft/TypeScript#8495
+20684|@itsravenous You are on a really old version of VSCode, please update to 1.0.0, we have made a ton of improvements since 0.10.6 (including fixing lots of issues in the find widget).
+20685|Debug is a noun here, I have added comments for the translators.
+20686|@aioutecism this was much better, I stil miss ciw, diw, daw, dd, ct[char](the first couple of ones i tried)
+20687|https://github.com/OmniSharp/omnisharp-vscode/issues/282
+20688|> Again I would argue that no extension should get activated before all configurations have been synchronised to the extension host. We need to somehow flush the configuration to the extension host if possible.  I was always under that assumption. That's why there is the early return which should have been an assertion. Tho, I believe the first configuration has been set, but the extension specific config might be missing so that [this](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/api/node/extHostConfiguration.ts#L62) happens
+20689|"@elgrego  Thanks! `dd` and `ct{char}` should work. ""Word text object(ciw, caw, diw, daw)"" support will be added soon."
+20690|@jrieken :+1: once we have isOptOut I can use that flag to not send telemetry
+20691|To recap (am I understanding this?): - extensions contribute to configuration new options and default values in `package.json` files - extensions get scanned and their `package.json` gets communicated to the main process in https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/node/extensionHostMain.ts#L142 - extensions (when activated) rely on their default values being present in the vscode config API  I think we need to add something around https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/node/extensionHostMain.ts#L142 where we'd call `configurationService.sync() : TPromise<void>` or something ?
+20692|By analyzing the blame information on this pull request, we identified @egamma and @joaomoreno to be potential reviewers
+20693|Thanks - I had checked the releases page here (where the version numbers seem different) but didn't think to check the main website.
+20694|@isidorn could be the same file with different casing because you sometimes seem to vary with your workspace path.
+20695|Just Cmd+K W the one file to get rid and File -> Open Recent -> Clear Items to get rid of all your duplicate workspace paths with different casing.
+20696|@jrieken yes, it should be an assertion at that point  @alexandrudima yes, extensions get scanned for configuration and they end up in the configuration service on the main side that merges them into the cached configuration (the one that is loaded right on startup). this works all fine, but the configuration is not sent back to the extension host in-time before the extension accesses this configuration.  > extensions (when activated) rely on their default values being present in the vscode config API  Yes, however I think the issue is more generic: We see an extension accessing the configuration service before the configuration service had a chance to send its configuration over to the extension host. That results in NPEs.  +1 for having a way to flush all configuration values to the extension host and only then continue to activate extensions.
+20697|Ok, we were always setting focus to editor on debug session end. I am not a big fan of this auto focus change, so I removed that. That covers this case
+20698|ping @bgashler1 @stevencl  silence I will take as approval and implement this on monday 😊
+20699|@isidorn Done. Note that you must re-read this flag each time you log since it might change during the lifetime of a session
+20700|![qq 20160506164140](https://cloud.githubusercontent.com/assets/15609339/15068374/73a9a7e6-13a9-11e6-932a-edfbdefed36b.jpg)

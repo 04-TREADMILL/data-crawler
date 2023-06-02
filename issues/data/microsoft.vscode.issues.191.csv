@@ -1,0 +1,100 @@
+19001|Why do you auto format the code when I save the HTML file?
+19002|Go to File includes files that are excluded by files.exclude/search.exclude
+19003|Use named pipes to talk to extension host
+19004|January Endgame
+19005|Explorer hide empty folder?
+19006|Test: 'Add configuration' debug select dropdown
+19007|Add API to find out if an extension is being debugged or not
+19008|[WelcomeUX] workbench.welcome.enabled default value should be false, not null
+19009|Do not show welcome experience in no folder workspace
+19010|Welcome overlay does not respect if I have viewlets hidden
+19011|Welcome inteface overivew only dismissed on mouse click
+19012|Test: launch configuration snippets
+19013|Test: 'restart' option for 'launch' requests
+19014|Find for whole project -> All folders
+19015|Test: support for internal modules in 'skip files' option
+19016|Test: support to launch an adapter through an extension
+19017|Test: multiple commands in tasks.json
+19018|test inserting snippet via keybinding
+19019|Test light bulb everywhere
+19020|Test format on paste
+19021|Syntax highlighter confused by class properties with optional type
+19022|Test: Git as an SCM extension
+19023|Test: More extension recommendations for file extensions
+19024|[WelcomeUX] Interface overview in light theme is too opaque
+19025|Panel header spacing/alignment issues
+19026|Settings header links differ from panel header links
+19027|[WelcomeUX] Overlay: Git missing shortcut
+19028|vscode-insiders embed terminal behavior since 1.9.0
+19029|[WelcomeUX] Include a guide/hint for 'View: Toggle Panel' (CTRL+J)
+19030|Test: run task in terminal instead of output window
+19031|Test improved multicursor actions experience
+19032|Test User/Workspace Settings Improvements #18094
+19033|Test language specific settings #1587
+19034|Test FastRenderedViewLine
+19035|Add option to turn off fast rendered view line
+19036|Test Create Multiple Cursors from Selected Lines is multiselection aware
+19037|Feature request: Make font style independent of color theme
+19038|[WelcomeUX] Consolidate under single 'welcome' folder
+19039|Too much indentation for files in Explorer with the Seti icon theme
+19040|Test icon placement in file explorer
+19041|Test SCSS maps
+19042|Extension Packs
+19043|Double parsing of package.json
+19044|Test terminal performance and Windows support improvements
+19045|Uncaught TypeError: Cannot read property 'length' of null
+19046|Issue with gulp task on armhf
+19047|Terminal goes blank when running vim
+19048|New Settings UI: Wrapping should align 2nd row to right
+19049|Auto-close javadoc
+19050|Split up and rename Markdown Scroll Sync Settings
+19051|Terminal doesn't honor quoted command lines.
+19052|Test: Emmet profile, preferences and snippets from external files
+19053|[WelcomeUX] Telemetry for http/s links
+19054|Test: Apply indentation rules when pressing enter
+19055|Test: Markdown Preview -> Editor Scroll Sync
+19056|Code command line add a --list-enabled-extensions
+19057|"[FileWatcher] failed to start after retrying for some time, giving up. Please report this as a bug report!e.onUnexpectedError @ shell.ts:541 ipc.cp.ts:175IPC ""Watcher"" crashed with exit code null"
+19058|Test: Markdown Preview Editor Selection Scrolling
+19059|Test: Go To Implementation
+19060|RPM package has incomplete list of dependencies
+19061|Test: TS References Code Lens
+19062|Test: Markdown Editor Document Link Provider
+19063|Test: Local Links in the Markdown Preview
+19064|Test: Reindent all lines
+19065|Markdown Scroll Sync Perf Improvements
+19066|Add Setting to Disable Double Click in Markdown Preview to switch to editor
+19067|Test: Search results navigation
+19068|Align on save breaks up the < div> tags
+19069|Test: Dynamic 'skipFiles' support and UI
+19070|[WelcomeUX] Cleanup welcomeOverlay.ts
+19071|Test: SourceMaps enabled by default
+19072|Go to Implementation
+19073|"some things like ""clear"" and  ""screen"" are now broken in terminal"
+19074|Rename TypeDefinitionProvider to TypeImplementationProvider
+19075|Dynamic Extension Recommendation doesn't seem to work
+19076|Updated i18n translation
+19077|Mac: After update of VS Code, app wont start - endless error loop.
+19078|Allow developers to bind to any keypress
+19079|HTML indentation bug when using inline styles
+19080|Safe handling of workspace executables
+19081|False error with sass in Ionic2 project
+19082|Implement getProfileName for emmet
+19083|Test: Chrome extension
+19084|Test: Welcome UX
+19085|"Typescript: ""This workspace specifies executables."""
+19086|Review `security.workspacesTrustedToSpecifyExecutables` setting
+19087|[html] autocomplete should produce more context-specific results
+19088|security.workspacesTrustedToSpecifyExecutables setting: wording
+19089|insertSnippet refinemenets
+19090|do not support EventSource
+19091|git reset -p : Reset line per line (and maybe per block too)
+19092|Revisit TypeImplementation and TypeImplementationProvider names
+19093|KeyBoard binding to last edited cursor Feature Request
+19094|Can't open settings in current insiders build
+19095|cannot open settings
+19096|"""window.openFilesInNewWindow"" why default and off"
+19097|Existing launch.json not recognized
+19098|window.openFilesInNewWindow  not working as excpected
+19099|Editor viewport should not jump around when typing
+19100|Annotate provider interfaces with best practices

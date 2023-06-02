@@ -1,0 +1,100 @@
+9801|yeoman generator does not use latest vscode.d.ts
+9802|[scss] SCSS files fail to syntax highlight after nested block
+9803|Up and down arrows work on shell history and the IME proposal window at the same time.
+9804|Fail on theme scope
+9805|Change the colour of warning/error squiggles
+9806|VSCode retains a handle to the running tsserver
+9807|Improve evaluate on hover feature.
+9808|The terminal IME composition view appears on top of the text when at the bottom of the screen
+9809|Stepping/Continuing after modifying a source file does not give the debugger any updated information
+9810|Last segment of array incorrectly shown in debugger
+9811|Chinese version of the problem
+9812|over 250 warning, error. can't be displayed.
+9813|Sub menus for Editor Context Menu
+9814|Hi, left sidebar Extensitions's update number can auto hide ?
+9815|Explorer Context Menu ordering issues
+9816|Question : How to delete all the available snippets from VS code ?
+9817|The .NET CLI tools cannot be located
+9818|vscode does not open large files
+9819|jump to definition doesn't open new panel
+9820|click twice to open folder after start vscode
+9821|Menu should show 'No Configurations' when configurations array is empty
+9822|Could not create web workers when running mocha tests
+9823|Debt: combine requestService and nodeRequestService
+9824|Align snippet labels
+9825|Extend the API to add custom file opener
+9826|Unable to Install C# Extension
+9827|[go] Reporting a small issue with code coloring when word `type` is present
+9828|Cascading .vscode directory
+9829|Search in files not finding any results
+9830|Proxy configuration
+9831|Do not give me word proposals when an object child has good proposals
+9832|How can I use input by python in Visual Studio Code?
+9833|Closing duplicate tab of file opens save prompt
+9834|Incorrect highlighting of regular expression
+9835|Gulpfile.js new tasks not immediately recognised
+9836|Can't scroll in the terminal
+9837|Weird editor focus when clicking in dev tools
+9838|UX meeting agenda 27 July 2016
+9839|Search UX: Cancelling and Progress feedback
+9840|Search results don't open anymore
+9841|Deleting searched phrase and closing file shows the deleted result in search pane
+9842|`compositeShown` telemetry event is one off
+9843|Try to get rid of composite events in EventService
+9844|Highlight is persistent after deleting a code block
+9845|[scss] !important shows as error when passed in mixin parameter
+9846|Extension Relevance Improvements
+9847|"""Open Preview to Right"" not showing if ""Option"" key pressed before hovering"
+9848|Assign all unassigned issues
+9849|hydrogen-like feature in vscode
+9850|VSCode UI thread stops responding for half second every couple seconds
+9851|Unable to open the file because the associated text model is undefined..
+9852|"Context menu ""New terminal"" -> ""New Terminal"""
+9853|Javascript Atom Grammar
+9854|Refresh in Explorer not picking up new files
+9855|First tab not rendering right.
+9856|Pressing Tab removes code
+9857|PR Proposal: Open arbitrary commits with diff viewer
+9858|Have a setting for maximum number open files (editors)
+9859|moveEditorToRightGroup should not attempt to move the editor when it's the only editor in the group
+9860|Calling activeTextEditor.edit twice will only work for the first call.
+9861|Jsconfig.json hint logic
+9862|Extension produces encoded URIs that cause confusion
+9863|can not insert ' SPACE' key
+9864|Menus do not align with High Contrast
+9865|Block comment - add option to insert spaces
+9866|Duplicate function implementation error message while writing simple function
+9867|Cannot open remote folder loaded via SFTP
+9868|Suggest widget on top of zone widget bottom
+9869|Completions for $schema only work if string empty
+9870|Errors aren't cleared when isWatching is true
+9871|TypeError: Cannot read property 'getRepositoryRoot' of null
+9872|Repl doesn't scroll all the way down
+9873|`Replace All` button should have a different UI
+9874|Need visible, clickable `Close All` or `Close Group` action
+9875|vscode.d.ts contains broken jsdoc links
+9876|workbench.files.action.showActiveFileInExplorer no longer works
+9877|Text of current find match text is not visible in markdown file
+9878|[regression] config changes not applied
+9879|"Failed to continue: ""Cannot find Delve debugger. Ensure it is in your `GOPATH/bin` or `PATH`."""
+9880|Hover is not appearing on a variable sometimes
+9881|GIT Commit messages
+9882|Transient breakpoint flickers when running `Run to cursor` action
+9883|Support composite Undo
+9884|JS intellisense from a typings file only works after restarting VS Code
+9885|add highlighting of common keywords like TODO
+9886|Close the extension resource in the editor if it is filtered in the view
+9887|showInputBox overrides with initial value after provided an invalid value and clearing it
+9888|typing dash changes terminal rendering
+9889|Remove the extension after update
+9890|Provide setting to not show read-only full settings buffer when opening Settings
+9891|shift+cmd+3 is not performing sort descending operation on lines
+9892|debt - editor links should use opener service
+9893|Intellisense is not working when I type . in settings files
+9894|Different results when search for  .*
+9895|Intellisense UI javascript function signatures gets cut off
+9896|JSDoc Support - Optional Parameters Ignored
+9897|incorrect JS highlight with lower than operator and semicolon in for loop condition
+9898|Javascript - Go to definition does not work with variables (sublime does so VSC should too)
+9899|JavaScript IntelliSense is not working without jsconfig.json
+9900|Electron conversion to appx (for Windows Store)?

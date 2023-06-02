@@ -1,0 +1,100 @@
+7101|Offer Flatpak as Linux installation option
+7102|"eslint can't not find the module ""babel-eslint"" when I have installed the module babel-eslint?"
+7103|OS X Terminal cannot open
+7104|[xml] does not work with characters other than the Latin
+7105|Powerline fonts in terminal incorrect
+7106|Source map don't refresh after source change/save & node restart.  Attaching/re-attaching to Meteor.js server (meteor debug)
+7107|Terminal scrolling issue
+7108|Copy/Paste using shortcut ctrl+c/ctrl+v functionality missing (add such functionality, it's a cool feature in any terminal)
+7109|Intellisense comments tooltip does not support Chinese character display
+7110|Peak definition close button is off center
+7111|Some 'font-family' properties in the workbench CSS not work as expected due to lack of quotation marks
+7112|Use OS X system font (San Francisco) on El Capitan
+7113|Open Editors: Reveal in File Tree as Menu-Option/Shortcut
+7114|VSCode does not format HTML template elements
+7115|Operating System Specific Properties in launch.json
+7116|Improve wording on workspace with no errors
+7117|Clicking outside error list focuses the tree and produces an ugly blue outline
+7118|Showing only errors message superfluous
+7119|Duplicate current line feature
+7120|Clicking on the error does not pass focus to editor if editor already open
+7121|Error list: screen cheese with filter
+7122|Click on error icons in status bar should toggle error list
+7123|Error list: filter needs more UX love
+7124|Selection / Search is limited to 999 items
+7125|Can't add a new function breakpoint
+7126|Parameter hints should not eat KeyDown and KeyUp keys when they are no-ops
+7127|Enhance git commit message (show a counter with (50 - commit message length))
+7128|Allow to copy from about dialog
+7129|VSCode Doesn't Automatically Use System Proxy
+7130|Allow disabling parameter hints
+7131|Autocomplete on <input> doesn't support autofill values
+7132|Maximizing the editor in a snap setup causes the interface to not update
+7133|Problems: tree should not be clickable when there are no problems
+7134|Problems: there is a padding/margin to the left of the tree
+7135|Problems: there are some behaviour things in trees to consider
+7136|Problems: embed the search box into the header
+7137|Problems: content in tree is not aligned in the center nicely
+7138|Markers: deleting a file should remove its markers
+7139|Problems: lock the scrollposition when changes happen
+7140|Problems: automatically expand file nodes similar to search results
+7141|Adding autocomplete values of to input/select/textarea
+7142|Visual Studio Code doesn't open when there is an Admin VSCode open
+7143|Modifying and saving this file did not pin it
+7144|"Linux ""desktop entries"" (.desktop) aren't colored very well by ini language"
+7145|ExternalTerminal.windowsExec requires tool directory to be on path variable
+7146|Typescript validation seems to be out of order on Mac
+7147|support sharing of launch config attributes between request types
+7148|Feature Request: Open file with an extension scheme
+7149|Opening Command Palette is removing the current line' indicator
+7150|Allow multiple panels to be displayed at once
+7151|Open editors list lost middle click to close file
+7152|How to set different tabSize for special files?
+7153|Why does editor.lineHeight default to 0?
+7154|switch desktop will type letter 'E' auto
+7155|Category for Extensions
+7156|Not responding if opening big js.map files
+7157|Sometimes extension host zombie stays around
+7158|Keep undo stack between file close and reopen
+7159|TypeScript syntax highlighting breaks for class methods returning a type ending in a digit
+7160|npm bugs fsevents
+7161|Stop this extensions syndrome for UserVoice requests... it's irritating!
+7162|marker list should toggle when pressing the status bar again
+7163|put marker filter into panel header
+7164|Code format shortcut is not working
+7165|Adopt more typed events
+7166|Expose bracket matching functionality to extensions
+7167|Refresh explorer view after loading all package.json of extensions.
+7168|Make move lines multi cursor aware
+7169|Explorer activity icon unsaved count decoration stays around
+7170|Support for before & after decorations
+7171|Tabs UI using flex
+7172|Search results navigation in Tree using keyboard is not consistent as using mouse
+7173|editor.insertSpaces and editor.tabSize changes don't apply for JSON files
+7174|propose command ids in keybindings.json
+7175|Problem with changing languages
+7176|Partial tree refresh breaks tree structure
+7177|Open editors list lost middle click to close file (fixes #7162)
+7178|"feature-request: add keybinding focus at integrated terminal, like ""cmd+4"""
+7179|feature-request: pause extension like chrome plugin manager
+7180|The editor display dimly.
+7181|integrated terminal doesn't redraw correctly
+7182|Extensions not instlling
+7183|Can not run npm in integrated terminal
+7184|Feature Request: add option to disable suggestions in comments
+7185|"File Type column in the File Explorer on Windows shows ""Visual Studio Code"" rather than the actual file type"
+7186|Proposal: Ability to search only through specific directories
+7187|VS Code does not warn/report when file behind loaded buffer is changed on disk
+7188|Tasks: Unhandled SASS 'error' event ends task
+7189|Bug with replacing repetitive code inside of folding text
+7190|"""Select All Occurrences"" is not selecting all of matches in large files (stops at 1000)"
+7191|Reset skip flag to false to fix skipping rest of string
+7192|Middle Click (or Scroll Wheel Click or Shift + Click) should open new window.
+7193|Finding in problems does not expand nodes
+7194|Decorate matching results in the error list
+7195|Store editor view settings per group and not per file
+7196|Quick open: make editors of different kinds distinguishable
+7197|Tabs: Make the editor title area a richer control
+7198|CSS color previews stopped working
+7199|/bin/sh: 1: adb: not found
+7200|smartSelect.grow not working in HTML Files

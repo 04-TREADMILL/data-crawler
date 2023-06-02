@@ -1,0 +1,100 @@
+4201|[c++] Strings containing an open-curly brace inside a function call at the end of a function are not terminated, highlighted the rest of the file as a string.
+4202|Check casing of locale string with module resolution and loader names
+4203|Typescript intellisense doesn't work for files listed in tsconfig.json
+4204|Building VS Code - Importing a npm module
+4205|OS Language not detected
+4206|JS syntax highlighting not working as expected
+4207|Duplicate identifier error after moving a typescript file
+4208|No option for excluding a folder from ctrl-p and search results, but still shown on left-nav.
+4209|Feature Request: Ability to specify the working directory for a task
+4210|-w options is not working as expected in Windows git config
+4211|javascript validation is not working
+4212|"task.json creation, rename "".Net"" to "".NET"""
+4213|"task.json creation, rename "".Net"" to "".NET"""
+4214|Content, sort order of task generation list
+4215|suggestion: all detected tasks should be generated in the task.json
+4216|"Shortcut command, ""deleteWordRight"" is deleting left when at end of line."
+4217|Release updates don't restore working files
+4218|"Annoying info message ""Please remove the 'code' alias from '/Users/<user>/.bash_profile"""
+4219|[IntelliSense] [Salsa] doesn't recognize JSDoc callback parameter
+4220|"[V-test][GO] Getting error message like ""Error: Type Error: Bad argument"" when opening a folder containing GO code."
+4221|"Fix markdown highlighting with ""C#"""
+4222|Collapse of source view is non-anticipatory.
+4223|Option to display derived files in one row in the explorer (for example, .c and .h)
+4224|[V-test][GO] When trying to install missing tools from the Analyzer (status bar) then it is throwing error like : 'go' is not recognized.
+4225|Column selection has unexpected behavior when I type to replace selection
+4226|Go to File indexing is to slowly
+4227|"Cannot update to 0.10.11 - Error ""Unable to execute file in temporary directory. Setup aborted; Error 5: Access is denied"""
+4228|"""The Typescript language service died"" running on a network drive through Linux smb"
+4229|MoveFile failed; code 183. Cannot create a file when that file already exists
+4230|"Java script syntax highlight considers all words starting with ""var"" a variable declaration"
+4231|Run action doesn't open up the console
+4232|Run action seems very alone in command pallete
+4233|Stopping a program that ran with the Run action doesn't stop it
+4234|"Debugging doesn't start on a fresh TypeScript extension when running the ""Debug: Start"" action"
+4235|Closing extension Code instance doesn't make `Run` stop
+4236|Syntax highlighting breaks with multiple string templates on one line
+4237|Test running on Windows prints error messages
+4238|NPE when parameter hints has no parameters
+4239|Message after installing an extension should have a Close or Later button
+4240|Error while Downloading and configuring the .NET Core Debugger
+4241|[js] syntax highlighting broken after bracket in the same line as 'if' or 'for'
+4242|[js] should not remove whitespace after 'function'
+4243|'Create jsconfig.json file...' should be 'Create jsconfig.json'
+4244|'Have a project and experience better IntelliSense and code navigation' needs polish
+4245|Hover message needs to be concise
+4246|jsconfig.json guidance - give me option to never get prompted again
+4247|[themes] HTML is too red in Light (VS Theme)
+4248|Linux: cannot watch large folders (ENOSPC)
+4249|Exception when close all working files and some are dirty
+4250|jsconfig.json guidance: never getting 'configure excludes' on Linux OR OSX
+4251|Show Installed Extensions doesn't show update action
+4252|Configure excludes polish
+4253|After replacing all occurrences of a search pattern the search dialog shows 'No results' even if this is not true
+4254|Console errors with badly formed launch.json
+4255|Windows: -w option not working when vs code already running
+4256|Folding is not working in xml
+4257|"[html] formatting option ""html.format.extraLiners"" doesn't work"
+4258|"[html] formatter option ""html.format.unformatted"" doesn't work"
+4259|File dialog: Cannot navigate to \Windows\System32\drivers\etc, even as administrator
+4260|Investigate to make IConfigurationService sync if already blocking startup
+4261|Importing an npm module
+4262|Ctrl+K Ctrl+I only works on words
+4263|Powershell - Debug adapter process has terminated unexpectedly
+4264|cli: give better hint what to put for --locale
+4265|^acceptSelectedSuggestion no longer works
+4266|Link recognizer isn't too good with MSDN links (esp ones with open & close paren)
+4267|When inserting an emoji on OSX, it is placed two spaces left of the cursor
+4268|[js] Wrong highlighting when using ES6 interpolation
+4269|Provide API to pull information from language service
+4270|Move instantiation system to a separate package for use by third parties
+4271|[Localization] View -> Toggle Render Whitespace is not being translated
+4272|Command line not working as I'd expect
+4273|[Localization] Extensions icon hover tooltip not localized
+4274|Implement tab indent guides
+4275|insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets not behaving correctly
+4276|[Localization] Default settings file contents for the intalled extensions are not localized.
+4277|[Localization] Setting.json file usage text (comments) didn't change when user changing the locale.
+4278|[Extension][PS] Unable to re-install PS extension.
+4279|[Localization] Configure file associations to languagues setting not localized
+4280|Node intellisense is not working
+4281|Folding is not working on Powershell functions
+4282|Editing multiple files is increasing the memory footprint indefinitely
+4283|[jade] comment line color wrongly colored after new lines
+4284|Provide way to copy intellisense description to clipboard
+4285|Syntax Error => Arrow functions
+4286|tweak some complex commands args description
+4287|Add link to the documentation in the generated jsconfig.json
+4288|Promote configure excludes to a message box
+4289|Don't reach the gallery before knowing that the cache is stale
+4290|JavaScript code formatting extention not working properly
+4291|C# Unity auto complete hints are wrong
+4292|ts version indication should not show 'unknown'
+4293|Review initialization sequence
+4294|"OS X: ""Open in Terminal"" doesn't work for me"
+4295|Consider to not let debug adapters user errors show up in the dev console
+4296|Prevent hidden class mutations
+4297|Dark+ theme: CSS changes in color
+4298|Syntax Highlighting strange
+4299|Auto indentation fails with javascript functions
+4300|JavaScript `var` and `const` multi-line defintions not coloured.

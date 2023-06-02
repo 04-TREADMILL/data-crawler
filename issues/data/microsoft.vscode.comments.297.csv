@@ -1,0 +1,100 @@
+29601|"Beloware the Paths of my html files  Polymer      |-  component Dir.      |             |- some.html App     |-  My Component Dir.     |                 |-    test.html  I need to import  some Polymer component from component Dir.  But VSC. could always open the link like   ""/app/component Dir./some.html"" or not ""/Polymer/component Dir./some.html""  even there enough quantity of ""../../../../../../../../../../"". the path VSC open still not over ""App"" this Dir."
+29602|At least for OS X, “Go” would make the most sense. Finder has that.  ![](https://cloudup.com/cVQ61_WMz-Y+)
+29603|I had the same issue. But in my case this was problem with SVG Viewer extension. So, I've remove it, then also removed C# extension also. After that, re-installed C# extension, then VS Code downloaded and installed .NET Core Debugger again. And now, all are good,  even though, I've re-installed SVG Viewer extension. [Note: Check Developer Console from 'Help' menu for your particular problem]
+29604|Related: https://github.com/Microsoft/vscode/issues/8579
+29605|I wonder if in the end it would not be better to invest in a solution where the user can configure these things, either via settings or by being able to write CSS that gets injected.
+29606|We should really work on differentiating between user and workspace settings. Imho this does not make sense as a workspace setting.
+29607|A number of days has past without answer on the questions asked. I am thereby going to close this issue to clean up our backlog of issues. Once you can answer on the questions, the issue can be reopened again. Thanks for understanding this process!
+29608|@calam1 if you configure files.watcherExclude to exclude all from watching (**) does it make a difference?
+29609|Please verify that Cmd+W still closes the window when no editor is open and there is a new keybinding context for when an editor is open.
+29610|"Given https://github.com/Microsoft/vscode/issues/8715 is fixed for July, you can prevent the window from closing by setting the following in the keybindings configuration:  `{ ""key"": ""cmd+w"", ""command"": ""-workbench.action.closeWindow"", ""when"": ""!editorIsOpen"" }`"
+29611|@DonJayamanne, thanks for your PR! By analyzing the annotation information on this pull request, we identified @isidorn and @egamma to be potential reviewers
+29612|Yes, keybinding showed up the command palette. And the latest version today (Commit 798b41ab1cf3636a27042020a54ddfb4cfb8d23c) has fixed the issue commented on  https://github.com/Microsoft/vscode/issues/8701#issuecomment-230371828
+29613|- Panels should toggle focus between editor and panel just like other views #7540
+29614|same issue...version 1.2.1  ![image](https://cloud.githubusercontent.com/assets/18712822/16610622/5d144c84-4397-11e6-8c74-08b2ebdb9177.png)
+29615|Elimintaed all except the following which we use internally for extension host debugging:  ``` ts sourceMaps?: boolean; outDir?: string; port?: number; ```
+29616|Yes, i am doing it on [mouse down](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/debug/browser/debugActionsWidget.ts#L96)
+29617|@f111fei, thanks for your PR! By analyzing the annotation information on this pull request, we identified @joaomoreno and @egamma to be potential reviewers
+29618|@bpasero  Extension install failed. I push a PR for this. See https://github.com/Microsoft/vscode/pull/8786
+29619|@DonJayamanne PR looks good overall - I added comments in the commits directly. Also: - Did you test this both on the folder and no-folder workspace? - Can you please squash all the commits as the first 4 commits in this PR should be removed? - It would be great if this also worked for tasks.json - Is it possible that `SettingsVariables` just extends from `SystemVariables` - using that approach we would not need both `SettingsVariables` and `SystemVariables` in `DebugConfigurationManager` and we would get this feature for free in the tasks world? - We should not call this 'setting.' but 'config.' to align with other places where we have this  Adding @weinand
+29620|@isidorn for now, please create an explicit interface for them. e.g. IExtHostConfig. And add a comment that this has to match the extensionHost scheme.  I will look into this to figure out why they are really needed.
+29621|I think the interface function `install` in `IExtensionManagementService` return `TPromise<IExtensionManifest>` is better than `TPromise<void>`
+29622|@joaomoreno @isidorn please take a look
+29623|@f111fei thanks for reporting, looks like another issue. I have assigned @joaomoreno and @isidorn to look into that.
+29624|@weinand makes sense, I introduced IExtHostConfig
+29625|Another problem. I am not sure why you add the code `DOM.EventHelper.stop(e);` when `dragover` and `drop`.  https://github.com/Microsoft/vscode/blob/5da820a3b5f0e510abca2aab8645b0d4c8f7726f/src/vs/workbench/electron-browser/window.ts#L91 https://github.com/Microsoft/vscode/blob/5da820a3b5f0e510abca2aab8645b0d4c8f7726f/src/vs/workbench/electron-browser/window.ts#L132
+29626|@f111fei by default if you drop a link into an electron window it will try to navigate to that URL. so this is needed to prevent a link from opening.
+29627|Yeah. I am writing an extension for vscode. I use `vscode.previewHtml` to show my html document in `webview`. In my html, I add some listeners like `dragover` and `drop`, but these listeners will also prevented.
+29628|@f111fei that surprises me because the drag listeners on the editor area and tabs are also working even with that code. Also, this is not a new change, you can see how this was prevented before already: https://github.com/Microsoft/vscode/blob/1.2.1/src/vs/workbench/electron-browser/window.ts#L67
+29629|Maybe this is a bug existed for a long time. I will push an issue for this.
+29630|I am a Chinese user. I found some parts of the Code use font sizes smaller than 12px To better readability, font size need >=12px,if font size <=14px use normal font-weight is better.
+29631|@f111fei please try if you can fix it by removing the drag over handler maybe? What is interesting is that a HTML preview in Code actually runs in a different process (more isolated even than an iframe), so I wonder how DND behaves in this case anyways.
+29632|With the update to Electron 1.2.6, `fs.realPath` now returns the right casing so this issue should not happen anymore.
+29633|With the update to Electron 1.2.6, `fs.realPath` now returns the right casing so this issue should not happen anymore.
+29634|With the update to Electron 1.2.6, `fs.realPath` now returns the right casing so this issue should not happen anymore.
+29635|As I know, If `renderer process` prevent default handler like `keydown`,   some shortcut operations like `copy`, `cut` will not be executed in `webview`.  I think DND is just that.
+29636|@bill-mybiz Great job.  In 34b7e140005213814d9cc6e9bde100d97754d96a, I've made it easier for you to debug the git world. Just flip the [`USE_REMOTE_PROCESS_SERVICE`](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/git/electron-browser/electronGitService.ts#L194) static to `false` and you'll be able to use the Developer Tools for debugging. Just don't commit that boolean change. 😉   I'm finding it hard to figure out what exactly is going on... maybe we can start creating that PR so I can review as you go along and we move the discussion closer to the changes themselves? 👍
+29637|Assigning a couple more people in case I am @ vacation and forget about this.
+29638|First off, awesome videos, they really help.  Second, wow, very bad bug, thanks for catching it!
+29639|No problem. I'll close it then. Thanks for the reply.
+29640|Should be ok now with Electron 1.2.6.
+29641|Hoooooray for `fs.realPath`
+29642|I just realised I gave you a wrong answer: I had built-in extensions in mind, not regular extensions installed via the marketplace. I also had in mind Code's update, not the extension itself... Apologies, got it completely wrong.  Here's the behaviour you can count on: - An extension is always installed to a folder scoped with its version name, eg: `ext-1.0.0`. - Thus, an update will always hit another folder, eg: `ext-2.0.0`. - A removal will wipe out the entire extension folder, so it would also delete any extra files you downloaded there. - There is periodic garbage collection to remove old versions left behind due to updates. Eg: when the user installs `2.0.0`, the `1.0.0` folder can't be removed since it's still being used by the running instance; it will be deleted eventually, once `2.0.0` is used.
+29643|Verified and this still happens with the latest electron - but maybe not so prominently, I am not getting it 100% of the time.
+29644|@jeanm Most elegant, if possible.
+29645|I have looked into this and it is possible to support this. E.g passing 'text/x-c' as a mime type will show the source with the languge mode c set.  Assigning to @weinand to add `mimeType` to the protocl and once added I can look into supporting this on the vscode side
+29646|We should just have a logger... then we'd have somewhere where to send this.
+29647|@rmaclean This should be fixed by now, since Code supports requesting for credentials. Let me know otherwise.
+29648|"The setting `""git.autofetch"": false` will disable this."
+29649|Closing as won't fix.
+29650|Duplicate of https://github.com/Microsoft/vscode/issues/8779 ?
+29651|There are more issues with mix-blend: we lost LCD subpixel anti aliasing in the tabs control which will cause it to look blurry for some users.   Marking as important because I would not want to ship July without a fix for this (going back to opacity?).
+29652|:+1: to hard-code that string, comments and regexes do not get this feature and there is no way to enable it inside of those (i.e. hard-code `notIn` to be `['string', 'comment', 'regex']` and remove it from the API
+29653|Closing as a duplicate of #901.  Fix will come to: 1. Disable auto status when application is not in foreground and, 2. Provide setting (or checkbox in viewlet) to disable auto status altogether.
+29654|This has been mitigated since. I'll reopen if reports that it continues open come.
+29655|+1 I've been using Sublime Text for a while and I really miss this feature in Code.
+29656|Fixed since #637
+29657|Closing as designed, due to brackets.
+29658|Closing due to inactivity and lack of user reports.
+29659|@bipin-nag Is this still a problem today?
+29660|Closing as won't fix. Inno Setup should handle this correctly.
+29661|@vsccarl Do you still see this hanging?
+29662|Thanks for the code pointer. However each debug adapter extension provides these variables, so I can not just add a list of these in the configuration editing extension. The right solution for me feels like each debug adapter extension would provide these completion proposal.  VSCode could also dynamically provide this list of proposols after collecting them from the adapter extensions however in vscode I can not get a reference to your json-parser, I only see it being used from extensions (thus I can not read the location).  Assigning also @weinand
+29663|We could provide two different commands here and use the keybindings as a way for the user to customise the behaviour.
+29664|I can reproduce at a8eadbd8d42034bf926d657d33e971892b1b5660 and not at db21446a84f7afb9f496462941e4e93591db330d (parent of a8eadbd8d42034bf926d657d33e971892b1b5660) so IMHO the bad change was introduced with a8eadbd8d42034bf926d657d33e971892b1b5660
+29665|Closing as won't fix. `git.autofetch` is ignored if git is disabled.
+29666|IMHO the bad change is:  ![image](https://cloud.githubusercontent.com/assets/5047891/16614507/f1a4214c-4371-11e6-9642-31da2761db28.png)
+29667|The change also caused #8662
+29668|Yeah - tho we need to think what is means wrt text edits completion providers describe. Technically they can already do this (just select the corresponding range)...
+29669|@liuww111 Is this still an issue for you? I'll reopen if so.
+29670|@bpasero  This is the issue https://github.com/Microsoft/vscode/issues/8794 about this
+29671|"Multiple carets are not the problem.  What we should maybe do is look at the character _before_ the quote and prevent auto closing the bracket if it's alphanumeric. Seems to be what Sublime does.  So the following wouldn't get an automatic close character:  ``` es6 var y = here| ```"
+29672|Closing as designed. There are now help messages that guide the user towards knowing what ID to use.
+29673|@Tyriar still an issue?
+29674|This can be solved by using the new modal dialog from Electron, once we update.
+29675|@fcharlie We recently changed the UI concerning this. It is already available in our insiders release: https://code.visualstudio.com/insiders  Can you check whether you still have this issue there?
+29676|This should be fixed in the later insiders: https://code.visualstudio.com/insiders  @semihalf-kardach-stanislaw Let us know if otherwise.
+29677|@vuhrmeister Thanks for creating great repro steps! The issue is that you have build errors in your project, if you open the problems panel you can see a bunch of them.  VSCode task framework currently has a limitation that it is not correlating tasks to the errors produced, thus in the debug world we only know there are 22 errors, we do not know what produced them. Due to that reason we show the action 'Debug Anyway' because those errors can be bogus.  In order to improve this experience we need 1 of the following: - Provide option to dismiss errors, so you could just ignore all the errors from meteors index.d.ts - Correlate errors to tasks in the task framework   Due to these reasosn I am assigning @sandy081 and @dbaeumer  This is not the first user facing this problem so I think we should address this.
+29678|@rabel001   What is open in the original window?  There's also `window.openFilesInNewWindow` setting which you can use to control this. Does that solve it for you?
+29679|There is a setting to disable it altogether: `editor.parameterHints`. It's not ideal but does address the issue.  We can also make it that if you hold a key, eg <kbd>Shift</kbd>, we'd just fade both parameter hints and intellisense away and bring them back once the key is released.
+29680|It is unclear to me if the semantics of the `postinstall` have changed, because if I run `scripts\npm.bat run postinstall` manually this works (it installs deps for extensions).  I'm thinking that `fsevents` fails to compile and then `npm` no longer runs the `postinstall` script.
+29681|Related to #6403. Fix could be done regarding both.
+29682|Related to #2330
+29683|Duplicate of #1920
+29684|Taking out the preventDefault() from the dragover allows to drop any file/url into the window to open it and replace all of VS Code, so I am not easy to make a change there...
+29685|@jrieken for the second issue.
+29686|@jrieken @aeschli We gotta get a grip on this. What has changed and why?
+29687|![image](https://cloud.githubusercontent.com/assets/22350/16615591/0f38b83e-4378-11e6-9774-255565faba92.png)  `Pull (Rebase)` exists already. No need to call fetch, since it is automatically done for you.
+29688|This issue was moved to DonJayamanne/pythonVSCode#196
+29689|Can you provide a recording of this behavior? I can't reproduce it.
+29690|[`delete` is a reserved word in TypeScript (and JavaScript)](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md#221-reserved-words)
+29691|Duplicate of #7876
+29692|There's a known issue in which `npm >=3.9.0` returns -1 when failing to install optional dependencies: #7874 Might very well be a duplicate...
+29693|Might also be: npm/npm#12698
+29694|npm/npm#12698
+29695|Yes, even worse, the rest of the native modules don't get compiled after `fsevents` fails. I had to manually install `oniguruma` and `native-keymap` at the correct versions.
+29696|@f111fei, thanks for your PR! By analyzing the annotation information on this pull request, we identified @jrieken and @kieferrm to be potential reviewers
+29697|I've been having the same issue as well but in my case random black boxes appear if I leave my pc unattended for a bit.  Also, the boxes go away if I scroll in any direction
+29698|@joaomoreno I can get output from the [last command you posted](https://github.com/Microsoft/vscode/issues/7343#issuecomment-227876267) but am not sure what I am looking for. Latest insiders is still not loading env variables from my .bash_profile.
+29699|Dups https://github.com/Microsoft/vscode/issues/8201
+29700|We decided to do the work in the tsserver. The branch is: https://github.com/Microsoft/TypeScript/tree/dbaeumer/9125

@@ -1,0 +1,100 @@
+4701|Extension view in browser failed
+4702|JavaScript syntax highlight in for-loops is not correct
+4703|[package.json] `repository` field does not need to be an object
+4704|Suggest: Improve error message when debug a ts file
+4705|Support for project subfolders with their own git repo
+4706|JSX file formatting modifies tag contents
+4707|impossible to type '{' on french keyboard with OS X
+4708|Go to symbol only works for JS
+4709|Color Themes do not recognize multi-line variable declarations in JavaScript
+4710|"""new"" after ""new"" isn't highlighted in javascript"
+4711|OS X: why does 'Open Recent' menu show separator line?
+4712|OS X: 'Undo'/'Redo' menu actions stopped working
+4713|Breakpoints unreliable with .ts files
+4714|Find in folder should have same alt shortcuts for options as find in file
+4715|Autodetect indentSize takes template literal into account
+4716|Calling workspace.rootPath gives undebuggable error
+4717|Clean changes dialog box is non-modal on Linux
+4718|Show tooltips for labels that get truncated
+4719|[Linux] Showing duplicate theme items for Dark+ and Light+
+4720|[c#] Syntax highlighter not recognizing strings
+4721|Stuck in debug mode when getting error for prelaunch task.
+4722|Linux: fs.writeFile() can result in empty reads for external watchers due to truncation
+4723|Possible to use .es6 file extension?
+4724|C# editor insert space when autoformat instead of tab
+4725|Added an image dimensions label underneath the image preview (fixes #3414)
+4726|nls - jsconfig.json guidance comment is not externalized
+4727|npm task detection should also detect scripts
+4728|Debug stuck when removing breakpoint
+4729|Visual Studio Code is not responding
+4730|DebugAdapter bin folder not found on path xxx
+4731|Editor jumps around when collapsing a folding section
+4732|Do not set X-Requested-With in vs/text loader plugin requests
+4733|[jade] comments have string color
+4734|New untitiled file not saved on exit
+4735|Application insights warnings in console
+4736|Duplicate outline entries for JS top-level functions
+4737|Tab moves focus needs ux love
+4738|New untitiled file not saved on exit #4739
+4739|New untitiled file not saved on exit (fixes #4739)
+4740|Send a Tweet reports bad maximum length
+4741|Tweet feedback box has no background in HC theme
+4742|locale.json should have Intellisense for supported languages
+4743|Unlocalized `Tasks` string
+4744|Spanish and French translations mistranslate the spacing in global actions
+4745|Perf optimizations
+4746|Adding language definitions to regular plugins
+4747|Super annoying message, please leave me alone
+4748|TypeScript, mocha, chalk doesn't output color to debug console?
+4749|Task Runner: Define multiple commands
+4750|Task Runner: Define array of tasks
+4751|Task Runner: Provide input parameters
+4752|Build errors are not highlighted in editor when performing build operation with CTRL+SHIFT+B
+4753|Task Runner: Alternate version number not accepted in tasks.json
+4754|Can't select warning messages to copy to clipboard
+4755|Feature request: allow extension developers to add items to menu
+4756|Navigate the folder explorer by typing folder name
+4757|[scss] intellisense doesn't work with nested properties
+4758|Warn the user if Code is run as root
+4759|F12 and CTRL + space for PHP functions and variables of classes written by me
+4760|Not getting intellisense for predefined common variables in task.json and launch.json.
+4761|Error count is not showing up in the status bar when building TypeScript node.js project.
+4762|[c++] C & C++ Syntax Highlighting Issues
+4763|Fuzzy search to open file doesn't show most relevant suggestion first
+4764|Inconsistent shortcut key translations in menu vs workbench
+4765|Add extension deprecation and redirection
+4766|Python hangs on timer.sleep in loops
+4767|typescript  Syntax Highlighting Issues ?: operator
+4768|Errors appear multiple time in the Errors and Warnings window
+4769|Python hangs on timer.sleep in while loop
+4770|The preLaunchTask 'build' terminated with exit code 0. Why do I get this?
+4771|Can't column select first character on a line if drag left
+4772|Cannot pass environment variable that is already defined in shell's rc file.
+4773|[Linux] Rearranging working files with a long path shows white box
+4774|Adding node_modules folder to .vscode directory causes hang
+4775|Documents created in VS Code don't appear in Open Recent
+4776|System error after trying to move a folder out of .vscode directory
+4777|Debugger is throwing error while trying to run prelaunch task from launch.json.
+4778|Console only supports `zh-cn command` in  0.10.13-insider Win10(Chinese-Simplified)?
+4779|Global envvars overwrites process.env only when there's no terminal attached.
+4780|Code folding does not appear if code is not properly formatted
+4781|This window is no longer responsive (on paste of 300 lines)
+4782|Uncaught Error: Not supported
+4783|Uncaught Error: Not supported
+4784|How get my own and exsiting CompletionItems in vscode
+4785|Support paging of stack frames
+4786|Release version 1 tomorrow?
+4787|Output channel should support id and display name
+4788|Expand selection functionality issues
+4789|关于jQuery，能否像Visual Studio 里面使用一样强大
+4790|Word Wrap isn't working on very long lines.
+4791|Step Into (F11) steps into transpiled JavaScript when debugging TypeScript that uses async/await
+4792|Add processes and protocols information to architecture wiki page
+4793|intellisense in html files
+4794|Define compatible platform for extensions
+4795|TextDocument.insert unintentionally moves cursor to end of file when ...
+4796|Add support for swipe gestures on Mac
+4797|Unable to format CSS code files
+4798|Git clean with a large amount of files causes hang
+4799|[html] Prevent single line auto-formatting for html attributes
+4800|[Latest alpha] Debug loading indefinitely after creating launch.json for node.js

@@ -1,0 +1,100 @@
+18001|Terminal window loses characters when resized horizontally
+18002|Terminal window vertical scroll bar can't be selected
+18003|Use Chrome's network stack for installing extensions
+18004|TS: quick outline is no longer showing a method implementation
+18005|Explorer twistie spacing and issues
+18006|Prompting user to install dependent extensions should be a real dialog
+18007|Find processes hanging and piling up
+18008|Feature Request: Make API to open a new window of VSCode
+18009|How to perform telemetry for extensions
+18010|Change pointer to default as cursor when hovering over items in the program
+18011|Possible to save file multiple times leads to race condition
+18012|vscode 路径 e:\vscode\resources\app\extensions\typescript\node_modules\typescript\lib 未指向有效的 tsserver 安装。将禁用 TypeScript 语言功能。
+18013|"When I presss ""reload"", an unnecessary confirm dialog appears"
+18014|Separate themes from other extensions
+18015|Sequentialise writes to files
+18016|Support a real toolbar below the window title with actions
+18017|Expose Typescript insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces rule in VS Code settings
+18018|Quick Open does not find files behind a symbolic link (Windows)
+18019|Error : Debug adapter process has terminated unexpectedly
+18020|Feature Request: Allow `CodeLens` To Be Placed At Specified Position
+18021|[folding] Fold highlights part of the line
+18022|Keyboard shortcut for 'keep editor' doesn't work
+18023|Feature Request: Resize 'Open Editors' by dragging
+18024|Max Callstack Size Exceeded Error After Closing User Settings
+18025|failed to execute git
+18026|Adopt TypeScript 2.1.5
+18027|Adopt cancellation token support in TS Server
+18028|Reference Code Lens for TypeScript
+18029|Close settings: maximum call stack size exceeded
+18030|Create Extension Pack Category
+18031|Remove IE 9 and 10 workarounds
+18032|Evaluate selected expression on hover while debugging?
+18033|Go to next/previous (git) change
+18034|View > Explorer, keyboard shortcut not working (Mac)
+18035|Use TS 2.1.4 To Build VSCode
+18036|App won‘t launch on macOS from user-specific ~/Applications directory
+18037|Only apply TS Dot Accept Suggestion if Previous Character is a valid identifier
+18038|Allow extension commands to define the behaviour when Alt modifier is pressed
+18039|[feature-request] Let's make this open source project great with VB6 support
+18040|Explore providing an API for providing progress information
+18041|Tsc task output limited in osx
+18042|Add tooling for grammar and theme authors
+18043|Allow Blank Lines inside of Script Tags in Markdown
+18044|Feature: Tooltip drill down
+18045|[html] Auto insert Quote when i type equal sign (=)
+18046|Feature Request: make sidebar folder toggle behaviour configurable
+18047|Add F4 shortcut for navigating search results
+18048|"directory globs in launch.json ""outFiles"" cause breakpoints not to trigger on Windows 10."
+18049|"Cannot find module 'xterm' / Loading ""xterm"" failed"
+18050|[theme] JS `class` does not highlight
+18051|Peek preview of include/imports for Preprocessors
+18052|Improve discoverability of panels and explore the use of tabs for switching among panels
+18053|Additional  theming options in the workbench
+18054|Explore document/publish how user can run a startup perf report, ask user to create an issue with the report
+18055|format html docment error
+18056|Save all pastes contents of unsaved file into current tab
+18057|How do I compile vscode?
+18058|Improve tabSize configuration based off file types [Feature Request]
+18059|Move files with intellisense
+18060|run without debugging icon to be present
+18061|Tools to analyse/share startup performance
+18062|"upon ""running"" program, it should automatically exit"
+18063|User Settings causes file can not load！
+18064|"""Maximum call stack size exceeded"" when closing settings"
+18065|Investigate int Welcome experience
+18066|Selected wordHighlight looks the same as unselected
+18067|improve exception configuration experience
+18068|Improve User/Workspace settings experience
+18069|Investigate and Improve Key bindings customisations experience
+18070|[html] Configure source root in for html documents
+18071|Scroll to top/bottom in explorer
+18072|Debug setup simplification (user testing)
+18073|Persist shown/hidden activity bar buttons to settings
+18074|Update copyright year to 2017
+18075|Tabs: changing close button enablement no longer updates live
+18076|need of horizontal scroll in debug console
+18077|Help Wanted: Proxy testing
+18078|Cursor out of position with RTL UTF8 text
+18079|Markdown - inconsistence rendering of code blocks in editor and preview
+18080|Editor active file is shown in exlorer (how to turn off)
+18081|Regex find/replace: Cannot prefix newline
+18082|Improve edit action and search in Settings editor
+18083|Add expand all / collapse all support for file explorer folders.
+18084|Build output is showing duplicate lines
+18085|Regex replace with single space replaces with no space
+18086|code convert in to non readable form
+18087|"""Copy stack trace"" -> include full path"
+18088|Format on unsaved JS/TS not working
+18089|Share the .vscode directory on a USB or Drive.
+18090|Fix markdown syntax highlighting for script or style html elements with blank lines
+18091|Contribute command without it showing up in the command palette
+18092|Automatic Type Acquisition not loading types
+18093|Added a link to disable an extension doc
+18094|Close parenthesis not inserted when open parenthesis entered directly to the left of a semicolon
+18095|Debug Pause not working on VSCode 1.8.1
+18096|File content lost when renaming an unsaved file.
+18097|"Search: using ""files to include"" does not speed up search"
+18098|Command palette: Remember the last command
+18099|Squigglies disappear when caret on var name
+18100|breakpoint decoration leak

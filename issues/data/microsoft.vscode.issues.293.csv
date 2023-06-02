@@ -1,0 +1,100 @@
+29201|Disable auto workspace settings
+29202|New windows start with dark theme
+29203|[Accessibility] Magnifier Focus Tracking Not Working
+29204|Revisit smoke test CSS selectors to mimic interactive user behaviour
+29205|扩展主机意外终止。请重新加载窗口以恢复。
+29206|Search and replace whitespace
+29207|Add --max_old_space_size to tasks.json
+29208|Reuse existing split for dual-pane UI features
+29209|Add git.autofetchPrune option for enabling --prune
+29210|Feature Request: add file icon for .ebnf
+29211|Filter settings from no search results link
+29212|Touchpad not sensitive to sliding
+29213|Minimap hides after peek definition or find all references
+29214|Add Git commit amend commands
+29215|Diff view does not open on click in scm view
+29216|Regex not recognizing .services URL in terminal
+29217|Broken syntax highlighting for multiline function args in typescript
+29218|Handle failing extension installation
+29219|"Typing ""$("" opens jQuery autocomplete even when the dollar symbol has been defined as something else"
+29220|Emmet suggest wrong things in SCSS files
+29221|grammar parser has problems
+29222|Add filtering option on warnings and errors in Problems Output tab
+29223|Git gutter indicators doesn't disappear after a commit
+29224|File will not be displayed because is it either binary, very large or an unsupported text encoding
+29225|AutoComplete not working into file with file associations configured
+29226|Emmet 2.0:  Insertion point is in wrong place after completion
+29227|Save in the cloud our configurations and plugins installed
+29228|VS code error
+29229|Disable format on fix
+29230|PHP auto complete issue...
+29231|"Show ""<pause> is undefined"" when I press Ctrl+C if I use emacs on the terminal"
+29232|Incorrect changing of name when pasting a file to the same folder
+29233|"Emmet 2.0:  ""Wrap with Abbreviation"" messes up formatting"
+29234|Typescript intellisense and autocomplete not working
+29235|autoIndent doesn't handle indented wrapped TS lines well
+29236|VSCode installation name in Windows (and perhaps for other OS)
+29237|Extension Explorer empty after switching
+29238|Cannot Full Screen or Copy/Paste in High Sierra Developer Beta 2 when opening through terminal
+29239|Added tips and tricks to the help menu and welcome page
+29240|Address changes to task menu
+29241|FileSystemWatcher fires on user settings file
+29242|C++, No Type highlighting (except for fundamental types) on Linux
+29243|[html] allow to turn off underline in the src and href properties of the HTML file
+29244|Folder removed from git ignore keeps showing in changes as deleted files, even though they are not.
+29245|[html] base not respected
+29246|PHP version doesn't match system version
+29247|Goto definition for some functions are taking to the wrong definitions.
+29248|插件扩展的搜索，不能用
+29249|How can i remove code preview strip on right side?? Its causing less space for code when splitted screen
+29250|VSCodeextensions error
+29251|Emmet + SCSS = very bad
+29252|New emmet: possible abbreviation mismatch
+29253|I want to use RegEx to match,but it doesn't  work
+29254|Format on Enter is broken in some cases
+29255|Inserting Backticks deletes last character of a word
+29256|Search includes node_modules folder and does not filter on Windows
+29257|scss weird colors rendering
+29258|Add `Git: Pull From` command
+29259|Shrink selection with mouse click should not deselect everything
+29260|Install npm packages in windows gives node-gyp error
+29261|Select all stays fixed
+29262|Show a message in Default settings how to overwrite
+29263|can't open big file
+29264|Editor's Bracket styling for C/C++ and C#  seems to be only following javaScript style bracket-styling
+29265|[html] support 'import' in <script type=module> tags
+29266|Multiple tsconfig.json bug
+29267|Probably missing return in markers/common/problemMatcher.ts
+29268|Emmet suggestions in php file is too noisy
+29269|VSCode hangs with 100% CPU in Code Helper process when viewing specific file
+29270|Emmet: does not work in php's heredoc nor nowdoc
+29271|s
+29272|Update badge won't be shown everytime
+29273|Show tabstops as cursors in emmet preview
+29274|"""View"" options list hovers on ""Go"".""Debug"" ""Help"" option."
+29275|Allow files explorer navigation by typing name
+29276|Minimap jumps randomly
+29277|Shift+Alt Keyboard Shortcut Broke when VSCode Updated to 1.13.1
+29278|minimap jump to area
+29279|Make listing directories first an option
+29280|Build is broken due to @types inclusion
+29281|After first mouse click inside integrated terminal, Ctrl+C stops working until closing shell (regression)
+29282|Improve workflow to assign a problem matcher to a build task.
+29283|Support themable active tab border
+29284|EH debugging: reloading EH window does not restart debug session
+29285|Turn off format on save
+29286|Unable to autocomplete file path from project location
+29287|Cursor
+29288|Scrolling using trackpad on SP4 isn't smooth
+29289|Move experiments logic into a separate service
+29290|"Error: ""the path does not seem to exist anymore on disk"" when the path does exist"
+29291|Files committed outside VSCode still show as uncommitted in the editor
+29292|Remove action wrappers and fix key bindings
+29293|"Extension list in ""Help > Report Issues"" includes disabled extensions"
+29294|Spacing in JSON causes collapse element to function incorrect.
+29295|I tried to test functionality by using console.log('Hello world'); then node . but Hello world does not print
+29296|[html][xml] Tab expansion creates tags even in attribute context
+29297|Move line adds single space indent to import
+29298|Remove task experiment 1.4
+29299|Accessibility: MAS17: Color Contrast : Luminosity contrast ratio for extension version text does not match 4.5:1
+29300|Accessibility: MAS17: Color Contrast : Luminosity contrast ratio for the Iinks do not match 4.5:1 .

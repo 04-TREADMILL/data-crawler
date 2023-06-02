@@ -1,0 +1,100 @@
+21901|When using ctrl+d (addSelectionToNextFindMatch) on a repeated character, it extends selection
+21902|JSDoc Type hints not working for imported types.
+21903|Provide hinting to user that terminal links require ctrl
+21904|Issues with files.autoSave
+21905|Slow startup performance for VSCode-Insiders
+21906|Add Windows keyboard shortcut for Save All back
+21907|Can we have a light action bar with the light theme?
+21908|Emmet not expanding in HTML file when certain characters at end of string
+21909|"Context Menu ""Open with Code - OSS"" ?"
+21910|Can't open the source for 'deemphasized' frame
+21911|Save All keybinding for Windows
+21912|Emmet extension for expansion and all other actions using the new apis
+21913|Enable Electron Crash reporter for all processes after Electron update
+21914|Save All keybinding for Windows
+21915|old variable syntax deprecation warning only shows if '$' appears at position 0
+21916|console.error duplicate
+21917|AutoSave no longer works
+21918|Unable to find Electron app at /home/pi/Downloads/vscode
+21919|Only column breakpoints should show inline bp indicator
+21920|Fix #21857
+21921|Allow to change the name of a file when copy/paste and file already exists
+21922|Window Title Bar does not change color when inactive
+21923|"Cursor in Search Extension input stops blinking after ""Check for Updates"""
+21924|Add a function:  minimize to the tray icon , so that subsequent use can be quickly opened.
+21925|in past 5 minutes, TypeScript's broken for 5 times
+21926|open with vs code and code . in command prompt not working in windows non admin users
+21927|Running `npm test` fails
+21928|Show Folder name first in window title (or enable switch between projects)
+21929|Add Prompt/Setting to Avoid Committing when Nothing is Staged.
+21930|"bug for ""html.format.wrapAttributes"": indentation of html is broken"
+21931|Add an option to disable closing open files that are removed from the directory
+21932|Only call setJumpList() after first window is opening
+21933|Perf: Menu takes >100ms on Windows even when not visible
+21934|Copy With Syntax Highlighting is picking up background
+21935|Chienese Character Width Problem
+21936|plugin 'Sorting HTML and Jade attributes' breaks in v1.10.1
+21937|Promise static method give error
+21938|Fixed keybinding json for backslash
+21939|Multi line editing only removes first occurrence when pressed backspace
+21940|Output window does not respect codepage
+21941|"""typescript service had died repeatedly more than 5 times in the last 5 minutes"" warning after tsserver Code Helper bugs & is force quit"
+21942|Debugger: do not attach, error, grey breakpoints
+21943|vscode 1.10.1 - the typing indicator disappear when I zooming out with multi cursor option.
+21944|Zoom in on markdown preview makes the viewable area smaller
+21945|Add autoFindInSelection option to find widget
+21946|Save Dialog not saving file
+21947|Copy content when pressing Ctrl and drag-and-drop.
+21948|Syntax highlighting bug for attributes
+21949|"Add : Right click the file in left panel add ""Copy project path"" PLZ"
+21950|Proof of Concept: User color theme overrides
+21951|VS Code Insider Build - Editor region does not recognize PowerShell syntax on a file saved with ps1 extension
+21952|VS Code Insider: ver 1.11.0 issues with extensions can't be uninstalled.
+21953|expose an ability (for extensions) to color some code pieces
+21954|Option to use macOS standard titlebar
+21955|"Added command and default keybinding for ""Find In Selection"""
+21956|Tasks menu items not shown in Russian locale
+21957|c_cpp_properties.json not giving correct c++ library path under windows
+21958|Copy Paste Syntax Highlighting does not paste installed font
+21959|Open window on first monitor upon first launch
+21960|Unable to
+21961|No autocomplete of Component paths in .Vue files and no go to definition in ES6 imports
+21962|File corrupted while saving after close all
+21963|all the comments are red and i cannot change theme after thelast update
+21964|Updating to version 1.10.1 stopped eslint from enforcing any rules
+21965|[Suggestion] Installer start menu shortcut
+21966|vscode source
+21967|Light+ Theme - added color is barely diffrentiable
+21968|vscode 10.0.1 - Why tab get 3 spaces it should 2 spaces only
+21969|"Adjust function focusLast, ""end key"" now goes to last result(resolves #21096)."
+21970|Suggestion: Offer a secondary slower release cycle?
+21971|Windows Download is unavailable
+21972|Quick copy lines in diff view
+21973|Cached text remains even after deleting.
+21974|Add Command for navigating around visible editors/viewlets/repl
+21975|Wrong information about references
+21976|Allow to write multiple rules for the same glob pattern
+21977|Scrolling jumps on minimap in bigger files
+21978|highlighting color not clear
+21979|Windows: snapped windows are not restoring correctly after restart
+21980|Ctrl+click moves to the wrong implementation if there are two functions with the same name
+21981|how to set the default indent format?
+21982|Starting code from Total Commander opens and keeps cmd open
+21983|support cloning git repos or switching branches via URLs
+21984|"Cannot debug Electron sample using ""Node.js: Electron Main"" launch.json template"
+21985|VSCode fresh checkout fails to build on Mac
+21986|[decorators] After decoration can extend the length of other decorations
+21987|[decorators] After decoration on a line with just whitespace incorrectly places the cursor
+21988|Cannot find module 'original-fs' when running vs code test task on windows
+21989|Regular expressions search - VSC hags
+21990|Add ability to open untitled document with initial content
+21991|Can't spawn long-running process from debug adapter
+21992|Broken formatting for jsx in case :: function binding
+21993|Exclude CVS directories
+21994|Revert git change by clicking on a git change gutter indication
+21995|Exclude commonly generated files from search
+21996|Find all references permanently hangs while checking for references with the method declaration file open with calls outside of that file.
+21997|[html] HTML tab completion uses wrong word for closing tag
+21998|Setting ctrl+f<num> on Mac as a Keyboard shortcut does not work
+21999|mini map background color not using background color
+22000|Setting theme doesn't respect indentation in settings

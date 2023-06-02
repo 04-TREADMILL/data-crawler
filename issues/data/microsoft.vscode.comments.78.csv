@@ -1,0 +1,100 @@
+7701|@kkc0923 Thank you for the detailed steps. After 7c5de8bf2bebf7280ac28d7fff8b83fafac65e0d this seems to work:  ![korean-down-arrow](https://cloud.githubusercontent.com/assets/5047891/12664947/114e7b66-c634-11e5-93d7-0a591e078471.gif)
+7702|I don't get a crash anymore after atom/node-oniguruma#49
+7703|Does atom or other electron apps work fine?
+7704|With more prototyping I have found when this really becomes an issue:  If there is a list of items and the cursor is on the bottom item and ctrl + alt + up is pressed to increase the cursors, then if text is copy and pasted it is pasted in reverse order.
+7705|I hadn't tried atom till now so I went and installed the deb package from atom.io and same behavior as VSC, except no error message. Nothing launches when I run 'atom' in bash, I just get returned to bash.
+7706|I suggest reporting to [atom/electron](https://github.com/atom/electron) then as that is the common framework they run under.
+7707|OK, I see that they already have a couple of similar bugs. Thanks.
+7708|+1 Would love this as a core feature, as well. It's something I missed moving from Sublime an it helps a lot when copy/pasting code from other sources.
+7709|@dbaeumer I reverted my change for noasar and it did not make a difference. Unfortunately I am not able to easily switch back to the Electron we shipped in 0.10.6 because of all the API changes in Electron that I adopted, otherwise we could nail this down more easily.  Btw I also once commented out all file watching code in TS-Server and could still reproduce the file locking issue, so it seems to be unrelated.
+7710|"Got it, there is more people that ask for a ""Working Files"" only solution."
+7711|Hmmmm, I wonder if the profiler is telling the real truth here. I see all the tree elements and we might as well have a leak in the tree, but I would be surprised that this leak could cause an out of memory in such a short period of time.
+7712|I can confirm that `files` in `jsconfig.json` is not working. `exclude` does work. https://github.com/coolcodeexamples/timely-wealth-game https://github.com/coolcodeexamples/timely-wealth-game/tree/files-not-working  Related issue (on the `createServer()` part): https://github.com/unional/typed-http-server/issues/1
+7713|"@manad777  I don't see the doc says it will ""hide the files in the left pane"".  My understanding is that it only govern intelliSense. Am I wrong?"
+7714|Fixed by 043a4e760131b3bedc328b748a604494240ed0e5
+7715|Fixed in `distro`.
+7716|> I'm curious why there's so much pushback on implementing tabs. Technically it isn't difficult and there's already working files implemented; why not both and let the users decide? >  > This sounds almost like spaces v. tabs, 2.0  Completely agree, it's probably way easier to push the feature as an option (default off if it makes the anti-tab people happy), and track usage through stats/feedback than theorize endlessly as to whether it makes sense or not.
+7717|@rakkarage For what language do you see this?
+7718|This issue was moved to Microsoft/TypeScript#6713
+7719|Any updates?  The next release is nigh, but I am still seeing the same issues with threads display.
+7720|"You can, expand search details (""..."") and specify a glob pattern what to include."
+7721|duplicate of #2175
+7722|Unfortunately, this has not been tackled for January. We will look into improving our thread model in our February release. Sorry about this.
+7723|Better, but does still not match our stable one which seems smaller:  ![screen shot 2016-01-29 at 09 28 20](https://cloud.githubusercontent.com/assets/900690/12670676/a5cb4518-c66a-11e5-90e1-76915418b1e6.png)
+7724|Thanks for the bug, however dup of #112
+7725|"To verify: Complete attributes inside a custom element <foo |complete here"
+7726|Can not repro with our January release which will be out soon, as you can see I nicely see the `${fileBasename}` switching from `launch.json` to `fib.js`. So please try this again once the January release is out.  ![screen shot 2016-01-29 at 09 45 31](https://cloud.githubusercontent.com/assets/1926584/12671014/152174ee-c66d-11e5-919c-2382231985a5.png)
+7727|A build I built myself last night.
+7728|Please compare with latest stable.
+7729|Works now :-). Sorry for the swirl.
+7730|VS Code simply spawns `git.exe`, so whatever is done there it is done by git itself. Try updating your git version.  When using `git.enabled: false`, though, no git process is spawned. So it is probably another process in your system calling git, thus creating the lock file.
+7731|Seems to be fixed.
+7732|+1. have this bug also (on 0.10.6) Any chances to include it in JAN-2016 release?
+7733|@rzandonai That's a bad idea imo. You're effectively disabling most of the security SSL would provide. If you're okay with that, then it's fine. But please even then don't put it in system env vars, but call VSCode with it as a localized env var, like this:  ``` NODE_TLS_REJECT_UNAUTHORIZED=0 /path/to/vscode/Code ```
+7734|"@bpasero The reason would be because in VS you can actually tab to the ""tab name"" which reads you the file name. For us, you have no clue what file name you are trying to edit.  verifier: please check if you can hear the file name you are tabbing into for editing in any way"
+7735|I'm sorry, we're wrapping up January today and I still have other critical issues to look at.
+7736|:+1: I'll keep this one around, as it gives a great concise description of what should be implemented
+7737|I also hate it :)
+7738|Makes sense, we can do this for Feb 2016, currently the file name will not be read at all.
+7739|https://github.com/Microsoft/vscode/issues/2526
+7740|Changed expressions now show in the debug pane.   However, the issue is that when I add variable to the watched pane from the editor 'Debug:Add to Watch' then the initial value shows up as changed ('undefined') even though the value has not changed. Also they only show up as changed in the watched pane not in the variables pane, see below.  ![image](https://cloud.githubusercontent.com/assets/172399/12672386/2ef149c2-c676-11e5-8d05-60e539875e4e.png)
+7741|"@mindruptive that seems to be a problem in node 5.3. Node 5.3 is crashing on this program:  ``` js var myComplexObject = { name: ""foobar"" }; console.log('Logging a complex object: %O', myComplexObject); ```  I could reproduce this with node-inspector too. Run the program from the command line:  ``` node --debug-brk bug2484.js ```  and then attach node-inspector. Stepping over the console.log will make it crash. This does not happen with node 5.5 (but the program will not terminate either).  Closing because this issue is not VS Code related."
+7742|@joaomoreno I could reproduce the problem and the tslint wasn't removed completely. After a restart of code the extension got fully uninstalled.   I've also tried to only 'reload window' but this wasn't sufficient to clean-up the broken extension. Should the clean-up also happen on 'reload window'?
+7743|:+1:
+7744|Fixed in distro.
+7745|@jrieken this was with a bad electron update, but good find, I will track it on my todo list for updating electron.
+7746|Closing, bad electron update.
+7747|No, only on full product restart since other windows might be using the extension.
+7748|@jrieken using voiceover or nvda?
+7749|moving since I don't have a win dev setup
+7750|@bpasero On OS X when I use the rotor  I still only get the links for selection and not the landmarks. Not sure what is expected.  Can you also define a landmark for the statusbar? I would expect then NVDA can read the status bar  ![image](https://cloud.githubusercontent.com/assets/172399/12673399/d4735baa-c67c-11e5-860b-ad20a60cecfd.png)
+7751|Verified that icon turns white and that the blue bar is better visible.
+7752|Verified by Alex (by reading the comments)
+7753|@egamma if you let me know what role to use, I could not find a role for statusbar, other than contentinfo which seems to be for docment footers.
+7754|Dup -> verified
+7755|I can reproduce the problem, but it needs an investigation inside node-native-keymap
+7756|Duplicate -> removing bug label
+7757|Verified that it is a duplicate
+7758|@isidorn  can you please verify. It is Mac.
+7759|I get updates all the time with the alpha -> verifed
+7760|Verified that those targets are gone.
+7761|Also works for me.
+7762|Verified.
+7763|Still not aligned (Linux, Version 0.10.7-insider Commit 043a4e760131b3bedc328b748a604494240ed0e5) ![image](https://cloud.githubusercontent.com/assets/6461412/12673984/93f3291c-c680-11e5-8195-076709674e07.png)
+7764|Verified by opening product.json  via quick open.
+7765|Hmm on the mac I do not see the red background which looks better imho. And all is aligned  ![screen shot 2016-01-29 at 12 10 27](https://cloud.githubusercontent.com/assets/1926584/12674083/50f926f6-c681-11e5-841e-9d97e6e7d8d3.png)
+7766|Nice
+7767|Setting the verified label without actually verifying since it is not reproducible.
+7768|Dup -> removing bug label
+7769|Verified on Mac.
+7770|:+1:
+7771|Verified in code. Joe and I discussed the solution when he implemented it.
+7772|![screen shot 2016-01-29 at 12 22 44](https://cloud.githubusercontent.com/assets/900690/12674391/0febcfea-c683-11e5-959e-11f2b85da98c.png)
+7773|@aeschli still seeing red coloring in markdown files
+7774|@dbaeumer since mono-debug is relying on sdb, I have no access to the streams that sdb is opening to mono or to the mono process itself. However, I've added a small delay in the debug adapter's shutdown code to increase the likelihood that sdb has enough time to read all the data from mono and pass it to the adapter.
+7775|I do and it looks off too:  ![image](https://cloud.githubusercontent.com/assets/900690/12674459/76e285f4-c683-11e5-9e11-8468a20cd7ae.png)
+7776|![jan 29 2016 12 29](https://cloud.githubusercontent.com/assets/1794099/12674529/f1b4587a-c683-11e5-9f9c-67112e38a099.gif)
+7777|I realise it seems as if we have been theorizing endlessly over this instead of actually doing something and apologise for that. However, we do have an item to address this on our backlog (referenced above - #1133). We just haven't been able to spend a significant amount of time on this recently as we have been working hard on localisation and accessibility.  As I mentioned above, we are aware of the issues with the current experience for managing files and have a number of changes that we want to make to improve the experience.  One of our goals with VS Code is that as we make changes to the UI and the UX we ensure that VS Code remains a lightweight, powerful editor that allows users to focus on their code. One of the ways we try to achieve this is through being very careful about any new UI we add to the product.  Our concern with adding tabs is that it introduces another set of problems that end up requiring the user to focus on the UI instead of the code. Our experience with Visual Studio for example has shown us that many users often end up with many tabs open containing files that they no longer need and that end up cluttering their workspace. This causes some issues when users are looking for files and other code assets. To solve those issues more UI is needed that allows people to close all tabs, close all tabs except this tab, tab overflow controls etc etc. We want to avoid this situation and hope that the designs we are working on will help us achieve this.  This isn't an ideological debate - we truly are trying to maintain the minimal aesthetic that we believe provides a lightweight, powerful experience. We are simply being very careful about introducing new UI and UX into the product.  It's entirely possible that after a few rounds of design and research on this that we end up introducing tabs. But we would only do so in the knowledge that this is the best way to improve the way that users manage the files and assets they work with, but does not end up cluttering the UI.  I hope this helps explain our view on this. And I apologise again for making it look like we are navel gazing and not doing anything about this.
+7778|+1 IMHO Tab<->Space conversion should be in core, like e.g. the awesome Markdown Preview (Crtl+Shilft+V) or git integration.
+7779|With the test case from https://github.com/Microsoft/vscode/issues/1923#issuecomment-171665362 I see a ~ 1 second delay
+7780|I am still seeing what the user reports:  ![image](https://cloud.githubusercontent.com/assets/900690/12674700/139e0cc8-c685-11e5-8315-85f234718eb4.png)
+7781|I swear it was aligned when I pushed it :)
+7782|Verified that it is still not working. According to Andre not fixable.
+7783|Can only be fixed in sdb.
+7784|Verified with by checking nodeDebug code and we no longer automatically add --nolazy
+7785|You should maybe do the same trick we did in search with `synthetic-focus`
+7786|I verified that extensions (and the language server) get a document change event with the correct content.
+7787|voiceover
+7788|:+1:
+7789|Verified that the sort text is used.
+7790|I have spent more than 1hr looking into this. IMHO this is a bug inside Chromium. Without making any code changes on my side, here are my observations: - small files work fine (I could not repro in tiny files with just a few lines of code) - as soon as a file gets larger and you begin to stress it a little bit by pressing left/right quickly or repeatedly, NVDA starts reading characters +/-1. Sometimes it skips one and reads the same one again - if you let it breath for a moment, perhaps by clicking on something else and going back it becomes correct again  I have also tried using vanilla electron with a textarea and I could not reproduce in there, so the problem occurs for our textarea (where we use `setSelectionRange`) but not for a normal textarea where all events are handled internally by Chromium.  Given my code does exactly the same thing all the time -- I have added logs in the places I touch the textarea in any way to ensure this --, I think there must be some issue inside Chromium.
+7791|Not sure how to verify. But I'm not aware of such test failures anymore. @joaomoreno Joao, agree?
+7792|"Thanks for the update.   I found a workaround for the bug, which is to add a 100 ms pause between deleting the keyword, ""btw"", and inserting the replacement ""by the way"".  My AutoHotkey script:  :?*:btw::{Sleep 100}by the way  I'm glad you managed to find the bug!"
+7793|This worked before.. now that i updated, it does not works.. why this changed..  is this the editor.autoClosingBrackets option?
+7794|I've been using code mirror to bootstrap http://alm.tools/. Would like to integrate Monaco when it becomes available.  I have time. It's a labor of love 🌹
+7795|Thanks. I reopen so that we can investigate for next milestone.
+7796|it's a dupe with format on type
+7797|It has to do with the 4 spaces ahead of the html code. The tokenizer decides it is a code block. It's not a regression, has been like that also in Monaco ![image](https://cloud.githubusercontent.com/assets/6461412/12676519/37faeb78-c693-11e5-8a42-d98f9a1e77f6.png)  Assigning to you, @bpasero , as you maintain Markdown support.
+7798|@chrisdias : I'd also like to use TS 1.8, yet I can't find information on _where_ to set the `typescript.tsdk` option. Which configuration file do I need to add this option to?
+7799|OK!
+7800|so far no problem today, disabling git in VSC config probably helped. Maybe it needed restart of machine, but thx for help :)

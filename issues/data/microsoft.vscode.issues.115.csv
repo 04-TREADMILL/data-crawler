@@ -1,0 +1,100 @@
+11401|˝ character is typed before first typed character after app start on non US keyboard
+11402|Allow TextEdit to have silent flag so it won't trigger onDidChangeTextDocument
+11403|Fix Terminal.show preserveFocus parameter
+11404|Vscode coloring is broken for large files
+11405|Option to show folder name in tabs for files with the same name
+11406|Expose more information about the state of the integrated terminal internally within vscode and to the API
+11407|Intellisense should show exact match before others
+11408|Get TextDocument silently.
+11409|"a new ""down,up"""
+11410|Bug: misleading message when selecting deleted images in the Git pane
+11411|Bug: An Image doesn't change in the editor whenever it is altered externally
+11412|Appveyor: show output also for normal unit tests
+11413|Typescript Linter & Intellisense unexpected behaviour
+11414|RPM package lacks icon?
+11415|RPM package lacks shortcut in PATH
+11416|Workspace Symbol should limit to 512 symbols. Makes no sense to pull in thousands of symbols the user never looks at.
+11417|Save All - keyboard shortcut should use VS binding
+11418|Panel contents overflow after toggling panel
+11419|Preserve tabs when opened intentionally
+11420|Unflow the panel when hidden
+11421|Change 'The workspace folder contains a TypeScript version' message
+11422|Extract stdFork to a npm module
+11423|Terminal does not scroll up
+11424|Show an information dialog if settings can not be accessed
+11425|VS Code can't recognize some Unicode
+11426|Picker: onDidSelectItem no longer being called
+11427|Turn off [js] linter
+11428|Try to automate IME tests
+11429|[code lens] No code lens shown on the last line
+11430|Conflict of vscode node definitions with @types/node
+11431|Integrated terminal jerky scrolling with scrollbar
+11432|Debug console shows completions for primitive constants
+11433|[JS] IntelliSense disregards properties if prototype defined by assigning object
+11434|Debugger doesn't recognize `konsole` as a terminal on Kubuntu
+11435|Fixes #11451 - Add `konsole` as default terminal for KDE-plasma
+11436|[explorer] folder icon is always expanded
+11437|Auto-completion for `import from '..'` file address
+11438|find a better way to cache objects between main and ext host
+11439|Hide the tsdk_version setting from the user
+11440|Windows 10: integrated terminal cut off to the top
+11441|Expand Selection To Tag (Ctrl + Shift + A)
+11442|"[settings] error in ""http.proxyAuthorization"""
+11443|Increase the recent folder list capacity
+11444|Do not follow circular symlinks when auto expanding folders
+11445|Debug console architecture
+11446|[icon themes] qualify icon theme id to avoid conflicts
+11447|Duplicate files appear when cyclic symbolic links are created using the junction command
+11448|Smoke Test: Warning in default settings
+11449|Smoke Test: Text inside suggestions is not highlighted (Windows)
+11450|Debug console should compute colored output's length correctly
+11451|Expand PickList to support *grouping*
+11452|Assertion failed (item already registered: variable:variable:variable:scope:1:Local:1000:response:users:[0])
+11453|TS Watch task build indicator stops working
+11454|Allow renaming of tabbed terminal windows
+11455|Allow to dock editors, views and panels anywhere in the workbench
+11456|With lines wrap, I cannot jump to physical EOL, only to logical one
+11457|"Typo in Terminal.show ""preservceFocus"" should be ""preserveFocus"""
+11458|Find/Replace button in search pane opens a preview diff after applying the replace
+11459|PHP one-line functions syntax highlighting
+11460|Undo last commit should warn user if they have uncommited changes
+11461|Can't insert a tab at the end of a line in a jade file
+11462|lock scroll in integrated terminal
+11463|Markdown: indented code blocks break syntax highlighting
+11464|css float and inline-block
+11465|Autodetecting gulpfile.ts tasks
+11466|How to define a _focused/pre-selected_ item in showQuickPick?
+11467|[Question] Is it safe to adjust the language name in my extension
+11468|[decorators] Visible whitespace conflicts with before decorator attachment
+11469|"Add a show ""hidden"" button to the file explorer"
+11470|Order of edit changes in TextDocumentChangeEvent.contentChanges is reverse the order of the actual edits
+11471|Refresh the vscode
+11472|After installing the extension will automatically disappear!
+11473|View doesn't scroll with selector if there is more then one
+11474|"""window.openFilesInNewWindow"" doesn't work"
+11475|fix minor typo
+11476|Added new command to switch between windows
+11477|Add 'Go to Symbol' to the 'Go' menu
+11478|Helper for interfaces/types structure
+11479|html.format.unformatted has no affect to closed tags
+11480|Integrated Terminal error = El proceso del terminal finalizó con el código de salida: 1
+11481|Autocomplete not working as expected
+11482|"window.reopenFolders: ""none"" not working in 1.4.0"
+11483|Keybindings SuggestWidgetFocus /or/ contextual Enter to select
+11484|Randomly starts highlighting errors that are not present. Reboot helps.
+11485|Fixes #10386: Seeding search text only if search string is empty or manual selection is involved
+11486|showInputBox - initial value is not returned, if user presses enter without making a change
+11487|Write access problems are not handled clean
+11488|Javascript Intellisense not working
+11489|Feature Request: Remove extension command registeration from package.json
+11490|Ability to search integrated terminal
+11491|Not able to open IDE
+11492|"List all context keys in ""default keyboard shortcuts"""
+11493|Feature Request: Add Task Tags such as TODO, NOTE, HACK, FIXME, etc
+11494|If it can support Haskell that will be much better!!!
+11495|Position aware suggestions on intellisense
+11496|Need to refresh page in Chrome for breakpoints to hit
+11497|How to configure `onEnterRules` for language config?
+11498|VSCode and Webpack module casing issue
+11499|It's not possible to use `(` for accepting completion suggestions
+11500|Support VIM style navigation in trees like the explorer

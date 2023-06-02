@@ -1,0 +1,100 @@
+1601|_From @reflectiondm on October 11, 2015 21:3_  Great thought!
+1602|_From @egamma on October 12, 2015 7:40_  There are the go to next/previous error actions (F8). They show you the error/warning in place using the peek UI also avoid the need for hovering:  ![error-peek](https://cloud.githubusercontent.com/assets/172399/10423272/166fbd18-70c5-11e5-9231-a3e22b0633e3.png)
+1603|_From @Krzysztof-Cieslak on October 12, 2015 8:48_  Right, this handles error and warnings. But some editors / plugins are using it also for different information (I haven't mentioned it in 1st post, my bad) such as type / function signatures (what is useful in languages with strong type inference - F# / OCaml / Haskell etc.)
+1604|_From @jrieken on October 14, 2015 12:41_  Agreed, we have `setStatusBarMessage` already today but we don't expose calling language service features from extensions.
+1605|_From @jrieken on October 14, 2015 12:50_  somehow related to #10, at least my previous comment...
+1606|_From @jrieken on October 31, 2015 13:3_  So, with 0.10 there be will some sweet changes that enable this. We will expose the brains-behind language service features as commands. For instance all folks that can compute the definition of a symbol can be trigger like so:  ``` javascript commands.executeCommand('vscode.executeDefinitionProvider', <args>)     .then(locations => {...}) ```  The arguments will correspond to those the provider needs, usually a document and a position or range. This isn't a UI operation but just the back-office operation. An extension could do the following: - listen to selection changes - trigger the commands to compete extra information/hover - show the results in the status bar -> :dancers:
+1607|_From @egamma on October 13, 2015 14:40_  The request makes sense OmniSharp supports semantic coloring and we currently have no API to expose this support.
+1608|_From @Krzysztof-Cieslak on October 13, 2015 14:43_  :+1: Same can be used for F# - Visual F# Power Tools for VS and F# support in Xamarin Studio are both using semantic highlighting.
+1609|_From @bpasero on October 19, 2015 6:15_  You should be able to link to a file line and column with the syntax `<path>:<line>:<column>`.
+1610|_From @ArtemGovorov on October 19, 2015 6:36_  Thanks, I have been trying the syntax, didn't work for me with a relative path. Only works with a full path.   Is it possible to make it work with paths relative to the opened project/folder?  Also, is it possible to supply a custom text, but still render it as a file position link?
+1611|_From @bpasero on October 19, 2015 7:5_  I see. We have a limited set of default patterns that we use to match against the output to show links. Currently relative paths are not in there.  @dbaeumer can also comment maybe. I think it is possible to contribute patterns from a task to control links in the output, but I might be wrong?
+1612|_From @dbaeumer on November 16, 2015 10:34_  @bpasero: no the task framework doesn't contribute any link patterns. There is no API to do so.
+1613|Currently this is not supported sorry.  We do have input support in the quick open (single input only).
+1614|I'm not aware of such an API sorry we should add it to the backlog.
+1615|_From @jrieken on November 3, 2015 11:31_  @jsturtevant Just that we get a better understanding of the requirement, what would you use such an API for?
+1616|Not a bad suggestion adding @egamma.    This won't make the November release unfortunately.  One option which is a little hacky is to write the file to disk yourself from the extension on init.  Or even better you could run the TSD command - one option for this is https://www.npmjs.com/package/run-in-terminal.  @jrieken - any other thoughts?
+1617|_From @jrieken on October 31, 2015 12:53_  @thoughtentity My recommendation would be run TSD from API. This [PR](https://github.com/DefinitelyTyped/tsd/pull/227) happened a while ago and might be on npm already. It will give you a nicer programming experience.
+1618|_From @jrieken on November 3, 2015 11:33_  We have utilities that allow to delay event execution and event merging. I am more in favour of making that a node module such that it can be used by any event consumer.
+1619|Did we end up publishing a module for this I should add to my spell checker so it's a little less eager :)
+1620|_From @jrieken on November 12, 2015 21:14_  Not yet...
+1621|@egamma do you know how to do this?
+1622|but it close even a popup (other applications) opens, it should not be like this...
+1623|No, I did not install the mono runtime, pure coreclr, according to the tutorial.
+1624|please post the log of the omnisharp server
+1625|@joaomoreno In the bottom left corner I see the hash for the HEAD of branch `master`   ![s1](https://cloud.githubusercontent.com/assets/6760808/11381374/7cbb620c-92da-11e5-99fd-57807b8685d6.png)  If I click on it the command bar shows the two branches that I have in the repo `master` and `jspm`. Note that the checkout button only appears for the branch `jspm` which is correct since I have `master` checked out  ![s2](https://cloud.githubusercontent.com/assets/6760808/11381434/d86c7c08-92da-11e5-8fa4-08869360a9d6.png)  For the reference the output for `git branch -vv`  ```   jspm   02fc9ea [origin/jspm: behind 3] Added reference to bootstrap web font; Initial version of bundle gulp task * master 8322d1d [origin/master: ahead 1] Changes on source maps generation ```  Nevertheless the buttons for pull, push and sync are disabled
+1626|Will this be updated to use core clr? I don't want mono :)
+1627|It actually looks ok now
+1628|Excellent!
+1629|+1
+1630|See also: https://github.com/Microsoft/vscode/issues/537
+1631|Closing already fixed by https://github.com/Microsoft/vscode/pull/45
+1632|This is not exposed in the API currently.
+1633|Can you let us know what languages are you using - for instance we have a pretty nasty PHP issue we are fixing up.  If you are using PHP that will cause this issue.
+1634|Thanks for the insight @alexandrudima - a bit gutted to hear it won't be a trivial change.  Personally, I don't believe having mixed line endings around is a sane thing at all. Where the normalisation becomes a problem for me is when I need to make small edits in source files part of huge code repositories owned by people (usually in the commercial industry) who are _extremely_ stringent on changes they allow through.  I've instead been using the Atom editor to commit changes to files where line endings aren't normalised as it preserves the original line endings of a while on save.  If it is going to be too much effort, I'm happy for the feature request to be closed off as there are alternatives beyond VS Code.
+1635|"PHP, HTML, and Javascript. I can't say for sure, but I am /fairly/ certain that it almost always happens while in the middle of working on a double quoted string. Like yesterday I had `echo ""<p></p>"";` and it happened while I was adding text inside the paragraph. I want to say it feels like it has almost always while doing that, working inside evaluated strings."
+1636|Nah, so it just happened while typing some CSS in a template file that is running the PHP language syntax. a scoped style tag. So it's not just double quoted strings or anything like that.
+1637|[INFO] Starting OmniSharp at '/Users/localuser/Projects/TestProject'... [INFO] Started OmniSharp from '/Applications/VSCode-darwin-signed/Visual Studio Code.app/Contents/Resources/app/extensions/csharp-o/bin/omnisharp' with process id 62537... [INFORMATION:OmniSharp.Startup] Omnisharp server running using stdio at location '/Users/localuser/Projects/TestProject' on host 62510. [INFORMATION:OmniSharp.Dnx.DnxPaths] Using runtime '/Users/localuser/.dnx/runtimes/dnx-mono.1.0.0-rc1-final'. [INFORMATION:OmniSharp.Dnx.DnxProjectSystem] Scanning '/Users/localuser/Projects/TestProject' for DNX projects [INFORMATION:OmniSharp.Dnx.DnxProjectSystem] Found project '/Users/localuser/Projects/TestProject/project.json'. Process ID 62558 Listening on port 64190 Listening on port 64190 [ERROR:OmniSharp.Dnx.DesignTimeHostManager] Failed to launch DesignTimeHost in a timely fashion. [ERROR] Error: Failed to start OmniSharp
+1638|Maybe...  you know, I am Chinese people...  i'll test it with full english path  thx
+1639|@bpasero @isidorn   Yes.. Really it is because of Chinese characters...  thx..
+1640|@bpasero VSCode does not automatically update, I need to manually refresh.
+1641|Hi **@xiaoyuxie**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+1642|Something else to add to this. &lt;picture> element has a &lt;source> element child. For &lt;video> and &lt;audio>  only src and type are valid. For &lt;picture> there is also srcset (but not src), sizes, and media. I didn't want to add those to the &lt;source> auto-complete as it'd be confusing, but currently there is no way to add them only if only picture, and not audio or video are the parent.
+1643|+1 :+1: ++1 `for (i = 0; i < success; i++) {      vote.post(i); }`
+1644|Seems like a certificate issue. If I try accessing the Extension gallery directly by its IP address as it is shown in VSCode (i.e. [https://191.238.172.191](https://191.238.172.191)), I'm getting the error:   > _The security certificate presented by this site was issued fora different website's address._
+1645|@dbaeumer Thank you!
+1646|There is a color restriction but the colours are often repeated inside anyway, so I need to test if these are needed or are just there for legacy reasons.
+1647|So there are these cases: - Some attributes aren't valid in certain tags - Some tags aren't valid in certain tags - Some tags have attributes that are only available given certain parent tags  Any other ones you can think of?
+1648|…this is complicated by the fact that while all values are required in RGB()/HSLA(), in gradients, some are optional, and there can be multiple colour stops added.
+1649|Hi **@mattddowney**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+1650|**@mattddowney**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+1651|+1
+1652|> When VS Code enables a variant of normal mode  Are there plans to make VS Code a moda editor?  I assume the comment was just being hopeful, but that would be nice.  In any event, I would switch from vim to VS Code in a heartbeat if it had halfway decent vim emulation.  I've already started scouring the extension API and came across this ticket when wondering myself how one would implement normal mode (or any non-insert mode, really).  I've submitted a somewhat related ticket [here](https://github.com/Microsoft/vscode/issues/561).  Another thing I would love to see is a way to alter keybindings for some of the built-in widgets, like the command palette and intellisense lists.  In particular, I'd like to be able to configure them to use J and K for moving up and down (or Command-K/J if an autocomplete list).  There is a ton of opportunity to make VS Code an amazing editor for those of us who can't live without modal editing.
+1653|Nice.
+1654|"@thomastaylor312 yes Atom editor. Maybe run Code.exe from the command line from its program folder with ""--verbose"" to capture the output."
+1655|Let's reopen, its a candidate for a configuration setting.
+1656|I had this issue as well with my support for the [Dylan](http://opendylan.org/) language. There, we currently have highlighters for Textmate, Atom, Sublime Text and now VSCode. Unfortunately, they're all a bit different and have evolved over time.  I saw what [Magic Python](https://github.com/MagicStack/MagicPython) did though and am [trying out their toolchain](https://github.com/dylan-lang/dylan-syntax-support). This also allows for testing the syntax support which is nice.
+1657|@leixu2txtek can you give me an example path so that I can try to reproduce.
+1658|This would be useful to me too in [vscode-dylan](https://github.com/dylan-lang/vscode-dylan/).
+1659|@bpasero :)    D:\新建文件夹\中文项目目录
+1660|Dup of #160
+1661|@bobmajdakjr , looks like it does not matter what language you are using in .php files. Read #160 , maybe you will find out answers.
+1662|Closing as duplicate per the above comment from @h2u
+1663|Closing: false alarm, sorry. Code on line above was at fault.
+1664|This is not exposed in the API and is not a priority, so the route for you is a contribution see https://github.com/Microsoft/vscode/wiki/How-to-Contribute and if successful do a PR.
+1665|I assume this is in a JS file. Do you have an linter jshint, eslint, jscs enabled? if yes you should file it against the corresponding linter.
+1666|is it ok to use IStorageService for caching in this case? I'd work on this but I'm not sure if you have plan for this or not
+1667|@sijad We haven't started on the December plan, yet. We are currently busy with catching up/recovering with all the feedback since the OSS announcement.
+1668|@Mr21   I have updated the 4 .js files to have a good header indicating they should not be edited directly and released the TypeScript sources for them at https://github.com/Microsoft/vscode-loader .  Thank you very much for your interest and I am sorry these are generated resources and I cannot accept this pull request. Please make a pull request against the vscode-loader repository in the *.ts files.  Once again, please accept my apologies for not marking these files properly from the beginning.  Cheers, Alex
+1669|Hi **@jel-massih**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+1670|Closed and opened PR to get a later merge commit for Travis to build on and get this one green.
+1671|Hi **@aasierra**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+1672|Closed and opened PR to get a later merge commit for Travis to build on and get this green.
+1673|Closed and opened PR to get a later merge commit for Travis to build on and get this green.
+1674|Hi **@akamud**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+1675|Thank you!
+1676|@sashaburchuk Can you provide a little more detail? Are you talking about a programming language and if which one?
+1677|There is `editor.selection` which you can assign an empty selection to.
+1678|Oh, appearance..
+1679|Hi **@aasierra**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+1680|Hi **@akamud**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+1681|Once again...
+1682|Hi **@gluck**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+1683|Perfect! :+1:
+1684|Once again, sorry for the spam.
+1685|We are close but we are missing meta-colours ala _the-color-of-a-keyword_
+1686|yeah, until now you need mono. coreclr doesn't support sockets yet and omnisharp requires sockets. Please verify that it works when you mono installed
+1687|@hashhar I cannot reproduce under windows:  ![image](https://cloud.githubusercontent.com/assets/5047891/11393184/714ac5aa-935e-11e5-91d2-6f6819319603.png)  Are you using a specific font or a specific OS?
+1688|Cannot reproduce on windows (for VSCode master and 0.10.1). We need to check on OSX El Capitan
+1689|css-scheme.xml is not part of the runtime. It is a 3rd party file we get from the IE team. We use it to create 'browsers.js' out of it, which is the data that drives attributes and value intellisense for css/less/sass. 'browsers.js' is optimized, colors are stripped out, attributes that are not supported by at least 2 browsers are stripped out (replaced with 'restriction: enum'), descriptions that are used more than once are in a shared description table.  The script that does that is 'generate_browsers.js'. What ends up in the build and runtime is only browser.js. Colors and units are managed in '/languageFacts.ts', and only exist there. So I think we're pretty well optimized, maybe there's some more value sets in browsers that we can take out and share, but I think we're fine.  @dstorey Closing, please comment if you disagree and see more potential for improvement.
+1690|Where can I find this file? Is that something that is generated by VS Code?
+1691|@dfberry   Just to rule out there's nothing else in your folder interfering (having JS files might cause a lot of memory pressure). Does VSCode crash when you open a new window of VSCode (without any folder - purple status bar) and open just this file?
+1692|@egamma Can you please try to repro on OSX El Capitan
+1693|Feel free to file a bug against Electron and ask them to provide an option in the file picker to show hidden files.
+1694|Thank you for spotting this! :+1:
+1695|@bpasero the fix here is to propagate the `process.env` over to the browser window, along with the cli arguments that we already do
+1696|I can repro this on OS X. VS Code hangs. Before it hangs I could observe some activity in the tokenizer. Could this be a dupe of a bug you showed us some time ago. Where there was some funny unicode character in the text and then Oniguruma becomes very inefficient on OS X?
+1697|Did you see something in the console?
+1698|Electron Helper CPU usage goes up to 100%. Memory is not the issue. Opened in a new window. Looks like it's biting off more than it can parse.
+1699|Haven't checked. Sorry.
+1700|If you see it again please check the console - there might have been duplicate ids in the tree and the tree usualy complains about this.

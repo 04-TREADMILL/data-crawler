@@ -1,0 +1,100 @@
+17801|Build-in Terminal and tooltips don't use subpixel rendering
+17802|Please add options for sorting and choosing which file type to view in the Explorer panel
+17803|If rename file, a zero-length file is created at old name
+17804|Unable to override quit shortcut on Mac
+17805|[Bug] lodash types weird intellisense output
+17806|Check window.autoDetectHighContrast on window load
+17807|Prevent build while debugging
+17808|Create Scope For `activeGuide` In Custom Themes
+17809|HTML Script Tag Scope Bug
+17810|Suggestion ranking should honour order
+17811|Keeps Selecting Text when Navigating Document with Keys
+17812|Agent admitted failure to sign using the key.
+17813|ctrl+` alway does not work!
+17814|[c++] syntax highlighting stops at middle of a file on ruby.h
+17815|Add syntax highlighting for JS/TS template string interpolation (Monokai built-in theme)
+17816|support vbscript
+17817|Update package.json
+17818|"""yield"" is not highlighting"
+17819|multiple yamls within one file with '---' splitter will cause syntax warning
+17820|Visual code window crashed
+17821|Feature Request: Mark settings as overridden when they are
+17822|TS syntax highlighting broken for (1 / 1) * (1 / (1 + 1))
+17823|[html] format not work correctly in html file when which has style property in tag
+17824|[css] add coloring of @apply support
+17825|vscode.workspace.findFiles() case insensitive on Windows ?
+17826|code.sh parses argument incorrectly
+17827|linux argument startup fix
+17828|Allow to configure the entries of the editor toolbar
+17829|failed to format Python with yapf
+17830|Php variables turns into HTML tags
+17831|Hot-close changes line breaks from CRLF to LF
+17832|Please add the option to remove the blobs on the right hand side scrollbar
+17833|vsc no respond when save large json file which pasted from another vsc window
+17834|Failed to save 'file': A system error occured (EACCES: permission denied, open 'file path')
+17835|Failed to save 'myfile.html': The content on disk is newer. Click on Compare to compare your version with the one on disk.
+17836|can't duplicate
+17837|Adds support for moving the tab close button to the left
+17838|Filename associations are not working as expected
+17839|The whole file name is used when dealing with filename associations
+17840|Rust Tools Missing
+17841|Add line number text property
+17842|improve indentation rules
+17843|'format document' produces a very ugly document, say html document.
+17844|Multi cursor deselects when typing brackets in multiple positions on same line
+17845|Split editor does not work
+17846|Decoration disappeared after switching editor
+17847|Make colorDecorators optional through settings
+17848|Close all editors defunct when invoked vis keybinding
+17849|Improve xterm.js performance
+17850|Rename Jinja language to HTML
+17851|Workbench keyboard shortucts not consistently working
+17852|terminalSupport.ts should be moved into terminal land
+17853|Weird behavior in syntax highlighting
+17854|Possibility of single key build command?
+17855|Isidorn/debug editor console
+17856|Command history missing for Bash Integrated Terminal on Windows
+17857|Feature request: highlight trailing whitespace
+17858|OSX: german keyboard shortcut not recognized
+17859|Expose language display names to extension API
+17860|Untitled file content not restored even with hot exit enabled
+17861|incorrect formatting on javascript
+17862|TextFileEditorModelManager disposes models it doesn't own
+17863|Feature request: Go To Definition support for .jsx extension filename
+17864|Feature Request: Pasting code in new tab retains syntax highlighting.
+17865|easily lost the ability for formatting
+17866|Do not seen js files placed in folder with name starts with 'js'
+17867|Long delay when trying to open a file or folder
+17868|[FR] add link detection for file(with line number) outside of workspace
+17869|[FR][Terminal] clear method
+17870|[FR][Terminal] option to disable stdin
+17871|[FR][Terminal] allow addons to be added/enable/disable
+17872|Alt+Cmd+T does not close other opened tabs on editor
+17873|Integrated Terminal 's Right click menu disappeared!
+17874|context menu redundant separator
+17875|"Add extension point for custom ""prefix behaviors"" in command palette"
+17876|cannot read property 'api' of undefined
+17877|unable to verify the first certificate
+17878|Feature request: show only folded region
+17879|Syntax highlighting broken following ES6 spread operator
+17880|TypeScript doesn't replace half overwrite properly anymore
+17881|Merge powerzen mode funtionality into vscode
+17882|Snippet expansion does not respect tabstops
+17883|Visual Studio Code strange bug in extensions GUI
+17884|Add babelrc schema
+17885|Regression in completion provider
+17886|JSDoc syntax highlight. Not supported 'Array of Arrays'
+17887|Move cursor X amount of lines to the top or the bottom
+17888|incorrect auto-formatting of parentheses after the arguments on a new line
+17889|Pick up TS 2.1.5 12/29 insiders
+17890|Highlighting text in Find field can move cursor into document instead
+17891|Allow to create untitled document with specific language id
+17892|Use Word Based Completion Range by Default in TS
+17893|SQLite3 not supported?
+17894|Save search results
+17895|TS Object literal scoped incorrectly
+17896|VSCode installation time has increased
+17897|Intellisense does not work for properties that are added after declaration
+17898|font size is  too small
+17899|How to increase ruler rendering limit more than 1000 lines?
+17900|Texts look blurry with Nvidia proprietary GL library

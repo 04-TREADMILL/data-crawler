@@ -1,0 +1,100 @@
+29901|The menu item was introduced by PR #7578 but there is no editor action backing up the menu item.
+29902|@alexandrudima  https://github.com/Microsoft/vscode/pull/7578/files#diff-2907cb78eb352fd52d5e0e4f1d090d8aR172
+29903|No, this has nothing to do with wrapping long lines. My cursor is literally invisible:  ![vscode-bug](https://cloud.githubusercontent.com/assets/1062408/16649007/f7b21a06-4436-11e6-8a5e-22f9e2249067.png)
+29904|@alexandrudima I would expect a single behavior, not two differents depending on what is selected.  As you said, selecting a line, not starting at the begining of the line, and pressing tab will delete the select text, inserting a tab instead.  But, if I extend the selection with the full line below, pressing tab no longer replaces the selection with tab char, but will indent the code instead, although the first line isn't completely selected:  ![vscodeselection](https://cloud.githubusercontent.com/assets/199648/16649041/32b34260-4437-11e6-9877-061f359b2b96.gif)  I find it quite inconsistent: I think tab should always indent, or delete, and should not act differently depending on the type of selection (ie: full line, or not, single line or several lines, etc).
+29905|"Issue was I was using a different color for source label. Instead, I would use opacity of 0.7 so that other information is not as as prominent as problem description. At the same time, they are readable in all themes and when selected.   Since this is similar to file path, it will be consistent with how we render file path in the tree.  <img width=""398"" alt=""screen shot 2016-07-07 at 11 33 37 am"" src=""https://cloud.githubusercontent.com/assets/10746682/16648950/b81abf42-4436-11e6-8aa8-270fbd90e694.png"">  <img width=""460"" alt=""screen shot 2016-07-07 at 11 33 58 am"" src=""https://cloud.githubusercontent.com/assets/10746682/16648959/c1d71aa8-4436-11e6-85fb-ab85859a72c6.png"">  <img width=""391"" alt=""screen shot 2016-07-07 at 11 34 31 am"" src=""https://cloud.githubusercontent.com/assets/10746682/16648974/d67aa1aa-4436-11e6-8b94-0f3ebbb85ce8.png"">  <img width=""440"" alt=""screen shot 2016-07-07 at 11 34 47 am"" src=""https://cloud.githubusercontent.com/assets/10746682/16648984/df33b4a8-4436-11e6-9315-6355805c820e.png"">"
+29906|Interesting, but I still can't reproduce... Can you provide a screencast or similar? 👍
+29907|@warpdesign Is there any other editor that does what you suggest? (i.e. indent line when selecting a portion of text within a line?)  @weinand Care to jump in and motivate #4312 further ?
+29908|@marvinhagemeister Where is your focus? The cursor blinks/is rendered only when the editor is focused
+29909|Oh yeah, I know why.. Updated the description with steps
+29910|Oh, yes you are correct. It is a simple typo.  ``` editor.action.toggleRenderControlCharacters (in menu item) editor.action.toggleRenderControlCharacter (in action) ```  @bpasero Is there any way for us to avoid such issues?
+29911|@alexandrudima Atom indents the code, no matter if the whole line is selected or not:  ![atomtab](https://cloud.githubusercontent.com/assets/199648/16649346/d2cafddc-4438-11e6-8a5a-2ae5739f18c3.gif)  Atom seems to be more clever: whenever there is a selection, tab will indent the whole line.
+29912|@alexandrudima maybe when we send the commands to the workbench to resolve keybindings we could also check if the command exists and log a warning otherwise (https://github.com/Microsoft/vscode/blob/master/src/vs/code/electron-main/menus.ts#L135)
+29913|I tried reproducing it with new files, but I'm unable to. This happens with a few xsl files at work. I'll try to see if I can get a 100% reproducible file.  @alexandrudima The focus is in the active editor. I'm only moving the cursor to the right.  Screencast:  ![vscode-bug](https://cloud.githubusercontent.com/assets/1062408/16649475/6526c620-4439-11e6-9a4a-3ad5a5687c6e.gif)  **EDIT:**  The cursor is only visible for as long as it doesn't surpass the last character that was visible in the initial view region of the editor
+29914|@DonJayamanne no folder workspace is the purple vscode - the window which you get when you say 'new window'. In that scenario we do not support debugging but just open that window and check for exceptions - since a lot of things are missing in that scenario.  Your proposed approach sounds good to me, can you code it up and then we can provide more comments?  Thanks!
+29915|@isidorn I've added an `mimeType`attribute to the `SourceResponse` and node-debug returns `text/javascript` for source content without extension, e.g. 'eval' content.
+29916|@bpasero Good idea - also found broken `workbench.action.files.openFileFolder`
+29917|I fixed all the issues in my land #8806 #8802 #8807 #8803
+29918|this is what get's generated - we do need more style  ``` html <div>The System class contains several useful class fields and methods. It cannot be instantiated. Among the facilities provided by the System class are standard input, standard output, and error output streams; access to externally defined properties and environment variables; a means of loading files and libraries; and a utility method for quickly copying a portion of an array.</div><ul> <li><strong>Author:</strong><ul> <li>unascribed</li> </ul> </li> <li><strong>Since:</strong><ul> <li>JDK1.0</li> </ul> </li> </ul> ```
+29919|Nasty, but I'd suggest to not fix it for June since: - low impact: need an custom extension that is not in the workbench. should happen only to extension side loading - no data loss - workaround: restart the workbench  What do you think @alexandrudima @egamma @jrieken (endgame master)?
+29920|@alexandrudima careful though, some commands are platform dependent. that command only runs on Mac!
+29921|@isidorn thanks dude!
+29922|adding `candidate` label for discussion
+29923|@meritozh Is this still an issue?  Backspace deletes both brackets:  ![siy7soppaj](https://cloud.githubusercontent.com/assets/5047891/16652738/3e15662e-4455-11e6-8fd7-57574f2b2099.gif)
+29924|Instead of placing the caret, right approach is to behave similarly when navigating using Tab. This will give consistent experience.
+29925|add9eedf305a5487fa3decbf87bb6ae969de97d2 makes `Ctrl+M` a global concept
+29926|Works fine. Thanks for your working.  > On Jul 7, 2016, at 8:13 PM, Alexandru Dima notifications@github.com wrote: >  > @meritozh https://github.com/meritozh Is this still an issue? >  > Backspace deletes both brackets: >  >  https://cloud.githubusercontent.com/assets/5047891/16652738/3e15662e-4455-11e6-8fd7-57574f2b2099.gif > — > You are receiving this because you were mentioned. > Reply to this email directly, view it on GitHub https://github.com/Microsoft/vscode/issues/3049#issuecomment-231060334, or mute the thread https://github.com/notifications/unsubscribe/AHMaBE2Yqqk8vxvz5IXn4JDZG1P5bo4zks5qTO16gaJpZM4Ha9Ak.
+29927|Removing candidate tag after discussion
+29928|removing candidate tag after discusion
+29929|@luchong12 What language is missing them?
+29930|Most likely it is #2908
+29931|"@marvinhagemeister Thank you for the gif! I've never seen that before.  Do you see any errors in the console (`Help > Toggle Developer Tools`) ?  I've quickly tried with a file with these contents but could not reproduce:  ``` <?xml version=""1.0"" ?>  <xsl:variable name=""content"" select=""ancestor::div[has-class('contentSection')][1]/following-sibling::div"" ```  Other things that might be relevant: does this reproduce when running code without extensions (close it completely and launch with `code --disable-extensions`), did you customize the font and/or picked a different theme?"
+29932|I think that the question here is: After entering a symbol that is a part of opening/closing symbols pair (opening/closing bracket, quotation marks, etc.), and with the autoComplete option on, which button to use to get your cursor out of that symbol pair. Eg. you enter an opening bracket, the closing bracket gets autocompleted, but your cursor stays between them. Which button will let you move the cursor to the right of the closing bracket. For now, that's only the right arrow I think. @Luncher is saying that it should be possible with tab button. It would be great in my opinion, just like in Visual Studio. I'm pretty surprised it isn't available in VSCode, maybe I just didn't find it...
+29933|Sent the request to Marketplace PM.
+29934|Forwarded the request to Marketplace PM
+29935|Forwarded to Marketplace PM.
+29936|- Fixed the input box height (in my previous changes) - Aligned toolbar actions in the panel with those on the editor.
+29937|@bpasero Yes, right editor is in focus. Do you think is it a good idea to check if file to be opened is a settings file and delegate to Default settings file to open the file? So that opening this will always same behavior either from Command Pallette or from Problems view?
+29938|i had a quick look at the code. the mouse range is truncated from a 1 length to a zero length if you go over the half of the letter. maybe this error can be corrected inside IHoverComputer (if startColumn == endColumn), startColumn = startColumn -1
+29939|@weinand just to clarify, if the auto save is turned on then the source is never dirty, sourceModified is false and requests are issued immedtly? Also I do not see the `sourceModified` field added in our debugProtocol?
+29940|I think that makes sense. I have a similar request for go to definition. Maybe we should think about a setting ala `reuseEditors`?
+29941|Dup of https://github.com/Microsoft/vscode/issues/8658
+29942|@bpasero looking at the split view header actionbar and the actionbar in the tree - they look exactly the same, they have the same role and some title. The split view header gets nicely read out, however the tree element action bar is left silently. Any hints? Not sure if us modifying the visibilty screws up the screen reader (we only show the action on hover and focus)
+29943|@isidorn even with auto save turned on there is a short period of time (500ms?) where the file is dirty and where breakpoints should not be updated. So I suggest that the two cases are not treated differently. Breakpoints are always updated **after** the next save.  I'll add the `sourceModified` in a moment...
+29944|Should not happen. Let's keep an eye out if we see it again
+29945|@jrieken fyi - you were in that code recently
+29946|I found a way to reliably reproduce this issue. The missing piece was, that it only happens when you have split the main editor. I can't reproduce it with just one editor visible. Launching with `code --disable-extensions` doesn't help. I did try with the default user settings and theme as well, but without success.  I managed to nail it down to the following steps to reproduce this issue: 1. Open vscode 2. Open random file (doesn't matter) 3. Split the editor with `cmd + #` (this is important) 4. Paste random code/text with long lines in one of the 2 editor panels
+29947|@isidorn this is how the error messages looks like:  ![2016-07-07_16-58-01](https://cloud.githubusercontent.com/assets/1898161/16657797/0ca252e6-4464-11e6-806c-b9a6fdb512a6.png)  Especially ugly is the line number '1' for the error message and that the execution line and the arrow is shown.  (This is meant as input to the UX design meeting)
+29948|Just wondering if there's any update on this?
+29949|@felixfbecker `Local` doesn't get copied over the network when on a domain and roaming profiles are enabled.  When on a domain, `Roaming` is copied to a central server on logout and pulled down again on login.  Because of this, you generally want to keep `Roaming` small but `Local` can be big.
+29950|@felixfbecker I'm on my phone at the moment so finding a link is difficul but I believe that the Microsoft recommendation is to nest in a vendor folder (`Microsoft` in this case).  I believe Visual Studio (full) is doing it wrong by not nesting.  There is an article on MSDN somewhere that specifies best practice for this stuff.
+29951|@isidorn Is this still an issue?
+29952|Related: #3130
+29953|#3130 would help in this case, so I suggest to close this issue in favor of #3130
+29954|@Tyriar not sure if roaming is Windows only, but Workspace storage should be in local app data and not room. We don't room the workspace so additional data associated with a workspace in workspace storage shouldn't room either.
+29955|@jrieken dup of the one from yesterday.
+29956|@SGuduru96: in step 3.) do you save the file or is it a temporary file.
+29957|@dbaeumer thanks, moved workspace storage to `%LOCALAPPDATA%`.
+29958|@alexandrudima You mean `Cmd+C` or the widget itself? I recently made changes in both. Tho, trying this, I cannot even get the text selected... Is this the default zone behaviour?
+29959|@aikeru jsx is support but es6 to my knowledge not. Moving to TS team for further clarification.
+29960|Sorry, nothing to report yet...
+29961|@alexandrudima nope - looks good now
+29962|TS team: for 2.0 I saw that you support arbitrary file extensions by use setting the kind on open. Would there be more we need to do to make this work.
+29963|This issue was moved to Microsoft/TypeScript#9551
+29964|@FrozzyBoy do you have any additional extension installed. The built in JS formatter doesn't remove ;
+29965|@aeschli Thanks. Makes sense.
+29966|Is there a way to do this without using the mouse?
+29967|@dbaeumer Yes, in step 3 I save the file as a .js file.
+29968|@tbfleming yes my pressing ctrl + f and the tab key and lot of times and then a space. I know this is not the best so please file a feature request to create a global workbench command to enable find in selection
+29969|@felixfbecker you might interested in this.
+29970|Another open question for @bpasero: what is `%APPDATA%\Code - Insiders\storage.json` and why isn't that using localStorage? It just looks like yet another place for PC-specific settings to be dumped. Is this where localStorage is moving?
+29971|They both solve the same problem at the end of the day, it would probably be put to the team which one to use in the end.
+29972|Can you clarify the repro steps? Did you `git pull` and then open `nano`? Can you provide some screenshots and the version this occurred on?
+29973|#5260 was about using the right glyphs for the right locale, not about optimizing for legibility.
+29974|After looking closer, the Find in Selection button is the only thing in the dialog without a shortcut
+29975|+1 - I started going down the path of using git submodules, but it feels like more of a hack than an actual solution.
+29976|"@dbaeumer   I appreciate the quick response and clarification. If I just rename the files to "".js"" extension, everything works in VS Code. It's only the difference of extension that seems to matter. I'd like to switch, but you know how it is... :)  Does this further confirm that it is, indeed, a TypeScript issue?"
+29977|@vadimcn you are right, there is no code for dealing with Breakpoint event = 'new' or 'deleted' (@weinand do we want to call this 'deleted'?). Thus reopening this
+29978|@Tyriar, thanks for your PR! By analyzing the annotation information on this pull request, we identified @joaomoreno and @bpasero to be potential reviewers
+29979|Thanks. The insider build is fine.
+29980|"@eyalsk yeah I know, Sass is ""in"" at the moment. I wouldn't count Bootstrap 4 as an argument though, it's been in alpha for ages now while Bootstrap 3 is written in Less. However, there was a Sass version of Bootstrap 3 that worked perfectly fine, and I bet there will be a perfectly fine Less version of Bootstrap 4. If not, you can still import the compiled CSS. But that's off-topic"
+29981|"Wouldn't it be easier to use the VS Code language ID? Another problem I have is that if you run code like `eval(""throw new Exception();"")` in PHP, my debugger will break inside it and report the eval code `throw new Exception();` via a source request. However, VS Code will not syntax highlight this. I have to add an extra line  ``` php <?php throw new Exception(); ```  to the source to get syntax highlighting. That of course means I have to add an offset of 1 to every break and subtract 1 from every breakpoint, but only for source requests. Do you have a better solution for this?"
+29982|@felixfbecker yeah, I didn't use that as an _argument_ really but many people are influenced by Bootstrap so it's more of an example. :)  There's also a technology called [PostCSS](https://github.com/postcss/postcss) that seems to be great and faster but yeah whatever makes them happy.
+29983|#8617 still reproduces under Windows, taking a closer look.
+29984|Also we can't use when statement:  ``` & when (@direction = rtl) {  } & when (@direction = ltr) {  } ```
+29985|@eyalsk PostCSS is a great complement for Less or Sass, you can autoprefix your styles, minimize them, etc... But it doesn't add new syntax. CSSNext is aiming to be the Babel for CSS, adding the new variable syntax etc.
+29986|@felixfbecker I've CCed you because I saw your code that adds the `<?php`. Instead of doing that you could just return the mime type in the SourceRequest response:  ``` ts response.body = { content: source, mimeType: 'application/x-php' }; ```  We are not using the language ID because that is a VS Code concept. A mime type is universal. If a debug adapter is run in a different context, it is easier to return a mime type than to return the correct language id.
+29987|@weinand Sure I could return the mime type instead of returning `eval.php` as the file name. But I will still have to add `<?php`, because otherwise VS Code will use HTML syntax highlighting
+29988|Is this features still not supported?
+29989|This issue still reproduces if the source comes with LF. (Which is not the case if you use notepad, that adds CRLF.)
+29990|@felixfbecker I see. A custom mime type could help here: the type would be associated with a 'php2' language id that is associated with a grammar for raw php (not embedded in html).
+29991|Actually works with regular folders. It doesn't work with network folders, because cmd.exe doesn't support these. Closing.
+29992|@felixfbecker Yeah, I know. ;)
+29993|I setup a job on VSTS, building daily. Leaving this open for a while to confirm it works.
+29994|guys, what about in windows??  Will I be able to do the same with Windows 10 Ubuntu Bash, or Git-Bash?  Anyone can give a tip on creating a **.bat** file to launch bash as a login shell?
+29995|Would also like to be able to disable auto indent. I generally don't like automatic behaviors that try to guess what I want to do, because they often guess incorrectly.
+29996|@tiagolo not sure it's even a concept on git bash, for Ubuntu Bash it's all about whether the executable accepts command line arguments, not really a question for us.
+29997|@tbfleming thanks for opening this :)
+29998|@alexandrudima do you have a better solution in mind?
+29999|"@Tyriar actualy the Git-Bash shell has the same issue with the non-login shell, so after some search I could get away with a **batch file** like this:  ``` Batch @ECHO OFF ""C:\Program Files\Git\bin\bash.exe"" --login -i ```"
+30000|Hmm, weird. I can't get it to work on Windows, Linux or OS X.  Pressing Ctrl (Cmd on OS X) before or after the list is open doesn't matter. I guess we'll see if anyone else has trouble.

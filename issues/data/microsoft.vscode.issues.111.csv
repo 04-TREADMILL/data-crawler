@@ -1,0 +1,100 @@
+11001|Support committing the selected completion item with keys like `(`
+11002|code actions with arguments don't work from F8
+11003|Test: Auto save when app loses focus
+11004|Test: Keep quick open visible on focus lost
+11005|Test: New actions to move tabs within a group
+11006|Add auto-update extensions setting
+11007|Lightbulb should not show when F8 windows shows
+11008|Test: Configuration and environment service cleanup
+11009|Search Viewlet does not select text in editor when replace is revealed
+11010|Test: contribute actions to folders in the explorer
+11011|Fake workspace symbol search by sending requests to project of all open documents.
+11012|Multiple selections: disable context detection
+11013|Automatic update fails
+11014|Request Features : Multi Selection
+11015|Feature request
+11016|Init button in Git view loses focus
+11017|Line breaks in JSDocs/Markdown comments render inconsistent space in Intellisense boxes.
+11018|cannot set a font included '+' in a name
+11019|Insider version terminal broke after recent update
+11020|Test: QuickOpen file search
+11021|Display members of a file in explorer
+11022|Searching within files causes windows defender (antimalware.exe) to run and takes over my computer for 30 minutes
+11023|Avoid multiple updates when file search is cached
+11024|VSCode Git doesn't see files moved into subdirectory
+11025|[bash] syntax coloring should accept options on shebang line
+11026|VS Code crashes frequently while typing in a PHP file.
+11027|I'm a iMac OS X Yosemite and Visual Studio novice. Why can't I seem to install the VSCode app on this Mac?
+11028|Font color issue
+11029|Task builder icon keeps turning
+11030|Run Custom Commands (filter)
+11031|"I strongly recommend to remove the ""drag and move folder"" feature."
+11032|Removes C-like for loops
+11033|How to open untitled file and add text content in it
+11034|Text cursor stops blinking in integrated terminal if you run external command
+11035|Disambiguation when two or more snippets conflict
+11036|Cannot copy/paste from Ubuntu VSCode into virtual machine guests
+11037|Can't download extension:c/s
+11038|Can't download extension:c/c
+11039|Can't download extension:c/c++ for vsc
+11040|[decorators] contentIconPath doesn't follow URLs like gutterIconPath
+11041|Too many issues for VSCode XD
+11042|[PHP] Syntax highlighting broken by part of my code.
+11043|The C/Cpp Language Server server crashed 5 times in the last 3 minutes. The server will not be restarted.
+11044|Snippet completion of repeated tokens fails when first token autocompletes with a preceding character
+11045|Broken syntax highlighting in for loops in JavaScript
+11046|nice editor but missing emmet extension
+11047|crash on content delete
+11048|"""Go to definition"" command show wrong file."
+11049|search not working
+11050|Fixed: Markdown syntax highlighting to support alternative header styles
+11051|Console corrupts non-latin output encoding
+11052|[Feature request] Supporting Vash (expressjs view-engine)
+11053|"""Format Code"" command fails to format Angular2 template file"
+11054|node-debug: replace 'externalConsole' attribute with new 'console' attribute
+11055|Remove `scrollYToX` and use existing option `flipAxes` in ScrollableElement
+11056|More information in README license.
+11057|OSX does not Debug Extension
+11058|Frequent prompt update
+11059|Shorten the editor labels for git changes diff editor
+11060|Implements recently closed editors opening at same position as they were closed.
+11061|There should be at least one conflict resolver or merger integrated for git hub with Visual Code
+11062|Navigating back after a 'go to declaration' might leave the cursor in a slightly different spot
+11063|Quick open: out of workspace results no longer showing up
+11064|False positive of hangs and ESC key reboot vscode unexpectedly.
+11065|Support embedded modes for TextMate grammars
+11066|Test: reopen closed tabs opens at previous index
+11067|Disabling font ligatures has no effect
+11068|Rollback insiders update
+11069|Char array should be shown as string, not as nornal array
+11070|Please display the current absolute character cursor position (in the entire document)
+11071|Changes cursor animations to start in default state to fix #10922 and Updates debugger config to launch properly on Linux and OSX.
+11072|Missing extension update telemetry event
+11073|Missing extension recommendations telemetry
+11074|Can't type Polish characters in editor
+11075|Test: debug target launching in integrated terminal
+11076|Fixes debugger config launch for Linux and OSX.
+11077|Changes cursor animations to start in default state.
+11078|request for new system variable of ${worskpaceRootFolderName}
+11079|Extract the colors defined by editor as vs code custom settings in themes
+11080|Code Helper is overloading CPU
+11081|Fall back to read contributes.configuration?
+11082|"c# code with #region, """" and / formatting issue"
+11083|Invalid text selection with two @ symbols
+11084|Test: ESLint
+11085|Fix lists in hover widget
+11086|The Find/Replace window covers the content
+11087|Python raw_input and input
+11088|Special ReplEditor
+11089|Support msdepoy/publishsettings
+11090|Test: new setting to include symbols in quick open
+11091|C color coding stops after line with specific syntax
+11092|Test stable quick pick/input
+11093|is there any other ways to install extensions,it always 'end of central directory record signature not found'
+11094|Test cancelable input/quick pick
+11095|Test completion enhancements
+11096|Add an option to prevent copying an empty selection
+11097|Test lazy WorkspaceSymbolProvider
+11098|Quick open: resolveHandler() being called often and complicated?
+11099|Rename lineHighlight to rangeHighlight
+11100|Debugger fails to connect OSX 10.11.6 - ReactNative Project

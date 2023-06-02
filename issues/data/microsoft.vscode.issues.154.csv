@@ -1,0 +1,100 @@
+15301|caret and fold icon are equality!
+15302|Can't open the vscode on CentOS & Arch that was due to lack of the libXss.so.1
+15303|Add option to remember directory of file opened via command line
+15304|Windows VS Code will not traverse RHEL 7.2 Symlink (Really don't want to use sublime which CAN!!!)
+15305|Javascript Array read as an error?
+15306|Auto indent for JS pushes 4 spaces even if my file is 2 spaces and my config is 2 spaces
+15307|JSDoc syntax highlight. Not supported @prop name
+15308|can not involve 64bit powershell
+15309|ÅÄÖ (and equally weird characters, in strings) get borked when formatting code.
+15310|Electron cannot be opened because of a problem
+15311|JS high not correctly
+15312|"Empty file named ""... ungültige Kodierung"" (= invalid encoding) is created after closing Visual Studio Code"
+15313|Ctrl + shift + g to open gitViewlet?
+15314|Adapt TSServer 2.0.9
+15315|vscode won't update anymore
+15316|Enhance symbol indexing
+15317|Allow to remove files from the Open Recent list
+15318|Git repo in sub folder or project
+15319|[git] push a branch to repo that has been deleted on remote fails
+15320|"Add ""amend to last commit"" option when commiting staged changes"
+15321|Show number of selected lines in status bar
+15322|Cannot read property 'getValue' of null
+15323|Cannot read property 'id' of null
+15324|Cannot read property 'cancel' of null
+15325|Uncaught TypeError: e.split is not a function
+15326|Cannot read property 'toCustomLabel' of undefined
+15327|Programatically modifying user/workspace settings doesn't seem to update
+15328|JSdoc+Intellisense. @typedef include in function description
+15329|Detected indentation is lost when switching from/to opened files
+15330|Syntax highlight for template literals in JavaScript/TypeScript stopped working after the update to 1.7.1
+15331|Add `Save All` Option to Tab's Right-Click Menu
+15332|It has been moved to #15431
+15333|Allow to place tabs left, right or bottom of workspace
+15334|Feature request: Floobits extension
+15335|"Emmet - HTML coding: new line item is not inserted when combining elements with ""+"""
+15336|Test: debug hover uses scope location information
+15337|Automatically enable high contrast theme when enabled in Windows
+15338|Introduce actions in Default settings to copy/select settings
+15339|Ability to add Activity Bar inside Side Bar
+15340|Ability to expand all collapsed regions
+15341|Make tabs smaller when `workbench.editor.showTabCloseButton: false`
+15342|Autocomplete deletes existing text in HTML
+15343|macOS Sierra , get the Error when to open the Integrated Terminal
+15344|Feature Request
+15345|[scss] highlighting for css variables
+15346|UI stops responding while replacing text in a very big file
+15347|Configure Explorer to show and distinguish generated/derived/related files
+15348|Improve accessibility of diff editor (do not only use color)
+15349|Show git tag instead of sha1
+15350|Ctrl+Tab not working when integrated terminal has focus
+15351|Error Telemetry has errors from processes run inside the extension that may contain PII
+15352|Investigate possible sceanrios that can get crashes reported without metadata
+15353|Review themes in response to `vscode-textmate` changes
+15354|Improve support for Javascript in HTML
+15355|Uplevel pty.js
+15356|Compute theme & embedded modes information in vscode-textmate
+15357|Explore code commenting support in diff editor for allowing a 'Review Github PR' extension
+15358|Font issues with problem hover
+15359|Quick Open - Invesigate the costs of persisting our file cache
+15360|Workbench - Improve experience for first time users
+15361|File Search - Improve performance of file search
+15362|Inconsistent handling of CRLF -> LF between TextEdit and TextEditorEdit
+15363|Javascript formatter: space-before-function-paren
+15364|"""Execute the restore command to continue"" messages in large projects cycle continuously"
+15365|Viewing derived class variables while hovering the cursor over a base class pointer (C++)
+15366|CodeLens is not on the correct place
+15367|14945 - Updates regex for CoffeeScript block comment syntax highlighting
+15368|vscode is very slower
+15369|Getting workspace name in settings.js
+15370|Why are we not allowed to open giant .txt files?
+15371|Windows 11
+15372|Menu contributions with alt command won't trigger
+15373|Code beautification error.
+15374|Got an untitled dirty file on startup
+15375|[snippets] Provide snippets for the mode at the location
+15376|Go (golang) Auto Complete (Half) Works
+15377|No longer possible to reload a window without workspace
+15378|"Visual Studio implementation of ""Home""/""End"" keys"
+15379|When in Run/Debug Mode, Stop does not switch back to Design Mode
+15380|No longer working with NVM and 'About' seems broken too!
+15381|Python code execution speed is slow out of VSCode
+15382|Support for empty editor groups
+15383|Improve REPL link highlight regexp
+15384|Fixes #13905: Set relaunch command for window
+15385|c++keywords: nullptr -> constant
+15386|Find in files is broken
+15387|False errors with SASS maps
+15388|Autocompletion should have fallback to simple matching
+15389|.
+15390|Hotkey for dotnet.test.debug command doesn't work
+15391|Provide a unified, secure, credential store
+15392|Broken URL in bower tooltip
+15393|"Document format is very slow | CPU | Any extention | Closed"
+15394|I would like to replace the computer after the synchronization of all the configuration and plug-ins
+15395|VSCode debugger panel overlaps tabs
+15396|Have more relaxed suggest matching algorithm
+15397|Integrated terminal rows get cut off when custom value for editor.fontSize is used
+15398|Sidebar size keeps increases when clicking on right edge of Explorer panel
+15399|Format document in a C# file does not use the configured tab-size (while inserting spaces)
+15400|Format document with conditional compilation in C# will not format code ignored by condition

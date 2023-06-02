@@ -1,0 +1,100 @@
+25201|Is there a setting to display line endings like CR LF?
+25202|"Very slow ""Go to file..."""
+25203|Support projects (workspaces)
+25204|Cache the previous search terms
+25205|Fix some windows terminal new line issues
+25206|[1.11.2] input.value auto-transforms to input.nodeValue
+25207|node_modules folder hidden if excluded from jsconfig
+25208|Add action to enable auto update to the extension viewlet drop down menu
+25209|Edx course download
+25210|Fix VSCode/Extensions for TS 2.3.1
+25211|Fix TS 2.3.1 Compiler Errors in VSCode src/workbench
+25212|April Endgame
+25213|Suggestion: ability to hide the mouse cursor when typing
+25214|Git: Keep strike-through on deleted file names even when staged
+25215|Editor Typescript formatting on new line error
+25216|d
+25217|Disable emmet expansion on tab if autocomplete is enabled
+25218|"""Restart to update"" leaves terminal programs running after the program has closed"
+25219|The problem matcher doesn't find all the errors
+25220|In the 1080P display, the sidebar font is too small。
+25221|Keep the files opened through Ctrl+P as tabs
+25222|Auto-indent on paste
+25223|GIT非UTF8代码比较
+25224|Fix typo in inspectKeybindings.ts
+25225|vutur更新后 总是停止工作
+25226|Tooltip with debugging info on mouse hover over the class' properties
+25227|Edit watch expression option in debug sidebar watch section
+25228|Mac下输入中文时输入法提示框位置跳跃
+25229|When powershell is set as default console, console composing is wrong
+25230|Theming: Tree defines 4 outline colors?
+25231|can you add a feature about multiple selecting files by mouse and ⌘ in Mac's clicking
+25232|Option to hide external code in call stack
+25233|Once git sync fails, it always fails
+25234|feature request: action.indentCursorLine
+25235|"Bash on Ubuntu (on Windows) on Visual Studio Code ""carriage return"" after certain number of characters"
+25236|Git diff view is wrong
+25237|AAGUID inside .vue files
+25238|How to debug nodejs internal javascript code ?
+25239|Diff editor scrollbar is out of sync
+25240|Strange behaviour when having fast key-repeat
+25241|Tree: dropping external file over collapsed node no longer expands
+25242|Suggestion: Search/ Replace in all files
+25243|SCM: status bar entries are being added > 10 times right on startup
+25244|Code is copied with Syntax highlighting even though option is turned off
+25245|Spamed by cannot read tslint configuration
+25246|"When trying to format document ""Extension host terminated unexpectedly."""
+25247|Add support for per-project theme
+25248|Implement smooth scrolling feature
+25249|Delete Breakpoint does not work
+25250|Falling into external javascript on debugging Angular 4 app with smartStep enabled
+25251|Intellisense sometimes doesn't work
+25252|can't copy multiple 'problems'
+25253|Spectron Smoketest
+25254|[TypeScript] `this` context lost within lambda expression after step out from inner call
+25255|Search viewlet doesn't get selected text from diff editor
+25256|Test IntelliSense sorting
+25257|Can't restore the default settings
+25258|Use variable count to automatically detect expensive scopes
+25259|Your Updates Suck
+25260|Support for Visual Basic REM Keyword.
+25261|Test: Grunt auto detection for terminal task runner
+25262|DebugToolbar shadow broken
+25263|Bug in terminal window
+25264|Git init is broken
+25265|Git Functionality Stopped Working
+25266|ENOSPC errors
+25267|alert bar at top of screen overlaps the tabs
+25268|Corrupt download of VSCode using wget continue option
+25269|Extension host terminated unexpectedly. Please reload the window to recover.
+25270|Test: Mooncake CDN
+25271|Task Variables
+25272|Re-run Last Task
+25273|Run Selected Text should reveal terminal
+25274|Typescript Language service not finding symbolic linked (junction) npm module
+25275|Improved functionality for search
+25276|Tags,Braces,Brackets not auto-closing when inside of quotes.
+25277|Continue fixing TS 2.3.1 Compiler Errors in VSCode Codebase
+25278|Fix TS 2.4 Compiler Errors in 'workbench/parts/git'
+25279|scripts/npm.sh install fail
+25280|Language Snippet Description Not Displayed In Intellisense
+25281|Fix TS 2.3.1 Compiler Errors in 'workbench/parts/tasks'
+25282|Fix horizontal scrolling when shift is held
+25283|Fix TS 2.3.1 Compiler Errors in 'src/vs/editor'
+25284|Test TS-Check For TS 2.3
+25285|"Test: ""Toggle Skipping this file"" action and UI"
+25286|Test: macOS Sierra native tabs
+25287|Test: Swipe to navigate
+25288|Test: Electron Update 1.6.x
+25289|Add workbench/editor colors to our built in themes
+25290|Test: Workbench Theming
+25291|Feature request: Ability to open the integrated terminal drawer from the right side of editor
+25292|Click on expand arrow icon in debug console doesn't work
+25293|Test: Terminal link line/col ranges
+25294|Test Mongo DB extension
+25295|"Error processing ""configurationDone"" request"
+25296|Test: Changing TSServer Version Should not Require VSCode Restart
+25297|Odd Green Right Border in High Contrast Search Results
+25298|Bash Terminal Does Not Show Input After Using ^C to Close 'git diff'
+25299|Update TS/JS Grammars
+25300|Test Drag and drop enhancement

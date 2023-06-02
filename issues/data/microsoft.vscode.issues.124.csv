@@ -1,0 +1,100 @@
+12301|Feature request ? Focus follows mouse.
+12302|Git: Open File doesn't work when the diff editor is opened for a staged file (because readonly?)
+12303|Sub menus by extensions in explorer context menus,item menus
+12304|Request: Project Templates
+12305|jsonFormatter:applyEdit() could format values nicely
+12306|"problems with the ""live"" replacement (search) in files"
+12307|Emmet support for PHP
+12308|Home - Go to Beginning of Line (real)
+12309|Hot Exit: Restore files after an editor crashes
+12310|onWillSaveTextDocument event
+12311|Multi-byte entry crashes code
+12312|JSON file destroyed on save
+12313|Feature: Selective editing like KEDIT
+12314|visual studio code is asking me again and again to choose between typescript versions
+12315|Add command id for exiting VS Code to bind shortcut to
+12316|GoToDefinition is not available in [metadata] files
+12317|Markdown preview often displays wrong file
+12318|Hope can automatically add files' name to csproj file. :-D
+12319|Pass arguments in executeCommand
+12320|VSCode don't update automatically.
+12321|Override theme css
+12322|No C# support even with C# extension installed
+12323|실행 시 메인 화면에 아무 화면도 나오지 않음
+12324|Fix markdown highlighting for fenced code block close with space prefix
+12325|Emoji characters crashing Code
+12326|Inconsistent Markdown Colorization For Inline Element Inside Lists or Block Quotes
+12327|Feature Request: api to custom files sort order at the sidebar
+12328|Use blankline to delimit html block in markdown colorization
+12329|check upgrade
+12330|It Crashed
+12331|crash when repeatedly click installed extensions
+12332|intellisense not working for Javascript files stored in sharepoint document library
+12333|Some black block in editor
+12334|Allow to always use indentation with tab
+12335|TypeError: Cannot read property 'startLineNumber' of undefined
+12336|Add new support for vue components
+12337|output window has no colour
+12338|[Question] auto-completion from another file
+12339|Cmd+Q doesn't auto-save workspace state
+12340|Keyboard bindings for code folding above level 5
+12341|Format code does not work for javascript code
+12342|Typescript doc visible for aliased imports, but not for single ones.
+12343|gc-signals ships debug symbols
+12344|syntax highlight can better
+12345|Add search function on Preview page of Markdown file
+12346|workspace.findfiles() always return 10 result?
+12347|Cursor over icon is default, should be pointer
+12348|Intellisense: break new lines in description
+12349|Ctrl+C close terminal rather than running process (Windows with Git Bash)
+12350|Intellisense: restore scrollTop in documentation details view
+12351|Multiple filetype icon themes render side by side
+12352|"Linux: Mouse ""Back"" button should take back to previous file / cursor location"
+12353|Regex find within a file produces different results to `Find in Files`
+12354|Perf: renderer blocks when doing gulp watch and having many files open
+12355|Implement Hit Condition UI for breakpoints
+12356|node-debug: Implement hit conditions for breakpoints
+12357|"Typescript ""error underlining"" and ""problems console"" completely broken"
+12358|Intellisense
+12359|Mac: Provide a setting to hide the title bar and inline the window controls
+12360|Provide Symbols for CoffeeScript
+12361|Markdown syntax highlight breaks after '>' blockquote sign inside fenced code block
+12362|Minor case change in README Github -> GitHub in README
+12363|Navigate to file and line in one command
+12364|[emmet] Support for more languages
+12365|vscode os versoion
+12366|Test: variable substition in launch.json and tasks.json
+12367|A subst drive is now ignored
+12368|Visual Basic REM Keyword
+12369|Option to prevent 'Untitled-1' when starting
+12370|Bracket matching inside strings
+12371|Ruby Syntax Highlighting Crashes VSCode
+12372|Not reporting tsc compile errors correctly in the problems view
+12373|Multi cursor deletion not working correctly with cursors on the same line
+12374|showInputBox: Default value not returned on ENTER
+12375|Cannot type `#` with Neo keyboard layout
+12376|improve MarkerService perf
+12377|SQL Language mode incorrectly interprets a backslash as an escape character.
+12378|SQL Language mode incorrectly interprets a hashtag as the beginning of a comment.
+12379|Inline file/folder/update button
+12380|Problem in indent guidelines
+12381|VSCode overriding file’s original encoding settings
+12382|Preserve files on exit (aka hot exit)
+12383|Make VS Code Portable
+12384|Better bracket highlight visibility
+12385|Fix colorization for markdown indented paragraphs
+12386|Intermittently swapping contents of open file with another open file on save
+12387|"The name ""Code"" for the editor makes it extremely hard to find information about the editor in search engines"
+12388|link in JSONSchema tool-tip over-escaped
+12389|File icon with tabs disabled replaces dirty editor indicator
+12390|Global find/replace freezes visual studio code
+12391|<Question> Reuse YAML built-in grammar in another language
+12392|Folder Icons are displayed double
+12393|Pressing Ctrl+Shift+B when a task is already running should show terminate task button. This is a regression
+12394|XML and JSP rendering problems
+12395|Syntax highlight error in js code
+12396|Run experiment with default viewlet shown/hidden
+12397|got to file should be a lateral button []
+12398|Stop and not respond
+12399|Crash vscode tool
+12400|a test issue

@@ -1,0 +1,100 @@
+18501|Have a search history
+18502|Compounds launch configuration not working on latest Insider's
+18503|Markdown doesn't support ```c++ blocks
+18504|Simplify markdown paragraph logic
+18505|Allow spaces before markdown heading
+18506|Use createQueuedSender for all IPC
+18507|Allow Expanding Suggestions with Mulitline details
+18508|drag dropping folders goes to the wrong window.
+18509|Support relative paths when launching VS Code from Bash on WIndows
+18510|Trying to install an extension, but am getting an error command not found
+18511|30 seconds of 100% CPU usage every time my web app makes an ajax request
+18512|Fixing sorting of directory and filenames with numbers
+18513|Jump to matching bracket no longer moves the editor's viewport to the cursor
+18514|[html] exclude single quote from autoClosingPairs for element content
+18515|No support for tmTheme background colors
+18516|Syntax selection missing for new unsaved code
+18517|Integrated terminal does not render Truecolor.
+18518|While Using macOS Sierra's Chinese IME, the first letter can not be in the right position (i18n)
+18519|type filtering on intersection types
+18520|VS Code crashing when opening file using Open File/Save
+18521|Support macOS alias on folder
+18522|[folding] Support single shortcut for toggling fold/unfold
+18523|Extensions cannot activate with allowJs compiler option
+18524|all of my code lost and cannot undo anything
+18525|HTML files are not being well indented when using attribute 'style'.
+18526|Scroll on treckpad
+18527|VSCode doesn't start and stays quiet when Prefs folder doesn't exist
+18528|Reporting potential vulnerability
+18529|"Can't start node debugger when ""node"" is a function in the shell"
+18530|Settings search stopped working for me
+18531|html.suggest.angular1 doesn't work
+18532|Unable to use TextEditorEdit.delete() as first class function
+18533|OmniSharp.exe virus on Bitdefender Antivirus for Mac
+18534|No code analysis, syntax error handling, intellisense anymore
+18535|ES2015 import from './css' incorrectly links to .../css/index.d.ts instead of my own css.js
+18536|Intellisense not working with Python 3.6
+18537|"escape characters in string with leading char ""r"" (raw string indicator)"
+18538|Strange hint on reference
+18539|browser-plugin doesn't scale with zoomLevel
+18540|Default folder setting while cloning a git repository
+18541|Copy results text from search panel
+18542|Support for regex test along the lines of IntelliJ
+18543|JavaScript formatter: Place else on separate line
+18544|Allow users to fold & expand imports
+18545|F# highlighting - open namespace not colored correctly when namespace starts with lowercase letter
+18546|Terminal scrollback not working
+18547|Can't commit
+18548|Fix labels unit tests + root displayed as '..
+18549|Add method override indicators
+18550|Intellisense should be dismissed when the entire word is deleted via backspace
+18551|Cannot build Linux package due to node-debug2
+18552|Diff: bottom area with more details on the current line comparison
+18553|Wrong autocompletion
+18554|Inline styles in HTML files breaks indentation.
+18555|Automatically expand full docstring when autocompleting
+18556|VSCode Build Fails on Fresh Mac OS Checkout
+18557|Support Webpack Resolve
+18558|Feature request: keybindings, single/multi line selecting condition for the when clause
+18559|Enable reuse of terminal instances
+18560|Use a factory to create terminal processes
+18561|Terminal rendering shows space between lines with zoomlevel:1
+18562|Add toggle output auto-scrolling feature
+18563|can't put all windows in one instance
+18564|Introduce new vscode.newUntitled API command (fixes #17917)
+18565|Windows10自带拼音输入法输入错误
+18566|Automatic jump to the cursor
+18567|Inline diff for space not showing
+18568|Drag and Drop selected code
+18569|Less stressful way to navigate Quick Open / Command pallets.
+18570|"Cannot ""remove"" keyboard shortcuts for some built in commands."
+18571|Update readme of JavaScript Atom Grammar
+18572|When rename a file with unchanged changes, it should default on saving
+18573|variable command is called twice
+18574|Variable command returning null does not cancel debug session launch
+18575|osX JS intellisense doesn't work when jsconfig.json exists
+18576|VSCode default behavior corrupts React-Native apps and my linters
+18577|FR: Goto Implementation
+18578|better display decimal number of version in Extensions section
+18579|rangeUtil.js:47 Unexpected: RangeUtil._createHorizontalRangesFromClientRects: client rects are not sorted
+18580|Test: menu updates keybindings without need for restart
+18581|Test: new setting to control menu visibility
+18582|Test: new setting if files and folders should open in last active or new instance
+18583|Test: dirty files are preserved when renaming or moving around
+18584|Overwriting / munging/ corrupting files
+18585|Javascript syntax highlighting broken with RequireJS style files
+18586|Ligatures related with `*` does not work
+18587|"Replace Command doesn't replece "" "" -> """""
+18588|Polish git as an SCM extension
+18589|[regression] Inline decorations ending at the text length are no longer rendered
+18590|feature request: multiple named keybinding contributions to work with global keymap
+18591|Strange behaviours of formatting in Visual Studio Code
+18592|Intellisense doesn't work sometimes.
+18593|CTRL C, Z and so on. not working in integrated term, while a process is running.
+18594|Please allow multiple commands per keybinding
+18595|Add a setting for case sensitive sorting in explorer
+18596|Intellisense is not working inside the nested-intilializer block
+18597|"Add a ""complex command"" to allow extensions to open a URL in the default web browser"
+18598|xhtml is a profile not syntax in emmet
+18599|Implement hot exit on switching folders
+18600|Should the extension uninstall confirmation dialog be removed now that it's behind a context menu?

@@ -1,0 +1,100 @@
+13401|Feature Requestp
+13402|Auto show the suggest-widget details after some elapsed time
+13403|The keybindings are missing from the editor menu
+13404|Uncaught exception when pressing F1 when the command palette is open
+13405|Enable copy from the suggest-widget details
+13406|Show inline values in source when stepping through code
+13407|Incorrect Highlighting of Underline Bold in Markdown
+13408|Support multi target debugging
+13409|Feature: Support Multiple Version of the Same of Extension(s)
+13410|VSCode freezes after a few minutes of work on a network folder
+13411|VSCode doesn't reflect system font in it's menu on Fedora 24 MATE spin
+13412|Insertion of space before closing non-empty parenthesis does not work
+13413|editor.formatter
+13414|Updated version mismatch Info message
+13415|Ruby: SQL heredoc not colorizing the embedded code
+13416|Append --noLazy to runtimeArgs
+13417|Use new xterm.js scrollPages API for terminal scroll pages command
+13418|[json] New JSON content stays unformatted
+13419|Maven repo usage - feature request
+13420|Windows 10 and  Xming- Not loading
+13421|Code cannot launch on Fedora due to missing libXss dep
+13422|Test: Add commands to scroll to top and bottom of terminal
+13423|Multiple extensions registering the 'type' command
+13424|DecorationOptions performance
+13425|[decorations] allow positioning of images
+13426|import Visual Studio theme into Visual Studio Code
+13427|Markdown preview scollbar disappear on edit in split mode
+13428|Changing lineNumbers config through API doesn't work
+13429|The sidebar is throwing errors like crazy in VSCode 1.6.0
+13430|Incorrect coloring of HTML elements containing hyphens
+13431|Incorect regexp highlight in TS file
+13432|Cannot see VS Code window contents after 1.6 upgrade
+13433|Obscure errors when developing extension in macOS Sierra & vscode 1.6.0
+13434|Find all references, Go to definition, etc. are not working in Javascript
+13435|C# error detection does not work at all in 1.6
+13436|1.6 Bug with a redirect in preview html
+13437|Incorrect HTML syntax highlight
+13438|Better UX for recommended extensions
+13439|Broken code commenting in 1.6
+13440|file comment info
+13441|how to replace characters as newline break
+13442|Project structure changed but refresh shows old structure
+13443|Typo in project.json
+13444|Editing a `.json` file causes file dirty/save loop
+13445|Cursor is not moved by arrow keys of keyboard in output panel
+13446|这次的更新太愚蠢了！
+13447|[html] Multivalue autocompletion of attribute not working
+13448|I want something like webstorm's shortcut key ctrl+w (select successively increasing code blocks)
+13449|[BUG] New update not show CSS class in intellisense anymore
+13450|Group command palette actions by language
+13451|[feature request]  range format
+13452|tmTheme bold fontStyle not working for 1.6, works fine on 1.5
+13453|[bug] all thing seems like {}
+13454|tabs working are scewed after updating to latest version. now tabs are adding 6 spaces instead of 4. Please fix.
+13455|After upgrade to 1.6.0, set font-family 'URW Gothic L' fail
+13456|Error: Path must be a string. Received undefined
+13457|Feature request: Enable/disable/configure plugins by workspace
+13458|'Open Preview' button for markdown files is not available anymore
+13459|Visual Studio Code plugin that autocompletes filenames can't work
+13460|Color theme breaks in .TS files if HTML contains tags that do not require closing
+13461|No icons in 1.6
+13462|Control font size in suggest, hover, parameter hints widgets
+13463|html files autocomplete can't work
+13464|"New version has an error that prevents ""Find in Files"""
+13465|[coffeescript] Weird syntax highlighting
+13466|Can anyone bundle marketplace plugins with the install?
+13467|Double '' when writing a comment
+13468|How to set default selected suggestion?
+13469|Build failure on 1.6.0 Linux 64-bit
+13470|Built-in extensions lose their translations during build
+13471|Incorrect Java syntax highlighting for parentheses inside strings inside parentheses beginning a new line
+13472|Auto-formatting TSX removes signifigant whitespace
+13473|v8debug is not defined
+13474|High load in extension host wrecks main process
+13475|Quick find / Ctrl+F3 highlight regression (in Javascript in HTML files)
+13476|stange quick info for python functions
+13477|HTML folding not working as expected with unformatted code
+13478|Git view throws error: 'Path must be a string. Received null'
+13479|Font size zooming with touchpads
+13480|"""editor.snippetSuggestions"": ""top"" Stopped working as intended"
+13481|No longer able to debug typescript after VSCode update
+13482|Console has empty lines/lines out of alignment
+13483|Useless linking to libdbus-1.so.3?
+13484|Output channel highlighting is broken with removed text/x-code-output mimetype
+13485|IntelliSense design goes wrong with custom fonts.
+13486|Path broken in output
+13487|A funny bug in the about window:
+13488|Option to exclude items from Git branch checkout list
+13489|add setting for enabling breakpoints per language
+13490|Emmet syntax appears to be broken
+13491|Scrolling with touchpad on Dell XPS 13 9343 Lagging
+13492|Workspace extension actions should be disabled in non-workspace mode
+13493|Terminal focus key binding is not working correctly after update to 1.6
+13494|formatOnSave make VSCode 1.6.0 going crazy on save
+13495|Cannot Open Default Settings
+13496|ES6 methods don't work with typescript syntax check
+13497|Highlight selection in a single long line is very slow
+13498|Horizontal scrollbar doesn’t shrink after the long line getting shortened
+13499|Class and function dropdown boxes for code navigation
+13500|Add a setting to hide folder icons

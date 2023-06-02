@@ -1,0 +1,100 @@
+24301|I have to refresh my VS Code periodically for no reason
+24302|No symbols found: scope/navigation UI and gotoSymbol failed on linux
+24303|Extension host terminated unexpectedly. Please reload the window to recover.
+24304|Auto Format doesn't work (macOS Sierra, German Keyboard Layout)
+24305|[Feature request] Cache files (or something similar)
+24306|VS Code can't find C++ files with a unicode directory name.
+24307|Ever since i update Ive had lots of issues.  VS Code keeps asking me to refresh and this means closing my server local server connection if i use the termiinal in VS Code.  Huge inconveniance, huge disappointment with you guys.  Fix it!!!!!!!
+24308|[Request] Fast Scrolling when hotkey pressed (ex: CTRL)
+24309|All default hotkeys are missing after update
+24310|when control + s, Code is messy. how can i solve it?
+24311|Command+Q does not work
+24312|Debug pauses, callstack not available
+24313|I doesn't search git gutter plugin?
+24314|package.json / scoped packages no autocomplete
+24315|zoomed release notes are cropped
+24316|HTML: Span Tag breaks formatting.
+24317|Cannot read property 'config' of undefined
+24318|n.onMetadataChanged is not a function
+24319|Cannot read property 'getEditorType' of null
+24320|Unable to change encoding for untitled files
+24321|Cannot read property 'tasks' of undefined
+24322|Can't have '#' in the path to project directory
+24323|Allow any tab to be moved across instances
+24324|Impossible to start up correctly on macOS since 1.11
+24325|Hotkey hints are not displayed in English
+24326|Paths in tsconfig in Angular CLI
+24327|[Bug] Terminal display error.
+24328|Errors with  dialog box (open file, open directory, save as )
+24329|bug for python in vscode
+24330|vscode crash after every changes in project files
+24331|koa2 debugger, break line  not accurate
+24332|[PROPOSAL] Disable extensions by workspace
+24333|Compound launch selector breaks when paused
+24334|Git: abitlity to filter files in git CHANGES list
+24335|Fix #24240
+24336|@summary jsdoc support
+24337|Wasted Space in VS Code Markdown Preview Pane is … A Pain
+24338|Show a list of used command history
+24339|Removed .tildify so that long path would return absolute path.
+24340|Debug preLaunchTask halted by {0} process
+24341|VS Code HTML Class Intellisense stopped working
+24342|Extension host terminated unexpectedly. Please reload the window to recover.
+24343|Don't have Twitter/Facebook to provide feedback
+24344|Freeze when pasting minified JS code
+24345|Word wrap is not working
+24346|Allow me to have the option for two dock panels (one for debugger, the other for files)
+24347|New keyboard layout support does not handle layouts with different maps for different modifiers
+24348|Command-W on macOS doesn't close About window
+24349|Added missing . to hc-black so that it displays the correct scm actio…
+24350|The whole project does not open when opening a single cs
+24351|Support style for Extension python markdown
+24352|TERMINAL window cannot be scrolled
+24353|SCM: Support workspace diff navigation
+24354|Improve diffing
+24355|Problem when syncing with Git
+24356|`search.grep` not suggesting `search.useRipgrep`
+24357|Internal error
+24358|Opt out of scroll position restoration for explicitly-closed files
+24359|Minimap enhancements
+24360|"New ""Keyboard Shortcut"" dialog should display current assignment"
+24361|debt - avoid left/right widget and fix actions overflow in search viewlet
+24362|ability to suppress git version warning
+24363|Not able to install C/C++ extension in visual studio code
+24364|Support args for `editor.action.trimTrailingWhitespace` command
+24365|HTML code snippet do not working in VScode 1.11.1
+24366|Welcome page - git error
+24367|Test Tour React
+24368|Issue when renaming <div> in JSX
+24369|c++ warnings disappears after project rebuild
+24370|Error messages/warnings banner hiding file tabs
+24371|js colorization without white space
+24372|'git checkout' in quickOpen (Ctrl+P)
+24373|Remove hot exit is now the default message
+24374|`isShellCommand` on task level should be honored or disallowed
+24375|Exception peek UI doesn't seem to function for me on version 1.18
+24376|java script error occurred in main process
+24377|error when open vscode in gnome3 ubuntu 16.04
+24378|Error signal red square really too small
+24379|Cannot open code file with VSCode
+24380|Node should not be translated to Knoten
+24381|Add extension icon for macOS version
+24382|Tasks does not live react to changes in tasks.json
+24383|Watching task always spins in status bar and makes me dizzy
+24384|Picking a suggestion with Enter introduces a new line
+24385|Start.js wrongly recognized as a program attribute
+24386|show the tips when the cursor is on the code that has error or warning
+24387|Latest update has messed up JSX syntax highlighting
+24388|enumerable.forEach autocomplete adds additional '.array.forEach' using intellisense
+24389|Ctrl + Shift + F5 to start debugger even if the debugger isn't currently running
+24390|editor.occurrencesHighlight should be honoured by SelectionHighlighter
+24391|Latest update break the app
+24392|Preview Git SCM doesn't show correct diffs in remote workspace
+24393|Preview Git SCM cannot create branches from status bar
+24394|Errors in Dev tools while navigating Search results
+24395|Git doesn't work any more.
+24396|previewHTML doesn't expand to full editor with
+24397|[FR]Add ability to let extensions pick files + folders
+24398|Git doesn't work when user has non-ASCII characters
+24399|getShellEnvironment might never finish
+24400|Selection occurrences decorations are on top of diagnostics

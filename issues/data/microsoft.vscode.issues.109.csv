@@ -1,0 +1,100 @@
+10801|String with curly braces breaks C# highlighting
+10802|Integrated Terminal leaves out the background color of output when the foreground is the same.
+10803|Selection with Ctrl A selects also console
+10804|Turn off Intellisense by file type and scope
+10805|TypeError: Cannot read property 'className' of null
+10806|PDF Preview in VS Code
+10807|bash for Ubuntu for Windows wouldn't open in the Terminal inside VSCode
+10808|Improve error reporting in tsserver.
+10809|Snippets aren't trigged without a space before
+10810|[php] Support embedded Javascript (and HTML)
+10811|Source preview in hover is missing a '...' indication
+10812|How to run PHP code from Visual Studio Code (VSCode)?
+10813|[loc][Query][VSCode] Please clarify placeholder
+10814|"[loc][Query][VSCode] More context for ""tab"""
+10815|Not full docs/params descriptions in tooltip helper
+10816|[loc][Query][VSCode] Please clarify placeholder
+10817|Display not visible block start for large blocks
+10818|Fix sending message to terminated worker
+10819|UX meeting agenda 23 August 2016
+10820|Ctrl+C doesn't clear the line in integrated cmd.exe
+10821|[scss] autocomplete for @directives
+10822|Vertical selection
+10823|Debugger is not displaying correctly a decimal property value
+10824|Allow to select entries of the explorer by typing the start of the name
+10825|[css] support `contain` property in css
+10826|TSServer cancelled requests should not show stack in output pane
+10827|Output pane comes up with hover
+10828|Cannot read property settings of undefined in themeService
+10829|Search returns no results
+10830|Add a setting to prevent explorer to open last opened file when getting visible
+10831|Feature Request : Edit last commit message
+10832|[File Hierarchy] Old selection not removed upon new selection
+10833|cannot read property onDidStop of null
+10834|VS Code running Pester test gives odd results
+10835|Hang, requiring restart
+10836|Extended glob patter for findFiles
+10837|Add command-line option for updating.
+10838|Only 'git fetch' if there is a remote repository available
+10839|VSCODE with ext PowerShell 0.7.0 - Throws errors and fails...
+10840|html block comment problem in php file
+10841|[DELETED]
+10842|Provide official AppImage builds for Linux
+10843|Cursor in terminal prevents reading words correctly.
+10844|Configure the maximum number of Editor Groups
+10845|List extensions in a file in user folder
+10846|Allow debug launch configurations to be added dynamically
+10847|wrappingIndent with cjk characters
+10848|Integrated terminal ignores line break from posh-git
+10849|New windows should get the size of the previous active window
+10850|Make active/clickable tooltip typing elements
+10851|Debug adapter process has terminated unexpectedly on Raspberry pi
+10852|Add Django Template Suport
+10853|Intellisense Lightbulb does not appear when green squiggle hovered in C++ file
+10854|"【Error: Error: Illegal value for `line`】 after ""save all"""
+10855|console.log is not Display in debugger
+10856|don't have any symbol info for lua?
+10857|Indent Guidelines Colorization and Preview of Line.
+10858|Korean IME does not work in Firefox
+10859|Toggle word wrap on diff editor fails: editor.invokeWithinContext
+10860|Edge hit testing is incorrect when the line has a trailing space
+10861|Cannot find runtime 'node' on PATH.
+10862|"JavaScript function is not listed in ""ctrl+shift+o"""
+10863|Syntax highlighting breaks without any reason. (Javascript)
+10864|Open file slow
+10865|make runInTerminal honour 'env' and 'cwd' and run on all platforms
+10866|Setting Variable in UI that fails will attempt to set bad value again if user clicks elsewhere
+10867|Peek Definition not working for Angular.JS 1.5.8
+10868|when I split windows to two or more mindless,  and want close one, the vscode show that whether to save the file to close, no matter what I chose, the file will close in all whidows. so my question is how to close one splited windows without any effect to other windows, like vi -O?
+10869|Actions when using multiple cursors are only executed on the main one
+10870|Restore all windows on launch
+10871|Allow QuickPick list items be formatted with HTML
+10872|"Regex find with line start matches mid-line on ""find next"""
+10873|Support links in the suggestion documentation
+10874|"""Check For Updates"" Missing on OS X"
+10875|File closes when network drive goes away
+10876|Problem to copy content of a opened file
+10877|Pasting Large Amounts of Text to Terminal Doesn't Work
+10878|Feature Request : Provide multiple terminal choices within same instance of VSC
+10879|Feature Request : Highlight a single line and execute just 1 line at a time in integrated terminal
+10880|Allow to Drag and drop files from explorer into working file to produce a URL link
+10881|How do I provide user input via console while debugging a Node app?
+10882|UI flicker on Save, with some fun side effects
+10883|Menus unreadable when Windows is in high contrast mode
+10884|[TS] Wrong debugger hover value
+10885|[powershell] collapsible regions
+10886|Colorization of large cpp/h files fails after so many lines
+10887|file explorer mouse/keyboard handling
+10888|Crash once a while
+10889|[TS] Value not shown on first hover
+10890|ERROR:browser_main_loop.cc(217)
+10891|[TS] Debugger does not show value for object field
+10892|Change List for git
+10893|Colorization fails at 9 nested JavaScript functions
+10894|"Closing file open in 2 places opens ""save"" dialog"
+10895|Quick file find, or jump to file in explorer by typing filename
+10896|Fix Contributing link
+10897|"Clicking code action in ""F8"" popup doesn't refresh code fix actions/close dialog = possibility of duplicate actions"
+10898|In Breakpoints, cursor indicates click-ability where not actually clickable
+10899|[Missing feature] We should have an 'update all' button for the extensions
+10900|Allow extension to match a specialized file with an existing extension match

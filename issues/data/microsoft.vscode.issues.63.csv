@@ -1,0 +1,100 @@
+6201|Cannot read property 'sendPendingData' of undefined
+6202|Extension install should stay when focus lost for bad internet connections
+6203|"Call Stack view doesn't show the ""stopped reason"" if stackTraceRequest returns error"
+6204|Intellisense no longer working? How to re-enable?
+6205|Errors and warnings not updated after changing language mode
+6206|Support relative paths in output and repl
+6207|Git output doesn't contain sanity checking errors anymore
+6208|Very large editor wrapping column incorrectly wraps
+6209|Shift click multi-selection not as expected in Git viewlet
+6210|Proposal: Ability to move Debugging bar - or auto-shift for long file location paths
+6211|Symbols and IntelliSense don't work at all
+6212|High contrast theme adjusts spacing on call stack file names
+6213|Mouse hover on search result is not displaying truncated string.
+6214|PHP files open in 1 column
+6215|Some incorrect syntax highlight in typescript union type.
+6216|TypeScript: Rename refactoring stops at destructured objects
+6217|Syntax highlighting error in typescript after double dot
+6218|language specific config
+6219|Task running indicator does not appear after first terminate
+6220|Terminal in editor?
+6221|Multiple projects in Editor?
+6222|Support marker matches with startLine, startColumn and endColumn
+6223|Ctrl+U doesn't scroll back to previous cursor position with more than 2 cursors
+6224|Support native text control context menu
+6225|Use native Mac OSX spell check
+6226|Don't accept suggestion on `.`
+6227|Go To Definition(F12) option need to be enhanced (Even the Definition one is in another page with in the project))like sublime text?i'm facing this issue from long since i install VS code ?Any help on this?
+6228|Intellisense and code validator in JavaScript broken
+6229|Wrong rpm version
+6230|Indicate VSCode Version on download page.
+6231|XML and format code  (ALT + SHIFT + F)
+6232|[html] Cannot get close tag suggestions for HTML after updating to 1.1.0
+6233|debug: refresh values on doubleclick in the inspection panel and/or increasere responce tollerance of the debugger
+6234|"Proposal: Ability to avoid certain modules/files/folders during debugging process - ""smart code stepping"""
+6235|Test telemetry
+6236|[typescript] Hover has not border anymore
+6237|vscode.startDebug api command
+6238|Latest update (1.1.0) breaks entire UI.
+6239|Snippet tabstop order is meaningless.
+6240|multiple references, same line
+6241|OutputChannel.hide doesn't hide the window(?)
+6242|Missing button images
+6243|Typescript syntax hightlighting incorrect on ternary expressions
+6244|VSCode 1.1.0 doesn't recognize Git installed on OS X
+6245|Javascript does weird formats on save
+6246|Intellisense suggests variable.variable.variable.etc for Javascript
+6247|C++ code folding does properly handle macros that are not fully indented.
+6248|Change All Occurrences on folded/collapsed sections
+6249|Add horizontal scroll bar for build messages and in debugger windows
+6250|F5 to start debugging not working with Extension debugging
+6251|[Latest alpha] Having to save twice
+6252|Support IntelliSense suggestions in debug console
+6253|Code indenting alone to save file.
+6254|HTML syntax highlight breaks with === and < on ng2 attributes
+6255|Terminal command for uninstalling extension is mispelled
+6256|VS Code crashes when previewing large image on Markdown page
+6257|capitilization is not consistent for file paths on windows in setbreakpoints message
+6258|Python print unicode generate error in output window
+6259|Not getting any message in the output console when getting issue with git operation.
+6260|Add tooltips to git viewlet items
+6261|Suggests bug
+6262|syntax highlight of async function & arrow function
+6263|Autocomplete text overlapping
+6264|Debug console trims whitespaces since 1.1.0
+6265|Beta releases
+6266|Add option to convert all tabs to spaces (not only indentation)
+6267|intellisence for node js modules
+6268|VS Code for PowerShell v2
+6269|Cannot read property 'stopTime' of undefined
+6270|Edits fail to validate ranges correctly before applying
+6271|High cpu load when opening typescript projects
+6272|[ts] Missing syntax highlighting for async arrow functions
+6273|Packaging resources in an extension.
+6274|Wrong output in Debug output of C/C++
+6275|Editor should be focused immediately after switching working files
+6276|.d.ts files not recognized during compilation if camel-cased
+6277|[git] File is shown under `Changes` even when all changes have been staged
+6278|Install only supported extensions
+6279|"enable emmet in vuejs file "".vue"""
+6280|Can't see any icons
+6281|incorrect command line help shown for uninstall-extension
+6282|disable sound error on key shortcut
+6283|Multi-line strings are not handled properly for brace matching and code folding
+6284|Auto closing single quote is wearing out my delete key
+6285|Please provide a code.ps1 alongside code.cmd and code in bin directory
+6286|Debug Configuration drop down blank before creating launch.json
+6287|Load more stack frames shown on all threads
+6288|"The select stack frame lost focus after ""Load more stack frames"""
+6289|Symbols not loaded for current project according to tsconfig.json lookup logic (only for first tsconfig.json found in project)
+6290|Clicking on error message from debug console is not setting up pointer at line number all the time.
+6291|Middle mouse button scrolling
+6292|[yaml] multiline strings improperly highlighted
+6293|Debug: continue action is broken when target app has multiple threads
+6294|save file shortcuts repeat
+6295|embedded <script> JavaScript code can not trigger VSC's JavaScript language support
+6296|code.cmd should wait for output before terminating
+6297|"Option to copy path with ""/"" forward slahes?"
+6298|Unable to get exception detail under debug-view container with mouse hover.
+6299|Linux update available notification points at stable update on alpha build
+6300|C# Code Highlighting & IntelliSense not working

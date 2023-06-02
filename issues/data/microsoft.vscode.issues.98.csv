@@ -1,0 +1,100 @@
+9701|Terminal run selection using powershell should run selection as a block, not as individual lines
+9702|[scss] depricated color list is not correct
+9703|Allow extensions to contribute a view to the navigation pane.
+9704|Recognize .bats as Bash language
+9705|CSS Color preview boxes are not being removed correctly in the 1.3.1
+9706|Test auto character pairs
+9707|Type information doesn't appear when hovering over watch expressions
+9708|Cannot set the value of a watch expression
+9709|Test: Integrated terminal context menu
+9710|Test: Integrated terminal accessibility
+9711|Show some kind of progress for installing large extensions.
+9712|Addresses #3690 high-contrast less hacky in editor
+9713|Vertical margins around lists in jsdoc comments are too large
+9714|can't get intellisense from other js file
+9715|[less] semi-colon expected when mixin guard used in mixin
+9716|FATAL: laptop shut off as if plug was pulled -- in-progress file now corrupted
+9717|[Configuration] Get configuration doesn't return default value if not found.
+9718|cursroMove to end of wrapped line in select mode is not selecting the text
+9719|"Confusing documentation for ""environment"" in launch.json"
+9720|[panel] focus box on actions is cut off
+9721|When edit javascript in *.html, autocomplete not work
+9722|Textarea is incorrectly positioned when doing selection + IME
+9723|Editor context menu actions changed order
+9724|Special font-size for quick fix widget?
+9725|Add installation duration to extension telemetry
+9726|Debug: 'Disconnect' icon should be different than 'Stop'
+9727|View menu is getting out of hand in size
+9728|Sourcemap remote debugging with break points
+9729|[terminal] Copy action enabled on empty selection, but copy doesn't work
+9730|Test JSON intellisense improvements
+9731|Index signature parameter does not accept redefined valid types
+9732|[terminal] Support Ctrl+C/Ctrl+V shortcuts
+9733|Terminal cursor shows some screen cheese
+9734|Make new break points unverified on a file which is updated during debug session
+9735|Hi! Why when i install Vscode on my pc win 10 x64, changes normal startup to selective startup, and when i try to change in run-msconfig to normal startup, won't. I tried various option but after restart reverts in selective startup, and remains until uninstall the Vscode editor?????  Thanks!
+9736|Improve the debian package metadata
+9737|Unable to select a desired keyboard shortcut due to keyboard layout
+9738|number/boolean values not working
+9739|Default terminal cursor should not blink
+9740|Terminal lacks focus indication
+9741|Breakpoints disappear when a file is modified outside current workspace
+9742|[terminal] Popups shown for each command executed
+9743|[makefile] Syntax highlighting incorrect
+9744|A black marker is shown when context menu is closed
+9745|No cut, copy, paste in editor context menu for untitled files
+9746|Paste into active terminal pastes into editor instead
+9747|'Terminal: Copy Selection' no way to be executed from the command palette
+9748|[tab completion] Don't complete if selection is not empty
+9749|Terminal copy / paste shortucts make a confusing user experience
+9750|[tab completion] multi cursor behaviour different to emmet
+9751|Quick open perf: no immediate reponse when deleting characters
+9752|Got stuck in `Tab moves focus` mode
+9753|Lint warnings don't show up in diff editor
+9754|Allow to select text while jumping between brackets
+9755|Cannot use message service before workbench is up
+9756|Unneeded separate in editor menu
+9757|Can't expand array in watch expressions & repl
+9758|Force textEditor options for language types
+9759|Add keyboard shortcut to select word
+9760|Variable paging still faces performance issues
+9761|Why the colon?
+9762|Enter not an accept character in suggestions
+9763|[json] Text proposals in package.json
+9764|Text proposals make sense inside strings
+9765|Bogus suggestion for closing curly bracket
+9766|Unable to install coreclr-debug on Elementary OS
+9767|Lots of bogus proposals for $schema after editing $schema value
+9768|Can't read HTTP response headers in variables pane or hover
+9769|Top level suggestions for tsconfig schema do not make sesne
+9770|Markdown syntax highlighting not support alternative header styles
+9771|Can't create a file in the root of a project if there are no files already there.
+9772|Feature request: API for managing folding area
+9773|ctrl
+9774|tabCompletion interferes with quickSuggest
+9775|Expanding a folder in the Explorer tab resulted in sub-tree being inserted in wrong spot
+9776|Can't install extensions or use TLS/SSL behind corporate decrypting firewall without strictSSL=false
+9777|Travis builds post coverage info to coveralls.io and add README badge.
+9778|Touch screen not supported for Extensions List Pane (left side)
+9779|Extenstion Information Page content display problem
+9780|Opening already opened editor should update its title
+9781|Only prompt for the CPS survey when running in the English locale
+9782|Restore Previous Commit Message on Undo Last Commit
+9783|[html] Allow to disable angular1 completion proposals
+9784|Feature Request: Preserve Case - Find / Replace
+9785|[powershell] block comment does not auto-close
+9786|Hollow cursor is incorrectly visible on blinking cursor
+9787|After uninstalling extension dialog button wording
+9788|vim vg0, vg^ and vg$ should include the character at the end of the line in the selection
+9789|vim vg$ only moved the selection, it does not select
+9790|vim g_ and vg_ does not function
+9791|vim nvH and nvL do not work correctly
+9792|Console scrollbar missing
+9793|Syntax highlighting isn't great
+9794|Sometimes have to hit F12 twice
+9795|Need a way to cancel timed telemetry events
+9796|.Net CLI tools not being located
+9797|Add emmet support for .pug files
+9798|Typescript highlighter broken if return type ends with a digit
+9799|Unfold all keybinding does not work
+9800|Error: Error: spawn EACCES

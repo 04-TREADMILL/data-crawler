@@ -1,0 +1,100 @@
+5301|git diff 功能
+5302|Fixed some minor issues in README.md
+5303|怎么不放糖才能让煎饼果子的味道变成甜的？
+5304|Word completion should include words from other opened files
+5305|Reload crashes vscode extension development window
+5306|Add point about Qt project file support
+5307|Flex alignment broken in debug viewlet
+5308|How to build localized UI
+5309|Auto complete suggests words from comments
+5310|Espose charset of TextDocument in API
+5311|Code doesn't react to `keybindings.json` changes
+5312|Improve sidebar optimal resizing
+5313|Text selection in console
+5314|[Extension] Support custom context menu
+5315|"Debug: ""Run"" vs ""Start"" is very hard for me to understand"
+5316|Verify telemetry
+5317|Cannot read property 'unshift' of null
+5318|Debug: consider to drop support to run extension without debugging
+5319|Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+5320|.Net Core Debugger installiation issue
+5321|New autoReveal setting for explorer
+5322|Cursor does not keep indentation
+5323|Russian translation of toggle/hide menu is confusing
+5324|German translation mistake in debug variable scopes
+5325|Official download at https://code.visualstudio.com/license has bogus, lengthy legalese additional license although project is easily available under MIT here
+5326|[json] swagger 2.0 json schema not working for intellisense in visual studio code
+5327|TextEditor argument passed by onDidChangeActiveTextEditor is null
+5328|Typings are not available with ES6 module system
+5329|Need to restart everytime I install or remove a plugin
+5330|New command to open a folder for extension writers
+5331|Sash double clicks
+5332|"""There are no updates currently available"""
+5333|Small nit in JS docs
+5334|Inconsistency between license in Github and installer
+5335|Cannot change application's language to English
+5336|Simple fullscreen support
+5337|Korean translation of Markdown is wrong.
+5338|Developing Themes on Extension Development Host. Have to change Theme everytime you switch files with 1.0.0 release
+5339|Update to Electron 0.37.6
+5340|Extension debugging: Debugger stops but doesn't show call stack
+5341|Access modifiers in constructor are not highlighted when using decorators with parameters
+5342|Browse.VC.db file being created out of nowhere
+5343|Disable automatic highlighting of current token/word?
+5344|Release/1.0.0
+5345|Add ability to create new file within a new folder by typing e.g. 'folder_name/file_name'
+5346|No 24/7 inteli-sense in css comments
+5347|Snippets: Translate all tab characters (not just leading) to spaces
+5348|Cannot read property 'identifier' of undefined
+5349|Updated license term dialog should not happen on dev or oss builds
+5350|Align Format behavior across languages
+5351|how do i import other powershell modules and snapins- exchange, scom, lync etc.
+5352|Returning a object literal CompletionList stalls intellisense
+5353|JavaScript syntax highlighting
+5354|Incorrect TextEditor passed by onDidChangeTextEditorSelection
+5355|Copy line up/down key binding not working in Linux
+5356|Load More Stack Frames strange behavior
+5357|Shortcut to peek behind parameter hint
+5358|Ruby Language detects Puppet manifest as Ruby
+5359|Add mouse chording support
+5360|Long strings in Debug Console not wrapping
+5361|Debugging the same project in multiple instances of Code produces unhandled error
+5362|add problem matcher for Haxe compiler messages
+5363|VSCode Marketplace link does not connect or is  v   e   r    y     S   l   o    w . . .
+5364|Cursor position bug for text with Mongonlian/Manchu letters
+5365|Command Panel translated command to other language
+5366|Fix link in wiki/README.md
+5367|"My extension doesn't run when I run it in debugger. It says ""Extension did not start in 10 seconds""."
+5368|editor.renderWhitespace: true doesn't render intra-line whitespace
+5369|希望vscode可以想sublime一样有subl快捷命令
+5370|Update to Electron 0.37.6
+5371|I hope to open vscode by vocode in console like sublime
+5372|重要Bug：Linux下通过code命令打开vscode以后无法打开文件夹，Ctrl + B也无效
+5373|Now, Jade has been renamed to Pug
+5374|IntelliSense list item overlap.
+5375|Opening a Ruby file containing Inspec causes Code to freeze in editor pane
+5376|progress bar
+5377|Add CoffeeScript quote surroundingPairs
+5378|IntelliSense should auto-close at the end of the only-suggested-phrase
+5379|Risky dependency from DebugService to TaskService
+5380|Automatically detect encoding of the file opened
+5381|extensionins
+5382|VS Code 1.0.0 on Ubuntu 14.04 is crashing repeatedly on exit
+5383|Git push doesn't ask for authentication
+5384|cannot disable syntax highlight
+5385|Support a goto file action in the explorer
+5386|Add support for mixed tab/spaces indentation
+5387|Make chs translation more accutrate and comprehensive
+5388|i hope there can be option for choosing language
+5389|tabbed formatting not working on only JavaScript files
+5390|Incorrect package.json warnings for missing name/version
+5391|Theme can not change the Color of the sidebar
+5392|"""Select All Occurences of Find Match"" does not select all if find uses regex"
+5393|Extension crashes in production, never in [Extension Development Host]
+5394|Improved column selection (Alt+select)
+5395|No C# file type and C# files not recognised for syntax highlighting
+5396|nodejs requires not resolved
+5397|French translation errors
+5398|When I open a Markdown file,it will open localhost:8090 auto.Can it be close?
+5399|Add Event into CompletionItemKind enum
+5400|VSCode do not support .sublime-syntax which is more powerful than .tmLanguage

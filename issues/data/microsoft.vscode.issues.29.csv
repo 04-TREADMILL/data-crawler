@@ -1,0 +1,100 @@
+2801|Fixes Markdown header highlighting rule
+2802|Make panel position configurable
+2803|Cannot get member parameters on parameter help properly
+2804|Make it easier to add more file extensions to an existing colorizer/language
+2805|Support variables when resolving values in settings
+2806|Cannot find module 'vscode' – where is vscode.d.ts now installed?
+2807|Add offset-len version of range in TextDocumentContentChangeEvent
+2808|Find Widget doesn't trap focus
+2809|Allow extending JSON Schema to JSON file name mapping
+2810|Reveal in Explorer (Windows) feature no longer bring the explorer window in front of vscode
+2811|PluginHost crash and no way to recover gracefully
+2812|Add export, import settings
+2813|jsdoc intellisense not support custom class and @typedef
+2814|Tabs toggling word wrap doesn't work
+2815|jsdoc intellisense not support @type tag
+2816|C# project - search for symbol or search for file regularly takes forever and needs to compile
+2817|Permission problem?
+2818|Typescript syntax is broken with decorators.
+2819|Disable ligatures on current line
+2820|SCM provider API
+2821|command lines open on opening / closing secondary VS code window
+2822|Make it possible to pin working files...
+2823|Possibility to assign keyboard shortcuts for snippets.
+2824|[PHP] 0.10.8 refactor, variable heightlights and code intelligence
+2825|Indenting multiple lines using Tab fails
+2826|SQL syntaxic coloration error
+2827|Test mono-debug installation hint
+2828|Function breakpoints
+2829|Make debug hover extensible
+2830|"Does not prompt the ""value"" property for ""document.getElementById(""inp"").value"""
+2831|No progress/status while downloading an extension
+2832|"I regularly get the error ""Cannot read property 'kind' of undefined"" when working with VS Code"
+2833|"""Add Line Comment"" fault when blank lines involved"
+2834|ES6 import not highlihted
+2835|"""Stage selected lines"" in GIT view disabled"
+2836|Multiple tasks don't prompt user
+2837|Cannot Start Omnisharp [ERROR] Error: spawn cmd ENOENT
+2838|"""Go to Definition"" can't run when method declarations"
+2839|Electron's stdout disappears in VSCode DEBUG CONSOLE under Windows
+2840|Add support for jsonSchema integer type in Intellisense
+2841|[0.10.8] Indentation adds a tab on the beginning
+2842|Debug: Focus watch expression after adding it
+2843|Intellisense: press up when there is only one suggestion
+2844|ES6 modules broken in 0.10.8 with Salsa
+2845|Javascript syntax highlight is broken after update to 0.10.8
+2846|Salsa not working with require('path')
+2847|typescript.tsdk doesn't expand environment variables
+2848|changing the character case of a file does not work with git on OS X
+2849|Add .EJS support or extend existing HTML to include .EJS
+2850|Comment/Summary colors in C# are the same in 0.10.8
+2851|After Update, seeks package.json extension that is not not present
+2852|[json] Warnings in settings after updating to version 0.10.8
+2853|Sending output to an OutputChannel in a for loop seems to duplicate most of the information
+2854|Perl syntax definition does not properly handle single quote package delimiter
+2855|Have OSX support unified launch script
+2856|Javascript Editor
+2857|Typescript doesn't get types from interfaces
+2858|args array passed as a single argument when launching a mono program
+2859|Publish VS Code sourcemaps
+2860|[themes] Dark (not plus) theme this release for PHP is broke
+2861|Git Crashes After Commit
+2862|static class properties invalid
+2863|[python] Integrate MagicPython into VS Code
+2864|CTRL+M toggles only when editor has focus
+2865|Using type script definition in new custom language?
+2866|Ligatures only work for some languages
+2867|Allow extensions to get a LanguageConfiguration for a language
+2868|Match longer JavaScript operators first to support ligatures.
+2869|Fixed typo in json parser
+2870|Improve Install experience on Mac
+2871|Please enable vscode extension in C#
+2872|Set shortcut key for Open Folder
+2873|Indexing project files using CTRL+P is ridiculously slow as compared to other IDEs
+2874|Show other invisible characters with renderWhitespace option
+2875|Wrapping column settings by filetype
+2876|FindWidget sometimes in '? of n' state
+2877|[Typescript] Class properties doesn't inherit types from interface
+2878|Need to disable extensions not just uninstall them
+2879|firstLine MUST not trump exension
+2880|Indenting exports overwrites them and then undo doesn't work
+2881|Javascript docs say use TSD but it is replaced by typings
+2882|JSX and Salsa: Intellisense for ReactComponents does not work
+2883|Salsa not working with require('path') with src folder
+2884|"IntelliSense stuck on ""Loading..."" after enabling Salsa on 0.10.8."
+2885|How to find a location of word or regex match in a document
+2886|Add the 'Toggle Wordwarp' command to the View menu
+2887|no more error message when trying to connect to non running debug server
+2888|Uncaught TypeError: Cannot read property 'className' of null
+2889|Cannot read property 'getControl' of null
+2890|Question: How to support both 0.10.7-insider and 0.10.8 with same package?
+2891|How to get vscode API after updating the dev to ^0.11
+2892|Go to File does not find files in directory junctions
+2893|"""Add selection to next find match"" should select whole word and match the case"
+2894|[js] update jsconfig.json to latest tsconfig.json schema
+2895|Git init deletes my workspace files
+2896|Holding down shift still types lower-cased letters
+2897|Question - how to set a given language per filetype extension?
+2898|regex sub match math
+2899|Built in Typescript support needs tsconfig.json, even when it is not used for Typescript compilation
+2900|Uncaught TypeError: Cannot read property 'className' of null

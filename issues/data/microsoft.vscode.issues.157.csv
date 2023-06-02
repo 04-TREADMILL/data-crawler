@@ -1,0 +1,100 @@
+15601|autoClosingBrackets and (
+15602|Syntax coloring gets messed up after mixing brackets and slashes.
+15603|"input "" in terminal"
+15604|CodeLens don't show References, Find References don't work
+15605|Editor lacks with crazy amounts of decorations
+15606|No feedback on no network connectivity when I tried to install an extension
+15607|High priority of recently declared variables in Intellisense
+15608|typescript compile error - TS2304: Cannot find name 'Clipboard'.`
+15609|Configurable/Themable squiggles
+15610|Feature Request / Issue
+15611|Reformatting breaks code syntax or deletes chars since this mornings update.
+15612|C# code snippet for constructor doesn't reflect class name
+15613|The C# 'Generate variable' feature produces nothing
+15614|Why does each opened folder cause a change to workspaces.json?
+15615|Javascript syntax highliting issue
+15616|.gitignore files are not working
+15617|Autocompletion of HTML does not use cases and puts a closing tag with all lower case letters
+15618|IBackupFileService should not be aware of getWorkspaceBackupPaths
+15619|Zen mode: title broken in this case
+15620|Starting VSCode at Linux Ubuntu are too much slower
+15621|"Add a ""Beginner"" or ""Newbie"" label to issues"
+15622|Renaming files before saving deletes contents
+15623|Test: zen mode
+15624|Code - Insiders Helper 100% CPU and won't quit
+15625|"Git Bash doesn't work when selected as a ""terminal.integrated.shell.windows"""
+15626|Merge IBackupService and IBackupModelService
+15627|pfs.writeFile should serialize parallel calls to writeFile
+15628|The identifier 'constructor', when used as a shorthand property name in an object initializer, is highlighted
+15629|Avoid checking for backups on each resolve() of file/untitled
+15630|Open files in respective windows that have parent folder open
+15631|Keystrokes delayed when using git bash as terminal
+15632|Support to call debug adapter API from extension
+15633|Support context menu action contributions for debug viewlet views
+15634|In Mac OS, when updating as a user other than the installer, the update never succeeds
+15635|How to reorder itens on QuickPick based on user inputs
+15636|Handle binary files git preview
+15637|Support External Diff
+15638|Quickpick filter does not apply on promise resolution
+15639|Electron update: DND from explorer to editor area no longer works
+15640|The white border of Code’s icon is too thin, inconsistent with Visual Studio
+15641|Add support for multiple windows (docking panels) for the bottom panel
+15642|Where is the most vital feature - drag and drop of source code???
+15643|Tooltips gets in the way of general operations in the editor
+15644|work with WSL
+15645|Request to https://api.nuget.org/v3/index.json failed: Not Found. The requested location could not be found.
+15646|Question: I have a potentially long running operation as part of my extension's installation. Where is the best place to do it?
+15647|Git: Support stashing before sync/pull
+15648|Clear screen is not working correctly in the Integrated Terminal
+15649|Move event buffering from BackupService to file models
+15650|VS Code is hard to use on a shared user account and multiple RDP sessions
+15651|Zen Mode Resize Cursor on Left
+15652|how to debug python code with parameter?
+15653|enable html autocomplete for a different language
+15654|Fix TS/JS Implicit Project Too Large Exclude Action
+15655|Convert from 1- to 0-based indexing for TypeScript completion spans
+15656|Enable ATA in 1.7.x branch.
+15657|Background square artefacts wrapping text on non-retina display
+15658|(mac) format shortcut not always bound
+15659|Enable TSServer telemetry on 1.7.x
+15660|Zen mode: Centered Editor Layout
+15661|Exception when trying to launch debugger with empty `launch.json`
+15662|Fix exception on launch.json with empty configurations
+15663|Remove Mac specific keybindings that don't work
+15664|Custom tree explorers should be disposed when the trees are disabled
+15665|Bug: VSCode exhausted all memory or IO
+15666|unable to verify the first certificate
+15667|"Ability to ""Lock"" a Folder from Opening in the Explorer Tree View"
+15668|Javascript regex syntax coloring bug
+15669|"""Open containing folder..."" context menu option"
+15670|"Missing ""editor.action.toggleComment"" feature [SOLVED]"
+15671|Support for Angular 2 special selectors in CSS
+15672|Don't *generate* the pair symbols when I am writing comments.
+15673|DND: dropping a folder not possible after dragging a file in and out
+15674|DND: visible watermark prevents dropping of files
+15675|"All open editors closes on File | Exit"
+15676|References in C# extension most of the time not shown correctly on wide monitor
+15677|invoking code inside bash WSL results an extra cli.js
+15678|Autocomplete illogical work when the word is completed
+15679|Installation is corrupted
+15680|Inline diff line numbers are _stitched_ together
+15681|Diff - and + should be behind a setting
+15682|Can't select line via the line numbers any more
+15683|Bad line number margin in diff editor
+15684|Breakpoints are gone
+15685|electron 1.4.7
+15686|Highlight unused symbols
+15687|Use CMD- and CMD+ to zoom in and out
+15688|"Fix Japanese transration ""noExt"""
+15689|Message on console when manually editing url in links, withing html file
+15690|Git: error on startup (ENOENT, no such file or directory, scandir)
+15691|Local image preview using built in Markdown Preview
+15692|Hot Exit gets hotter
+15693|VS Code Insiders - Memory Issue?
+15694|Backup service: provide a list of available backups for a workspace
+15695|Avoid this.xy.bind(this) patterns in code
+15696|Folder-Wide text search
+15697|Mac OS: Support file info popup when clicking on file in title
+15698|Rename cat.exe to something else
+15699|API for getting a text document without opening
+15700|Support other word-regex for TextDocument#getWordRangeAt

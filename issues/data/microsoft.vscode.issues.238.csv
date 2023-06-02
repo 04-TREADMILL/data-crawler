@@ -1,0 +1,100 @@
+23701|Find files - files to include globbing bug
+23702|Unchanged file showing unsaved indicator
+23703|VSCode should detect characters like new line and tab ( \n , \t) in find and replace.
+23704|Extension Developers: Allow Variable Substitutions in Settings.config
+23705|"Unhelpful initial info message: ""Some keyboard shortcuts have changed..."""
+23706|Cropped decoration in hc mode
+23707|Unable to paste file, which was copied in another vscode instance
+23708|run tests in electron renderer by default
+23709|Slow stepping when debugging Typescript repos
+23710|Add example to demonstrate new task contribution and API mechanisms.
+23711|SCM viewlet: Cmd-Click-based multi select doesn't work
+23712|moz doesn't match on -moz-animation
+23713|Extension Developer: Custom 'when' clauses for keyboard bindings & menus
+23714|yes really
+23715|Markdown Preview Unable to handle GFM task list
+23716|"Windows: rename casing of file shows ""file deleted on disk"" in editor tab"
+23717|In Markdown preview an unused margin to the right of the preview is wasting screen space.
+23718|Task dialog switches to output view
+23719|Debugger does not break on symlinked module (NodeJS/Mac OSX Sierra)
+23720|"New Feature Request: Add menu item ""Open Recent in New Window"""
+23721|Feature/keybindings adds
+23722|Insiders can't find existing preLaunchTask
+23723|Allow project specific keybindings
+23724|Can start same task twice when adding task to tasks.json in between
+23725|tooling in vscode working
+23726|files.trimTrailingWhitespace: Trim all kinds of whitespace
+23727|"Allow users to persistently remove the ""There is an available update"" notification"
+23728|Sort keys inside settings.json
+23729|xdebug line break windows
+23730|Change problem/error underlines?
+23731|Typescript formatting is broken when extra tabs are present
+23732|Word Wrap in Settings Editor
+23733|"Update ""Use Exclude Settings"" icon"
+23734|Check for string not truthy
+23735|DnD text: make copy cursor change on keypress
+23736|Bind all keybindings with numbers also to the numpad keys out of the box
+23737|DnD text: make the right mouse button press cancel the dragging
+23738|No way to open a file that's excluded in search.exclude
+23739|Overrun by wild git processes
+23740|Extensions: can not open via touch interaction
+23741|Add search file box in Git tab in VS code
+23742|Feature Request: do not ignore a line number in links in the terminal
+23743|Copy search result into another editor or append search
+23744|Freezing on text completion
+23745|terminal commands and the cursor is misplaced
+23746|Can't get intellisense to work - `Loading...`
+23747|"vscode ""compare with"" does not highlight different indented line"
+23748|Intellisense only matches 20-some characters?
+23749|April changes
+23750|Fixed typo in terminal.contribution description
+23751|Regex breaks whole word search
+23752|auto jsdoc comments not completing @returns
+23753|Language name not restored on hot exit for unsaved files
+23754|Installing dlv FAILED
+23755|Shortcut key combination with shift+option key is not working.
+23756|Support launching VSCode using a Protocol handler
+23757|Start the vs code slowly slowly
+23758|Find all reference command in editor doesn't work.
+23759|http.proxy
+23760|Responsive layout breaks when zooming in extensions deetails window
+23761|bad highlighting
+23762|Git: Manage the ignore file
+23763|No support for PowerShell #Region collapse/expand
+23764|【php close tag fly away】  php formatter problem
+23765|Update to electron 1.6.x
+23766|Extensions: Allow for multiple publishers in extension / display on Marketplace
+23767|formatting (Shift + Alt + F) stopped working the insiders build as of April 1, 2017 (no jokes)
+23768|Add 'Failure' to the DiagnosticSeverity enum
+23769|Use .gitignore to hide/mark files in the file explorer
+23770|[Feature request] Gray out unused or unreachable code in editor
+23771|Line height and font size are too large by default
+23772|Pin files
+23773|Terminal confirmOnExit should only warn when the terminal shell is running something
+23774|terminal sendtext blocks if application running in PowerShell
+23775|Feature request: collapse parent directory
+23776|C/C++ autocomplete is not functioning
+23777|HTML Bug: No highlight for ending tags
+23778|Feature request: Infer attributes in statically declared __proto__
+23779|How to automatically test a completion item provider?
+23780|[scss] cross-file support for autocomplete variables, mixins, classes
+23781|Find box: as stupid as it gets
+23782|The editor margin left to the line numbers disappears
+23783|code intellisense Very slow
+23784|Improve performance in the text selection over minimap or without minimap
+23785|"""end of central directory record signature not found”"
+23786|"Mac: ""Save As"" Dialog: Select All does not work"
+23787|performance degraded in latest build 2017-03-31T14:08:17.917Z
+23788|Snippets - more than one snippet breaks tab autocompletion
+23789|WordWrap on and off should affect the entire VSCode.
+23790|Error but anything works fine
+23791|The extension information page's detail area layout calculation wrong in zoom mode
+23792|Add noValuePreselect option to showInputBox
+23793|Git: Show original image side by side with changed image.
+23794|built-in TypeScript Format not working for minified files
+23795|Intellisense not using JSDoc for imported files
+23796|How do I enable extensions in the extensions dir in OSS Dev mode
+23797|Fixes #1623 and #20953
+23798|Some keys are not recognized correctly when using a Japanese keyboard
+23799|Cannot find Module gc-signals or keymapping when trying to run from source
+23800|debug with electron, breakpoints halt the program

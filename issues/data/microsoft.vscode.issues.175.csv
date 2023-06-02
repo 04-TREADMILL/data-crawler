@@ -1,0 +1,100 @@
+17401|"""editor.wordBasedSuggestions"" setting is hard to find"
+17402|What format setting is responsible for this?
+17403|"Can't keep ""Settings"" tab and ""Release Notes"" both open"
+17404|editor.action.insertLineBefore does not fire onDidChangeTextEditorSelection
+17405|Auto Save periodically does not seem to be working
+17406|Editors opened from the menu bar should not open in preview mode
+17407|"""Reload this window to activate the extension X"" - wording"
+17408|Disable the new javascript IntelliSense in html...
+17409|Use File Icon for TS Path Completions
+17410|Add `CompletionItemKind.Directory`
+17411|Search in Settings editor - not standard search
+17412|Format Selection should not appear if not supported
+17413|Add CompletionItemKind.Folder
+17414|Feature request: preLaunchTask shouldn't be triggered when restarting debug.
+17415|Open Recent yields Save prompt with Hot Exit enabled
+17416|SQL Linter
+17417|Pressing esc in search should clear the search term
+17418|Sort order for file quickopen should prefer shorter paths
+17419|[VS Code 1.8][Breaking change] contentChanges of TextDocumentChangeEvent returns wrong text
+17420|不受支持
+17421|Debug Console window cannot accept Console.ReadLine() input during debugging
+17422|1.8.0 is getting crashed or not responding frequently
+17423|Implement terminal.integrated.cwd
+17424|macOS dock: cannot distinguish projects with the same name.
+17425|Terminals launching using terminal.integrated.cwd do not check for invalid paths
+17426|Cannot use Ctrl + C / Ctrl + V anymore
+17427|"""editor.referenceInfos"" setting marked as ""Unknown configuration setting"""
+17428|For PHP writing $this used to autocomplete to $this-> now it removes the dollar sign
+17429|Search does not work in UTF-16 LE encoded files (fixes #17408)
+17430|"Error message when clicking on ""Release Notes"" button in update message."
+17431|HTML - external script
+17432|'View' menu is preventing me from choosing 'Go' or 'Help' menu
+17433|[Search settings] F3 editor search should be disabled
+17434|extension warning: outDir deprecationMessage
+17435|SCSS validation inside html <style> tags
+17436|VSC doesn't support git in MSYS2 ?
+17437|Terminal window disappear
+17438|make more explicit that the REPL's input field does not accept program input
+17439|VSCode can't find binaries in my path (jshint)
+17440|No-english language of sub menu in Selection do not switch,wrong language option lead vscode cannot restart.
+17441|[Feature request] SSH Integrated terminal
+17442|Markdown preview rendering width does not consider window.zoomLevel correctly
+17443|'Focus Default Settings Search' should not show in command bar if invalid context.
+17444|Incorrect auto formatting (Shift+Alt+F) if the button tag has onclick function
+17445|Getting errors when there aren't any?
+17446|VSCode click F5  can't create /.vscode/launch.json by swich the nodejs  environment  or node.js v6.3+
+17447|Sometimes cursor drawn does not match the cursorStyle that is set
+17448|"Allow to hide ""Open Editors"" section when not opening a folder"
+17449|keybindings colision with non US keyboard layout
+17450|Installing shell command 'code' in PATH does not persist
+17451|Scrolling with the mouse pad changes the position of the cursor instead of scrolling the window
+17452|save position&compacted css file error
+17453|Format code doesnt work anymore
+17454|vscode can't identify es6 method
+17455|ts: No error for invalid default import w/o tsconfig.json
+17456|Cannot reopen closed issue
+17457|remove extendObject #17117
+17458|Add Branch name title to Git Widget
+17459|problem with Linter installation
+17460|New Window Behaviour broke
+17461|Make markdown links without protocol (iE /README.md) map to file system
+17462|C# IntelliSense Hints are unreadable (new lines are missing)
+17463|tsserver verbose tracing is not showing data
+17464|session of --extensionTestsPath should not be remembered
+17465|delete call in API does not call autoClosingPairDelete
+17466|[Default settings search] Pasting the search term leaves the settings category collapsed
+17467|File search - navigate history with arrow keys, and fields with tabs?
+17468|"""window.openFilesInNewWindow"": false||true  = true. This setting is not valid."
+17469|Ensure workspace is read from WorkspaceContextService
+17470|Explorer: Does not sort files and folders with numerical values accordingly
+17471|Right click to copy selection and paste on Windows
+17472|Scroll slowly when extension section visible
+17473|Python3 support?
+17474|Emoji keyboard not working
+17475|Symbol search doesn't work
+17476|Closing and opening explorer viewlet via sash will change the active editor if it's keybindings.json
+17477|Refused to set unsafe header proxyAuthorization
+17478|Terminal enhancement
+17479|"can not format HTML  correctly  when HTML tags have style=""....."""
+17480|VS Code doesn't remember find settings (actions.find)
+17481|Remove border in editor right hand side over scrollbar
+17482|'Real' Files not Being Reopened
+17483|Problems Opening Multiple Editors
+17484|How to configure the colors in command palette?
+17485|"Wrong active tab title background in dark theme with ""uiTheme"": ""vs"""
+17486|"Resize ""Open Editors"" pane in Explorer"
+17487|Disable automatic scrolling in Explorer pane when switching editor windows
+17488|Extension API: Wrong cursorStyle
+17489|Hard to unfocusing selected folder when children of root folder is maximum the explorer window
+17490|Get rid of IEventService in favour of real events
+17491|Groovy fast jump
+17492|Add config setting to control whether alt should show the menu bar
+17493|can't stop at the breakpoint
+17494|lint 的es6省略号语法又报错了... (the automatically expand syntax of es6 in vscode report errors again)
+17495|Hot Exit: Remember File Language mode
+17496|Move keybinding dispatching off e.keyCode
+17497|How to append more folder into the workspace?
+17498|warn when (Ctrl+C) in file (after select text in terminal)
+17499|VSCode 1.8.0 on CentOS 7.2 can't install or browse extension
+17500|Unsaved changes for freshly opened files (nothing was changed)

@@ -1,0 +1,100 @@
+29101|How about 'Go' instead? Or 'Navigate'? I don't like 'Go to' and now that Greg has pointed it out, 'Goto' isn't great either.
+29102|Btw I still think we should maybe look into a custom hover if the native hover is so hard to be used. But we can leave this closed until we get more feedback from users once June is out 👍
+29103|Works for me 👍
+29104|Ok, but what do we do in July?
+29105|What can we do in July then?
+29106|That explains the `null` then, thanks!
+29107|If we showed the path to the file in the status bar would this resolve this issue?  Is there enough horizontal and vertical space in the tab to be able to show the path to the file?
+29108|@joaomoreno You should run the instantiation service in [`strict`](https://github.com/Microsoft/vscode/blob/master/src/vs/platform/instantiation/common/instantiationService.ts#L24)-mode to see this early
+29109|@bpasero, please verify.
+29110|Damn build errors. When are we going to fix this crap?
+29111|So... when in development it is not strict by default, correct?
+29112|Since @jtsom has confirmed that the fix works for him, I've added the Verified tag.
+29113|Have been using it for a while and works nicely 👍
+29114|"Yeah, you're right, of course. 👍   We should fix the keybindings, then. Currently it is:  ``` json { ""key"": ""cmd+w"",                 ""command"": ""workbench.action.closeActiveEditor"" } ```  Which implicitly closes the window when no editors are open.  Should we come up with a new `editorIsOpen` context, or similar? Thus we could do the following and I would still be able to overwrite cmd+w:  ``` json { ""key"": ""cmd+w"",                 ""command"": ""workbench.action.closeActiveEditor"",                                   ""when"": ""editorIsOpen"" }, { ""key"": ""cmd+w"",                 ""command"": ""workbench.action.closeWindow"" }, ```"
+29115|My belief is that Code doesn't associate itself automatically, but simply registers as a possible editor for such files. Will investigate this in July, since many people complain.
+29116|@ithinkihaveacat @garysoed   Can you move the Visual Studio Code application to another folder and then back to the original `Applications` folder and retry?
+29117|To verify with TS: - open a TS file that has an error.  - close it and remove it from the list of working files  Ensure: the error is still presented in the list of errors  To verify with ESLint: - install latest ESLint (0.10.18) - open a JS file with an eslint error - close that file. Ensure that the error disappears from the markers list.
+29118|That is a cool idea, however would break every user that has `workbench.action.closeActiveEditor` associated to a different keybinding and who is still expecting the window to close when the last editor closes...
+29119|Apparently it's [possible](https://github.com/electron/electron/blob/78193a0608b5fa55161e95b7b3845b6bd85af377/docs/tutorial/application-distribution.md#macos).
+29120|joaomoreno/gulp-atom-electron#36
+29121|Yup... We can always release note it, I don't think there are many users in that camp.
+29122|@dryganets Can you create a screencast, movie, gif of your interaction?
+29123|[extensions.zip](https://github.com/Microsoft/vscode/files/346313/extensions.zip)
+29124|Verified: looks good to me.
+29125|"HK assignment issue, ""B"" is missing in KOR translation.  [menus.nls.resx.lcl](https://monacotools.visualstudio.com/Monaco/_git/MonacoLocalization#path=%2FLocalize%2Fkor%2Fvscode%2Fsrc%2Fvs%2Fcode%2Felectron-main%2Fmenus.nls.resx.lcl&version=GBmaster&_a=contents)  ```   <Item ItemId="";miBack"" ItemType=""0;.resx"" PsrId=""211"" Leaf=""true"">     <Str Cat=""Text"">       <Val><![CDATA[&amp;&amp;Back]]></Val>       <Tgt Cat=""Text"" Stat=""Loc"" Orig=""New"">         <Val><![CDATA[뒤로(&amp;&amp;)]]></Val>       </Tgt>     </Str>     <Disp Icon=""Str"" />   </Item> ```"
+29126|No. When the flag is set to `true` it will throw when a dependency cannot be fulfilled. The only reason this isn't the default are tons of tests that use incomplete containers
+29127|Argh, didn't help much, unfortunately. I'll close the issue and wait for more, in case other people run into it.  Also notice that you seem to have the `vscode-icons` extension installed which potentially damages Code's runtime behaviour.
+29128|Got it.
+29129|Yes I had. But I have removed it since.
+29130|Insider builds get daily updates. Stable builds get at least monthly updates. That will never change.  What can change is how we present updates to you. That can be much improved and there were already some discussions among the team about how to do that. A good example is the Spotify app.
+29131|![image](https://cloud.githubusercontent.com/assets/22350/16561709/ead67130-41fa-11e6-9f90-42a1e4305362.png)
+29132|I feel your pain with the **wrappers** and I'm way out of my league as with trying to understand **cmd**, **call** and all their complicated ramifications... One idea you could do would be to mimic what [code.cmd](https://github.com/Microsoft/vscode/blob/master/resources/win32/bin/code.cmd) itself does: it launches `Code.exe resources\app\out\cli.js ARGS` with the `ATOM_SHELL_INTERNAL_RUN_AS_NODE` env variable set to `1`. This would surely let you capture its output and wait for its end.  Code recently started _cropping_ the **metadata**, so we only need the small 3 pairs you mentioned. The bigger snippet was needed in older versions only.  The **metrics** are fetched live with the [Marketplace API](https://github.com/Microsoft/vscode/blob/master/src/vs/platform/extensionManagement/node/extensionGalleryService.ts). Yes, this API is not published and **will** change over time. Code doesn't own it, but the Visual Studio family, as it's a feature that runs across the whole family.
+29133|Yes, closing as duplicate of #8621
+29134|There are two actions in the status bar:  ![image](https://cloud.githubusercontent.com/assets/22350/16562554/d91787a6-41fd-11e6-8c0b-c854d571a788.png)  The first one will only list and let you check out branches. The second one is the **sync** action which will **pull** and **push**.  I am very reluctant in adding a confirmation dialog when clicking the sync action. If there are no better suggestions, I suggest to close this as designed.
+29135|@rcarmo Did you try this?
+29136|Given that you seem to have problems across the whole Squirrel spectrum, I suggest to look into the [Squirrel/Squirrel.Mac](https://github.com/Squirrel/Squirrel.Mac) project itself.
+29137|Marketplace currently expects only one icon type. There is no way to specify any other icon. I will convey this to Marketplace PM to see what can be done here.
+29138|#8687
+29139|My belief is that Code doesn't associate itself automatically, but simply registers as a possible editor for such files. You can always change this editor. Not sure why Windows picks Code by default after installation, but will look into it in #8687
+29140|No updates here yet. But it will come.
+29141|I don't fully understand how you'd expect to navigate to the next change in the editor view. It would only work if you edit a file which is currently modified? What would happen if the next change is a line deletion?
+29142|Same for workspace settings actually. Maybe assign to me once you did it for debug. I can also check how it behaves for tasks.
+29143|There is always more margin on the left hand side in all viewlets. `12px` more to be precise, due to the viewlet title.  ![image](https://cloud.githubusercontent.com/assets/22350/16563087/6ad607e2-4200-11e6-8141-06943ce35440.png)  Take the git viewlet:  ![image](https://cloud.githubusercontent.com/assets/22350/16563037/2b4d3528-4200-11e6-85f6-d13123374565.png)  Notice how the fonts of the viewlet title and the search box are left-aligned. Notice how the search box is right-aligned with the last action's bounding box.  The Search viewlet is full of lies and falsely aligns to the right of the clear icon's **content**. It should align to the right of the **whole** clear icon, including its padding.  ![image](https://cloud.githubusercontent.com/assets/22350/16562951/c6825074-41ff-11e6-8570-9dbf11751f25.png)
+29144|@joaomoreno  Put a single quote around what_do_you_mean!  'what_do_you_mean' then type WH and it won't suggest you the above statement.
+29145|Very tricky as a white theme would look really out of place in a dark workbench...  Are there any really bad examples?
+29146|@bpasero could the file watching lock files or directories?
+29147|How does this extension target my specific two points above:  > 1. the hover takes very long to show (maybe this hover can be made faster?) > 2. I need to hover over the text and not over the tab area  I understand point 1 is non-trivial as we now use the native hover. How about point 2? Isn't that a low hanging fix?
+29148|@joaomoreno this issue was about the fact that the git input field has more margin to the left than to the right. Would we not just center the input fields we have across viewlets?   Only looking at:  ![image](https://cloud.githubusercontent.com/assets/900690/16563335/b5c234dc-4201-11e6-9505-eb5becbd97c1.png)
+29149|@bpasero Can we debug this in your Win7 VM? I don't have one currently.
+29150|@bpasero Any way to remove it?
+29151|@joaomoreno no, not that I am aware of. I think only the node.js file watcher locks directories if you watch them, but we only watch files with it. Is this for files within a workspace or outside a workspace (we use different watchers in that case).
+29152|@bpasero - This is what I mean:  (I tried to reproduce the original issue which was without tabs enabled from the screenshot)  ![image](https://cloud.githubusercontent.com/assets/5047891/16563363/e1ce9016-4201-11e6-95f7-67d4310ea51e.png)
+29153|Actually we already have this:  ![image](https://cloud.githubusercontent.com/assets/22350/16563371/f5d76c04-4201-11e6-93d7-0fc44e123393.png)
+29154|@alexandrudima sorry, those are good points, I will open a separate issue on the hover thing.
+29155|Bad build...  ![image](https://cloud.githubusercontent.com/assets/22350/16563390/162e01ca-4202-11e6-9d8e-468645f70f7d.png)
+29156|I know 😢
+29157|This was on purpose. They are meant to be _bigger_ in the preview.
+29158|@joaomoreno I have a win7 VM I can investigate. Also notice that this was filed when markdown.css was not being packaged - not sure if related at all
+29159|I cannot reproduce anymore.
+29160|@joaomoreno yes you can override it here: https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/common/editor.ts#L127
+29161|@alexandrudima yup you are right
+29162|Interesting.
+29163|The amount of issues I got simply because a CSS file was missing from the build is incredible.
+29164|No indicator? I'd just get another issue saying _why is this empty_?
+29165|We would need to introduce a workbench configuration such that there is a default language mode for new files opened. Such that it is being picked up before a user manuly chooses a mode or sets the file extension.
+29166|This issue was moved to Microsoft/vscode-eslint#96
+29167|while verifying this I found https://github.com/Microsoft/vscode/issues/8731
+29168|"> It would only work if you edit a file which is currently modified?  Yes.  > What would happen if the next change is a line deletion?  Same as in the ""Changes View"", i.e. jump to that position."
+29169|Fetch should _rarely_ be problematic. Only in scenarios that some other application other than `git` itself accesses the `.git` folder, like Dropbox.  It can definitely prompt the user for input, in case of authentication. That can, and is most of the time, fixed by some external tool.  Locking happens due to `git status`, which accesses the index and is also called by Code. Not `git fetch`.  We like to keep the default values set to what most users would like it to be set. It's true, most other editors don't do it by default. We decided to do it and as a result we get a lot of people positively surprised by the incoming commits count in the status bar.  @LithMage This is not related. You probably have line ending changes. Check it by running `git status` from the command line.
+29170|@edumunoz @faxue-msft could you please verify that this works now in the insiders? Thanks.
+29171|Lies. There is [getRelativeTop](https://github.com/Microsoft/vscode/blob/master/src/vs/base/parts/tree/browser/tree.ts#L132).
+29172|@bpasero any idea why the workbench is opening Default settings resource in a different editor?   Another observation - Default settings file is named as settings.json instead of Default settings
+29173|Stable behaves this way. This has been like this forever.  Closing as designed until a better suggestion is provided.
+29174|Microsoft/monaco-editor#49
+29175|I would think this could also be done nicely from an extension.
+29176|@PhenomanSolutions This [Extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) would meet with your requirement. It will automatically add closing tag when you type in the closing bracket of the opening tag.  ![GIF](https://raw.githubusercontent.com/formulahendry/vscode-auto-close-tag/master/images/usage.gif)
+29177|Microsoft/monaco-editor#50...
+29178|@sandy081 I guess this happens because the right editor has focus? we always open a new editor if it does not contain in the group.
+29179|@osjn  This [Extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) would nearly meet with your requirement. It will automatically add closing tag when you type in the closing bracket of the opening tag.  ![GIF](https://raw.githubusercontent.com/formulahendry/vscode-auto-close-tag/master/images/usage.gif)
+29180|@bpasero thank you :+1:
+29181|@Gacnt This [Extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) would nearly meet with your requirement. It will automatically add closing tag when you type in the closing bracket of the opening tag. No pressing enter is needed, just same as VS IDE does.  ![GIF](https://raw.githubusercontent.com/formulahendry/vscode-auto-close-tag/master/images/usage.gif)
+29182|@sisdorn - thanks for this info: However, to be fair, #3027 was referring to the fact that the play button got hidden - it was not asking to make the width of the debug target drop-down dependent on the width of the left-hand column.   I do not think that I should have to sacrifice a significant amount of my available screen real-estate to the left hand column just to be able to read the name of the currently selected debug target.
+29183|@bitcrazed fair enough, reopening
+29184|"@bpasero,  if I understand correctly, the situation mentioned can not consider link when I press Ctrl and move the mouse over the line.  > Do not allow it to be considered link when something comes after the extension. >  > Example: >  >  `<script scr = ""js/angular/angular.min.js?""></script>` >  > `<link rel = ""stylesheet"" href = ""css/animate.css?""/>`  Now, about the rest, it is when I click on the link.  Example:  1- Take this situation: `<ng-include src = ""'./view/template/header.html'""> </ng-include>` 2- Now click ""Ctrl + Click left mouse button."" 3- The VSCode not find the file.  On the suggestion to open pictures with the default program, you got any questions?  Any questions, just ask."
+29185|Ok from the description I think we cannot open double quoted links from the editor. But I would also not assume to see a link in that case since that seems like a weird link to have.
+29186|"It worked _almost_ fine: #6375.  We can maybe wrap the JSON object, as suggested by @weinand.  @wallverb Does something like this work?  ``` es6 const electron = ""/Applications/Visual Studio Code - Insiders.app/Contents/MacOS/Electron""; const cp = require('child_process'); const mark = 'MARK123'; const env = Object.assign({}, process.env, {     ATOM_SHELL_INTERNAL_RUN_AS_NODE: '1',     ELECTRON_NO_ATTACH_CONSOLE: '1' }); const command = `'${electron}' -p '""${mark}"" + JSON.stringify(process.env) + ""${mark}""'`; const result = cp.spawnSync(process.env.SHELL, ['-ilc', command], {     detached: true,     stdio: ['ignore', 'pipe', process.stderr],     env,     encoding: 'utf8' }); const raw = new RegExp(mark + '(.*)' + mark).exec(result.stdout)[1]; console.log(JSON.parse(raw));  // should not throw parse error ```"
+29187|👍
+29188|By the way, this would possibly make a good contribution, if you are interested in creating a PR.
+29189|This comes from the Marketplace. cc @modigrv
+29190|It there any suggestion of what should happen instead?  If the whole ratings widget becomes unbreakable, you'd easily miss ratings for long titles.  If we decide to cut down on the extension's name, the ratings would be all you see.
+29191|Very likely won't happen as it would annoy most users.  We can have it under a setting though, as it appears there are more people with that opinion. cc @chrmarti
+29192|Well... this has been there since day 1.  @alexandrudima @jrieken @aeschli Does anyone know how JavaScript solves this, since it's solved there?
+29193|Well... although I agree with @bpasero, I will simply close this since I removed it because I got another issue that was the exact opposite of this, and Machete don't jump back and forward. Only forward.
+29194|#7343 and #8434 are very similar. Can you try following both those issues and see whether you can figure out what is in your environment output? Namely, from [this comment onward](https://github.com/Microsoft/vscode/issues/7343#issuecomment-227747506).
+29195|@modigrv Can you give me the exact algorithm for mapping a rating number to the stars, used in the Marketplace? [This is what we're doing](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/extensions/electron-browser/extensionsWidgets.ts#L108).
+29196|Odd, because Visual Studio supports Regular Expressions Look Behind.
+29197|@aeschli What to do here? cc @jrieken
+29198|@solthoth That is surely dues to the security restrictions.  Closing this issue.
+29199|You can't just look at one thing at a time. There are left and right paddings along the whole viewlet's content. If we were to increase the right padding, we'd be lying about the alignment with the actions above and we'd have to move them as well, in _every_ viewlet.  ![image](https://cloud.githubusercontent.com/assets/22350/16565660/259d42e4-420f-11e6-806c-e2c227054bf6.png)
+29200|#8169

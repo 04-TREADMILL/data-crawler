@@ -1,0 +1,100 @@
+17601|Auto-close brackets before commas
+17602|TS formatter use format settings from tsfmt.json/tslint.json
+17603|Adding an overload to TextEditor.edit for insertion of a SnippetString
+17604|Output (tasks) pane doesn't autoscroll
+17605|Next/Prev Group circles through existing groups
+17606|"""Oriya"" found in browsers.js"
+17607|How to add a new action to the editor that replaces editor content and maintains Undo stack ?
+17608|add suppor for codefixes in TypeScript
+17609|Add support for additional global config files (in addition to settings.json)
+17610|Pick up 12/20 ts drop
+17611|when press ctrl + C it report this... and can't do copy action
+17612|Format confused when html file has style attribute.
+17613|Extension panel is blur in Hi-DPI screen
+17614|Indentation detection doesn't work with 3-spaces
+17615|Does not open the folder
+17616|Git Bash opening from vs code
+17617|Cmd-G should work in Explorer
+17618|Provide a way to manually reload an opened file
+17619|Ubuntu Installation Not Installing Launcher Icon Pack
+17620|Auto-indentation goes to wrong in arrow callbacks
+17621|Enhance Search in Default Settings editor
+17622|i need a comments section in extention
+17623|[loc][Query][VSCode] Please clarify the context
+17624|[loc][Query][VSCode] Please provide more context
+17625|[loc][Query][VSCode] Please clarify the string
+17626|toggleTerminal shortcut does not work on French keyboard layout
+17627|Message box is cramped
+17628|Streamline find & replace in selections
+17629|Custom coloring for picked color theme
+17630|Editor: Add Git diff margin (Change Markers)
+17631|Zoom Out hotkey not working on macOS and Italian layout
+17632|"Request: ""Open in Terminal"" option for Windows"
+17633|Add Duplicate option to tree view context menu
+17634|Tag HTML with style attribute
+17635|"Wrong ""edt"" order in action bar guide"
+17636|"Performance issues when using several ""code parsing"" plugins"
+17637|Added github icon mapping for gitmodules file
+17638|[loc][Query][VSCode] Please clarify the placeholders
+17639|macOS: Support proxy icon in custom title bar
+17640|[loc][query][VSCode] Please clarify localizability
+17641|[loc][Query][VSCode] Please clarify the string
+17642|[loc][query][VSCode] Please clarify the string
+17643|Allow variables to be displayed in a different base during debugging
+17644|Middleclick in Ubuntu Unity Launcher does not open a new window
+17645|Set editor readonly for files that are readonly on disk
+17646|Git Clone: Default clone into /tmp folder
+17647|Change extension order for Diff language id
+17648|Large file support and hex binary file display
+17649|Crash on Tab
+17650|[Fedora 25] Release notes window doesn't cover entire page
+17651|Replace: Cannot read property 'getValue' of null
+17652|codefix key-chord doesn't work when  the caret is at the end of the
+17653|[FR] use the Terminal as a console output
+17654|Html Formatter not working when use style attribute
+17655|Change order of Diff extensions.
+17656|Hot Exit forgets language mode for unsaved files
+17657|Display file while moving with arrows in the explorer
+17658|Freezing on update / install
+17659|Update LICENSE.txt
+17660|Multiple File Manager
+17661|Configurable behavior of page-up (cursorPageUp) and page-down (cursorPageDown)
+17662|"⌘+P does not toggle""Go to file"" any more on OSX"
+17663|Using the define keybinding button breaks in conjnction with \ character
+17664|Git file history temp file is lost after switching
+17665|Make Javascript intellisense detect inheritance
+17666|Have a setting for the extensions folder location
+17667|Reveal in Explorer need appear in Editor (Tab) & in Editor context menu, not only in tree view
+17668|Format code with error when press  (ALT+SHIFT+F)
+17669|[Windows] Shift+click in task bar does not open new window
+17670|Feature Request: Preview changes of CodeAction before applying them
+17671|Scope to folder
+17672|Adaptive abbreviation search for quick open commands
+17673|Fix for #16771.
+17674|Fixing behaviour for the Ubuntu.
+17675|Extension Devs: Extending an existing Icon Theme
+17676|Integrated terminal context menu should trigger via contextmenu event not mousedown
+17677|Keep Language mode when reload window after update plugin
+17678|Allow getting path of a non-textual file
+17679|Paths to included files gets messed up in MVC
+17680|Updating Code loses unsaved documents
+17681|Syntax error in scss/sass map
+17682|Save As...dialog should also include a choice to save as administrator/root
+17683|"""A server with the specified hostname could not be found."" Random error message"
+17684|How to get all parameter info when filling in a function param list in Python
+17685|Hotkey for Windows shell context menu
+17686|Find all reference in TypeScript/JavaScript project is extremely slow
+17687|Fix #17346. Clear reference decorations when switching models.
+17688|Can not open files with spaces in their file names using command line on Linux
+17689|自动排版
+17690|The DEBUG shows no color and tip , but Function is normal
+17691|Allow comparing files that are not saved
+17692|"""New folder"" option using quick picker"
+17693|Class View like VS is very useful
+17694|Add possibility for keyboard bindings for git actions
+17695|"Extension installation: Error: ""value"" required in setHeader(""X-Market-User-Id"", value)"
+17696|"Feature Request: add ""when"" clause contexts to Git"
+17697|Feature Request: Support for Jsonnet
+17698|Hot exit on new file does not save language mode
+17699|Won't work in W10 tablet mode split screen
+17700|[scss] Selector autocomplete adds additional colon upon completion.

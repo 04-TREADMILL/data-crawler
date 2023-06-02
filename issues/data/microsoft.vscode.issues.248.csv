@@ -1,0 +1,100 @@
+24701|Terminal UI mess
+24702|No intelliSense in template strings
+24703|VSCode doesn't autodetect settings changes if settings file is symlinked
+24704|the command text position offset
+24705|How to use '$' in snippet ?
+24706|Error Extension host terminated unexpectedly.  Every 3 minures after reloading window!
+24707|Git command incorrect shows in terminal.
+24708|"Emacs-Style ""Electric Indent"""
+24709|Allow multiple peek/references widget or store history
+24710|Strange(Incorrect) translate in 1.11.2
+24711|Intellisense not recognizing ES6 JavaScript prototype method on import
+24712|扩展主机意外终止。请重新加载窗口以恢复。
+24713|"Cannot Set ""Enable script execution in markdown preview for this workspace"" For Directly Opened Markdown File"
+24714|Wrong/annoying background selection color in Solarized Light
+24715|this version is not stable
+24716|Shift+Home does not work as expected
+24717|Feature Request: Goto tab by number
+24718|terminal  display error
+24719|Customize Scrollbar( vertical / horizontal )
+24720|Keyboard shortcut for terminal no longer works
+24721|HTML inline style intelligent associative invalidation
+24722|终端显示有问题，请问怎么解决。
+24723|JavaScript Files Loses Spaces on Save
+24724|tabSize Problem
+24725|Terminal display problems, how to solve
+24726|The 'protocol' parameter is ignored if node debugging starts from an extension
+24727|Markdown links with spaces do not work
+24728|Node 6.10.x incorrectly triggers legacy debug mode
+24729|Allow to run 'code -w'  when Code is running already
+24730|build won't start
+24731|The arrows icon is no longer animated when git push/pull is in progress.
+24732|Cannot install Debugger for Chrome
+24733|Copy value on debug shortens string for Go projects
+24734|Automatically sanity-check our (insider) builds
+24735|Feature Request: File Groups
+24736|When using WSL bash integrated termianl, python path names are given as windows paths
+24737|MRU for command palette
+24738|Find all references returns no result
+24739|//为什么vscode 直接使用 import Vue from 'vue' 会报错
+24740|CTRL-C copy on nothing clears clipboard
+24741|[Git] Indent format recognition is incorrect
+24742|Property 'parseFloat' does not exist on type 'NumberConstructor'.
+24743|Terminate isWatching task when debugging session ends
+24744|Feature request: Open Folder from File Explorer
+24745|independent vs/base package
+24746|Multiple selection of files in sidebar
+24747|vscode reads AltGr key as cursor-left move through X11 connections
+24748|Create a tab with custom DOM
+24749|Workbench did not finish loading in 10 seconds, that might be a problem that should be reported.
+24750|Subtle error with cached(?) windows workspace/folder paths: program path uses differently cased character than file on disk
+24751|"""Code Helper"" process x 4-5 instances, using up 99.8% of cpu, running on OSX"
+24752|"中文路径下调试有问题|a bug when debug cpp in Chinese dir"
+24753|Problem in zooming when multiple window is open
+24754|Spawn unknown notification after installing extension
+24755|Clicking an ESLint error or warning duplicates the file
+24756|Provide a way for an extension to detect an active debug session
+24757|Debug arguments with Electron
+24758|Tooltips appear, and refuse to clear
+24759|Using integrated terminal to cat file with lots of unicode hangs terminal
+24760|"Tasks ""No build tasks defined"" with `isBuildCommand`."
+24761|VS Code black screen VMWare Fusion win 8 vm
+24762|Node execution hangs when using `inspector` protocol
+24763|UI Theming: Extension list buttons override focusedElementOutline
+24764|Selenium Python NoSuchElementException Cannot be Caught
+24765|Feature Request: Windows 10 allow code to run a bash shell in addition to powershell
+24766|Really high cpu usage
+24767|Clean All Icon and Message should be DIFFERENT and STAND OUT
+24768|Code Update Continous Loop
+24769|Building from source - Error: vscode-ripgrep@0.0.11 postinstall: `node ./dist/postinstall.js`
+24770|"Hover over search result either removes search term or shows ""null"""
+24771|Search function names only
+24772|Zooming Causes Markdown Previews to be Reloaded
+24773|Fix Markdown Preview Updating on Zoom / Unrelated Config Changes
+24774|Import path intellisense is no longer working used to work before.
+24775|Not able to edit a json file (cursor is move randomly across the editor)
+24776|Possibillity to reach client console in vscode when doing web dev.
+24777|Terminal will lose content on window resize on WIN os.
+24778|Vscode loads python venv files instead of project files
+24779|Allow to reset “Don't Show Again” preference
+24780|Git extension modify bug
+24781|Define keybinding widget is overflowing in German locale
+24782|Cmd+C && Cmd+V doesnt work
+24783|Ctrl+W doesn't work with active window
+24784|Icon shapes broken with rendering artifacts
+24785|Search results show special characters HTML-escaped
+24786|Issue
+24787|Too many update prompts for users - and suggested alternatives.
+24788|Markdown Code Block Syntax highlighting: Highlighting doesn't work at certain indentations.
+24789|Composition View is not shown in Windows 10 build 10.0.16176
+24790|Cannot edit a temporary markdown file
+24791|Variable changing color when using accessor
+24792|Cannot build vscode on recent releases
+24793|Verified publisher
+24794|More font options
+24795|Debugging with mono and building with xbuild breaks debugging!
+24796|Adding line and column support for terminal
+24797|Extension host terminated unexpectedly. Please reload the window to recover.
+24798|Extension host terminated unexpectedly. Please reload the window to recover.
+24799|Feature request: Add Markdown headings to the symbols list
+24800|Here-Sring interrupts collapsing of functions

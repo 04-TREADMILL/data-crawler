@@ -1,0 +1,100 @@
+22101|Any updates on this issue?  At the moment, I have to: Right-click the taskbar icon -> select `New Window`\* -> [maximize the window](https://github.com/Microsoft/vscode/issues/422#issuecomment-220783491) -> open the folder from `File > Open Recent`. It could be faster =).  \* or use Ctrl+Shift+N/file menu.
+22102|Hi @bpasero,  Thanks for checking! After updating to 1.1.1 (def9e3) issue stopped to occur for me.  Sorry for troubling you!
+22103|@weinand  1. Pretty sure this is about the (S) accelerators where it should be (Y) and (N) 2. Tabs https://github.com/Microsoft/vscode/issues/224 3. Hide activity bar https://github.com/Microsoft/vscode/issues/1105
+22104|[Déjà vu](https://github.com/aspnet/Announcements/issues/24#issuecomment-101616024)  [Here](https://gist.github.com/glen-84/6b469c26aae4a43bc5d3de2d6a6c9f43) is a letter that I sent to Douglas Crockford on the subject. Unfortunately, I didn't receive a reply.  My opinion regarding VS Code: 1. Comments in *.json files should not be supported. 2. For VS Code configuration files, either special-case these files in the editor, or better yet, use a proper file format for configuration, such as YAML or JSON5.
+22105|@aeschli assigning to you since you own the `html` language.  The fix adds `.vue` as an extension for the `html` language, this will enable emmet and it is not clear to me how the html grammar behaves with `.vue` files.
+22106|+1 complaint  the mother VS supports clicking at  the error messages if they are formatted in a proper manner so that at clicking VS navigates you to a place mentioned in the error  I MISS THIS FEATURE!
+22107|related https://github.com/Microsoft/vscode/issues/6619
+22108|Some info on EPIPE: https://github.com/mhart/epipebomb  `createTerminal` seems to get run over and over, meaning terminalProcess is signalling `exit` immediately after running.
+22109|Please implement this in the core, the extensions out there are not very useable.
+22110|In my dotfiles I show a green up arrow and number for number of commits ahead as well as a red down arrow and number for commits behind the remote. Might be good to integrate something like this?
+22111|https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview
+22112|I have not been able to get any help from other Microsoft people. Why it fails remains a mystery to me.
+22113|Closing as duplicates, thanks @Tyriar .
+22114|@benmillhouse how does the link look like?
+22115|@SamuelGustafsson does this happen only for this particular folder? do you have extensions installed?
+22116|A number of days has past without answer on the questions asked. I am thereby going to close this issue to clean up our backlog of issues. Once you can answer on the questions, the issue can be reopened again. Thanks for understanding this process!
+22117|@NikosEfthias can you provide more details what file you create and where? can you attach a video showing the issue in detail?
+22118|Likely that our file watcher fails for external applications that write to files using atomic file changes (that is a delete followed by an add). If you can modify Vim to change this behaviour, it would likely work OK.
+22119|@varunagrawal Code should move the file as well to its new location unless maybe the file is dirty. Can you attach a video how this behaves for you?
+22120|This seems to work fine in the latest. Couldn't reproduce in Windows 10 VM.
+22121|@lance This proposed change has no effect. [Here](https://github.com/Microsoft/vscode/blob/master/src/vs/editor/node/languageConfiguration.ts#L21) is where the language configuration is handled. We currently do not support mode specific settings so wiring this in might be tricky.
+22122|@unhealthy in node v6 the case of drive letters has changed. This is a duplicate of https://github.com/Microsoft/vscode/issues/6530
+22123|@sharang1 closing.
+22124|@kisstkondoros This proposed change affects existing gutter decorations, such as the one used for breakpoints:  ![image](https://cloud.githubusercontent.com/assets/5047891/15453501/a5497530-2018-11e6-9df4-f284177c8046.png)  I think it would also affect other extensions that use the gutter margin decorations.  I really like the idea, but maybe the hover would be a better place to preview the image, as the gutter area is so limited and would only work for icon-type images:  https://code.visualstudio.com/docs/extensionAPI/vscode-api#_languages ![image](https://cloud.githubusercontent.com/assets/5047891/15453515/0d1feafe-2019-11e6-9d42-94e77f4244ce.png)  I am not sure if our current `MarkedString` supports images, but maybe @jrieken can point you to how that could be added.
+22125|@indiejames this is a good suggestion, but I cannot change the protocol in a backward compatible way. So this will have to wait until we start the 'debug protocol 2.0'.  I'll move this request over to the debug protocol repository.
+22126|This issue was moved to Microsoft/vscode-debugadapter-node#26
+22127|+1, (1.1.1 on windows 10)
+22128|@jrieken This is caused by 9ce57e (for #6320) In JSON the completion labels (e.g. css.validate) don't contain the doublequotes and we relied on the comparison with the code snippet. The same for html tags, which is now also broken.  I can add the filter string everywhere, but I suggest to revert the fix for now.
+22129|"@jots I just tried the simple coffee program from http://coffeescript.org and VS Code 1.1.1 on 'elementary' (a variant of ubuntu).  I saved the sample program as coffee.coffee and compiled with `coffee -c -m coffee.coffee'. Then I created this launch config:  ``` ts         {             ""name"": ""Coffee"",             ""type"": ""node"",             ""request"": ""launch"",             ""program"": ""${workspaceRoot}/coffee.coffee"",             ""cwd"": ""${workspaceRoot}"",             ""sourceMaps"": true,             ""stopOnEntry"": true,             ""smartStep"": false         } ```  This is the result: ![may-22-2016 14-20-40](https://cloud.githubusercontent.com/assets/1898161/15453925/bf1323b6-2028-11e6-9176-c7fdcae883f5.gif)  So this works for me."
+22130|Mixing works fine as long as the JavaScript you are stepping through is reasonable small (for instance because it is just glue code generated by a transpiler).  If you have lots of JavaScript that does not map to some source language, using this option makes you slow because node debug has to single-step through the JavaScript.  So the slowness you are seeing is expected and not a bug.
+22131|Thumbs up!.. Would be awesome if the code can be copy pasted along with the syntax highlighting into word or ppt!.. Such a good IDE, especially with typescript + angular 2 combo , this wud be like gold for me!...Please provide syntax highlighting..
+22132|Cannot reproduce in VS Code 1.1.1 and latest.
+22133|"Since the debug adapter decides whether we use a ""all threads stopped/continue"" or a ""one thread stopped/continue"" model, there is no need for 'pause all' or 'continue all' threads actions."
+22134|@alexandrudima ok - I remain confused about the behavior I am seeing. The behavior noted in the two issues I reference here does not occur for me with these changes. But it's completely unclear why to me now. Hmm.
+22135|Thanks @fusion809 !
+22136|@glen-84 no, how do I apply these styles to vscode?
+22137|Thanks @rebornix I made the renaming change.
+22138|Thanks @sandy081 , I merged the PR.
+22139|Try `code-insiders` from the command line.
+22140|Thanks @umpox !
+22141|Thanks @dbillingham !
+22142|I don't think that you can, at least not permanently. #459 would probably help.
+22143|Duplicate https://github.com/Microsoft/vscode/issues/6525 (fixed)
+22144|@bpasero is the 1st point a duplicate too?
+22145|How about making it configurable? I'll check what can I do with MarkedString... Thanks for the hint!
+22146|Here's a workaround:  ``` ts var a = (true ? true : `;`); var i; ```
+22147|"I don't see the same issue while using Sublime or other editors. So why VSCode?  Thanks  On Sun, May 22, 2016 at 2:05 AM -0700, ""Benjamin Pasero"" notifications@github.com wrote:  Likely that our file watcher fails for external applications that write to files using atomic file changes (that is a delete followed by an add). If you can modify Vim to change this behaviour, it would likely work OK.  ---  You are receiving this because you were mentioned. Reply to this email directly or view it on GitHub: https://github.com/Microsoft/vscode/issues/6440#issuecomment-220821782"
+22148|I've updated the extension with the mentioned HoverProvider, MarkedString indeed supports images. (is it intended? :) ) I still think it would be useful to have the image preview on the gutter. (of course it makes sense only for Icon type images...)
+22149|Thanks - I just found the issue. It wasn't added to my path. (I had tried several variations and just now realized that I should add to path from the command palette)  Thank you.
+22150|"Btw, `""files.autoSave"": ""onFocusChange""` and `""afterDelay""` are mutually exclusive currently and that is bad. You can't have both enabled.  I would like to suggest following changes: - change value of `""files.autoSave""` to `""on""` / `""off""` - add new setting `""files.autoSaveOnFocusChange""`: `""currentFile"" / ""allFiles""`"
+22151|Hi @huangenyan As much as I'd like to fix our syntax highlighting, I'm hesitating to branch off David's grammar at davidrios/jade-tmbundle. I think think we need to find out why our textmate grammar engine doesn't work the same way as in Sublime. @alexandrudima Alex, FYI
+22152|i am compilig typescript and if the compilatiion occured first time the fil is not there untill i resrart vscode
+22153|This should work when running `./bin/code` or `./bin/code.cmd`, no output should happen and control should return to the terminal. You can use a `--wait` flag if you need to wait for it to terminate. Let me know if this doesn't solve the issue.
+22154|@aaskat I don't understand this problem. Could you please make a video showing your problem? Thanks.
+22155|"I recently implemented java support using the API of javac itself:  https://github.com/georgewfraser/vscode-javac  My strategy is basically: - Launch an external java process - Invoke javac programatically using tools.jar - Maintain a ""hot"" copy of javac at all times, so we can recompile incrementally  javac produces an excellent annotated parse tree that can be used to implement the VS Code extension. Right now, the extension supports: - Error highlighting - Autocomplete - Go-to-definition  Most of the other features of VS Code could be implemented straightforwardly using the javac annotated parse tree. Contributions welcome!"
+22156|I think it might be caused by the typings of es6-promise.d.ts that is used by mondbDb's typings and it is incompatible with promise interface that defined in lib.ed6.d.ts
+22157|@WangZishi by default wont i add es6-promise package if i reference to mongodb.d.ts because it refferences inside es6-promise ?
+22158|I just try it on my machine and find this solution: ![tmp5ce6e091](https://cloud.githubusercontent.com/assets/8288105/15458688/fe7845ca-20cf-11e6-8e02-4533370fc3fe.png)
+22159|@WangZishi  weird thing now it also stopped giving me this error
+22160|In VSCode, if you want to skip the current selection, you should press `ctrl + k`. And `ctrl + d` again will select next.
+22161|well i didnt know that thank you :+1:
+22162|Just share some findings when moving Markdown stuff to a separate extension: we are implementing textmate tmlanguage parser ourselves in vscode-textmate, but it lacks support for some keywords, eg `while`. I don't mean the missing of keywords lead to this bug, but likely we don't have the same coverage as textmate or sublime does.  Maybe adding textmate/sublime tmlanguage parser test suite to `vscode-textmate` too see how much we are behind.
+22163|dupe of https://github.com/Microsoft/vscode-distro/issues/43
+22164|"But your ""steps to reproduce"" sound different from that?"
+22165|I can reproduce. Weird!
+22166|@bpasero somehow it seems to be working now
+22167|Ok.
+22168|yes IntelliSense.
+22169|https://github.com/PowerShell/vscode-powershell/issues/199
+22170|> It should display a list of references to that file in the open project  @stereokai Do mean a file references, like a TypeScript import statement or references from all symbols of a file to the whole project? How should it behave with symbols that don't need to correspond to their filenames, like C# namespaces?
+22171|> I've updated the extension with the mentioned HoverProvider, MarkedString indeed supports images. > (is it intended? :) )  Yes, that's the intend. `MarkedString` should be full markdown minus embedded html
+22172|@alexandrudima Can you point to me the registration?
+22173|@jrieken Maybe this is caused by using the registries and no longer using `suggestSupport`. Should we add a `weight` property on registration?  Here is the default textual completion: https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/modes/abstractMode.ts#L233
+22174|I also suggest using find all references on SuggestRegistry, maybe other places need to have a lower weight?
+22175|I don't like the _weight_ option. I would register for the `*` language which results in a lower score: https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/modes/languageSelector.ts#L34
+22176|Reopening and reverting this due to #6620
+22177|@kisstkondoros Just a suggestion: maybe you can ship your extension with a generic image icon and render the same one in the gutter where images appear. That would cover nicely all image types.  Do you still plan to do something in this PR? You could make it configurable by adding/adopting a new option in: - https://github.com/Microsoft/vscode/blob/5d2d6530905ed13c6d534c3c8a020f650d7ac015/src/vs/vscode.d.ts#L625 - https://github.com/Microsoft/vscode/blob/5d2d6530905ed13c6d534c3c8a020f650d7ac015/src/vs/editor/common/editorCommon.ts#L3176 - https://github.com/Microsoft/vscode/blob/5d2d6530905ed13c6d534c3c8a020f650d7ac015/src/vs/editor/browser/services/codeEditorServiceImpl.ts#L208
+22178|I have reverted the changes for #6320. Moving to @aeschli to start using the `filterText` property
+22179|Now depends on #6620
+22180|Duplicate of https://github.com/Microsoft/TypeScript-TmLanguage/issues/81
+22181|Moving to June considering those potential upcoming changes
+22182|Thank you @aeschli !
+22183|Naming is a hard problem... It is some DI system using constructor injections - maybe something along those lines. About how to tackle this, I'd recommend to start with copying out the current system and making the adoption a second step. That is because large cross cutting PRs are hard to get merged unless we know what's coming ;-)
+22184|Formatting does not work when the top level tag is heading (`h1`, `h2`, etc.) or `template`. As a workaround comment the top level tag, format the code then uncomment the top level tag.
+22185|@Gheoan Thank you but as workaround I could do it manually, so workaround is not the option... we are trying to find and fix the issues ....
+22186|duplicate of #670
+22187|@arniu Can you provide a small code sample that shows the issue?
+22188|@joaomoreno I have been re-looking into this, do you have any advice or example to look at for binding such a keyboard shortcut. I know where to bind it and have found examples of how other actions are bound (toggleLineComment and showGitView) but the interfaces that the registration methods for those use are incompatible. Do you have a method which can take a GitAction?   An alternative I have thought of is creating an API for git actions, and utilising that to provide shortcuts however that is a much bigger engineering task which would require significant development and its own milestone task.
+22189|This probably qualifies for a UX review of the status bar first.
+22190|Hm, I kind of expected an easier fix. The problem of the higher score is that the TextualSuggestSupport is contributed for every mode id.   ``` modes.SuggestRegistry.register(this.getId(), new TextualSuggestSupport(this.getId(), editorWorkerService, configurationService)); ```  If you would just contribute a single time for '*', it would get the score it had before Also it seems the TextualSuggestSupport doesn't really need to know the mode id.
+22191|About the customization: i did something already in https://github.com/Microsoft/vscode/pull/6553/commits/3708e019e6568a2bba1b72099242600d1bbd6628, but I haven't changed the vscode.d.ts (i thought it's generated in a way), also I don't have the proper environment for building a version... This week I'll have a look.  I appreciate Your suggestions, but I don't really like the idea to show just a generic icon.
+22192|@alexandrudima link to code - https://github.com/Microsoft/vscode/blob/fb5b68d199918fbe58e57d4faa3909580430fa4e/src/vs/base/common/strings.ts#L184  The problem is in `\b` - it doesn't support non-en symbols
+22193|Closing this as the changes are merged into the master
+22194|Closing in favour of #6099
+22195|By analyzing the blame information on this pull request, we identified @bpasero and @mquandalle to be potential reviewers
+22196|Actually, the problem is bigger than textual suggestion. Basically, all language features that don't work with merging results (suggest, formatting, etc) were affected cos before they were known to be coming from a built-in language and getting the lowest score. For instance, an extension adding/replacing formatting for html would be broken by that change. That's why we restored the old implicit knowledge.   Once, everything moves to the extension host, the problem goes away because you top the score by coming [later](https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/modes/languageFeatureRegistry.ts#L41) which you do by taking an ext-dependency
+22197|This is a larger effort and I am unsure if it would pay off...
+22198|Not easy to reproduce, but I was able to do with triggering code assist after `border-width: 0` and entering `k`. Pressing Enter on the 'No suggestions' window brings you the error dialog.
+22199|"Chrome and Firefox already handle this nicely with CSS styles (pass style objects to %c specifiers in the format string):  https://developer.chrome.com/devtools/docs/console#styling-console-output-with-css  It would great if the VS Code console could just support the same interface.  It's simple and easy to use.  Please don't reinvent the world.  ---  That said, ANSI escape sequences sent to the console (which under the covers might be able to use the same style mechanism) should also ""just work""."
+22200|This has to do with the HTML formatter configuration. Both 'a' and 'template' are by default on the list of unformatted tags. In the next build I remove template from that list and make the list explicit in the settings. See my comment in #5426 how you can configure the list of unformatted html elements  Duplicate of #5426

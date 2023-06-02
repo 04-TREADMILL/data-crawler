@@ -1,0 +1,100 @@
+26701|[monaco] bogus hover range
+26702|VS Code Crashing during update
+26703|Double clicking a file opens the editor but not the file
+26704|The markdown preview is not interpreting checkboxes [ ]
+26705|annoying space in integrated terminal
+26706|GitLens can not work on .vue files
+26707|output channel does not auto scroll with append()
+26708|Removing Git crashes or lags the editor
+26709|Suggestion: Add support open with specified line and column position
+26710|Snippets on top again, covering real proposals
+26711|Sticky scroll - keep containers headers visible when scrolling
+26712|Clinking on a completion proposal inserts different result
+26713|"Keep ""untitled"" files available between executions."
+26714|terminal layout error
+26715|"VScode throw an error on code ""try {throw new Error(); } catch (e) {......}"" when launch debugger"
+26716|Docs repeated in suggestion list in typescript for certain types
+26717|"Grid unit ""fr"" is not syntax colored as a css unit"
+26718|Git: Command to stage all selected files
+26719|"Key ""c"" acts as DELETE key in the editor in v1.12 / v1.11"
+26720|Feature request: Toolbar
+26721|Installer/Updater hangs when an instance of Visual Studio is open
+26722|Notification handler 'namespaceUpdate' failed with message
+26723|"Incorrect error for tslint.json for ""no-consecutive-blank-lines"""
+26724|"Theming: ""terminal.foreground"" only works if using ""terminal.background"""
+26725|Delete key doesn't work when Find in Files is in effect
+26726|VSCode seems to be shelling out using /bin/sh and not default shell
+26727|Restore all open windows after a VSCode or OS restart, as is done when updates are applied.
+26728|"""Find All References"" throws error"
+26729|Latest Versions of Socket.io Not Listed When I Hover Over Package.json Dependencies (And No Updates Available)
+26730|git-bash does not init .bash_profile
+26731|Allow multiple views to show at the same time
+26732|Better sort of recently used items on Quick Open Menu from external folders
+26733|Refactor TextEditorOptions.fromEditor to be a Static Method
+26734|Theme statusBar.background doesn't work if a folder isn't open
+26735|"Debug using NodeJS is resulting in vscode using ""read only content from NodeJS"""
+26736|Toggle expanded docs, add stickyness to expansion
+26737|webview rendering performance issue for large size HTML
+26738|Git extension bug: All files display change on Windows Os but normal on linux
+26739|Ctrl + j not working in integrated terminal with zsh
+26740|Can't rebind search key (cmd + shift + f)
+26741|Fix for terminal.foreground not working
+26742|EditorFontSize equivalent for Explorer text
+26743|When VSCode exits it leave terminal executed applications running instead of closing them.
+26744|Vs code updates, the latest version appears after the error
+26745|CSS Tab Completions giving unexpected results ?
+26746|Problem when install extensions with proxy server
+26747|Intergrated terminal content jumps out of the panel
+26748|vscode git.exe cpu too high
+26749|Theming: search decoration in overview ruler (find widget, search viewlet)
+26750|Typescript language erroneously reports issues in Problems pane
+26751|Theme: inconsistency for text field inside extensions sidebar
+26752|hygiene task broke Travis CI build
+26753|Text may blurry on Windows
+26754|"Split editor command (Cmd+|) throws exception"
+26755|Update hygiene filter to fix CI build
+26756|Cannot write code in editor on new empty files
+26757|vscode + anaconda virtual environment + ubuntu terminal
+26758|Scrolling lag when using the touchpad on Surface pro 4
+26759|Change All Occurrences doesn't select all occurences
+26760|Terminal leaks processes
+26761|VS Code not recognizing a git repo workspace
+26762|How to communicate between a command in extensions.ts and debugadapter.ts
+26763|can not open integrated terminal
+26764|Scoping on javascript variables definition
+26765|drag and drop option
+26766|Multiple rows merged into one line
+26767|Support crashReporterHockeyAppSubmitURL
+26768|[Tree Explorer API] vscode.window.registerTreeExplorerNodeProvider is not a function
+26769|Add cli option to size the window pixel perfect
+26770|VS Code is not killing processed started through the integrated terminal when the terminal is closed
+26771|"""Running the contributed command:'markdown.showPreviewToSide' failed."" on file open from explorer"
+26772|VS Crashes On Windows Running As Elevated
+26773|Auto close single and double quotes aren't working
+26774|Do not keep saved what I researched in the search bar.
+26775|Hope console instances can be displayed as tabs, so that I can run commands parallel.
+26776|WorkbenchKeybindingService._cachedResolver stale after ElectronWindow.setup
+26777|Ubuntu 16 - Freezes frequently
+26778|[bat] correctly support %%
+26779|Feature Request -- Allow install from windows app store.
+26780|"Feature Request: Add commands to ""list"" for focusing the first and last child of the current tree"
+26781|VS Code should disable/deactivate extensions before uninstalling them to prevent uninstall from failing
+26782|CSS Rename Symbol action on class leaves superfluous dot character
+26783|Allow trailing commas in settings JSON
+26784|Error: Could not find or load main class hello
+26785|VSCode upgrade now causes warnings for plugins on every single tab
+26786|'javac' is not recognized as an internal or external command, operable program or batch file.
+26787|regression: parameterized snippets no longer work
+26788|Feature Request: Reload when extensions update finishes
+26789|find next/previous re-opens find dialog
+26790|mix-blend-mode is not syntax colored as a css property name
+26791|Feature request: peek implementation or type details of an assigned object.
+26792|Allow to change Visual Studio Code icon
+26793|Hard crash (of everything) when terminating running task
+26794|Extension change logs don't render markdown tables
+26795|Running the contributed command:'npm-script.run' failed.
+26796|Add feature from #22769
+26797|Restart doesn't save files.
+26798|打开终端后，编辑窗口变成终端插入模式了，复制粘贴快捷键也变了
+26799|Debug - Unable to set a breakpoint for git modified files
+26800|Unable to debug ps script with import-module webadministration in windows 10 using Visual Studio Code

@@ -1,0 +1,100 @@
+1101|Provide an option to hide the activity bar
+1102|Changes can get lost when application crashes with dirty files open
+1103|Universal installation script and .desktop files added
+1104|How to prevent CompletionItemProvider from being executed in strings and comments?
+1105|Code crashes if you exit the launching process
+1106|Selection Highlight stops after 1000 matches
+1107|Extensions: Upgrading Extensions Blows Up
+1108|Quick info gets cut off for long text
+1109|Explore view does not refresh on outside changes to the source tree
+1110|"Find and replace ""line break"""
+1111|Markdown Preview Under Working Files Should be Sticky
+1112|vscode can't open twon instance?
+1113|Avoid 3x file size memory pressure when resolving file contents
+1114|Javascript objects not highlighting correctly on master
+1115|Corrupted extension in the extensions folder
+1116|TAB should not indent empty lines in a multi-line selection
+1117|Markdown Inline Formats in Headings doesn't themed correctly
+1118|Define Launch.json based on file type
+1119|Isidorn/extensions statusbar
+1120|whether i can add an api in vscode for my plugin?
+1121|Change defaults for tabSize, insertSpaces
+1122|Use horizontal layout for inspectors such as locals, watch window etc in debug mode
+1123|Use a separate column to show the value of a variable or expression
+1124|Use an expand/collapse control to control wrapping of long values in locals and watch window
+1125|Allow viewing up to three panels side by side in horizontal layout
+1126|Support snippets, intellisense etc in debug console
+1127|Expose exception settings in a json file
+1128|quickSuggestions auto completes numbers with decimals
+1129|Improve workspace management
+1130|Intellisense UX
+1131|Notifications UX
+1132|Commanding UX
+1133|Polymer and x-tag support
+1134|Error pushing to git remote with http
+1135|"Intellisense completely hosed on files with names starting with ""temp"""
+1136|Backspace stops prematurely
+1137|Reloading Extension Host window doesn't restart debug session
+1138|No extension installed for 'test' debugging -- in Windows only, works in Linux
+1139|Ability to create custom Side bar Panels
+1140|Keyboard Shortcut prompts
+1141|Closing tag for style showing in intellisense when not needed
+1142|Tasks not showing up in Command Palette
+1143|Command palette search
+1144|[json] Provide full documented json schema
+1145|Debugger requires path to program be correct casing for breakpoints to get hit
+1146|[json] 'postbuild' and 'prebuild' scripts are missing from hints for ASP.NET project.json
+1147|Recent Folders should not be case sensitive in Windows
+1148|It's impossible to create a folder or file via new folder/file buttons when project has only folders in the root level
+1149|Uncaught SyntaxError: Unexpected end of input
+1150|Uncaught TypeError: Cannot read property 'symbol' of undefined
+1151|Cannot read property 'editOperations' of null
+1152|Cannot read property 'launch' of null
+1153|Introducing '.js' file causes errors with TypeScript code
+1154|Index all files in open folders for intellisense
+1155|Add select line command
+1156|Cannot read property 'highlightSpans' of undefined
+1157|Prevent data loss with automated backups for files and unsaved changes
+1158|Workspace UI storage not picked up when launching workspace with different casing
+1159|Document Range Formatting fails
+1160|Feature Request: Debugging of AngularJS projects
+1161|Joh/commands as api
+1162|Feature request : add file location and line number to CompletionItem
+1163|Allow multiple build tasks depending on file type
+1164|Can't write Vietnamese text in editor with UniKey software
+1165|Allow relative path when adding file to project folder
+1166|Joh/diag source
+1167|"""Change all Occurrences"" in a string with stop or whitespace chars"
+1168|Enrich completion item provider
+1169|Question: Is there a cli for this?
+1170|[js] Quotes not parsed properly in ES6 string templates
+1171|[python] strings in dictionary values incorrectly highlighted
+1172|Support JSON Schema for YAML files
+1173|Double-clicking leading whitespace should select all leading whitespace
+1174|debugging bluebird promises
+1175|output console not showing process.stdout.write
+1176|Allow variables in launch.json config
+1177|Add more keyboard bindings for debug features
+1178|[editorconfig] Use tab_width instead of indent_size
+1179|[js] Parameters of ArrowFunction in JavaScript, does not get syntax hightlighted
+1180|vscode should have its own orgnization on github.
+1181|.ts and .d.ts files sharing the same filename interfere with each other
+1182|"Add ""select all matches"" command"
+1183|执行powershell显示乱码
+1184|Accepting completion from IntelliSense now selects the part that got completed
+1185|Text blur when check 'Find All Reference'
+1186|Bad suggestion sorting for TS compared to JS
+1187|Move overwriteBefore/overwriteAfter to ISuggestion
+1188|multiline string break colouring
+1189|Mac: Keybinding conflicts detected
+1190|Do not prompt to terminate running task when closing VS Code
+1191|Support encoding and lf/crlf from status bar for diff editor
+1192|[Cancel] buttom should in [Don't Save] buttom's right
+1193|Weird flashing when hovering
+1194|Adopt TS 1.7.5
+1195|support to pass arguments to debug adapters
+1196|Change horizontal scrolling to scroll the window
+1197|Request: Add events to OutputChannel such as onHide and onShow
+1198|Implement AddSelectionToAllFindMatchAction command class
+1199|[extension api] vscode.workspace.onDidOpenTextDocument can't be triggered
+1200|0.10.3: Changes in filesystem structure not always reflected in VSC

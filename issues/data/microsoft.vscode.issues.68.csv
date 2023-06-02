@@ -1,0 +1,100 @@
+6701|file associations should do the full thing
+6702|CSS variables: does not detect all variables use in this case
+6703|cannot undo change in the settings.json
+6704|file associations action should only open settings.json file
+6705|JSON edit doesn't honour indent style
+6706|VSCode command line not translated
+6707|changing file association doesn't reflect in open editor
+6708|Strange build behaviour building TypeScript from VSCode with Node v6 on Windows
+6709|Conflict detected, command `workbench.action.cycleEditor` cannot be triggered by ctrl+` due to workbench.action.terminal.toggleTerminal
+6710|No notification in running vscode when extension installed / uninstalled from command line
+6711|File Association action doesn't work if settings file is dirty
+6712|Keybinding conflict for ctrl+` on Windows
+6713|Integrated Terminal: do not use 'Esc' to close panel
+6714|JSON edit deletes comments
+6715|Integrated terminal does not react to settings changed
+6716|Notify the user that extension ids are case sensitive
+6717|Add setting for fontSize and lineHeight to the integrated terminal
+6718|The integrated terminal appears to be bottom-aligned, which makes it wobbly
+6719|Ability to install / uninstall multiple extensions at once
+6720|Accessibility: Cannot focus out of the integrated terminal
+6721|Exception thrown when installing the same extension twice
+6722|"""Windows PowerShell"" message line wrapped when opening integrated terminal"
+6723|[scss] instellisense doesn't work when importing variables from separate file
+6724|Using cls in integrated terminal sometimes freezes it
+6725|TypeError: Cannot read property 'getLineCount' of null
+6726|Window freeze when receiving lots of output (extension host)
+6727|Scrolling to the bottom sometimes makes the terminal jump under the file explorer
+6728|Cannot read property then of undefined
+6729|Integrated terminal wraps incorrectly
+6730|Total number showing references or definitions count during Go to or Find all references is misleadig
+6731|Badge showing counts per file is clipped in the bottom
+6732|Mouse wheel scrolling in integrated terminal only works on filled areas
+6733|[css] no code assist proposals after variable declaration
+6734|Feature: support Chrome console extensions in debug console output
+6735|Feature: add jump to file and line number to debug console output
+6736|Change file association is doing too many things at once and it is not clear what's going on
+6737|Intellisense for variable declarations
+6738|Animated open editors make me open two files on double click
+6739|selection problem in integrated terminal
+6740|Question: Would a wiki page about setting up Intellisense be useful?
+6741|[css] word rule should include '-'
+6742|explorer looses mouse over hover
+6743|[css] completions for variables adds too much
+6744|Cannot select and scroll beyond the bounds of the viewport in integrated terminal
+6745|arrow down and dots icon look similar
+6746|Debug N PHP applications: step over jumps to wrong one
+6747|Deb package not installable on Elementary OS anymore - claims package is of bad quality
+6748|editor preview tabs looks stronger then active editor tabs
+6749|[less] grammar does not highlight variables correctly
+6750|Unfriendly error message from code --install-extension xxxx
+6751|`exit` in integrated terminal should collapse the panel or present a button to restart it
+6752|Restarting the session is not respecting internal console options
+6753|Align Open Editor and double arrow down
+6754|[less] grammar does not highlight variables correctly
+6755|integrated terminal: customizing colors through user settings is a bit weird
+6756|Provide option to show all variables in the variables view (when count > 100)
+6757|code --installl-extension needs id which is not very user friendly
+6758|multi-cursor editing stops working on ubuntu
+6759|`unixLike` is probably better, but inconsistent?
+6760|code --unistall-extension: incorrect extension hint.
+6761|Peek definition should highlihght the line number
+6762|Integrated Terminal: after exiting PowerShell, a new PowerShell process is lingering
+6763|Can read property 'getLineCount' of null
+6764|Can not read property then of undefined
+6765|Peek definition and goto definition for css?
+6766|double vs single down arrow is bad alternative to enablement
+6767|"""editor.wordBasedSuggestions"": false but still getting word based suggestions in mark down"
+6768|multiple close actions in Open Editors section
+6769|JSON rewriting support should offer to write to user or workspace settings
+6770|openEditors.visible and openEditors.maxVisible
+6771|Configure file association action insert broken rule for default settings file
+6772|Configure file associations not inserting value when settings is dirty and value got removed before
+6773|Integrated terminal cursor is in the wrong position after resize
+6774|dragging an editor pins it
+6775|I can recursively peek definitions
+6776|Allow to configure where editors open
+6777|Improve editor.stablePeek documentation
+6778|Fill settings automatically when associating file extensions
+6779|Terminal: Can't press Escape key
+6780|Terminal: should inherit editor font by default
+6781|little drop when transitioning from preview to pinned
+6782|Terminal: tab completion is weird in zsh
+6783|Preview file does not split
+6784|Closing all files in a group except for a markdown file does not update overflow control icon
+6785|code-alpha --install-extension errors are in JSON
+6786|The file names labels seem to be misaligned
+6787|Migrated opened files should not be italic
+6788|code-alpha --install-extension lets me install the same extension twice
+6789|passing a non-existing launch config to 'vscode.startDebug' does not return an error
+6790|Code format stopped working
+6791|Badly formed version information in the VSCodeSetup.exe
+6792|Split action seems to inherit a few opened files from an existing group
+6793|Split action should always pin the editor it creates
+6794|code-alpha --install-extension: How to know the id
+6795|launching debug via 'vscode.startDebug' API does not work if there is no launch config
+6796|Suggestions need a kick to show documentation
+6797|launching debug via 'vscode.startDebug' API does not work if there is the selected launch config doesn't match the debug type
+6798|passing launch config without a 'type' attribute to 'vscode.startDebug' does not return an error
+6799|Sidebar pushed out of view when window is very small
+6800|Closing HTML tags with hyphens are not deindented properly

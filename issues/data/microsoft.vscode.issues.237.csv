@@ -1,0 +1,100 @@
+23601|showInputBox should have the ability to have an array of quickpick options as well
+23602|Visual Studio Code background glitch
+23603|If an external console instance is open, the shortcut for toggling the integrated terminal (ctrl + `) toggles the external console instance and not the integrated one.
+23604|Tab count compare bug
+23605|Monaco works alone under node env with vscode-textmate.
+23606|Add extra theme colors to Solarized Dark for #23294
+23607|VSCode Insiders Blank Screen
+23608|python can't input in with debug console
+23609|Adds editor options overloads to showTextDocument & vscode.diff
+23610|Expose a setting to disable JSDoc autocompletion
+23611|Sort IntelliSense matches by score
+23612|Editor doesn't scroll when extending selection to the right
+23613|Update SCM API based on feedback
+23614|Add Encoding cp 850
+23615|Allow setting for bash config
+23616|SCM: Support only URI for iconPath
+23617|Opening a new window should read the user environment all over again
+23618|Toggling word wrap resets the view position
+23619|[Feature Suggestion] Navigate to Folder when entering Folder Name using Keyboard
+23620|Feature Request: change CodeLens position in the editor to make loading smoother
+23621|Update context keys based on latest SCM API changes
+23622|launch.json: no Intellisense for top level
+23623|Markdown preview breaks when moving the markdown file
+23624|Implement overflow design for the panel title
+23625|Allow different sort orders in Source Control view
+23626|ini file with unmatched quotes stops highlighting
+23627|column breakpoints are lost on verification
+23628|Can not open the same folder in a separate window
+23629|"""JavaScript heap out of memory"" when building on RHEL-7"
+23630|Fixes #4803: Adding support for swipe gestures on macOS.
+23631|[Bug] Intellisense stops working after a while from time to time
+23632|[Suggestion] File icon Keybindings
+23633|"Git: ""Open File"" editor title command should open in the same editor position"
+23634|need syntax highlighting for async function
+23635|Weird syntax highlight of TypeScript function return type when array
+23636|Exception widget UI update with respect to DA protocol
+23637|Updated on macOS changed my theme back to dark theme
+23638|Trim whitespace at the end of each line when pasting text
+23639|[loc][Query][VSCode] Please clarify meaning
+23640|Debugger doesn't stop inside Bluebird Promises or Generators
+23641|Scroll markdown preview with editor scroll
+23642|Git statusbar widgets stay visible when git isn't the active scm provider
+23643|Go to definition of default import
+23644|Support navigateUp/Down between Open Editors and file tree in Explorer
+23645|TypeScript code lenses: Mention required TypeScript version in settings
+23646|"""text/x-code-output"" not working for Output panel colorization"
+23647|feature-request: add to ignore list for scm/git
+23648|Unable to hide the extensions window
+23649|Windows: problems with symlinks with GIT scm
+23650|Feature Request: Option to add a timeout for notification
+23651|Brazilian Keyboard Layout: Can not connect different commands on Windows.
+23652|Pr 1
+23653|Backspace and arrow keys stop working
+23654|Reflow terminal lines when resized
+23655|"SCM: can on longer ""Open File"" from a change"
+23656|Keyboard layout changes are not detected on Linux
+23657|Cannot read property 'map' of null
+23658|"""press any key to close"" on ended terminal instances created via tasks when panel is not yet initialized doesn't work"
+23659|Activity bar: need dark/light icons
+23660|Clarify enableBold terminal setting
+23661|Console logs are missing newlines, when debugging an extension
+23662|Search: checkboxes in input fields are not themed
+23663|Can I extend / merge language gammars?
+23664|[css] navigate between headings in css comments
+23665|C++ type highlighting and autocomplete #includes
+23666|Word Wrap state is lost after switching tabs
+23667|VSCode is forcing the wrong version of `npm` to be used within git integration, linting pre-commit hooks.
+23668|Markdown preview does not render properly when zoomed in
+23669|Undo and Redo in explorer of sidebar
+23670|Add an option to enable/disable JSDoc autocomplete
+23671|shellArgs.windows parsing issue
+23672|Linux UK layout: Ctrl + Apostrophe also toggles terminal
+23673|Several fonts at the same time for different elements of the code
+23674|[ Ctrl + i ] Select current line problem
+23675|New keybinding complex commands don't have argument descriptions
+23676|Paths from the WSL filesystem (bash) do not open on clicks
+23677|Replacing selected text with )]} fails to delete old text with backwards-dragged selection
+23678|Text in Debug Console Inserts Unwanted New Lines
+23679|snippets doesn't work
+23680|Have a way to do editor history navigation across split views
+23681|The format do nothing!
+23682|Autohide output panel when autoshown
+23683|Format indentation issue?
+23684|[scss] --- should be marked as error
+23685|"Snippets started with ""#"" not worked"
+23686|ctrl-D encountered consequent results and next would find the 2 results together
+23687|Extension host terminated unexpectedly
+23688|Encoding auto guessing: Use buffer properly
+23689|Save VSCode User Preferences by Logging in
+23690|Debugging edit expression will be nice a option - Feature Request
+23691|SCM Icon blinking
+23692|launch.json shows stale warnings after deleting/closing
+23693|Improve search performance and support Sublime's Go To Anywhere feature
+23694|Snippet tabstop selecting content of previously entered variable only works when separated by space
+23695|Show changes action not working again
+23696|Debugger intermittently hits/misses breakpoints in extension activation code (race?)
+23697|JSON does not mark a tab inside a string as an error
+23698|Ctrl+D changes search input for repeated content
+23699|Format on save removes multiple cursors and moves main cursor
+23700|"Remove background color for ""Copy text with formatting"" feature"

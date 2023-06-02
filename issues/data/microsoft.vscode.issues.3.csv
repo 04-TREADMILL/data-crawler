@@ -1,0 +1,100 @@
+201|decorators in object literals not working
+202|Expose ISuggestions.incomplete
+203|[xml] Closing XML element with namespace prefix generates element without local-name
+204|"Integrate ""gulp whitespace-style"" in ""gulp watch"" & cont. build"
+205|Feature Request: Mercurial Support
+206|Feature Request: SVN Support
+207|Remember all UI state even when reopening window without workspace
+208|cannot open a txt file that use gb2312 encoding correctly on windows
+209|Small changes to improve document readabilty
+210|Git commit message input field no longer resizes
+211|Add file icons support in the explorer
+212|Is possible to have it on Lumia 950 in near feature with .NET SDK ?
+213|Debug Console has lost highlighting in
+214|Terminate an task by keyboard
+215|Installing extension behind a firewall
+216|[grammars] provide alternative to TextMate grammars
+217|Support the ability to copy to clipboard in extensions
+218|Webdav network drive not work
+219|Use a chat system, such as Gitter
+220|Allow VS like flexibility of view layout
+221|stdfork does not respect stderr
+222|D language support
+223|Please provide column selection cut and paste[feature request]
+224|Proper tabs for open files
+225|Crash
+226|[debug] console: long text must wrap, otherwise I cannot see my long values
+227|[sideloading] needs to happen in main thread
+228|[debug] Console triggers bad/blurry Chrome antialising
+229|rpm & repository for Fedora Linux
+230|Getting TypeScript errors in JavaScript files
+231|Code completion breaks snippet flow
+232|False positive in file path pattern matching in Output Channel
+233|"InputBox and Info|Warning|Error messages overlapping"
+234|Open a folder via navigation bar doesn't work in 0.10.0
+235|How to add icons and extra descriptions in showQuickPick
+236|[network] after adding a folder mapped to a SharePoint library, Code editor doesn't work (at all)
+237|Is CSP enabled in @code?
+238|API: Support a multi select list
+239|API: Extra events like onPreSaveTextDocument?
+240|No intellisense on Linux for ASP .NET 5 coreclr x64 1.0.0.-rc1-final
+241|Windows: Jump list misses files and folders in the recent category when opened
+242|ES6 javascript template syntax hightlighting not using string color
+243|task runner output doesnt show color for gulp taks with --color switch arg
+244|[xml] XML Language color preference parsing degraded in latest release.
+245|Setup Travis CI
+246|"support for ""complex"" data types in C"
+247|dnx web command isn't picked up in OSX vscode beta
+248|JavaScript syntax highlighting detects wrong string start in regex
+249|Document dependencies for Ubuntu (and other distros)
+250|[scss] IntelliSense Suggestions After Semicolon
+251|Cannot validate the php file.
+252|[debug] Option for 'evaluate' if it comes from watch or console
+253|option to not render lines in Debug Console
+254|Completely zooming in and out causes font to slightly blur
+255|[debug] Debug console should allow newlines in output
+256|How to debug Meteor app?
+257|[javascript] TextMate themes don't seem to apply to all keywords
+258|Quick open filters inconsistently between editor history and file search
+259|Shortcut `use regular expression` mode in Find
+260|Copyright scripts need love :heart:
+261|[tree] Tree hover has black background in dark theme on Linux
+262|Support Custom User Agent String in http.proxy
+263|"ES6 imports ""go to definition"" jumps to import, not original definition"
+264|VSCode forgets the file that was open after restarting it when uninstalling an extension.
+265|Ctrl-Shift-Tab File Switching Querk
+266|Application freezes after pasting information
+267|User snippets not working for installed PowerShell extension
+268|Extension update notifications
+269|Shell script to install vs code in Unix systems
+270|Linux: cups and other dependencies
+271|xml formatting no longer an option
+272|Supporting creating a new document virtually
+273|Markdown syntax broken since last update
+274|One click script for installing on linux
+275|Debugging asp.net 5 applications
+276|Add more extensions to built-in PowerShell support
+277|[jade] colorizing broken
+278|Regex unable to find/replace blank lines
+279|Reverse the Notification Stacking Order
+280|Microsoft Edge not included in IntelliSense browser support info
+281|Git remote options (push, pull & sync) are disabled
+282|Where is Electron?
+283|ESLint works when ESLint extension is installed. Docs describes ESLint support without mentioning the extension
+284|Add option to display trailing whitespace
+285|Debugging without an open folder
+286|"[json] Can't find/use tmLanguage scope ""source.json"""
+287|Editor no longer closes quotes for PHP
+288|"Add php reserved keyword ""yield"""
+289|Missing length units in CSS autocomplete
+290|Update css <length> units used by CSS auto-complete
+291|persisting zoom in/zoom out settings
+292|Unable to specify a search sub-folder
+293|Missing <angle> and <resolution> units in CSS auto-complete
+294|Add 'turn' to <angle> and 'dppx' to <resolution> data types for CSS auto-complete
+295|For large git repositories the git integration button shows a visually distracting clock periodically
+296|Electron segmentation fault
+297|[Typescript] useCodeSnippetsOnMethodSuggest option generate wrong code
+298|Object methods are missing IntelliSense
+299|[Handlebars] No understanding of open Handlebars tags
+300|Vim control mode

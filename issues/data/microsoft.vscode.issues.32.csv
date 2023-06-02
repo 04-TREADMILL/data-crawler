@@ -1,0 +1,100 @@
+3101|Var and function keywords not colored in js
+3102|Uncaught Error: Could not find file: '
+3103|Uncaught Error: Could not find file: '
+3104|Fix code folding keyboard mix up
+3105|vscode.d.ts: workspace.rootPath is read-only
+3106|Expose ConfigureTaskSystem action
+3107|Assertion failed: object->InternalFieldCount() > 0
+3108|Support to theme the entire workbench
+3109|I can't do vsce package on my mac but on the pc (It has to do with the EventEmitter)
+3110|JSON brackets don't work anymore
+3111|Added tslint to the hygiene pre-commit check
+3112|Go To Definition Javascript file - is not working on last couple updates
+3113|Scandinavian characters
+3114|add support for restarting debug session
+3115|Display the full workspace path in UI
+3116|VScode restart do not bring back all opened projects
+3117|Suggest wigets should react to mode changes.
+3118|Add snippet support to tasks.json
+3119|Feature request: Go to method declaration
+3120|Add EOL option
+3121|[snippets] Support snippet contribution on a specific file
+3122|Add keyboard shortcut for Intellisense full-text
+3123|code .  opens the current directory, code .. also opens the current directory - not the parent
+3124|Uncaught exception when calling connection.console.info()
+3125|Opening a certain folder causes Code to lock up.
+3126|Allow customization of mouse shortcuts
+3127|VSCode doesn't launch at all from the terminal (Ubuntu 15) after v0.10.8
+3128|Debug and tasks should fetch latest configuration from disk
+3129|NPE in suggestWidget
+3130|Change accelerator key for menu item: User Snippets from 'U' to 'S'
+3131|Nodejs Require autocomplete not working anymore
+3132|Redesign Feedback Form dialog
+3133|disable autocomplete in .txt files
+3134|code crashes when I leave it running overnight
+3135|"Add action for ""Switch to Editor View"""
+3136|Linter does not find all errors that the browsers do
+3137|The linter is mis-reporting issues or is just really slow to update the editor
+3138|How to untangle menu bar?
+3139|"""Open Recent"" doesn't remember the most recent items"
+3140|Debugging with Mocha and TypeScript does not reach breakpoints
+3141|[css] Order suggested CSS properties based on usage not alphabetically
+3142|Markdown code block in editor mode not colored if more than 4 spaces in the beginning of the line
+3143|Extensions can't work with large files
+3144|Cannot invoke an expression whose type lacks a call signature. (Angularjs syntax)
+3145|"Add ""launch""-type config to launch.json"
+3146|Fix opening code via command line using relative paths
+3147|vsc里正则替换怎么引用捕获组
+3148|‘window size bug’ when instances share one screen in Win10
+3149|LanguageClient does not handle IntelliSense correctly for PowerShell static class methods
+3150|File with ‘@’ character not visible in explorer tab
+3151|when console.log an Object, the attributes are showed as 'undefined'
+3152|nls support for package.json and common-js
+3153|Add a trace commandline option that logs actions on the file system
+3154|Fix the Windows build agent tests
+3155|Snippet support for tasks.json
+3156|Broken intellisense
+3157|call setExceptionBreakpoints only if more than one filter is specified in the corresponding capability
+3158|No coloring for embedded JS in HTML
+3159|hide CodeLens in diff viewer by default
+3160|Broken HTML on website (https://code.visualstudio.com/insiders)
+3161|Figure out mapping between old JavaScript lint rules and eslint rules
+3162|Node Server Debug
+3163|Remove Omnisharp from the core product
+3164|Latest releases not on GitHub
+3165|i can't download it form its site,seems that 'download' button doesn't pull any quest,anyone else see this situation?
+3166|Test Salsa as the default JS infrastructure
+3167|[debt] Actions should be allowed to be created with no service dependency
+3168|There is no shortcut for toggling the menu bar
+3169|C# parameter hints does not dismiss after newline
+3170|Code reports errors in removed source files
+3171|Taskbar icon's white borders
+3172|Occasional code mangling with tab on blocks of highlighted code
+3173|mkdir by nodejs module doesn't work in mac - Extension
+3174|Add support for peeking to file found a relative path of current string
+3175|New extension tips for php, ts, py, cc, rs
+3176|VS Code through Windows Explorer integration doesn't function if there is another instance of VS Code already open
+3177|Telemetry application insights refactor
+3178|Telemetry opt-out
+3179|Add diff language mode for .diff and .patch files
+3180|Enabling high contrast dark theme on all platforms + hc-dark improvements
+3181|"""Accessibility Tab Mode"" background and text pure white on hc-dark theme"
+3182|unresolved markdown link in IntelliSense description for ExtensionContext.globalState
+3183|Error navigation does not work
+3184|Extract The Code Editor
+3185|CMD+` does not switch through open vs.code windows
+3186|The new blog should provide the rss feed
+3187|Open file opens in a new vscode instance
+3188|Custom menu entires, context menu entries, and action bar items
+3189|Documentation of installer tasks
+3190|Meteor dev: A lot of undefined variables highlighted in VSCode
+3191|Enable Extension Tips by default
+3192|Improve hover appearance
+3193|RSS feed for code.visualstudio.com
+3194|Updated Swift Autocompletion Syntax
+3195|Update Rust Syntax to Fix Ligatures
+3196|File and folder icon theme feature
+3197|Node.js Cluster Example Fails under VS Code
+3198|[jade] Incorrect syntax highlighting of comments
+3199|Button positioning change [polish]
+3200|[json] project.json intellisense broken due to server change

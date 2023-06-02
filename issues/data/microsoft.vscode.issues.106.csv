@@ -1,0 +1,100 @@
+10501|Added editor.fontWeight and terminal.integrated.fontWeight configuration
+10502|Does not detect change of spaces
+10503|Duplicate identifier - NPM with Typings
+10504|Is it possible to have Intellisense for application defined constants?
+10505|Terminal io encoding
+10506|GUI crash when trying to open a folder
+10507|Shell script syntax highlighting stops after several one line function declarations
+10508|add gitignore for .vscode folder
+10509|Better icon name on Linux / Deb.
+10510|[TypeScript] No suggestions or validation
+10511|"Alt + F not triggering ""File menu"""
+10512|can switch preview support location?
+10513|preview for rst file is not updated when content changed...
+10514|Support non-block cursor types in integrated terminal
+10515|Scala plugin color error.
+10516|Add filename color support in the explorer
+10517|PHP code format issue.
+10518|An action to update all extensions in Extensions view
+10519|cut code replaced by empty copy command
+10520|vscode.commands.executeCommand doesn't wait for other executeCommand
+10521|Cannot type until extension host is started
+10522|Esc is behaving differently in in Find functionality when editor has selection
+10523|Quick open file search: flickers when typing while open
+10524|Intelisense doesn't work at all
+10525|Untrack files
+10526|Extension connection problems
+10527|[json] Hover/completion not working for scoped packages
+10528|Add ability to merge local git branches
+10529|Converting circular structure to JSON
+10530|Allow for menu contributions in folders of the explorer
+10531|C# Extension & Debugger Unsupported Linux Platform
+10532|Tabs for integrated terminal
+10533|Editable TextDocumentContentProvider for extensions
+10534|Debug does not show values for object children
+10535|Debug - TypeScript breakpoints ignored
+10536|plugin list save function
+10537|Communicate an extension's deprecated status
+10538|Use content hash to decide if a file if dirty indicator should show or not
+10539|How to prevent code changes while using beautify command
+10540|"Add support for ""fn+"" function key commands in custom keybindings"
+10541|Open contextual window
+10542|Incorrect number of unsaved files shown after rename symbol
+10543|Huge .browse.VC.db file
+10544|different highlights on win10 and on linux Debian
+10545|How to Show Validation Errors while using Custom Language in Editor
+10546|TypeScript + Debug - synchronization request
+10547|Execute functions during snippet expansion
+10548|Slow opening a C# file across the network
+10549|Undo stack wiped when node debugging
+10550|Bug: quick open shows recently-opened files that should be excluded
+10551|[snippets] Cannot override/disable snippets defined in extensions
+10552|can't  open  the everything
+10553|Javascript function within a function loses syntax highlighting
+10554|How to make a TextDocument to be *pinned*?
+10555|empty file appear after exit
+10556|Autocomplete is out of control
+10557|Cannot find runtime 'node' on PATH
+10558|Word Wrap doesn't work in compare view
+10559|Params error should limit to specific call in call chain
+10560|Implement debug target launching in integrated terminal
+10561|Terminal scroll to bottom does not work
+10562|Detect when IE/Edge is in High Contrast and automatically switch the theme to hc-black
+10563|Images saved/updated outside of VS Code aren't updated in VS Code
+10564|Intellisense for es6 class members doesn't work?
+10565|Up and down arrow key does not work in integrated terminal when using ubuntu bash as an integrated terminal.
+10566|Debugger shows wrong value of a C# property when hovered
+10567|Cmd + A in `Save as` input doesn't select whole text
+10568|showInputBox without highlighting default value
+10569|Provide source info when reading configurations
+10570|Copied output on terminal should have right whitespace trimmed
+10571|closing a Tab: Animation happens but tab is not closing
+10572|TabCompletionController causes severe perf hit
+10573|Adopt service library for all IPC communication main <=> renderer
+10574|Can't match multiline occurrences
+10575|Investigate whether vscode can listen for package updates when installed via deb
+10576|Fixes #10556: considering non open files dirty count using file dirty event
+10577|UX meeting agenda 17th August 2016
+10578|New VS Code Install Causes CreateProcess Failed Error Code 216
+10579|Signature Help shows only 2 lines of the method's comments
+10580|Unresponsive when expanding a folder with a lot of files
+10581|tasks.json showOutput IntelliSense shows silent as the default
+10582|[Debug] Failure returned for configurationDone is not displayed in UI
+10583|Single File IntelliSense not working on new file
+10584|Uri to jump to a specific line in file
+10585|本来用记事本都是可以打开正常查看的，结果用vscode 打开就变成乱码了？
+10586|Create an extension with simple icons support
+10587|git annotate feature
+10588|asp.net core with vc code
+10589|VSCode cannot show whitespace correctly
+10590|typescript format code broken
+10591|Request to enable font customization for other non-editor window
+10592|Get telemetry when extension editor opens
+10593|Feature request : remember the state of the workspace
+10594|Output windows shows Chinese character incorrectly
+10595|Extensions: README for local extensions doesn't show up anymore
+10596|When I hit a breakpoint vscode opens a new readonly version of the file, breakpoints not shown in gutter
+10597|Use IEnvironmentService everywhere
+10598|Showing TODO items in Problems window
+10599|[ruby] shebang is not reconized
+10600|Debug: ..watch variable menu option missing

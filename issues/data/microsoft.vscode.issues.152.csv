@@ -1,0 +1,100 @@
+15101|Unexpected js code format behaviour
+15102|Cannot execute git
+15103|Can't find in selection when selection is a single line
+15104|Background color highlighting drawn incorrectly
+15105|Suggestion
+15106|add conditional to rpm spec to test for arch, fixes 13616
+15107|Don't backup text file when auto save is enabled
+15108|Cannot exit empty workspace windows on Windows when hot exit is enabled
+15109|Not all windows restored after File -> Exit
+15110|Hot-exit should focus on previously focused file on restart
+15111|Remember cursor positions and opened editors on hot exit
+15112|Hot exit on Mac currently allows closing the final single window
+15113|Remember undo history on hot-exit
+15114|Closing the last window behaves inconsistently (hot-exit)
+15115|Close folder does not clear the backup workspace path
+15116|Hot exit took Untitled-2 as Untitled-1
+15117|`edit.delete` will move the cursor to the beginning of the line
+15118|How to use multi-line in Custom Snippets body part?
+15119|"Warning ""Invalid abbreviation"" in ""Jade"" Language Mode"
+15120|Assign a quit command from Ctrl+Q or Ctrl+Shift+Q
+15121|Incorrect intelligence and problem refreshing the error after correction
+15122|"Unable to update extensions: ""Command 'Extensions: Update All Extensions' is not enabled in the current context."""
+15123|Formatting code
+15124|IntelliSense completion list is inaccurate
+15125|Debug Toolbar invisible, Shortcuts for debugging not working
+15126|Feature Request: `auto_find_in_selection` option
+15127|Bad message service positioning in full screen, with custom title bar
+15128|Install 'React Native Tools' extension of version 0.2.2, but the status keeps in 'installing'.
+15129|Switching breakpoint condition should preserve the condition in breakpoint widget
+15130|Adapt TSServer 2.0.8
+15131|An extra title bar is shown for a second VS Code window in full screen mode
+15132|Custom Title: VS Code crashes when closing second tab in fullscreen
+15133|Address UI scalability concerns in the face of contributeable explorers
+15134|Introduce Selection menu
+15135|C# Code Folding Stops for Regions After Formatting Document
+15136|Review currently used terminology
+15137|Add keymaps the top-level Preferences menu
+15138|View can be scrolled so much to present only last line at the top of the view
+15139|my IDE stopped working after update
+15140|Workbench - Explore improvements to settings
+15141|i cant work now on VS
+15142|[html] <pre> element should be formatted like <code> in editor, not like <p>!
+15143|Debug Pause never makes it to DebugSession
+15144|Cannot uninstall some extension
+15145|Mac: Double clicking the title bar doesn't maximize the window anymore
+15146|JavaScript intellisense with object parameter
+15147|About preference file
+15148|Feature Request
+15149|'Type aliases can be used only in a .ts file' error popping up in Flow enabled files
+15150|Debug hover should use scope information
+15151|"Hover on ""this"" says undefined, which is wrong"
+15152|Repl links fix
+15153|Support snippets in launch configurations
+15154|Node debug is not sending a 'thread' event when a new thread gets created
+15155|autocomplete doesn't honor full width period.
+15156|"API Access to ""Open Editors"""
+15157|Explore future direction of the task runner system.
+15158|Bash (Windows Subsystem for Linux) - Running without the SUID sandbox!
+15159|Font bad quality
+15160|Usage of @apply breaks css validation
+15161|Unable to open Release Notes - cannot read property replace of null
+15162|Command 'markdown.showPreview' not found
+15163|Request textDocument/documentLink failed with message: Path must be a string. Received undefined
+15164|settings.json reverted and now contains superfluous comma after updating to 1.7.1
+15165|Opening VSCode from cmd/PowerShell binds it to that terminal's lifespan
+15166|Ability to publish prerelease build streams of extensions and opt-in
+15167|externalConsole dont support Chinese
+15168|How to add buttons in sidebar
+15169|HTML tag not paired in PHP files
+15170|No templates found. Run `F#: Refresh Project Templates` command
+15171|[sql] splunk spl syntax highlighting
+15172|Setting BP - Cannot read property 'length' of undefined
+15173|Changing Tab Endentation
+15174|Update to VSCode-Textmate 2.3.1
+15175|Zooming causes strange behavior for Extension READMEs
+15176|Support search/find within the terminal
+15177|"""Select all"" not available in terminal"
+15178|Copy (cmd+C) in panel removes selection after copy
+15179|Port language server implementation to TS 2.0
+15180|JS syntax variable highlighting only affecting some variables
+15181|NativeScript CLI not found, please run 'npm -g install nativescript' to install it.
+15182|Dynamically adding properties to an object doesn't show up in suggestions.
+15183|Remove jsconfig.json light bulb
+15184|"Intellisense not working - tsserver saying ""LanguageService is disabled"""
+15185|"""scanning"" indicator appears in status bar"
+15186|Improve large project warning for Js/Ts projects
+15187|UX improvements for automated typings acquisition
+15188|Find command doesn't work in debug panel
+15189|Add a setting to disable gpu acceleration
+15190|Error: Command markdown.showPreview not found
+15191|Remove jsconfig.json lightbulb hint
+15192|"""Switching to"" Release Notes editor, even if it is already open, causes it to reload."
+15193|Inconsistency in error/warning shown when trying to load markdown preview
+15194|code formatting not working good with JS
+15195|UX meeting agenda 8 November 2016
+15196|Add yaml front matter support for Markdown
+15197|SCSS highlighter loses track with & and string interpolation
+15198|Fix Markdown Colorization of Indented Block Quotes
+15199|"Document format is very slow | CPU | Any extention"
+15200|Add function preview summary window to editor

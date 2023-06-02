@@ -1,0 +1,100 @@
+14201|"Lightbulb always brings error: ""Running the contributed command:'_internal_command_delegation' failed"""""
+14202|Improve folder colors when using Ubuntu bash on Windows 10
+14203|Document when ReferenceContext.includeDeclarations might be false
+14204|Shift + Home doesn't select the text
+14205|menu bar not dark (using dark theme)
+14206|Intellisense completion issue in Debug
+14207|Cannot find runtime 'node' on PATH
+14208|Better handling of TSServer issues
+14209|[Feature Request] REST Client
+14210|KeybindingResolver#_addKeyPress: relax check for conflicting keys
+14211|External Monitor - Editor - Dark theme has background patches
+14212|"""ś"" letter cannot be entered into Integrated Terminal"
+14213|Format react-native code (.js files)
+14214|Intellisense not working at all
+14215|Add new cursor styles
+14216|"""it is recommended"" is overly passive"
+14217|Property 'moduleName' is missing in type.
+14218|VSCode is not honoring the order in which I return symbols
+14219|Polish language support
+14220|Feature Suggestion: Allow using multiple tsconfig.jsons
+14221|Icon theme's highContrast associations not working
+14222|Windows 7: title does not change when opening another one from File > Recent
+14223|Show progress of extension updates and installation
+14224|Open in one winform
+14225|Cannot set property 'totalFrames' of undefined
+14226|Cannot read property 'length' of null
+14227|Cannot read property 'on' of undefined
+14228|Uncaught TypeError: Cannot read property 'write' of null
+14229|Cannot read property 'getRemotes' of null
+14230|Cannot read property 'dispose' of undefined
+14231|Uncaught TypeError: Cannot read property 'getLineLastNonWhitespaceColumn' of null
+14232|Uncaught TypeError: Cannot read property 'getCallStack' of undefined
+14233|ctrl+k, ctrl+d does not format code as indicated
+14234|"Unable to invoke ""Disable"" action with keyboard"
+14235|Unable to open large files (543 MB)
+14236|MacOS: Dark Custom Title Bar
+14237|"can not save a ""large file"""
+14238|support to declare a json schema attribute as deprecated
+14239|Unresponsive debugger
+14240|Intellisense/OmniSharp stops working
+14241|handle python print error
+14242|Multiple debug sessions
+14243|Variable selection is moved after entering a code snippet
+14244|[Feature Request] Synchronize changes key binding
+14245|Very simple case where intellisense is not working
+14246|[Feature Request] Add 'artist mode'
+14247|Smart Code Snippets (Complete the feature please)
+14248|debug repl: unhelpful intellisense
+14249|Open  Multiple folders
+14250|ConfigurationRegistry handles contributed configs very poorly
+14251|"""editor.renderLineHighlight"": ""gutter"""
+14252|debug repl: since we've got object previews consider to turn off out-expand
+14253|Bring isDirty closer to editor model (onDidChangeTextDocument Api timing issue)
+14254|TS/JS - Adopt new grammar @aeschli
+14255|Finish Extension Packs:
+14256|Add Pin Tabs
+14257|Option for show warnings/infos only for current file
+14258|Gallery requests miss user id when done from shared process
+14259|Logo jumps up when last file is closed
+14260|[loc][Query][VSCode] Please provide more context
+14261|[loc][query][VSCode] Please clarify the placeholder
+14262|[loc][query][VSCode] Please clarify the string
+14263|Autocompletion is losing type information in variable initialization
+14264|Terminal.processId doesn't seem to be working on Windows
+14265|Test format document and format selection actions
+14266|Test: Enable / Disable Extensions
+14267|Test formatter enablement settings
+14268|Test new onDidChangeVisibleEditors-api
+14269|Test extension packs
+14270|"""read ECONNRESET"" and ""unexpected end of file"" errors"
+14271|Watermark: toggle terminal keybinding barely readable
+14272|Adopt vscode-textmate@2.3.0
+14273|Change HTML grammar to be more precise (embedded modes)
+14274|JS - Adopt automatic type acquisition @kieferm
+14275|Test: command to maximize the panel
+14276|Show a prompt when files modified externally on disk (apply, ignore, diff)
+14277|Test - TS Lint autofix on save
+14278|Test: [html] CSS autocomplete not working inside style in html file
+14279|Freezes when Chrome generates userDataDir in workspace
+14280|[loc][Query][VSCode] Please clarify the string
+14281|[loc][Query][VSCode] Please clarify string
+14282|Implement preview for objects and arrays in node-debug
+14283|Test: verify objects and array previews
+14284|Despues de actualizar a la version 1.6.1 ya no puedo guardar cambios en ninguno de mis archivos ! ! !
+14285|Dependancies for internal extensions
+14286|Save All doesn't include active document
+14287|[themes] let extensions contribute colors
+14288|Test: TS/JS - Adopt new grammar
+14289|request: support preserveFocus for webview
+14290|Return focus to terminal after toggling Sidebar
+14291|ctrl+alt+p no longer works as a keybinding when the editor is focused
+14292|Exporting and importing of breakpoints
+14293|Test: TypeScript upgrade to 2.0.6
+14294|Missing keyboard shortcut features from Atom
+14295|Test: Sublime Text Keymap
+14296|Test: Atom Keymap extension
+14297|Test: ESLint autofix on save
+14298|Integrated terminal unlimited buffer
+14299|Add support for large text files
+14300|tsconfig.json falsely processed

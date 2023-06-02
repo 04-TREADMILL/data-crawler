@@ -1,0 +1,100 @@
+19901|"VSCode error message: 'Cannot find name 'Promise'.' with ""additionalFlags"": es2015.promise"""
+19902|"""[nim]"": { ""editor.tabSize"": 2 } Unknown identifier"
+19903|[JavaScript] Syntax highlighting issue
+19904|Allow to configure title bar information (fixes #1723)
+19905|[proposal] Ability to export all installed extensions & share that with other PCs to install
+19906|Clearing Terminal only clears visible area
+19907|Extensions: Include and release additional (resource) files with a project
+19908|Step Into steps over in 1.9
+19909|outline and multiline string in
+19910|Switching document tab makes 'Remove Unnecessary Usings' pops up.
+19911|Find in all files should sort by priority
+19912|Find in all files should allow search within results
+19913|Mocha timeouts do not work when using inbuilt Mocha configuration for launch.json
+19914|Go to definition should also find functions across plain JS project
+19915|Quick Open should populate search field with selected text
+19916|JQuery intellisense only works in HTML files?
+19917|Delay when saving files in projects with tasks.json
+19918|Ionide Send to F# Interactive terminal window produces garbage output in vscode 1.9.0
+19919|Emmet Tab Key Not Expanding In Certain Scenario
+19920|Empty workspace: restore untitled dirty files in the order they were after restart
+19921|[Markdown Syntax] Splitting lines causes formatting to not work
+19922|Option to remove __proto__ from object info in the varables and mouseover popup views
+19923|vscode not able to pick up node version from nvm
+19924|Modify/disable built-in snippet
+19925|error con el uso de directorios virtuales... o en la red ...
+19926|Snippets stopped working
+19927|"no maping one directory | Esta version esta pésima se cuelga por todo"
+19928|UI is hard to use on 125% DPI monitor
+19929|Can't type due to cramped text. - Issues after the update.
+19930|Export plugins and settings
+19931|If I can have a Chinese version of the release notes
+19932|Yaml and Markdown yaml front matter doesn't like single digit months or days
+19933|default to global .gitignore if none is found in project
+19934|The indicator on the markdown preview is not visible when the dark theme and the background is white
+19935|A Pane to List Todos Neatly
+19936|Tasks not running in project stored on network file share
+19937|Image opened in editor will closes if writing to it takes too long
+19938|Markdown scroll synchronization doesn't work
+19939|git clone nvm with --depth 1, to make clone faster
+19940|Debugging support for Babel transpiled ES6
+19941|Error when trying to use the `lzma-native` npm module
+19942|Fuzzy Search in Cmd palette should rank results with closer search terms higher (fixes #14727)
+19943|TypeScript: Global variables and functions marked duplicate
+19944|Formatting issue in latest version 1.9.0
+19945|unable to debug nodejs code written in es6 + async await and transpiled  with babel.
+19946|VSCODE 1.9 does not display inline help and output from Python ext
+19947|Coloration issue
+19948|Resizes the tab size when dirty file state changes, fixes #15364
+19949|As long as a js file occupies a high cpu
+19950|Fixes #16424 - Added option to toggle matching brackets highlighter
+19951|Code Lens's is not vertically middle
+19952|Scrolling with Surface Pro 4 is terrible. Delays to start scrolling.
+19953|'Extensions: Check for Updates' does nothing
+19954|Text selection is very slow
+19955|Explore using a native third-party search tool such as ripgrep or Silver Searcher
+19956|On save the entire file is formatted differently than settings
+19957|`git diff` in terminal doesn't work
+19958|Several versions of vscode after update
+19959|ctrl + ` launch terminal command also increases zoom level
+19960|Disable hover in editor
+19961|Error pylint is not installed when vscode has installed it
+19962|Powershell integrated terminal stopped working on macOS after upgrading to 1.9.0
+19963|Generated tasks.json for TypeScript watch mode contains deprecated isWatching field
+19964|[json] Configure the severity level of trailing commas
+19965|Regression in search performance in 1.9.0
+19966|The TypeScript language service died unexpectedly 5 times in the last 5 Minutes infinite loop
+19967|open the javascript file,have a bug about Typescript
+19968|Cannot find runtime 'node' on PATH
+19969|typingsInstaller process causing high CPU usage
+19970|unable to verify the first certificate
+19971|Open js file always alert a WARN!!
+19972|Some problems about the new markdown features
+19973|test
+19974|can‘t find extension in editor
+19975|bug
+19976|Is there support remove spaces after opening and before closing curly braces?
+19977|Suggestion - Add a line-spacing or line-margin option
+19978|how to support object rest spread
+19979|Auto report
+19980|typescript always has a alert
+19981|Warn: The TypeScript language service died unexpectedly 5 times in the last 5 Minutes.
+19982|Implement reference streaming from language server to UI
+19983|Editor can loose focus when clicking into certain part of the word
+19984|TypeScript 语言服务意外终止
+19985|Retain terminal processes between window reloads
+19986|When double clicking a file that has vsc as the default app to open with the file does not open
+19987|add predefined variables to the tasks.json as comment
+19988|Title bar: show git branch information
+19989|警告，在过去的5分钟TypeScript语言服务终止了5次，一直闪跳，无法打字使用。
+19990|CSS auto complete not work
+19991|git.exe high cpu and memory
+19992|Style suggestions are not available in HTML page.
+19993|February Iteration Plan
+19994|${Env.<envvar>} not getting expanded in PowerShell debug configuration
+19995|"version1.9.0 "" autowrap ""  can't use"
+19996|Provide a command to toggle menu bar visibility without settings change
+19997|Rejecting in Promise.race will trigger debug pause
+19998|Undo (Ctrl+Z) when doing search-replace from the search window GUI does not work
+19999|"Remember previous values typed into ""Go to line"" quick open"
+20000|Allow to contribute IntelliSense for string only JSON settings

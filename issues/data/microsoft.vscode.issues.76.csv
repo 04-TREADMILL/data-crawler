@@ -1,0 +1,100 @@
+7501|[quick fix] ⌘. twice to quickly apply the quick fix
+7502|An API to get a range of visible positions in the editor
+7503|Monaco API build error: EditorWorkerClient not exported
+7504|"Remove ""Last checked"" on update menu item"
+7505|Show Git shortcut inconsistent on Mac
+7506|scrollBeyondLastLine : support integer value
+7507|HC Theme: icon glitch in opened editors
+7508|Support file watching on Windows < .NET Framework 4.5
+7509|Is it possible to let previewHTML can really run HTML url?
+7510|Three click the line number to select a paragraph
+7511|Refactored PowerShell language definitions
+7512|Integrated Terminal CopyPaste from Terminal
+7513|Terminal problem
+7514|Exit on Integrated terminal with zsh.
+7515|Key binding for openToSide?
+7516|Stray processes left when closing the main window
+7517|ENOSPC errors not showing up on the gui, but breaks intellisense.
+7518|Unable to Search for or Install Extensions Behind Proxy
+7519|Integrated Terminal CJK characters display error
+7520|When saving all, save whatever files can be immediately saved, even if some can't be
+7521|Explicitly refresh active text editor from extension api.
+7522|Output wrapping is broken
+7523|explore #7182
+7524|Implement editor model content hashing
+7525|Implement editor undo stack serialization
+7526|Errors in integrated terminal when powershell used
+7527|[Bug] Sass linter wrong errors for Sass each over a map
+7528|Cannot support Unicode or Chinese characters!
+7529|Panels should toggle focus between editor and panel just like other views
+7530|Provide terminal font ligature setting (disabled by default)
+7531|Webview: make theme colors usable from a TextDocumentContentProvider
+7532|[css-less-scss] problems are not having source information
+7533|[CSS] User-Snippets are not listed by writing single line
+7534|Format Code should not change indentation of function parameters
+7535|ctrl+r event is not consumed by the terminal
+7536|Open empty window on 'activate' when all windows are closed (OS X)
+7537|Secure Keyboard Entry for embedded terminal?
+7538|JavaScript no highlight for single 'var' statement for multiple lines
+7539|tasks command environment
+7540|Support blinking cursor in terminal
+7541|editor.wordBasedSuggestions in HTML
+7542|'ext install' displaying incorrect results when there are dashes
+7543|Terminal doesn't respond after run an infinite bucle program
+7544|Delete file while editing in the tree view does not remove it from working file list
+7545|Bash for Windows colors are unreadable with default terminal theme
+7546|Extension: jsonValidation for another language
+7547|Electron Helper draws 100% CPU
+7548|Add find all button
+7549|[Feat] Add project support
+7550|csproj support?
+7551|Allow baseUrl, paths, rootDirs in tsconfig files
+7552|Git blame support
+7553|Terminal text shifts to the left when scrolling up
+7554|# of references display modification
+7555|"""Open Folder"" opens base directory, not the specified directory"
+7556|taskName from tasks.json appended as a parameter when executed
+7557|Task running indicator stays spinning
+7558|Monaco Editor : reverse cursor is too big
+7559|VS Code fails to start/open  when offline
+7560|Can't pass parameters to the program when launching within VSCode
+7561|Running a debug/build of dotnet project when root with multiple projects
+7562|Weird autoformatting of es2015 import statements
+7563|editor.tabSize not respected when autoformatting on save
+7564|Debug .net core app failed if the configurations[x].program contains space
+7565|extension listen to git commit
+7566|Error when more than 999 rows using the Alt+Enter multiple cursor editor
+7567|Add an option to display control characters
+7568|终端命令行显示中文排版错误
+7569|"Certain TSX files break ""Format Code"""
+7570|TypeScript: Curly braces in angle brackets breaks syntax highlighting
+7571|Indentation conversion commands adjusted
+7572|Cannot debug Electron app on Windows
+7573|Error: [js] property type declarations can only be used in a 'ts' file.
+7574|Create css extension
+7575|Add the features to display whitespace when selected.
+7576|Issue in shifting focus from Terminal tab to Editor tab
+7577|Adding ability to insert characters in Keyboard Shortcuts
+7578|[Feature Request] Extensions: ability to detect light/dark theme
+7579|[Feature Request] Extensions: add an API to determine the type of word of a selection
+7580|Why the format will automatically remove the semicolon?
+7581|bad prediction on a file
+7582|Cannot read property 'status' of null
+7583|Triple slash reference should include extension '.d.ts' or not?
+7584|Integrated Terminal couldnot display chinese character
+7585|Integrated Terminal  ERROR
+7586|Can't read status of null
+7587|Gulp watch crashed
+7588|Fix extract when fileName is a directory
+7589|Cannot logout from git account.
+7590|Tests for Problems view
+7591|Support global replace
+7592|Cannot read property 'status' of null
+7593|Javascript highlighting is broken by const, conditional operator and string templates
+7594|Can't disable font ligatures
+7595|GitViewlet setVisible calls raw.status() blindly
+7596|RawGitService should throttle status call
+7597|RawGitService.statusCount should be better implemented
+7598|Memory leak when creating many decoration types and disposing them
+7599|background-update for new version of VS Code in Ubuntu - or an apt-get repository
+7600|Support 32\64 file redirection on Windows

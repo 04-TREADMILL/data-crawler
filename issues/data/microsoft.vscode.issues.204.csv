@@ -1,0 +1,100 @@
+20301|VS CODE Team,
+20302|Git: Support GitHub 2FA
+20303|Background color is blocky when displayed on an external monitor on macOS
+20304|Launch configuration for installed extension is missing
+20305|"""issues"" link in Release Notes does not work as intended"
+20306|"When vscode is out of date, some extensions keep showing ""update"" button even after updating"
+20307|macOS: set acceptFirstMouse for windows
+20308|Markdown preview not expand to fit text editor area after zoomed in
+20309|Markdown live preview doesn't update with missing file extension
+20310|Enhancement: auto-closing brackets to include backticks?
+20311|"Different behavior for ""Select Language Mode"" in Linux and Windows"
+20312|Create multiple folders at once in explorer
+20313|Test issue (please ignore)
+20314|"[WelcomeUX] Interactive Playground should have ""may not be supported"" disclaimer for some features"
+20315|Incorrect Recomendation Engine Navigation
+20316|Can't debug unit tests on fresh checkout
+20317|File rename
+20318|Implement reference streaming
+20319|No colors on .html files
+20320|Scrolling lag and unresponsiveness
+20321|Set machineId in shared process
+20322|webpack-dev-server not working from debugger on Windows 10
+20323|Send Script Kind based on languageId for js and ts files
+20324|Cannot use arrow keys to switch between menus.
+20325|vscode not clickable when on fullscreen in a dual-monitor setup
+20326|Keyboard settings lock up and change bindings
+20327|Show all source code when debugging against a remote process
+20328|Add command / status item to show which tsconfig/jsconfig project a file belongs to
+20329|typescript references doesn't work on variables/methods that start with '$'
+20330|Unable to debug the Extension Debugger code in Python Extension
+20331|Broken link in 1.9.1 recovery build
+20332|VSCode background color glitch
+20333|Add comments (#20349)
+20334|Add Command to Go To / Create project configuration for an active js or ts file
+20335|Pick up TS 2.2 2/9 insiders build
+20336|VS Code uses OSX `cmd + down` convention in the Sidebar Explorer
+20337|typescript error
+20338|Debugger moved to awkward place cannot access the grip indicator
+20339|Built-in support for PHP symbols
+20340|Typescript crashed
+20341|editor.formatOnPaste: Is there a way to control the formatting used when pasting?
+20342|keybinding of emmet selectNextItem and selectPreviousItem is not working
+20343|"in .blade file comment shortcut  ( ctrl + / ) is "" // "" not "" <!--  --> """
+20344|Too bad save all files, it made another each file incorrect content
+20345|wrong spaces for tab key
+20346|prefix error
+20347|HTML autocomplete and intellisense not working in template files.
+20348|Warning message loops popup while opening js file
+20349|right to left orientation of the menu
+20350|Can't open this git resource: Merge Added conflicts
+20351|SCM: make git commit box look like other input boxes (font, color)
+20352|`.deb` package fails linting on Debian
+20353|[loc][Query][VSCode] More context for a single word string
+20354|[loc][Query][VSCode] Please clarify translatability
+20355|Restore option is getting displayed for both project.json file and csproj file.
+20356|a warning dialog cannot be closed blured
+20357|[loc][Query][VSCode] Please clarify placeholder
+20358|"[loc][Query][VSCode] Please clarify ""language"""
+20359|[loc][Query][VSCode] Please clarify the string
+20360|[loc][Query][VSCode] Please conform translatability
+20361|[loc][Query][VSCode] Please provide more context
+20362|[loc][Query][VSCode] Please clarfify the single word string
+20363|[loc][Query][VSCode] Please clarify the abreviation
+20364|[loc][Query][VSCode] Please clarify the string
+20365|[loc][Query][VSCode] Please clarify the string/possible typo
+20366|Cannot add folder to root if only folders exist
+20367|Visual code window does not seem to be active window
+20368|[loc][Query][VSCode] Please clarify the string
+20369|debug console output
+20370|[loc][Query][VSCode] Plese clarify the string
+20371|Markdown preview line sync is reset when writing
+20372|Search: counter label does not update when I remove search results from the list
+20373|[loc][query][VSCode] Please clarify the string
+20374|[loc][query][VSCode] Please clarify the string
+20375|Unable to open file
+20376|I'm new to vscode and getting this error while installing python extension.Command 'Extensions: Disable All Installed Extensions' is not enabled in the current context.
+20377|By default 6 instances of VS code opens
+20378|vscode.window.activeTextEditor has incorrect typing
+20379|[loc][query][VSCode] Please clarify the string
+20380|[loc][query][VSCode] Please confirm translatability
+20381|[loc][query][VSCode] Please clarify the string
+20382|Search: clicking into result moves the entire result up by some pixels
+20383|Search: counter is totally off?
+20384|Feature Request: Support search operators in Problems tab filter field
+20385|TS: Goto definition ends up in wrong result
+20386|Intellisense for javascript file has too many .ts suggestions.
+20387|Possible QOL improvement when writing HTML
+20388|Wize module baseline
+20389|Allow better control over Windows font antialising
+20390|Search: Convert hardcoded tree actions to configurable commands
+20391|Debug: Convert hardcoded tree actions to configurable commands
+20392|Problems: Convert hardcoded tree actions to configurable commands
+20393|bug: open two vscode editor automatically
+20394|IDE 代码块显示问题
+20395|"""can't resolve inmemory resource"" error from problems pane"
+20396|SCM viewlet in no folder worksapce
+20397|createTerminal API help is outdated
+20398|The TrueScript language service dieed unexpectedly 5 times in the last 5 minutes repeatedly shows
+20399|Find in Files (or Replace in Files) with selection should start immediately and not take the focus
+20400|Show how to exit Zen mode when no editor is open

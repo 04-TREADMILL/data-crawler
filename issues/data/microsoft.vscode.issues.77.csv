@@ -1,0 +1,100 @@
+7601|Is the license of Visual Studio Code MIT?
+7602|Tabs: add animations
+7603|Support clipboard paste into integrated terminal
+7604|Ignore IntelliJ IDE directory
+7605|Add optional cursor blinking for terminal
+7606|format-on-type indentation places cursor in wrong position
+7607|Different background colors for different languages in a multi-language file
+7608|"Typing ""code"" from Start Menu loads inconsistent/confusing experiences"
+7609|Integrated Terminal cannot be launched
+7610|Edits made within the peek view do not create an open editor.
+7611|Cannot read property 'getStatus' of null
+7612|Vertical selection switches to row selection after deletion
+7613|Clink extension for Windows' standard command line not fully supported
+7614|Can't connect to a debug adapter server when the extension isn't installed in ~/.vscode
+7615|Add Document Types to Webview
+7616|Added remove and disable all breakpoints actions to the command palette
+7617|Add doctype to webview html
+7618|ALT+SHIFT+LEFT/RIGHT
+7619|Clink integrated terminal occasionally drops keystrokes on the UI when using backspace
+7620|Django debug stopped working after VSCode update
+7621|Extension ordering seems off
+7622|Disabled breakpoint reverts the breakpoint to original location (not where it bound)
+7623|VSCode doesn't show variable value provided by debug adapter in hover if there are variable references
+7624|Monaco API : `IRichLanguageConfiguration` deleted / renamed but still used in monaco-languages
+7625|Debug: Fix setConfiguration error when name is null or undefined
+7626|File associations
+7627|No markdown preview button when a file is not named ending with .md
+7628|CEO
+7629|Mouse Wheel Scrolling Ignores Mouse Control Panel Settings
+7630|Sass/Scss intellisense is broken in latest builds.
+7631|Built in terminal does not correctly work with nvm/npm
+7632|Tabs/Stacks: decide on settings
+7633|custom paths are not included in vscode env.
+7634|"keybindgs.json ""key"" does not tolerate spaces"
+7635|Tab: explore to keep close button stable when rapidly closing
+7636|Cmd + number should focus editor at index and not focus groups or split
+7637|Wrong input box color in dark theme
+7638|Find widget does not blend well when tabs enabled
+7639|"Never show pinEditor action when ""workbench.previewEditors"": false"
+7640|Split editor action does not show as disabled when limit hit
+7641|UI support for TimeTravel Debugging
+7642|[Localization] How can we help extend i18n support?
+7643|Typescript experimentalDecorators compiler flag not honored in VSCode
+7644|Context click on tab changes its background color
+7645|extract markdown into an extension
+7646|Peek definition for import {} in TypeScript
+7647|Commenting out in tsx file
+7648|Git: editor input cache is not aware of disposed inputs
+7649|Cannot read property 'uri' of null: TypeError
+7650|Diff view needs more UX affordance when tabs enabled
+7651|Rendering glitch for tab headers custom scrollbar
+7652|UX meeting agenda 14 June 2016
+7653|Ctrl + tab and Ctrl + Shift + tab behaves like in Browsers with tabs enabled
+7654|Resizing groups with multiple editors causes tab header flashing
+7655|Editor actions are hard to discover when tabs are enabled
+7656|Find & Replace UX ideas
+7657|HC theme - close action not rendered in tab header
+7658|Override Theme on a Rule by Rule Basis
+7659|Keybinding With terminal.close Command Doesn't Close Terminal
+7660|editor.trimAutoWhitespace doesn't re-indent on pressing Enter
+7661|.bash_profile not sourced in integrated terminal on mac
+7662|Install 'code' command in PATH when not Administrator
+7663|Please tag the 1.2.1 release
+7664|Markdown preview doesn't support html self closing tags
+7665|Searches search in excluded files.
+7666|Operationalize tagging releases
+7667|"View > Views > Problems results in ""No handler found"""
+7668|Cannot scroll in integrated terminal unless hovering over text
+7669|Integrated Terminal should be able to be moved
+7670|Adding a root level item experience
+7671|Tabbing with highlighted code ignores tab preference
+7672|"Debug error > ""No call stack available (Internal error: TypeError: Cannot read property '0' of undefined)."""
+7673|Clicking into editor does not properly take focus from Terminal view
+7674|Tabs & makefiles
+7675|The color of current line compared with git is not obvious
+7676|Add custom highlight effects such as bold, italics, underline, color, instead of just a grey rectangle
+7677|[python] ``[1,2)`` in raw string breaks syntax highlighting
+7678|Support preview images inline
+7679|Terminal with Git bash
+7680|VSCode stable release does not recognize Bash on Ubuntu on Windows
+7681|dotnet build failed but vscode is succeed
+7682|npm install output in console is messed up
+7683|Code is still runing after close it
+7684|vim in terminal  can not display first line
+7685|javascript highlighting: destructuring over multiple lines breaks highlighting
+7686|Duplicate warnings in built version
+7687|Need Close All action in tab context menu
+7688|Monaco API: `css` / `scss` / `less` aren't bundling anymore in monaco
+7689|View Menu : UX Ideas
+7690|[loc][Query][DevDiv] Translatability of Code
+7691|Bottom border doesn't show on tabs
+7692|"[loc][Query][DevDiv] Please clarify ""running"""
+7693|menu bar extensions
+7694|Multiple terminal management
+7695|EACCES when browsing extensions
+7696|No icons in css inteli-sense
+7697|No color box in css
+7698|Some suggestions missing in css
+7699|Actionbar registry should only ask contributor for action item where action came from
+7700|[Feature Request] Tabs: open new tab at the end

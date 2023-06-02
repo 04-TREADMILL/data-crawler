@@ -1,0 +1,100 @@
+7001|keyboard accelerators don't work
+7002|Omitting InputBoxOptions argument from showInputBox() results in error.
+7003|Add cs to the list of C# aliases
+7004|"make ""compileOnSave"" option of tsconfig.json recognized by vscode"
+7005|Stopping debugging while on a breakpoint crashes vscode
+7006|Intellisense stuck indexing when file is in an uncommon path
+7007|erratic reporting of [ts] cannot find module in excluded directories
+7008|QuickPickOptions.onDidSelectItem hides the PickList when another document is loaded in the view
+7009|Shorten file paths that are displayed in the UI
+7010|Opened editors: cannot drag an editor without URI
+7011|Fix #4255
+7012|glob: duplicate entries in parsed pattern
+7013|Revisit explorer reopening last used file when getting active
+7014|"Sporadic ""contents on disk are newer"" issues when saving"
+7015|Support interactive variables in launch configurations
+7016|API to get the scopes applied to the current position in the document
+7017|Command Palette closes when navigating away from window
+7018|Fix for issue 1490
+7019|Joh/paths
+7020|Cannot make CodeCompletionProvider for 'javascript'
+7021|Shortcut for code formatting doesn't work
+7022|[Question/Feature request] Show the list of errors using visual studio code editor
+7023|Run selected text in integrated terminal
+7024|When in Windows, do as Windows does aka store settings/extensions in %APPDATA% or %LOCALAPPDATA%
+7025|Chinese display problem in integrated terminal
+7026|feature-request : Disable extension
+7027|"No localization ""ru-RU"" to ""Toggle Integrated Terminal"""
+7028|In-File-Searchbar hides search result
+7029|Open Editors highlighting lags behind
+7030|Inconsistent JavaScript Highlighting
+7031|Hide Save All actions when auto saving is enabled
+7032|Drop Open Editors group rows
+7033|Talking about Group Left is confusing if there is only one group
+7034|Cannot trigger IME on Integrated terminal
+7035|If you have open editors disabled the Close All action should be part of the editor header
+7036|Keybinding conflict (scrollPageDown, scrollPageUp)
+7037|Auto detect ANSI encoding
+7038|Add option to let Ctrl+P always reveal editor if the file is already open
+7039|Ctrl+Alt+Tab seems impossible to bind on Windows
+7040|Step over not working in attached node (electron)
+7041|integrated terminal cannot open if the folder is Chinese
+7042|Cannot read property 'getLineContent' of null
+7043|Missing git decorations in scrollbar when workspace has wrong casing
+7044|VSCode remove whitespaces on debugging time
+7045|vscode does not support http.proxy url with hash symbol
+7046|Pressing Esc key to cancel the deletion, confirms the deletion.
+7047|Windows: the X to close an editor should be on the right
+7048|Overflow action is not a good indicator for a stack
+7049|Keep editor actions and stack related actions separate
+7050|AltGr not working in integrated terminal (french keyboard)
+7051|CJK character horizontal spacing is incorrect and changes when resizing the window
+7052|htmlPreview is not pinned
+7053|Markdown Extension: Contribute preview action to editor title area
+7054|Internationalize markdown extension
+7055|Markdown extension: Preview display performance
+7056|Markdown extension / webview: Focus border
+7057|Markdown extension: Syntax highlighting colors for markdown source
+7058|UX meeting agenda 1 June 2016
+7059|[sass] Warning for 'display: inline-block' as if it is 'display: inline'
+7060|Renaming a pinned file unpins it
+7061|172821984@qq.com
+7062|Code action to implement unimplemented members
+7063|[Feature request] Show errors/warnings in 'pinnable' panel
+7064|"When not in a folder File-N/Ctrl-N creates a new file but Command palette-new file displays ""Open a folder first to create files or folders within."""
+7065|Allow to print the editor contents
+7066|Terminal key combinations not working properly
+7067|VSCode overlays everything even when minimized on Ubuntu
+7068|scriptable terminal
+7069|upgrading installed 1.0 rpm to 1.1 removes /usr/bin/code and doesn't add a new symlink after upgrade.
+7070|rpm versioning
+7071|User settings are not overriding on mac
+7072|Option to auto-pin all
+7073|Add support for JSDoc's @inheritDoc for TypeScript
+7074|"Drop ""visual-studio-"" from packages names so they match command names"
+7075|paths.normalize(): perf regression
+7076|Debug popovers do not work for class' fields/properties
+7077|Open applicationHost.config with code, the file appears to be empty, even if it is not
+7078|Terminal: pressing Escape closes the terminal panel
+7079|need some visual feedback when the task is done (add post action to tasks)
+7080|run all tasks with `isBuildCommand` flag set on build (all isTestCommand on test)
+7081|Better behavior of the autoClosingBrackets-Feature for quotation marks
+7082|Snippet default value is only populated for first variable reference
+7083|Snippet with multiple variable refs is not completing properly, leaving multiple cursors in editor.
+7084|Use 64 Bit Terminals on 64 WIndows
+7085|Add Better integration between PowerShell Extention Terminal Session and New Integrated Terminal.
+7086|TypeScript should revalidate all files that were open in an editor.
+7087|crtl+mouseUp or ctrl+mouseDown text size
+7088|Markdown Syntax Highlighting - Opening Literal
+7089|Mouse word selection is strange when non-word character is at the end of line
+7090|View > Toggle Output, Debug Console and Integrated Terminal are missing on alpha
+7091|Editor Action Format hotkey not working on some jsx markup
+7092|Linux update flow is not very user friendly
+7093|Window Crashing very often
+7094|Install extension ranking is bad
+7095|Marketplace is bad at detecting licenses
+7096|Integrated terminal needs to be closed in memory not just visually.
+7097|Consistently hitting heap limits during optimize-vscode
+7098|Keyboard shortcut for switching between diff/editor views
+7099|C# Resolve for usings
+7100|Code inline highlighting not functional inside bold or italics text

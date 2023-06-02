@@ -1,0 +1,100 @@
+1|Looks easy enough!
+2|:+1:
+3|Will see what the problem is in gulp-symdest and then revert this.
+4|I believe that's our build machine not running gulp the way I want it...
+5|Duh, I simply did not compile. Invalid.
+6|@jrieken seems to have fixed it yesterday. Reopen if I'm wrong.
+7|`gulp-symdest` looks good. Wrote tests for it.
+8|It looks like this is in 0.9 as well.  Still and issue, but not a blocker for 0.10.1.
+9|related to [this commit](https://github.com/Microsoft/vscode/commit/8f35cc4768393b25468416829e980d7550619fb1)...
+10|This has been like that since day 1 and is currently blocked by https://github.com/atom/electron/issues/861
+11|In general IntelliSense works for RC1 of ASP.NET v5. It appears to only fail in this scenario and feedback from the ASP.NET team suggests this is not a blocker for 0.10.1.
+12|You should run the tests this way:  ``` cd vscode mocha ```
+13|Actually I take that back. Let me look into this.
+14|I can't reproduce. `./test/run.sh` works for me. Make sure you installed node dependencies.
+15|Hi **@bpasero**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (Benjamin Pasero). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+16|@joaomoreno please give it a review and let me know, this is for our November release!
+17|Same for Groovy:  ![image](https://cloud.githubusercontent.com/assets/900690/11176691/96825f70-8c3f-11e5-8cfc-c880b7400962.png)
+18|And Java, I will update the title and make this a generic Kimbie dark issue.
+19|duplicate of #4
+20|Python block comments are triple quotes, not double. Check if that works.  ``` python def f():   '''   example   '''   return 0 ```
+21|It does! Thanks @joaomoreno. @aeschli the bug is then that only 2 quotes are put in.
+22|Actually same is true for dark theme:  ![image](https://cloud.githubusercontent.com/assets/900690/11178594/08ccd5c0-8c4e-11e5-867e-26ec0ff61408.png)
+23|Hi **@aeschli**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (Martin Aeschlimann). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+24|:+1:
+25|This is so ugly!
+26|@bpasero: I don't see this using build ![image](https://cloud.githubusercontent.com/assets/1931590/11179637/248cec4e-8c55-11e5-8317-2f55110a0e5c.png)  Any additional steps.
+27|@dbaeumer this is on Mac if that helps.  ![image](https://cloud.githubusercontent.com/assets/900690/11179690/7102cfa8-8c55-11e5-9b3a-2ab5f2e65a73.png)
+28|I think the path is broken.
+29|@joaomoreno can you help me out why the vscode.png ends up in the root of the zip instead of under the app folder? The fix is to put vscode.png under app/resources/linux in the same way how the welcome.md is already there.  The code to copy is:  ``` javascript es.merge(result, gulp.src(product.icons.application.png, { base: '.' })); ```
+30|need to make sure we also update the fwlinks for the help menu and send a smile...
+31|Need to update script to increase file open limit
+32|Fixed, see #25, reviewed by Alex
+33|Fixed by me, reviewed by Alex, see #25,
+34|Fixed in b2c4ad0
+35|https://github.com/Microsoft/vscode-distro/issues/1
+36|Not a core Code issue, moving to here: https://github.com/Microsoft/vscode-distro/issues/2
+37|did you run `./scripts/npm.sh install`?
+38|Actually this is different and happens when using a non default dark theme.
+39|I cannot reproduce on OSX. Talked to Dirk, this isn't something that is easily reproducible and is not a blocker for 0.10.1.
+40|Fixed in 1de2c81
+41|Seems like the output we get from git has changed.
+42|Debugging this down, this is a regression. A change we did to vscode-textmate on Friday brings to light a issue in modeServiceImpl._getOrCreateMode: There we have a table of all created modes, as a table of promises. When there's no mode yet, a mode is created, the 'onLanguage' notification is fired and then the promise is set to the table. The text mate tokenizer listens the onLanguage mode and synchronously asks for the mode to add the tokenization support on. As the mode is not yet in the table, it will get a new one. Now we have two modes active. In the case of Javascript, the first one has the old legacy tokenizer, and seems to be the one used in the editor.  This has likely a bigger impact than just a wrong tokenization. We think we need to fix this.
+43|Yes, this is a bug on the VSCode side. The issue seems to be that we only show the thread in the call stack once a stopped event has happened for that thread.  I can fix the issue but it requires testing so I propose to do it after connect event.
+44|vscode-textmate issue: https://github.com/Microsoft/vscode-textmate/issues/7
+45|That's an issue of the Kimbie Dark theme, which is not authored by us. Also the C# and the Java tokenizers are not ours. I guess you have to use a different theme for these languages instead
+46|The toggle line comment does the following for languages which don't support line comments: - if there is any block comment on the line, it gets removed - if there is no block comment on the line, the line gets surrounded in a block comment.
+47|- Add displayName, categories, galleryBanner,
+48|Hi **@knitesh**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+49|:+1: :sunglasses:
+50|Hi **@lszomoru**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+51|LGTM
+52|there you go :dancers: https://marketplace.visualstudio.com/items/WakaTime.vscode-wakatime
+53|+1
+54|Hi **@caioproiete**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+55|Sorry, but this doesn't look like a meaningful PR.
+56|Thanks! :beer:
+57|:dancers:
+58|This seems fixed now! :ok_hand:
+59|Done!
+60|To clarify, none the commands in the following list work form when working with jsx files with a jsx syntax. ![image](https://cloud.githubusercontent.com/assets/1467146/11246573/35ccf37c-8de6-11e5-8650-d10501368106.png)  Version 0.10.1 Commit df352367df2efcfa9d602d471e4e2f42140a0f05 Date 2015-11-17T15:25:33.342Z Shell 0.34.1 Renderer 45.0.2454.85 Node 4.1.1
+61|"This is applicable to many languages, ruby is another example whose syntax is ""Hello #{customer}""."
+62|Hi **@mogemimi**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+63|@joaomoreno ???
+64|"I'm seeing a similar thing when editing Vue files (http://vuejs.org/guide/application.html#Single_File_Components). These are HTML-like and will have a script tag that contains JS. ![image](https://cloud.githubusercontent.com/assets/598411/11248393/d603c6fe-8e18-11e5-832c-63c820703760.png)  I have the following jsconfig.json file: `{     ""compilerOptions"": {         ""target"": ""ES6"",         ""module"": ""system""     },     ""files"": [         ""Editor.vue""     ] } `  (with Editor.vue being my file). I'm manually setting the filetype to HTML as well."
+65|Hi **@shadowfacts**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+66|+1 @ron-wade noticed that as well. Ended up using jshint instead.
+67|@tonyarkles Can you pull, delete the `..\Electron-Build` directory and try again?
+68|@Tyriar try increasing your file system handle limit: https://code.visualstudio.com/Docs/supporting/FAQ#_linux-error-enospc
+69|@chrisdias wanted to assign to you and merged by accident, fyi please check :)
+70|Hi **@joeskeen**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+71|&lt;nowords&gt;:+1: &lt;/nowords&gt;
+72|I can help with Portuguese
+73|I added it, I won't be able to reboot to check right now though. Regardless, shouldn't this fail gracefully instead of throwing a cryptic exception?
+74|Good catch! We [updated](https://code.visualstudio.com/Docs/supporting/FAQ#_how-to-disable-telemetry-reporting) the docs to mention this workaround.   ![screen shot 2015-11-18 at 10 03 13 am](https://cloud.githubusercontent.com/assets/2146228/11249442/a8d51ed6-8ddb-11e5-97ba-bb88b4cf7e20.png)  Another workaround is to change your security settings as described [here](https://support.apple.com/kb/PH18660?locale=en_US).
+75|"@Vannevelj could you link to a changeset from ""before the update"", where this was working? That would help someone track down the issue :smiley:"
+76|VS Code has `code`
+77|"<img width=""855"" alt=""screen shot 2015-11-18 at 18 10 14"" src=""https://cloud.githubusercontent.com/assets/105126/11249583/a2d2e9b6-8e1f-11e5-8ee5-3c82c1418326.png"">"
+78|On OS X, you need to follow the instructions here to invoke from the command line: https://code.visualstudio.com/Docs/editor/setup.  It would be nice to have an installer on OS X that configured this automatically.
+79|+1 I am using: export default angular.module('thingsModule', []); [Just installed latest update - looks like its resolved... impressive]
+80|I don't think `.gitignore` should dictate this, in other text editors it's normally done on a project setting or editor setting-level.
+81|"atom does this. there's no need for project settings or editor settings. If I'm git-ignoring it, there's no need to make this searchable or ""autocompletable"" (I just invented that word)"
+82|Agreed. Not sure how atom and sublime do it
+83|apologies, forgot that it was a manual step for me on OS X.
+84|Huh it does too, I guess I'm thinking of sublime.
+85|Hi **@lucaslra**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+86|"On ubuntu for `atom`, this file is renamed from atom.sh and is put in `/usr/bin/atom` and `/usr/share/atom`  https://github.com/atom/atom/blob/1ee08be508f6892a6bd2f412d03dcb70de59ebe3/atom.sh  `subl` puts a file in the same location but it's much simpler, just calling in to the app.  ``` #!/bin/sh exec /opt/sublime_text/sublime_text ""$@"" ```"
+87|Thanks for reporting this.  It should be fixed shortly.
+88|"I'm getting nearly the same thing although it never lists the available extensions for me.  I get a `""self signed certificate in certificate chain""` error but I believe it is related to this issue as the rest is the same as well.  **OS:** Windows 8.1 **VSCode:** 0.10.1"
+89|+1
+90|:+1: +1!
+91|perhaps this requires also support for virtual space
+92|This is a feature request, not a bug report/issue. Feature suggestions already have a place over at vscodes [uservoice](https://visualstudio.uservoice.com/forums/293070-visual-studio-code).
+93|Sounds like this should be filed for the Go plugin's repo: https://github.com/Microsoft/vscode-go/issues/new
+94|This issue is not limited to XML. All code format seems to be gone or the command is broken.
+95|The [repo readme](https://github.com/microsoft/vscode) says file feature requests to vscode/issues
+96|@Thoorium thanks I've updated the title to highlight that.
+97|@ZombieProtectionAgency Has a policy for this been established yet? More often than not, GitHub issues are suitable for everything from bugs to usability problems to feature requests. The benefit of supporting this is users who have never submitted feedback before don't need to understand everything about the project organization in order to provide meaningful commentary. :smile:
+98|For future reference Githubs issue tracker is not for support or feature suggestions. Feature suggestions already have a place over at vscodes [uservoice](https://visualstudio.uservoice.com/forums/293070-visual-studio-code) and you can ask for help [on StackOverflow with the [vscode] tag](https://stackoverflow.com/questions/tagged/vscode).
+99|Unlike every other OSS library?  On Wednesday, 18 November 2015, Toni notifications@github.com wrote:  > For future reference Githubs issue tracker is not for support or feature > suggestions. Feature suggestions already have a place over at vscodes > uservoice > https://visualstudio.uservoice.com/forums/293070-visual-studio-code and > you can ask for help on StackOverflow with the [vscode] tag > https://stackoverflow.com/questions/tagged/vscode >  > — > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/77#issuecomment-157820812.
+100|Ops! Sorry. I didn't know there was a uservoice.  ![image](https://cloud.githubusercontent.com/assets/941075/11250772/540b4f94-8e15-11e5-9eca-f02894324b1d.png)

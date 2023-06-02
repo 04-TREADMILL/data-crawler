@@ -1,0 +1,100 @@
+28501|@gregvanl They're actually still filtered from all available extensions.  If you were to scroll to each point in the entire list of extensions where you have installed an extension, you will see the same stuff.
+28502|The error message suggests that the remote debug port you specified is not open.  Maybe you have Chrome already open when launching, I think there was an issue where it would not accept remote debugging port when it is already open.  So you could try to close all Chrome instances you have open, and then try the launch.  I personally only use remote-attach, e.g. launch Chrome from the command line, and then use an attach configuration with VSCode, you could try that if the above does not help.  Otherwise, your question might be better placed here:  https://github.com/Microsoft/vscode-chrome-debug/issues
+28503|I totally agree with Tobias, webstorm's selection grow is awesome and I miss it dearly. There are a few extensions on the marketplace expand upon vscode's native functionality, but even with them, its still interior to webstorm's implementation imho.
+28504|I believe this is actually due to https://github.com/Microsoft/vscode/issues/8547, not sure if your PR is still useful if so. I think a change was made to not watch symlinks.
+28505|Makes sense, thanks. Btw., checked toString(true) works as expected (I was wrongly passing false before).
+28506|Indeed, the cursor shows the same behavior (black on black text selection cursor) on the code.visualstudio.com website.
+28507|I raised this earlier here https://github.com/Microsoft/vscode/issues/7960, wanting to be able to get at the path using just the keyboard.
+28508|@Tyriar, in any case, my PR corrects the situation with «freeze» preferences profiles on all platforms. Described above. :+1:
+28509|@bpasero, it seems to me that this is «hard code» in the file [src/vs/workbench/browser/parts/quickopen/quickOpenController.ts](https://github.com/Microsoft/vscode/blob/af144e7a7e4331008ab98fe8808c8c4f72aceb92/src/vs/workbench/browser/parts/quickopen/quickOpenController.ts#L139-L141):  ``` ts this.doPick(TPromise.as([{ label: currentPick }]), {     ignoreFocusLost: true,  // <------------------------- this     autoFocus: { autoFocusFirstEntry: true }, ```  Maybe this will help you. This option is not described in the documentation for extension API.
+28510|Ooops, :crystal_ball:
+28511|Hi **@mrmlnc**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+28512|Then VSCode need to have better way to show the unsaved file. because right now it only shows a label that there is an unsaved file but there is no way for the user to save or ignore that unless closing the VSCode.
+28513|By analyzing the blame information on this pull request, we identified @egamma and @alexandrudima to be potential reviewers
+28514|Hi **@DonJayamanne**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <p>The agreement was validated by Microsoft and real humans are currently evaluating your PR.</p>  TTYL, MSBOT;
+28515|@jrieken yeah, the idea being that Cmd+P is for top level symbols (classes, global functions) and Cmd+T is for any symbol whatsoever. Doing this via container name would be a change without API breakage.
+28516|Does it also happen when you disable GPU in Code by running `code --disable-gpu`? Are you running inside a VM?
+28517|That is a scenario we do not support officially.
+28518|The hover is native and the timing cannot be changed. Introducing a custom hover is possible but we do this nowhere else. I have no good solution for this other than suggesting to disable tabs if you really need the path to be visible.
+28519|When you enable HC mode, for me many areas of the UI have this issue, not just tabs. I do not think this is a big deal but moving to our HC master @bgashler1
+28520|Moving to @jrieken who added this in https://github.com/Microsoft/vscode/commit/7a626a94ea1b0b9c6b5f43f1b0038cccb9da0fef
+28521|Yeah, that bothered me too.  It's fixed in my latest PR #8238.  Borders were offsetting the active tab, so I added transparent borders on all inactive tabs.
+28522|@aliry does this still happen in insiders build (http://code.visualstudio.com/Download#insiders)?
+28523|A number of days has past without answer on the questions asked. I am thereby going to close this issue to clean up our backlog of issues. Once you can answer on the questions, the issue can be reopened again. Thanks for understanding this process!
+28524|I can reproduce for any viewlet. This happens when you hide a viewlet and makes sense because our focus indicator stays on the focussed element.
+28525|This is obsolete with the introduction of the new problems view.
+28526|https://github.com/Microsoft/vscode/issues/7948
+28527|https://github.com/Microsoft/vscode/issues/7948
+28528|@chrmarti are you using Linux inside a VM like parallels?
+28529|Please report this to the chrome debugger extension.  @weinand fyi
+28530|@gregvanl we cannot do this because depending on the number of opened editors the side editor can either be CENTER or RIGHT so we ended up with SIDE editor.
+28531|-1, but UX decision.
+28532|Not sure if this is inside the extension or core. But I have seen issues with wrong auto closing often in selfhost too.
+28533|Likely needs support from our framework to detect.
+28534|@StaticSphere but the whole point of -w is that the external application should only continue after the window is closed so auto save should really not cause any issues?
+28535|Please report this against the C# extension. Thanks!
+28536|Please report this against the Powershell extension. Thanks!
+28537|Yeah, I raised similar issues.
+28538|> The implemented in the pull request is definitely not the right approach.  That is not a sentence I like to read when I need to invest time to review the PR...
+28539|1.3 introduces a new `vscode.open` command that can be used to open any resource in Code. See https://github.com/Microsoft/vscode/issues/8195
+28540|Same strange behaviour here but only since yesterday. I have a multi language project (ReactJS + Go) and since I installed go extensions (that work very well), VSC seems to not be able to handle ReactJS anymore... No crash, no freeze but a process burning 1.3GB memory and a whole CPU charge. Cannot use any of the tools I used to (completion, navigation, etc...) Only displays a `Loading...` message.  Very annoying now that I have to go back to frontend dev.
+28541|More information here: https://bugzilla.redhat.com/show_bug.cgi?id=1347999#c2
+28542|@bpasero I've updated the implementation according to what we have discussed, please have a look
+28543|I agree with your comments. However, I was left with just one other option, which was to spend more time (few more days) on this issue and then try it.  Having had a chat with Kai, I was advised to take this approach, with the hope this would start a conversation that would help me figure out a better solution to the issue.
+28544|Thanks, since it is currently endgame, expect no reply until July milestone 👍
+28545|I can reproduce but only on Linux. Since I am calling focus on the second editor (this is clearly visible since the focus in the active editor moves to the side) I am not sure why the editor would still decide to show the blinking cursor in the first editor.  @alexandrudima moving to you.
+28546|"@jrieken, is there a way to access the editor's ""master"" `DiagnosticCollection`? In other words, all `Diagnostic` objects created by all providers? Note that this would be for the browser-hosted monaco-editor, not VSCode. Just a read-only, forEach iteration is all I would need, ideally perhaps with an onDidChange notification.  Thanks."
+28547|It worked completely fine until a few days ago FYI. I've been using this setup for several months.
+28548|That for sure the shared process in which a injector is set up but no telemetry service is around. Either have the service or use `@optional`
+28549|`outline` is typically used for this over `border` as the outline is overlayed on top, not inserted around the element.
+28550|No that not possible in neither API tho there are ideas about adding it to VS Code. Note that the editor api different from the VS Code api. If we add that for VS Code extensions it doesn't mean the editor has it. Under the hood both use a `IMarkerService` which encapsulated the functionality. When creating the editor you can pass your own implementation of that.
+28551|Nice idea.
+28552|@wallverb Thanks!  Agree this looks very much like a dup of #8434. #7342 talks about debugger only.
+28553|This is not an emmet specific preference issue it is more general. I'll mark it as a duplicate of #8547.  I'll still look into the preferences PR, I want to revisit the current code anyways.
+28554|Can not repro on my machine -> might be some corner case -> july, joao
+28555|+1
+28556|+1
+28557|As discussed with @bpasero the filtering in TS can only be done if TS knows what to filter for. There are use cases where the user wants to see only 'global' symbols and where he wants to see all symbols. If the container name is not working then we could either add an additional flag to the workspaceSymbolProvider or have two distinct providers. I would opt to have options / flags.
+28558|@serkanyersen two questions:  - why do you cwd into ${cwd}/app/. Where is your app directory in our layout? - from where do you run your build task normally (e.g npm run build). And if a TS file has errors how does the error message look like in a terminal.
+28559|Need to also check this with our partners.
+28560|@isidorn I just looked back and I notice there is an update for editorconfig. Looking at the screenshot, the author for editorconfig is blocked out where the update button should be. This is probably some style/css class related issue where the update button is not being shown correctly. Given this knowledge it may be easy to fix the issue?
+28561|I have a repro: 1. Have an extension update available 2. Toggle extension viewlet 3. Resize panel down until the update button disappears, notice the author is cut off and not truncated correctly as the update button seems to still take up the space  Long term fix for this is likely to swap the text out for an icon at this point instead of just disappearing.
+28562|@Tyriar it looks like your dev workspace hasn't updated the json-rpc npm module. Could you delete the node_modules folder in extensions/json and run scripts\npm install again to see if that fixes the problem.   If not could you provide me with the version number of the json rpc  and language client node module in the extensions/json folder.
+28563|What version of node are you using?
+28564|Fully agree with the unique ID. Opened: https://github.com/Microsoft/vscode/issues/8562
+28565|Good suggestions.
+28566|Change all occurrences is a textual change. You can use Rename (F2) to perform an semantic rename.
+28567|I like how blue blends into the viewlet - thanks for the nice suggestion. Check it out nad let me know what you think
+28568|@jrieken @seanmcbreen please verify.
+28569|@ezwiebel Please create a new issue with some information about your project and ping @dbaeumer
+28570|Yes it does   ![capture](https://cloud.githubusercontent.com/assets/1931590/16480911/f334081a-3ea8-11e6-8948-ba282abd9981.png)
+28571|@bpasero I can show on my machine
+28572|Sounds like a dup of #8510 Thanks for more details though!
+28573|I haven't seen this since and it looks like it's due to the module flattening. I'll move to July for Joao to confirm then. We should see immediately by smoke testing the Linux packages.
+28574|Anything works for me 👍
+28575|@isidorn Do you call e.preventDefault() ?
+28576|@dbaeumer I'm reproducing on the Insiders build though so node modules should be correct, master works fine. I'll double check versions tomorrow in the office.
+28577|As mentioned in the my duplicate:  > Long term fix for this is likely to swap the text out for an icon at this point instead of just disappearing.
+28578|There are two parts for this issue - #8369 - We had the limitation for max search results, which was taken off. I kept it back again. We need to investigate / profile before taking the limitation off - #8371  - Making replace faster
+28579|With above fixes there wont be crash or slowness. Created investigation item #8563 to lift the limitation
+28580|Fixed by #8302 and #8330
+28581|Fixed by #8302 and #8330
+28582|Fixed by #8302 and #8330
+28583|Upstream issue https://github.com/sourcelair/xterm.js/issues/154
+28584|"@bpasero where can I get this ""new problems view""?"
+28585|@alexandrudima no, let me do that - thanks!
+28586|We are releasing preview releases of the next stable VS Code version for everyone to try and give feedback. These preview releases are not 100% tested and might be unstable but contain our latest features and bugfixes. You can give our preview releases a try from: http://code.visualstudio.com/Download#insiders
+28587|@seanmcbreen when verifying you must install a recently built insiders build.
+28588|@chrmarti In this case, please file a bug against Chromium (or if the black on black text selection is reproducible in IE against Windows)
+28589|https://github.com/Microsoft/vscode/issues/8564
+28590|https://github.com/Microsoft/vscode/issues/8564
+28591|https://github.com/Microsoft/vscode/issues/8564
+28592|https://github.com/Microsoft/vscode/issues/8564
+28593|- Added an entry under Edit -> Replace in Files with keyboard shortcut Cmd / Ctrl + Shift + H - From the editor above command takes to search view with replace open - Whenever a user opens search for the first time, I show replace so that user will be aware of it
+28594|It is 5.10.0, while vscode version is 1.2.1.
+28595|"@sandy081 looks good, maybe for the global command in F1 do not use ""Edit"" as prefix, I think we are not using this prefix in other places either."
+28596|Got it, it works fine now.
+28597|Settings are different from launch.json and task.json and we intentionally made them as flat as possible so Option 1 is consistent with the existing practice.
+28598|As far as voting goes we are 3 against 1 for not using the seperator -> thus I am moving this to july, joao so he can decide. So we are shipping without the seperator, later it is easier to add it then to remove it.
+28599|let's leave it by alt
+28600|"I think this is caused by the editor find widget jumping into the ""find in selection"" as soon as you search for \n"

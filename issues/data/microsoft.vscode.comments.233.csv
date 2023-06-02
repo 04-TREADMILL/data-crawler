@@ -1,0 +1,100 @@
+23201|If you try to load it explicitly `ipmo PSReadline`, what is the error?
+23202|Closing this.
+23203|Oh yeah, I am. Should have realized that would be significant. Our dev environment has to be run from an admin command prompt. So if the first one is opened as administrator, I can't open another from a not-admin window.
+23204|![image](https://cloud.githubusercontent.com/assets/22350/15585936/19f6ee14-2382-11e6-852f-4b83cf555c7f.png)  Got it! Good catch, @Tadimsky!  cc @bpasero
+23205|@Tyriar Maybe you have installed the cpp extension?
+23206|Alright, #4921 is definitely the same issue. Let's merge them, closing this one.
+23207|Awesome!
+23208|"Haha, sounds familiar. Look at our user tags ""Microsoft member"" 😄"
+23209|@alexandrudima ah that must be it, do you remember what the cpptools issue repo was?
+23210|I was about to be seriously bummed about this until I realized that what I [was looking for](https://code.visualstudio.com/docs/customization/keybindings#_navigation) was `workbench.action.quickOpen`.
+23211|"with `""command"": ""echo""` and `""args"": [""${env.SHELL}""]` the output is `/usr/bin/zsh` (same as if I run `echo $SHELL` from the CLI)"
+23212|@tht13 JSON is about an hours work away in the PR but I've stopped whilst we wait for the road map.  > This would prevent devs using css to alter things they shouldn't.  I don't agree on your comments regarding CSS. If I don't like an extension then I just remove it.  Besides we can preview a icon\color themes before committing to using them. On top of that this PR ensures CSS is only used for icons in the explorer.  Atom is a good example of letting designers build themes using `less`. Their approach is a modern approach. [Example](https://github.com/anson0370/base16-ocean-dark-syntax-theme) I've used rework in this PR and not against less or sass. I want to keep this minimal as possible as there are many other people's preferences which can be added over time.
+23213|@alexandrudima ,finally I ran into the json content which constantly freezes my VS Code (no extensions installed and run as `code --disable-extensions`). The content is uploaded to https://gist.githubusercontent.com/rebornix/e9396e6f91954ca38392dd84b7c2a206/raw/91633bc7a89ed4762e97867b12731c8946aaa3b6/app.js , please help try if it can repro your side.
+23214|"`**/project.json` -> `(?:[/\\].*?|.+?[/\\]|)project\.json`  This matches `/rrproject.json`. I created #6936"
+23215|The only feature that doesn't come built-in and that I need is ftp on save, so I have ftp-sync installed, and nothing more than I'm aware of.  I'm not sure that feature is disabled for comments and strings for php at all, I can surround any selected text in php code, when VS Code wants to ofc.  Do you need visual proof? I could make a video or gif, I can surround any selected text with quotes.  But the problem still remains, when I close and open VS Code again the feature stops working completely for php.  Well, the truth is that it's not the next time I open VS Code and also does not involve the settings. I've just enabled my settings (by renaming the file) and restarted, and it worked then I restarted again and it was still working but the third time it stopped working. Could it be something wrong with my OS or configs? (Not a VS Code problem?).  It's a very strange behavior...
+23216|"@rebornix If you add the following setting `""editor.experimentalScreenReader"": false` are things faster?"
+23217|@alexandrudima that's it. Turn off `experimentalScreenReader`, everything works perfectly but once you turn that on, the window will fail to respond.
+23218|Ahh you are right @bpasero   Although What I usually use is Ctrl+P to quickly search for file and open it. sublime adds it as a proper tab / working file, while vscode doesn't.  Is this an easy fix I could make?
+23219|@aaskat sorry, but I do not understand what error you are showing me in your second video. I've create the three files in a VS Code workspace and debugged it.  But everything looks good to me.  Please provide detailed steps that make clear what you would expect and what you get.
+23220|Closing as duplicate of https://github.com/Microsoft/vscode/issues/5554 then.
+23221|Added NVIDIA mention with https://github.com/Microsoft/vscode-docs/commit/3365a30bc80ba074beb1bca42c103079b6aa64dd
+23222|So is there any consensus on this whether ctrl+p will add to working files?
+23223|I've just looked at the amount of changes that have been since this PR was active and I've decided to abandon this PR as it's too old now.
+23224|Actually I'm not sure this every worked as cmder is a full blown UI app, the issue with the relaunching is fixed though so closing this.
+23225|Invalid
+23226|I tried to build VS Code from source to investigate the problem, but it looks like I can't even fetch all the required dependencies when I run `npm install` because it needs to get `vscode.d.ts` from somewhere on Github but it can't (with the same error).  My proxy is configured correctly on both npm and git though.
+23227|Invalid
+23228|By analyzing the blame information on this pull request, we identified @isidorn and @bpasero to be potential reviewers
+23229|Hi **@kisstkondoros**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <span>We will now validate the agreement and then real humans will evaluate your PR.</span>  TTYL, MSBOT;
+23230|@pflannery I didn't realize you had implemented it in such a way, nice!  Using native css variables was just a selection as they can then be manipulated from the javascript side more easily. I hope this comes back soon in a new PR, would be really cool to have!
+23231|In this case, I believe the change in ca2ca08c63c88f7c0bc2735a37a97ff3b8f600fc will address this issue as well (similar to #6878)
+23232|We've been swamped, but I finally got a screenshot. Just did a pull rebase from our upstream and I can't open the merge conflict by single clicking the file or right clicking and choosing 'Open Change'. If I select 'Open File', it's fine. There's really not much special going on here and it happens every time for each of us.  Edit: In this case it's a file removal, but if I recall correctly it isn't exclusive to this scenario.  ![capture](https://cloud.githubusercontent.com/assets/3365616/15591814/2a03d994-2354-11e6-8a12-44578d32b329.PNG)
+23233|@Tyriar totally agree with your concerns.  I wrote an atom package for embedding a terminal (github.com/romgrk/termrk) (using term.js, but definitely not the best solution), and a recurrent point of attraction for users was to have their usual terminal setup available from Atom, be it zsh, bash, or other.
+23234|Duplicate of https://github.com/Microsoft/vscode/issues/6738
+23235|I like it
+23236|https://github.com/Microsoft/vscode/commit/8c1dff7ee7bd8a1b5914a474aa69879878d9db04
+23237|I think I changed all the important places where I mentioned it in: - https://github.com/Microsoft/vscode-docs/blob/vnext/release-notes/latest.md - https://github.com/Microsoft/vscode/issues/143#issuecomment-221054202
+23238|"+1   I have a json format string below, I want to replace  to empty with expression "" /n(/s)*"", it does not work.  ``` json {     ""a"": ""a"",     ""b"": ""b"" } ```  by the way, it works fine in Sublime :-)."
+23239|Probably will be a setting that is disabled by default.
+23240|thanks, solve my problem.
+23241|Duplicate of https://github.com/Microsoft/vscode/issues/508
+23242|@stevencl would you expect the explorer to also behave this way when it was not visible and you closed all files? So: - open search - open a file - close the file - focus explorer  => should the last file opened in the explorer get visible again?  I now pushed a change to not reopen any file if you closed all files even if the explorer was not visible. I think that helps clearing the clutter.
+23243|@JabX Sounds like a separate issue, do you mind creating it? Attach npm's log as well.
+23244|Ok, will rename the issue accordingly. Screenshot is very helpful. It is indeed related to that scenario of a deletion. But it will also happen in additions if I'm not mistaken. Simple modifications will work.
+23245|@aeschli I am not able to reproduce and pushed tests to proove it: https://github.com/Microsoft/vscode/commit/f7494b2057d801a3576c46128b196468813ab1c8  Please let me know what you saw.
+23246|Thanks, bpasero, for looking at this issue and adding the 'bug' stamp to it.  I have to apologise, however, that I don't understand what your reply means. 1.  Is your reply directed to me, or to the developers of VSCode? 2. If the reply is to me, and is asking me to do something: (a) What does 'standalone node.js' mean?  (I have a rather basic knowledgeof JScript.) (b) What is a 'fs.writefile()'? (c) Who is 'them? (d) What more information is needed?  My 'steps to reproduce' seem a complete description of the issue and how to reproduce it.
+23247|"@NotepadPlusUser node.js is the framework we use for writing to files so it would be interesting if this bug is a bug in node.js (https://nodejs.org/en/). By writing a small script like the following we could see if the issue is node.js related or not (using fs.writeFileSync from https://nodejs.org/docs/v5.10.0/api/fs.html#fs_fs_writefilesync_file_data_options):  ``` var fs = require(""fs"");  fs. writeFileSync(filepath, ""data""); ```  Where filepath is the path to the file with data streams."
+23248|I also delivered a (temporary) fix for Typescript and TypescriptReact in VSCode for the May release, adding a lookahead for two level deep type parameters. @alexandrudima has since then come up with even smarter regexes. We will work with the TypeScript team to add a permanent fix ASAP.
+23249|A screenshot or animated gif would would be great. I have no clue so far what it could be. I tried to reproduce what you are seeing, but for me surrounding with quotes works for me in PHP.
+23250|Same kind of behavior here as OldrichDlouhy said. It seems to have gone away for now. I'll get back when it comes back as it seems to be recurring problem.
+23251|I believe many more things will break if you use the empty string as a tree element, not just this. Just in `treeViewModel.ts`, for example, there are other calls to `iterator.next()`.  Sorry for having spent so much time in this, and we appreciate it! But maybe we should just guard against returning such elements from data sources instead... What do you think?
+23252|@f111fei Do you mind signing our CLA? https://cla.microsoft.com/
+23253|@Sampo123 when you see the bahaviour could you please provide a trace as well to ensure it is the same root cause.
+23254|This is caused by a code reorganization done by Joao. We need to get the translations strings back from the translation team which will happen today or beginning of next week.
+23255|The registerTextDocumentContentProvider API is new in the may release of vscode, right? So my generated extension can not yet use this API until we release our may version?  Is there some other way to verify this - except writing unit tests which I see you already did?
+23256|@akamud unfortunately not.
+23257|**@f111fei**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+23258|**@f111fei**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+23259|+1
+23260|@joaomoreno  I dit it.
+23261|Rather https://github.com/Microsoft/vscode/issues/6544
+23262|@alexandrudima this could help to avoid confusion with the addition of `monaco-editor.d.ts`
+23263|Verification: long suggestion should have an ellipsis at the end.
+23264|> The registerTextDocumentContentProvider API is new in the may release of vscode, right?  No, we have that since January.
+23265|:+1:
+23266|Fixed by #6911
+23267|Verification: - Change the owner of extensions folder to be root, eg: `sudo chown root ~/.vscode-oss-dev/extensions`. - Try to install an extension - You should see an error message in the workbench, something containing `EPERM`.
+23268|To verify: inspect editor `<textarea>`. It should not have a 'Press Alt+F1' message
+23269|@aeschli isn't this doing via theming?
+23270|Verified that intelli-sense shows closing tags and on selection properly indented.
+23271|Verified by code review, can not verify by trying since we have not yet recieved translations
+23272|related to #6192
+23273|Yes, the editor background is set by the current theme.
+23274|ok. closing as the editor background color can be set using themes
+23275|Only seems to work when having two open editors and I split from the left one, never in any other case... Also made obvious by reading the ac05a75 commit.
+23276|We had to revert the temporary fix.
+23277|I'm not sure what to make of the failed AppVeyor build. I don't see the cause of the failure. How am I supposed to fix that?
+23278|Talked with Joao and Andre and figured it out: now the releases page looks better:  ![image](https://cloud.githubusercontent.com/assets/5047891/15603458/2fc9c008-23fb-11e6-9c04-60530b080ec0.png)
+23279|@joaomoreno Can you list the steps that reproduced the issue for you?
+23280|"@dbaeumer ping because you had a similar request, I decided to push this for June supporting Ctrl+click from the ""Open Recent"" picker. Will be in master once we open."
+23281|@RandScullard Please create a new issue so we can track it.
+23282|@alexandrudima @bpasero   Markdown should not behave like all the rest of the modes because it is a lyrical mode. People that write Markdown write in their own language, English for example, and when they press the <kbd>Enter</kbd> they want a line break. Automatic suggestions specifically clash with this: I now can't write `link` as part of a sentence and press <kbd>Enter</kbd> to go to a new line, without having to press <kbd>Escape</kbd>. Note that since all the words in the document appear as suggestions, as soon as the document has a considerable size, many words will have this problem...
+23283|You can only set background color with theme, not set css of the background.
+23284|assigning for verification back to @bpasero
+23285|Sorry! - Open User Settings, get the cursor into a position for a new setting - Trigger suggestions - Press <kbd>Up</kbd> to select the last suggestion - Press <kbd>PageUp</kbd> several times  This would break it.
+23286|@joaomoreno You can verify by inspecting that we don't use translate3d on the dom nodes (easiest to spot is the editor scrollbar) when zoomed out or zoomed in.
+23287|I now see this on WIndows/German locale which seems ok. No am/pm. May be the latest electron update makes a difference.  ![capture](https://cloud.githubusercontent.com/assets/1931590/15604284/c8f70ac0-23ff-11e6-8e31-1eb1640e6e24.png)
+23288|@dbaeumer added a workaround for this on our side in PR #6911
+23289|"Reopened: on OS X I see correct VoiceOver messages when setting and clearing a breakpoint for the first time. If I set a previously removed breakpoint again, the ""Removed Breakpoint..."" message stays."
+23290|@nwgh can I ask you for another favor: for the case where it doesn't work could you do the following: - open Dev tools (Help>Toogle Developer Tools) - in a console, check if process.env['MOZCONFIG'] is set.
+23291|Verified in code.
+23292|While verifying found #6959
+23293|This is OK.
+23294|Then your message is wrong in that case ![screen shot 2016-05-27 at 11 51 20](https://cloud.githubusercontent.com/assets/1926584/15604560/5df5421c-2401-11e6-921a-75117dbe9932.png)
+23295|@joaomoreno not to my knowledge (at least it is not spec'd that way).  @zhengbli can you please comment/clarify.
+23296|This is the bug with VoiceOver, they are trying to be concise by not reading the same message multiple times. However in this case the message should be re-read. I already I correctly call aria.status. I get the same behavior if I do aria.alert so there is nothing we can do here
+23297|"@isidorn just to be clear: I'm not expecting the same message multiple times. I'm expecting that it toggles between ""Added Breakpoint..."" and ""Removed Breakpoint..."" messages."
+23298|Didn't see it again.
+23299|"```     {         ""command"": ""-acceptSelectedSuggestion""     } ```  I cannot undo the `.` keybinding we have for accepting a selected suggestion, neither with `-workbench.action.files.openFileFolder` and `Cmd+O`"
+23300|@joaomoreno I tried reproducing again today, it only happens sometimes, here I am typing `ca` and then using backspace + `ac`:  ![sczr0ngsx3](https://cloud.githubusercontent.com/assets/5047891/15604882/f02e9150-2402-11e6-85d5-a9d01564bc15.gif)

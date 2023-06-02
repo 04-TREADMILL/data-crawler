@@ -1,0 +1,100 @@
+26301|Code Snippets are Broken
+26302|node/docker: restart loops under unexpected network/remote server conditions
+26303|Preserve Newlines in Signature Help Documentation
+26304|Lua syntax extension is missing 'goto' keyword
+26305|Return/Enter in JSX results in undesired placement (under some edge cases)
+26306|Git changes preview should behave same as opening files
+26307|Restore window to size and location when starting app
+26308|Should not recommend deprecated extensions
+26309|Feature request - Ability to resize 'open editors' in explorer
+26310|workbench.colorCustomizations not applied?
+26311|Opening preferences should focus the cursor on the search box
+26312|Use language mode at Cursor for onEnter Rules
+26313|Investigate Adding Timeouts on TSServer Requests
+26314|Git: Support file stat mode changes
+26315|'About Visual Studio Code' window can't be closed with ⌘W
+26316|DeprecationWarning in Developer Tools
+26317|Code Insiders on Ubuntu always has an available update
+26318|"code in <script type=""text/template""> miss highlight function"
+26319|Viewlet progress bar is broken
+26320|High CPU usage from Visual Studio Code v1.12.1
+26321|Feature/plugin request - Stub generation and refactoring
+26322|MakesTextEdit context key must not be a precondition but keybinding condition
+26323|emmet is wrong
+26324|Show file (and position) of workspace symbols
+26325|Wrong intellisense overlay position in split-view
+26326|workbench.colorCustomizations.input.foreground/background have no effect?
+26327|Awkward line breaks in new completion view
+26328|Unhelpful error message when starting debugger
+26329|Duplicate text when resizing integrated terminal
+26330|Preview Git SCM cannot stage/unstage lines in network workspace
+26331|Ability to theme ruler colour
+26332|add workbench.action.nextWindow and workbench.action.previousWindow
+26333|Inactive editor group tab color fade
+26334|Request: Add regex support to snippets
+26335|User settings wiped
+26336|[json] Incorrect JSON schema validation after local schema change
+26337|Intellisense became very slow since the update
+26338|CMD + down (Mac Users) don't lost explorer focus
+26339|VSCore repeatedly ask for ssh key password every 3 min
+26340|Spectron: Main window focus is lost when starting from the fresh '--user-data-dir'
+26341|[MAC] Code Helper process using more than 3GB memory and 99% cpu
+26342|Cursor gets wrong offset through zoom-in/out
+26343|ext install <extension name> doesn't install extension
+26344|unrecognized option `--install-extension'
+26345|Incorrect information on JSON method
+26346|Install bootstrap framework package through bower in terminal failed
+26347|Multiple cursors + Word wrap
+26348|Select and rememeber language mode
+26349|VSCode Typescript imported identifier tooltips do not show helpful type information
+26350|Structurally typed identifiers' tooltips should show the type definition, not just `enum MyEnum` or `interface MyInterface`
+26351|Request: non-sticky diff editor window
+26352|High DPI: Laggy Unresponsive Scrolling on OSX
+26353|terminal text is offset
+26354|Clicking a folder in the folder explorer opens/closes the folder
+26355|Integrated Terminal: Move Cursor by Clicking
+26356|Missing release tags in our repo
+26357|Funny suggest widget layout
+26358|I can't type anything when cmd+n new file
+26359|Files stored in SQL 2014 FileTable appear as folders in VSCode Explorer pane
+26360|Incorrect JSX onEnter When Replacing Text
+26361|Non-standard use of `$schema` inside JSONs
+26362|Can't create new HTML snippet from 'User Snippets' menu
+26363|Command shortcut in hover text for Find in Selection
+26364|Fix onEnter Rules Detected Language Mode When There is a Selection
+26365|Cannot connect to runtime process, timeout after 10000ms - (reason: Cannot connect to the target: Parse Error).
+26366|Correct LC_ALL.  Resolves #26227
+26367|Remove Need for File Extensions in TypeScript Language Definitions
+26368|Editor cursor positioning mess-up after zooming out on linux
+26369|JSDoc  Not Rendering Tag Code Blocks properly
+26370|Proposal at unexpected vertical position
+26371|Find in selection requires at least two lines to be selected
+26372|Add Separate Settings For References Code Lens in JavaScript and TypeScript
+26373|Editor.mouseWheelZoom + intellisense box = weird stuff
+26374|Javascript User snippet outputting incorrectly
+26375|Terminal not rendering cyrillic
+26376|Custom Emmet snippet for Javascript
+26377|Hang / Slowdown Using Word Based Suggestions in Large Document
+26378|关于VSCode提示内容有误的问题
+26379|The `Open Changes` button not displayed as disabled for files without any changes
+26380|Preserve Webview Scroll Position
+26381|Timeout (always) exceeded when running tests on Travis
+26382|Merge pull request #1 from Microsoft/master
+26383|regression: caret is rendered in wrong position when editor zoomed
+26384|Cursor goes to end of line on saving
+26385|Everytime when i update vscode ,it should Updating C# dependencies...
+26386|When i open two Projects at the same time then git in not working in second Project.
+26387|[C++ on windows]Unable to start debugging. Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies.
+26388|Hard hang while editing regular expression
+26389|Code seems to only refresh imported d.ts on tab switch / file open
+26390|Can i pass arguments to command in contributes block?
+26391|Installer tries to close all applications and fails. Until Spotify.exe is closed.
+26392|"Path issues with ""did not receive lazyEnv in time"""
+26393|"[loc][query] what is ""ellapsed"""
+26394|Search in Files stuck, no results found after long time, not observed always
+26395|VS Code dialog keeps poping over and over again.
+26396|Add 'Command Palette...' action to the Editor Context Menu
+26397|Blog post for 1.12 has incorrect sample code
+26398|Step over while debugging extension feels slow
+26399|Implement a watch-dog mechanism which can kill runaway extension host processes
+26400|Lint problems don't show up in editor.

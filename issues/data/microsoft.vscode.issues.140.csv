@@ -1,0 +1,100 @@
+13901|fix ini #13648
+13902|Signature helper(parameter hints) not being triggered in js/jsx files
+13903|quick open files in background
+13904|CSS language server doesn't apply filtering
+13905|Assess the state of formatting support in VS Code and its extensions
+13906|my vscode crashed ,agian.
+13907|Format Code Shortcut input Special Char if no Format Code Option is available
+13908|Error TS2322 (Union type in function return values) not showing in VS Code
+13909|Wrong blank space in Terminal when use cmder
+13910|Unable to setup vscode locally
+13911|Use npm icon for .npmrc
+13912|Hint drawing overflow
+13913|Total Variants of VS Code
+13914|Cmd + Enter sometimes stages all and commit
+13915|Editor becomes unresponsive after hover preview of very large variable
+13916|"Please rename the ""restart"" parts in UI texts to ""reload"""
+13917|Format Code should be Format Document and Format Selection
+13918|Test: debug settings
+13919|Task arguments not clearly documented
+13920|Provide 'files.endWithNewline'
+13921|Add an option to not focus sidebar from Cmd-B
+13922|Have a serious issue here not able to save any file
+13923|Support format on paste
+13924|Show keybinding IntelliSense
+13925|Browser: serving whole of vscode on a webserver
+13926|API Feature Request: Fetch configuration default value
+13927|If an html attribute value starts with 'view' the closing double quote is not recognized
+13928|Search bar covered first 2 lines
+13929|Save open tab sets
+13930|auto completion of braces in typescript files
+13931|Feature Request: Show all errors and warnings in project for all JavaScript and TypeScript files, not just opened ones
+13932|Format code is not working for XML.
+13933|Command 'Files: Save All' is not enabled in the current context.
+13934|JSX syntax highlighting is broken after stacking destructured constants in component.
+13935|Collapse disappears
+13936|VSCode is using a lot of the CPU on this Mac with the CPP extension
+13937|Background artifacts in VS 1.6.1 and OS X Sierra
+13938|Virtual Space is not implemented.
+13939|(Wrong report)
+13940|Hide explorer by default
+13941|Unwanted angle bracket autocompletion in TypeScript
+13942|"""stick"" checkbox on color theme picker"
+13943|Support Per-Workspace Environment Variable Settings and Path Specifications
+13944|IntelliSense for react/react-native not working
+13945|Wrong value show for `this` on hover in es6 arrow syntax
+13946|Update editor.lineNumbers description.
+13947|Can't set variable to object
+13948|Option to only have a single instance running
+13949|Cannot open Visual Studio Code
+13950|Find in Selection in any selection, not just by lines
+13951|code hanging updating plugin
+13952|Open integrated terminal in directory of current file
+13953|Integrated Terminal doesn't clean properly when using bash on Windows
+13954|Saving and CPU Usage Issues
+13955|Question: is it possible to test userinteraction?
+13956|"""Not enough storage is available to process this command"" in Terminal Panel."
+13957|Grey color in syntax highlighting for launch.json
+13958|snippet stop working after extension:Python installed
+13959|VSCode start very slow, and use nearly 100% of CPU
+13960|Smarter way to add (and autoclose) brackets
+13961|Types replaced by a character in Javascript Parameter Hints
+13962|git login panel vanishes when minimised.
+13963|Show error in Explorer tree file icon
+13964|Leading and trailing spaces of property names are not displayed correctly
+13965|Open Readme when Extension Install is Clicked
+13966|[JS] IntelliSense doesn't detect function properties defined outside an object literal initialisation
+13967|Saving a file sometimes takes ~1 minute
+13968|Add support for API that is considered experimental
+13969|[TS] coloring broken
+13970|Increase coverage of tests for IAction.isAction()
+13971|HTML files and format code with tabs
+13972|Redo bug
+13973|Meaning of green warning in settings.json is not discoverable
+13974|Jump along indent
+13975|intellisense stops working while editing big CSS/LESS
+13976|entering a comma shows unwanted documentation window
+13977|Replace In Files recompares replaced matches and represents them AGAIN to the user, which is confusing
+13978|"press ""L"" key continuously bug"
+13979|'Toggle editor layout' bad naming
+13980|Split editor icon
+13981|Prevent folders expanding when opening a file
+13982|Unable to install
+13983|Completion list disappears after dash character
+13984|"Cursor goes back to starting location in ""Default Settings"" window"
+13985|Rename input box should adjust width according to input
+13986|Intellisense not respecting jsdoc parameter type for typescript
+13987|Run experiments only for first time users
+13988|Auto Add List Items
+13989|limit experiments to first time users; fixes #14009
+13990|Slow Search
+13991|Purge Ubuntu Install Does not Remove .config/Code Folder
+13992|Test: contribute to editor title context menu
+13993|Test: some view settings moved into settings.json
+13994|Test: Horizontal layout
+13995|Highlight selected indent guides
+13996|ctrl+0 shortcut doesn't focus when no files opened
+13997|RTL Word Wrapping Issue
+13998|Focus on Files Explorer does not focus explorer when no files are open in an empty workspace
+13999|Read only mode does not highlight selected line
+14000|Enable line highlighting for read only editors

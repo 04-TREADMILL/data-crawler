@@ -1,0 +1,100 @@
+17301|[folding] Collapsed block should expand if match found with addSelectionToNextFindMatch
+17302|SnippetString escaping doesn't work as documented for opening braces
+17303|vscode won't update to 1.8.1
+17304|Refresh rate during mouse over on menu
+17305|Add setting to limit quick open results to current opened folder
+17306|Feedbacks about the paths autocomplete (v 1.8)
+17307|open multiple editors from terminal
+17308|Multiline string logging with variablesReference
+17309|Suggestion - searching source for constants.
+17310|"Warn - ""The TypeScript language service died unexpectedly 5 times in the last 5 Minutes. Please consider to open a bug report."""
+17311|Question: How do I remove `Microsoft` folder from my `$HOME`?
+17312|Debugger line highlighter not updating when number of lines in file being debugged changes
+17313|Terminix support
+17314|Bug of Intellisense with JavaScript
+17315|"""Toggle Terminal"" has blank shortcut tip in empty window"
+17316|"Cannot disable ""word highlighting"", no setting for it"
+17317|Broken autocomplete for package.json dependencies
+17318|code --list-extensions doesn't list all extensions
+17319|Intellisense filters
+17320|"Issue with saving files on mounted drive: ""Could not resolve any model with provided uri"""
+17321|"""find all references"" previously highlighted ""find all references"" word remains highlighted"
+17322|Update to TS 2.1.5 insiders build
+17323|Status bar is hidden in Zen mode, made VIM extension unusable
+17324|Cannot Paste between files
+17325|Improve Quick Open View experience from Command Palette
+17326|Better completion support for generics extending interface with optional fields
+17327|TS highlight issue with standard-js style
+17328|Hide sidebars first and then go to full screen when toggle Zen mode
+17329|Explorer not updating file list
+17330|Feature Request: Auto-trigger tasks before Git commit
+17331|Make all code references in vscode.d.ts use consistent indentation
+17332|Docs not pass down through Partial<T>
+17333|Make indentation of API reference samples consistent
+17334|[json] Inconsistency between files.insertFinalNewline and Format Document
+17335|Version 1.8  can not install Extensions in proxy env.
+17336|Wrapping in Markdown Preview
+17337|API For Monitoring Editor Viewport Changes
+17338|typings.json schema is not working on vscode
+17339|Stepping centers the viewport for every step
+17340|ProtoType Go To Implementation For TypeScript
+17341|Custom snippets not working
+17342|这个版本的lint根本用不了了,es6的拓展符号开始报错,单词也莫名其妙报错...我要退回上一个版本了
+17343|[macOS] updating never works, loops forever
+17344|Add an AppData XML data file to Linux builds
+17345|Add a few niceties for making Flatpak builds of VSCode
+17346|Add option to view default settings in single plain text file
+17347|when git operation, create so many git processes, and cpu 100%.
+17348|Tab double click to maximize editor of the tab
+17349|Format code not working for Javascript files
+17350|Version 1.8 Import completion displays multiple versions of the same package
+17351|Quick Outline/Goto Symbol does not work on the Default Keyboard Shortcuts
+17352|Prevent file duplication in split editor mode
+17353|Cannot display all symbols of Default Settings (1.8)
+17354|Cannot attach debugger to a node.js application running inside a Docker container in host-mode
+17355|Add git push button and shortcut
+17356|Support 'restart' option on 'launch' configs too
+17357|VSCode started to lag wtih CSS in Head
+17358|Autocompletion deleting script reference in HTML
+17359|Stepping in code always tries to center the current line vertically
+17360|Flickering and weird color blocks in editor
+17361|Navigation does not work for typing (not in search box) in folder explorer view
+17362|Feature: Add terminal.integrated.cwd
+17363|Icons in Explorer Panel messed up
+17364|debugger disconnects after setting a breakpoint
+17365|Disable intellisense for comments
+17366|macOS 10.9: VS Icon overlays title in title bar
+17367|Zen mode bugs?
+17368|TypeScript file needs to be open for symbol search to work
+17369|Make high contrast detection configurable
+17370|Add provision to apply functions to variables within snippets
+17371|DELETED
+17372|Use Chrome's network stack for installing extensions
+17373|[Suggestion] add DocBlock snippet functions for many languages
+17374|Vertical Select like Visual Studio (Column/Box Mode)
+17375|Keep filtering suggestModel.ts after space
+17376|Restart in a Multitarget Debugging rotates targets in the dropdown list
+17377|Hot Save Restores Only File Content
+17378|Execute entire gulpfile without tasks
+17379|Styling differences between logged object and evaluated object
+17380|Esc twice to enter zen mode?
+17381|Cannot type polish letter 'ż'
+17382|Jumping to variable in snippet does not scroll
+17383|Search does not work in UTF-16 LE encoded files
+17384|Go to definition is broken on recusive function references
+17385|Markdown preview mode, doesn't show(update) modifies images.
+17386|IME input window jumping around
+17387|Activate TS Extension When Workspace Contains TSConfig or JSConfig file
+17388|Sort Selections Ascending/Descending
+17389|Render Markdown of JSDoc
+17390|Hidden breakpoint
+17391|Add typings.json schema
+17392|Release Notes goes blank when (anchor?) link is clicked
+17393|Interface Implementation (Stubbing Functionality)
+17394|Bind IntelliSense of CSS to PostCSS
+17395|Cannot unbind wordWrap
+17396|"editor.renderWhitespace: ""boundary"" toggles back to ""all"""
+17397|Explorer File/Folder Filter
+17398|Fix package.json Auto complete
+17399|"""Cannot read property 'substring' of undefined"" when formatting adding newline at end of file"
+17400|Release notes display

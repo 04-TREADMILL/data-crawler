@@ -1,0 +1,100 @@
+14901|+1
+14902|Will this be implemented in the future releases?
+14903|"@SpacemanPete thanks for the detailed information, this was really helpful. :+1:   `dirname2` looks like the point in which it started to go wrong. Maybe we can simply use `..`.  Can you fix up the script line with the following snippet and let me know if it fixes it?  ``` VSCODE_PATH=""$(realpath ""$0"")/../.."" ```"
+14904|@jrieken  triggerCharacter it's optional. You are right. But It`s a string. and the param is not used. See https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/api/node/extHostLanguageFeatures.ts#L1032 and https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/api/node/extHostLanguageFeatures.ts#L606
+14905|@chrisdias please verify. Code complete or documentation for valid locale values should be handled in a different issue. I wanted to keep the code changes to fix this to a minimum.
+14906|@bpasero I cleared the dev console to get a clearer ouput and reproduced the issue, it prints still the same steps that the change event is followed by the deleted event. What does `>> normalized` mean?  ``` [Service Library: Watcher] [CHANGED] /run/user/1000/gvfs/sftp:host=host.tld,user=srf/file service.cp.ts:140 [Service Library: Watcher]  >> normalized [CHANGED]  /run/user/1000/gvfs/sftp:host=host.tld,user=srf/file service.cp.ts:140 [Service Library: Watcher] [DELETED]  /run/user/1000/gvfs/sftp:host=host.tld,user=srf/file service.cp.ts:140 [Service Library: Watcher]  >> normalized [DELETED] /run/user/1000/gvfs/sftp:host=host.tld,user=srf/file ```  Can you tell me if there is a config value which allows me to keep files in the editor open? Actually this could be the most simple workaround for this problem
+14907|Duplicate of #3385
+14908|Closing for now. The current UI has sorting fixed. We will move to a new UI in which you'll be able to control the sorting.
+14909|Duplicate of #98
+14910|I can't repro either. We do have a [delayer of `500ms`](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/git/browser/gitWorkbenchContributions.ts#L203) protecting against this.
+14911|@egamma @jrieken Please have a look
+14912|Yup looks leaky.
+14913|This is strange as you seem to `get asked for admin credentials`. You installed Code in a location that your user has no permissions to modify?  Can you try installing it in a location your user controls, e.g. `~/Applications`, and see whether the update works then?
+14914|Duplicate of #821
+14915|Ugh. Been like this for months. Wouldn't promote it to stable candidate, but fix it in April instead.
+14916|Duplicate of #4518
+14917|Well ideally any contribution in Code should be able to tell the filesystem events contribution _hey, I wanna listen to all file change events at this given `root`_. The watcher should then accommodate that request.  Moving this to feature request and renaming title.
+14918|Are you behind a proxy?  This is the URL, for reference:  https://az764295.vo.msecnd.net/stable/f291f4ad600767626b24a4b15816b04bee9a3049/VSCodeSetup-stable.exe
+14919|We can't have it dynamically, unfortunately. The user can always associate it himself though.
+14920|We can't have it dynamically, unfortunately. The user can always associate it himself though.
+14921|ping @pradeepna
+14922|My home laptop has no issues updating, but my work laptop still has the issue. Thoughts?
+14923|This is now fixed: - Windows: you can set up the launcher script at install time - OS X: there are now actions in the command palette to install the launcher in the PATH - Linux: deb and rpm packages are coming which will place Code in the PATH
+14924|Sorry, I was confused wrt `string` and `string[]`.   `triggerCharacter` is used, the actual commands are defined here: https://github.com/Microsoft/vscode/blob/master/src/vs/editor/contrib/suggest/common/suggest.ts#L93 and here https://github.com/Microsoft/vscode/blob/master/src/vs/editor/contrib/parameterHints/common/parameterHints.ts#L29
+14925|Currently the only way to define an optional parameter is to not provide a constraint for it. Feel free to add.
+14926|@bpasero yes, external code support is different for different runtimes/debuggers. The extension writer has to implement this. Since there is no predefined builtin attribute `externalConsole`, the attribute should show a squiggly if used for the python debug type.
+14927|duplicate of #4554
+14928|Renaming a local variable doesn't cut it. I assume this is to address #4101 which is more or less not announcing a `logicalSelectionSupport` from [here](https://github.com/Microsoft/vscode/blob/master/src/vs/languages/html/common/html.ts#L311) (and go with the default implementation) or provide a better implementation in the htmlWorker.
+14929|https://github.com/Alphapage/testsystem is a sample project. npm install then for vscode use launch in debug. For node-inspector, `npm run debug:test`
+14930|Ok I’ll try that then.  Von: Johannes Rieken [mailto:notifications@github.com] Gesendet: Dienstag, 22. März 2016 14:35 An: Microsoft/vscode vscode@noreply.github.com Cc: Stefan Schneider Stefan.Schneider@connectiv.de Betreff: Re: [vscode] Bugfix: Prevent overwrite of modeAtPosition (#4505)  Renaming a local variable doesn't cut it. I assume this is to address #4101https://github.com/Microsoft/vscode/issues/4101 which is more or less not announcing a logicalSelectionSupport from herehttps://github.com/Microsoft/vscode/blob/master/src/vs/languages/html/common/html.ts#L311 (and go with the default implementation) or provider a better implementation in the htmlWorker  — You are receiving this because you were mentioned. Reply to this email directly or view it on GitHubhttps://github.com/Microsoft/vscode/pull/4505#issuecomment-199816646
+14931|This issue was moved to Microsoft/TypeScript#7634
+14932|Cmd+Down on Mac.
+14933|Have seen this too, might be a bug in Electron/Mac.
+14934|duplicate of https://github.com/Microsoft/TypeScript-TmLanguage/issues/96
+14935|The normalized indicates what happens when multiple events for the same file occur. E.g. a delete followed by a change gets normalized to a change.  Can you show timestamps in the console so that we understand how large the timespan is between those events?  In our next release you are able to explicitly disable the file watcher on certain folders. This would certainly help here.
+14936|Is this configurable? And is it documented?
+14937|duplicate of #4101
+14938|Ugh. I was really hoping you weren't going to say that. I had looked at enough of the language client source code to figure that's probably what was going on, but was hoping that there was a method that wouldn't require such a high implementation cost.  Also, if I'm understanding this correctly, shouldn't [stdForkStart.js#L103](https://github.com/Microsoft/vscode/blob/master/src/vs/base/node/stdForkStart.js#L103) use && instead?
+14939|Can I explicit display timestamps?   > In our next release you are able to explicitly disable the file watcher on certain folders. This would certainly help here. > nice to hear!
+14940|Not configurable at the moment, we took the same keybindings as the finder (https://support.apple.com/en-us/HT201236) for rename (= Enter) and open (= Cmd+Down).  I agree we should make this configurable though.
+14941|Notepad++ does the same on my system. It isn't visible but you can navigate to it from the adressbar in the open dialog.
+14942|"![screen shot 2016-03-22 at 14 58 36](https://cloud.githubusercontent.com/assets/900690/13953909/96a4a57c-f03e-11e5-9bae-cf6d1733a590.png) ![screen shot 2016-03-22 at 14 58 40](https://cloud.githubusercontent.com/assets/900690/13953910/96aad64a-f03e-11e5-999f-6be234fdf178.png)  Click the configure button in the console and then ""Show Timestamps""."
+14943|I incorporated Joh's remarks.
+14944|LGTM
+14945|This would also mean to revisit this change: https://github.com/Microsoft/vscode/pull/4559/files
+14946|LGTM
+14947|Hello, sorry for the late reply, After Atom testing I got  the same behavior  I think: ![look](https://cloud.githubusercontent.com/assets/4757459/13953336/1fb7f10c-f044-11e5-8964-d86ea3ed14b1.png)  ``` Fetching featured packages failed.Hide output… tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ```  I also urlencoded the password and @ symbol  for passwords. There is no error in the Dev tools console (unlike Vscode). I am not really sure if I placed the settings in the right config  file location. Setting `http-proxy` `strict-ssl` in the http  the `~\.atom\.apm\.apmrc` seams to resset to default almost empty file after I restart atom. I copyied  `.apmrc` up one level since I have read somewhere that there it should be , so I have `~\.atom\.apmrc`. and the settings seam to stay there and the error (first image) is shown.  Deleting the proxy configuration from `~\.atom\.apmrc` gives me a different error shown bellow: ![look2](https://cloud.githubusercontent.com/assets/4757459/13954028/ab462542-f047-11e5-952d-888857130f92.PNG)  ``` Fetching featured packages failed.Hide output… tunneling socket could not be established, cause=connect EAFNOSUPPORT ```  So a **different** error message meaning that proxy setting is somehow taken into account. Do you have any suggestions on what to try next
+14948|Fixed. I push the missing translations to vscode-node-debug
+14949|Thanks, here is the log with timestamp:   ``` 2016-03-22 15.17:20.947 service.cp.ts:140 [Service Library: Watcher] [CHANGED] /run/user/1000/gvfs/sftp:host=host.tld,user=srf/file 2016-03-22 15:17:20.989 service.cp.ts:140 [Service Library: Watcher]  >> normalized [CHANGED] /run/user/1000/gvfs/sftp:host=host.tld,user=srf/file 2016-03-22 15:17:21.042 service.cp.ts:140 [Service Library: Watcher] [DELETED] /run/user/1000/gvfs/sftp:host=host.tld,user=srf/file 2016-03-22 15:17:21.145 service.cp.ts:140 [Service Library: Watcher]  >> normalized [DELETED] /run/user/1000/gvfs/sftp:host=host.tld,user=srf/file ```
+14950|The fix is fine, but remember that the standalone tokenizers are not used in VS Code. To make changes to the VB text mate grammar, make pull requests to https://github.com/textmate/asp.vb.net.tmbundle
+14951|@jrieken  as you say, these functions will be to the places where I said as last. The optional parameter is invalid
+14952|Please investigate but we decide based on that if there is action for GA or not.
+14953|@squarerootfury ok the events are close to each other but their ordering is weird, I suspect the correct order would be a delete and change instead of the other way around. What tool is causing these events? Or do they happen out of nowhere.
+14954|I can trigger them with saving in VS Code, the file does not close out of nowhere
+14955|Should be possible as it is done in atom (which is very similar) https://atom.io/packages/tablr .
+14956|@cs04riva: Sorry for misleading. I was just adding another feature I'd love.
+14957|@squarerootfury ok that is weird, so you say just saving the file from VS Code causes the delete and change event. Seems like maybe gvfs is doing something weird. If you want to give our new files.watcherExclude feature a try, you could try our insiders release: http://code.visualstudio.com/insiders  Note however that disabling file events might have other consequences, specifically changes to settings.json, task.json and launch.json within the .vscode folder of the workspace will not be reflected until restart. Maybe you could scope it down to the one folder that is connected via gvfs.
+14958|@mattacosta Nice catch! Filed #4562  It is a nasty one, but we won't do anything for March, but rather for April, as this doesn't have any user visible impact, probably because nobody uses fs.writeSync(1,...). It used to be that the TypeScript language server used that a few months ago, but they moved to use the much more sane process.stdout
+14959|I don't understand. [The snippet you linked to](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/electron-main/main.ts#L250) does exactly that: it merges the user's configured environment into the main process'. Renderer processes will inherit such environment.
+14960|I like the idea, but we have to make sure that no extension is already relying on case sensitive debug types.
+14961|@joaomoreno here is an example where it does not work: https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/electron-browser/index.html#L111  Why do you have to update process.env on the renderer when you say our patching works?
+14962|"To get Intellisense when using the ES6 import as is done in `index.ios.js`:   ``` js import React, { AppRegistry } from 'react-native'; ```  with the `react-native` and `react-global` typings, then you must add the following setting to the jsconfig.json:  ``` json  {     ""compilerOptions"": {         ""allowSyntheticDefaultImports"": true     } } ```  I've added this to the release notes and we also need to doc it."
+14963|Related: https://github.com/atom/electron/issues/3306
+14964|Can you sort the code gen options after the other ones.
+14965|@egamma  Sorting would be just for readability in the schema file, wouldn't have an impact on intellisense. That's what you meant?
+14966|Hi, I saw the main issue. I tried using the G-Sync functionality from Nvidia, I enabled it to run for windowed and fullscreen mode then it started the hang thing. The issue can be fixed once I disable the G-Sync entirely. Hope this helps.
+14967|@Tyriar just looked this up and looks like it's vista backwards that doesn't support powershell out of the box - https://en.wikipedia.org/wiki/Windows_PowerShell#PowerShell_2.0
+14968|@egamma Even after adding a `jsconfig.json` file with those contents, I still don't get Intellisense. Any other tips?
+14969|This applies across OS's, I also think this is as designed. Might be worth a little discussion with the feature owner though.  Note that you can always use <kbd>ctrl</kbd>+<kbd>f</kbd> to focus find from anywhere.
+14970|I can't reproduce yet. Here are the screenshots from the report:  ![screenshot from 2016-03-18 15-14-31](https://cloud.githubusercontent.com/assets/2193314/13959869/16bd2ca6-f013-11e5-8db3-20884d58c740.png)  ![screenshot from 2016-03-18 15-15-22](https://cloud.githubusercontent.com/assets/2193314/13959897/322e96aa-f013-11e5-9c67-d4c759174ca0.png)
+14971|@joaomoreno it's used as part of the build though, can't the file extensions be fetched from `./extensions/*/package.json`?  I'm still not entirely sure what the value does though.
+14972|This is only with my windows10 machine. I tried to verify same on windows8 but it is working as expected. I tried by completely uninstalling app from control panel on windows10 machine but still getting the same error message. The main difference In my windows10 and winfow8 machine is number of installed extensions. WIndows10: c# ,Go , Powershell, Debugger for chrome, ESlint, HTML Hint, Spell and Grammar check, Markdown Theme kit, Mono debug, JS-CSS-HTML formatter, Ruby,Ruby-linter Win8: C#
+14973|Related https://github.com/Microsoft/vscode/issues/4426
+14974|@Tyriar ah, thanks. I've added a list of editor software that focuses on Find first.
+14975|"@v-pavanp so does it reproduce when you run ""code --disable-extensions""?"
+14976|Atom 1.5.3 focuses find first too.
+14977|no i am not. i have tried with IE edge and mozila it didn't work i can download as regular it's just this one link is not working
+14978|I apologize, I didn't realize Keith had already filed a bug :)  Let's use his instead: https://github.com/Microsoft/vscode/issues/4567
+14979|It looks like it's an issue with V8/Node.JS running out of memory. Not sure what could be causing this but it seems environment-specific.  Chrome seemed to work fine, as does Eclipse and IntelliJ.
+14980|"Explicitly adding the extension to my triple-slash references seems to have solved my problem.  ``` TypeScript /// <reference path=""App"" /> //becomes /// <reference path=""App.ts"" /> ```  After discovering this, I was able to upgrade to v0.10.11."
+14981|@Tyriar any extensions installed? it seems to crash in the extension host right.
+14982|@bpasero I'm told this was a clean launch, so no extensions other than the built-in ones.
+14983|@jrieken did an extension that would profile the extension host, maybe he can send you instructions so that we get a heap dump of the process.
+14984|@bpasero I added you to the email thread
+14985|@unional are you configuring code to use typescript module for compiling or as sdk?
+14986|I recommended something like Visual Studio's implementation. Check here : https://github.com/Microsoft/vscode/issues/4096
+14987|I've seen this in the output and when playing with getting Open in Terminal working for Fedora in https://github.com/Microsoft/vscode/issues/4478
+14988|@egamma can you please verify that the forward link shows up.
+14989|You could also call print with parentheses which is compatible with both python 2 and 3.  ``` print(os.path.realpath(sys.argv[1])) ```
+14990|@bpasero sorry I haven't been able to successfully get a heap snapshot yet. Either the memory is very low such as for the one I captured before, or it jumps up to say around 500MB or more and grabbing the snapshot triggers a crash.
+14991|@Alphapage thanks a lot for the sample project. That was very helpful. After two minutes I found the problem why breakpoints are not hit and a two line fix for it. The following screenshot shows that the debugger now has stopped on the breakpoint and not on the debugger statement. And you can see that VS Code now recognises the dynamically generated code as JavaScript:  ![2016-03-22 22-34-38](https://cloud.githubusercontent.com/assets/1898161/13968738/a37182e4-f07e-11e5-835f-1356b07f6390.png)  Now i'll try to get source maps to work...
+14992|I hope you will have the same success with source maps. Congrats.
+14993|@Alphapage it is not that difficult: VS Code expects source maps in real files. In your case there is no real file, but its contents can be easily streamed from node.js.
+14994|Need to check if this is covered by the fixing we did today.
+14995|There seems to be a typo when converted from upper case to lower case with commit https://github.com/Microsoft/vscode/commit/42d87350424917e56b62af0a2b0ddea8fba3944a
+14996|Also affects `locale` attribute in locale.json.  If you set it to 'zh-cn', VS Code will not start.
+14997|OK. I found the problem which is two folded: - the typo I made. I fixed it and it works now - and update installation doesn't clean any files. So you still have an old zh-CN file there which makes it fail when that locale is used.   Need to talk to Joao what we need to do to clean up an installation.
+14998|I just encountered the same error on version 0.10.11. When installing the new C# extension, instead of restarting after the installation was complete, I accidentally opened a second instance. Afterward, I started getting this exception. No amount of attempting to uninstall and reinstall the extension would get me out of it. I had to delete the `jrieken.vscode-omnisharp` directory, then uninstall and reinstall the extension one more time to make it happy again
+14999|+1, would definitely increase readability
+15000|I think what is going on is that we removed the `#vscode` from the `licenseURL` in `product.json` which means code is now calling `http://go.microsoft.com/fwlink/?LinkID=533485?lang=en` (appending `?lang=en`).  It should use `&` instead of `?`.  So, we should append `&lang=en` instead of `?lang=en` (obviously replacing `en` with the appropriate locale).  In `src/vs/workbench/electron-main/menus.ts`, line 598:  `openUrl(`${env.product.licenseUrl}**?**lang=${platform.language}`, 'openLicenseUrl');`  should be:  `openUrl(`${env.product.licenseUrl}**&**lang=${platform.language}`, 'openLicenseUrl');`

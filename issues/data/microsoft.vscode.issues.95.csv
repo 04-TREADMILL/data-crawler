@@ -1,0 +1,100 @@
+9401|Delete word forward/backward
+9402|Ctrl + Tab not showing recently opened files after update to 1.3.1
+9403|Successive attempts to run Debug:Evaluate on selected text fail.
+9404|Feature Request : Navigation Bar like Visual Studio or Eclipse
+9405|VSCode touches file twice when saving file
+9406|don't load source for stack frames without source
+9407|Wrong autocomplete order/selection
+9408|TypeScrypt highlighting gets confused on lambda functions
+9409|TypeScript / Solution prompts to Common Problems [Feature Request]
+9410|Dark+ (default dark) Theme with Typescript type on multi lines issue
+9411|Where to ask architecture based questions?
+9412|Inability to use snippet with snippetSuggestions set to false
+9413|Cannot download OmniSharp
+9414|recent folder not opening mac
+9415|卡死
+9416|your website not compatible with lynx browser
+9417|Fail to update extension
+9418|Poor performance on large resolution
+9419|Tab order in Search window is not optimal for some use cases
+9420|"showTabs: false creates ""invisible"" tabs"
+9421|Search results need more space than the side bar allows
+9422|[jade] Jade/Pug #id syntax highlighting
+9423|Sort order for files in Explorer sidebar not natural/human
+9424|intergrated terminal bug , can't input chinese.
+9425|can't open intergrated terminal in dir ,named with chinese words
+9426|SQL apostrophe formatting
+9427|Console cursor disappears
+9428|Selecting a problem in the Problems panel should activate already-opened editor.
+9429|Feature Request: Horizontal split in addition to the vertical split
+9430|improve incremental search
+9431|TypeScript constructor find References
+9432|There are any plan to  support the command from bash for windows ? like git
+9433|Keyboard shortcuts not visible in menu on Ubuntu
+9434|Lower case drive letter in Open New Command Prompt command on Windows
+9435|Windows is painfully too slow to debug nodejs app
+9436|not able to format sass file
+9437|Code folding breaks if JSON is unaligned
+9438|Opening a browser window from an extension
+9439|Support Need to create an app on the same UI model which VSCode uses
+9440|Highlight changed files in a Git repo when folder is open in the Explorer view
+9441|Jsx formatter inserts extra space in code block if last character is a right paren
+9442|Explorer: allow to expand a sub-tree fully via Alt-click
+9443|Support F# Syntax Highlighting Inside Markdown Fenced Code Blocks
+9444|Support IMEs in integrated terminal
+9445|Reopened tabs should open in the same position as closed
+9446|Handle events on the terminal panel DOM element from within panel
+9447|Add a context menu to the terminal
+9448|Issue while repainting in cmd console
+9449|Side loaded extensions don't prompt when outdated.
+9450|support syntax highlighting for json5
+9451|Failed to install C/C++ extension on mac
+9452|Missing output with clear then scroll
+9453|Problems panels use check new content instead of old
+9454|Add CP852 support
+9455|Added more T-SQL keywords
+9456|throw '存储空间不足，无法处理此命令。' when I open the terminal(ctrl + `)
+9457|Does not automatically detect the language based on file name extensions
+9458|CSS inlining warnings in build
+9459|Enable configuring Typescript Beta Language service
+9460|How to easily move around my code
+9461|Git: Support line staging
+9462|"inconsistency in ""Javascript React"" or JSX syntax highlighting with { bracket-enclosed expressions }"
+9463|[css] Intellisense unaware of user-select css property.
+9464|It is not possible to select multiple file from the file explorer
+9465|Setting 'openFilesInNewWindow' should be 'false'
+9466|[Terminal] Run entire text if selection is empty
+9467|Breakpoints are all unverified when debugging extensions if there is no network access
+9468|Closing brackets between tags
+9469|Restart frame not working as expected
+9470|Integrated terminal can't find __git_ps1
+9471|Renaming an inactive tab closes it
+9472|JSX formatter removes space between sentences in component plain text content.
+9473|RPM does not work with RHEL 6.7
+9474|fixes glibc dep issue on rhel 6
+9475|Jsx format code bug
+9476|Duplicated file name with case rename
+9477|How about add a new plugin 'code map'?
+9478|Something is clearing Undo buffer. Coder cannot undo as many steps.
+9479|ctrl+A does not respect editorTextFocus condition
+9480|VSCode markes newly opened files as modified
+9481|Editing history is lost when using onFocusChange
+9482|When I Preview Markdown, I find Chinese cannot previewed correctly
+9483|"Added missing ""rem"" unit"
+9484|Allow to save a list of opened editors in a group and switch between them
+9485|Tyepscript beta 2.0 - Error still shown for Experimental Decorators (even with flag true in tsconfig)
+9486|Feature Request: Enable emmet for other file extensions.
+9487|Open file with fuzzy search on workspace
+9488|Git: Support WSL
+9489|Microsoft.PowerShell.EditorServices.Host.exe process constantly uses one CPU core
+9490|Autocomplete annoyingly tries to complete in comments.
+9491|Test Runner Viewlet with an Extension API to plug into [Enhancement Request]
+9492|UX meeting agenda July 20, 2016
+9493|The new @types folder for TypeScript doesn't work on VSCode
+9494|code-insiders 1.4.0 doesn't have 1.3.1's overflow icon when too many tabs are opened
+9495|"Setting ""explorer.openEditors.visible"": 0 does not actually set the Open Editors view to 0 / hidden"
+9496|[Request] Enable reopening VS Code to the same workspace and set of files as when VS Code was closed (like Notepad++ default)
+9497|comments garbled.
+9498|Ctrl+Shift+H Global Search differs in focus behavior from Ctrl+Shift+F
+9499|Ctrl+Shift+F returns to global replace view instead of global find
+9500|Command to re-wrap code to respect a preferred line length column (e.g. 80 columns)

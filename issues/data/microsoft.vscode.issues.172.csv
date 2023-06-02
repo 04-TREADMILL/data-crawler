@@ -1,0 +1,100 @@
+17101|Search & Replace: typing into replace box with many results is super laggy
+17102|Broken Link - MS Link to Github
+17103|Code size increased quite a bit since the last version
+17104|Keyboard shortcut to move cursor between panes in settings/keybindings
+17105|Finalize package wording on Linux packages and localize
+17106|Add screenshots to Linux packages
+17107|vs code crashes
+17108|Code OSS rpm builds state official build license
+17109|Update TS extension to target es6
+17110|Node debugger sometimes continues rather than steps over
+17111|high contrast mode - missing vertical line when sidebar collapsed
+17112|Slow render issue when maximizing/restoring window
+17113|high contrast mode - stray orange line when focused on terminal
+17114|Off-by-one error for pencil buttons for workspace editor settings
+17115|high contrast mode - cursor position invisible when selecting text
+17116|Feature Request: Hot Key for Clear Results - Interactive Window
+17117|Missing dependencies in rpm package
+17118|Should Keep Pressing CMD + DELETE still delete lines?
+17119|Can't change shortcut for toggling terminal to cmd+` instead of ctrl+`
+17120|Allow to use middle mouse click in trees (fixes #14453)
+17121|"Replace-across-files dialog says ""1 files"", not ""1 file"", for one file"
+17122|Auto start watch task
+17123|Add file preview while searching.
+17124|CoffeeScript parser error with forward slash
+17125|Improve rpm dependencies
+17126|Use license in product.json for rpm
+17127|Compute cursor/s state after edits were applied
+17128|Provide richer Marketplace interactions
+17129|Green lightbulb not displayed
+17130|Word wrap toggle is switched off whenever zoom level is changed
+17131|Zombie TS-server processes
+17132|Mac: sticky drag feedback in some cases
+17133|Represent modifier keys via key codes only when no other keys are pressed
+17134|Problems with Automatic Updates on Windows
+17135|How to config terminal.external work with Hyper.is app
+17136|Preferences: decorations on whitespace
+17137|Line ending setting ignored when restoring from backup
+17138|Preserve and restore the last typed text in command palette
+17139|Find In Files in specific folder without opening the folder in VSCode
+17140|What about to add a fallback file encoding?
+17141|Orphaned quote crashes Sass
+17142|indent not following setup
+17143|TypeScript misses document symbols
+17144|"Allow to move the ""Opened Editors"" view below the file explorer"
+17145|"Accessibility: MAS40B: Inspect: 'Name' property is empty for ""Debugging ToolBar"" Panel."
+17146|Accessibility: MAS40B: Inspect: 'Name' property is Null for Tree Item under 'BreakPoints' Section in left pane.
+17147|Accessibility:MAS40B:Name and Help text values are empty for the top level menu
+17148|"Accessibility: MAS40B: Inspect: Inappropriate 'Name' property for ""Path Text Box"" in 'Select Destination Location' window in Visual Studio Code editor installation wizard."
+17149|"Accessibility: MAS40B: Inspect: 'IsExpandCollapsePatternAvailable' property is FALSE for ""Open Editors"" Toolbar."
+17150|Accessibility: MAS40B: Inspect: 'IsExpandCollapsePatternAvailable' property is FALSE for Git or Extensions or Tasks combo box in Output Panel.
+17151|"Accessibility: MAS40B: Inspect: Name Property of the Files opened Starts with ""tab"" and Localised Control Type is missing for these files"
+17152|Accessibility:MAS42A:Menus and context menu are not adapting to high contrast theme
+17153|Accessibility:MAS42A: More colors in high contrast theme
+17154|Accessibility:MAS42A: Disabled Icons appears as Enabled on mouse hover in High Contrast Mode.
+17155|Accessibility:MAS13:Menus and context menu are not zooming in with the rest of the UI
+17156|activationEvents onLanguage doesn't work with custom language
+17157|Syntax highlighting errors in js code
+17158|Ignore URL params when debugging and following Click to follow links in Debug Console
+17159|VS remotely controlled?
+17160|PHP pages do not show matching embedded HTML tags
+17161|"Coffescript: ""/"" Slash breakes Comments"
+17162|"Getting ""unable to get local issuer certificate"" error while installing extension"
+17163|HTML Intellisense and snippets not working for HTML in PHP file
+17164|Golang 1.7.4 breaks navigation outside package
+17165|"C# / Unity - Typing ""override"" does not offer any suggestion based on base class."
+17166|"""next marker"" goes to the first error, not the next error after the cursor"
+17167|on linux, running debug results in error
+17168|Any reason settings search doesn't fuzzy search settings keys?
+17169|If settings search string contains a space, it should be more strict
+17170|Keypair settings misaligned with dictionary settings when using Copy to Settings
+17171|1.8 update reduces tab bar element visibility in light theme
+17172|eslint not following plugin rule changes that override extend
+17173|"""Add to watch"" should be disabled for objects in console"
+17174|Support native tabs on macOS
+17175|Allow to open a file and goto line without -g option (/path/to/file.ex:123)
+17176|VSCode crashes when opened from terminal
+17177|Please tag version 1.8
+17178|Zen mode code centre
+17179|Variable name maybe shouldn't be mandatory for OutputEvent
+17180|The TypeScript language service died unexpectedly 5 times in the last 5 Minutes. Please consider to open a bug report.
+17181|Give option to turn off “format-on-save” for specific file formats, like HTML
+17182|Zen Mode could have an option to show only the current tab
+17183|Problem scrolling in 1.8.0
+17184|"Background color changes in ""blocks"" in editor"
+17185|registerCompletionItemProvider problem
+17186|Ctrl + Click is not working to go to function definition in Javascript
+17187|Markdown preview doesn't word wrap
+17188|Javascript files are not being formatted
+17189|Proposal: use ACME chords for VSCode terminal
+17190|My hyperdock can't resize the window after i upgraded to vscode 1.8.0
+17191|selection menu is not supported by chinese
+17192|How to hide explorer without activity bar?
+17193|feature-request: touch emulation
+17194|Allow to set a background image
+17195|Tab snippet for generating  html tag is slow at first time
+17196|VSCode stops working properly after updating to latest version
+17197|Sorting selections
+17198|step into is not working in case of debug nodejs enviroment
+17199|"Usability: NVDA is not reciting the ""Name"" and ""shortcut key"" for  the menu options present  in the visual studio code appropriately."
+17200|"Usability: NVDA  is not reciting the ""Name"" and ""shortcut key "" for the view bar buttons in the visual studio code editor."

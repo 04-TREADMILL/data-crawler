@@ -1,0 +1,100 @@
+23501|Adding missing imports - feature or bug?
+23502|Ripgrep: can't search for a query containing a space, using the 'whole word' flag
+23503|VSCode extension on Windows in Users/%user/.vscode, I want to change it to the VSCode root directory, make a portable
+23504|[regression] Icons dont show in Explorer
+23505|setting Document#eol resets cursor
+23506|Platform.language should return pseudo if started in psuedo mode.
+23507|Setting IModel#setEOL isn't undoable
+23508|[regression] Highlights no longer rendered for match case whole word
+23509|Multiline Ctrl+D does not work in CRLF files
+23510|Ripgrep: different result searching for regexp search
+23511|Search term in keybindings editor is not saved
+23512|No longer possible to create new branch from git status bar
+23513|quitelight theme update fixes #23523
+23514|Pr 1
+23515|Compare 2 files with multi selection
+23516|Ripgrep: exclude filter behaves differently
+23517|Add up arrows on root folder so Explorer can go further up file hierachy
+23518|Add set as base for a sub folder so that the root folder is that folder
+23519|Show full path of root folder in explorer and make it editable
+23520|Allow tabs to be torn/tear off into separate window, allow tabs to be added to tabs in another window
+23521|Incomplete messages in error dialog
+23522|Search exclusion text box background color broken
+23523|Do not show multiple breakpoints for wrapped lines
+23524|Too many messages in the git output view
+23525|Keyboard becomes unresponsive while playing World Of Tanks
+23526|Expose actions in Search title in Command Pallette
+23527|Auto import quotes sign should be configured by tslint.json for Typescript
+23528|don't add artificial newline characters in debug console
+23529|Toggle word wrap affects all tabs in an editor slot
+23530|"Toggle word wrap button should ""stick"" around"
+23531|Crash using VS Code with latest NVDA
+23532|Getting hold of current launch configuration in the extension
+23533|Initialize repository is hard to find
+23534|Git clone authentication not working on Linux
+23535|File icon themes are not working (missing icons)
+23536|add a constraint for immutable types
+23537|Working with virtualenvs created by bash on Windows
+23538|Allow to associate a file encoding per file path
+23539|Find input checkbox on high contrast issues
+23540|Named terminals
+23541|It works good in debugging on my computer , but when I publish it to the market ..
+23542|Terminal does not linkify unqualified file paths
+23543|cannot not open source file when debug
+23544|[scss] hide functions that don't match type
+23545|Send run task activation even whnen task open handler is used.
+23546|Handle bash under Windows in terminal task runner.
+23547|Cannot switch folder when debugging extension
+23548|Standalone editor coloring issues
+23549|Hard to find settings with new IntelliSense sorting
+23550|Find & replace history strange behavior
+23551|SCM: Text-only navigation action misaligned
+23552|'Go to Symbol in Workspace' doesn't work unless an editor of the language is open
+23553|"Typescript symbols aren't displayed when using `""search.quickOpen.includeSymbols"": true`"
+23554|prevent reload window closes the debuggee; fixes #23390
+23555|Enhanced Scrollbar with Marks and Annotations (like VisualStudio)
+23556|icons are not working in vscode insider and report issues under help is also not working
+23557|Extension Source for keybindings not showing Up
+23558|Different Rendering of Shortcut keys
+23559|SCM: Support optional UI label for SCMResource
+23560|SCM: support icon substitution for SCMResource and SCMResourceGroup UI labels
+23561|Unable to assign a keybinding
+23562|SCM: let SCMProvider knows when a SCMResourceGroup is selected
+23563|To easy to enter multiple keys
+23564|SCM: Support drag-and-drop
+23565|Settings options from tasks.json
+23566|Release notes page font looks out of place in latest build
+23567|SCM: Tiptool or hover message for SCMResource and SCMResourceGroup
+23568|SCMResourceDecorations ambiguity
+23569|"Got ""Invalid escape character in string"" in settings.json?!"
+23570|Welcome interface overview points at the wrong spot if the side bar is on the right
+23571|[Insiders] Interactive Playground - CSS swatches, IntelliSense, Refactoring doesn't work
+23572|SCMProvider.resources naming
+23573|Close an instance if all files from it moved to another instance
+23574|Remove box around matchBrackets
+23575|Toggle Word Wrap, Whitespace, Control Character menu items don't indicate they are on/off
+23576|SCM: Resource Group Selection with Keyboard Navigation does not show action icons
+23577|Feature: option to configure renderIndentGuides
+23578|Render Whitespace is too low contrast
+23579|Feature: Option to keep Activity bar visible in FullScreen and Zen mode
+23580|Save All copies in memory to Open Editor
+23581|Lot of CPU is being consumed when GIT OS Repository is opened in vscode
+23582|Keybindings: canceling popup context menu causes second menu to appear
+23583|Format Document/Selection does not work
+23584|No cursor change for DND
+23585|Hanging when close & open it
+23586|Getting search results which should be ignored
+23587|JSON error
+23588|File icon theme not working after update
+23589|Terminal links don't react to key events performed outside window
+23590|update & alert is broken
+23591|SCM: Active provider change event does not fire
+23592|"""Match whole word"" - fewer matches using ripgrep search"
+23593|Cursor up/down jumps visually left/right when using a proportional font
+23594|Debug: Launch VSC configuration fails - remove runtime argument works
+23595|Extension Editor: Show default values properly when they are not simple type in Settings contribution
+23596|Listen on configuration change
+23597|#elif is not handled correctly by the C/C++ syntax highlighting
+23598|0.11.0-Insiders regression: C++ #define without a value breaks colorization
+23599|take a long time to  continue debugging after halt at a breakpoint
+23600|Expand/customize git output

@@ -1,0 +1,100 @@
+19401|vscode - scss “cube” suggestions
+19402|AutoFill Option in Debug Console in debugging mode
+19403|Add window.restoreZenMode option
+19404|scode cpptools
+19405|Snippet mode is left on editor blur
+19406|Update ghooks (deprecated) devDependency
+19407|Use top bar for all confirmation dialogs
+19408|Add support to edit the php executable path as a non sharable workspace setting
+19409|TypeError when debugging with node2
+19410|lodash in bundled git extensions takes 4.8M
+19411|TypeScript Rename File Refactoring
+19412|Keys requiring ALT-GR don't work in ghci with the integrated terminal on Windows
+19413|'Show' vs. 'reveal' word in settings and commands
+19414|ES2015 Classes not highlighting correctly
+19415|Performance regression while starting up
+19416|Intellisence should not be active when entering in comments.
+19417|Code suggestions not appearing for function parameters in C
+19418|[WelcomeUX] Spelling mistakes in welcome page
+19419|textEditor.insertSnippet: what does multiple ranges do?
+19420|"[WelcomeUX] ""Recent"" doesn't show drive root correctly"
+19421|textEditor.insertSnippet: snippet not inserted when text is the same
+19422|Warning for c_cpp_properties.json
+19423|"typescript.tsdk ""must be a user setting"""
+19424|Workspace settings fail to load when opening root
+19425|[WelcomeUX] Welcome page: / as recent workspace
+19426|[WelcomeUX] Color of buttons on welcome page
+19427|Tab to AutoComplete in TypeScript Files Doesn't Work
+19428|[WelcomeUX] Empty Recent section shown when only current folder in MRU list
+19429|Cmd+P no longer cycles through files
+19430|[WelcomeUX] Interactive playground editor cursor can be off screen
+19431|Scroll Sync from Markdown Editor To Markdown Preview
+19432|Find-all-references takes me to the wrong location when there is collapsed code.
+19433|clicking on the Node.js link results in a 404
+19434|iMac and weird background
+19435|Show warning on first load of workspace with typescript.tsdk setting
+19436|[c#] Syntax highlighting problem with SQL text strings
+19437|PHP punctuation has no theme selectors
+19438|[WelcomeUX] Welcome title hidden at initial window size
+19439|"I tried ""Go to definition"" and you won't believe what happened next"
+19440|Intermittent Frontend Display Failing to Update
+19441|Include C# textmate grammar
+19442|Log preferences filter strings that produced no results
+19443|Close window dialogue gets shown multiple times on pressing 'Cancel'
+19444|The integrated terminal uses fish shell and it lacks the auto completion. Also the working directory doesn't mounts by itself ,have to cd into the directory.
+19445|[WelcomeUX] Missing Recent section unbalances layout
+19446|Terminal flowControl setting default should check for the existence of ~/.oh-my-zsh
+19447|Markdown: slight flickering in preview while editing
+19448|[WelcomeUX] Overlay text should be higher than command palette
+19449|#16770 Delimit compound shortcuts with commas
+19450|problems HTML with the cursor when I press enter
+19451|Application data spread out on disk (Win10)
+19452|Terminal is broken
+19453|SuppressTaskName should always be true for local commands even if set to false.
+19454|TSServer Service dies on rename
+19455|Dollar sign not beeing highlighted when double clicking variable
+19456|Do not validate and filter extension names while getting dependencies
+19457|Fix #19484
+19458|VS Code file icon leaks around
+19459|Missing React syntax highlight for object-value
+19460|The View > Output menu item doesn't show its shortcut
+19461|[WelcomeUX] Wrapping of Title in welcome page does not look good when the size of the editor is small
+19462|Expose line numbers color to themes
+19463|"[WelcomeUX] Revisit ""Interface overview"""
+19464|[WelcomeUX] Welcome screen should probably not show if VSCode is launched with a file argument
+19465|error on first IntilliSense invocation
+19466|Expandable objects in locals cannot be modified
+19467|confusing signature in CodeLensProvider.onDidChangeCodeLenses
+19468|No hover in the branch switcher
+19469|"""window.reopenFolders"": ""all"" doesn't work"
+19470|Having parameters for tasks would be very useful
+19471|Smoke Test: replace in search strange behavior
+19472|Suggestion: When quick open is active, fill search field with selected item when pressing left arrow key
+19473|"[WelcomeUX] Welcome ""editor"" has icon although I have icons disabled"
+19474|Markdown outline throws
+19475|Format on save formats dust incorrectly
+19476|Very long tab titles when opening settings editor and settings file
+19477|Lost space in preview mode
+19478|Process picker only shows after first stop
+19479|Debug view is not showing the hit break point
+19480|JSON default snippets should respect indentation in file
+19481|GUI Becomes Unresponsive
+19482|Feature request: Allow automatic clear of output window before running task
+19483|Some editor settings are not being respected by language
+19484|Feature Request: Hotkey to turn preview tab into real tab
+19485|Feature Request: Select while jumping to matching bracket.
+19486|Allow navigation within documentation window
+19487|VSCode does not have good behavior with '.properties' files when using apostrophe
+19488|Navigate among the files while typing in the Explorer panel
+19489|'noDebug' flag not passed to debug adapter
+19490|Using Tab with multiple cursors
+19491|Settings editor: hovering over a section doesn't look good in some themes
+19492|[themes] Settings editor: input box container background doesn't look good in some themes
+19493|Crash in Windows VM after search
+19494|Support screen reader on Linux
+19495|Typescript breaks on startup
+19496|Multiple process debug dropdown doesn't show up in widget consistently
+19497|Monaco>DiffEditor>inline view>clicking + dragging over original lines will select text from new, even if using scrollbar
+19498|Filter installed extensions
+19499|Extensions: Searching with extension name after @{group} filter
+19500|Multiline object properties in intellisense should auto-complete using bracket notation

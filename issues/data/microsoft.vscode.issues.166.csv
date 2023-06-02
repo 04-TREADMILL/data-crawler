@@ -1,0 +1,100 @@
+16501|News like Visual Studio - Feature Request
+16502|Test: Javascript and CSS in HTML
+16503|`output` shouldn't be required on OutputEvent when variablesReference is used
+16504|New settings looks odd when indent guides are on
+16505|"An ""edit"" icon would be more suited than the copy icon for the new settings editor"
+16506|Test Configuration Settings #15162
+16507|Incorrect Syntax Highlighting in VS Dark+ For Computed JS Object Property Name
+16508|Terminal scroll bar is not bottom aligned
+16509|Make it easier to resize panes without having to click on sashes
+16510|Test Large Project Warning Improvements
+16511|Recursive call in terminal code
+16512|ALT+F, C does not close current tab
+16513|Edit menu Emmet commands should be separated from Block comment commands
+16514|Reconsider removing Select All from Edit menu
+16515|Left CMD opens Peek Definition
+16516|a problem on C++'s syntax highlighting when using a macro
+16517|Activity Bar drag and drop doesn't support dropping between items
+16518|Add TS Code Action support
+16519|Test diff editor indicators
+16520|Test Hot Exit
+16521|Test newly introduced Sublime commands
+16522|"""jsx"" file associations setting not treated the same as ""javascriptreact"""
+16523|Test IME Composition
+16524|"[css] ""float:none"" and ""display:inline-block"" together triggers warning (cont...)"
+16525|Test highlight current line in gutter
+16526|Python interpreter inside a docker container
+16527|Add context menu item to copy callstack
+16528|fix formatting in commonEditorConfig.test.ts
+16529|suggestWidgetMultipleSuggestions does not seem to be updated correctly
+16530|Replace preview: 'Could not resolve any model with uri ...'
+16531|Custom CompletionItemProvider's results get deleted
+16532|Preferences style polish
+16533|files.insertFinalNewline should Not Move Cursor to New Line
+16534|Test: Selection menu
+16535|Test: Preferences > Keymap Extensions
+16536|Test: Watermark improvements
+16537|Mac Emoji Panel Shows in Wrong Location
+16538|Mac Insert Emoji Duplicates Text
+16539|How to open a new tab when I cmd + click?
+16540|Fold .ts .js and .js.map files into a single unit
+16541|Double-clicking a file in Windows opens VSCode but does not load the file opened
+16542|vscode and godef use high cpu (with steps)
+16543|telemetry for cloud attach
+16544|Apply indent rule when enter.
+16545|Presing Tab key after a word in markdown file creates XML tags
+16546|Win/Linux: detect real casing of workspace paths
+16547|Editor scrolls to the wrong place when navigating to a lower line in the same file using the inline editor
+16548|The 'Format Document' not works
+16549|Extension API: insertSpaces and tabSize are undefined
+16550|Opening a file always opens two windows
+16551|`showTabCloseButton` is confusing
+16552|Launch widget should be disabled when there are no configurations to launch
+16553|Launch widget needs ellipsis
+16554|为什么不能完美支持C 语言
+16555|"some problems of ""tasks.json"""
+16556|Unable to write to settings should offer an action to open settings
+16557|Add Configuration screws up launch.json
+16558|Git Clone: do the clone operation from the window
+16559|Git Clone: do simple validation of user input
+16560|Dirty indicator shows after some delay when restoring from backup
+16561|Linux Configuration Doesn't work
+16562|Move PHP IntelliSense out of core
+16563|Join Lines: not multi cursor aware
+16564|Preserve view state for untitled files between restarts
+16565|Untitled file isn't restored properly
+16566|Editor preview tab auto-close, when navigating out of it
+16567|Mac can be cases-sensitive
+16568|Workspaces aren't restored properly
+16569|Provide intelli-sense to select configurations under compounds launch
+16570|It is not intuitive to user where to add compound configurations in launch.json
+16571|Way to easily dismiss watermarks
+16572|Debug widget has some UI issues
+16573|Updating settings does something weird to zen mode
+16574|Consider to rearrange sections in Selection menu
+16575|insert final new line should also trim additional lines
+16576|Zoom in Zen mode brings back status bar, activity bar
+16577|Watermark actions should be clickable
+16578|Commands in debug widget gets hidden
+16579|Ability to terminate a program from Call stack
+16580|Debug widget drag handle jumps around
+16581|highlight C++ code failed in one file
+16582|Watermarks should automatically hide when panel opened
+16583|Debug compounds should be suggested in Intellisense
+16584|It would be nice to have a warning for duplicate configuration/compound names
+16585|No schema support for args-attribute
+16586|Chords broken
+16587|Asymmetric behaviour of Toggle Block Comment
+16588|Suggestion: Tweak fullScreenZenMode description
+16589|Ability to select and start a launch using keyboard
+16590|An empty set of compound configurations should not appear in the launch dropdown
+16591|There is no validation in debug compound names
+16592|toggle in/out of zen mode with settings.json file changes active editor
+16593|Debug widget shows process picker with a single process
+16594|Cursors at Line Ends is confusing
+16595|Maximum call stack size exceeded in debug
+16596|Selection menu: Improve 'Cursor at lines end'
+16597|Scopes are shown in hover on a function
+16598|Launch debug widget fails to update with invalid debug config
+16599|Do not see full path for settings.json, keybindings.json
+16600|Sublime: 'Join Lines' command binds to Windows+J on Win 10

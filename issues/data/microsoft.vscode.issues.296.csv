@@ -1,0 +1,100 @@
+29501|Git: cannot sync while git status is running
+29502|Thread name shows <No name> although other threads have a number as a name
+29503|Preserve quick open input on Escape
+29504|Task is not detected if gulp installed after 'Run Task' command was executed
+29505|GitHub extension does not work on Linux
+29506|GitHub extension: refresh on settings change
+29507|'Continue without scanning the build output' option is at the bottom of problem matchers list
+29508|GitHub extension: private repository does not show any issues
+29509|Multi root folders view name is not updated on removing root folder
+29510|Remove entries from quick open history (and opened editors?) when root folder is removed
+29511|Escape 'scanning the build ouput' quick open -> run task is not canceld
+29512|Selection of problem matcher is not very intuitive when running a task
+29513|DebugSession.customRequest is not executing the command
+29514|Customize tasks action in quick open should be shown for all tasks
+29515|运行java文件时出现乱码
+29516|Tasks: reveal: always / never / silent not a clear distinction
+29517|Tasks: Echo: false has no effect
+29518|Tasks 2.0.0 missing documentation
+29519|[I18N] Unresolved message placeholder
+29520|Cover multi root in automated smoke tests
+29521|"Tasks: Consider introducing ""Add Configuration..."" like in debug"
+29522|Untitled editors should not restore when user confirmed to not save
+29523|'group' property is not an object literal in tasks.json
+29524|Start with com '. code' close the Terminal
+29525|Allow `files.encoding` to be set per programming language.
+29526|Switch to npm5
+29527|Make Telemetry Opt-In instead of Opt-Out
+29528|Word wrap settings ('on') are completely ignored
+29529|Typescript build task should prefer bundled tsc/tsserver over global one
+29530|Should TypeScript build task be a watch task?
+29531|"Error when launching extension: ""Sent env to running instance. Terminating..."""
+29532|Feature Request: $TM_FILENAME variable without file extension in snippets
+29533|Emmet css abbreviation not expanded in style attribute in html tag
+29534|Ctrl+Delete deletes whitespace plus token in vs-keybindings
+29535|"VSCode removes folder from ""recent list"" if it is on Network Drive"
+29536|Tasks: attach a problem matcher to a task that has a background property should add isBackground to the task
+29537|Tasks: Terminate and Restart quick pick should not show a task grouping
+29538|We need a better context menu contribution story
+29539|Auto indent on pasting does not satisfy indentation for braces in JS/TS
+29540|No file events for root folders
+29541|Missing file events on Linux 64
+29542|github issues extension: Clicking or double clicking on an issue has no effect
+29543|Tasks 2.0.0: presentation is not allowed as a global property
+29544|files.watcherExclude needs explanation of values
+29545|Do not refresh explorer more than necessary, upon file events
+29546|Multi root folders view name is not updated on removing …
+29547|Tasks>Terminate Tasks/Restart Tasks - tell the user when there are no tasks to terminate/restart
+29548|Select for Compare explorer action is broken when having multiple roots
+29549|Small exit button in diff review panel
+29550|Cannot quit quick pick and accessible diff view on single Escape
+29551|Respect search.exclude per folder
+29552|"console.dir not output in ""DEBUG CONSOLE"" in macOS"
+29553|Can't remove master folder from Explorer
+29554|Comment placeholder no longer centered
+29555|Multi root workspace explorer is not getting updated
+29556|Node 7 sends ASCII control characters not handled by the TerminalDecoder
+29557|File watching doesn't work between shared folders (parallels)
+29558|QuickOpen looks misaligned in monokai theme
+29559|First section in explorer comes in after startup causing ugly flashing if having custom explorer installed
+29560|Improve presentation of problem matcher picker
+29561|Polish: Adapt task is already running message to refer to the Task menu
+29562|QuickOpen does not respect files.exclude per folder
+29563|Sorting of intellisense suggestions not optimal in this case
+29564|Smoke Test: commiting changes fails with 'Failed to execute git'
+29565|useRipgrep enabled/disabled by folder
+29566|(Discussion) Tasks: Reduce the Task related quick open handlers
+29567|Same, same but different Task-ctors
+29568|Test: task discovery
+29569|Contribute problem matcher for the webpack ts-loader
+29570|Tasks don't work at all with tmux setup
+29571|Remove clean and rebuildAll group from json schema since we don't have dedicated menu entries.
+29572|(discussion) Tasks: Configure Tasks vs. Customize Tasks
+29573|Restart task is not triggered from command and top level menu
+29574|Update of  latest 32 Bit windows version fails under windows 7
+29575|Workspace searching with a negative lookahead fails
+29576|multi root: cannot paste across root folders
+29577|Allow binding 'open' gestures in contributable views
+29578|Show Task Log opens Output pane instead of Integrated Terminal
+29579|Too many exclude settings
+29580|files.exclude and files.watcherExclude have different behaviour for same globs
+29581|Updating a sym-link file outside is not getting updated in Multi-root workspace
+29582|Do not trimForExclusions
+29583|Settings: folderValue versus workspaceValue
+29584|Allow users to choose the character to display invisibles
+29585|"Yeoman ""generator-code"" generates old-style tasks.json with warning"
+29586|Add Codecov.io to trusted badge providers
+29587|Graphical glitch, garbled interface
+29588|proposed API breaks hello world extension
+29589|[scss] Red bracket in sass selector preview
+29590|"""editor.lineNumbers"" not respected in mutli folder setup"
+29591|Multiroot change event should have a delta
+29592|Debounce with 'leading' set should not fire twice for a single input event
+29593|Extension is working at debug but not after be installed as vsix
+29594|Tooltips available for SCM diff decorations
+29595|VSCode Powershell Integrated Terminal can't interact with Azure API
+29596|Allow configuration of how go-to definition navigation behaves
+29597|Emmet no longer works in latest Insider Build, works fine in general release build
+29598|Multi-root search: results in .git/ are returned even though it's excluded from settings
+29599|Visual Studio closes when clicked away from
+29600|Search files to exclude doesn't work in a multi-root context

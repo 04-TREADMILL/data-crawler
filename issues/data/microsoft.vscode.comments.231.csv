@@ -1,0 +1,100 @@
+23001|Maybe it's pty.js doing this then, I'll have a look there thanks.
+23002|Agreed.
+23003|@lyret thank you for the suggestion!  we are actually working on a new icon for VS Code, we'll take this design into consideration.
+23004|Nightly builds are on their way, please see: http://code.visualstudio.com/blogs/2016/05/23/evolution-of-insiders
+23005|Looks like this is where it happens, still looking into why: https://github.com/platformio/pty.js/blob/prebuilt/deps/winpty/agent/Terminal.cc#L372
+23006|sublime text是一次性加载所有扩展，而vscode是一次性加载部分扩展，用户输入扩展名字才会去动态搜索，这样就会导致体验不是很好 ![Uploading 1.png…]()
+23007|"@SHarieprasadh when you open the workspace setting file, VS opens an empty settings.json file. Add the following code as show below (change ""C:/xampp/php/php.exe"" to your php.exe location)  ``` // Place your settings in this file to overwrite default and user settings. {     // Points to the php executable.     ""php.validate.executablePath"": ""C:/xampp/php/php.exe"" } ```"
+23008|I get the same thing, it's really annoying when you want to step backward or forward through the command history trying to find a certain state, and after each undo/redo it jumps to the top, making it very difficult to tell if you've gone back/forward to the right place.
+23009|+1
+23010|"I was not able to reproduce this in OSX 10.11.5 following the steps provided. Are you talking about a specific type of ""document"" or just anything with highlightable text?"
+23011|@waderyan Same issues here. Have you found a solution?
+23012|Just to reiterate, it happens to me on any type of file - usually only for the first time I press tab after opening vscode (but sometimes also in the middle of working)
+23013|Definitely sounds like an issue with your repo indeed. Will close this since @stuartweir didn't report more info.
+23014|Maybe do not use double click as the action to pin a file, but rather a contextual action in the explorer items or the editor title?
+23015|@alexandrudima Never mind, I'm coming to the conclusion that this has always been like that. 👍
+23016|"@isidorn by reducing the number of actions in the context menu in ""Opened Editors"" I decided that we do not need the context menu there anymore. Now it looks like this:  <img width=""327"" alt=""screen shot 2016-05-26 at 08 22 32"" src=""https://cloud.githubusercontent.com/assets/900690/15565437/062c41a2-231b-11e6-8116-44172cb2045b.png"">  Which matches pretty much what we had in working files:  ![image](https://cloud.githubusercontent.com/assets/900690/15565460/23872c44-231b-11e6-8339-7a1b3ec0c7d4.png)"
+23017|I would only consider that an option if we cannot find a good solution for this problem. There is a global action to pin a file and you can double click on the editor title to pin it. We could add more context menu actions too, but at some point it gets messy there.
+23018|For verification: this only happens if autoSave is off. We did not record correctly the previous cursor state before applying the trim whitespace edits.
+23019|Repro: wait 2 minutes before running a git action. Output should work after that.
+23020|The issue is that I don't get any language service feature on the RHS after staging. No hover, no mark occurrences etc
+23021|The method does correctly what it is supposed to do, but the passed in string begins in the middle of a rule (i.e. the text is not in the initial state)  You can think of it similar to a block comment:  ``` /* Hello ------------text starts here My peek definition text */ ```  `My peek definition text` will not be colored as a comment because the `tokenizeToHtmlContent` method only gets:  ``` My peek definition text */ ```
+23022|@Tyriar @rebornix Clarrification: #6897 is adding staging and unstaging of a current file the the `F1` command pallete which also allows it to then also be assigned to a keyboard shortcut.   The PR can be extended to detect current text selection in a file and stage/unstage those lines as well. This would then require #6896 to be merged first. It could also be done as a second PR.
+23023|yes - it might something like that in the end
+23024|Thanks for your effort @kisstkondoros, but the fix (11b139d1cdc1e34b5a7a77c658edf548b286c479) ended up being much easier than that. Keep the contributions coming though!
+23025|How do you propose to solve this?  Lowering _severity_.
+23026|Looks good to me, I like that the change from what we had previously is minimal.
+23027|I don't know either, besides having seen it on two different machines. [I have asked on Stack Overflow](https://stackoverflow.com/questions/37453988/unity-launcher-icon-doesnt-show-icon-and-title-correctly-for-some-desktop-file) for input from others.
+23028|I can't reproduce this. Maybe you show me at your desk @alexandrudima?
+23029|@rebornix no worries about the localization, as long as the string is under `nls` calls the localization team will automatically pick it up 1 week before our every release.  Thanks for the PR!
+23030|I think this is a good opportunity for a PR: - the [`ScrollableElement`](https://github.com/Microsoft/vscode/blob/master/src/vs/base/browser/ui/scrollbar/scrollableElement.ts#L57) should get a new option `smoothScrolling` or equivalent that can be exercised from [the editor](https://github.com/Microsoft/vscode/blob/master/src/vs/editor/browser/viewLayout/scrollManager.ts#L38) - This option can be passed to the [`Scrollable`](https://github.com/Microsoft/vscode/blob/master/src/vs/base/browser/ui/scrollbar/scrollableElement.ts#L62) - The [`Scrollable.updateState`](https://github.com/Microsoft/vscode/blob/master/src/vs/base/common/scrollable.ts#L86) could use this option to update its `scrollTop` and `scrollLeft` in `n` frames, according to some math function.
+23031|The markdown code is obsolete soon.
+23032|Have you tried in the built version in our project (maybe it matters for timing purposes?)  Every other time when I type `.ac` it happens, but you gotta type `.ac` quickly.  ![suggestions](https://cloud.githubusercontent.com/assets/5047891/15566860/7e47e850-2323-11e6-949e-e7ce9262c1cc.gif)
+23033|This issue was moved to OmniSharp/omnisharp-vscode#377
+23034|This will come out of the box with the May release thanks to @outcoldman in PR #5423  ![u0ntokj0xj](https://cloud.githubusercontent.com/assets/5047891/15567047/696efcb0-2324-11e6-835c-1f297fb9756b.gif)
+23035|https://github.com/Microsoft/vscode/issues/5638
+23036|@ChazyTheBest Did you install any PHP related extensions? You can try to run VS Code without extensions with `code --disable-extensions`  Surrounding with quotes is disabled in PHP comments and strings. Is that maybe what you see?
+23037|Then either use a file on disk or convince @dbaeumer to work with files that aren't on disk.
+23038|A number of days has past without answer on the questions asked. I am thereby going to close this issue to clean up our backlog of issues. Once you can answer on the questions, the issue can be reopened again. Thanks for understanding this process!
+23039|A number of days has past without answer on the questions asked. I am thereby going to close this issue to clean up our backlog of issues. Once you can answer on the questions, the issue can be reopened again. Thanks for understanding this process!
+23040|We have a hard limit for the find highlights and for the selection highlights at 1000. The reason is that you might have open a 30MB file consisting of 30 million `a`s and you search for `a`. In this case, 30 million decorations would be added to the model which will probably result in a OOM. Let's track this in #1110 . I think at one point it is ok to raise the limit, but we will not remove it unless we virtualize the highlights (such that they are rendered on the last step in our rendering pipeline, instead of being model decorations).
+23041|This goes beyond a bug fix and needs infrastructure.
+23042|@ChechoPerezH What language is that?
+23043|@tonymk can you answer?
+23044|@arixse The screenshot was not properly added. Can you try again?
+23045|I can remove it completely, and handle its discoverability through documentation. Let's track its removal in #6908
+23046|@alexandrudima nice!
+23047|At the moment injects are only applied to tokens generated by begin/end rules. I'm investigating if that's a bug or not.
+23048|This is caused by us writing the text on the current line to the `<textarea>` we use for input and because we mirror the selection in the editor as a selection in the `<textarea>`. We do so in order to support screen readers, and this is the only way to support screen readers in an editable body of text in Chromium/Electron.
+23049|"@sakthirajesh You can add the snippet below to your keyboard shortcut configuration to the VS Code to accept a suggestion _and_ insert the dot when pressing `.`  ``` {  ""key"": ""."",                      ""command"": ""^acceptSelectedSuggestion"", ""when"": ""editorTextFocus && suggestWidgetVisible && suggestionSupportsAcceptOnKey && editorLangId == 'javascript'""  }, ```"
+23050|Currently only verifiable in code. I added a test in `jsonEdit.test.ts, line 87`. @jrieken Can verify this matches your scenario. I assume you had everything commented out, also the array brackets.
+23051|I have filed electron/electron#5709 to ask if it's feasible to get on the JS side of things an event so we can do this only when really needed.
+23052|correct - I had everything commented out
+23053|@alexandrudima If anything can you just ignore `*.min.js` file and read them as plain text ? Without any formatting/parsing etc.
+23054|With the recent changes of support for css variables, the menus make sense again and we show them everywhere.
+23055|@bpasero No, the same error is returned by a plain node file  [nodemon] starting `node write.js` { [Error: ESPIPE: invalid seek, write] errno: -29, code: 'ESPIPE', syscall: 'write' }
+23056|It crashes in both .net core and angular2 environments. Testing with single files now. Seems ok so far. Did try to run it in administrator mode, still crashed.  Tried to reinstall vsCode aswell without success.
+23057|@dbaeumer Thoughts?
+23058|I did... my machine is just too fast. 👍   Show me in the office, we'll debug it there.
+23059|Moving this to June milestone because it is not critical @bgashler1 please be aware of issues which you assign to the current milestone as we plan to fix them in the current milestone. I moved this out to June because we are wrapping up May
+23060|This could also be the tsserver not being able to compute the details fast enough. If I remember correctly, they sometimes don't return a result
+23061|Deleted node_modules to test with fewer files, still crashes. with this stucture.  C:. │   .gitignore │   index.html │   package.json │   systemjs.config.js │   tsconfig.json │   typings.json │ ├───app │   │   app.component.js │   │   app.component.js.map │   │   app.component.ts │   │   main.js │   │   main.js.map │   │   main.ts │   │ │   ├───components │   │       clientcustomers.service.js │   │       clientcustomers.service.js.map │   │       clientcustomers.service.ts │   │ │   ├───models │   └───services └───typings     │   index.d.ts     │     └───globals         ├───core-js         │       index.d.ts         │       typings.json         │         ├───jasmine         │       index.d.ts         │       typings.json         │         └───node                 index.d.ts                 typings.json
+23062|I suggest you rather create a new theme. https://code.visualstudio.com/docs/tools/yocode helps you doing that.
+23063|@roadyyy odd, did you try with node.js 6? please report to them!
+23064|@tonymk are you able to share the workspace with us that crashes and list the exact installed extensions that you have?
+23065|I fixed the error message.  As to why the suggestion box doesn't go away on `;`, I'll leave that up to @aeschli. Moving to backlog.
+23066|"@oodboo If you add the following setting `""editor.experimentalScreenReader"": false` are things faster?"
+23067|Assigned to myself for investigation.
+23068|Assigned to @aeschli for verification
+23069|I just found out how to avoid it from crashing, i noticed a 99+ on the side bar at the git symbol. And it shortly crashed after. So i disabled git. and it is not crashing anymore. Not sure how that works, since the folder i opened does not have a git repository.   As for extensions: C#, Angular2 snippets by balram, gitignore by codeZombie.
+23070|@alexandrudima Thank you that works, does not brick the Studio and also it will do formatting till some point and then everything will be mostly green. But, I am fine with that, as I would have been fine with the plain text display as well. Thank you. Are we closing this or you will still leave it as bug?
+23071|duplicates #6748
+23072|That flags controls the behaviour of how we synchronize the editor text with the native `<textarea>`. It has no impact feature-wise unless you use a screen reader (except ofcourse the time it takes and stalls the UI).  So you can use it for now as a workaround, but I need to make sure our synchronization is not causing stalls in all cases. I'm looking into limiting the amount of text we write to `<textarea>`
+23073|This issue makes me to be very careful while selecting links and CTRL+C CTRL+V them.
+23074|"Thanks. This settings worked.  On Thu, May 26, 2016 at 1:24 PM, Johannes Rieken notifications@github.com wrote:  > @sakthirajesh https://github.com/sakthirajesh You can add the snippet > below to your keyboard shortcut configuration to the VS Code to accept a > suggestion _and_ insert the dot when pressing . >  > { ""key"": ""."",                     ""command"": ""^acceptSelectedSuggestion"", >                                      ""when"": ""editorTextFocus && suggestWidgetVisible && suggestionSupportsAcceptOnKey && editorLangId == 'javascript'"" }, >  > — > You are receiving this because you were mentioned. > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/6905#issuecomment-221802233"
+23075|OK. Closing then.
+23076|@isidorn assigning to you as the 'owner' of the output window. @bpasero once looked into this and we concluded that the output channel needs to allow link detection customization for this since detecting the file portion in a problem output can't be done generically. The task framework has the necessary information though due to the problem matcher.
+23077|The setting will keep the name `stablePeek`
+23078|dup of #586
+23079|Thanks.
+23080|@joaomoreno any idea if/how git could be involved here?
+23081|Whatever fuzzy matching is VSC using, it's just bad compared to atom or ST.   When searching for `menu.component.ts`:  1) you can't use spaces, `mncmp` will match, `mn cmp` won't  2) you have to get the order of words right, ie. `mncmp` will match  `cmpmn` won't
+23082|"I retested and debugged the task code and it merges the environment and doesn't replace it.  @nwgh just to clarify:  ``` json {       // See http://go.microsoft.com/fwlink/?LinkId=733558       // for the documentation about the tasks.json format       ""version"": ""0.3.2"",       ""command"": ""${env.SHELL}"",       ""isShellCommand"": true,       ""args"": [""-ilc"", ""env""],       ""options"": {""cwd"": ""${workspaceRoot}""},       ""showOutput"": ""always"",       ""tasks"": [           {               ""taskName"": ""Full Build"",               ""suppressTaskName"": true,               ""isBuildCommand"": true,           }       ]   }  ```  this worlks, but  ``` json {       // See http://go.microsoft.com/fwlink/?LinkId=733558       // for the documentation about the tasks.json format       ""version"": ""0.3.2"",       ""command"": ""env"",       ""isShellCommand"": true,       ""options"": {""cwd"": ""${workspaceRoot}""},       ""showOutput"": ""always"",       ""tasks"": [           {               ""taskName"": ""Full Build"",               ""suppressTaskName"": true,               ""isBuildCommand"": true,           }       ]   }  ```  doesn't. Right."
+23083|To verify: please also check that using NVDA on the editor text still works.
+23084|And just to double check: the second one even works if you start vscode from a terminal where MOZCONFIG is already part of the environment. How do you set MOZCONFIG into the env in the first place?
+23085|@fxck with our upcoming release we fixed the space issue (1). Intentionally we are not finding results that have wrong order of characters, so yes there is a difference.
+23086|When i type the extension name , it will search this extension online ,this step is slowly
+23087|@joaomoreno I would if I could :-). See https://github.com/Microsoft/TypeScript/issues/4526
+23088|@bgashler1 - could you suggest a stronger colour to better indicate which search result is being highlighted in the editor? For example, in the above screenshot the last instance of foo on line 3 is highlighted in the editor, corresponding to the selected search result. We would need colours for the different themes I imagine.
+23089|See https://github.com/Microsoft/TypeScript/issues/7762 which is fixed in the upcoming TS 2.0 release.
+23090|@bgashler1 - would be great if you could get this soon so that @jrieken can make this change before the end of the month.
+23091|@alexandrudima I do not have Non Visual Desktop Access “screen reader” why should I install that!? :confused:
+23092|@oodboo Someone from our team will verify this fix, no need for you to do anything.
+23093|@alexandrudima ah, sorry I had not realized that you've left a team note ... thanks again...
+23094|Another issue with this idea is that it does not work nicely for multi-threaded applications
+23095|I think it is fine to automatically expand the scope in this case if it is not expensive. Which is exactly what we do now.
+23096|@isidorn another good point.
+23097|Found the problem, there turned out to be a .git file in C:\ (Sigh...) So when there was not any .git file in the folder that was opened. It tracked the .git file in C:\  Which propably led to vsCode tracking every file on C:\ and hence it crashed.
+23098|@NotepadPlusUser I would expect this issue to be there in standalone node.js already, if you could try out a `fs.writeFile()` to reproduce the issue you should report it to them.
+23099|Preventing accidental drag and drop is commonly done by adjusting the drag sensitivity. In Windows the default is that the mouse has to move 4 pixels before the drag is initiated. Changing this to 15 pixels seems to work well as a reasonable compromise between preventing accidental drag and drop but still looking like drag and drop is supported.  Incidentally, I experimented on Windows using this utility to change the drag sensitivity to see what would be a reasonable threshold: http://www.parkscomputing.com/applications/dragsens/. This doesn't have any impact on VS Code but I was able to use VS to experiment.
+23100|I found :smile:

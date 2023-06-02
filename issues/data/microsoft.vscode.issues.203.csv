@@ -1,0 +1,100 @@
+20201|Containing <iframe> of TextDocumentContentProvider virtual document has display:none
+20202|Key binding to quick open in new split
+20203|VS Code complains about lack of internet
+20204|Allow MarkedStrings in Diagnostics
+20205|Dock debug bar to top of sidebar
+20206|[feature] shortcut to hide the 'find textfield'
+20207|Javascript outline / symbol search (Ctrl-Shift-O) stops working
+20208|Missing dash separating filename from Code application title
+20209|HTML formatting is a mess
+20210|Intellisense derived from JSDoc does not function correctly when imported
+20211|Allow extensions to define the editor layout
+20212|Cannot drag and drop a file with no extension to the explorer on Linux
+20213|Window jumps when moving cursor downwards if previewing markdown side by side
+20214|Copy formatted code to clipboard
+20215|Had a problem using the search and replace: my search results tab didnt scroll, so once i went across some files I was stuck there. Is this known?
+20216|TextEditor should expose EndOfLine setting
+20217|No display scaling for Release Notes
+20218|editor.rulers not showing when zoomed out
+20219|Git Syncronise icon wobbles
+20220|"The ""Format Selection"" right-click menu item doesn't work anymore after update"
+20221|Terminal winpty assertion failed
+20222|Keep popping warnings
+20223|fix: remove unnecessary spacing in German i18n menu
+20224|Vertical Selection
+20225|TypeScript language service died unexpectedly 5 times in the last 5 Minutes
+20226|Recognition error with emoji
+20227|Flaky extension test
+20228|addSelectionToNextFindMatch doesn't work with multiple cursors
+20229|export * as test from './test' Validation failed ES6
+20230|Pull in translations for 1.9.1 release
+20231|The auto update feature doesn't work on mac OS
+20232|tsserver.js is eating CPU (100%)
+20233|Code assist function when press enter key does't work well
+20234|"the editor freezes while running ""npm install"" in terminal panel"
+20235|Add ability to exclude files using files.exclude ignoring case
+20236|Build/Debug on server
+20237|Doesn't read .bash_profile in integrated terminal when using command line 'code'
+20238|Offline spell checker for VSCode
+20239|Add error handling for when emmet cannot be loaded and update commit hash for emmet
+20240|Tab Key stop working with last update
+20241|Copy Selection Not Saved
+20242|While renaming a file in explorer, arrow keys are navigating in the text box
+20243|API: Contributable icons
+20244|Switching between Release Notes and another file loses place in Release Notes
+20245|the warning is not stop
+20246|Handlebars Formatting
+20247|VSCode CompletionItemProvider does not work properly or strange behaviour
+20248|`terminal.integrated.shell.windows` in project .vscode/settings is not respected
+20249|Cut (cmd+x) put new incorrect selection
+20250|Arguments not used when in debug mode and press restart from the debug task bar
+20251|Add ability to unsplit editors of 2 editor groups
+20252|Upgrade to 1.9.1 crashed
+20253|Add support for showing an indicator of lint errors beside file names in the sidebar
+20254|Emmet regression on latest insiders (last two versions) - despite tab bar working again.
+20255|Search history as in Visual Studio
+20256|bug
+20257|SCM input box should honour editor font setting
+20258|File structure not updating after changing git branch from terminal unless manually refreshed.
+20259|Show editor tabs within title area of the window
+20260|repertory and files intellisense
+20261|URL vscode:extension/extension.id does not open extension from the marketplace unless Code is already launched
+20262|URL vscode://file/path/to/project/ is only able to open folders from the C: drive on Windows
+20263|Add support for URL vscode://gitclone/<path> to do a git clone of the specified repository and open it
+20264|wired grey area
+20265|feature request: use ctrl-n and ctrl-p to move in the explorer window
+20266|SSH connections with VS Code put my IP address on a blacklist (too many failed logins)
+20267|Add option to disable Tab switching picker
+20268|Quick Open too slow
+20269|Terminal encoding
+20270|Debug Actions Menu out of window boundaries
+20271|VS Code freezes
+20272|Debugging node breakpoints not working
+20273|node protocol probing confuses electron
+20274|Visual Studio Code is closed but code.exe processes are still running and consuming CPU
+20275|[WelcomeUX] Option to not open Welcome when opening a folder
+20276|Multi-Cursor Editing Collides with Windows 10 Screen Rotation
+20277|Feature request: Make wrappingColumn setting available in showCommands list
+20278|Quick fix menu pops up automatically when opening a file
+20279|Syntax Highlighting in ES template strings inconsistent
+20280|[loc][Query][VSCode] Please clarify placeholders
+20281|"[loc][query][VSCode] Please clarify ""typings"""
+20282|[Suggestion] Smooth Cursor/Typing Animation (Like Microsoft Office)
+20283|Search results disappear when doing multi-line search and in replace mode
+20284|[loc][query][VSCode] Please clarify the placeholder
+20285|"[loc][query][VSCode] Please clarify ""executable"""
+20286|[loc][query][VSCode] Please clarify the strings
+20287|Test: debug view sizes
+20288|json enum hover: prepend enum value name to enum value description
+20289|"[loc][query][VSCode] Please clarify ""mocha"""
+20290|"[loc][query][VSCode]  Please clarify ""Welcome experience"""
+20291|[loc][query][VSCode] please provide more context
+20292|[loc][query][VSCode] please clarify the unclear strings
+20293|"[loc][query][VSCode] please clarify ""PHP Path"""
+20294|"[loc][query][VSCode] Please clarify ""language"""
+20295|[loc][query][VSCode] Please clarify placeholder
+20296|[loc][query][VSCode] Please clarify placeholder and translatability
+20297|Opening from command-line in empty folder creates debug.log file
+20298|Design View
+20299|Test: zenMode.restore setting
+20300|Deleting braces/quotes after auto closing doesn't delete both, deletes only opening one.

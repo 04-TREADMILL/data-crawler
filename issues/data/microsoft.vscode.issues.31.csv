@@ -1,0 +1,100 @@
+3001|Salsa preview doesn't seem to work
+3002|Debug Console does not support special codes (Colors, clear line etc.)
+3003|404 error when clicking on one of the download links
+3004|[themes] Flattening of text mate scopes leads to wrong coloring
+3005|Tune debug accessibility
+3006|VS code portable
+3007|access electron API from vscode extension
+3008|Searching Text in folders is very slow compared to notepad++
+3009|File picker doesn't open file with full path
+3010|Editor feature request : toUpperCase / toLowerCase command
+3011|show exception breakpoint options only if returned as capabilities
+3012|quickOpen broke again
+3013|Intellisense not working
+3014|Typescript file formatting four spaces instead of two
+3015|TypeScript error squigglies in JS file?
+3016|Permanantly disappearing code upon undo after trying to indent highlighted code with tab
+3017|ext install <ID>
+3018|Intellisense render cheese
+3019|Switching windows should not close the commands list
+3020|C# constructors - argument hints not displaying
+3021|API: Allow to use the file watcher for aribitrary folders
+3022|Pressing tab with a selection in JavaScript code window deletes selection
+3023|Start button gets hidden in debug pane
+3024|Path doesn't work in OS X cannot find Gulp
+3025|Document how to use OSS build as a daily driver
+3026|gulp default task (compile-all) doesn't exist
+3027|vscode javascript intellisense namespaces
+3028|Adding optout option for telemetry
+3029|Fixed small bug related to issue #2662.
+3030|Extension tips
+3031|Not highlighting php $ variables
+3032|Allow changing 'Free' label in the extension gallery
+3033|[php] Add color to class and/or function names in Dark+ theme
+3034|"Typescript highlighting after ""extends"" keyword"
+3035|Rules settings for the format code command
+3036|multiple line indent is blowing my code
+3037|What is the current recommendation for supporting JSX in VSCode?
+3038|右键弹出菜单位置错误
+3039|gulpfile.babel.js support
+3040|Resizing project explorer after clicking menu key while hovering context menu
+3041|Canceled
+3042|Add Error List
+3043|Cannot read property 'detail' of null
+3044|[css] Uncaught RangeError: Maximum call stack size exceeded
+3045|suggestion: delete a couple of empty brackets quotes and html tags more easily
+3046|The clean all button in the changes header of the git tab does not behave as expected.
+3047|tasks.json not present in File menu
+3048|any shortcuts for multi selections?
+3049|é character showing up as ? in text files
+3050|debug: telemetry key contributed by debug adapters
+3051|Have Windows support for the new launcher script
+3052|Context menu not shown on surface pro 4
+3053|Command to open specified file from opened folder for editing
+3054|Screen reading
+3055|onCommand activation does not work as expected for debugging command
+3056|'registerOnTypeFormattingEditProvider' subscription does not work
+3057|Can we have something like Visual Studio's Browserlink in vscode ?
+3058|Provide an option to stop scrolling revealing active file in explorer
+3059|Autocomplete with CTRL+SPACE after . does not work
+3060|Close default settings and keyboard bindings when closing user's settings file.
+3061|Variable names in comments are inspectable while debugging
+3062|"When the ""Watch"" debug pane is empty there is no watermark and no action on hover"
+3063|"""Add to Watch"" should be available while not debugging"
+3064|running vscode with gksudo or sudo permission
+3065|can't open multiple folder in same window
+3066|some mistake in writing in folding.ts
+3067|Investigate why undo stack gets corrupted
+3068|Do not use electron's remote in event handlers
+3069|Jsdoc tooltip showing raw tags
+3070|Support than an extension can be labeled as a 'Trial'
+3071|[CSS] keyframes peek/go-to definition doesn't seem to work
+3072|"Intelisense for ""import"" statements"
+3073|[css] CSS variables should offer same support as SASS/LESS variables
+3074|[feature request]: Track file position navigation history
+3075|Salsa: symbols not found (ES5)
+3076|JS - actively inform user that the JS support has changed and point to the change notes
+3077|Offer the user to configure a task when the 'preLaunchTask' isn't found
+3078|Breakpoint hover: use fixed-width font only when showing the breakpoint condition
+3079|[less] Mixin guards and guarded namespaces in less
+3080|Merge remote-tracking branch 'refs/remotes/Microsoft/master'
+3081|Javascript coloring: function keyword not colored in default themes
+3082|Make Salsa the default for TS
+3083|Remove JavaScript and TypeScript from VSCode
+3084|Position of the cursor after sending []TextEdit through `provideOnTypeFormattingEdits`
+3085|previewHtml() support to define the server root path
+3086|F3 does not loop with two matches on a single line
+3087|Multiple cursors binding
+3088|Diff slider is out of sync
+3089|Open folder not discoverable enough in no-workspace view
+3090|The Call Stack debug pane doesn't offer tooltips for long function names
+3091|Support octicons in show*Message dialogs
+3092|A bug was introduced (latest update?)
+3093|Files renamed using VSCode Explorer panel are listed as deleted and recreated in git panel
+3094|Show corresponding commands when hovering over Git menu items
+3095|Ctrl+F on selection does rarely use selection as search term
+3096|Make relative cwd values relative to the workspace root
+3097|Show StoppedEvent.text in the UI
+3098|Better detection of unused variables
+3099|"Forward arguments in the shell script correctly: use ""$@"" instead of $*"
+3100|[alt + click]

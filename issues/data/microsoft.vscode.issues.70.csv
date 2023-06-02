@@ -1,0 +1,100 @@
+6901|Mac OS dock menu does not clear and can contain stale entries
+6902|Code should not complete when pressing `.`
+6903|"git ""not pushed"" status"
+6904|Better Support for Source Breakpoints when output is in different folders
+6905|Freeze/Crash when opening this minified js file
+6906|Fixes #6916: Remove type parameters rule from JavaScript grammar
+6907|Language-specific OpenType Feature Names for Programming Ligatures
+6908|Strange maxVisible behaviour
+6909|Add transformations to snippets variables
+6910|Keep .js file & breakpoints open when rebuilding with tsc
+6911|File is reopened after closing then switching viewlets
+6912|When using Quick Open, have last open file be the Default Selection.
+6913|Cmd+C/Ctrl+C doesn't reach web view
+6914|Feature request: word wrapping config by document type
+6915|vscode.OpenFolder command does not work for Insider version
+6916|Menu items not localized
+6917|[json] Json Schema Server?
+6918|Provide way for extensions to download and install native dependencies
+6919|Support Live Reloading Scenarios
+6920|What are .vscode/.browse.VC.db*?
+6921|Add Change Language option under file preferences menu
+6922|Integrated terminal configured to use cmder doesn't open at correct directory
+6923|cmder's prompt uses weird escape sequences that are not recognized by term.js
+6924|cmder no longer works on integrated terminal and spams external cmder instances
+6925|Glob regex matches too much
+6926|Integrated terminal should be able to be recreated once exiting with bad error code
+6927|Integrated terminal non-falsey shell exit codes should be reported to the UI, not just the console
+6928|Integrated terminal dark theme contrast is too low
+6929|Lint showing error under variable name if an extra semicolon
+6930|[API] Provide Virtual Document in window.visibleEditors or similar
+6931|Option to hide the status bar implemented
+6932|"Getting error message ""cannot find the module 'eslint-plugin-react' when opening .js."
+6933|Integrated terminal sometimes scrolls right after paste
+6934|Integrated terminal should be able to bring up right click menu anywhere
+6935|Mouse pointer should not go away from editor when user perform action on error\info pop-up or debug action widget.
+6936|Installing an extension never completes
+6937|Javascript highlighting
+6938|High Contrast showing half character highlight on peek definition window
+6939|Clicking on the gutter closes peek definition window
+6940|can i customize the  default includepath in .vscode?
+6941|VSCode: Not responding overnight on Linux
+6942|Introduce event on input to indicate dirty state change
+6943|Delay spawning of service processes
+6944|Opening this file freezes VSCode
+6945|Open: Cmd + click opens in new window
+6946|Improve error message of 'vscode.startDebug' command
+6947|Add `Reset Zoom` action to menu
+6948|install-extension is case insensitive while unintsall-extension is case sensitive
+6949|show/hide replace part scrolls in the editor
+6950|Some install-extension hang forever
+6951|Not able to dismiss a file entry using keyboard in Search suggestions
+6952|+13.6MB extracted size, +3.7MB zip size in 1.2.0
+6953|Color icon is not shown when a color value selected in CSS
+6954|Better shortcut for “Open Next Working Files”
+6955|enable keychords of 3 or more steps
+6956|Debugger is not stopping/showing at the breakpoint in node v6.1.0
+6957|Incorrect code format
+6958|Automatically open folders inside folder
+6959|"PHP highlighter stops working if ""<<<"" used"
+6960|Goto definition acts too early for URLs
+6961|Kill feedback widget
+6962|Improve diagnostic story for build and reconcile diagnostics
+6963|[json] $schema attribute - strange path resolution behavior when referencing local schema file
+6964|VisualStudioCode creates multiple instances on windows 7
+6965|[json] Modifying a JSON Schema file requires a restart of VS code to pick up the changes
+6966|"""Can not find runtime target for framework..."" when opening .cs file"
+6967|Feature request:  Allow zooming with ctrl+mousewheel combination
+6968|Exploration: Introduce a way for the integrated terminal to be themed
+6969|Release notes link is redirecting to blank page.
+6970|Find All References not working on variables with an error
+6971|Make breakpoints section height adjustable
+6972|Setting breakpoints adds them to breakpoint list nonsensically
+6973|When using registerTextDocumentContentProvider, the view blocks Copy command
+6974|Tyriar changes for June
+6975|Tab key support is missing for menu options.
+6976|Unable to re-install powershell extension when working with multiple instance of  VSCode.
+6977|Ending in a curly brace in a CSS/Sass will indent as if it were code
+6978|Command palette shouldn't auto close when switching window/focus
+6979|Allow zooming with ctrl+mousewheel combination
+6980|[folding] Optionally fold chained method calls
+6981|Scroll Synchronization
+6982|Regex Find is case-insensitive - Why?
+6983|TextEditor.selection is not respected in clipboard operations
+6984|Scroll/Reveal when there are multiple cursors
+6985|Allow custom integrated terminal background and foreground colors
+6986|Show the total number of matches in the Search tab
+6987|Add setting for fontSize and lineHeight to the integrated terminal
+6988|Requires update even when the IDE is the latest
+6989|Variable Substitution Relative Path
+6990|Unexpected token E. Stopping the debug adapter
+6991|[css] support /deep/ selector
+6992|Markdown: cs not being highlighted, csharp is
+6993|[css/scss/less] require a space after : to trigger intellisense
+6994|Sass syntax highlighting is poor for incomplete rules
+6995|CSS snippets shouldn't display in rule value intellisense
+6996|CSS intellisense should intelligently display shorthand syntax
+6997|[html] should show information on attributes
+6998|[ERROR:OmniSharp.Dnx.DnxProjectSystem] TODO: unknown keyword platform
+6999|Git signed off by
+7000|code formatting support of some template languages

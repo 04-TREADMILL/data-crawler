@@ -1,0 +1,100 @@
+5901|Horizontal and vertical split
+5902|Add new file saved on shutdown to working files
+5903|how to comment out the codes with shortcut？？？
+5904|setup on osx: automatically move to applications folder
+5905|String output is truncated in Linux
+5906|Debugging with smartstep is super slow.
+5907|cannot open dotnet cli projects
+5908|[json] Commas are inconsistently added to JSON completion
+5909|[html] Angular 2 directives break HTML syntax highlighting
+5910|Bower JSON completion not suggesting versions
+5911|Older alpha says it checked for updates, but its version does not update
+5912|Debug controls does not appear if Go compilation fails while debugging
+5913|Decorations with gutter icons hide breakpoint icons
+5914|extension manager does not show the ext by url
+5915|VSCode should provide an API to allow extensions to launch a debug adapter
+5916|visual studio code open https://github.com/OldFisher/lua-api-pp.git/ syntax highlight invalid
+5917|vscode have automatic alignment？
+5918|searching for files using Ctrl+P is really really slow
+5919|Simplify TextFileChangeEvent
+5920|It is not good
+5921|Shortcut key bug when using Simplified Chinese as display language
+5922|Extension revert
+5923|When support for swift, like nodejs
+5924|define what 'args' is in IKeybindingService#executeCommand
+5925|debug hover far away from target
+5926|Node.js 6.0 messes up debugger when using Typescript with sourcemaps
+5927|Caton, delay
+5928|'Unnecessary using directive' is falsely flagged when required for XML cref comments.
+5929|Handle pasting code from column selection specially
+5930|Cannot attach vscode to ConEmu via command-line
+5931|Undo after save with trimTrailingWhitespace enabled moves cursor to beginning of file.
+5932|debt - is IContextViewService just hot air?
+5933|Ability to dim git ignored files / folders
+5934|Simplify suggest result
+5935|Ubuntu hotkeys
+5936|should we merge IMessageService#setStatusMessage and IStatusBarService?
+5937|Regression? Integration tests fail on Windows
+5938|Regression? Integration tests fail on Windows
+5939|Added .inl file extension to C++ language
+5940|Find widget layout breaks when there is not enough space
+5941|Do not allow markers with no message to float through our system
+5942|Support to print the editor contents
+5943|Quick Find Symbol/File showing unrelated symbols from VSCode typescript extension
+5944|Show active file in explorer shows 2nd open file if active file is out of workspace
+5945|HTML Preview doesn't allow inline images
+5946|Hovering over buttons in find / replace mode doesn't show built-in help tooltips
+5947|JavaScript & TypeScript: delete keyword highlighted in non-keyword context
+5948|"tsconfig.json doesnt have an option to disallow ""any"" in TypeScript source code"
+5949|Debug seems to hang when calling a python script within my PowerShell scripts
+5950|Extension providing language support in ES6 template strings
+5951|Why after one preLaunchTask run, vscode always states on subsequent runs that there are errors (only resets after you fully restart vscode)
+5952|debug coffeescript?
+5953|Ctrl+/ to create comment when cursor is at the beginning of the line puts the cursor in a strange position
+5954|[less] syntax failure when identifier starts with a number
+5955|debug - additional steps should not be sent until previous step has completed
+5956|"""browse.VC.db"" created after opening folder in cmd line & remains when VS Code is closed"
+5957|Javascript short circuit syntax not respected by syntax highlighting
+5958|The Extension doesn't support DOM API
+5959|Git: Symlink support
+5960|VS Code writes the log to FAR Manager panel
+5961|Set editor font in a such a way that it doesn't need to be reset by widgets (e.g. find widget)
+5962|on mac, can't use right click open file, only open the application and a new file
+5963|Show me the URL of a remote as description in picker
+5964|Remove indent guides setting for now
+5965|[ts] Cannot find name / [ts] Cannot find module
+5966|"""Open New Terminal"" should work even for empty or untitled editor"
+5967|Suggest widget looks weird today
+5968|Enable integration tests on Windows Appveyor
+5969|"When you change ts file folder will get the ""Duplicate identifier"" message"
+5970|[json] accept empty keybindings.json file
+5971|Codeblocks stopped formatting and highlighting
+5972|screen cheese with german and keybinding ui
+5973|Make it possible to confirm/apply popup action using keyboard
+5974|integrated terminal
+5975|[php] Non colored php function texts.
+5976|locale.json instructions are not externelized
+5977|gulp export --component vscode-distro does not work on mac
+5978|Quite often when opening VS Code my display driver crashes
+5979|VSTS Add and CheckIn options have same description for TFS
+5980|VSTS extension errors on check-in policies
+5981|automatic list dependent modules
+5982|Longstanding Intellisense bug
+5983|[folding] support golang multiline strings
+5984|Auto updater for mac
+5985|[snippets] prefix not matching forward slashes
+5986|Reopen Closed File for closed New File shows invalid resource error
+5987|"locale.json IntelliSense shows ""zh-tw"", should be ""zh-TW"""
+5988|Deleting a folder in Code that is open in another instance does nothing
+5989|menubar add extension menu
+5990|"{ ""moduleResolution"": ""node"" } support incomplete; doesn't understand package.json files"
+5991|Unknown locale value falls back to English, not OS locale
+5992|Window is not responding at random
+5993|View full size images and allow image zoom
+5994|Copy in File Explorer does not paste into Code Explorer
+5995|Prefer type `any` to `number` for thread ids in debug protocol
+5996|Allow to set CSS for the editor background
+5997|Cannot read property 'getActiveEditor' of undefined
+5998|Cannot read property 'hasOwnProperty' of null
+5999|Cannot read property 'length' of undefined
+6000|Cannot read property 'onTokensChanged' of undefined

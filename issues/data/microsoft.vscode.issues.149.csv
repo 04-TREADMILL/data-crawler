@@ -1,0 +1,100 @@
+14801|Rubber band scrolling for MacOS
+14802|Ctrl+Alt+ UpArrow/DownArrow  Creates additional cursor
+14803|"Allow for ""shellArgs"" in Windows integrated terminal"
+14804|Open the README for extension while/after installation
+14805|Tooltip text wrapping cuts words, has scroll bar
+14806|VSCode fails scripts\npm install on windows and node 7
+14807|saving files, sometimes are not being saved
+14808|Don't stop tabdrop propagation. Fixes issue #12623.
+14809|OPEN EDITORS collapse triangle doesn't collapse file list
+14810|in-product release notes blank after editor group changes
+14811|JavaScript Intellisense doesn't autocomplete Element.value property
+14812|Git view bar and side bar does not clear when folder is changed
+14813|Untitled: no dirty indication when opening with multiple non existing files
+14814|"Add ""find all occurences"" in the current file feature"
+14815|Auto-format has started inserting tabs instead of spaces.
+14816|Provide an option to insert a final newline (fixes #1666)
+14817|Clean file changes line endings
+14818|Setting to turn off ALL popups?
+14819|Debt in Extensions Management and View
+14820|multi debug: productise 'composite' launch config
+14821|No response for 'evaluate' request when program is running
+14822|C# syntax error hints disappear after a few seconds
+14823|Debug protocol additions for November
+14824|All debug adapters: support `evaluateName` attribute for Variables
+14825|Open VS Code file / folder from command line in the same window in a new tab in macOS
+14826|VSCode busy building symbols and stops the auto complete from working
+14827|Add support for code extract into variable and method
+14828|Add auto-hide output (feature suggestion)
+14829|UX meeting agenda 2 November 2016
+14830|Proxy issues when installing MS C# Extension (omnisharp)
+14831|Proxie issue when viewing Extensions in gallery
+14832|Support arguments when defining keybindings
+14833|Is there any API for handling Search Results?
+14834|Whitespace below code, remove ability to scroll all the code out of sight
+14835|"[loc][Query][VSCode] Please clarify ""Language"""
+14836|[loc][Query][VSCode] Please clarify translatability
+14837|[loc][Query][VSCode] Please clarify the single word strings
+14838|"[loc][Query][VSCode] Please clarify ""Process"""
+14839|Unexpected priority given to suggestion with interrupted substring
+14840|d.ts files not reloaded when updated causing outdated type information to influence IntelliSense
+14841|Toggle spell check doesn't work
+14842|Can't Save
+14843|"Markdown ""open preview"" button should open to the side, when cmd+click"
+14844|IntelliSense for keybindings.json's 'when'
+14845|Clicking a validation warning in 'default settings' opens a 'settings.json' file
+14846|Faded launch.json properties are not readable on a light theme
+14847|Undo Last Commit not enabled when commiting only part of changes
+14848|Update or clean install of @code 1.6.1.0 displaying blank screen and consuming CPU
+14849|Cannot tab into statusbar
+14850|Find in Selection Does Not Support Multiple Selections
+14851|"Add ""Stage selected lines"" to context menu"
+14852|Matching # in regex match in syntaxes json tmlanguage files failing
+14853|Allow for vertically arranged editor tabs
+14854|Sidebar modules in status bar
+14855|Incorrect grouping of default settings if used an existing namespace
+14856|Fixes #12694 regex replace strips filepath when approot is PIIPath
+14857|Improve the sorting and matching of quick pick
+14858|HTML chars are wrongly displayed
+14859|"Add ""Check for Update"" for extensions"
+14860|"Add provider API for language-aware ""smartSelect"" actions"
+14861|Inconsistency in reporting hotkey for Format Selection (Ctrl+K, Ctrl+F)
+14862|VS Code 1.7 Hangs on Release Notes page
+14863|Add option to auto push when committing
+14864|Ignore this
+14865|'Format document' and 'go to definition' not working in Javascript file
+14866|Port Atom's editor:auto-indent to VSCode
+14867|Flooding npm with @types package requests
+14868|Turn off automatic type acquisition
+14869|feature request : file tab menu
+14870|Changing Key Binding doesn't update Hotkey Hint Text in Menu until restart
+14871|on the one type file, vs code can't  distinguish more type language annotation
+14872|Add Translation Memory eXchange (TMX) support
+14873|Extension debug: opening another folder from target window opens twice
+14874|how to hide sidebar
+14875|how to get file name and modification time in snippets json
+14876|How to configure a task to run in WSL?
+14877|VScode auto-formatting inserting tabs instead of spaces in HTML files
+14878|Custom code snippets in project folder
+14879|File order can be confusing when having test and source files next to each other
+14880|One key sequence for start/restart
+14881|usage with css modues
+14882|Allow to have the editor tab bar above the side bar
+14883|Add support for CSS in JS syntax highlighting
+14884|Hope can be configured in the TAB bar continuous display file directory
+14885|Support custom root directory alias for imports
+14886|High CPU activtity of C++ Extension
+14887|Support a grid layout for editors
+14888|Integrated debugger - highlight values for variables as 'popups' when value changes (mimic Chrome debugger)
+14889|Use debug adapter completions to improve IntelliSense in editor
+14890|Proxy configuration doesn't work in VSCode
+14891|File search (ctrl+e) does not find many of the files
+14892|Indented wrapped lines should not get a token type
+14893|Extension relative path not loaded properly
+14894|Update and rename LICENSE.t to LICENSE.md
+14895|Allow interpolation coloring in template literal strings when using new JS/TS grammar
+14896|"Allow ""Insert Cursor"" keybinding to be configurable"
+14897|editor.action.insertCursorAtEndOfEachLineSelected command should only put cursors on lines that have text
+14898|[html] intellisense in style attributes
+14899|Monokai Theme bad-highlighting
+14900|Wildlife-Dark Theme Doesn't Look Right

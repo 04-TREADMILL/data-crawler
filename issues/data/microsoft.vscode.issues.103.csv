@@ -1,0 +1,100 @@
+10201|Option to disable instead of completely uninstall a particular extension.
+10202|Debug protocol: Please add Variable::settable
+10203|Add an action to move focus to Debug Console
+10204|Debug protocol: `setVariable` identifies variables by display name
+10205|Ctrl+Shift+1 keybinding doesn't work to replace selected text when using Ctrl+H window
+10206|Terminal Window does not scroll
+10207|Ctrl+A no longer selects all in editor when focus is outside
+10208|Media keys not working when vscode is the active window
+10209|alt+click to add multiple cursors also toggles the menu bar
+10210|Support CompletionItemKind.Method
+10211|Double clicking terminal sash should position it in the ideal height, not minimum
+10212|Add a setting to prevent viewlet toggling when using keyboard shortcut
+10213|Updated package extensions to associate files
+10214|Linters fail to work after the version update
+10215|Cannot close editor window using Command + W -> see screenshot of error attached
+10216|Cannot tab between windows using Command + ] -> see screenshot of error attached
+10217|Zoom is Cmd= only when it should work for Cmd+ also
+10218|Disable snippets in attributes
+10219|Fuzzy text in intellisense, sometimes completely empty white pane
+10220|More feature for markdown
+10221|[cshtml] Code formatting doesn't work in *.cshtml files
+10222|任务终止不了
+10223|Please, split 'references' and 'run test' options in code editor
+10224|don't auto close on single quote
+10225|removed ocaml extensions
+10226|Actions to not invoke when clicking on lower corner of them
+10227|Inconsistent and Faulty `autoClosingPairs` Behavior
+10228|Integrated Terminal - Default open/close shortcut not responding when Japanese IME is active
+10229|reopenFolders setting ignored on osx
+10230|Indicate selected folder in explorer even when focus is not in explorer
+10231|"Make ""Toggle Status Bar"" a global setting"
+10232|Question: How to change behaviour of commenting out a line?
+10233|Editor ignoring tabSize setting
+10234|VSCode includes components under a non-free license
+10235|Working examples of text messages, hover and editors with readonly html
+10236|Consider to use `git ls-files' for file search if possible
+10237|format-on-type saves the nesting level
+10238|Zoom In/Out by MouseWheel
+10239|Integrated Terminal - Losing cursor position with Japanese IME
+10240|[TypeScript] Highlighting breaks with a number at the end of return type
+10241|[TypeScript] Renaming a file with a class gives 'Duplicate identifier' error
+10242|Consolidate action for split editor into one
+10243|[less] support rule set mixins
+10244|Code completion is adding extra single quote when writing comments
+10245|Issue with connecting to github from vscode
+10246|TypeScript type comment issue
+10247|HTML in PHP file
+10248|Add support for Home/End keys on IntelliSense's popup menu
+10249|Right Click to open and no response
+10250|Update to Electron 1.x
+10251|code-completion doesn't replace expected text when cursor is not at the end of name
+10252|TypeScript colors get broken for the rest of file
+10253|[request] allow ignoring git untracked files at the git icon summary count
+10254|Symbols break TypeScript syntax highlighting
+10255|The <Enter> is swallowed by the auto-complete box.
+10256|Add support for children in Diagnostic object for complex errors
+10257|Allow to detect when my extension is running in the development host
+10258|"Highlighting broken for ""/*"" '/*' and `/*`"
+10259|Syntax highlight engine is broken after 1.4.0
+10260|Integrated Terminal - command with non-zero exit code terminates the terminal
+10261|font size
+10262|[suggestion] Cursor animations tweak
+10263|GitHub two-factor authentication not supported.
+10264|[request] Bash on Ubuntu on Windows via the Integrated Terminal
+10265|Javascript files lose syntax highlighting if code is nested over 14 levels
+10266|[Error] ENOENT: no such file or directory, lstat 'C:\d'
+10267|annoying c/cpp auto completion
+10268|git diff localization for HEAD in Japanese
+10269|Indicate files that got moved or copied in explorer with some styling
+10270|"TypeScript ""exclude"" conflicts with types resolution"
+10271|Editor context menu lost entries for TS
+10272|JSON: no longer getting proposals within double quotes
+10273|can't use the powershell to launch the bash.exe
+10274|VSCode scroll up and down, high CPU usage is two times sublime
+10275|Add ability for plugins to annotate code with computed stuff like references, author, code coverage etc.
+10276|Add actions to move tabs within groups (Ctrl-Shift-PgUp and Ctrl-Shift-PgDown)
+10277|Tabs disappear when opening an Untitled new file
+10278|Highlighting the argument name is string matching, instead of highlighting the actual argument number
+10279|Evaluate file icons contributions
+10280|No colorisation for ellipse tag in Sass
+10281|"""Format Code"" causes tslint failure with type assertions"
+10282|JavaScript computed method names break syntax highlighting
+10283|Releasing Ctrl when Ctrl-N in Quick Open no longer works
+10284|Problems in the tab bar.
+10285|Typescript definition syntax broken after 16 named module declarations with export default members.
+10286|Support floating point values for font size
+10287|Support standard keybindings for scrolling terminal by one line on each platform
+10288|TypeScript React conditional operator coloring issue
+10289|How can I get the list of all open documents?
+10290|TypeScript - ability to rename/move file (refactoring)
+10291|Typescript editor contents out-of-sync with language service?
+10292|[ruby] Add indentationRules
+10293|Show plugin name for actions in Command Palette
+10294|Fix show in IE11
+10295|Make text edits more minimal
+10296|Blank lines in Hovers are unexpectedly removed
+10297|moveEditor command behaves weird when tabs are disabled
+10298|moveEditor: Cannot read property 'indexOf' of undefined
+10299|[shellscript] Bash highlighting bug
+10300|"""Stage Selected Lines"" missing!?"

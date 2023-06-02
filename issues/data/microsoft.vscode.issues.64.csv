@@ -1,0 +1,100 @@
+6301|dotnet exited with error code 2147516546
+6302|Ctrl + Open Recent could open the folder in a new Window
+6303|[php] HTML element not hilighted correctly in php document
+6304|SQL - Backslash at end of string disrupts syntax highlighting
+6305|Update should reopen all last opened folders
+6306|Support Vuejs file (fix #6290)
+6307|"""Extension host terminated unexpectedly"" when opening C# file"
+6308|No C# Highlight in 1.1.0?
+6309|Snippet suggestion triggered incorrectly
+6310|Self-compiled version of VSCode fails to launch extension host on Arch Linux
+6311|Can't install .NET Core Debugger with latest dotnet
+6312|Selection prompt to extract method not worked
+6313|Debt: improve naming around editor methods
+6314|"C# syntax highlighting broken around literal strings @""..."""
+6315|Complicated duplication for editorService and editorPart
+6316|"Getting exception ""This socket has been ended by the other party"" wen debuggin extension."
+6317|File Nesting
+6318|Ubuntu glitching lines on render
+6319|No apparent way to get column for a visible editor
+6320|Add support for external grammar injections
+6321|No Call Stack hover message mismatched
+6322|Support process environment per opened window
+6323|Add default key to launch developer tool under keybinding.json.
+6324|Auto copy code when CTRL+S?
+6325|Javascript Code Format Indentation not always correct
+6326|ES6 template strings declared at the end of a ternary operator are incorrectly parsed
+6327|rpm package no longer contains /usr/bin/code
+6328|Context menu: allow to provide sub menus
+6329|OCaml syntax highlighting problem
+6330|html formatting (shift + alt+ f) not working with certain tags
+6331|Bad whitespace wrap in git commit box
+6332|REPL: reveal auto-expanded objects
+6333|editing makes breakpoints view flicker if debug session is active
+6334|OSX - Not able to overwrite workbench.action.closeWindow keybinding
+6335|Why there is no default csharp
+6336|"The ""Ctrl+P"" and then ""ext install csharp"" is not working..."
+6337|Disk name in ${workspaceRoot} is lowercase may result in a bug related to node6, webpack and babel
+6338|"Fix German Translation of ""Tabs"""
+6339|JavaScript syntax highlighting problem with React's source code
+6340|Displaying annoying info bar every time i save the .ts file
+6341|Add 'error' listener to WebWorker to cover the cross-domain case better.
+6342|Integrated terminal pty.js dependency build issue
+6343|debugging 'eval' not working on latest version
+6344|VSCode terminating without any error or warning when launching with keyboard shortcut key.
+6345|Option to hide the status bar
+6346|No Go to Definition/Peek Definition C++
+6347|Allow special characters like percent sign in snippet prefix
+6348|Status bar color mismatch for C++ configurations
+6349|VSCode debugger front end is not showing the source correctly when sourceReference is not 0
+6350|Collapse all in Explorer change to expand all if collapsed
+6351|editor.insertSpaces setting ignored based on status bar setting
+6352|Alternate data streams are removed by saving
+6353|--install-extension should exit faster if already installed
+6354|--install-extension should return 0 when it's already installed
+6355|Return 0 if extension already installed
+6356|Double clicking sidebar sash should optimize width of current sidebar, not just file explorer
+6357|Allow multiple extensions to be installed/uninstalled through the CLI
+6358|Debug Attach Timeout Error on Node Restart
+6359|Is there a method to enforced snippets?
+6360|[html] When using custom HTML tags, VS auto-align wrong way.
+6361|Git commit freezes UI
+6362|DiagnosticsCollection#set doesn't merge by resource anymore
+6363|Add a way to get removed text in TextDocumentChangeEvent
+6364|Error: Extension host terminated when first started and on Reload Window
+6365|Please add Class Viewer
+6366|Do not autoclose `'`
+6367|安装插件时,在搜索或下载插件页面好慢.切换到另外窗口.就马上把安装插件界面给关了
+6368|Ubuntu vs code black screen on loading any file or project
+6369|The snippets for markdown is not valid.
+6370|Fix Korean translation
+6371|Syntax highlighting after Installation lost
+6372|Menu item 'Check For Updates' should be disabled when there's no frontmost window
+6373|Extension Optional Dependency
+6374|"Hang on ""Open Folder"" when disconnected network drive"
+6375|add touch screen tap support for reference search
+6376|Installation of vscode-powershell replaced File Explorer right-click menus for .ps1 files
+6377|Don't translate Git command
+6378|i can't delete the new content and write a function
+6379|hope to add a restart application under the menu
+6380|Find does not work after replace
+6381|Copy/Cut then Paste doesn't preserve or fix indentation
+6382|Can you add a set of related files?
+6383|Must Restart Visual Studio Code For Html Changes To Appear In Browser When Using http-server
+6384|Changing files.associations setting has no effect
+6385|Do not capitalize scope names automatically
+6386|Support an option to disable-direct-write
+6387|Open in Terminal with iTerm on Mac
+6388|Why wasn't VSCode 1.1.1 tagged?
+6389|Debug: The stop/continue all model breaks the debug adapter for Firefox
+6390|bump to electron v1.1.0
+6391|Find and Replace unnecessarily uses different colors than Search for Current Match
+6392|Git: When resolving a merge conflict allow accepting the default commit message
+6393|Lint errors not updating until building and still show after fixing
+6394|Find in Selection option of Find showing pointer cursor while not active
+6395|Setting terminal to Cmder doesn't work
+6396|Opening VSCode or Saving File with it causes Disk memory hog
+6397|Insiders and RC3?
+6398|upgrade failed
+6399|"Not getting object value in debug watch window for imported type ""StatusBarItem"""
+6400|Object value is not displaying with mouse hover.

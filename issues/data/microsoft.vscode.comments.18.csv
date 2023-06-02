@@ -1,0 +1,100 @@
+1701|:+1:
+1702|Not showing the dialog would mean data loss. To be consistent we always ask. I am quite sure other editors work like this too.
+1703|There are different possibilities here: a. we start using the text mate bundle from https://github.com/atom/language-css b. someone can make an extension to replace our tokenizer with the Atom one. c. we help merging back changes from Atom https://github.com/textmate/css.tmbundle, and we can continue to use their bundle  Both a. and c. are fine with me. But as you mention, for the community it would probably be the best if we attempt c.
+1704|+1 for adding the gradient functions. It should be easy to add following the approach we currently have. Check out colorFunctions in /src/vs/languages/css/common/services/intelliSense.ts as well as /src/vs/languages/sass/common/services/intelliSense.ts
+1705|We can already do a) by converting the cson to json. If the atom one is that much better then we should do so, but in general c) is helps all the communities and I agree with @aeschli .  Option b) FirstMate used in Atom is slower than the one we have now implemented for VS Code. So the replacement would have to be at least as performant :smile: The implementation also needs to be consistent with our contribution guidelines, i.e., contributions are in TypeScript.
+1706|Hi **@jrieken**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (Johannes Rieken). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+1707|@jrieken appveyor/branch tests will fail until you merge master into your branch. all other checks should pass
+1708|The problem in your case is that editors sync on their own cadence. See [doUpdateMappings](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/api/common/mainThreadEditors.ts#L336) which is called after a timeout.   You should write you test using the `onDidActiveTextEditorChange` event, that's the only sync mechanism we publicly have.  The command execution should wait: see `invokeHandler`
+1709|k
+1710|Brought back the following behaviour: - files over 5MB don't get synced to web workers - files over 20MB don't get any mode supports (coloring, intellisense, etc.)  These changes relieve the memory pressure and I can now open & edit this file fine.
+1711|"Generated file using:  ``` javascript var fs = require('fs');  var text = []; text.push('<xml>'); for (var i = 0, len = Math.pow(10, 6) * 2; i < len; i++) {     text.push('<Child1 attr'+i+'=""'+i+'"" />'); } text.push('</xml>');  fs.writeFileSync('large_files/large.xml', text.join('\n')); ```  After b57564d and b255288 the generated file (2M lines, 63MB) opens, I can make edits and save it.  b255288 changes that files above 5MB are ""hidden"" from the extension host."
+1712|@egamma That must be it!   Long line with at least one multi-byte character that takes forever to tokenize in posix.
+1713|The problem is in atom/node-oniguruma, more specifically: https://github.com/atom/node-oniguruma/blob/master/src/onig-searcher.cc#L11 going into https://github.com/atom/node-oniguruma/blob/master/src/unicode-utils-posix.cc#L38  which makes tokenizing strings with multi-byte characters O(N^2) under posix
+1714|@jpierru can you provide your OS, Code and git versions?
+1715|thanks @Tyriar
+1716|Thanks for the heads up and your time, I'll try a future release as I only want to run the core clr.
+1717|This should be done as extension and not as a core command.
+1718|Did you try `onDidOpenTextDocument`?
+1719|@aaronpowell awesome bug description :+1:  @weinand I believe you already looked into not able to debug while offline, thus assigning to you
+1720|Since you cannot create documents you should not be allowed to dispose them. This will become interesting once we allow to create new documents
+1721|Treating this as dup of #272
+1722|Thanks @mattddowney !
+1723|@aaronpowell you are running into this node.js on Windows bug: node-inspector/node-inspector#645
+1724|and the problem with the unreadable error message (Microsoft/vscode-node-debug#2) has been fixed for the December release
+1725|"@alexandrudima could you verify this one please? it is easy to reproduce by installing the Yo extension and following the steps: - open vscode workspace - run yo from f1 and pick code-generator - pick the ts extension - pick ""test"" as name - click through until you get the conflict - click abort  => in the console you should see a warning that an extension tried to call process.exit()"
+1726|@jrieken you can, I even have a test for it: https://github.com/Microsoft/vscode/blob/master/extensions/vscode-api-tests/src/workspace.test.ts#L32
+1727|:fireworks:
+1728|@joaomoreno OS is OSX 10.10.5 and git version is 2.3.2 (Apple Git-55). Visual Studio code version is 0.10.1.
+1729|Just one suggested change, else looks great!
+1730|duplicate of #160
+1731|Hi **@bpasero**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (Benjamin Pasero). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+1732|It actually does not wait but it seems to be a problem on the main side too. I created a PR and added Alex on it.
+1733|@akamud fyi I added a couple more commits on top: - 386a130: use semver to compare the versions - 8572f72: rename `ExtensionsUpdates` to `OutdatedExtensions`  Overall, great job and thanks! :+1:
+1734|"![image](https://cloud.githubusercontent.com/assets/6461412/11401331/6311cb1c-9392-11e5-9707-ffbc22289065.png)  This seems to work from me. I get hovers and code assist.  Can you open the dev tools (F1 > Toggle Developer Tools) and check the console?  Note: If you specify a single element in the ""json.schemas"" array, this will replace all other settings. This is a known issue, that I want to fix."
+1735|FYI, just merged #517 from @akamud that brings in a global action to show outdated extensions
+1736|Nice catch Added 0.15 em to the right margin, since we already had a left margin. I like it now
+1737|Hi **@ucnc**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+1738|You're as fast as :zap: Gordon.
+1739|**@ucnc**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+1740|@alexandrudima I totally understand, would a better solution (and this is one I would be willing to look into) be to have highlighting and other actions update as you scroll the document?
+1741|"@maxlorenz   Since this is JSON, `""\\${1:sub}section${2:*}{${3:label}}""` becomes `\${1:sub}section${2:*}{${3:label}}` at runtime. We need to have a way for a snippet to insert an actual `$` and that is `\$`.   The following does the right thing:  ``` json     ""section"": {         ""prefix"": ""sec"",         ""body"": [             ""\\\\${1:sub}section${2:*}{${3:label}}"",             ""\n\t$4""         ],         ""description"": ""Start a subsection""     } ```"
+1742|Not really @bpasero because `open` will just return a document if it is already open. Also, the workbench should stop disposing documents that were opened via this call which is doesn't. I don't believe it's a good idea to expose dispose for `file` and `untitled` because the core creates and managed them, for other schemes (#272) it's a different situation.
+1743|This issue was moved to Microsoft/TypeScript-TmLanguage#15
+1744|Unfortunately, as designed, until we do a new UI for this. #448 #637
+1745|I just packaged `vscode`. Can you help me test it? @fnkr  https://copr.fedoraproject.org/coprs/mosquito/vscode/
+1746|"I'm working in Typescript, and text editors seem to have a particularly hard time analyzing @autobind. I know that autobind is working because I haven't had to change scope, but everything is still underlined.   I did try going in to the settings.json file in Application Support and changing   ""javascript.validate.syntaxValidation"": to false.   That didn't help.   Here's a screenshot so you can see what I'm seeing.  ![screen shot 2015-11-25 at 9 47 09 am](https://cloud.githubusercontent.com/assets/4923907/11405207/3941b9a0-935b-11e5-9fb6-caeaf0968b29.png)"
+1747|"You can add this to your keyboard settings: `{ ""key"": ""cmd+y"", ""command"": ""redo"", ""when"": ""editorTextFocus"" }`"
+1748|Very likely #160.
+1749|agreed, sounds like that much lower bug number.
+1750|Same. Not only is `async`/`await` underlined, but all `let` and corresponding variables within the same block are also `can't find name ...`
+1751|+1 would save me from opening photoshop just to pick color
+1752|So how about supporting a custom stylesheet in themes? Just like how Sublime Text did.
+1753|I'm happy to update our version and commit the changes back to TextMate. When I'm finished with my current commits I'm doing we'll me more up to date than the Atom one anyway.   I've not updated everything in the .plist yet as it doesn't look like we use parts of that file, but I can do that anyway so that TextMate doesn't get just partial updates. I just means duplicate work.
+1754|"There is SVG specific elements only being valid if inside an svg element if we add those, but that could be covered by point two if done generally enough.  To cover aria, point 1 would have to also depend on the value of an attribute. i.e. if role=""foo"" then the aria-bar attribute is valid."
+1755|@joaomoreno I am quite sure this code [1] is still from you from the old days ;). Maybe you could have a look and also apply it to the pipeFs() method where no mode is set.   [1] https://github.com/Microsoft/vscode/blob/master/src/vs/base/node/extfs.ts#L107
+1756|"@fouckybzh weird indeed, VS Code should not touch the file, but maybe someone else is? Can you run ""vscode --verbose"" and open the console to see what kind of file events VS Code receives? It should look like this:  ![image](https://cloud.githubusercontent.com/assets/900690/11406737/2cf5e8c0-93af-11e5-8ed9-e7e372059695.png)"
+1757|We will work on providing a way to open a folder from an extension. Closing.
+1758|And it only copies text selected that is in current view. Select something, scroll away, and un-copiable which is another confusing thing.
+1759|This is fixed for next release.
+1760|@elisee not much we can do here really because Electron decides to treat asar files very special. See https://github.com/atom/electron/issues/1658
+1761|Added above to keybindings.json, which I accessed from Code->Preferences->Keyboard Shortcuts.  Works great.  Thanks.
+1762|Get the same problem  ``` [ERROR:OmniSharp.Dnx.DnxPaths] The specified runtime path 'default' does not exist. Searched locations /Users/Dan/.dnx/runtimes/dnx-coreclr-darwin-x64.1.0.0-rc1-final /Users/dan/.dnx/runtimes/dnx-coreclr-darwin-x64.1.0.0-rc1-final /Users/dan/.dnx/packages/dnx-coreclr-darwin-x64.1.0.0-rc1-final /Users/dan/.k/runtimes/dnx-mono.default /Users/dan/.k/runtimes/kre-mono.default /Users/dan/.k/packages/KRE-Mono.default /Users/dan/.kre/runtimes/dnx-mono.default /Users/dan/.kre/runtimes/kre-mono.default /Users/dan/.kre/packages/KRE-Mono.default. ```  ``` ~  ᐅ dnvm list -detailed  Active              Version Runtime Architecture OperatingSystem Alias Location ------              ------- ------- ------------ --------------- ----- --------      *      1.0.0-rc1-final coreclr          x64          darwin default /usr/local/lib/dnx/runtimes             1.0.0-rc1-final    mono                    linux/osx       /usr/local/lib/dnx/runtimes  ```
+1763|Wow this is a great bug, turns out we need to set UTF-8 when writing from C# to the console. I think I have a fix for it.
+1764|the same to double quote.
+1765|Awesome!
+1766|Fixed in b24d2e3
+1767|Want to contribute a PR?
+1768|cc: @mat-mcloughlin for Elixir plugin.
+1769|eslint is a decent workaround at the moment but it would still make a lot of sense to fully support JSX syntax in `*.js` files.  After all JSX syntax is specifically meant to be used within/along side JavaScript, so it doesn't make sense to separate the two.  All that should be needed is an extension to the standard JavaScript syntax.  I think it would make sense to have a setting option to recognize JSX within `*.js` files so it can enabled or disabled per user preference.
+1770|Related https://github.com/Microsoft/vscode/issues/114?
+1771|+1 on this feature
+1772|When launch code, it stuck like below for 15-20 seconds and then show contents of the file.  ![image](https://cloud.githubusercontent.com/assets/5075254/11411677/363801a2-9387-11e5-9cd7-2414b7f399c2.png)
+1773|I also need this, there's a slight delay during auto-save that I keep tripping on :(  Should be enough to just trigger auto-save on focus loss.
+1774|A shortcut for match case would be good too.
+1775|Some things that people do to accomplish extension/settings sync with other editors: - Copy extensions to Google Drive and then [symlink](https://en.wikipedia.org/wiki/Symbolic_link) the directory to the config dir (`~/.vscode/extensions`) - Setup extensions in your dotfiles  These are a little harder to automate on Windows though.
+1776|i'm not sure how to make it work on VS code, but for sublime text 2, can use the below line to make it work, for sync with dropbox.  ln -s /Users/yeun/Dropbox/Packages /Users/yeun/Library/Application\ Support/Sublime\ Text\ 2/
+1777|@bpasero What release should have this? 0.10.2?
+1778|Should be just a matter of finding the config path on your OS, try: - `/Users/yeun/Library/Application\ Support/vscode/` - `/Users/yeun/.vscode/` - or similar
+1779|@bpasero Nice...    :+1:
+1780|thanks, will try it out on mac and windows, see either it possible to make it work!!
+1781|For Windows 10 the extensions are located in `C:\Users\<user>\vscode\extensions`, and the settings are located in `C:\Users\<user>\AppData\Roaming\Code\User`. Not sure about mac.
+1782|Also, I sync the settings in my dotfiles like [this](https://github.com/Tyriar/dotfiles/blob/master/vscode/index.js), I haven't looked at syncing extensions yet, I'm hoping it will be possible eventually to do it with a series of calls to `vsce` like you can with `apm install` for Atom ([like this](https://github.com/Tyriar/dotfiles/blob/master/atom/index.js)).
+1783|There is a `Back` command in the `Goto` menu which goes back to the last cursor position. I think it defaults to `alt+leftarrow`.
+1784|Thanks, but the right key was `CTRL+ALT+-`
+1785|Sounds reasonable. The HTML tag intellisense providers are located [here](https://github.com/Microsoft/vscode/blob/master/src/vs/languages/html/common/htmlTags.ts), it might just be a matter of hooking that module up to the PHP code. Also insuring they are only available when outside `<?php` tags, if I remember how PHP works correctly.
+1786|yup, and one more things, the dropbox folder should in the correct path too, i mean in windows environments (i'm testing it on dropbox). =.=
+1787|same problem here.
+1788|@jpoon no, mid december!
+1789|Fixed for December.
+1790|"@Morgy93 another thought I had was if - once VS Code is up and running - you could see if reloading the application is also slow. For that you can just trigger View | Command Palette | Reload Window.  If that action turns out to be as slow, we have a chance to run a profiler to see where the time is spent. For that - before reloading - run Help | Toggle Developer Tools, click Profiles, then press the Start button and run the reload action. After that, press the Stop button. You should get a list of function calls and their timings. You can export this report from the little ""Save"" button next to ""Profile 1"" on the left.  ![image](https://cloud.githubusercontent.com/assets/900690/11416436/d997ae5c-940d-11e5-976b-8c449472eb22.png)"
+1791|"@kook005 can you try - once VS Code is up and running - to see if reloading the application is also slow. For that you can just trigger View | Command Palette | Reload Window.  If that action turns out to be as slow, we have a chance to run a profiler to see where the time is spent. For that - before reloading - run Help | Toggle Developer Tools, click Profiles, then press the Start button and run the reload action. After that, press the Stop button. You should get a list of function calls and their timings. You can export this report from the little ""Save"" button next to ""Profile 1"" on the left.  ![image](https://cloud.githubusercontent.com/assets/900690/11416449/f23e2e22-940d-11e5-949f-247e0b82c663.png)"
+1792|@leixu2txtek I pushed a fix and you can patch your vscode to pick it up: - close vscode - download the CodeHelper.exe from https://github.com/Microsoft/vscode/blob/2a74a926822dc2617c129f896b010e39b40c1051/src/vs/workbench/services/files/node/watcher/win32/CodeHelper.exe - overwrite the existing CodeHelper.exe in C:\Program Files (x86)\Microsoft VS Code\resources\app\out\vs\workbench\services\files\node\watcher\win32
+1793|"@kc9eye is right, set ""php.validate.executablePath"" : ""DiskName:/{folder php unzipped to}/php.exe"", String 'php.exe' is required, but php7 is not required."
+1794|@bpasero the `& 511` is mine: it just truncates the permissions but doesn't set them to 644. Something else is doing that.
+1795|Unfortunately, you've got to make sure to close VS Code before changing the `storage.json` file. You must use another editor. This will soon change.
+1796|"Unfortunately I also doesn't work if Code is closed. - Close Visual Studio Code - Run the following PowerShell Script      ```   $codeSettingsPath = $(Join-Path $env:APPDATA ""code"")    $storageFilePath = $(Join-Path $codeSettingsPath ""storage.json"")      $storageFileContent = ConvertFrom-Json ""$(Get-Content $storageFilePath)""      $storageFileContent.updateChannel = ""none""      $storageFileContent | ConvertTo-Json | Out-File $storageFilePath   ``` - Open Visual Studio Code - `updateChannel` is set back to `stable`  Installed Visual Studio Code is at 0.9.2.0 and OS is Windows 8.1"
+1797|just want to confirm this issue. Type **$_** and select **$_GET**, **$_POST** etc. and there will be $$ I guess this issue doesn't existed prior v0.10.1
+1798|duplicate of #86
+1799|If you use Notepad, does it work? Are you sure there are no Code.exe processes running in the background?
+1800|It works if editing with Notepad. So seems to be a problem with the way the PS writes back the JSON

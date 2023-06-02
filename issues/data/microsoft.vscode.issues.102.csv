@@ -1,0 +1,100 @@
+10101|Regex not working on ungreedy captures
+10102|Problem with Powershell-Syntax - after legal statement all lines seems to be interpret as string
+10103|Stop extension watch task when stopping extension run
+10104|Feature requests: CTRL+click to follow non-import links
+10105|Wrong formatting node js file
+10106|Allow for floating windows
+10107|After working for some time (perhaps dragging tabs?) I cannot use Escape to hide find widget
+10108|Backspace dedents instead of deleting character
+10109|Terminate Running Task and Retry
+10110|Markdown code block with type and extra space breaks rest of document
+10111|Undo/Redo not working in search bar.
+10112|Problems view needs better responsiveness
+10113|Unrecognized Git
+10114|Support Linux for Windows
+10115|Cannot copy exception messages (event short text) into clipboard
+10116|"""Go"" > ""Switch Group"" > ""Side Group"" should be labelled ""Center Group"""
+10117|Explorer context menu for file under folder and file under Open Editors should have similar grouping
+10118|Support preserving cursor location when reformatting a document
+10119|Cannot read property 'projectFilename' of undefined
+10120|Voice Over: 'row 1 collapsed' when expanding
+10121|Adopt Typescript 2.0
+10122|debugger: object property tooltips not shown on mouse over (node+TS+sourcemaps)
+10123|React TypeScript minor color issue
+10124|Missing translations for older features in 1.4.0
+10125|Missing icons in High Contrast theme
+10126|"When in High Contrast theme, menus that open via the ""..."" do not follow high contrast color scheme"
+10127|Mac upgrade failed: The application “Visual Studio Code.app” can’t be opened.
+10128|Cannot scroll sideways in inline diff view to see all of a removed line
+10129|Use system-ui as font on Linux
+10130|August Iteration Plan
+10131|C# 6.0 string interpolation does not recognize the end of string
+10132|Can't drag tab out of workspace to move to new window
+10133|After updating to 1.4.0 the react-native extension no longer accepted as a debugger (for some people)
+10134|How to set Heap size
+10135|Renaming case of file closes the file in editor
+10136|Unresolved placeholder in message text after install of an extension
+10137|[feature request] on startup to restore the opened files (incl. unsaved files and unsaved untitled documents) of last session
+10138|Terminal Broken on v1.4
+10139|*contributes* should respect *activationEvents* definition
+10140|UX meeting agenda 10 August, 2016
+10141|Occasionally when resizing a panel, mouseup will resize the terminal to ~100px high
+10142|vscode often opens in background
+10143|javascript font color
+10144|Format code doesn't work after update to 1.4.0
+10145|Reactivate window after Continue when debugging extensions
+10146|Hope to add function of 'Find All'
+10147|Modification to the VS code startup batch file for #7619
+10148|Arrow keys don't work in Ubuntu Bash on Windows
+10149|Great feature Snippets and Suggestions
+10150|Sort and limit file results in search process
+10151|JavaScript Syntax Highlighting: Ternary object declaration
+10152|toggleTerminal key binding not working with focus in terminal
+10153|vc code does not show data received in functions while debugging
+10154|Always mark the file is unsaved after clicking Command + s to save the file.
+10155|show full path of files in find/replace panel and title bar
+10156|Autoupdate not working on Mac with Visual Studio Code.app in applications subfolder
+10157|"Literally ""Select all"""
+10158|Allow multi select inside the explorer
+10159|Add an option to prompt for confirmation before moving files
+10160|Suggestion: Add the ability to autocomplete files that exist in explorer
+10161|Question: Is there a preferred way for an extension to store data/state across sessions?
+10162|Terminal path uses incorrect drive letter casing
+10163|Code fails to launch (non-elevated) if there is already an existing (elevated) process
+10164|Show the release notes in the product instead of providing link
+10165|Adopt Marketplace CDN changes
+10166|Terminal: Zoom In/Out
+10167|Support character based diff
+10168|When IME enabled, some key bindings not work.
+10169|files.associations intellisense does not work within quotation marks
+10170|Integrated Terminal not allows to scroll up
+10171|Go to symbol ... - symbols are too short
+10172|Missing ESLint command implementation
+10173|command + <number> key behaviers
+10174|Hiding derived files does not work for *.js.map
+10175|Minimap required
+10176|sidebar action and git window shortcut
+10177|"""Debug: Add to Watch"" option has disappeared after the upgrade to version 1.4.0"
+10178|Unable to edit first file while comparing files.
+10179|[debt] Cleanup process.env user inheritance and propagation over to renderer processes
+10180|Terminal lineHeight evaluated as EMs relative to terminal font-size
+10181|A column of a tab doesn't match
+10182|Can't use shift+home to select to beginning of line
+10183|Where is documentation for language configuration json?
+10184|`strictNullChecks: true` breaks imports of non-typescript modules.
+10185|Twitching after saving html file
+10186|Modification to the VS code startup batch file for #7619
+10187|Extensions close one by one when I click on explorer
+10188|Explorer: when DND is disabled, can it be completely turned off on widget level?
+10189|[scss] editors think @at-root is scss mistake
+10190|Color coding of TypeScript is broken when using : in @HostListener eventName
+10191|Adopt latest version of Electron
+10192|js-atom-grammar and Tomorrow Eighties color syntax issues
+10193|Open new untitled editors from double click at the end of the tab list
+10194|Please improve configuration of the debugger extensions
+10195|Can't copy the values of debugging elements such as exception messages
+10196|Option to run tasks.json from launch.json even if it doesn't define multiple tasks
+10197|Pasting entire line does not replace selection
+10198|Remember last window state
+10199|Show list of symbols (cmd + p @) does not work for PHP classes
+10200|[debug] Variables with null values are not displayed.

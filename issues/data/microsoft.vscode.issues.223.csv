@@ -1,0 +1,100 @@
+22201|Window Corruption Upon Loading Monitor Configuration After Waking From Sleep
+22202|env variables are not passed to extension host in debug mode
+22203|Accesors
+22204|Make column selection work on the model, not the view model
+22205|Investigate including npm
+22206|Feature request: [cpp]/[c] editor settings for editor.acceptSuggestionOnEnter
+22207|Feature Request: ability to review 'git push' and compare to remote
+22208|"Diagnostic hover doing ""word-wrap: break-word;"" which makes them hard to read"
+22209|Keybinding changes take a few seconds to take effect
+22210|[json] support for environment variable replacements in schema URIs
+22211|"Feature Request: dynamically set ""owner"" for Watcher\background Tasks ."
+22212|Message for @mjbvz
+22213|Fix spanish translation
+22214|Launching or reloading task on Windows pastes clipboard text before launch command in terminal
+22215|Custom Theme disables other language colors
+22216|Allow to easily search in right-clicked folder
+22217|Add a symbol list in view bar or side bar
+22218|Multiple column breakpoints on the same line only sends first to the debugger
+22219|Prelaunch task not working with tasks v2.
+22220|JSDoc completer not adding params to functions that are assigned to object keys
+22221|Markdown preview occupies a small part of the editor window
+22222|VSCode on OSX crashes with exception from SQRLDirectoryManager.m after 30 seconds
+22223|Selected section will be lost in replace text
+22224|TypeScript should use double quotes for string in import snippet.
+22225|Raspberry issue during npm run watch (gulp watch --max_old_space_size=4096)
+22226|Feature Request: Keybind/Enable by default : Collapse All for find results
+22227|--uninstall-extension doesn't seem to work
+22228|API feature request to NOT modify the file after TextEditorEdit#setEndOfLine is called
+22229|Add a shell selection prompt on Windows
+22230|make finding all references more user-friendly
+22231|Unicode shade characters rendered too tall - overlapping lines
+22232|Editor screen very dimmed after update to 1.10.2
+22233|When does JS DOC support the arrow function?
+22234|When do I support user settings and plugins for backup export?
+22235|vs code does not reload opened file changed by 'Beyond Compare'
+22236|preview to show multiple line but no \n kept as orginal code
+22237|Security - JavaScript scripts in Markdown files are executed when files are previewed
+22238|Tree: Cancelling the file creation by scrolling causes the Explorer shows not correctly
+22239|Make find widget resizeable
+22240|Add output specific setting for minimap
+22241|Integrate Vorlon Desktop into vscode
+22242|"Setting ""editor.wordWrapColumn"" is ignored"
+22243|Incomplete link in console
+22244|Cleanup after git classic is removed from sources
+22245|Allow extensions to determine if a position is within a fold.
+22246|Test tour: MERN starter kit
+22247|No 32 bit linux repository
+22248|Test Tour: MEAN
+22249|`zenMode.hideStatusBar` is not getting applied immediately
+22250|Feature Request: Explorer should support custom order of folders/files
+22251|Settings search does not find language overrides
+22252|As a user I would like to know what settings are being applied to current editor and the source of these settings
+22253|coecompletion is not working correctly
+22254|Format document action is not working properly with objects in functions parameters
+22255|Introduce KeyPress
+22256|[json] improve error analysis on oneOf
+22257|22160 fixes shortening same name ending
+22258|Ignore folders/files in Problems view
+22259|The resource manager didn't update folers and files by git checkout <branch>
+22260|.NET Core Debug doesn't work.
+22261|Focus is not restored to editor when closing an inactive tab
+22262|Hide code blocks completely
+22263|VSCode stages the wrong content
+22264|Typescript and Javascript indentation problems
+22265|Test failures when run in a real browser
+22266|Save All should save existing files even when an unsaved file is currently open
+22267|C/C++ plugin, includePaths should not search recursively
+22268|cannot conitinue？
+22269|Breakpoint in collapsed code is visible, but not usable
+22270|Terminal display bug
+22271|Terminal not opening closed automatically
+22272|TextDocument#eol
+22273|Noticeable pause when entering doc comments
+22274|Possibility to open terminal in separate window
+22275|Remote debugging not working again
+22276|.editorconfig.end_of_line, and previewing files with conflicting eol's, auto modifies file on preview
+22277|Feature Request - File open and save as
+22278|include file not found in include path
+22279|Empty entry in find all references peek view
+22280|Loading error
+22281|Inspector protocol ignored when using compounds
+22282|Non dirty save with a keymap does not trigger correct file 'touch' behavior
+22283|Roll data dir into extensions dir
+22284|"""No definition found for ..."" for imported *.jsx files."
+22285|Auto JSDoc comment does not include @param`s
+22286|Use Windows Subsystem for Linux as integrated terminal
+22287|Move CancellationToken into own npm package
+22288|Thoughts regarding the integrated terminal
+22289|Double-clicking to select text in an editor should respect casing (as developers see casing)
+22290|versioning and release practices
+22291|Find and Replace is a bad experience.
+22292|Line Wrap in Terminal Breaks Clickable URL Links
+22293|"[Themes] Selection inside ""wordHighlight""ed word does not use a proper color"
+22294|Support title from xterm.js
+22295|Consumes loads of power
+22296|Autocomplete window bounces above and below line
+22297|[Tasks 2.0.0] Wrapping output in terminal when Panel is hidden
+22298|Hide private methods/properties
+22299|"""File > Save all"" bug that put a file into another"
+22300|Code showing Errors in extension repository after updating launch and other files.

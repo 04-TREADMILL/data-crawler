@@ -1,0 +1,100 @@
+17201|"Usability: NVDA is not reciting the buttons and contents for ""Explorer"" view option."
+17202|Usability:ility: NVDA is not reciting the suggestions in the Command Palette edit box.
+17203|VSCode not open after i upgraded to vscode 1.8.0
+17204|TypeScript intellisense does not work correctly for interface properties that can be an interface or an array of interfaces
+17205|Usability: announce the group name of an editor
+17206|Usability: NVDA is not announcing the name of the editor groups.
+17207|Ctrl + C doesn't work anymore (after updating to latest version)
+17208|"Usability: NVDA is not announcing the name for the ""Close button"", ""split editor"" and ""More menu option""."
+17209|Usability: NVDA is not announcing the suggestions in the settings.json editor for change in user settings.
+17210|markdown preview - layout breaks on font zoom
+17211|Usability: NVDA is not reciting the name for the added snippet into the program.
+17212|Usability: No intellisense narration by the NVDA screen reader for entering of any class to the editor.
+17213|Usability: NVDA is not reciting the entered code snippet to the program.
+17214|"Usability: NVDA is not reciting the name for the options in the ""Git"" side bar area."
+17215|Usability: NVDA is not reciting the name for the buttons  and files  available in the debug sidebar area.
+17216|Reindent HTML ugly
+17217|Usability: NVDA is not reciting the name for the options and extensions available in the extensions side bar area.
+17218|Usability: NVDA is not reciting for the download notification in the https://code.visualstudio.com/Download link.
+17219|"Usability: NVDA is not reciting the when ""Go to definition"" and ""Peek definition"" is applied to the code."
+17220|"Arrow-up and down not working in ""Find References"" tree when NVDA is enabled"
+17221|"Usability: NVDA is not reciting when ""Format Code"" is applied to the code."
+17222|"Usability: NVDA is not reciting any information when ""Rename Symbol"" is applied to the any code for changing."
+17223|"Usability: NVDA is not announcing when ""Breakpoint"" is added to the code."
+17224|"Usability: NVDA is not announcing when ""Debugging"" is started by pressing ""F5"" key."
+17225|Feature Request : Multiple windows when dragging files out of editor
+17226|"Usability: NVDA is not announcing when ""stepover"",""stepout"",""stepinto"", are added to the code while debugging is on."
+17227|New seti icon theme looks bad
+17228|"""Open editors"" can't be hidden when no folder is opened"
+17229|"Usability: NVDA is not reciting any information when ""Integrated Terminal""  is opened."
+17230|Usability: NVDA is not reciting  names for the options available for replace preview results.
+17231|Usability: NVDA is not reciting the names for the errors and warnings present in the errors and warning panel on Navigation.
+17232|Folding / unfolding is not being read out by screen reader
+17233|Usability: NVDA is not reciting any information when a New line is added or an exisitng line edited or deleted and fails to recite about the changes between original file and changed file.
+17234|Usability: NVDA is not reciting any information after a file is committed or Undo Last Commit is Invoked.
+17235|Usability: NVDA announces irrelavant information after opening the Git output pane.
+17236|Usability: NVDA is not reciting any information after a Git Branch is changed.
+17237|Usability: Overlap in integrated terminal
+17238|Accessibility:MAS42A: Color is the Only Way of Indicating Changes made in a File.
+17239|"Accessibility:MAS36: Not able to navigate to the view bar options  in the ""vs code editor"" using ""Tab"" key for the first time."
+17240|Copy shortcut not working in editor after making a selection in terminal.
+17241|Zen mode causes BSOD (blue screen of death) with error driver irql_less_or_not_equal
+17242|Format of HTML document collapses the structural view
+17243|Make quick pick position configurable
+17244|Incorrect Chinese Translation
+17245|Softwrap for markdown
+17246|Allow to open zip archives in Explorer
+17247|VSCode freeze at markdown preview page
+17248|Theme not converting text into proper format.
+17249|Format is not working after ¥
+17250|Add hotkey to step through search results
+17251|Speaking about There is no translation
+17252|Seti theme icons only show half of the icon
+17253|Accessibility:MAS36: Not able to navigate to the Menu Bar using Tab key.
+17254|Add a setting to disable Auto-Detection of High Contrast
+17255|workbench.main.js
+17256|Add support for capture groups in onEnterRules
+17257|VSCode can't find binaries in my path (eslint)
+17258|Binary redistribution with Chocolatey package
+17259|files.excludes not work
+17260|error stack is undefined when my extension is activated
+17261|Feature Request: Auto hiding tabs
+17262|"Bug: Snippets using ""$"" not ""${"" as tab indexes."
+17263|Code navigation in markdown edit mode
+17264|CSS and HTML servers are breaking LSP
+17265|Extension not updating after having it installed from the terminal using --install-Extension
+17266|Auto updater is not updating previous version
+17267|Enhance Copy/Update action in Settings editor
+17268|Going full screen crashes display driver
+17269|Terminal AutoComplete does not access the contents of the folder
+17270|JSON parsing doesn't like URLs, affects formatting
+17271|Suggestion: Expandable objects in the debug console
+17272|Zen mode should center page content or have configurable margins in percent of viewing area
+17273|Document hint in VS Code shows HTML tags
+17274|Difference in debug console output when running and debugging launch configuration
+17275|Notify user of background jobs
+17276|Debugger stops at random paths, without being able to see the stack
+17277|Misleading statement in tooltip for CSS margin attribute
+17278|"Javascript attributes like a ""onerror"" or ""onclick"" break the document format process"
+17279|Error when running type 'node2' in vscode 1.8
+17280|Question: Can I debbug Electron renderer process multi window at the same time?
+17281|Font ligatures not working properly with C and C++ syntax highlighting
+17282|更新版本之后，代码智能提示总是会出问题
+17283|focus jumps close tag on another line
+17284|Error formatting code when using inline style atributtes
+17285|code formatting
+17286|Title Bar not functional - clicks through to desktop
+17287|Implement file-list (file explorer) in-place pop-up name display completion, like Visual Studio
+17288|PHP Snippets are not being summoned by IntelliSense
+17289|Don't group debug console output
+17290|http://code.visualstudio.com site does not work in China
+17291|Check improved telemetry
+17292|JavaScript IntelliSense not working in 1.8.0
+17293|Issue with formatting HTML when angular components are present
+17294|Hot exit does not preserve the Language mode for unsaved files
+17295|Inspect variables by hovering over variable names in debug mode no longer works
+17296|Resizing the files area / main area causes flickering and inaccurate resizing
+17297|Open folder broken from a new window selected
+17298|Debugging not working with v8 version 3.12.19.19
+17299|"Suboptimal hotkey workflow for ""find in files"""
+17300|Terminal Scroll bar option to autoscroll to bottom

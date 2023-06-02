@@ -1,0 +1,100 @@
+3801|Folding is whitespace sensitive
+3802|Detecting TS file as JavsScript when shebang exists
+3803|Improve the select/copy/paste experiences in debug console window
+3804|Callstack is not cleared out after stop debugging in multi-thread application
+3805|Some common keyboard shortcuts key are not supported
+3806|0.10.10 Dark theme for js is not highlight var and function
+3807|Add a new breakpoint will enable all existing deactived breakpoints
+3808|Run to cursor doesn't work as as expected
+3809|JavaScript Intellisense for old style modules broken with salsa?
+3810|[folding] Unfold should unfold based on folding history :smile:
+3811|[php] autocomplete is not showing user variables
+3812|Task with forward slashes, isShellCommand and in Windows fails to execute
+3813|[TextEditorOptions] support end of line
+3814|"Searching for ""travis"" in quick open, in vscode repo, doesn't find it easily"
+3815|Add a setting for a lighter settings/keybindings editing experience
+3816|TypeScript debug - spaces in path
+3817|Changing language mode in diff view does not persist the mode for the file
+3818|File explorer in sidebar stays grey after renaming a file
+3819|Support for locally installed npm tools
+3820|NLS build has an issue with \' in string
+3821|javascript highlight issue
+3822|Build support
+3823|Go to definition with multiple definition shows `peek` but doesn't explain why
+3824|Render white spaces: provide option to show white space between words
+3825|Stopping a debug session should close the debug console
+3826|supportsFunctionBreakpoints: false is ignored
+3827|add the `extensions` folder to gitignore to prevent accidental commits
+3828|Get rid of mime types in the workbench and try to work with language ids
+3829|[WIP] add a visual divider between gutter (glyph area) and code area
+3830|use os-specific EOL while creating the copyrightHeader for hygiene checks
+3831|use os-specific EOL while creating the copyrightHeader for hygiene checks
+3832|Better c# highlighting/intellisense
+3833|Typescript syntax highlighting breaks when using a variable with the prefix 'var' inside a template literal
+3834|VS Marketplace is really slow in Chinese network
+3835|COMMAND PALLET: Shortcut keys are not read by screenreader
+3836|[C++] invalid token on closing bracket
+3837|Accessibility: Support exposing current language to screen readers
+3838|JSDoc Intellisense not working as shown in release notes (10.10)
+3839|Broken support for Unity
+3840|Double-click text selection inconsistent between file types
+3841|[bat] improve highlighting after echo
+3842|Code predictions don't work properly with Unity 3D
+3843|Code formatting does not obey editor.insertSpaces
+3844|Function breakpoints are sent to adapter even if debug adapter does not support them
+3845|Improve task configuration/creation
+3846|[js] syntax highlighting broken in 0.10.10
+3847|Parameter hints are not screen reader aware
+3848|Rename widget is not screen reader friendly
+3849|Quick fix widget is not screen reader friendly
+3850|Transition 'Previous Releases' Wiki page to github's Release page
+3851|Startup broken on OSX for latest self updating VSCODE !!!!!
+3852|Typescript overriding accessors not understood
+3853|javascript intellisense not working after update VSC 0.10.10
+3854|VSCode crashes when opening a particular file
+3855|Suggest accessibility: 'read more' not accessible
+3856|TypeScript language service crashes on projects on a mounted SharePoint WebDav folder
+3857|Suggest accessibility: make announcements more concise
+3858|Suggest accessibility: items sometimes announced with a general name
+3859|Debugging crashes when adding watch
+3860|Error running npm run watch
+3861|"""cannot find module"" for all modules in February release 0.10.10"
+3862|Additional debug output panels
+3863|No more quick fix support to download a typings file
+3864|JavaScript code highlight not working well after 0.10.10
+3865|Horizontal scrollbars weird behaviour
+3866|32-bit rpm build is not being built as 64-bit
+3867|Use scoped $HOME variable to encapsulate rpmbuild files within working directory
+3868|How can we run and capture the output npm scripts
+3869|Git Unbearably Slow
+3870|Need option(s) to remove (less useful) status bar indicators
+3871|editor.formatOnType breaks properly aligned cursor
+3872|Support git commit message syntax highlighting
+3873|OSX Install shell command description is not specific on quality
+3874|how to toggle file menu??
+3875|Find does not work with multiple lines
+3876|"""Go to Definition"" broken in last update OSX version"
+3877|No nodejs intellisense after latest upgrade 0.10.10
+3878|Ctrl+Delete removing entire line when used at the end of line
+3879|Why are settings and keybindings not in the same directory as extensions?
+3880|Revisit VS Code folder structure for app data, settings, extensions
+3881|Visual Studio Code Version does not match commit id
+3882|[js] highlight method & function references
+3883|Syntax highlighting not correctly identifying var, let
+3884|Show both Output and Debug Console at the same time
+3885|Intellisense not displaying TypeScript autocomplete.
+3886|[less] support inner selector completions after '.abc:'
+3887|Indentation breaks code folding
+3888|Show Git Output doesn't switch Output panel's drop-down to the Git option
+3889|Go to definition does not always work
+3890|[Handlebars] Curly braces edit issues
+3891|launch occurs even if preLaunchTask fails
+3892|Output: do not react to output events when panel is hidden or output channel not selected
+3893|Output: avoid trimming if input is > MAX_OUTPUT_LINES
+3894|Not output paired quotation marks in php but javascript?
+3895|[folding] sections are still folded when disabled in preferences
+3896|Include Code version number in download zip file name
+3897|Assist users in setting up their jsconfig.json
+3898|Beware on 1000 extensions limit in the gallery query
+3899|[js] syntax highlight for 'var' and 'function' not working in Default VS theme
+3900|Support to terminate extension host through IPC

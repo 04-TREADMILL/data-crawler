@@ -1,0 +1,100 @@
+9901|Close the source tab when dragging to another window
+9902|Git init button has bad hover feedback
+9903|[glob] {**/package.json,**/project.json} matches too much
+9904|Add API to the picker to keep it open even when focus is lost
+9905|Environment variables are not passed to debuggee proccess.
+9906|Output spam when running code from command line
+9907|C# preprocessor expressions highlighting is inconsistent
+9908|Roll back to old PowerShell syntax highlighting
+9909|Fix #9922: Roll back PowerShell syntax definition
+9910|Clean up the View menu
+9911|"""editor.tabSize"" does not change the default indentation"
+9912|Condition of breakpoint on first line not evaluated
+9913|vscode-languageserver-types repo/license doesn't exist
+9914|Decimal property is not displayed correctly in Variables in debugger
+9915|css autocomplete not working without a blank(space)
+9916|Problem modifying files on a directory mounted to a Docker container
+9917|Unable to reveal to the explorer by pressing hotkey(ctrl+shift+e) when explorer.autoReveal is false
+9918|"Extensions are keeping stuck at ""installing""status."
+9919|Filename and Folder name conflict
+9920|Error trying to execute code --list-extensions
+9921|Allow to bring up a dialog with multiple inputs
+9922|Increase rule stack protection limit - Syntax highlighting broken in JS files with multiple nested functions
+9923|Debugger evaluates `this` wrong after using call on an arrow function
+9924|Wrong Syntax highlighting for parameter decorators
+9925|debt - refine DocumentLinkProvider api
+9926|intellisense keeps rebuilding references Unity C#
+9927|please add full word search in visual studio code
+9928|Scrollbar slider difficult to see in dark themes
+9929|[css] Variable proposals in CSS are not shown or are not showing correct variables
+9930|Errors not clearing after typing / building.
+9931|"Annoying ""Do you want to save the changes?"" messages."
+9932|Using Visual Studio Code and kinda hating the IDE, the file menu disappears after every use. I just learned after a 4 hour search on google that the alt key will restore the view of file menu. I use File menu a lot. Wish I could keep it visible always.
+9933|editor is changing files when there is no activity
+9934|Debug: Allow click to show getter property value
+9935|Drag n drop of file into explorer not working
+9936|Kinda Buggy Extension Manager
+9937|Make sure GITHUB_TOKEN is only used for GitHub URL
+9938|Some strings not translated in latest vscode
+9939|TS Duplicate Identifier bug
+9940|Unify colors of find in file and workspace search results
+9941|commands.icon contribution point is not clear
+9942|Expose integrated terminal extension API
+9943|Add virtual selection to integrated terminal
+9944|Integrated Terminal Backlog
+9945|Closing a file that is open in twice (split panes) with unsaved changes prompts to save
+9946|Configured debug type 'extensionHost' is not supported
+9947|Explorer can freeze for large folders and many glob patterns
+9948|How to get access to the application window from an extension
+9949|"""Toggle Line Comment"" doesn't work as expected while multi-line selected"
+9950|Update default project.json TFMs
+9951|Check if adapter is null and let it print errors
+9952|please remove this issue.
+9953|Formatting code js and html stop working. Helper runs up CPU
+9954|how can i solve it?
+9955|load and inject 3rd-party themes before execute completely vscode
+9956|Support socks5 proxies
+9957|Ignoring tsconfig.json for intellisense with Typescript 2.0
+9958|Get errors from client side textDocument
+9959|Improve Extension version information for updates
+9960|Autocomplete font size doesn't change with font-size changes
+9961|Incorrect syntax highlight of async on arrow functions
+9962|Create a new untitled file with default template instead of blank content
+9963|CMD+D should be smarter
+9964|installation of my extension hang
+9965|"After install VS Code Extensions. The system reports that ""The Window is no longer responding""."
+9966|vs throws error after autocomplete
+9967|Add sequence & workflow diagram support to Markdown
+9968|TypeScript Region and Format Code
+9969|Explorer autohide mode should be added
+9970|Explorator bar should ne more flexible
+9971|Autocomplete is so bad. It should search in the whole project and autocomplete if a match is found. we are not in java. PHP is an example => it a good language that has the worst import logic. Thus the editor must autocomplete from the whole project searching match and not basing on the stupid include command.
+9972|Attempting to run a .py file makes vscode open instead of running it!
+9973|"""when"" clause for diff editor"
+9974|Column selection with CJK character
+9975|launching code did not work
+9976|集成的终端里，五笔输入法一码直接上屏了
+9977|update note remains after installed the updated package
+9978|Every time open a new VS Code application(Whether you are opening a same file or not)
+9979|Support programatic colourization
+9980|Invalid keybindings.json bricks editor
+9981|Command to scroll multiple lines (add args to keybindings.json)
+9982|Duplicate files found with search tool; one prefixed in (os/ directory)
+9983|dotnet quit unexpectedly
+9984|Preserve settings and extensions data from user through an account
+9985|Bash(as Linux Subsystem) does not works within VSCode. Error: 0x80070057
+9986|PHP should have word completion
+9987|malware
+9988|File Save is unreliable
+9989|Extension: low priority keybindings support
+9990|merge
+9991|A small problem about js hints
+9992|Support white-space changes in the gutter change markers
+9993|Feature Request: allow `git pull --ff-only`, or allow custom GIt actions
+9994|Highlinting .jsx
+9995|Extension API: Sense theme change
+9996|Feature request: Allow zooming with ctrl+mousewheel combination at markdown preview
+9997|Can't use debugger anymore (cannot find any required module or local js file)
+9998|A file open with auto-detected encoding.
+9999|Strange line numbering after multi-line paste
+10000|text selected in the output window doesn't populate the search textbox on searching

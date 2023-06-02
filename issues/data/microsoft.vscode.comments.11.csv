@@ -1,0 +1,100 @@
+1001|"This bug is fixed in: https://github.com/Microsoft/vscode/commit/c89555baaf13352799a9299a284ff261d3d68c34  I have changed 45th line in ""vs_code_location\Microsoft VS Code\resources\app\extensions\php\out\features\signatureHelpProvider.js"" from this.lineNumber = 0; to this.lineNumber = -1;  and it's work fine"
+1002|Very cool. No issues with this latest build. Thanks.
+1003|I managed to run it using ./scripts/code.sh from inside the repo. Do i always run it like so or can i make a binary like in the official archive?
+1004|@lucaslra Sorry, except for the extension API extension we currently have no further documentation on API or architecture. But it's a good point, we should definitly start a high level overview in the wiki.
+1005|Reproduced with  ``` class MyClass {     @enumerable(false)     private get prop() {         return true;     } } ```  Filed against TypeScript as https://github.com/Microsoft/TypeScript/issues/5753. Please add your example as well, directly in the [issue](https://github.com/Microsoft/TypeScript/issues/5753)
+1006|I now put .h files in the list of cpp file suffixes, in the hope that for colorizing this also works for header files in C programs.
+1007|Wouldnt this be an issue with https://github.com/microsoft/vscode-node-debug rather than base vscode?
+1008|Is this different than the current add cursor above/below with `ctrl+alt+up` and `ctrl+alt+down`?
+1009|Try
+1010|Yes, correct. But there seems to be no way to move this issue over to vscode-node-debug.
+1011|Hi **@dstorey**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (David Storey). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+1012|…the HTML elements in CSS IntelliSense should now be consistent with what is syntax highlighted via the TextMate file. There are things that could arguably be removed, like <keygen> that was dropped from the WhatWG spec (and Edge will not implement, and Chrome want to deprecate) and <hgroup>, which was dropped from the W3C version of the spec.  The HTML IntelliSense also needs double checked. I added the <main> element as that was bugging me, but as it is not in alphabetical order, it will take a while to cross check against the 2 other HTML lists and the spec. It would be nice eventually to only have one list of elements rather than 3 that need to be kept in sync.
+1013|@sevin7676 you are correct that the Monaco editor is contained in the vscode repository and we are working on making the Monaco Editor more easy to consume independent of VS Code.
+1014|"@eugen-v thank you sir! that saves me till a fix @mackenza what are your referring to by ""Electron""?"
+1015|+1
+1016|I think it will greatly improve the quality of the contributions. I made the changes you requested, please let me know if its OK now.
+1017|Electron is the native shell that VSC runs in. Inside the Electron shell is essentially a web app running in a wrapped version of the chromium browser. The reason I brought it up is because Atom also uses Electron (Electron is formerly known as atom-shell) and it could be that performance issues on Linux with both editors _may_ be related to the common shell.
+1018|@weinand I've used https://github-issue-mover.appspot.com/ successfully for one-off issue moves.
+1019|This issue was moved to Microsoft/vscode-node-debug#6
+1020|I should add the information, that I am using a retina display at resolution of 3200x1800. That may play a role..
+1021|This issue was moved to Microsoft/vscode-node-debug#7
+1022|This issue was moved to Microsoft/vscode-node-debug#8
+1023|This issue was moved to Microsoft/vscode-mono-debug#1
+1024|This issue was moved to Microsoft/vscode-mono-debug#2
+1025|I've used https://github-issue-mover.appspot.com/ which has worked well for me so far for one-off moves.
+1026|"The more keybinding options the better, imo, but I'm primarily +1'ing because I'd particularly like to see one for executing a replacement.  It seems like re-binding `ctrl+h` would make sense, but with a more specific `when` context, like `""when"": ""editorTextFocus && editorHasSelection""`. And ideally, there would be a backward advancing alternate, bound to, say, `ctrl+shift+h`."
+1027|@aeschli Thanks! When do you think there will be a new build available? It's not a huge problem, because I was able to get the old build and stop the updates temporarily, but I enjoyed the features of the new version. Just curious more than anything. Appreciate all the help!
+1028|@alexandrudima yes
+1029|A better screenshot:  ![image](https://cloud.githubusercontent.com/assets/314188/11328840/0973beb8-91f7-11e5-80e9-ffc650ec110d.png)  I expected it would remove the whitespace after the ';' at the end of the line.
+1030|+1 making some docs on Monaco editor. So far this editor beats both codemirror and ace :)
+1031|Yep, same here
+1032|Decided to update the HTML auto-complete/IntelliSense file while I was at it. It should be now in sync with the CSS auto-complete for HTML elements, and have all the correct attributes per the latest HTML5.1 spec and WHATWG Living standard, along with the valid enum and boolean values for those
+1033|Hi, I've the same issue. Did you find a workaround?
+1034|For a relatively standalone application like this, a COPR repo would likely be a better fit than the main Fedora package repos: https://developer.fedoraproject.org/deployment/copr/about.html
+1035|I have experienced crash/freezing but have manage to recover twice after waiting for a long period of time and received a message about an extension being unresponsive or something, but I have no 3rdparty extensions installed.  Occurred while editing php and standard text files
+1036|Duplicate #225 and  #160
+1037|Added a new FILE_INVALID_PARENT error result with messaging `File has an invalid parent directory` for when user is trying to save to a path with file as parent. (C:\Files\Test\Cooldocument.txt where Test is a file)
+1038|Seems I had leftover junk in ~/.k and my bash_profile. Deleting that fixed it. ¯\_(ツ)_/¯
+1039|Added test for FILE_INVALID_PARENT
+1040|Oddly enough, if you switch VS Code to full screen mode, the slowness is gone and everything works smooth.
+1041|Solution referenced by @marcintokarski solves this issue for me.
+1042|Hi **@Jaykul**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+1043|Does not apply to extensions.
+1044|#55
+1045|Instructs our loader to load CSS.
+1046|Currently not supported. We might allow to horizontaly lay out the output window and debug repl in the near future though.
+1047|It works but not on the line the cursor is on because in that case we do not know if you want to continue typing after the whitespace.
+1048|I think having such an event is fine, however extensions will likely want to modify the text before the save completes and thus that requires some ugly coupling of the save call on the main side to the event handling on the plugin host side...
+1049|:+1:
+1050|We chose to not allow for zooming below 0 because some people end up in this state and wonder why the UI looks blurry. I agree that we need to fix the blurry issues, but allowing to zoom like that adds another layer of issues that we do not really want.
+1051|:+1:
+1052|:+1:
+1053|Likely, otherwise reopen.
+1054|dupe of #118
+1055|We fixed this issue in #160
+1056|Our principles for extensions is to not give access to the DOM, as such you would not be able to play sounds via DOM API. Since you can execute any native code via node.js, we can obviously not prevent you from writing native code that plays sound!
+1057|Yeah, known issue.
+1058|We might support this in the future as API so that extension writers can add decorations to the explorer.
+1059|Great ask and great opportunity for someone to do a PR, it should be easy to add!
+1060|There are more commands to cycle between your working files (check command pallette). Ctrl+Tab is ment to navigate between any file you opened, not just working files.
+1061|As designed, sorry.
+1062|Currently not, but we might add this in the future.
+1063|As designed, however we also see the issue that extensions should go into a more stable view and not quick open.
+1064|@lucaslra Please make only minimal changes. In this case, only have a change in `src/vs/editor/standalone-languages/csharp.ts`.
+1065|Hi **@dstorey**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (David Storey). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+1066|Maybe someone can enlighten me how to tell Windows that an application can handle files/folders :)
+1067|+1 for not adding .txt when the untitled file is plain text. However, if you explicitly pick a mode for the untitled file from the status bar, the dialog should provide the picked extension by default.  Unfortunately due to bugs in Electron we need to pick up at least 0.34.2 in order for this to work.
+1068|Isn't this a bit of an overkill? al+tab since inception has been to cycle between working files
+1069|-1, we should still propose a good file extension in case the user picked a mode from the status bar. if it is text, we should not propose text, I agree. We need to pick up Electron 0.34.2 at least where there are fixes around the save as dialog.
+1070|:+1: we want to update during this sprint.
+1071|Please give it a try for some time and then see if you still dont like it.
+1072|This looks like a bad regression in pfs.mkdirp(). It relies on the EEXIST error but when reaching the root drive, it ends in EPERM. @joaomoreno I think you touched this function last.
+1073|To be honest vscode is the only editor I have used since you guys released it and ctrl+tab feature annoys me since I can't cycle between the files, I have to always do a ctrl+shift+e and then open the file I want to open since I use in full screen and the sidebar is closed.  by design ctrl+tab shouldn't be kept for opening any historical file we can have some other shortcut for that!  i am using VSCode right now, and cycling between files is very very hard, the ctrl+K downkey is also non usable in my honest opinion
+1074|Thanks for the PR but I think instead of working around from the outside, we should restore mkdirp() to behave nice when it tries to create the root drive.
+1075|Ok, lets reopen and treat as enhancement: You are asking for the same functionality as Ctrl+Tab but limited to working files. Maybe we could make this an option in the settings.
+1076|@dend We are using https://github.com/chjj/marked to render the preview, can I ask you to file the bug there?
+1077|Btw :+1: for the workarounds in that SO thread, seems to work nicely also for VS Code.
+1078|Bad compilation. :-1:
+1079|:hamburger:
+1080|Hi **@joaomoreno**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <p>         It looks like you're a Microsoft contributor (Joao Moreno). If you're full-time, we DON'T require a Contribution License Agreement. If you are a vendor, please DO sign the electronic Contribution License Agreement. It will take 2 minutes and there's no faxing! https://cla.microsoft.com.     </p>  TTYL, MSBOT;
+1081|"@rconnamacher @weinand would the same apply for ""File > Open Recent""?"
+1082|And also: Would you expect to open a new window when you pick a file vs. when you pick a folder?
+1083|:+1: elegant
+1084|Are you sure your `master` branch has an upstream configured? What do you get when running `git branch -vv`?
+1085|We landed a fix for this which fixes it at the level of mkdirp(). Thanks for this suggested change though!
+1086|"Does someone have an idea how to name this setting? The intent is to control if launching ""code"" without path arguments will focus the last active instance or open a new, empty instance."
+1087|After step 5) do you see a list of debug environments in the quick pick ui? Do you pick NodeJS here?  ![screen shot 2015-11-23 at 09 42 37](https://cloud.githubusercontent.com/assets/1926584/11332515/95680842-91c6-11e5-91e6-38fda96e616b.png)  We only generate an empty array if you do not pick anything in this quick pick ui.
+1088|@weinand can you please try reproing this? I can not repro on my mac machine.  @jel-massih if it breaks the variables pane it should be unrelated since for steven the pane seems to be fine. If you open the developer tools console via command palette do you see some exceptions once the variables pane is broken?
+1089|Hi **@Protectator**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>You've already signed the contribution license agreement. Thanks!</span>         <span>We will now validate the agreement and then real humans will evaluate your PR.</span>  TTYL, MSBOT;
+1090|VSCode should not reset your configuration file. Can you attach your launch.json before start of debug, and after the debug session has stopped so we compare? Do you have auto save on or off?
+1091|"- **Open Folder**: opens a new window (as a new project) - **Open File**: opens a new window if the file is not part of any other open project - **Open Recent**: behaves like Open Folder or Open File.  Some Mac application support an alternative behaviour when the Alt-key is pressed. E.g. ""Open Folder"" could open the project in the current window."
+1092|This works if you select several lines and do ctrl + c, but not via context menu since this copies only the value of one variable (we also evaluate that variable first). I understand it is a bit confuzing and will look into improving this experience.
+1093|Same problem for me...  ``` [INFORMATION:OmniSharp.ScriptCs.ScriptCsProjectSystem] Detecting CSX files in '/Users/ersintarhan/Desktop/WebApplicationBasic'. [ERROR:OmniSharp.Dnx.DnxPaths] The specified runtime path 'default' does not exist. Searched locations /Users/ersintarhan/.dnx/runtimes/dnx-coreclr-darwin-x64.1.0.0-rc1-final /Users/ersintarhan/.dnx/runtimes/dnx-coreclr-darwin-x64.1.0.0-rc1-final /Users/ersintarhan/.dnx/packages/dnx-coreclr-darwin-x64.1.0.0-rc1-final /Users/ersintarhan/.k/runtimes/dnx-mono.default /Users/ersintarhan/.k/runtimes/kre-mono.default /Users/ersintarhan/.k/packages/KRE-Mono.default /Users/ersintarhan/.kre/runtimes/dnx-mono.default /Users/ersintarhan/.kre/runtimes/kre-mono.default /Users/ersintarhan/.kre/packages/KRE-Mono.default. ```  dnvm list output --->   ``` Active Version              Runtime Architecture OperatingSystem Alias ------ -------              ------- ------------ --------------- -----        1.0.0-rc1-final      clr     x64          win                     1.0.0-rc1-final      clr     x86          win                *    1.0.0-rc1-final      coreclr x64          darwin          default        1.0.0-rc1-final      coreclr x64          linux                   1.0.0-rc1-final      coreclr x64          win                     1.0.0-rc1-final      coreclr x86          win                     1.0.0-rc1-final      mono                 linux/osx        ```
+1094|Have you tried to debug it like any other [node app](https://code.visualstudio.com/docs/editor/debugging)? If yes what issues have you run into?
+1095|:+1:
+1096|"@isidorn Most likely the VS Code plugin for Unity recreates the launch.json. See  https://code.visualstudio.com/Docs/runtimes/unity item 5: _Configures a launch.json file with the correct debug port - to enable debugging_ This plugin needs to update in order to include the ""request"": ""attach""."
+1097|Given VSCode is done in TypeScript, why it can't run on Lumia 950 or ARM in general?
+1098|`git.path` should contain the _path to the git executable_: `git.exe`. Not its parent directory.
+1099|"@weinand thanks. I am open for suggestions how to name this setting :). I would add it to the ""window"" namespace where we currently have ""window.reopenFolders"" and ""window.openFilesInNewWindow""."
+1100|Just looks like `onig_scanner.node` can't be loaded.  After a proper `git clean -xfd node_modules`, make sure your run `./scripts/npm.sh install` to compile the native node dependencies against the right version of v8. This will work. Reopen if it doesn't.

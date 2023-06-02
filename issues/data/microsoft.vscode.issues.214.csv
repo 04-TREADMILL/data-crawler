@@ -1,0 +1,100 @@
+21301|Typing text in a link - underline shifts after a second
+21302|Telemetry for emmet expansions
+21303|Terminal is missing a scrollbar
+21304|Exception widget: Preserve newlines
+21305|How should this be set
+21306|always alert this
+21307|string methods not showing up
+21308|Change behavior of home/end button
+21309|Add an option to share an extension
+21310|${command.xxx} deprecated syntax is not shown in tasks.json
+21311|Improve the formatting of editor.wordWrap description
+21312|Feature Request: Autosave on build
+21313|Improvement: method overriding
+21314|Make some file specific commands work in both explorer and editor
+21315|Update snippets to no longer have command. syntax
+21316|Minimap: scrolling up in large file makes the slider jump a little bit
+21317|Align rendering of links
+21318|Minimap: scroll shadow missing
+21319|Exception widget: allow to click on file links if there are any
+21320|FTP links are highlighted wrongly and not openable
+21321|Explorer does not always refresh on git branch changes
+21322|Using git in terminal: %HOMEDRIVE% and %HOMEPATH% are not expanded
+21323|Performance report
+21324|Powershell within built-in terminal non-functional and prints ^Q
+21325|Intellisense not working for node js after some time
+21326|ATA does not work for libraries shipped with their own typings with es6 target
+21327|Switch workspace setting file from JSON to HJSON
+21328|Color encoding of find results is a bit weird
+21329|Minimap lacks separation from embedded editors
+21330|Theme Icons not showing up
+21331|Terminal links cut off at umlaut
+21332|Suggest should show exact match first (case insensitive)
+21333|Debugger doesn't recognize ES6 'import-export' feature
+21334|Aid in migrating `editor.wrappingColumn` setting
+21335|"Broken Shortcut for ""Toggle Editor Group Layout"""
+21336|SCM: Cloning git repository into nonexisting folder
+21337|On macOS sheets appear in the wrong location
+21338|Accent menus shown in wrong location on macOS
+21339|"""zenMode.restore"": true is global"
+21340|expandLineSelection is not a command
+21341|Universal Format Selection As Language
+21342|Add ability to stream or push items into a Quickpick
+21343|Add ability to update a Quickpick placeholder text dynamically
+21344|Add ability to trap `right-arrow` key press on a Quickpick item
+21345|Extensions: update patch doesn't show immediatly for locally installed extension
+21346|Simplify filing a bug report for an extension
+21347|Feature Request: Allow to specify languages in `formatOnSave`
+21348|VS Code git issues
+21349|Uncaught TypeError: Cannot read property 'forEach' of null
+21350|EPERM: operation not permitted, mkdir 'c:\Users\Platform_00\AppData\Roaming\Code\Backups\1487604966871'
+21351|Offer to open launch.json in 'type not supported' message
+21352|Cannot read property 'lineNumber' of null
+21353|[Debugger] VS Code no longer rebinds breakpoints on save file
+21354|Launch.json autocomplete doesn't add the default value
+21355|Go to file -> crtl+n -> open right not working
+21356|Feature request: Support auto-update for linux
+21357|PHP syntax highlight bug
+21358|在过去
+21359|Replace string,long string to empty (eg. delete functions)
+21360|Allow to move untitled files to other Code windows
+21361|"Renaming file should fix all ""import"" (es6) and ""require()"" (commonjs) references."
+21362|support type file of templates (eg pug,blade,ejs,..)
+21363|Add workbench.action.focusActiveEditorGroup to default value of terminal.integrated.commandsToSkipShell setting
+21364|Add workbench.action.focusActiveEditorGroup to commandsToSkipShell
+21365|Git label blinking in Activity Bar (distracts)
+21366|OSS
+21367|Network: Folders unable to be opened
+21368|Terminal link detection matching problem
+21369|"""Toggle maximized panel"" leaves the panel scrolled up"
+21370|Move lines actions are not multicursor aware
+21371|Don't include [ and ] in local terminal links
+21372|Independent Minimap Scroll On Mouse Wheel Events
+21373|Feature request: shortcut for: Toggle dotfiles invisible in sidebar
+21374|Enhancement: Minimap position highlight
+21375|Can language services keep a changelog?
+21376|Avoid request id collisions in pendingRPCReplies
+21377|mybot.js
+21378|I'am sorry about that bug of extensions
+21379|Updated to version 1.9.1 and i can no longer set breakpoints by clicking on the leftsidebar of the code
+21380|Extension hotkeys turns off every 5-10 minutes.
+21381|VSCode does not work in my local development  to build from source.
+21382|Display icons in Git explorer too
+21383|Feature Request: OpenTextDocument with content
+21384|proposal for termianl UI
+21385|Using borders for underline looks bad and interferes with squiggles
+21386|Auto guess encoding
+21387|Heavy Resource usage
+21388|"vscode ""phones home"" upon startup with updates and telemetry disabled"
+21389|vscode suggests irrelevant code completions
+21390|"Paste not working in ""search and replace"" toolbar"
+21391|Highlight all pasted area
+21392|Darker/lighter areas in the source editor background
+21393|Add ability to display high intensity ANSI colors in debug console
+21394|Typescript 2.2 Auto Import and Tslint Formatting
+21395|VS Code Freezing With 2+ Projects Open
+21396|Default settings not working
+21397|Provide ability to view only changed lines in compare diff view
+21398|When extensions panel is opened, focus should default to search input
+21399|When user settings is opened, focus should default to search input
+21400|Input method of the problem and vue file

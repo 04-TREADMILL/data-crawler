@@ -1,0 +1,100 @@
+21801|Auto JSDoc comments should also add other tags @returns, @throws, etc.
+21802|Tree in broken state after File Copy/Paste
+21803|OSX rendering issues
+21804|startSession not called when debug session started with vscode.startDebug
+21805|additionalTextEdits runs before selection is added to document
+21806|Feature request: Add option for current opened file's directory to 'terminal.integrated.cwd'
+21807|Multi-target debugging fails to execute second configuration saying it doesn't exist when exact copy of name of configuration
+21808|Feature Request: Support for private marketplace/gallery
+21809|[Objective-C grammar] add @autoreleasepool
+21810|[Objective-C grammar] Xcode’s snippets-markup
+21811|BUG: When search is open & you're editing files, vscode lags dramatically
+21812|JSDoc autogeneration not working?
+21813|VSCode
+21814|vscode报错：在过去的5分钟内，TypeScript语言服务以外中止了5次
+21815|1
+21816|Auto saving doesn't work when starting debugging
+21817|Git log viewer like in Jetbrains IDEs
+21818|Minimap: Show Full Document
+21819|[i18n] Chinese Translation Issue
+21820|How to achieve typescript code completion in html
+21821|Shift + Alt + F: formatting adds whitespace in css mixed with html
+21822|FR: customise git gutter styling
+21823|Search viewlet shifts when empty results pane is focused
+21824|Commented content shows in output
+21825|Report issue button dosen't work in new update 1.10.1
+21826|editorScroll has regressed in VSCode 1.10
+21827|After the string length error in git commit, send button is disabled
+21828|proposal to fix issue 21600
+21829|No response when I open a compressed javascript file
+21830|Installation appears corrupt
+21831|"Allow copy for ""editor.dragAndDrop"""
+21832|Search gear for excluded files should be more helpful (lost function?)
+21833|"Extensions that don't have the ""pub.name"" folder name format are always grey"
+21834|Opening code files from ZIP files does not open the file
+21835|Support to set different themes against different file extensions
+21836|Pressing enter when writing ts-doc comment removes the ts-doc comment
+21837|FTP file gets deleted when drag and drop from file explorer
+21838|Crash shortly after opening a 15MB .txt file
+21839|Fold/Unfold shortcuts like Ctrl+K Ctrl+1, Ctrl+K Ctrl+J do not work on Windows 10
+21840|object definition highlight bug
+21841|Inconsistent typescript type highlighting
+21842|"UX: unnecessary ""Reload window?"" prompt after extension update"
+21843|"""window.showFullPath"": true not working latest version!!"
+21844|"Error message when clicking on ""Release Notes"" button in update message."
+21845|Move shared process to a window
+21846|ATA Intellisense doesn't work
+21847|md与http请求显示，会重叠。
+21848|Move shared process to a browser window
+21849|Completion entries in package.json disappear when typing dot/period
+21850|Little debugger icons in source text
+21851|Unexpected shift key bubbling
+21852|--debug is deprecated
+21853|Improve error message for unresolvable URIs
+21854|Ctrl+C in Git Bash kills whole Integrated Terminal on Windows
+21855|String DocumentFilter should only match scheme 'file' and 'untitled'
+21856|reference number is missing from Source object
+21857|"Rename refactoring fails with ""no result"" on a TypeScript class in TSX"
+21858|Toggled menu bar can make the entire window contents jump up making hit zones move
+21859|Show a back/forward button prominently in a toolbar
+21860|Shortcut key is displayed incorrectly
+21861|Errors compiling VSCode
+21862|Markdown preview when zoomed does not use full window
+21863|old variable command syntax ${command.xxx} is not substituted
+21864|Code Helper and 100% cpu usage - macOS
+21865|CentOS: window.newWindowDimensions does not properly inherit the existing window
+21866|Updating VS Code - not working on macOS Sierra
+21867|Outline matching selections instead of highlight
+21868|HTML Autoformat Empty Line Issue
+21869|Visual Studio Code should be opening a new instance with center clicking the taskbar icon
+21870|"Directory context menu entry confusingly calls Visual Studio Code by the name ""Code - OSS"""
+21871|Suggestion: configurationDefaults should be indicated in each language section
+21872|warnning: last 5 minutes, Typescript language service accidentally suspended 5 times. [report problem]
+21873|C++ syntax highlighting not working properly when constructor initializer list has multiple lines
+21874|"""paused on debugger statement"" instead of exception in the inspector"
+21875|Code - OSS dev does not start when I run npm run watch
+21876|A tiny little problem with over scrolling minimap
+21877|Stepping into internal module results in uri error
+21878|I just now updated the VS code
+21879|Warning when restarting Code with active terminal sessions
+21880|Update not working
+21881|Opening internal module results in error
+21882|PHP has bad comma handling in function calls
+21883|mini-map highlight show only when hover, it should visible all the time
+21884|Clicking and dragging in the minimap should cause it to scroll the editor.
+21885|Error terminal code python
+21886|Create new folder and new file in it.
+21887|Add Rename File command
+21888|Add Rename File option to the context menu of file tabs
+21889|Test Explorer For Unit Testing
+21890|"Infinite loop of ""The TypeScript language service died unexpectedly"" (2)"
+21891|"Navigate-back does not work for ""Go to definition"" < 5 lines"
+21892|March Iteration Plan
+21893|MiniMap doesn't allow to scroll correctly on the side
+21894|Minimap + Scrollbar (and minimap highlighting)
+21895|Disable strict SSL in ./node_modules/vscode/bin/install script?
+21896|Can't load same repository on 2 or more monitors
+21897|Support terminal link matchers in tasks v2
+21898|Show exception widget for promise rejection
+21899|Text is reformatting itself when I Save.
+21900|VS Code is crashing on mac

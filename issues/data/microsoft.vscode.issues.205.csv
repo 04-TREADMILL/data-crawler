@@ -1,0 +1,100 @@
+20401|Code won't update when located in /Applications and the user has no permissions to change it
+20402|Alt+O doesn't honor files.exclude
+20403|CodeActionProvider triggered on moving the cursor
+20404|Disconnect icon doesn't appear when PowerShell debugger attaches to process
+20405|Test: configurable window title
+20406|Test: debug tree keyboard actions
+20407|Typing in Find adds many non relevant entries to navigation history
+20408|Markdown: editor jumps up while typing having preview open
+20409|Test: more keybinding labels in menus and context menus
+20410|Test: configurable explorer commands
+20411|open VSCode plugins errors out on open
+20412|Test: tree/list navigation commands
+20413|SCM: clicking on staged image opens it as text file in editor
+20414|NSIS building is no longer working in 1.9.1
+20415|side-by-side workspaces no longer work
+20416|VS code - TypeScript service
+20417|TypeScript services dies on mapped WebDAV drive
+20418|Allow terminal environment to be set when created via extension API
+20419|Find/replace dialog is much too small
+20420|File not openning
+20421|Make Playground a generic component and expose it to extensions
+20422|The TypeScript language service died unexpectedly 5 times in the last 5 minutes infinite loop
+20423|Multi-cursor find not working with regex
+20424|Move to next line on comment (via key-command).
+20425|"Add a ""select all"" button to the find UI"
+20426|Performance Report
+20427|Allow manually triggering parameterHints when set to false
+20428|Issues with VSCode Typescript Updates - version mismatch between the globally installed one
+20429|Feature: I wish that the integrated terminal could be themed separately
+20430|.pyc exclude not working
+20431|Unexpected breakdown
+20432|i have problem with update vs code 1.8 to 1.9
+20433|VirtualEnv Environment Variables no longer honored when starting with 'code .' from terminal
+20434|Integrated terminal doesn't scroll up when selecting text
+20435|Installer rollback fails
+20436|Add menu item that would launch a build task
+20437|Dynamic Editor Font Zoom
+20438|Allow to pin an editor when saving explicitly
+20439|search in files focus resets when line changed
+20440|breakpoint
+20441|Open vscode://file/path/to/project/ URLs properly on Windows - fixes #20290
+20442|Markdown checkbox with link highlight issue
+20443|The Typescript language service died unexpectedly 5 times in the last 5 Minutes
+20444|Rendering error on macOS
+20445|Autocompletion doesn't work after a few moment.
+20446|Menus not working
+20447|vscode quits while closing devtools
+20448|Output channels with same name confuse VS Code
+20449|Output Channel API Incomplete for Language Servers
+20450|vscode ignoring http_proxy/https_proxy environment variables after 1.9.0 release.
+20451|Issue with downloading extensions
+20452|VS Code freezes when removing 'node_modules' folder from external terminal, forcing to close
+20453|autocomplete shouldn't suggest on empty word
+20454|Feature Request: Optional setting to automatically update extensions
+20455|Markdown Link Highlighting (references)
+20456|Trying to insert a snippet using multiple cursors only inserts at first created cursor
+20457|Indentation problem eg. in python and margin in editor to line numbers
+20458|Emmet problem in multi line edit and intellisense list
+20459|Cannot read property '_runner' of undefined
+20460|[html] prevent that embedded grammars can corrupt syntax highlighting of rest of document
+20461|Add words variables counter in editor
+20462|vscode fills /tmp with sock files
+20463|"""File to read not found or unreadable"" using node-sass when saving on VSCode"
+20464|Update fails
+20465|How can an extension expand configuration variables?
+20466|Cross-compile for ARM fails from x64
+20467|Emmet problem with intellisense list with speed write
+20468|360报tsserver为木马
+20469|Using workbench.action.quickOpenSelectNext/Previous moves focus out of input box?
+20470|Add shortcut (' ctrl + shift + / ') for multi line comment
+20471|How to listen input onChange event in showQuickPick?
+20472|C++ custom class names not highlighted
+20473|how can i debug configure in windows 10 using bash gcc
+20474|Interactive TextDocumentContent
+20475|I get a problem when open the extension tab
+20476|Can't parse global variable in TypeScript
+20477|Cannot scroll in terminal window created by api until resize
+20478|意外终止
+20479|未能保存“兼容.html”: 发生了系统错误(EBUSY: resource busy or locked, open 'c:\Users\Administrator\Desktop\项目\兼容.html')
+20480|the type script language is dies 5 times so what i do
+20481|Problem with hinting in javascript
+20482|alpha channel of colors with transparency in tmTheme files are ignored
+20483|Inspect TM Scopes is not designed for big code.
+20484|Erroneous TypeScript compiler error
+20485|Enhancements => Custom CSS/JS  &  Extension icons in activity bar
+20486|[Javascript] Syntax highlighting breaks for specific variable name
+20487|Option to insert comment // characters at column zero
+20488|Code Completion Not Working for js
+20489|Git push - permission denied
+20490|Open script file
+20491|Does not Select file according to key press
+20492|i don't konw why
+20493|vscode extension add tab after terminal
+20494|[less] problem with '&-2' selector
+20495|bad experience for markdown
+20496|Switching document tab makes 'Remove Unnecessary Usings' pops up.
+20497|same extension listed two times after updating an extension
+20498|typescript
+20499|Preview md
+20500|Preview the md does not work

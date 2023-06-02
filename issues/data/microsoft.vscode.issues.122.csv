@@ -1,0 +1,100 @@
+12101|Cannot read property 'toLowerCase' of undefined
+12102|Cannot read property 'targets' of undefined
+12103|Cannot read property 'request' of null
+12104|r.hasOwnProperty is not a function
+12105|Cannot read property 'scopes' of undefined
+12106|Cannot read property 'dispose' of null
+12107|Cannot read property 'metadata' of undefined
+12108|Visual Studio like team explorer
+12109|Debug console no longer scrolls when output received
+12110|Unable to run VSCode unit tests from debug on Windows
+12111|Extension loading ignores extensionHomePath
+12112|VSCode identifies in-memory files by 'name', should use 'sourceReference'.
+12113|I can't disable all :hover-like snippets/labels in the editor
+12114|As a user, I should be able to obtain the identifier of the extension
+12115|Improve workspace extension recommendation UI
+12116|New window, Open File should replace untitled file
+12117|Select git remote to push to, when upstream is configured
+12118|"Unnecessary highlight ""in"" and ""var"""
+12119|Get keycode from 'key' when IME enabled.
+12120|outDir globbing: do not block if a source map cannot be loaded
+12121|better error reporting for misconfigured outDir
+12122|Quick import statements
+12123|TypeScript Language Support silently stops
+12124|Any way to store extension configuration in vscode configuration
+12125|[scss] timing functions in variables break syntax highlighting
+12126|CPU hogging is back
+12127|Cannot Find Name For Some Files
+12128|[folding] fold regions
+12129|Open with VS Code from right click in Windows Explorer
+12130|Add WYSIWYG HTML Editing similar to MS Expresison Web/FrontPage
+12131|Does not support vue.js code hints
+12132|Feature fequest for applying CSS styles in console.log
+12133|"VSCode “'fileName' file not found"""
+12134|Bind numpad_add and numpad_subtract as alternates for zoom commands
+12135|Add file icon in file editors section
+12136|Add new version number in extenstions tab
+12137|Less variables should be colored as the value color
+12138|Detect links in Problems panel
+12139|Hide explorer tab when user inside extensions
+12140|Resizable open editors section
+12141|feature request: list of ready for sync remote/local commits
+12142|Crash when debugging extension and you close the dev tools too quickly
+12143|For large files Git diff is not working
+12144|How to avoid jumping to other places in Find All References?
+12145|Declarative contribution of custom explorers (based on tree models)
+12146|Color appended to preview html not properly theme dependent
+12147|Crashes with multibytes characters and backspace key
+12148|AutoHotkey
+12149|Conditional breakpoints sometimes stop working
+12150|Checkmarks background for transparent images missing for certain themes
+12151|Show image size
+12152|File name indentation is confusing when File Icon Theme is enabled
+12153|Translation Fix for Korean
+12154|Spelling error in Info messages
+12155|vscode tries to restore packages evert 1 minute
+12156|Selecting horizontally scrolled text
+12157|Open a terminal in vscode cause crash when folder 's path contain chinese character
+12158|Allow to open a custom file viewer window without opening the default one
+12159|Use git icon instead of GitHub for .git* files
+12160|[themes] change the file icon or theme in API
+12161|Command + Tab Navigation Not working in Full Screen Mode
+12162|Fix Chinese(Simplified) message translation
+12163|Code formatting for embedded Angular 2 template does not work.
+12164|Intellisense: wrong suggetions for node
+12165|getaddrinfo ENOENT in offline Mode
+12166|Visual Studion code does not keep the old search results in the search pane or provide a drop down list of previous search phrases.
+12167|Enable regular expression case changing
+12168|No autocomplete for native JavaScript props and methods
+12169|Allow keybindings to override chord keys when there is a when condition
+12170|workspace/symbol search stops working after 3 characters entered
+12171|Executing tasks inside Bash on Ubuntu on Windows 10
+12172|Is VSCode compatible with macOS Sierra?
+12173|Allow to hide the activity view bar
+12174|cannot open untitled:URI , got URI but expected URI error in ubuntu and mac only
+12175|Replace selected doesn't put focus in the find edit field
+12176|Git quick open should correct invalid branch names
+12177|Bad error when using less mixins with passed-in rulesets
+12178|Integrated terminal freezes when ever a program goes to infinite loop.
+12179|tmLanguage stopped working since 1.3.1
+12180|Quotes and html?
+12181|Integrated terminal is slow/laggy
+12182|Erratic debug value hover preview
+12183|User Snippets multiple same name variables maintain multiple cursor positions on completion
+12184|Failed at the oniguruma@6.1.0 install script 'node-gyp rebuild'.
+12185|variables pane went dim seemingly randomly during debug session, persisted until vscode reopend
+12186|"Shortcut ""Ctrl + D"" of Multi-select in new document can't work normally"
+12187|Add support for closing opened folder
+12188|搜索希望得到优化
+12189|"Could VSCode use ""region"" just like visual studio or in next version?"
+12190|ng插件焦点异常bug
+12191|could not load tslint
+12192|View state is not restored when part of the editor is folded
+12193|program stuck  with css classes cached
+12194|Add more extension-point to support more rich editor (types).
+12195|add keyboard shortcuts to collapse and open sub indent lines, move collapesed lines
+12196|"createStatusbarItem can not run ""editor. ..."" commands"
+12197|Allow right click context menu in webviews
+12198|command S doesn't save the first time
+12199|Support git-appraise, with a GUI and the appraise format.
+12200|Translation fix for Chinese

@@ -1,0 +1,100 @@
+17501|Has OutputEvent changed in VSCode 1.8?
+17502|Jump to last position via context menu or application menu (eg edit)
+17503|Ridiculously slow at handling files without line breaks (e.g. minified js, css...)
+17504|Typo, easy fix
+17505|Improve comment indenting behaviour for PHP
+17506|Allow to zoom without zooming the sidebar
+17507|UX about inline traffic light
+17508|[Request] Possibility to mix light and dark theme
+17509|Search: not possible to remove individual search results in a file
+17510|Preferences: pressing ESC in search box should clear search
+17511|"Preferences: cannot find ""cssempty"" or ""css empty"""
+17512|Markdown: seeing serif font on Linux in preview
+17513|Terminal: sometimes the top of the terminal is cropped
+17514|Javascript type inference problem for classes if constructor argument number doesn't match
+17515|Quick fix light bulb disappears before it can be clicked
+17516|"Files in ""files.exclude"" are still appearing"
+17517|Huge number of decorations created by extensions leads to UI freezes
+17518|Settings: default editor overflows available height and scrollbar
+17519|Find/replace case sensitive not working
+17520|Support for choices in snippets
+17521|workbench.editor.showTabs does not show tabs anymore
+17522|在安装新插件重启后之前打开的文件又要重新打开了
+17523|Hot-Exit: works only if there is one instance (window) of VS Code open
+17524|Show original english command names next to translated ones for extension (vscode-nls) command names
+17525|Inconsistent keyboard shortcuts between Windows and Linux
+17526|formatting of HTML code when using style attribute
+17527|Switch to Unsaved Tab When Prompting to Save
+17528|Join lines should be comment block aware
+17529|scss linter does not support mixin keyword arguments
+17530|Allow access to terminal/process created by debug session launched into internal terminal.
+17531|Allow to dock the panel to the right hand side vertically
+17532|F# interactive shows random characters when editing a line
+17533|Use Module Symbol for TS/JS Module Name Completions
+17534|Fix TypeScript Verbose Logging not Printing Out Argument Values
+17535|"Enable ""find in selection"" by default when replace executed against a multi-line selection"
+17536|Doesn't work ctrl+/
+17537|"Default focus to ""find"" input on execute of replace"
+17538|Entering text in find widget should not clear the selection
+17539|Implement copy and paste of whole files across workspaces
+17540|Lingering VS code processes when restarting to update
+17541|Adding a property to tasks.json (without warning)
+17542|Markdown Preview text color not controlled by styles.css
+17543|Open In Code - context menu button in Explorer panel
+17544|editor.action.quickFix Only Triggering on First Token of Fix Range
+17545|[Feature Request] SHIFT + SCROLLBAR scrolls all open windows simultaneously in sync with each other
+17546|Map TS  type completion items to CompletionItemKind.class
+17547|Hot exit causes VSCode reopened
+17548|Intellisense with TypeScript : too many unrelated suggestions.
+17549|Extensions Query behind proxy is broken
+17550|About smart tips and completion
+17551|"Correct the text. ""搜素"" => ""搜索"""
+17552|"Find/replace: Keyboard shortcuts for ""whole word"" and ""case"" toggles only work in the search field"
+17553|[scss] don't offer html tags inside rule sets.
+17554|Terminal first line is broken after scale
+17555|Built in webview incompatible with zoom
+17556|"Allow use origin name(English) to match in ""view"" picker command"
+17557|Could you create an undo close tab?
+17558|Unable to use ASUS smart gesture to scroll in VS Code.
+17559|Making dot-completion and object spread operator work together
+17560|'hot exit' and 'open with code' causes funny bug when trying to open an hot exited file
+17561|Terminal name autocomplete (with TAB) shifts the completed string to left
+17562|Add function of printing and replace in selected range
+17563|After updated to 1.8.1, Javascript intellisense is completely DEAD!
+17564|Always disabled preview button for HTML file
+17565|terminal
+17566|Improve Markdown code block tokens
+17567|Don't work live preview in split-editor
+17568|Make file dialogs remember last selection per window and not globally
+17569|Bug navigating Tamil script letters
+17570|[html] Preview for .html files
+17571|Auto indent for most popular language
+17572|Web Dev: Twitter Card Feature Request
+17573|Simple but useful features that every developer expects at first glance
+17574|Feature Request: Terminal Tabs
+17575|When debugging NodeJS code, can not step into functions
+17576|*.txt file save and open bug
+17577|Release notes do not use full windows area when zooming
+17578|Extensions editor: color clash with tabs
+17579|Format document does not work at least on xml files
+17580|Code Window does not show the different open projects in the menu.How can i rollback?
+17581|Unmodified files are marked as changed
+17582|Progress-indicator for tasks
+17583|January Iteration Plan
+17584|Line wrapping problem in bash on ubuntu on windows
+17585|Fix #16100 - Add `Git: Pull From` action
+17586|Size grip on the main window
+17587|go to definition reopening same file, but changes Path casing.
+17588|Feature Request: Allow disabling of angular 1.* HTML options
+17589|when at zoom < 0, line breaks in html pages are offscreen.
+17590|add process.lazyEnv
+17591|Isidorn/tabs in editor group service
+17592|Scrollbar missing in preview on split view.
+17593|problem with baseUrl when enableDefaultLanguageUrlCode=true
+17594|Add OS-specific dependency PATHs
+17595|Scrollbar jump in font increase
+17596|Read only/read write indicator in status bar
+17597|parameterHints text blurs on scroll when editor zoom level is non-default
+17598|Made spacing consistent
+17599|"""Restart Window"" option for extension updates does not restart all  instances of VS Code"
+17600|Fix for #12833.

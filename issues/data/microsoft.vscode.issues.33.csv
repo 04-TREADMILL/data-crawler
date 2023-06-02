@@ -1,0 +1,100 @@
+3201|Build from Source: Build fails
+3202|Incorrect syntax highlighting without semicolon
+3203|Don't show right sidebar when there is only one definition
+3204|Grey out files ignored by version control
+3205|Support some way of launching without debugging like Visual Studio
+3206|Ability to insert dynamically generated snippets through extensions
+3207|[folding] Fold All has no effect
+3208|Multiple open tabs
+3209|activationEvents.workspaceContains only know full file name??
+3210|editor.action.triggerSuggest
+3211|"Make debugger respect ""files.exclude"" or introduce a hiding mechanic"
+3212|Error: Cannot find module '/home/travis/build/obrejla/vscode-jsthis/out/test'
+3213|"vsce package fails (Error: Command failed: C:\WINDOWS\system32\cmd.exe /s /c ""node ./node_modules/vscode/bin/compile"")"
+3214|Is there any keyboard shortcut to open context menu on a highlighted file/folder?
+3215|"Angular ""comprehensive"" support"
+3216|Custom peek widgets
+3217|Task runner problemMatcher could use an origin or source field
+3218|Version 0.10.9 (0.10.9) using 90% cpu.
+3219|Caps lock is not working with Ubuntu
+3220|Curly braces for arrow functions are not auto completing/pairing.
+3221|Documentation should be updated for Typings now that TSD is deprecated.
+3222|still can't copy description on completionUI after i install the latest release
+3223|Uncaught RangeError: Maximum call stack size exceeded
+3224|e.text.substr is not a function
+3225|Cannot read property 'detail' of undefined
+3226|e.text.substr is not a function
+3227|Cannot read property 'detail' of undefined
+3228|Readme button is clipped in extension list
+3229|Editor - Supporting ruler settings
+3230|Indentation
+3231|"UI - ""Close all but this"" context menu option for working files"
+3232|"UI - Provide action to ""Open definition to the side"""
+3233|UI - Improve the suggest widget performance
+3234|Support `nodemon` development setup by adding support to automatically re-attach when node is restarted
+3235|Install - Improve install experience on Linux
+3236|Launch - Improve launching on Unix based systems
+3237|Launch - Improving launching of OS X remove need to edit the .bashrc files
+3238|Install update - Improve extension selection performance
+3239|Install update - No progress/status while downloading an extension
+3240|Install update - Always install a compatible version of the extension if possible
+3241|Evaluate based hover
+3242|Keyboard accessibility
+3243|Screen reading
+3244|High Contrast support
+3245|Proposal: Improve keyboard navigation in text files
+3246|"Move ""Debug: Add to Watch"" action to end of context menu"
+3247|Folding: Unable to fold empty function
+3248|Missing drag and drop editing support
+3249|Ctrl+Shift+s to SaveAll rather than SaveAs
+3250|Git conflict decorations do not clean themselves
+3251|Converting indentation to tabs does not work for this file
+3252|"BUG: The ""new folder"" action doesn't work well enough"
+3253|NPE when opening diff editor
+3254|VSCode Debugging Toolbar is hidden behind message pop up
+3255|Detected indentation should take precedence over useSpaces preference
+3256|Add ability to clear recently opened files from open file dialog
+3257|[folding] Please do not call setHiddenAreas on each model change!
+3258|More concise announcments on breakpoint hit
+3259|Merge pull request #1 from Microsoft/master
+3260|Merge pull request #1 from Microsoft/master
+3261|Codelens: Contributed command 'editor.action.showReferences-no-args-wrapper-14' does not exist.
+3262|Icons for code folding not appearing in hc-dark theme
+3263|Expose 'getCurrentLanguage()' as a command
+3264|Install/Update/Uninstall extension should reload all Code instances
+3265|compile failed use typescript@1.8.2
+3266|Highlighting Error
+3267|Adds the new icons to code folding
+3268|Creating new folder and then scrolling up messes directory tree
+3269|Improve OLD INJECTION STYLE warning detection
+3270|Horizontal panel header colour conflicts with colour for indicating focus
+3271|[OS X] High contrast theme: weird blue line on top
+3272|High contrast: black text on white selection looks blury
+3273|Extension tips doesn't play well with the high contrast theme
+3274|[High contrast] Activity bar icons look blurry on hover
+3275|Mark occurrences don't show in high contrast theme
+3276|High contrast: suggest box needs love <3
+3277|Current focused suggestion in Intellisense doesn't play well in High Contrast theme
+3278|Find references background is wrong in High Contrast theme
+3279|High contrast: focussed line should not go over overview ruler
+3280|Show Debug Console icon is broken in High Contrast theme
+3281|Make Ctrl+M a global action and not an editor action
+3282|Diff editor is not High Constrast theme aware
+3283|Add intellisense support for C++
+3284|High contrast: find matches do not look high contrast friendly
+3285|nls support for package.json does not work in all cases
+3286|Bad action label when having bad debug configuration
+3287|High contrast: Diff view needs high contrast love
+3288|Debug console icon informs that there is output when there isn't
+3289|Can't set focus inside debug complex hover tooltip
+3290|Keyboard Focus shifts to body when removing a tree item that has focus
+3291|Keep IntelliSense open when moving cursor through already written identifier
+3292|[folding] Folding icons should not operate on mouse-down
+3293|Indentation actions need big polish
+3294|Convert Indentation actions don't update status bar
+3295|Folding icons are too big and the grey frame looks uneven/blurry
+3296|Extension tips green in status bar looks out of style
+3297|the spinach coloured extension tips hurt my eyes...
+3298|[debug] Hover modifies state on getters with side effects
+3299|Empty line and overlapping in suggest box
+3300|Configure task runner should only open output if autodetection fails or provides output.

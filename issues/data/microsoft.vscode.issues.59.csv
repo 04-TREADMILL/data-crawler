@@ -1,0 +1,100 @@
+5801|debug - missing translation
+5802|debug - large ArrayBuffer kills debugging
+5803|debug - commands should be disabled while being busy
+5804|debug - show console action should toggle better
+5805|editor - sticky parameter hints
+5806|Git errors - give me action to show output
+5807|getaddrinfo ENOTFOUND marketplace.visualstudio.com marketplace.visualstudio.com:443
+5808|debug - don't use uuid to generate tree element ids
+5809|debug - show if a thread is running or not
+5810|Mac: File events broken at random times
+5811|[css] Fixed slightly misleading description of all CSS margin properties
+5812|Build failed on Linux Fedora 23 x86_64
+5813|debug - resume on stepping
+5814|debug - hover for long string is bogus
+5815|debug - errors in console
+5816|Output: if same output comes in, the counter does not show up until some layouting is triggered
+5817|debug - reveal paused thread
+5818|"js : and "" mess"
+5819|respect showUser flag in errors
+5820|Extension debugging
+5821|debug - sort order of threads isn't stable
+5822|Debug: node.js does not terminate when debugging simple script
+5823|debug - unwanted console.log output
+5824|Markdown preview cannot be resized anymore
+5825|"""Open New Terminal"" does not work for empty workspace"
+5826|Debug: continue action seems broken for Go extension
+5827|Kimbie Dark theme renders foreground same as background for some tokens
+5828|'Show active file in explorer' should be 'Reveal active file in explorer'
+5829|I am sometimes loosing output for git in the output panel
+5830|Debug: configure icon in high contrast is a large bulb
+5831|Reinstallation of Code Alpha left it in a bad state
+5832|Debug: Show debug state in activity bar?
+5833|CentOS fails to launch any terminal by default
+5834|Clicking on image links either does not open or opens within
+5835|there is no lightbulb in the ubuntu 15.10
+5836|Debug: Node program never stops debugging
+5837|Reopen Closed File: Skip files that recently closed files that are currently open
+5838|Launch extension in empty folder if target folder already opened in window
+5839|Hyperfluid colon when looking at map?
+5840|Stack paging should not be implemented with a click
+5841|Cannot inspect Map/Set in extension debugging
+5842|Give option to change the key used for multi-selection
+5843|File exclusion and inclusion are behaving differently in search with same regex.
+5844|Debug changed variables highlight does not fade away
+5845|Highlight changed stack frames
+5846|Reopen closed files should also reopen closed editors
+5847|Multiple Code.exe processes running in Windows Task Manager
+5848|Clicking a moved file's git entry attempted to load the file - from its old location
+5849|Looping JS grammar
+5850|Extension license page is blank for tslint and c++ intellisense.
+5851|Dependency Issue on Linux Install - Git
+5852|Find-Replace widget does not grow
+5853|Git integration crashes once you upload a big file
+5854|Can't install extensions on Ubuntu LTS 14.04
+5855|Support Sublime Text plugins
+5856|Find history
+5857|Show git status for files in explorer
+5858|--wait command line option generates crash_service_main.cc text to console
+5859|Git folder shows .VC.db* files as modified
+5860|Support to open multiple folders in one window
+5861|Debug: open debug console automatically if debugged process fails with error
+5862|ESLint lightbulb not showing up in certain circumstances
+5863|String length less than 10000 are still truncated
+5864|How to make contributions to i18n
+5865|VS Code not honoring ComSpec environment variable value
+5866|VSCode interface freeze but still working.
+5867|Additional instance starts in wrong virtual desktop
+5868|Watch for auto compilation of typescript file not working well
+5869|Gulp tasks aren't detected
+5870|color theme doesn't affect status bar
+5871|Editor with preview HTML has no split button
+5872|Revert back to extension gallery cache
+5873|Align the content of the html preview
+5874|Telemetry service not finding machine ID
+5875|Javascript: Open symbol (Ctrl+T) and files.exclude settings
+5876|Extension API TextEditorEdit.replace only works on primary selection?
+5877|"""Select all occurrences of current selection""can not select the contents of more than 1000 rows."
+5878|remove ISuggestSupport#shouldShowEmptySuggestionList(): boolean;
+5879|Make revealing debug console on debug start a configuration
+5880|editor options and contrib/
+5881|typescript error message is bogus
+5882|Provide option to change the color of whitespaces
+5883|Peek Definition should close after file jump
+5884|Don't take focus after --wait
+5885|VS Code window won't get focus after opening a file when VS Code is already running
+5886|Exclude the .svn folder from Find in Files by Default
+5887|Windows Environment Variables
+5888|'Unable to open' error if local relative URL path has query string as part of path
+5889|Building windows binary uses electron icon instead of vscode icon
+5890|projectStatus : [Extension Host] TypeError: Path must be a string. Received undefined
+5891|Running scripts\npm.bah install on windows fails
+5892|Clarify how to use previewHtml command within documents being previewed
+5893|Provide a way to dismiss the COMPARE message without comparing files
+5894|Watcher: detect the case of mixed path casing and either warn or fix
+5895|Add a widget for HTML select element
+5896|Some key bindings conflict with those of the window manager
+5897|Freeze after long uptime
+5898|Inform user to restart VS Code after it has been updated on Linux
+5899|Manage more than three layout panels
+5900|Manage empty layouts

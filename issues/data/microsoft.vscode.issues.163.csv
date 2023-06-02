@@ -1,0 +1,100 @@
+16201|IIS Web Language don't have highlight
+16202|"Add ability to exclude files from ""quick open"" (cmd-p)"
+16203|Show a prompt when file changes on disk
+16204|Add a Bracket higlight feature on scroll bar
+16205|Automatic Type Acquisition not working
+16206|Starting in dark theme, switching to light and reloading window shows dark background
+16207|code --list-extensions includes disabled extensions
+16208|Chinese garbled
+16209|Viewlet overflow handling
+16210|not sure but there might be error or i dnt knw have a look at image
+16211|Scrolling markdown preview with touch doesn't work
+16212|The HTML Language Server server crashed 5 times in the last 3 minutes. The server will not be restarted.
+16213|How to make Ctrl+Tab cycle through all open documents?
+16214|Allow text after the language id in a markdown codeblock
+16215|Don't reversibly discard changes when renaming a file or folder
+16216|Provider a better completion navigation/details interaction
+16217|How to debug on port 80?
+16218|Incorrect function folding
+16219|Use Strict Null Checks In TS Extension
+16220|UX meeting agenda 29 November 2016
+16221|路径 c:\Program Files (x86)\Microsoft VS Code\resources\app\extensions\typescript\node_modules\typescript\lib 未指向有效的 tsserver 安装。将禁用 TypeScript 语言功能。
+16222|Command or API to replace tokens (${workspaceRoot}) with proper values in config items
+16223|Window Page Scroll commands need to preserve selection.
+16224|Add support for making multiple lines to one line
+16225|Log where an editor action was triggered from
+16226|Go to definition doesn't work
+16227|Function Parameters show XML instead of parsed XML in description part.
+16228|Selection menu feedback
+16229|After installing the latest version of Visual Studio Code - Insiders, Vim-like extension can't change cursor's style normally
+16230|Can't see Git Gutter in Windows.
+16231|signatureHelp.activeSignature
+16232|Empty signature box and TypeError exception in console
+16233|Launch dropdown should be merged with the play button
+16234|"Go to definition crashes with ""Cannot read property 'startLineNumber' of undefined"" message"
+16235|Show an icon inside explorer to open files to the side
+16236|OSX launches with wrong locale
+16237|Javascript syntax highlighting inconsistency
+16238|Preview area is not flexible
+16239|Tab Size ignored on code auto format  (intermittent)
+16240|C++ Intellisense
+16241|[css] syntax highlighting breaks when using @keyframes
+16242|Compare toaster menu doesn't go away
+16243|Enhance configuration edit service to write to buffer
+16244|Multi-cursor mode: selecting by dragging
+16245|Multi-cursor mode: Multi-Cursors gone after paste
+16246|Debugger: Attach to process: 'null' doesn't look like a process id.
+16247|Fix configuration editing tests
+16248|Horizontal Split
+16249|Display Set elements in debugger views
+16250|Adopt latest Marketplace CDN changes
+16251|Feature request: Allow grouping of items in the QuickPick input just like the git branches view
+16252|Intellisense completion - multiple cursor selection
+16253|Alert messages covering the tab bar is just a bad idea
+16254|[html] HTML tag completion occasionally incorrect
+16255|"JS code changed to HTML when i click ""File -- > Save All"" to save all files"
+16256|C/C++ syntax highlighting inconsistency.
+16257|Typescript syntax highlighting failing
+16258|VSCODE gets restart when i drop a folder in explorer part and one more is directory issue, we can only put a working directory in explorer look at sublime text guys
+16259|Improve batching between search process and frontend
+16260|Sometimes opening file replaces most recent opened file
+16261|Parallelize text search
+16262|Allow to hide entries from activity bar
+16263|Wrong javascript error
+16264|Verify and fix our a11y support using accessibility checker verification
+16265|Feature request: GIT Patch Create/Apply
+16266|'expandLineSelection' selects extra line when used on an empty line.
+16267|Unmet peer dependency warning in npm install of html extension
+16268|"Feature request: Add ""preLaunchCommand"" to launch configuration"
+16269|Consider renaming Preferences > Keymaps to Keymap Extensions
+16270|Adopt TS 2.1.3-insiders
+16271|"Consider renaming ""Zen Mode"" to ""Focus Mode"""
+16272|Consider moving new Emmet menu items under Edit menu group
+16273|Title Bar Actions Not Refreshed In Some Scenarios
+16274|Add TS Code Action Provider
+16275|[c++] noexcept and override don't get correctly highlighted
+16276|Normal File Search in New Setting UX Does not Expand Sections
+16277|Add font settings for markdown preview
+16278|Hot exit empty workspace support
+16279|JSX coloring breaks on <Link to={`${APP_ROOT}${bc.link}`}
+16280|格式化代码之后，后面部分代码无法按照主题颜色显示，全部显示为白色
+16281|Keep one search worker process alive between searches
+16282|previewHTML: content reload
+16283|Extension for Django Seamless Integration
+16284|How to point to PHP executable?
+16285|No intelligence
+16286|Is it possible to author plugins in ES6?
+16287|Support a virtual folder view that shows files from many places
+16288|[decorators] before/after decorators for empty lines
+16289|HTML Server crashes
+16290|Tests contain output
+16291|Search is *very* slow and doesn't return any results
+16292|Wrong syntax hilight
+16293|ATA puts types in $HOME/Microsoft
+16294|Powershell $PSScriptRoot (No simple way to run scripts)
+16295|Peek/Go To Definition & Click to Open do not work with Webpack alias
+16296|Error: No such module: atom_browser_v8_util
+16297|Add code page 865 to the list of encodings
+16298|Code Formatting : Is there a way to format correctly Twig or Swig tags ?
+16299|Open in web browser
+16300|Open Recent Folder in Windows Taskbar menu fails with spaces in folder path

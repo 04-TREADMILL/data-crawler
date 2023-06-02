@@ -1,0 +1,100 @@
+21001|Test: JSDoc Auto Complete
+21002|Test: Type Definition Provider
+21003|how can i complete my code like vim's ctrl+p?
+21004|Test: Updated Welcome page
+21005|Scrolling skipping
+21006|JSDoc Auto Complete handling content after Comment incorrectly
+21007|Test: Command to show which tsconfig/jsconfig project a file belongs to
+21008|Hot Exit does not work on Mac
+21009|在过去5分钟，TypeScript语言中断服务5次
+21010|Feature Request: initialize emmet config
+21011|Newline in Files search Regex not working
+21012|Typing `/**` should not automatically create a block comment in which each line is prefixed with `*`
+21013|Cannot Find Module when extension is installed from Extension Marketplace
+21014|Request Feature: Integrated Terminal Auto Run Command
+21015|[WelcomeUX] Request Feature: Open recent folder in a new window (landing page)
+21016|Contributed snippet not working in embedded language
+21017|Quick diff doesn't come up on startup
+21018|"""Welcome"" page is not loaded"
+21019|debug configuration button missing
+21020|SCSS Not Properly Highlighting  font-feature-settings property
+21021|Exception widget styling amends
+21022|settings.json don't remind position
+21023|Minimap obscures 'Add Configuration' Button
+21024|How can i debugg polymer components ?
+21025|TS & Extensions: warning about version mismatch between our TS version and extensions
+21026|Don't auto show JSDoc Suggestions when selecting first line of JSDoc comment
+21027|Improve Detail for JSDoc Completion Item
+21028|Git: file opened from index needs a better tab title
+21029|Localhost like doesn't get detected in terminal
+21030|TS: quick fix does not go away when import added
+21031|Reference Code Lens Does Not Work for: export const x = () => ...
+21032|Better column indicator icon
+21033|avoid being closed by Ctrl-W
+21034|"""No definition found"" widget comes and goes very quickly"
+21035|Project file seems to open in column 1 always
+21036|Exception view zone overlaps characters
+21037|Theme service stops listening to settings change?
+21038|Bad sorting in quick open
+21039|Update Quick Fix Lightbulb once a Fix has been Applied
+21040|Extra colon in settings theme hover
+21041|No longer able to copy/paste without coloring
+21042|Dirty diff decoration goes into line numbers
+21043|shell.js:231 SplitLinesCollection: attempt to access a 'newer' model
+21044|can't access marketplace behind proxy
+21045|[Feature request] Apply rename refactoring to all ES6 imports
+21046|[WelcomeUX] Welcome page: keybindings are already installed
+21047|Welcome page: weird flow of installing keybindings
+21048|Inconsistent naming of editor options
+21049|SCM: badge size could be aligned
+21050|Debug: weird column indicator in this case
+21051|[scss] scss.lint.zeroUnits suggests removing required units
+21052|F2 doesn't always work
+21053|Exception widget: unable to copy from widget
+21054|List/tree: up/down keys should cycle
+21055|Disable drag & drop affordance in read-only editors
+21056|Open editors: sections should not be collapsable
+21057|Exception widget: handle content overflow better
+21058|Toggle full screen does not work while running VS Code out of sources
+21059|Dragging text to start of line is confusing
+21060|Allow file modification commands when focus is in opened editors view
+21061|Toggling Zen mode flickers when running VS Code from Sources
+21062|Extensions viewlet: space to install extension
+21063|Search viewlet: space not expanding / collapsing
+21064|Clicking on file in scm viewlet automatically focuses that file
+21065|Cannot read property 'init' of undefined when initializing git repo on an empty folder
+21066|Search viewlet end key takes me to last file name, not last result
+21067|Find in folder should use root w/o selection
+21068|Extensions viewlet: home / end strange behavior
+21069|Extensions viewlet: Ability to run individual extension management actions using a keyboard shortcut
+21070|End / home key have no effect in quick open
+21071|SCM: delete key should clean the selected file
+21072|Explorer commands are overly specific
+21073|SCM view is not helpful when there is no SCM repo
+21074|Attaching to Node running in inspector mode cannot determine version
+21075|Generated JSDoc comments should be a snippet with placeholders/variables
+21076|Extension debug: no longer able to run extension tests from debug
+21077|Installing Insiders - Package of bad quality
+21078|stale color box when switching languages
+21079|JSDoc generation - generate @returns when function returns a value
+21080|JSDoc - generate @type for a variable
+21081|Debug: breakpoint from second application does not cause window to take focus
+21082|"Debug: exception when ""toggle skipping this file"""
+21083|Invalid warning when provided an invalid value for `protocol`
+21084|IntelliSense for language specific settings is weak
+21085|Menus not accessible
+21086|[WelcomeUX] - Interface overview for errors and warnings is off when workspace has a git repo
+21087|[WelcomeUX] - Simplify reload message
+21088|[Debug] Attach to Process snippet has an invalid value
+21089|[WelcomeUX] - No squiggles in the Errors and Warnings section
+21090|Attach to process launch shows command 'PickProcess' is not found if protocol is inspector'
+21091|The instruction pointer is not visible (covered by the column break point decoration)
+21092|When using Run to Cursor, then there is no inline instruction pointer decoration
+21093|Markdown preview size is off when editor zoom is not the default
+21094|Long lines are wrapped even though word wrap is turned off
+21095|Terminal link detection issues
+21096|Cannot open detected link
+21097|Select debug program and switch between running debug programs
+21098|All web developer need html w3c validator, add it pls
+21099|Dragging on same line sets wrong selection
+21100|Replace with a string that contains search string goes endless when replacing manually

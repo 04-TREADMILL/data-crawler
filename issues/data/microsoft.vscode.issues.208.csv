@@ -1,0 +1,100 @@
+20701|[html] support for base url
+20702|run tests in renderer
+20703|CPU has been drained by PHP7.0 process
+20704|"Installation of ""the 'SQL' extension"" recommended, not available."
+20705|vscode not recognizing .csproj file
+20706|PreLaunchTask first run does not complete
+20707|Feature Request: Expose LanguageConfigurationRegistry as extension API
+20708|Accident opening of multiple debug sessions
+20709|Add the ability to disable/enable or delete all breakpoints
+20710|Proposal: Change order of completions of CSS properties.
+20711|"Unchecking ""Show welcome page on startup"" has no effect"
+20712|add support for global options in tasks.json for tasks with locally defined commands
+20713|Ubuntu: Can't save / create any files
+20714|Allow to create multi-cursor with keyboard
+20715|Consider a different color for meta.preprocessor in Dark / Dark+
+20716|Cannot read property 'clearFocus' of null
+20717|Cannot read property 'clearFocus' of undefined
+20718|Uncaught Error: Can't open this git resource.
+20719|Model is disposed!
+20720|Model is disposed!
+20721|Uncaught TypeError: Cannot read property 'getControl' of undefined
+20722|Uncaught TypeError: Cannot read property 'getControl' of undefined
+20723|Canceled
+20724|Canceled
+20725|Cannot read property 'clearFocus' of null
+20726|Cannot read property 'getLinesContent' of undefined
+20727|Uncaught Error
+20728|c._currentCancelInput is not a function
+20729|Overlapping ranges are not allowed!
+20730|"Uncaught Error: Unable to display threads: ""Process 0 has exited with status 0"""
+20731|"Revert ""Add Status Bar Item for JSConfig/TSConfig"""
+20732|[WelcomeUX] Reorder Quick Links
+20733|Markdown preview doesn't display in full editor display
+20734|"""No Project"" reported by TSServer.js. Autocompleting doesn't works."
+20735|Wrong type is accepted
+20736|Custom code snippet not working in react
+20737|I cannot open any files from Windows Explorer by double click or Open With > VS Code
+20738|"""Blotchy"" Theme Background"
+20739|Syntax theme color control for comments / documentation conventions
+20740|Option for seeding find string from editor on ctrl + f
+20741|Ctrl-C kills VSCode if started from command prompt
+20742|Last active window is not always restored when reopening
+20743|Support escape on paste (semantic paste)
+20744|magnifying markdown preview decreases the size of the preview pane
+20745|Extensions
+20746|Terminal Linkifier: Cannot read property 'textContent' of undefined
+20747|Handle Some Disposable Registrations in TS Extension
+20748|Can't step into methods when debugging unit tests
+20749|Adjust URL detection within terminal to include url parameters
+20750|Don't Register Duplicate Providers for JS and TS Providers
+20751|Test node2 transition work
+20752|Unable to format in new file (C#)
+20753|When I insert #encoding in my python files,The code prompts invalid
+20754|[WelcomeUX] Offer popular keymaps inline for installation
+20755|VS Code 1.9.1 cannot launch on Ubuntu due to missing libXss.so.1
+20756|Prototype of Implementations Code Lens Provider for TypeScript
+20757|Apt repository should reinstall itself when disabled due to distro upgrade
+20758|Proxy settings not working with extension gallery: net::ERR_TUNNEL_CONNECTION_FAILED
+20759|Enable generation of language translations
+20760|VS Code becomes slow and unresponsive in large project directories
+20761|Untracked Items added to Source Control on Commit All
+20762|Apt/yum repository should contain 32-bit packages
+20763|package.json - contributes.configuration - JSON Schema
+20764|Prevent same file from being open in more than one editor (toggle)
+20765|Test: inline decorations for debug column location
+20766|Git diff view having a nervous breakdown
+20767|Two instances of VS Code running - If file is not saved and opening the same file again
+20768|new bug
+20769|Mouse support in terminal is broken
+20770|"Ctrl+C not working in ""Open in Command Prompt"" window"
+20771|scmProvider context key not available until viewlet opens
+20772|3 color theme change events on startup instead of 1
+20773|autoClosingBrackets should not autoclose if already followed by another character
+20774|"Automatically collapse ""import"" block in files."
+20775|Folders getting added from other directories
+20776|Can markdown preview support UML graph ？
+20777|[bug] VSC intellisense stops working
+20778|Output window does not focus on the last output line
+20779|Fixes #16860: Improving exception experience
+20780|VSC cutting off code in Ubuntu 16.04
+20781|Can't download extensions behind a proxy.
+20782|"[GIT] Rename ""Clean"" to ""Discard changes"""
+20783|Paste with syntax highlighting is not pasting empty lines
+20784|Test: Exception widget
+20785|Pasted text copied from an interactive terminal should retain colors
+20786|Offer a command to open a tree/list's context menu
+20787|Typing an import makes TS unresponsive for > 30s
+20788|Open a new pane/column without a duplicate file
+20789|Ability to define a pane/column layout
+20790|Review diff algorithm API
+20791|When in preview mode of a Markdown file, keep preview mode when browsing to a link (local at least)
+20792|"Chrome Debugger Can't Find ""Variables"" ID"
+20793|Test: Keybinding support for tasks
+20794|"File | Save As closes editor"
+20795|"Add ""return to top"" control to Extension details view"
+20796|chevron matching in TypeScript
+20797|Add search to generated in-product Markdown preview (release notes, extension READMEs)
+20798|Allow to collapse a tree recursively
+20799|"Extension details view ""Contributions"" unclear"
+20800|Quick open: Editor history selection lost once file results kick in

@@ -1,0 +1,100 @@
+2901|Hide frontmatter in Markdown Preview
+2902|Typescript syntax highlighting breaks on for loops if no spaces around operator in condition
+2903|0.10.8 Salsa Intellisense does not keep indentation level on new lines
+2904|Keep undo history even when file changes outside Code
+2905|Failed to load eslint library. Please install eslint in your workspace folder using 'npm install eslint' or globally using 'npm install -g eslint' and then pres
+2906|marker view truncates text
+2907|"Can't link ""Named Tasks"" to preLaunchTasks"
+2908|Issues with JS and TextDocumentContentProvider
+2909|"[handlebars] does not have a ""format code"" command in the command palette"
+2910|%GOPATH%\bin commands not found, v 0.10.8 on Windows 10 x64
+2911|[php] Provide HTML tag matching/language service support
+2912|[csharp] Unused variable warning, but variable is written
+2913|Invalid result while indenting code with tab button
+2914|Opening Explorer View forces .md editor out of Preview mode
+2915|[csharp] 'var' not colored as keyword
+2916|Misleading error message
+2917|Running batch files does not prompt user
+2918|[sass] @each loop shows error if there's a comma after the first variable.
+2919|Require url intellisense gone?
+2920|Failed to start OmniSharp
+2921|Cannot start Omnisharp because Mono version >=4.0.1 is required. See http://go.microsoft.com/fwlink/?linkID=534832#_20001
+2922|This socket has been ended by the other party
+2923|Converting circular structure to JSON
+2924|Uncaught Error: Can't open this git resource.
+2925|Cannot read property 'getControl' of null
+2926|Bad argument
+2927|introduce new attribute for telemetry key in debuggers extension point
+2928|Language change in file comparison only affacts right pane
+2929|executeCommand does not wait for text editor commands to complete
+2930|Intellisense more details icon doesn't work
+2931|fix TextEditorOptions declaration - fixes #2797
+2932|[python] Python In-Line Comments Break Code Highlighting Within Dictionaries
+2933|Undo and Redo corrupts the document
+2934|When pressing Tab on white-space only lines, indent straight to the right spot (similar to empty lines)
+2935|highlight does not work in js
+2936|preLaunchTask improvements
+2937|Debug accessibillity
+2938|jsconfig.json not working for es6 support
+2939|Block cursor obscures current character
+2940|Colorization of method arguments does not persist when using the method shorthand syntax
+2941|"When pressing ""alt"" to show the menu bar, keyboard focus is not given to it"
+2942|"Request ""duplicate"" context menu item for tree view selection"
+2943|VS Code not recognizing a git repo workspace
+2944|Icons for folding and unfolding
+2945|Add gulp tasks to build deb packages
+2946|Duplicate a file
+2947|Prevent the hidden menu from showing up when Alt+something is pressed
+2948|"[typescript]: ""export"" keyword syntax highlighing inconsistency"
+2949|Find & Replace shortcut with wrong highlight text
+2950|Error when transforming Request-promise calls with Cheerio
+2951|JSX coloring, this not colorized in Dark+ but it is colorized in Monokai
+2952|Default settings file gives warnings
+2953|Add EOL option
+2954|Please allow disable autocomplete on tab and replacing tab with space on formatting
+2955|[js] Incorrect colorization after properties called new
+2956|[JS] Syntax bug (Light+ theme) ?
+2957|Wrong font for suggest widget inside zone widget
+2958|Find widget in small editor makes red background overflow
+2959|Node debugger variables undefined
+2960|Add Vagrantfile as a ruby language file extension
+2961|[folding] incorrect folding region when folding vscode.d.ts
+2962|"[less] LESS - mixins - ""semi-colon expected"""
+2963|Folding - match in folded region is skipped
+2964|Ligatures are not working correctly for F# syntax
+2965|Folding - Activating extension `vscode.typescript` failed: Path must be a string. Received undefined.
+2966|Pass 'locale' to debug protocol Initialize request
+2967|Add indent based code folding
+2968|Allow disabling parameter hints
+2969|Distribute VS Code via a signed apt repository
+2970|Breakpoint locations are updated after code edits even before saving
+2971|Why are we updating breakpoints in the debug adapter when editing files?
+2972|"Strange ""Could Not Start Dumper"" Error"
+2973|Can't debug mocha unit test with VS Code version 0.10.8
+2974|Ligatures don't render for arrow functions in JSX-highlighted files
+2975|Failed to load tslint library
+2976|Local TypeScript Install Not Functioning
+2977|"OSS .desktop file is named ""undefined.desktop"""
+2978|"OSS .desktop program name should be ""Visual Studio Code( - OSS)"""
+2979|Make OSS product long name actually long
+2980|[folding] Add fade in/out animation for folding arrows?
+2981|Python language support.
+2982|Java primitive types treated as identifiers, not keywords
+2983|Java import directives shown with package names as keywords
+2984|Improperly serialized keybindings
+2985|Can't use env namespace
+2986|URI toString() percent-encodes colon symbol after drive letter (MS Win 10)
+2987|refactor AIAdatper out of ai telemetry appender
+2988|build error
+2989|Ctrl+` keyboard shortcut (Cycle Between Opened Editors) not usable with Norwegian keyboard layout
+2990|Test code folding
+2991|[json] [0.10.8] Wrapping JSON with double quotes replaces the text
+2992|Switching workspaces toggles menubar
+2993|Selection should include character under block cursor
+2994|Selection matches not shown in scrollbar anymore
+2995|After upgrades, Can See *.d.ts Files Only
+2996|[html][xml] HTML/XML Tags editing like Visual Studio does (in WPF editor)
+2997|Typescript highlighting doesn't appear to be working in some cases
+2998|[Question] How can i get all errors and warnings for entire project?
+2999|shift+tab is deleting the code ...
+3000|Documentation for Docker is out of date

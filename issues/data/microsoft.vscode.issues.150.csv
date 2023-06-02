@@ -1,0 +1,100 @@
+14901|centos - ELFCLASS32 error when launching
+14902|Codelens is displayed in the top left of the editor
+14903|Feature Request: Make paths/urls in terminal output clickable
+14904|Typescript string interpolation syntax highlighting broken after 1.6 -> 1.7.1 upgrade
+14905|Can't select the hit condition UI?
+14906|VSCode Upgrade Linux 64bit tries to install 32bit deps
+14907|Hygiene check on Windows fails due to CRLF even if core.autocrlf is set to true
+14908|"Allow ""OPEN EDITORS"" frame to be expanded down"
+14909|formatting and some plugins stopped working after lates update
+14910|2 files infected after updating to 1.7?
+14911|Typescipt editor stopped highlighting code in `${embedded code snippers}`
+14912|VSCode should not open browser on first start without user's say-so
+14913|Plugin installation stalls when /tmp is full
+14914|Quiet Light theme: highlight for search result in comment is same color as text
+14915|Installing extensions from my dotfiles
+14916|HTML attributes containing values with *.ref* break syntax highlighting
+14917|Allow multiple sibling names in exclude pattern
+14918|Provide an option to hide the activity bar
+14919|Typescript + Divide operator make syntax highlighting goes wrong...
+14920|intelliSense should always show exact match first
+14921|CPU utilization of Code is near 99%
+14922|The default selected item in completed items list is not consistent
+14923|[coffeescript] syntax highlighting breaks on indented comment blocks
+14924|Intellisense showing useless hints first, and useful hints last
+14925|Text and General background don't match.
+14926|Running node-sass inside an extension?
+14927|Incorrect position of references count fo *.cs
+14928|keybinding when !editorTextFocus not triggering when Output window has focus
+14929|Download vscode very slow in China
+14930|Get React Intellisense on this react-boilerplate in Visual Studio Code
+14931|[coffeescript] comment syntax highlighting issues
+14932|Solarized dark theme changed drastically with 1.7.1
+14933|shift+cmd+v keybings conflict
+14934|the markdown syntax highlight is broken
+14935|feature request: support disjunction/or in when-clauses for keybindings
+14936|JavaScript template literals syntax is broken
+14937|When run build task, there are strange words in error message.
+14938|Multiple target debugging: Should be able to let targets depend on others
+14939|Debug console hyperlinks are not clickable
+14940|Emmet for jsx in js-file doesn't work anymore
+14941|Only show folder name in  Windows Taskbar
+14942|Multiple target debugging: Not all targets started
+14943|Too many binary downloads/installations
+14944|Upgrade TSServer to version 2.0.7
+14945|Crash when Batch replace
+14946|Markdown renderer does not unescape \. in a link
+14947|Integrated terminal keybindings don't work after adding new terminal
+14948|TypeScript syntax errors and auto complete not working
+14949|Scrolling issue with collapsed code
+14950|[css]Error messages will not disappear after the css code in <style> tag is deleted
+14951|Set environment variable before starting a terminal
+14952|Is that mac version do not support JavaScript(Salsa)
+14953|Grammar is in an endless loop - Grammar pushed & popped a rule without advancing
+14954|urlIpc in common package is referring to electron
+14955|Docs: Add Cygwin terminal
+14956|Open the file in same vs code
+14957|Bind zoom actions also to numpad equivalents
+14958|Upon zooming the window, codelens positioning is lost
+14959|Up Arrow doesn't work using Code Folding
+14960|Editor feature request: Add Tab options from Visual Studio
+14961|Format Code: func-call-spacing error?
+14962|Linux: Command palette disagree with shortcuts behaviour
+14963|Feature request: allow disabling experimentalDecorators warnings from user settings
+14964|Show checkmarks in top level menu to indicate activity of a toggle
+14965|"""View> Toggle Menu Bar""  Stopped working VSCode 1.8.0"
+14966|Sourcemap files in subfolders are ignored
+14967|Can´t define breakpoints in code editor
+14968|Add Search TextBox to Explorer Pane
+14969|Add Colorfull Icons for Folders and JS Files to Explorer Pane
+14970|Buttons to disable / enable all extensions disappeared.
+14971|[loc][Query][VSCode[ Please clarify localizability
+14972|[loc][Query][VSCode] Please clarify the single-word string
+14973|workspace-namespace/ window namespace tests integration tests failing
+14974|Destructuring does not auto-format whitespace
+14975|Upgrading a zip deploy and keeping settings/extensions
+14976|Git view not detect multiple project on root directory
+14977|[css] support @apply
+14978|Hover sizing is still not smart
+14979|New Typescript grammar has alot of inconsistencies in the Dark+ theme
+14980|Add 'explorerViewletFocus` for keybinding `when` context
+14981|"jsconfig.json ""files"" not working"
+14982|go to definition doesn't work for certain module patterns
+14983|Visual tears and lagginess on 4K monitor
+14984|Code Format with object spread in JavaScript files breaks
+14985|WorkspaceConfiguration#inspect
+14986|[coffescript] syntax highlighting breaks when embedding JS code
+14987|Adding load without consultation
+14988|Javascript Formatting Broken in 1.7.1
+14989|Clicking uninstall throws a bunch of errors in the dev tools
+14990|JavaScript syntax highlighting issue after latest update
+14991|Toggle line comment, comment as block in scss files
+14992|Code hangs on VMWare Workstation 11
+14993|Package.json Error when Using Synced SharePoint Folder
+14994|Disable extension button is too tall on Ubuntu
+14995|"Add ""Tasks"" side bar"
+14996|[html] Error message interrupt and frustrate
+14997|Interatd terminal error 1
+14998|High CPU on startup
+14999|Add jinja2 to the lib/snippets.json file for emmet support
+15000|Editor-multicursor not working on Ubuntu

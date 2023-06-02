@@ -1,0 +1,100 @@
+13701|Use default cursor in feedback menu text. #12926
+13702|[Feature Request] Enable to open a file in string path
+13703|VSCode 1.6.1 x64 rpm require some i686 rpm
+13704|Go to Definition does not work for PHP
+13705|Autocomplete does not suggest the reference class's fields and methods in PHP
+13706|Unable to collapse sidebar by default
+13707|Always indents HTMLs with tabs
+13708|Jumpy Scroll
+13709|The workspace is frozen after opening any project
+13710|Support xml namespaces in JSX
+13711|Spelling Mistake in error
+13712|Support file with subitems
+13713|There is no key binding for show next global find mach.
+13714|Any way to custom myself css?
+13715|Hot Exit: Support hot exit on empty workspaces
+13716|Revisit extension disablement implementation
+13717|[completion] CompletionList#isIncomplete ignored on empty or fully filtered items
+13718|Stop sending output contents to the extension host
+13719|Never stop on breakpoints when debug react-native app (android)
+13720|Save backup files to different folder
+13721|Fixed #13670
+13722|Add staging hunks in Git
+13723|Side bar and status bar flickers when Code window maximized
+13724|${fileBasename} with extension, any variable without extension?
+13725|Double clicking .cs file opens the editor but not the file
+13726|cannot set breakpoint condition and hitCount at the same time
+13727|[loc][Query][VSCode] Please clarify string
+13728|switching between breakpoint condition and hit count doesn't work
+13729|"Default message for ""Hit Count"" is confusing"
+13730|Incorrect (potentially) indentation of function arguments spanning multiple lines
+13731|Scrolling problems in Surface Pro 4 touchpad
+13732|stopOnEntry property not working when launching in node with babel
+13733|Debugging through readonly internal module has weird reveal behaviour
+13734|Debug hover and normal editor hover should align
+13735|Loosing breakpoints when stepping in internal node module
+13736|"added ""file nesting"" support, based on file naming"
+13737|Workspace setting not reading proxy values - self signed certificate
+13738|VSCE Package fails on tsc -p ./
+13739|Triggering find widget with the cursor on an empty line starts selection mode
+13740|Activation indicator should always be visible
+13741|After updating to 1.6.1 any file is automatically touched upon opening it
+13742|Add --disable-gpu option to cli help. (#13706).
+13743|Anchor tag href value is not visible.
+13744|Editor save html takes longer after upgrade to 1.6.1
+13745|Add a queue for process.send
+13746|Improvement: file explorer no scrolling by file close event
+13747|Hit Count conditions for node-debug
+13748|VSCode will freeze when opening this JSON file
+13749|string not formatting correctly in get set
+13750|Multiple consecutive identical dialogs
+13751|Rename Javascript to JavaScript
+13752|Provide a restart workbench command
+13753|showTextDocument is unexpectedly slow (1second) despite file being already open/visible
+13754|How do you change the non-editor font
+13755|IntelliSense just got out of position
+13756|"Avoiding ""write EPIPE process.send"" error on exit"
+13757|Errors not shown inline when using keyboard only
+13758|Non-distraction mode
+13759|Colors in Go broken when multi dimensional arrays are declared
+13760|Updated HTML coloring has issue with separator comments
+13761|[Intellisense TS] Poor Intellisense support when overriding methods/properties/getters/setters
+13762|Duplicate selected text or area
+13763|VSCode entirely unusable when opening a large project that contains both JS and TS
+13764|Let extensions force change language mode for a file
+13765|debugServer property should be under configurations
+13766|Command line tool on OS X could be faster
+13767|tsserver throwing errors during extension tests
+13768|Configure JS / TS Project via package.json
+13769|Layout is off for long file name
+13770|Error when download VSCode for windows - DNS_PROBE_FINISHED_NXDOMAIN
+13771|Chinese characters are not correctly encoded while debugging Python in VS Code
+13772|open folder in a wrong window
+13773|New JS files cause completion error
+13774|Adding tests for editor state
+13775|when input chinese the input frame not init at correct place
+13776|the problem of installing vscode
+13777|git - git push takes too long and forever
+13778|"Extension installation keeps in status ""installing"""
+13779|Output copied from terminal shouldn't have extra 'end of line' char
+13780|Unable to open PHP files directly
+13781|When you open Visual Studio Code you get a black screen and cant see anything
+13782|Explorer: Move File Up Or Down
+13783|Issue with HTML comments
+13784|Constant 50% CPU usage on four cores after opening Folder in Explorer
+13785|Commenting is flawed in the new version
+13786|How to change VS Code skin?
+13787|Issues with waking up when chrome using nvidia video card.
+13788|Feature request: dock integrated terminal into dedicated tab
+13789|"API Request: Function for showing an ""Open File"" dialog that returns the selected path"
+13790|bug: console unicode problem
+13791|mongoDb shell and integrated terminal
+13792|Global variables in require() call
+13793|react-native launch fail after changing app name
+13794|Intellisense screen cheese
+13795|Increasing test coverage for collections
+13796|Typing Korean in an editor and then clicking will duplicate the character that was being typed
+13797|crash when restart debug node.js app
+13798|Add support proper syntax highlighting and support for indented sass(NOT scss)
+13799|Idea for enhanced editing scenarios: dynamic, nestable rows and columns for editing, analysis and visualisation.
+13800|Watermark should not show up behind editors when rearranging

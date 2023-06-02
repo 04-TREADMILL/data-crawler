@@ -1,0 +1,100 @@
+9301|Deleting or renaming a file or its parent with dirty within should prompt user
+9302|Focus vanishes after refactoring in GO
+9303|Configuration to hide debug toolbar
+9304|where i can find documentation about editor events
+9305|Regex lookahead not working with replace
+9306|Extensions: Custom menu label for contributes.menus
+9307|Feature request: Sync active document with explorer
+9308|CSS Intellisense not working inside <style> tag
+9309|vscode write the log where?
+9310|Is there any file icon package official？
+9311|Warn before closing the window when closing editor without having editor open
+9312|Unwanted generated tsconfig.json file
+9313|Title of VS Code does not get updated once you select new project
+9314|Search and Replace: Replace all is replacing always with empty string
+9315|[js] syntax highlight goes to wrong by 'function' method
+9316|Editor area zoom in display issue
+9317|Select all does not focus editor if targeting the editor
+9318|how to make a preview editor permanent w/o editing or mouse?
+9319|Multi-cursors no longer blink in sync
+9320|Linux/Fedora24: Upgrade from 1.2.1 to 1.3.1 breaks launcher
+9321|Add commands to move tabs left and right in group
+9322|[bug] Behavior editor on press keys Shift+Tab
+9323|External debug console adds space in second line
+9324|Global scope is empty for node >= 6.1
+9325|Jumping to brackets can't jump when cursor is not near it
+9326|List widget doesn't respond to touch
+9327|Moving an editor across groups does not carry over text view state
+9328|Give more context: Grammar is in an endless loop - Grammar is not advancing, nor is it pushing/popping
+9329|[theme] Wrong coloring in for cycle and break whole coloring
+9330|Only activate a Language when a file is opened in the editor
+9331|自动升级文件破损但VSCODE没有提供删除安装包的路径导致无法升级
+9332|Fix typo
+9333|Duplicate file
+9334|Inability to create file/folder at root location
+9335|Integrated Terminal: ctrl-c doesn't work in PowerShell and cmd.exe
+9336|Integrated Terminal - selection disappears on scroll
+9337|Allow to move a file by adding path segments to rename box
+9338|Fail running run build task.
+9339|Middle click scrolling in the Tabs section after closing file
+9340|Allow new editor to open with an empty file
+9341|Add default choices in the integrated terminal dropdown menu.
+9342|Ability to remove file permanently (bypass trash)
+9343|Integrated Terminal shows nothing
+9344|Unable to Close Split Editor without saving or cancelling a dirty file
+9345|markdown editor and preview ui issues
+9346|Reports that file is saved while it is not (remote location, sshfs)
+9347|Setting PowerShell version commandline switch fails
+9348|Fuzzy Intellisense only uses last typed character and is too loose
+9349|operation not permitted
+9350|Opening a new file causes it to be modified and displayed as unsaved
+9351|[cli] RFE: Opening file.go:47 should go to line 47 automatically
+9352|TypeScript Syntax highlighting doesn't work in a function has a return type that ends in a number
+9353|Lua commenting using // doesn't actually comment
+9354|better javascript/Node.js/es6 syntax highlighting
+9355|Auto Update Extensions
+9356|Step Over jumps to end of function when debugging TypeScript that uses async/await
+9357|Go to file - add option to exclude symbols
+9358|Intellisense and CodeLens not working with Unity
+9359|Generate complete list of keybindings 'command' and 'when' values.
+9360|Allow to search commands by keybinding in command palette
+9361|Add support for filtering the explore pane via type-ahead search
+9362|Ability to scroll build output to first issue.
+9363|css intellisense in html files seems broken
+9364|showInputBox overwrites input with initial value when validation fails
+9365|API support to cancel showInputBox
+9366|Make the editor toolbar buttons configurable
+9367|Remove terminal focus command
+9368|#55: Batch results for IPC
+9369|Follow and watch settings.json single-level symlinks
+9370|unregister handler for the 'type' command.
+9371|copy paste doesn't work in integrated console
+9372|No way to drag & move file/directory to the top-level / project directory when the Files Explorer is filled from top to bottom
+9373|HTML tag matching in php (template) files
+9374|Explorer: Provide a setting so that only double click opens a file in the editor or expands a folder
+9375|Undo/redo does not play well with IMEs
+9376|Allow to undo file operations done in the explorer
+9377|Intellisense broken for large JS projects like cocos2dx-js
+9378|Need an api to scroll till to a position
+9379|untitled scheme in openTextdocument does not work as intended
+9380|Allow workspaceContains to specify directories (fixes #8295).
+9381|Rename Directory fails after copy
+9382|scss scss scss!
+9383|Shift + Ctrl + M - Should move focus to errors panel, even if it's already active
+9384|Editor cannot find ANY modules when files use '.es6' extension.
+9385|Extend the Search tab (Search Results) with Context Menu
+9386|[Question][ Suggestion] Side panel - extensions
+9387|Duplicated interfaces in go to symbols in file
+9388|VSCode Debug C++, breaking point not working
+9389|VS Code does not play nicely with Git Bash for Windows
+9390|TypeScript - Generate method
+9391|Resizing terminal only resizes the active terminal instance
+9392|Freezes randomly
+9393|Replace Box in Current File Truncated
+9394|Automatically stops executing node hapi.js project after 15 - 20 seconds. I have reinstalled VSCode several times.
+9395|Outdent issue with Typescript
+9396|Problems with line/word wrapping
+9397|Code prediction fails in Windows for C++ even after using extensions
+9398|when picture changed, it's not changed in vs code
+9399|Go to definition should not always put line in center
+9400|vscode locking down folders

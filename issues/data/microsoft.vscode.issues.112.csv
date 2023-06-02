@@ -1,0 +1,100 @@
+11101|Cannot exit visual studio
+11102|Test: Extension details view
+11103|Test: Improve extension bulk update story
+11104|Test: Support other sorting orders in the extensions viewlet
+11105|Divs in html don't make match
+11106|"Implements whitespace rendering for ""boundary"" and ""all"" modes."
+11107|Support for csv/tsv files. Please.
+11108|Remove ITextModelWithTrackedRanges & co.
+11109|#newFeature how to sync all extensions and setting to another machine
+11110|Tests for custom TM theme settings
+11111|Test Scrolling and Folding API commands
+11112|"Implements system variable ""workspaceRootFolderName""."
+11113|Hovering cursor over integrated terminal on Mac shows a low-contrast cursor
+11114|Test file icons themes (user experience)
+11115|Test file icon theme (developer experience)
+11116|Write tests for terminal API in vscode-api-tests
+11117|Test: Integrated terminal API
+11118|Test: Integrated terminal scroll bar
+11119|Add commands to scroll to top and bottom of terminal
+11120|images with relative paths in extension's README.md aren't shown in the extension manager
+11121|Test: True integrated terminal keybinding support
+11122|How to find the current word under cursor in files?
+11123|Test: Enable emmet for other languages #9500
+11124|Increase contrast of default integrated terminal colors
+11125|Test: Option to wrap at specified column only when window is larger than the specified number of columns
+11126|Test: Allow workspaceContains to specify directories
+11127|Test: Should allow adjusting font weight
+11128|Test: An option to disable current line highlight.
+11129|Write integration test for new option bag in `TextEditor.test`
+11130|Test IME
+11131|Test Scrolling and Folding API commands within VSCodeVim
+11132|Align more keybindings with Mac conventions
+11133|".gitignored files removed by ""Clean All"" action"
+11134|Changing multiple occurrences when they are adjacent loses one of the occurrences
+11135|Iterating multiple occurrences changes the search filter when occurrences are adjacent
+11136|"Can't use shortcut ""Ctrl + D"" to select multiple word in a new document I didn't save"
+11137|[html] modifying ending tags automatically
+11138|open new editor tab when current file are not modified
+11139|please don't replace opened file!
+11140|Chinese MSBuild output gibberish
+11141|Electron Update 1.x
+11142|Unsupported format for ecmascript-rest-spread
+11143|The sidebar lacks Save and Open File buttons.
+11144|Check for Updates does not work
+11145|Add `Update all extensions` as a workbench command
+11146|TS: warn user when the globally installed version is 2.0 and tsdk isn't set
+11147|Seeing disconnect action when debugging extension
+11148|Recent folders list changes when opening folder in extension debug window
+11149|Clear output action takes 1 second to execute
+11150|If VSCode is opened first, Webpack cannot use any loaders (Node 6).
+11151|'open in explorer' should be shown at foreground not background
+11152|"Fix ""Clear output action takes 1 second to execute"""
+11153|EventEmitter listener leak warning while debugging
+11154|Stable input from extension does not resolve when opening another picker
+11155|vscode.SymbolKind.Constant has no icon in Show All Symbols
+11156|Canceling picker can close another opened picker
+11157|js/ts workspace symbol search only works if you have loaded a js/ts file
+11158|Extensions should auto update when searched for in the Marketplace
+11159|`provideWorkspaceSymbols` should still be called with an empty query
+11160|File events broken when opening workspace outside of a VM
+11161|Quick open perform slow when includeSymbols settings is true
+11162|File with complete match is not shown first in Quick open
+11163|Windows: circular symlinks protection lost
+11164|Vim: <kbd>ctrl</kbd> + <kbd>d</kbd> doesn't work
+11165|Multiple hanging dir/find commands for large searches
+11166|Windows: Investigate writing native library / command line tool for file traversal
+11167|Windows: lost ability to find files within > 255 characters path
+11168|First line cropped from integrated terminal
+11169|Methods on the object prototype are not suggested in the debug repl
+11170|Function arguments are not suggested in the debug repl
+11171|Primitives completion is not working
+11172|Built-in JavaScript constructs are not suggested in the debug repl
+11173|Allow to disable extensions selectively
+11174|Extension viewlet does not reflect runtime state of extensions
+11175|Completions on a string instance suggests 0, 1, 2, 3 which is really unexpected
+11176|ghjf
+11177|Missing suggestions in debug console for err object
+11178|[BUG] VS Code
+11179|Unexpected suggestion in debug console for variable named _
+11180|Editor fontWeight value completion missing values
+11181|Unexpected suggestions on an array - it suggests the indices of contained elements
+11182|"Terminal: ""terminal.integrated.fontWeight"" has no completion values"
+11183|node debug repl - global const not proposed as a suggestion
+11184|Node repl: consider to only show suggestions after first name segment/'.'
+11185|returning LaunchResponse with success = false causes exception
+11186|An Interactive Sequence Diagram Editor for VSCode
+11187|Optional methods in vscode.d.ts should be methods and not fields
+11188|Provide Restart Current Task action
+11189|eslint.fixAllProblems command not found
+11190|Debug launch progress does not stop when launching using integrated terminal
+11191|Every restart of a node application is creating a new integrated terminal
+11192|Filter by filename or filepath in Git Changes Panel
+11193|Provide a warning when an externalConsole attribute used in Launch
+11194|eslint github page does not have setup documentation
+11195|eslint: init command
+11196|No eslint configuration found
+11197|.eslintrc.js does not have suggestions
+11198|Terminal API: 'sendText' should be more specific
+11199|Stop icon changes on hitting first breakpoint
+11200|[css] Funny coloring of CSS property

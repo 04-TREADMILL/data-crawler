@@ -1,0 +1,100 @@
+14001|after pausing, breakpoint is not hit
+14002|Double clicking panel sash makes the panel minimum size
+14003|Incorrect inclusion of @types in a TypeScript project
+14004|Network mapped drive folder very slow - does not work
+14005|Fuzzy matching for intellisense
+14006|Missing Sublime command - Go to word
+14007|cpptools do not find definition of local variables
+14008|Missing Sublime command - find and select all occurrences of a symbol
+14009|Missing Sublime command - Increase / Decrease font size
+14010|"RFC: <script type=""ts/module"">"
+14011|Tree should expand/contract all when dir arrow and option modifier pressed
+14012|Support installing specific versions of extensions
+14013|add `code --list-versions`
+14014|"git status block ""master"" block ""find result"" window."
+14015|Merge backup path logic from node/fileService.ts into backupService.ts
+14016|Fix dirty tab indicator after hot exit restore
+14017|Как мне запускать консоль Java?
+14018|"Incorrect warning about ""vscode"" property in package.json file"
+14019|No formatter option for space between colon and type in TypeScript
+14020|javaScript code fold bug;
+14021|vscode code base - migrate to consuming typings from npm as supported by TS 2.0
+14022|It's better to follow symlinks recursively in Linux launch script
+14023|JavaScript & TypeScript formatting
+14024|Follow symlinks recursively in Linux launch script
+14025|When to support javascript and typescript intellisense in .vue file?
+14026|Declarative contribution of custom Tree Explorer
+14027|Navigating via require statements in JavaScript
+14028|Terminal open new line while typing
+14029|code --version does not print to stdout
+14030|Hot Exit: promise handling is often bad
+14031|Hot Exit: unused imports in some files
+14032|Hot Exit: properly deal with backups to files that got deleted
+14033|Hot Exit: avoid direct calls to fs.readdir()/fs.readdirSync()
+14034|Hot Exit: backup workspace handling should all happen on main side
+14035|Hot Exit: how do you deal with the same file opened twice in multiple windows?
+14036|Watermark commands not lined up
+14037|2 compilation errors in `gulp watch` from scratch
+14038|`Launch VSCode` target launches multiple window
+14039|JavaScript code coloring bug when comma separated var
+14040|Hot Exit: get rid of options.restoreBackups
+14041|Hot Exit: deal with backup workspaces that do not exist anymore
+14042|Hot Exit: backupService saves and loads a LOT
+14043|Hot Exit: push renderer backup logic into new backup service
+14044|Hot Exit: backupService.ts feedback
+14045|Hot Exit: Restore untitled files from within UntitledEditorModel
+14046|Hot Exit: do not load backup files to restore sync on startup in the renderer
+14047|Breakpoint doesn't work well with typescript + mocha
+14048|Hot Exit: textFileEditorModel has ugly duplication in load() method
+14049|Add Keymap & Video Help Menu Items
+14050|No syntax highlighting after CData? (screenshot)
+14051|Hot Exit: text file editor model does not discard a backup when saved
+14052|Hot Exit: Careful when you veto the shutdown from failing backups
+14053|Hot Exit: backup all ignores existing backups?
+14054|Hot Exit: backups are being discarded on shutdown even though file is not dirty?
+14055|MenuBar impossible to launch with Alt key on Ubuntu
+14056|Fix typos and consistency issues
+14057|Hot Exit: textFileServices.ts feedback
+14058|What can i do for err : self signed certificate
+14059|Editor doesn't insert white spaces when formatting html files.
+14060|Do not send 'indexed' as a default filter when sending a Variable request
+14061|Support additional styling in stylesContributions
+14062|problems console has warnings/errors of HEAD-file
+14063|The 'x' icon on the tab should be moved to the Left (from right)
+14064|update to electron 1.3.8
+14065|Cannot preview home page after creating EF code first models
+14066|Missing Sublime Text Command - Split selection into lines
+14067|Missing Sublime Text command - Expand selection to brackets
+14068|Missing Sublime Text command - Expand selection to indent level
+14069|Missing Sublime Text command - Go to symbol in project
+14070|IntelliSense tips rendering on top of others and with wrong height
+14071|Missing Sublime Text command - Break / wrap line
+14072|Missing Sublime Text command - Switch to single column view
+14073|Missing Sublime Text command - select open editor by index
+14074|Missing Sublime Text command - Change case of selection
+14075|Missing Sublime Text command - repeat
+14076|Missing Sublime Text command - expand selection to tag
+14077|Missing Sublime Text command - expand selection to scope
+14078|When hot exit restores neither files or untitled files from backup, no files that were open but not dirty are being restored
+14079|Missing Sublime Text command - select down to next auto complete suggestion
+14080|Fold the default settings by default
+14081|Missing Sublime Text command - wrap HTML tag
+14082|Missing Sublime Text command - close HTML tag
+14083|Horizontal Layout Workspace Setting
+14084|Missing Sublime Text command - fold levels 6-9
+14085|editor shows garbage from time to time
+14086|editor.formatOnType does not respect editor.insertSpaces setting
+14087|Visual Studio Code is not Light Enough
+14088|Lots of compilation error for Thenable<R, T> in `gulp watch` for master
+14089|Needed validation in `contributes.keybindings` for extension manifest
+14090|Creating a keymap extension - why is `key` necessary?
+14091|Fix #14058
+14092|Allow hold-down select to scroll terminal
+14093|Implement Hot Exit
+14094|Untitled files are not restored to their previous groups
+14095|Settings - fold all settings on initial open @sandy
+14096|onDidCloseTextEditor triggering on preview pane that is still open
+14097|[less] Bad highlighting for first parentheses in id-mixins
+14098|[less] Errors with !important declaration in variables
+14099|[less] Errors with multiple @import modes
+14100|toggleMaximizedPanel eats part of the first line of integrated terminal

@@ -1,0 +1,100 @@
+27201|Cannot read property 'uri' of null
+27202|Model is disposed!
+27203|Uncaught TypeError: Cannot set property '1' of undefined
+27204|e.charCodeAt is not a function
+27205|Model is disposed!
+27206|Cannot read property 'getFullModelRange' of null
+27207|Cannot read property 'getLanguageIdentifier' of null
+27208|Cannot read property 'getModeId' of null
+27209|Uncaught TypeError: Cannot read property 'focus' of null
+27210|Uncaught TypeError: Cannot read property 'isActive' of undefined
+27211|Collapsing PHP function with heredoc strings fails
+27212|Allow to set editor background/foreground when used as a widget (output, debug)
+27213|I can't type the pipe symbol in Visual Studio Code
+27214|Crash Report
+27215|debug.variablesDelay has no settings docs
+27216|What is abcLang?
+27217|Allow searching the Change Language Mode screen by associated file extensions
+27218|Selected word is not automatically placed in the 'find' field by pressing Ctrl + H
+27219|[Feature Request] Git progress on push
+27220|"VSCode gets stuck with ""The window has crashed"""
+27221|Use EdgeHTML instead of Blink on Windows
+27222|Highlight / Validate code in template string
+27223|Insiders not seeing an update since 5/23 on Windows
+27224|Bad Markdown rendering of lists in documentation on hover
+27225|html.format.wrapAttributes on handlebars template
+27226|Open in zen mode if file is opened directly from finder
+27227|"""move context cursor according to words"" is not intuition."
+27228|Slow getSupportedCodeFixes call on startUp
+27229|Makefile colorizing improvement: colorize at the beginning of line, handling the '\' symbol and other.
+27230|vscode.workspace.createFileSystemWatcher doesn't work outside the workspace
+27231|Git logo icon should be used for all git-related file extensions
+27232|Update theme-seti icon theme to use Git logo for Git file types
+27233|Match whole word doesn't work in search for non-latin characters
+27234|Allow Zooming on Small Images
+27235|error n warning not working
+27236|First-line breakpoint ignored when stopOnEntry is false
+27237|Support running via Docker on Linux
+27238|Cannot open a folder under my OneDrive folder
+27239|Explorer / Opened Editors Sorting
+27240|Tab to complete not working
+27241|Decoration text after decoration wrongly positioned
+27242|Merge-conflict decoration text disappears in high-contrast theme
+27243|smaller logo file for Tweet feedback, fix #9064
+27244|Minimap does not show selected section of code
+27245|Disable the just installed and not loaded extension won't updating the menus and reload button
+27246|Makefile colorizing improvement: colorize at the beginning of line, handling the '\' symbol and other.
+27247|SCSS placeholders not being syntax colored
+27248|Highlight action on Reload button label in extensions list
+27249|Hard to see if cursor is on column 1
+27250|Ability to get intellisense for external javascript files.
+27251|Fix #25965 Selectbox Dropdown theming and platform consistency [WIP]
+27252|Extract merge-conflict colors as workbench colors
+27253|VSCode is sometimes blurry on multiple displays as does not respect per-monitor DPI settings
+27254|Change TSS_DEBUG To Target Inspector Protocol
+27255|[WIP] Undo/redo history branching
+27256|Pickup all Tsconfig.json files in a workspace for tsc build task
+27257|Explorer panel toggling
+27258|Support opening workspace as a new native tab in existing window from CLI
+27259|Pickup all TSConfigs in Workspace for TSC Build Task
+27260|UI: Odd scroll bar design makes it unseeable
+27261|Add preview support for diffEditor
+27262|history search words.
+27263|cursor problem
+27264|Auto Prompt cursor problem
+27265|"Add   ""typescript.tsc.autoDetect"" setting to disable typescript task detection"
+27266|Running the contributed command:'extension.node-debug.startSession' failed.
+27267|UX Issue - Conflict with enter or tab using content assist
+27268|Test Plan for sticky docs in suggest widget
+27269|Test plan for built in emmet extension
+27270|Improve ranking of elements in quick open
+27271|Partial extension install blocks installing an extension
+27272|High CPU usage eslint and scss
+27273|Quick open action contribution is hidden by group label
+27274|Hotkeys vs language switcher
+27275|Emmet can't work
+27276|"UI: Add ""split tab vertically and horizontally"" tab's context menu"
+27277|Allow theming of debugging foreground in status bar
+27278|[bat] support %%(fix #26825)
+27279|Feature request - multi monitor support
+27280|Constant High CPU Usage (clean install no open project/file)
+27281|Better editor titles for generic file names
+27282|File save-as always fails on first attempt
+27283|Npm module debug not showing up in vscode debugging console
+27284|Include the GitHub link for an extension if available
+27285|Problemd with @import in scss files
+27286|Hotkey hints are not displayed in English [2]
+27287|Cannot start terminal on Windows
+27288|Settings deleted when install extensions
+27289|"Allow disable/uninstall of a ""soft"" dependency in an Extension Pack"
+27290|touch input not working for vscode
+27291|Let the task framework configure 'Press any key to close the terminal'
+27292|Can't go to line with error from problems tab
+27293|about `typescript.check.npmIsInstalled` or other bug ?
+27294|Add selection parameter to vscode.open command
+27295|Ctrl + e in integrated terminal (bash) when focused brings up command drop down
+27296|URL handler bring VS Code to the foreground
+27297|Go files not using 4 Space indentation specified in settings.json
+27298|Dvorak - QWERTY ⌘: show in finder command has wrong shortcut
+27299|Test: Dragging file paths to terminal
+27300|Opening panel scrolls editor, once per file

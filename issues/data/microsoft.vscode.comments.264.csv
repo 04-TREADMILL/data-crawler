@@ -1,0 +1,100 @@
+26301|"Okay I was able to resolve this after my network manager disabled SSL Inspection on my machine. After re-enabling it the issue comes back. I tried setting   > ""http.proxyStrictSSL"": true  After we re-enabled SSL (as the default was ""false"") but I am still unable to see extensions. Is this expected?"
+26302|@bpasero Any reproducing steps? It's likely not the language server that made up these resources. The language server just validates what he is asked to do.
+26303|Fixed by @bpasero via c423fe9, 9dede06
+26304|No steps, I am just using this tool in selfhost.
+26305|@aeschli actually found it: - open git.contribution.css - make a change - open the file in diff viewer
+26306|"Can not repro this both on win10 and os x. Do you still see the behavior with ""workbench.showEditorTabs"": false? If you reproduce it regularly can you please attach a short gif / or at least a screenshot  ![screen shot 2016-06-16 at 17 12 35](https://cloud.githubusercontent.com/assets/1926584/16121968/94676b92-33e5-11e6-8c6e-d7ec6f287e02.png)"
+26307|Done?
+26308|I have had the same problem with a vertical scroll bar not appearing using v1.2.1.  I was really digging the terminal window, but need to be able to see history so I may have to go back to another command window for now.
+26309|From the milestone and the tag of the commit, I have the impression this should be fixed in 1.2.1? Asking because it still reproduces...
+26310|There you go. You can also see all my settings on the screenshot. Btw., I notice my explorer view looks whole lot differently than yours. ![explorer](https://cloud.githubusercontent.com/assets/5485902/16122327/50ba8816-33ef-11e6-866e-a4f2762879d4.gif)
+26311|I find the old way nicer to read, more examples:  ![image](https://cloud.githubusercontent.com/assets/900690/16122392/2e8e0536-33e7-11e6-84db-c07acbfe84dd.png)
+26312|"ow ... and yes - it is all the same with ""workbench.showEditorTabs"": false. Also here I demonstrate it with split view, but it is all the same without splits."
+26313|@bpasero it is version 1.2.0 Again, if the laptop is offline, the code --version doesn't even work (nothing is displayed).
+26314|oookay ... found the difference between mine and yours - you have a folder opened. If I open a folder - all looks just as yours and ok, when I close the folder - then the above happens.
+26315|The document has URI `inmemory://model/3`. The extension host gets a document open event on it. The language client sends it the the css extension which validates it and sends back problems.  @dbaeumer @jrieken @alexandrudima Any opinons where we should cut the flow? IMO the css language service should not make decisions on what documents to validate, it is just a service. Maybe the extension host clients should not get document open events for diff documents. Or maybe the problem view should only show error for file resources located in the workspace.
+26316|"I created a batch file with contents `code --user-data-dir=""data/"" --extensionHomePath=""extensions/""`. On launch: - A data folder is created and populated, this part works fine. - An extensions folder is created, but nothing appears within it. When I try and `ext install base16`, it doesn't actually load and throws an error when I press escape to get rid of the dialog"
+26317|Wow, that seems to indicate a problem with Electron unless I am mistaken because we use Electron as node, correct @joaomoreno @Tyriar ?
+26318|Yes - this is as designed - you have a no workspace view and in that case we always show the open editors view. As soon as you open a folder for your workspace that setting will be respected.  If more users find this confusing I can reopen this issue and always respect that setting even in a no folder workspace.
+26319|Please reopen if you still see this with our new markdown extension.
+26320|Seems to work ok for me with our new markdown extension:  ![image](https://cloud.githubusercontent.com/assets/900690/16123181/68f4b352-33ea-11e6-9682-f1bfe451536f.png)
+26321|@rebornix @kieferrm did we loose the ability to provide custom CSS with the markdown preview?
+26322|Could It also be possible for users to define an overridable stylesheet to override the defaults? For example say I want to use twitter-bootstrap for my styles...
+26323|@kieferrm maybe a case for an extension for the markdown extension?
+26324|I am closing this because markdown is now a real extension like any other language.
+26325|Ok lets close this.
+26326|Verified that this still does not work with the new markdown extension.
+26327|Fixed with our new markdown extension.
+26328|Should be ok now.
+26329|Works now 👍
+26330|@isidorn works like a charm!  One issue: on success use the body.value as the new value for the variable, not the value passed as an argument.
+26331|These keys work for me.
+26332|Please reopen if you see with our new markdown extension.
+26333|@weinand great! Pushed the fix to respect the value returned.
+26334|I cannot reproduce with our new markdown extension.
+26335|I doubt we still support this with our new markdown extension, but I let @kieferrm comment.
+26336|Please reopen if you still see this with our new markdown extension.
+26337|Please reopen if you still see this with our new markdown extension.
+26338|I can still reproduce with our new extension.
+26339|Please reopen if you still see this with our new markdown extension we ship in June.
+26340|Please reopen if you still see this with our new markdown extension we ship for June.
+26341|+1 it's very annoying
+26342|Please reopen if you still see this with our new markdown extension we ship for June.
+26343|Please reopen if you still see this with our new markdown extension we ship for June.
+26344|Fixed!
+26345|Still an issue with our new markdown extension.
+26346|Even with our new markdown extension I still see issues rendering the bullets:  ![image](https://cloud.githubusercontent.com/assets/900690/16124272/93f6c604-33ee-11e6-8f17-5f8a560dd808.png)
+26347|This is still an issue even with our new markdown extension.
+26348|Still happens with our new markdown extension:  ![image](https://cloud.githubusercontent.com/assets/900690/16124420/2bb31f9c-33ef-11e6-95f8-29a4eb84c5ee.png)
+26349|Please reopen if you still see this in our June release.
+26350|We used to have a way to configure the CSS to use for previewing but I am not sure we lost this with our new markdown extension.
+26351|In this case I was opening the preview of 2 different markdowns, both named readme.md though.
+26352|This is still the case with the new extension. There is no model around to be updated.   @kieferrm I think the extension also needs to listen to file changes that happen to the file and do the right thing.
+26353|Running into this problem with 1.2.1 on Mac too.
+26354|Marking important because we look silly. Can we not just in the marker service ignore markers produced for non-file non-untitled resource schemes?   Is there a use case for seeing warnings in the left hand side of a diff editor or even on files on the git index?
+26355|Thanks for the response. I tried it out and it still uses the previously opened path. Try something like this: 1) Open up a source file. Say c:\squid\squid.cs 2) Open up another source file: c:\clam\clam.cs 3) Use back to reopen squid.cs 4) Open the file open dialog. The open folder will still be on c:\clam.   What I was suggesting is to set the open dialog's current folder to the document that currently has focus, regardless of how we arrived at that document.
+26356|Yes please ! Indentation Guides are needed!
+26357|@kliemohn there is still no scrollbar https://github.com/sourcelair/xterm.js/issues/77, but I believe this scrolling issue is fixed with the change to https://github.com/sourcelair/xterm.js
+26358|@jacdavis how do you open the file dialog?
+26359|I would be very cautious about changing the current keyboard short cut toggling behavior for the panels.  Developers get muscle memory (Ctrl+Shift+Y, Ctrl+Shift+U, Ctrl+`) for quickly bringing up and dismissing a panel and they likely won't be happy if it changes.  I don't think there is harm in having duplication with Ctrl+J to toggle any active panel.
+26360|Ctrl-O
+26361|I have the same issue with this update. It's easy to fix by re-downloading the installer, but still it would be better to have a button to re-download the update, or for VSCode to detect failed installs and re-download the update automatically.
+26362|Benjamin,  I lost another hour of my work and got little more details how it happened: 1. I made updates to a remote file 2. I saved the updates and I saw that the black dot near the file name disappeared 3. I lost connection to the remote mount 4. I recovered connection 5. The file in the section 'Working Files' started having the black dot and showing old version 6. I saved the file and override my changes.  I hope this will help you to fix this. Thank you.  Polina  ---  From: Benjamin Pasero notifications@github.com Sent: Wednesday, June 8, 2016 12:18 AM To: Microsoft/vscode Cc: pcherkasova; Mention Subject: Re: [Microsoft/vscode] Lost my work on unix mount (#6830)  Ok, meanwhile I am closing this.  ##   You are receiving this because you were mentioned. Reply to this email directly, view it on GitHubhttps://github.com/Microsoft/vscode/issues/6830#issuecomment-224509018, or mute the threadhttps://github.com/notifications/unsubscribe/ALjeguCT-bPENtAvn16w_5xmN6l8ecvXks5qJmzdgaJpZM4IlyWV.
+26363|Date: Thu, 16 Jun 2016 01:22:45 -0700 From: notifications@github.com To: vscode@noreply.github.com CC: euclimauro@hotmail.com; mention@noreply.github.com Subject: Re: [Microsoft/vscode] VSCode slow in scrolling (#7726)  @euclimauro Is this happening for you with any file content, or only a specific file? Would you mind doing a CPU profile so we can find out where time is spent. Here is me doing it:  F1 -> Developer: Toggle Developer Tools Go to Profiles tab Start a new profile Scroll around Stop the profile Save it and attach it here  — You are receiving this because you were mentioned. Reply to this email directly, view it on GitHub, or mute the thread.
+26364|Thats weird, works for me. See video:  ![editors](https://cloud.githubusercontent.com/assets/900690/16127475/e3bdcf1c-33fc-11e6-8287-b135d0d779b8.gif)
+26365|Sorry to hear that, thanks for the steps.
+26366|The output is suspicious:  ``` [20:03:41] [check syntax] C:/GitDevelopment/monaco/src/vs/monaco.d.ts [20:03:41] [check semantics] C:/GitDevelopment/monaco/src/vs/monaco.d.ts [20:03:42] [check semantics*] C:/GitDevelopment/monaco/src/vs/monaco.d.ts is an internal module and it has changed shape -> check whatever hasn't been checked yet [20:03:42] [check semantics] C:/GitDevelopment/monaco/src/vs/platform/actions/workbench/actionsService.ts [20:03:42] [check semantics] C:/GitDevelopment/monaco/src/vs/platform/actions/workbench/actionBarContributions.ts [20:03:42] [check semantics] C:/GitDevelopment/monaco/src/vs/platform/actions/common/commandsExtensionPoint.ts [20:03:42] [check semantics] C:/GitDevelopment/monaco/src/typings/lib.array-ext.d.ts [20:03:42] [check semantics] C:/GitDevelopment/monaco/node_modules/typescript/lib/lib.d.ts ```
+26367|@Tyriar this is likely a regression from my settings change.
+26368|This looks pretty similar to #5154 or #1896.
+26369|Note that the tabs setting is now called: `workbench.editor.showTabs`
+26370|I'm assuming (maybe) that this wouldn't be a difficult change -- so if someone had the time to point me in the vague direction, I would be happy to attempt to open a PR for this. :)
+26371|Still an issue:  ![image](https://cloud.githubusercontent.com/assets/2193314/16129190/ad913cba-33b8-11e6-8878-63511d082ca8.png)  The link portion of the image link should be white on dark+ just like regular links. I expect this:  ![image](https://cloud.githubusercontent.com/assets/2193314/16129231/d25402ee-33b8-11e6-92ad-e85d6cfc8497.png)
+26372|Opps, duplicate
+26373|Still occurring, just more obvious now:  ![image](https://cloud.githubusercontent.com/assets/2193314/16129269/0bb73c5e-33b9-11e6-8c94-6d3c6c18195d.png)  The style overriding link styling is:  ``` css .monaco-editor.vs-dark.vscode-theme-defaults-themes-dark_plus-json .token.markup.italic {     font-style: italic;     color: rgba(86, 156, 214, 1); } ```
+26374|ow ... clear ... though a bit confusing indeed.
+26375|Fixed :+1:   ![image](https://cloud.githubusercontent.com/assets/2193314/16129743/e32a34ce-33ba-11e6-91b1-89f5c817ab9f.png)
+26376|I just created a duplicate of this at https://github.com/Microsoft/vscode/issues/7789, it's more detail and more relevant though so I'll close this off in favor of it.
+26377|Some more problem cases:  ``` markdown ****bold italics**** ****bold italics**** ****bold italics****   \*\*\**italics**** ```  Output on GitHub:  ***_bold italics**_* ***_bold italics**_* ***_bold italics**_*  ***_italics_***  VS Code @ 93e65224d7598017bfa0b188a0d82b66a2ee9698:  ![image](https://cloud.githubusercontent.com/assets/2193314/16129989/10d0ce0a-33bc-11e6-8c55-c3abea58f98b.png)
+26378|![image](https://cloud.githubusercontent.com/assets/2193314/16130061/59c50446-33bc-11e6-98cb-dcd7bc4584b0.png)
+26379|"`code --version` is one of the first things that is checked. Literally the CLI process parses args and checks help and version in an ELectron process where `ATOM_SHELL_INTERNAL_RUN_AS_NODE=1`.  Here is [code.cmd](https://github.com/Microsoft/vscode/blob/master/resources/win32/bin/code.cmd):  ``` @echo off setlocal set VSCODE_DEV= set ATOM_SHELL_INTERNAL_RUN_AS_NODE=1 call ""%~dp0..\@@NAME@@.exe"" ""%~dp0..\resources\\app\\out\\cli.js"" %* endlocal ```  Which calls into [cli.ts](https://github.com/Microsoft/vscode/blob/master/src/vs/code/node/cli.ts):  ``` typescript export function main(args: string[]): TPromise<void> {     const argv = parseArgs(args);      if (argv.help) {         console.log(helpMessage);     } else if (argv.version) {         console.log(pkg.version);     } else ...other cases...      return TPromise.as(null); }  main(process.argv.slice(2))     .then(() => process.exit(0))     .then(null, err => {         console.error(err.stack ? err.stack : err);         process.exit(1);     }); ```"
+26380|This is OS specific, I know WIndows you can't but Linux you can select the text. Related: https://github.com/Microsoft/vscode/issues/3362  @dilijev also in v1.3.0 you will be able to use Help > Report Issues to automatically fill this info in for you :smiley:
+26381|@alexandrudima   Is it possible to add a setting for this? I prefer to keep proper whitespace indentation on all lines, including empty ones.
+26382|@forethoughtde I cannot reproduce. What is your `$SHELL` set to? Also do you have anything set in your settings.json?
+26383|@lnicola can you try the Insiders build and see if the problem still exists? https://code.visualstudio.com/insiders
+26384|Is there any plan for the merge UI to support three-way merging? (e.g. change a, change b, common ancestor)
+26385|I propose we do something like this to be consistent with the rest of the editor groups.  I've gotten feedback from a couple of PMs and have tried to make this future proof and simple.  ![terminal-tabs-b](https://cloud.githubusercontent.com/assets/11839736/16130876/00c89a16-33c0-11e6-8392-e10ce6be6f97.gif)  The overflow menu would be similar to what we have in editors ![overflow](https://cloud.githubusercontent.com/assets/11839736/16131110/49fd845c-33c1-11e6-81f1-ff4b54b2e74f.gif)  Advantages - We take less vertical space than putting tabs below - We follow the patterns set elsewhere - Simpler actions on the top menu bar  What do you all think?
+26386|"@bgashler1 it's difficult to differentiate between it and the editor because there's no ""Terminal"" title though."
+26387|@Tyriar Thanks, Insiders version works. Do you happen to know the commit that fixed it?  I'll close this soon anyway.
+26388|@gordey4doronin that is _subword_ navigation, which is being discussed in another issue.
+26389|@mrmlnc yes i am tried but emmet not working with this plugin
+26390|By analyzing the blame information on this pull request, we identified @kieferrm and @jrieken to be potential reviewers
+26391|Hi **@cbreeden**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+26392|**@cbreeden**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+26393|Interesting. That's the behavior I want but not the behavior I'm seeing. I am running on windows 10, not on Mac though. Could it be that?
+26394|I have exactly the same problem https://github.com/Microsoft/vscode/issues/7796 for the past 5-8 days and have been battling with it. I'd also like to know how this will be resolved. I am using Win 8.1 64 Bit
+26395|"Here you are:  sub parse_name {     my ($f, $m, $l, $s) = (undef, undef, undef, undef);     {         my $x = $_[0];         last unless defined $x;         $x =~ s/\s_(['-])\s_/$1/g;         my @p = grep /^./, split /[^[:alpha:]'-]/i, $x;         last unless scalar @p;         $s = pop @p if $p[$#p] =~ /^(I|II|III|IV|V|Jr|Sr)$/i;         last if scalar @p == 0;         $f = $p[0], last if scalar @p == 1;         my $mp;         for (my $i = $#p - 1; $i >= 0; $i--) {             $mp = $i, last if length $p[$i] == 1;         }         if (!defined $mp) {             ($f, $l) = ($p[0], (join ' ', @p[1 .. $#p]));         }         elsif ($mp == 0) {             if (scalar @p > 2) {                 ($f, $m, $l) = ($p[0], $p[1], (join ' ', @p[2 .. $#p]));             }             else {                 ($f, $l) = @p;             }         }         else {             ($f, $m, $l) = ((join ' ', @p[0 .. $mp - 1]), $p[$mp], (join ' ', @p[$mp + 1 .. $#p]));         }     }     ($f, $m, $l, $s); }  [cid:98af86f9-e187-4937-82e2-4b1f42fd60ab]  ---  From: Martin Aeschlimann notifications@github.com Sent: Wednesday, June 15, 2016 12:18 PM To: Microsoft/vscode Cc: pcherkasova; Mention Subject: Re: [Microsoft/vscode] Wrongly colored perl expression (#7270)  @pcherkasovahttps://github.com/pcherkasova Can you paste the full snippet?  ##   You are receiving this because you were mentioned. Reply to this email directly, view it on GitHubhttps://github.com/Microsoft/vscode/issues/7270#issuecomment-226291528, or mute the threadhttps://github.com/notifications/unsubscribe/ALjegk93Vsxvy65osD51geUidZ14JVU5ks5qMFAVgaJpZM4IvWwB."
+26396|@ventis07 nothing will resolve without reproducible steps or without answers to my question from above. No one in the VSCode team is able to reproduce this problem. So we need your help.
+26397|version 1.2.1. os:windows 10 bing  On Thu, Jun 16, 2016 at 9:21 AM, Sandeep Somavarapu < notifications@github.com> wrote:  > @kimmosh https://github.com/kimmosh Can you please provide which > version of VS code and OS are you using and any additional info would be > really great. >  > Thanks. >  > — > You are receiving this because you were mentioned. > Reply to this email directly, view it on GitHub > https://github.com/Microsoft/vscode/issues/7716#issuecomment-226419236, > or mute the thread > https://github.com/notifications/unsubscribe/ASwZaqKpf0mJOdLyzJSXKLjQzVjAVs6aks5qMQd0gaJpZM4I2PLI > .  ##   _-moshood oshindele_
+26398|https://github.com/Microsoft/vscode/issues/7796 has just the steps that produced the error. If you want i can send you the 4 different project folders and see if you can make any sense of it.
+26399|@ventis07 Could it be that your filesystem at 'd:' is a shared filesystem that is also available via a UNC path? What version of node.js are you using?
+26400|I dont really understand the 1st first of your response, can you explain better or tell me what to check in literal terms. The version of node.js is v4.4.4

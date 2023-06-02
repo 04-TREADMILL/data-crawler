@@ -1,0 +1,100 @@
+9201|C# intelisense and project loading no longer works
+9202|[Feature Request] Open with external Editor in Context Menu
+9203|Expand icon is lost when deleting a line using git and collapse the code.
+9204|"Infinite loop of ""The TypeScript language service died unexpectedly"""
+9205|Opening a file marks it as dirty though no changes have been made
+9206|Can't navigate to nested declaration with `ctrl-p`
+9207|Default width of extension list is too small and hides extensions' logo.
+9208|Blank when edit file from terminal
+9209|Added new commands to allow finer-grain line navigation
+9210|"""Invalid 'reference' directive syntax"" Typescript2 @types references"
+9211|[folding] missing outlining expander
+9212|Global Find/Replace with Regex not working
+9213|Sideloading an extension .vsix doesn't prompt the user
+9214|Clicking on links in the update toast message opens blank browser window
+9215|Autocompletion for {}, [], () is very intrusive
+9216|[Bug] tslint doesn't detect webpack aliases?
+9217|[js] 'property declarations' can only be used in a .ts file.
+9218|Malformed manifest.yml in project prevents opening of Bluemix panel
+9219|Keyboard key to open a file from the file navigator to the editor ?
+9220|Unable to start debugging. No terminal is available to launch the debugger. Please install Gnome Terminal or XTerm.
+9221|experimentalDecorators warning appearing even with tsconfig.json set
+9222|Typescript2 @types not being recognized by the compiler (still throwing errors)
+9223|Windows Explorer shows File type as Visual Studio Code for Files Set to Open with VSCode
+9224|debugAdapter Package.json does not respect OSType when nesting InitialConfigurations
+9225|Visual Studio Code cannot find runtime 'node' on PATH
+9226|terminal does not have scroll bar in the right.. it's very important
+9227|Cannot use keyboard arrows on terminal/bash on windows
+9228|Master
+9229|#31
+9230|Cursor does not align to indent when clicking empty line
+9231|Formatting does not work with Javascript files
+9232|Clicking a stack frame with no source causes its line number to disappear
+9233|Sluggish Powershell Terminal Behavior
+9234|Collect telemetry for #55
+9235|Unable to interact with Extensions list using touchscreen
+9236|ContextMenu in Editor/Title only available with Tabs active
+9237|proposal: lazy load language-specific extensions on first file that matches
+9238|Fixes #7749 - Focus on CodeLens click
+9239|Clicking an item in extensions viewlet draws focus border around the list
+9240|select multiple files in the tree
+9241|reveal in explorer opens in the background
+9242|Arrows left-right not moving in top menu
+9243|function jsdoc blocks interface and namespace and other issues
+9244|reparent editor container for #8579
+9245|outdated extensions are hard to find
+9246|"Cannot run with ""break on error"" anymore"
+9247|Duplicate extensions after creating new files while updating them
+9248|Fix task schema suppressTaskName and echoCommand defaultValue.
+9249|Hint at incorrect integrated terminal shell path if the process crashes immediately after launching
+9250|Editor not repainted when resizing the window while a deletion confirmation dialog is opened
+9251|Cannot open Code when an instance with admin rights is running
+9252|Extensions don't install
+9253|'revealIfOpened' flag should start at active editor
+9254|Folding icon collides with git decorations: Create a div per linedecoration
+9255|Debug extensions on Windows is painfully slow
+9256|VS Code creates .browse.VC.db and .browse.VC.db-wal
+9257|Looking at the compile results strains my eyes
+9258|Add code folding show/hide buttons setting
+9259|Shift-Return does not insert a newline.
+9260|Types suddenly not being recognised after installing extension
+9261|Give identifier that a file has been modified
+9262|C syntax - Match for pointer access added to c.json
+9263|Closing one of multiple editors for a dirty file forces save
+9264|(Feature request) Support for Multi-line template strings (backticks)
+9265|Keyboard shortcut containing non-US character does not work
+9266|[FR] use the same console for output as it is for debug
+9267|"VSC prompting: ""Save changes"" but there are no any changes in files."
+9268|extension to create task
+9269|Debt - eliminate deprecated __ language configuration settings
+9270|[BUG] Multiple Types of variable in TypeScript
+9271|Regression: No longer able to see source preview in Ctrl+hover
+9272|F1 stopped working in Visual COde
+9273|User configurable menus
+9274|Control over snippets
+9275|cannot copy paste from/to terminal
+9276|Can't get intellisense to link params for anonymous functions
+9277|Dragging tabs to another open window does not do anything
+9278|Debug hover does not understand language syntax
+9279|diff indicators offset collapse/expand boxes
+9280|Introduce a move command for the editor
+9281|Remove workbench.action.terminal.focus in favor of workbench.action.focusPanel
+9282|Feature request: Autocomplete for string literal types
+9283|Extension is not properly activated if a command is executed via context menu
+9284|Fails to open SD temp file when doing SD CHANGE if VS Code is already open
+9285|"Feature Request: ""enum"" launch config variable"
+9286|Changing a parent folder's name causes loss of unsaved file changes.
+9287|F8 Code Action Rendering
+9288|Problem view icon and hint type
+9289|Syntax error when use some of ES6 features ...
+9290|Entire window goes black except for sections on certain mouse input/movement
+9291|Add suggestions for key binding when clause contexts
+9292|Keeping open file history
+9293|Can't install some extensions behind a corporate proxy
+9294|Show extension recommendations error - Cannot read property 'ID' of undefined
+9295|Highlight error for function named 'is'
+9296|Previewing files in folder marks them as unsaved
+9297|Extensions: support for custom item in Tasks: Configure Task Runner
+9298|Auto indenting python code
+9299|Allow toggle line comment accurately when language only support nested block comment
+9300|Add boolean setting to control whether editor should jump to active file in files list.

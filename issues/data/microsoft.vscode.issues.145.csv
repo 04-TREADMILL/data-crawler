@@ -1,0 +1,100 @@
+14401|Hit count expression isn't validated
+14402|Proposal  to save the context of opened files
+14403|Debug loses current line breakpoint decoration
+14404|Can't resume second debug instance through toolbar
+14405|Exception in viewLines.ts
+14406|Call stack subtitle makes no sense in multiple debug configurations
+14407|Repl indicator is shifted a few pixels down
+14408|Evaluating expression in the repl takes two Enter key presses
+14409|Improve rendering of keybindings for combining accents
+14410|VS Code does not show any response when attaching to Shared Process
+14411|VSCode refuses to open plain text file that begins with digits
+14412|VS Code attach to shared process does not work with node2 type
+14413|Improve prompt when installing extension packs
+14414|Can't save everything, and Can't close vscode application
+14415|Find in file is not fast enough...
+14416|Two prompts when uninstalling an extension pack
+14417|"New CSS property ""contain"""
+14418|Can not uninstall a extension dependecy but can disable it
+14419|uninstall extension: Typo in error message
+14420|Having Invalid extension id results in 'Server returned 400'
+14421|[Request] Keybinding / scriptability of target pane for opening file with Ctrl/Cmd-P
+14422|vscode.extensions Doesn't Update On Installing / Removing / Disabling Extensions without restarting
+14423|Word suggestion seems to have been broken for a couple of days: existing word is not overriden
+14424|intelliSense should show exact match first
+14425|Code formatting for multiple languages in one file
+14426|Deleting `workbench.statusBar.visible` doesn't update View menu
+14427|"Option to duplicate file/folder in ""explore"" sidebar and then rename"
+14428|multi target debugging: floating debug action widget needs to show session
+14429|Move sidebar to left/right reopens Sidebar
+14430|Allow customization of the default panel height
+14431|Allow to use middle mouse click to open from viewlets pinned
+14432|Extension layout inconsistency when having update
+14433|Make messages succinct
+14434|Reconsider editor group layout keybindings
+14435|Editor group layout commands should work when there is only a single editor group
+14436|Powershell last statement output not seen
+14437|A full tab bar has a 1px wide section to the left of the actions that has the hand cursor but doesn't work as expected
+14438|Update should always show before Disable/Enable for consistency
+14439|Sometimes `cursor: grabbing` behaves weird when dragging an editor group
+14440|consider to use an existing file name when generating program attribute
+14441|Snap of editor groups doesn't work as expected when activating another editor group by clicking on an inactive tab
+14442|Preserve editor relative sizes when switching layouts
+14443|Update Extension - Error: unable to verify the first certificate
+14444|View menu Toggle Editor Group Layout does not show warning as Command Palette does
+14445|CSS autocomplete in html files not working on Windows
+14446|What scenarios is workbench.editor.defaultEditorGroupLayout designed to cover?
+14447|Add two categories to the package.json schema
+14448|Linux: DND of editor tabs flickers
+14449|Mac: mtime is not a good test for checking if a file is modified or not when updating <1s
+14450|UX: Extension should have visual indication of globally/locally enabled
+14451|Ability to display Symbols list on a Panel
+14452|Files opened by Drag/Drop do not appear in File > Open Recent
+14453|Bad layout for extensions with empty description
+14454|Default place for extension to store cache/data?
+14455|Add User Setting for Highlight.js Theme used in Markdown Preview
+14456|Add support for contextmenu key
+14457|Integrated Terminal eats half of the first line when you zoom
+14458|No type acquisition for built-in modules
+14459|Intellisense for 'configurationNames' in a composite launch config?
+14460|Debugger should not collapse whitespace when presenting string values
+14461|API: view management API for non-TextEditors
+14462|[feature] Quote selected text
+14463|`expandLineSelection` should include trailing `\n`
+14464|do not suggest attribute 'configurationNames' outside of 'composite' launch config
+14465|Control-clicking url in launch.json does bring Edge browser to foreground
+14466|Update to VSCode-Textmate 2.3
+14467|consider to generate paths with forward slashes only
+14468|Disabling Typescript and Javascript formatting does not persist
+14469|Wrong version of definition file acquired for JS project
+14470|VS Code should re-open all editors, and keep all the state after restarting VS Code to install/enable a plugin
+14471|Highlighter crashes for some reason related to whitespaces
+14472|UX: Visual indication for acquiring type definition file
+14473|Handle version mismatch between auto-acquired definition and local package
+14474|Option to uninstall only the pack doesn't add much value
+14475|Debug 'disconnect' icon changes to 'stop' while at a breakpoint
+14476|Can start two debug configs manually, if the first one is slow to start
+14477|Adding a variable to the watch window momentarily flashes UI
+14478|vscode.workspace.getConfiguration('') does not return defaults
+14479|Allow to compare untitled documents
+14480|Errors doesnt show up
+14481|cpptools auto-install windows debuger fail
+14482|Emmet i completion inside anchor
+14483|VS code not able to launch after installed
+14484|Intellisense for import-statements --> show folders/files
+14485|I cannot get menu bar once I have removed it.Like file edit view etc
+14486|Keep open all opened files
+14487|"Should not generate ""sourceMaps"" and ""outFiles"" configs in launch.json for *.d.ts files"
+14488|"Consider highlighting ""program"" line in launch.json after creating default configuration"
+14489|"""sourceMaps"" and ""outFiles"" configurations should be added if *.ts file exists, even if not open"
+14490|Update launch.json header text
+14491|Consider snippets for launch.json
+14492|Add support for Ruby on Rails (IntelliSense)
+14493|when i press command+S twice,the code file saved twice even i do not change any code
+14494|Trimmed cross (X) that closing the tab when a name is long
+14495|GUI stop working - all freeze (using git via ssh)
+14496|Save doesn`t work
+14497|Typescript 2.0.6 breaks formatter
+14498|Overlapping text in intellisense suggestions
+14499|'Explorer' getting opened by default
+14500|Zooming Out Keyboard Databinding Issue

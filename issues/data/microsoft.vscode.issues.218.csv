@@ -1,0 +1,100 @@
+21701|slow start on https://github.com/rsdn/CodeJam project
+21702|Insert Snippets using it's prefix stop working on version 1.10.1
+21703|Output disposal still shows output content
+21704|[loc][Query][VSCode] Please clarify meaning of the string
+21705|Chinese input method (Baidu), enter the Chinese cursor does not follow,
+21706|"""Report issues"" menu item does not work"
+21707|Autocompleting `class` after `abstract` inserts comments
+21708|[loc][Query][VSCode] Please clarify the placeholders
+21709|Keybindings editor's info tooltips are misaligned
+21710|insider version 1.11.0
+21711|Prompted slow startup issue
+21712|HTML language server broken in insiders
+21713|Minimap: screen does not move along when dragging below the minimap end
+21714|Settings suggestions are broken
+21715|AltGr (Right Alt) issues (HU keyboard layout) with plugins (or other Ctrl+Alt+ keybindings)
+21716|Intellisense in sass is confusing
+21717|Not getting css/scss suggestions since 1.10.1 upgrade
+21718|Create backup of settings file when making changes (for #21676)
+21719|Write backup file when updating settings
+21720|JSON language server error with settings
+21721|slow start
+21722|Change to Powershell breaks workflow for Elixir
+21723|Add Toggle Minimap command
+21724|error
+21725|ReplaceService: directly disposing IModel should be avoided
+21726|Crashing in debug model
+21727|Mistranslation in Japanese
+21728|Had solved the VSCODE
+21729|Can no longer click after this line in keybindings.json
+21730|Don't hide minimap slider
+21731|Zen mode file unsaved indicator
+21732|Option to set spaces after/before braces in import statements typescript
+21733|"Typescript - ""Add Missing Import"" Quick Fix not available in TSX markup"
+21734|"[suggestion] There should be a ""Goto Next Change"" in diff view"
+21735|Slow Startup Detected
+21736|Unexpected behaviour on quote wrapping
+21737|UX: Tab View and Indicators for Panel
+21738|Intellisense popup gets in the way. It should be locatable elsewhere in the UI
+21739|Unexpected breakpoint behaviour after changing code with breakpoint
+21740|Remove '+' from objective-c++ language id.
+21741|Unknown system crash
+21742|Minimap: add scale (font size) option
+21743|Cannot open previously opened files using editor's tabs
+21744|Merge objective-c and objective-cpp again?
+21745|[i18n] Some suggestions in command palette lack original English label in 1.10.1
+21746|Add extra single quote, when replace double quotes with CTRL+D
+21747|Add confirmation for folders and files movement in File Tree
+21748|Colour errors?
+21749|Cannot navigate the file using keyboard arrows
+21750|Slow startup profile
+21751|Hovering on icon them value when it is null is throwing NPE
+21752|Debug with Nodejs and nodemon keep getting restart upon 'Attach to Process'
+21753|Minimap: add a `alwaysShowViewport` setting
+21754|Not able to change keybinding for column select
+21755|Show tooltips on caret/cursor movement
+21756|Cannot get types for vue, vuex in javascript
+21757|error
+21758|Minimap in default settings editor looks broken
+21759|Monokai Dimmed theme does not show diff highlight
+21760|UX: Settings Minimap viewport size change
+21761|Support find/replace in selection for multiple cursor selections
+21762|kakita
+21763|Request: Debian auto package management
+21764|Allow control over quick diff decorations
+21765|Provide JavaScript TM scope for exported function names in Node modules
+21766|Slow startup
+21767|"Needs ability to provide ""user css"""
+21768|missing a important function!
+21769|Some way to increase list of recently opened folders
+21770|"""editor.wordWrap"": ""off"" does not work"
+21771|Starting debugger updates the file in current active tab
+21772|Release Notes re-renders & scrolls to top on view switch
+21773|Apostrophe breaks syntax highlighting for Ini files
+21774|Slow start up, asked to submit
+21775|Shouldn't 'occured' be 'occurred'?
+21776|Refactor fileService.ts
+21777|Unable to hide minimap on OSX El Capitan
+21778|Slow startup
+21779|Minimap does not highlight the visible part of the screen unless you hover on it
+21780|Closing tabs on save through ssh
+21781|Touch support can be improved in webviews
+21782|Slow startup issue
+21783|3-1-17 source build: Extension Viewlet  cannot search, install any extensions (NO Proxy)
+21784|Add option to always reuse open editors
+21785|Cannot turn off wordwrap
+21786|Introduce promises to fileService.ts
+21787|Render whitespaces  inside the selected block.
+21788|"""code ."" not working after 1.10.1 update"
+21789|Add setting to disable copy with syntax highlighting
+21790|"""Select to copy"" in integrated terminal"
+21791|Difficulty selecting horizontal text when wordwrap disabled and minimap enabled.
+21792|Allow a rectangular shadow to show focus on minimap
+21793|Panel header hit boxes should be centered
+21794|[themes] Allow different color in line number
+21795|Feature request: Set document language with parameter for changeLanguageMode command
+21796|1.10.1 Installer adds OSS version of Right Click Context Menu
+21797|markdown preview in zoom-in mode does not expand to fill all the available space
+21798|Website text easily gets jagged on download page
+21799|Center panel header hit boxes
+21800|Cannot navigate completions when signature help is active

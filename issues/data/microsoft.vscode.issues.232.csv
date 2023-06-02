@@ -1,0 +1,100 @@
+23101|RFC: Add git task queue for better git workflow
+23102|'Find all reference' won't close on pressing 'ESC' when no reference is found
+23103|Document semantics of onDidChangeTextDocument document changes
+23104|Enable keyboard support for meta-delete in Terminal
+23105|don't automatically change dir view
+23106|How to let the braces line feed for functions
+23107|How to clear the contents of the terminal
+23108|Insert Emoji by Ctrl+Cmd+Space in code break the current line
+23109|Copy from terminal should not retain new line characters for wrapped lines
+23110|"Wrong value of ""this"" in debugger (JavaScript Arrow Function)"
+23111|Should we allow to execute tasks in the extension host
+23112|Simplified Chinese translation issues list and fix (Part 1)
+23113|Fix polish char ł (ALT+L)
+23114|Request: single-line collapsed folds
+23115|Can'r register link handler if terminal is not visible
+23116|Link handler not firing
+23117|WIP: Early changes for adding cmnds in refWidget
+23118|[suggestion] SmartHide activitybar
+23119|Terminal link handler should return the matches not a single string
+23120|VSCode seems to reset FETCH_HEAD on its own
+23121|Feature Request - Optional Manual Formatting
+23122|Ask user to install missing plugins found in shared workspace configs
+23123|Sync settings between VS code application
+23124|Request: Classes inheritance evidence
+23125|Can't run node in vagrant image with integratedConsole
+23126|Upgrade Electron
+23127|Terminal task runner: multiple parallel tasks and the spinner
+23128|Failure to debug extension properly when a workspace is opened
+23129|[Insiders] Extension contributed commands in menus are broken
+23130|jsdoc @typedef reference don't work after a function declaration
+23131|Extensions proxy support
+23132|Add advanced, developer focused browsing functionality to vscode.
+23133|Unknown protocol in s23_clnt.c:794
+23134|Powershell start debug from console crash
+23135|"Prioritize snippets over code symbols when editor.snippetSuggestions=""top"""
+23136|Wrap with abbreviation in real time
+23137|Extend the Functionality of the JavaScript Language Service
+23138|F8 - go to next error - removes the cursor from the editor
+23139|when you do save all, it pastes the last copied data into the current active editor
+23140|Undo of multiple deletes causes incorrect TextDocumentChangeEvents
+23141|End of list is cut off in keybindings
+23142|Save All, overwrites the visible file
+23143|VS Code Will Not Update
+23144|Investigate exposing ITerminalInstance.onData as a propose API
+23145|Support Using  `...` To Terminate Markdown Yaml FrontMatter
+23146|Update to latest C# TextMate grammar
+23147|Duplicate entries shown in VS Code intellisense whenever type definitions (@types) are installed
+23148|Proposed Terminal API onData
+23149|Syntax Coloring fails on large files
+23150|Cannot use mocha --run anymore
+23151|Unfocused Tab Is Same Color as Focused Extension Tab Header (With No Tab Border) - Many Themes Affected
+23152|Feature request for Visual studio code
+23153|Autocomplete NodeJS modules
+23154|[Test] typescript.tsserver.log
+23155|Provide API to access breakpoints before debugging
+23156|Undo History & The Journal of Irreproducible Results
+23157|Intellisense does not work for filesystem lookup
+23158|Windows Error Reporting disabled?
+23159|Scrolling cause text line shake vertically.
+23160|VSCode doesn't launch at all on mac os Sierra
+23161|"Can't use ""open loaded scripts"" to load a URL with query params"
+23162|Support `...` terminating Yaml FrontMatter
+23163|vsce publish timeout
+23164|Show icons on Open Editors pane (bar) when collapsed
+23165|Accelerator for Adding Cursor Below Not Working on Windows
+23166|[html] add html validation
+23167|Show inactive 'gear' icon in Debug when launch.json is not present
+23168|It takes long time to open folder
+23169|Why my vscode can't use Toggle Word Wrap
+23170|Linux can't copy(Ctrl + C) content
+23171|Feature request: Search text in terminal
+23172|VS Studio code hangs on startup with an error message
+23173|HTML intellisense in PHP file
+23174|Incorrect fuzzy file finding behavior
+23175|What's the left blue line means?
+23176|Remove class snippet comment
+23177|Add abstract class snippet
+23178|#22622
+23179|Ability to change internal console refresh rate.
+23180|Debug settings window icon does not appear on Linux
+23181|Abyss theme changes for view zones
+23182|WordCla does not match WordCharacterClassifier
+23183|Cannot read property 'emittedStopped' of null
+23184|Feature Request: Commands to move the active tab
+23185|Reopen previous editor when trying to open a folder as link
+23186|[Git] Attempting to rebase interactively with VSC set as default editor does not display all commits
+23187|"Add new ""files.defaultLanguage"" configuration setting"
+23188|[HTML/JS] Syntax highlighting is wrong when </script> is commented out
+23189|"Quick access ""Quad Menu"" Feature?"
+23190|Recursive references count is wrong
+23191|Typo issue on welcome page in Spanish translation
+23192|cannot launch compound but can launch all individual configs
+23193|some questions about tips
+23194|vscode terminal disrespects `cls` command in windows
+23195|File paths not clickable in the output pane in Insiders
+23196|update docs wrt  settings and the when-clause
+23197|Chord not working when integrated terminal has focus
+23198|Choose a sort order of directories and files according to the settings pattern
+23199|centos 6-64 - not start
+23200|unable to launch vscode

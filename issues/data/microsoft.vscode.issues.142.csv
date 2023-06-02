@@ -1,0 +1,100 @@
+14101|[typescript] VS Code won't use lib ES2015 type definitions
+14102|Unable to next/previous via keybindings when diff editor is not focused
+14103|Feature Request: Drag and drop Watch variables
+14104|"Feature Request: Make package.json ""scripts"" click-to-run"
+14105|"Watches pane - ""Rename expression"" -> ""Edit expression"""
+14106|Diagnostic hovers adding indentation with \n
+14107|Regex can't support Zero-Length Assertions
+14108|A few error messages in my ts file
+14109|Hot Exit: properly restore dirty editors
+14110|Hot Exit: restoring file model issues
+14111|Lack of system functions
+14112|Peek Definition in custom location
+14113|Can't stage file with Merge Changes via `workbench.action.git.stage`
+14114|Editor - Bring back getModeAtPosition() semantics
+14115|Strange behavior when opening shortcuts in Windows
+14116|Cannot open file in VS Code if it's already opened
+14117|Marketplace requests miss certain headers
+14118|Quick fix disappears when cancelled
+14119|Quick fix lightbulb bleeds onto other editors
+14120|Quick Open widgets to open below tab/action bar
+14121|Unexpected behavior when exiting multiple selection
+14122|Debug freeze on large data set
+14123|Pasting into PowerShell Console is done in reversed order
+14124|npm start watch error
+14125|"Makefile ""nothing to be done for all"" error because VSCode uses Spaces instead of Tabs in Makefile"
+14126|Allow vertical split so terminal can be shown to the side of the editor instead of underneath
+14127|Insiders- Hot Exit - Cannot Open User Settings (property fsPath is null)
+14128|VS Code don't save large CSS file
+14129|"Code - Insiders won't start if the ""%APPDATA%\Code - Insiders\Backups\workspaces.json"" contains an invalid path"
+14130|Fuzzy matching in camelCase/subwords
+14131|"All projects from ""Open Recent"" list are opened after a new version has been installed"
+14132|Cannot read property 'title' of undefined
+14133|how to install extensions through cmd or cli
+14134|something wrong when type Chinese character
+14135|Searching for text (CTRL+Shift+F) is too slow
+14136|Invalid Marker Service State issue after compile task
+14137|The TypeScript language service died unexpectedly 5 times in the last 5 Minutes. Please consider to open a bug report.
+14138|Running VSCode on a remote machine (remote display)
+14139|[scss] two colons added when completing pseudo-selector
+14140|Feature request: jump to relative line number
+14141|Sync installed extensions.
+14142|Attempting to open a file from the commandline (or via git editor) fails to open file
+14143|Configure tooltip max width
+14144|PHP syntax highlighting without <?php
+14145|Error when replacing text quickly
+14146|Built-in extensions can not be disabled
+14147|Improve default settings formatting when folding is disabled
+14148|Test: 'reject' exceptions can be skipped
+14149|Test: multi target debugging
+14150|VsCode's Task.json and Gulp doesn't pass arguments correctly
+14151|Region / EndRegion not in line with PowerShell ISE
+14152|"[feature] Do not open local find dialog for keyboard driven ""find next"""
+14153|[Feature] Search/Replace: use a wildcard character in Replace field (RegEx Mode)
+14154|Output not respecting overwriting lines (process.stdout.write with \r)
+14155|! completion adding extra characters at end
+14156|Better visual indication that a task is currently running
+14157|Doesnt save and crashes a lot!
+14158|Don't hash untitled resource names for their backup paths
+14159|Introduce on model dispose events to ITextFileEditorModelManager and IUntitledEditorService and track in BackupModelService
+14160|The app opens then immediately closes without displaying any error
+14161|formatOnSave converting spaces to tabs
+14162|Integrated Terminal crashes with Exit code: 1
+14163|VS Code crash
+14164|Buffer untitled/text file model changed events and make the event type consistent
+14165|Stopping or restarting node.js debugger crashes vscode
+14166|Request: TextDocumentWillOpenEvent
+14167|Allow debug adapters to customize the behavior of the 'restart' button
+14168|Theme issue with template strings in Monakai
+14169|Many undos + Many redos freezes VS Code
+14170|SyntaxError: Unexpected token '...'
+14171|Debug console intelliSense not taking first char
+14172|Lamp icon is not clickable at the first hover
+14173|Multicursor intellisense only shows up on the first instance
+14174|when chinese in the file path, openning the integrated console error
+14175|Remove unnecessary call to registry at workbench startup
+14176|integrated terminal inconsistent single quote response
+14177|comment line short cut bug
+14178|Hot Exit: Support hot exit on folder workspaces
+14179|Why is cwd always set to application folder on Windows?
+14180|Right-click to Copy selection and Paste on Windows
+14181|VS Code does not build on Windows
+14182|[Feature Request] View the TMLanguage scope that is called in the editor.
+14183|Error building Visual Studio Code on Linux (dependencies)
+14184|Multiple issues while saving SVG files!
+14185|Unexpected tab completion
+14186|Git push hangs when authentication fails
+14187|Scroll multiple editors together
+14188|VSCode Intellisense do not work
+14189|VSCode hangs produces error when opening
+14190|Text upper and lower case commands as CoreCommand:
+14191|Launching VS Code without an internet connection gives a cryptic error message
+14192|Is it possible to add project folder instead of opening a new window?
+14193|wrong comment show 显示错误的注释
+14194|No longer able to open from filezilla.
+14195|Copy ´patse command line
+14196|The padding of markdown preview is broken when zooming up
+14197|Integrated Terminal can be a fantastic console emulator for Windows
+14198|Create Helllo World
+14199|`wordPattern` not supported in language-configuration.json
+14200|CPU hogging is back

@@ -1,0 +1,100 @@
+2601|Whenever vscode is open, other application windows not drawn properly
+2602|Code Crashes on Startup
+2603|Events for SALSA preview
+2604|Formatting large Xml files
+2605|surface the TRACE feature of node-debug
+2606|add emmet support for .erb and .php files
+2607|Node.js debug: Generated launch.json produces wrong program entry
+2608|VSCode does not respect window layout during debugging [Windows]
+2609|False positive: program path uses differently cased character than file on disk
+2610|InputBox: decorations are not indicated to screen readers
+2611|Seed the native file dialog with the parent of the currently active file
+2612|February Iteration Plan
+2613|VSCode accesses desktop.ini on start
+2614|VSC crashes when left open for extended periods
+2615|Add more entries from the About menu to command pallette
+2616|VSC slows down significantly after ~1 day of use, requires restart
+2617|Test new Marketplace API
+2618|Unable to debug while attached to process and ZoomText screen magnifier running
+2619|Poor screen reader support while debugging
+2620|Support wildcards for files when running from command line
+2621|Open in new editor problem
+2622|[0.10.7-insider] Debug Console only displays a single line of output
+2623|Add message that indicates you can press ESC to cancel a search, fixes #2494
+2624|More types for CompletionItemKind enum
+2625|[0.10.7-insider] Intellisense with Salsa shows the argument which is the closure compiler style generics in jsdoc as `any` type at the caller place
+2626|[0.10.7-insider] Salsa does not honor JSDoc for object methods
+2627|[0.10.7] input box empty value returns `undefined`
+2628|VS Dark + (default) theme not picked up
+2629|[html] Anchor tag with empty `href` attribute
+2630|[0.10.7] cannot preview html file from disk
+2631|feature request: Auto import dependencies
+2632|High contrast theme
+2633|Syntax highlighter results look differently in insider build
+2634|[json] intellisense eats colon
+2635|Dark+ theme JavaScript coloring variables bug [0.10.7-insider]
+2636|Add an option to ignore YAML front-matter data when previewing
+2637|Go to Definition is not working for simple js object
+2638|Git actions not centered
+2639|"Feature Request: ""Close all but this"" context menu option for working files"
+2640|Search: no a11y feedback for search results and search progress
+2641|"[php] Double-click ""$a"" in ""$a->b()"" highlights ""$a-"""
+2642|Goto definition to the side with mouse is broken
+2643|"Command ""Extensions: Install Extension"" missing when running vscode from source"
+2644|boolean is highlighted incorrectly in JavaScript
+2645|Fixes to C++ and C syntax
+2646|Add -h/-v command line args and linux/mac launch scripts
+2647|Column guide
+2648|Bad TypeScript example at your docs page
+2649|Can't highlight an empty line
+2650|Implement word wrapping for non monospace fonts
+2651|Files missing on workspace
+2652|Not getting insider updates
+2653|Feature request: Resize grip on find/replace popup
+2654|Windows Test fail: ExtHostTypes URI, toJSON
+2655|ASP.NET OmniSharp server is not running on Ubuntu Mono
+2656|"Provide action to ""Open definition to the side"""
+2657|[0.10.7] Pane highlight outline
+2658|"Feedback form ""how we're doing"". Incorrect character count when newline present"
+2659|"Not supporting TypeScript feature ""Polymorphic 'this' Typing"""
+2660|[js][0.10.6] Syntax highlighting after multiline strings
+2661|Use different color for 'console' output category
+2662|request 'launch': TypeError: Path must be a string. Recieved null
+2663|Half square focus around actions
+2664|remove mono-debug from VS Code and move it to market place
+2665|Disable insertion of whitespace on new line
+2666|IntelliSense in inline editor issues
+2667|Accessible Debugging
+2668|Breakpoints not working when using absolutes paths
+2669|Multiline quickinfo widget in 0.10.7
+2670|dnx run command fails when user home directory contains space.
+2671|Insider Update not updating
+2672|"[0.10.7-insiders] Can't launch ""Code - Insiders.exe"" easily from the command line"
+2673|"""Go to Definition"" does not work for locating types & methods external to project folder structure"
+2674|crashes during coding several times per day
+2675|Create .deb package for Debian-based Linux distros
+2676|Insiders release not installing
+2677|Add LICENSE link to command palette for installing extensions
+2678|console output doesn't appear on separate lines in Windows
+2679|Go to Definition does not work when using AMD
+2680|Oceanic next color scheme support
+2681|Node debugging crashes after console output after update to Node 4.2.6
+2682|Support to open a project folder in multiple VS Code windows
+2683|REM keyword in batch files is no longer displayed as comment
+2684|[0.10.7] Should a developer's name show up in source for insiders build?
+2685|Atom.io like multiline support for snippets
+2686|Gather metrics on Linux distribution
+2687|Update documentation on package.json
+2688|CSS value auto complete behaviour applies less frequently
+2689|[JavaScript] 'this', 'super' and 'default' should have 'variable.language' scope
+2690|[JavaScript] 'from' should have 'keyword.operator' scope
+2691|[JavaScript] 'window' and 'console' should have 'support.class' scope
+2692|[JavaScript] Functions calls should be scoped
+2693|Should the js scope also be added to jsx files?
+2694|[themes] JS broken with Dark and light (Visual Studio) themes
+2695|CSS not syntax highlighted or auto-complete in SVG like it is in HTML
+2696|Go back and forward keyboard shortcut does not work sometimes
+2697|Test omnisharp installation hint
+2698|Use the List widget in the Suggest widget
+2699|vscode does not seem to support mixed source map locations
+2700|"""Close All Files"" action can leave the editor area stale and broken"

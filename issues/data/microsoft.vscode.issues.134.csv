@@ -1,0 +1,100 @@
+13301|"TypeScript: Importing file from parent directory (""../"") causes invalid autocomplete"
+13302|Error in debugging ->  Security context: 0000016C78CC9FC9 <JS Object>#0#
+13303|search.exclude not working
+13304|Feature request: Jake tasks integration
+13305|Feature request: Npm scripts integration with tasks
+13306|JSON property value IntelliSense
+13307|Support large image more than 1MB
+13308|Ability to hide activity bar!
+13309|Format typescript code does not work properly with comment
+13310|Review actions that should persist their state into settings
+13311|Enable more than one window on the same workspace
+13312|Configure Workspace Configure Workspace 'extension'
+13313|Integrate the 'Open in VS Code' exploration
+13314|Many keys are broken on linux, making the editor practically unusable
+13315|Add automatic proxy configuration support in windows
+13316|Write window zoom configuration to settings
+13317|TSServer crash
+13318|Debugger throws when debugging code which references a source map but the map file is missing.
+13319|Allowing richer integration with integrated terminal (co-processes)
+13320|Make sidebar position a real setting
+13321|Syntax highlighting broken in hover widget
+13322|[loc][Query][VSCode] Please clarify string
+13323|make update automated in ubuntu
+13324|October Iteration Plan
+13325|vsix opened as text file
+13326|want to disable auto format feature of editor
+13327|Remove incorrect ANSI escape code for LF
+13328|Typescript suggestions very often stops working until I restart vs code
+13329|Need a way to test in-product release notes with insiders and vnext content
+13330|tsconfig.json is not being taken in consideration
+13331|Missing jsconfig.json attributes
+13332|Show folder for tabs with same file if opened in another group
+13333|Terminal should be aware when a command execution finishes
+13334|GIT could not be used
+13335|Investigate into 'launch.json' usability improvements
+13336|Git sync info
+13337|Regex for empty lines ending with \n should highlight only empty lines
+13338|PHP executable not found. You need PHP 7 installed and in your PATH
+13339|Move scanning of extensions to Renderer process from Extension host process w/o blocking
+13340|Eng - dogfood format support (format all, agree on options, keep the code formatted) @jrieken
+13341|Symlinked directories on remote linux boxes - SFTP net drive
+13342|"Rename ""Synchronize"" command to ""Pull & Push"""
+13343|"VS Code keeps displaying info alert: ""The workspace folder contains TypeScript version 2.0.3."" even though I removed TypeScript from my project"
+13344|Find and Replace dialog covers content
+13345|Document close events not triggering unless tab is focused first
+13346|Remember editor view state for readonly editors
+13347|"""Path must be a string. Received null"" when debugging node"
+13348|Copy-Paste Broken
+13349|visual studio code is not responding it keeps on telling me to restart, keep waiting or close in a pop up window
+13350|Open folder from built in terminal
+13351|Find and replace regex match should include newlines in \s
+13352|Relative paths and paths without columns not linked in debug console
+13353|in html & cshtml doc ,  under  the <script> ,i can not use javascript  Code hints
+13354|when vscode 1.6.0 publish?
+13355|reformat typescript sources
+13356|Can't launch integrated terminal
+13357|unsaved file is visible when reopen vs code
+13358|Add the outline display function
+13359|Not GIT found in system :S
+13360|Reversal of scrolling is ignored
+13361|Add an option to turn brackets matching on or off
+13362|Allow to right click on File to Open in New VSCode Window
+13363|tip is false
+13364|Feature Request: Add Assembly syntax support
+13365|Can't get tip from require module
+13366|Python doesn't debug with breakpoints
+13367|Please provide an action to toggle indent guides
+13368|top level menu hotKey ALT + Ф on RUS localization, broken
+13369|Keyboard short for duplicating selection
+13370|reimplement spread operator for node 4
+13371|VSCode icon will disappear from dock once restart the mac
+13372|compare can't show file as GB2312
+13373|Add support function #13032
+13374|The window does not respond every few minutes
+13375|Can you allow to always show VSCode window on top
+13376|Configured debug type 'extensionHost' is not supported.
+13377|Add syntax color to theme-seti
+13378|rename fileicons->icons
+13379|An extra underline in js auto-complete
+13380|Shorten file path of files with same name
+13381|Sort the installed extension list
+13382|Direct Acces to Terminal
+13383|Missing rule for not inserting spaces after/before braces
+13384|No way to interact with definition hover preview
+13385|[BUG] The vscode can't correctly parse definition!
+13386|Mac OS: Allow to save files that need user elevation
+13387|Debugging within vscode using Babel sourcemaps.
+13388|Overwrite Output Panel
+13389|improve default color support
+13390|relative line number stop working after changing TextEditor.options through API
+13391|Could not open VS Code from Unity
+13392|Info/Error Bar messages should specify their source
+13393|Shortcut to recently opened projects / folders to open VS Code with
+13394|Want to increase the multi-cursor function
+13395|Rename unsaved file should still keep the file content
+13396|Emmet completion doesn't work after button with (click) event in typescript with Angular 2.0
+13397|Change extension recommendations to be dynamic
+13398|Garbled code output
+13399|Non-menu bar shortcuts are mapped incorrectly on Dvorak
+13400|Feature Request

@@ -1,0 +1,100 @@
+11601|GIT not working. No errors shown in GIT console
+11602|Auto format code incorrectly with .js in React -native project.
+11603|Whole UI scrolls up
+11604|Changes to http_proxy settings do not take effect in Extensions viewlet without reload
+11605|Migrate OutputMode off CompatMode
+11606|Extend C# IntelliSence suggestions list to symbols out of current using directives.
+11607|"add the ""bin"" options in launch.json for custom debugging"
+11608|Sub menus by extensions in explorer context menus
+11609|How to seek to end-of-line of a wrapped line?
+11610|Multi-cursor glitching while typing quotes
+11611|Build broken on ARM
+11612|CTRL+C Copy function with empty selection should not override existing copied content in the memory. only if there is selection it should replace the content.
+11613|Added new command to switch between workspaces
+11614|Support for markup languages
+11615|Incorrect syntax highlighting when comment end characters in quoted string
+11616|[scss] Syntax highlighting breaks on rules places after a nested selector
+11617|[loc][Query][VSCode] Please clarify the string
+11618|[loc][Query][VSCode] Please clarify the meaning of the string
+11619|StatusBarItem.hide() is noop if color got changed as well.
+11620|allow themes to be applied to the side panel not just the editor
+11621|Enable customers to profile the extension host
+11622|Go to File menu problem - Always open a new file at the same tab
+11623|`code .` crashes if opened directly or from lxterminal
+11624|Rename symbol
+11625|Add an option to disable closing open files that are removed from the directory
+11626|First execution of PowerShell script changes context into debugger
+11627|Open new tab for same file name under different directory
+11628|Debugging with new TS async/await
+11629|Remove comments when reverting previous commit message
+11630|Debugger issue with sourceMaps if sourceMappingURL string present
+11631|"""experimentalDecorators"" and ""types"" properties can't coexist in tsconfig"
+11632|Make TextMate scopes available for extensions.
+11633|I cannot execute powershell commands from vscode using F8
+11634|"VS Code will go into ""background"" mode if the window looses focus while the cursor is within the popup terminal but will not resume focus in the editor once you switch back."
+11635|Feature Request: Snap Quick Access Debugger Controls to Different Sides/Add Workspace Option
+11636|Debugger viewlet not choosing the right target
+11637|Keep pressing a key causes VSCode to hang up
+11638|List installed extensions in issues created via Help > Report issues
+11639|Explain change to terminal API coming in v1.6
+11640|"Diff: support ""compaction heuristic"""
+11641|Exit Console With Error Code 1
+11642|Laggy scrolling behaviour while scrolling up and down using arrow keys
+11643|How to find out which node vscode is using
+11644|When i edit an png outside vscode , it will not change if i refresh
+11645|file package name and directory inconsistencies， delete import
+11646|Support parsing recursive make build output messages from tasks.json
+11647|Allow problem matchers to change the filePrefix
+11648|Redone YAML grammar
+11649|Unable to install extensions behind firewall, no error message in UI
+11650|SCSS file keeps freezing the editor
+11651|Tag icon-themes with tag icon-theme
+11652|Search Stops working
+11653|Allow to switch windows via picker
+11654|Variables tree out of order
+11655|Set user agent for Marketplace icon downloading
+11656|Wrong highlight with minified javascript code in HTML(PHP)
+11657|Details Marketplace request has no userAgent
+11658|Missing telemetry: downloadVSIX timer event
+11659|Git status bar takes a long time to show new branch is checked out
+11660|Fix timed telemetry events
+11661|Emmet extensions_path option
+11662|Configuring launch.json to launch app with piped output?
+11663|"Allow remoteRoot also for node ""Launch"" action (for custom launchers)"
+11664|Sub menus by extensions in explorer context menus,item menus
+11665|Diff doesn't accurately minimize the number of diff hunks
+11666|File model cache can end up with stale, disposed entries causing issues
+11667|"Can not assign ""Show Opened Editors"" command to a keyboard shortcut"
+11668|How to break line with `commands.executeCommand`
+11669|App Freeze on huge JS files
+11670|Feature request: 'Ignore comments' checkbox in the 'Find' dialog
+11671|Editor view port jumps without a need
+11672|Allow extensions to get TextDocument character encoding
+11673|Multiple open instances, same PWD env
+11674|Get completions from debug adapter in watches pane
+11675|WARNING: Promise with no error callback:3
+11676|Ctrl+P Opens a file in a same tab.
+11677|Diagnostics don't show in monospace font
+11678|Feature Request: like style-token of notepad++
+11679|FAILURES ON SCOPE SELECTORS
+11680|formatting jsx files stopped working
+11681|console.log() items are added to tasks list
+11682|Add shellPath to allow user specify preferred shell. Fix #10917
+11683|Files appear empty after August 2016 updated
+11684|Regression: Unable to bypass ssl verification any more for corp firewall
+11685|Applying Icon theme BSD
+11686|Intellisense in comments disrupts flow
+11687|Icon & indentation visual issues in file list after upgrading to 1.5 on OSX
+11688|TypeScript: nested generic detail incorrect
+11689|Show default value for settings in Extension Contribution section
+11690|"Add configuration to remove group labels from ""Opened Editors"" view"
+11691|User snippets are in the wrong order
+11692|Update downloads but fails to apply
+11693|"OSX: Keybinding for cmd+e is wrongly mapped to ""actions.find"" instead of ""workbench.action.quickOpen"""
+11694|Focus is dropped from editor when saving settings.json with a change to editor.fontSize
+11695|Markdown : Keyboard shortcuts
+11696|terminal focus key binding is not working correctly after update to 1.5
+11697|VSCode Editor is empty for all files
+11698|OSX: ctrl+n/ctrl+p no longer cycle list item selection in command palette
+11699|VSCode will not start--minimist module missing
+11700|Don't respect editor.fontSize: 0

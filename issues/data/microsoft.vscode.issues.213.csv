@@ -1,0 +1,100 @@
+21201|Attach to Process + Node v0.12.6 (Linux) fails to detect node version
+21202|column location appears for some single-statement constructs
+21203|Brace highlighting also selects column pointer
+21204|Column pointer doesn't allow insertions immediately before pointer
+21205|Breakpoint hovers do not appear directly over instruction pointer.
+21206|Opening a file in my Downloads folder opens /
+21207|JSDoc IntelliSense for anonymous functions doesn't include parameters
+21208|[WelcomeUX] Open folder action missing telemetry on outcome
+21209|Consider adding basic intellisense for JSDoc properties
+21210|VS Code console.log is no effect
+21211|Suggestion: for breaking comma separated values into rows
+21212|typescript语言服务意外中止5次
+21213|Quickpick items search reveals octicons used in the items
+21214|[extensions] Quickpick enhancements
+21215|SCM layout problem
+21216|Stage selected lines does not show in git comparison view
+21217|Is there a way can change hidden file color in sidebar?
+21218|I have upgraded TypeScript to 2.2.1, but the TypeScript service still crashes
+21219|Selfhost: imports from quick fix are relative and not absolute
+21220|Goto definition feature
+21221|SCM: no longer seeing an error when file is not formatted
+21222|Vscode does not automatically refresh after external file changes
+21223|This file will not be displayed in the editor because it is either binary, very large or uses an unsupported text encoding
+21224|Keep Side Bar position per window
+21225|Add Opacity-Setting to Minimap
+21226|Improve guidance when attaching through legacy launch config to node > v6.9
+21227|HTML formatting problem
+21228|CodeLens doesn't work for folded lines when switch back to original file
+21229|wrong spelling
+21230|Search: no longer possible to open an editor to the side using keyboard
+21231|smartStep/SkipFiles and stopOnEntry=true should stop at first actual source line mapped
+21232|Wrapping settings are confusing
+21233|Make command palette remember the last command
+21234|Settings enum descriptions: Don't include enum value
+21235|I wish for a DEB/RPM repository to add to my list, so I can update using system package manager
+21236|CodeLens cant display number of references in chinese version
+21237|打开最近的文件这里，出来的都是文件夹而不是文件。。
+21238|Exception widget: Make the exception text respect the newline characters
+21239|Search-and-replace in more than one file
+21240|[Mac] window.titleBarStyle not applying in fullscreen
+21241|File endings abbreviated in Quick Open
+21242|Error and unexpected behaviour when deleting file
+21243|Auto save onEditorFocusLost should only save when focus leaves the editor
+21244|Alternative character helper dialog misplaced
+21245|SFTP & SSH Remote Projects Support
+21246|Typescript file issue in Visual Studio Code
+21247|Double enum name hover
+21248|Commit with bad formating silently fails
+21249|Git's clean all, delete all files in local machine.
+21250|Problems panel doubles warnings and errors
+21251|TypeScript service warning
+21252|WorkspaceConfigurationService.lookup does not contain value 'null'
+21253|Remove duplicate calls to URI.toString()
+21254|[Bug] Move line up in folded code
+21255|Git open file action not working when diff view shows no changes
+21256|Javascript Intellisense Often Does Not Work
+21257|Suggestions: filterText not easy to use
+21258|Single line code collapsing
+21259|Fix for WorkspaceConfigurationService.lookup does not contain value 'null'
+21260|task spinner in status bar doesn't stop
+21261|Toggle Word Wrap should not write to user settings
+21262|Editing TSX randomly makes the --type=extensionHost process use 100% CPU
+21263|Slow performance starting VS Code, same with --disable-extensions
+21264|HTML formatting with multi-line attribute values
+21265|Visual Studio code sidebar Vertical guideline (customize sidebar)
+21266|Exception widget resizing
+21267|program parameter in launch.json for a node app changes 'commander' to 'command:r' and doesn't find program
+21268|Exception message text to be selectable
+21269|Revert single change from diff view
+21270|Exception widget: Enable context menu for the exception message
+21271|Leverage configurationDefaults for languages that we bundle with VS Code
+21272|Notifications - show which extension they came from
+21273|SCM commit message box uses theme background color
+21274|[WelcomeUX] Panel doesn't look right in interface overlay
+21275|Files have other files text.
+21276|SplitLinesCollection: attempt to access a 'newer' model
+21277|Cannot read property 'lineNumber' of null
+21278|l._setExceptionValue is not a function
+21279|Cannot read property 'getLinesContent' of undefined
+21280|Unknown injections for grammar <source.json>
+21281|Unknown injections for grammar <source.ts>
+21282|Minimap doesn't react to theme changing
+21283|Cannot debug typescript with node.js
+21284|makup and mermaid extensions are not working
+21285|SymbolKind.from and SymbolKind.to do not map SymbolKind.Field
+21286|Restarting inspect debugger restarts it in legacy mode
+21287|"Added ""Git: Pull (Rebase)"" to workspace actions."
+21288|quickopen and quickoutline will now show the field icon for field symbols
+21289|sometimes renaming javascript variable does not work
+21290|Align mouse events sequence with browsers which support native dnd
+21291|Intellisense not working on composed function
+21292|How do I open VS Code to a specific folder at startup?
+21293|Terminal: Opening source editor dims color
+21294|"textDocument/didOpen now sending ""git:/"" prefixed URIs"
+21295|When quitting Google Chrome, VSC is automatically terminated.
+21296|Typing Open Bracket Then Close Bracket Produced Unexpected Result when Text is Selected
+21297|Add base url to tsconfig.json for VSCode
+21298|Select disparate sections (i.e. noncontiguous regions) of text
+21299|Change variable object value by double clicking
+21300|C++ Syntax Hightlighting acts strangely with multi-line defines.

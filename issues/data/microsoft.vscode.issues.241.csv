@@ -1,0 +1,100 @@
+24001|cannot create new git branch after upgrade to 1.11.0
+24002|Renaming a file with just character casing changes and editing it with any editor action like rename symbol, opens a file with the previous name and edits it
+24003|Diff/search doesn't work, when a git projects is in an network folder
+24004|Solarized Light theme highlighting issue
+24005|"when opening my home directory, the output is filled with ""git rev-parse --show-toplevel fatal: Not a git repository (or any of the parent directories): .git"""
+24006|Prevent adding a new source in sources.list.d
+24007|Neo keyboard layout: Some Keys stopped working
+24008|British Keyboard Layout: System keymaps overridden
+24009|Tab tooltip changes depending on whether text is hovered over or the outside of the tab
+24010|Ugly Editor Bug with typing
+24011|Bug: Commenting code in JSX files
+24012|Enhancement Request - 'Alt+Down' step over collapsed content
+24013|JS autocomplete (suggestions) work wrong
+24014|** in search.exclude glob should work the same way it did before
+24015|Hot exit: Lost editor contents on upgrade
+24016|Missing (un)stage lines actions above the editor
+24017|Hot exit: Lost editor contents on upgrade (fixes #23999)
+24018|French AZERTY keyboard layout: Fold/unfold defaut keymaps broken on OSX
+24019|Wrong color for solarized light theme
+24020|drag and drop
+24021|vscode 1.11.0 deleted most of key-binding on Fedora for Russian keyboard layout
+24022|Can no longer switch between header/source in C++ file
+24023|April Issue Grooming - review, categorization, assignment
+24024|There should still be a command to go to the JSON view of keybindings
+24025|webtiger
+24026|Enable AppInsights for vscode-update
+24027|1.11 reg : unable to search in personal settings
+24028|NumLock/NumPad keys stopped working in 1.11 on Linux
+24029|Markdown (.md) preview (CTRL+SHIFT+v) not working
+24030|Extension host is flooded with code action requests
+24031|Upgrade to 1.11 loses data
+24032|[Feature Request] Support for low-latency remote development
+24033|Update prompts are too aggressive
+24034|Enhancement Request: Need markdown preview support MathJax
+24035|sync VSCODE extensions, themes, short keys... in my all devices... windows, mac...
+24036|workspaceRoot invalid on Git Bash and WSL
+24037|Improve task API and adopt gulp extension to it.
+24038|Investigate driving quickopen with ripgrep
+24039|Problems: double click should move focus to the editor
+24040|Debug: unable to create launch.json when diff editor is open
+24041|CTRL + Mouse Wheel to zoom in/ou
+24042|SCM: disable resource group actions when they do not apply
+24043|[css] support cancelation requests
+24044|Debug output: Detected links are incomplete
+24045|Can't open same folder in multiple instances of VSCode
+24046|Can't open multiple instances of VSCode without using File->New Window
+24047|Fast click global continuation searching
+24048|Default keybinding problem
+24049|Multicursor with alt+ select with left_mouse, sublime-like
+24050|Add a default keybooard shortcut for toggling the integrated terminal
+24051|Just wanted to say thanks.
+24052|HTML Format and Jekyll Front Matter
+24053|Opening a file replaces the last opened file in the editor, instead of being opened alongside it
+24054|SCM: Set placeholder text in SourceControlInputBox
+24055|User snippets not being suggested
+24056|Keep being asked to login to Github
+24057|feature request: allow a keybind to ignore useCodeSnippetsOnMethodSuggest.
+24058|Some private variables are not displayed in the debugger window
+24059|"Backspace between the beginning of the line and the first non-space character should erase a ""tabful"" of spaces"
+24060|Не видно обновления файлов из-за вспывающих панелей вверху
+24061|Lost feature: fading out files in the SCM tree not under root directory
+24062|markdown perview  is sometimes notwork
+24063|c/cpp bad highlighted (wchar_t)
+24064|Add embeded browser
+24065|Accented characters are not shown correctly in shortcuts editor
+24066|Foreground syntax theme wrong   ...
+24067|Shortcuts editor's heading overflows in italian
+24068|Warnings for long commit messages does not work anymore
+24069|code --prof-startup
+24070|Pasting code in the console (powershell) provokes a 'tab' keystroke
+24071|Delete, Insert, Home, End, PgUp, PgDn, and arrow keys no longer work editor in 1.11
+24072|Git sync animiation not shown
+24073|File icons for default languages outside of VS Code (icons in Finder)
+24074|Git not autorefreshing
+24075|April Iteration Plan
+24076|TMux: Copy and paste commands not working on Mac OS
+24077|Extensions install from marketplace copy item - prompt or install automatically
+24078|Source control not working
+24079|spawn npm ENOENT on windows for npm tasks.
+24080|Lastest 1.11.1 update wiped out the contens of my unsaved tabs.
+24081|json syntax highlight broken
+24082|Keybindings get locked to selected keyboard when opening program
+24083|Accessibility: List widget keyboard access to actions
+24084|Custom defined key binding for git.openChangeFromUri does not work
+24085|Intellisense for node modules and local imports appears to be broken in v1.11.1
+24086|Release notes tab does not remember scroll position
+24087|"missing the action of ""Staging a selection of code"""
+24088|Missing the opportunity to create a branch from the status bar
+24089|No visual indication that git sync is happening
+24090|Quickly blinking cursor in terminal if you open and quit external app
+24091|Display black window after opened VSCode in MacOS
+24092|[Bug] Typing closing bracket ']' in regex search not possible
+24093|A horizontally scrolling column view
+24094|"Still unjustified ""git push"""
+24095|VS code cannot auto refresh opened files
+24096|Zooming the editor breaks webviews
+24097|Crash after 10s (network related - libnetwork)
+24098|Lost the warning about the number of characters in git commit title when over 50 characters
+24099|Allow overriding extension-based syntax highlighting, and specifying syntax used in unsaved files
+24100|Crashed repeatedly (network related?)

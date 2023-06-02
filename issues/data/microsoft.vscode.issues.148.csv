@@ -1,0 +1,100 @@
+14701|Command unFoldRecursively should be unfoldRecursively (lowercase f) for consistency
+14702|Illegal instruction electron_run_as_node=1
+14703|Can we still display the Debug output window on the side
+14704|Wrong syntax highlighting for CSS keyframes
+14705|Command palette should rank results with closer search terms higher
+14706|"Debugging - UI/protocol support for ""blackbox script""/""Just my code"""
+14707|Allow multiline eval results in debug console
+14708|Error: Make sure to edit the README.md file before you publish your extension.
+14709|"A new line appears after executing commands with parameters using the dash/minus symbol ""-"" with zsh"
+14710|"""공백"" is better than ""공간"" in korean"
+14711|Feature Request: Org mode
+14712|Korean translation for terminal.integated.shell.windows removes slashes from path names
+14713|Feature request : supress warning and error messages
+14714|Error when I run an automation task using the terminal cmd.exe
+14715|Add tests for zoom level functionality
+14716|Cannot read property 'parameters' of undefined
+14717|Cannot read property 'length' of undefined
+14718|Cannot set property 'totalFrames' of undefined
+14719|Cannot read property 'getValue' of null
+14720|Cannot read property 'document' of undefined
+14721|Cannot read property 'id' of null
+14722|Cannot read property 'startLineNumber' of null
+14723|Stop changing selection in explorer when autoReveal = false
+14724|fail to reformat
+14725|Next
+14726|Ctrl+c,s kills folding for according function
+14727|Failure when try to publish an extension for 'Productivity'
+14728|Allow to open folder from any opened file in Code
+14729|Can't enable extensions after disabling them, without reload
+14730|Open editor window from terminal output
+14731|Incorrect highlighting when { } are used inside YAML literal style
+14732|"""Failed to execute git"" with git version 2.10.2"
+14733|Can't expand object in debugger variable list
+14734|"Possibility to retrieve only ""visible"" text / lines"
+14735|CompletionItem decorator
+14736|Detect dead extension host
+14737|Go to Symbol should position text cursor on name of target
+14738|Moving extension editor to another group makes details lost
+14739|History: delete entries that are deleted or moved on disk
+14740|Error and warnings gets overrided by dependencies projects
+14741|Fat extension descriptions
+14742|VSCode not functioning behind proxy
+14743|"Cmd+D has no ""select all occurrences"" counterpart"
+14744|Extra quotes inserted when typed during cmd-D selection
+14745|"Question: How to silent install with ""Open with Code"" enabled?"
+14746|Error when I open integrated terminal (on Mac)
+14747|The terminal clear command should delete the entire buffer, not hide it
+14748|Cmd+D selects too broadly in some grammars
+14749|Integrated terminal access through extension?
+14750|Move tab with keyboard
+14751|Open folder isn't returning a listing, just spins
+14752|New insider build corrupts settings.json and all existing settings in User Settings are no longer accessible
+14753|Could you add a plus on your tabs bar to create a new file?
+14754|JavaScript highlighting issue
+14755|editor.action.jumpToBracket does not match in plaintext scope
+14756|Register or Notify on Extension
+14757|No workbench action to hide panel
+14758|CODE.EXE is a blocked application my LANDesk security
+14759|Fix #14729 - Don't escape newlines in console eval results. They are still escaped elsewhere.
+14760|Explorer doesn't refresh on doing Refresh
+14761|No editor action to jump to next error in project
+14762|Breakpoints on particular column
+14763|How get environment variable in settings
+14764|Running cmd.exe in minimize mode
+14765|Internal terminal isn't correctly wrapped bash terminal
+14766|Fix #14135 - Allow files with merge status to be staged
+14767|VSCode opened from Command prompt closes if cmd closed
+14768|Chinese characters visible
+14769|Uncaught Error: Not supported
+14770|Added gitter chat badge to readme
+14771|Format changes content in tsx
+14772|Word wrap doesn't wrap on window width for indented CJK text
+14773|Not able to reload or quit VS Code
+14774|Terminal history is truncated after resizing the window when word wrap setting is being applied
+14775|Add workaround for TS issue: https://github.com/Microsoft/TypeScript/issues/11883
+14776|golang 有些关键词提示不全，例如struct，return等
+14777|Support KeyUp Bindings
+14778|Extension Usage Telemetry
+14779|Need information about User folder files
+14780|comments on js cannot be used !
+14781|Support a way to set image size in MarkedString
+14782|Show line content in the breakpoints view
+14783|No autoscroll feature and select all in integrated console
+14784|Ben/events
+14785|Enhancement request: text formatting access in vscode.window.showInformationMessage
+14786|Negation of negative (double negatives) in settings
+14787|Spaces are converted to tabs in html regardless of indentation settings
+14788|Flaky test: ExtHostDocumentSaveParticipant event delivery, overall timeout:
+14789|Make markdown image dimensions configurable using a custom image renderer
+14790|VSCode stuck at 'installing' phase while installing plugins.
+14791|Test: watch expressions drag and drop
+14792|Using mocha - describe and it are not defined
+14793|New project template
+14794|Be able to run code after debugging completes.
+14795|Provide shell fallbacks for common patterns used to disable shell
+14796|SaveAll Linux keybinding Ctrl+Alt+S minimizes VS Code on Ubuntu
+14797|BUG-2016/11/02
+14798|File tree nesting in sidebar is misaligned (Seti theme)
+14799|"""code --reuse-window"" doesn't reuse window when used as $EDITOR"
+14800|Switching tabs loses scroll position

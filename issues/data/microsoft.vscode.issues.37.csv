@@ -1,0 +1,100 @@
+3601|Cursor problems in high contrast theme
+3602|Debug: first entry in tree not vertically aligned nicely
+3603|TextDocument#save resolves with false
+3604|"launch.json ""program"" need '/'"
+3605|Infinite loop sending output to an output channel from an extension makes VS Code stop responding
+3606|Wrong syntax highlight for JavaScript
+3607|"Rename the product to ""Visual Code"", dropping ""Studio"" from name"
+3608|Allow file name to language associations via settings
+3609|"Markdown styles: Can't use style sheet that contains ""#"" in the local path"
+3610|crashes a lot with too many (>=20) files opened in working files
+3611|Open file command ignores exclude filters
+3612|[html] Add option to configure formatter
+3613|Investigate to reduce working files watcher to only the ones opened
+3614|"""Go to symbol..."" does not work in JS IIFE"
+3615|New files get view state of previously open file
+3616|VSCode settings through GPO/Registry
+3617|parameter hints and lightbulb widgets constantly ask to be relayouted even when they're hidden
+3618|Command Names
+3619|Match whole word does not work for not latin characters (at least for cyrillic)
+3620|Error should have action to edit the launch.json file
+3621|"""Path must be string. Received null"" error when attempting to start debugger"
+3622|Debug fails to recognise the task has failed
+3623|Failed to load tslint library.
+3624|ES6+ with React Native preview - not possible with either Salsa or TypeScript
+3625|Tell users that have js-is-jsx installed to uninstall
+3626|Strange highlighting of brackets in insiders build
+3627|Suggestion: Add option for Beautify / Format on Save
+3628|Request keyboard binding configurable to execute multiple actions
+3629|Tune the extension tips appearance in status bar
+3630|code folding doesn't respect peek ui
+3631|No handler found when running Reload Javascript Projects command
+3632|Simplify test script definition in package.json
+3633|Indent command keyboard shortcut
+3634|Debt: context menu should be created from main process
+3635|Debugger client error, Error: This socket is closed.
+3636|Accessibility: Screen reader cannot access IntelliSense dropdown list
+3637|[json] VSCode does not complain about syntactically broken JSON files
+3638|`gutterIconPath` is not shown in High Contrast theme
+3639|Show commands in `Command Palette` based on context (like `when` in KeyBindings)
+3640|"Feature Request: Jumping between lines, selections and an uber-cool ""Goto"""
+3641|No network error should be improved
+3642|Function breakpoints - protocol allows condition but no UI to set condition
+3643|Possible to install extensions offline?
+3644|When debugger stops on a function breakpoint - it is not obvious why the debugger stopped
+3645|Use local version of gulp in build steps
+3646|Limit callstack walking for stop-all debug adapters
+3647|Focus is inconsistent opacity in High Contrast theme
+3648|Format Code and IntelliSense not working at all
+3649|Why do VSCode couldn't show on my Unbuntu form terminal ?
+3650|TypeScript Definition File Download Error
+3651|Variable name can not be `constructor` or `__proto__`
+3652|Indentation indicator is wrong for travis.yml
+3653|Panel border is not HC aware
+3654|Configure selector keys for suggest widget
+3655|Can no longer break in Unit tests using Code
+3656|Autocompletion should not autocomplete parentheses on import clause
+3657|Link decoration bleeds to next line when wrapping
+3658|convertOutputPositionToInputPosition can throw 'Not supported' when landing in an invisible line
+3659|GitHub Desktop not recognized by Visual Studio Code
+3660|Duplicate identifier 'p0' error in JSDOC comments
+3661|Column select doesn't work in read only files
+3662|Killing a debug session does not cancel Variable spinners
+3663|Debugger will not hit typescript breakpoints on windows when the path contains spaces
+3664|API: output.show() no longer supports ViewColumn
+3665|Very first F5 from dirty launch.json does not start debug session for me
+3666|Transfer Publishers in Marketplace
+3667|"Add support for ""e.key"" keybindings in extension's `contributes.keybindings`"
+3668|Git push hangs when remote requires credentials
+3669|[json] provide code assist for $schema
+3670|"The name ""Con"" is not valid as a file or folder name"
+3671|Debug adapter can't enable ExceptionBreakpointFilters by default
+3672|Add support for internal links in previewHtml
+3673|Intellisense Javascript for simple classes
+3674|[jade] Syntax highlighting in attribute values not correct
+3675|"Git: sometimes ""Open File"" and ""Open Change"" show up disabled in context menu"
+3676|Extensions should be able to contribute file templates via a new UI feature - New File Template ...
+3677|Support for homebrew
+3678|High contrast theme - scrollbar thumb size is innacurate
+3679|[php] PHP Intellisense support is too poor
+3680|Ctrl-K must cut up to the end of the line into the clipboard
+3681|Backspace must decrease indent (as Shift-Tab do) when the line is empty
+3682|Expect Shift+END to select to end of line
+3683|Added telemetry for debugging scenarios
+3684|Update incremental build instructions in wiki
+3685|"[CSharp] Have ""add using ..."" on top in quick fix dialog"
+3686|Make high-contrast mode less hacky for Monaco editor in IE and Edge
+3687|Use local version of gulp in ./scripts/code.sh
+3688|Markdown: Syntax highlighting not displaying correctly
+3689|Triple click should include newline
+3690|Vote on Stack Overflow for `visual-studio-code` to be a synonym of `vscode`
+3691|[Extension API] Keybindings for caplocks
+3692|Ionic HTML Intellisense
+3693|[feature request] support settings for extensions
+3694|Hover message/tooltip on ruler when defining decorators
+3695|How to use mono debug?
+3696|Crash on Ubuntu 12.04
+3697|Breakpoints and variables/watch not matching up with code when running mocha with babel6
+3698|Allow modification of sidebar font size
+3699|VSCode walks all files under project, even excluded directories
+3700|Prompt to review license terms

@@ -1,0 +1,100 @@
+8901|"CSS lint says that a ""float"" property should have no effect with display: inline, yet it does?"
+8902|[Regression 1.3] Command palette no longer mouse-accessible
+8903|Shift+Option+F does not work on US extended kb layout
+8904|unable to install extensions
+8905|Extension install on ubuntu not working
+8906|Focus vanishes after refactoring
+8907|Enable to open settings via vscode:// URI in IEditorService.openEditor()
+8908|Horizontal scroll in editor doesn't work anymore
+8909|Vscode 1.3 can't find system commands anymore
+8910|Install Extension does not work
+8911|Extensions side bar width
+8912|Installing extensions problem version 1.3.0
+8913|vscode 1.3 freezes on html files
+8914|Sorry not an issue, opened by mistake
+8915|Add extension disable feature
+8916|EXTENSIONS: Install buttons not triggering installation
+8917|[html] CSS autocomplete not working inside style in html file
+8918|Syntax highlighting bug in .TSX when using generic type annotation
+8919|Add a little top-padding on the editor container
+8920|Crash after opening and closing dev tools twice
+8921|VSCode is breaking my Vim...
+8922|Git Commit.Template, Restore Previous Commit Msg On Undo
+8923|Search in folder (absolute include path search) should override excluded search settings
+8924|Show close (all) tab keybindings
+8925|Improve integrated terminal
+8926|Simplify the configuration service, enable programmatic modification
+8927|Extract the html support into an extension
+8928|Show quick open results as preview while navigating through them
+8929|Integrated terminal does not gets cleared when using bash
+8930|Updated to  1.30 now I get the error - Cannot launch debug target (spawn node ENOENT).
+8931|Broken Linux application launcher
+8932|Debian: 1.3.0 is not a successor of 1.2.x
+8933|Workbench tabs
+8934|Line highlighting differs
+8935|Integrated terminal doesn't work when editor.fontSize is 0
+8936|Terminal: Cannot launch code-insiders.cmd from inside Code on Windows
+8937|Scope all sockets with the current version number
+8938|No longer able to launch via the `code` command in terminal.
+8939|The mode has failed while tokenizing the input.
+8940|[php] Brackets not recognized in PHP from HTML
+8941|Indentation guide lines going through text on .yml file
+8942|Images are not showing on markdown preview on v1.3.0
+8943|jQuery not supported in new version
+8944|Debugger unable to attach to process
+8945|Insiders binaries are inside 1.2.1 stable release
+8946|you dont need an Open editors Field when you have multiple tabs shown above the screen.
+8947|Cannot debug node v6.3.0 when files resides on a subst drive
+8948|Too long path of an extension side effects in Windows flipping to TEMP user profile
+8949|Updated to latest, installed extensions are gone and cannot reinstall
+8950|The “left” “right” “center” label in Open Editors take too much space
+8951|OS Specific Keybindings
+8952|Cannot set breakpoints in skew source
+8953|Add key binding condition - terminalFocus
+8954|Visual studio adding extra spaces on function shorthands
+8955|Integratel Terminal doesn't find commands from PATH
+8956|extension installing is not working in vs
+8957|Mismatched colors on retina display vs thunderbolt display
+8958|Integrated Terminal fails on Bash on Ubuntu on Windows (pre-release)
+8959|PowerShell parsing doesn't understand referencing properties by using quotes
+8960|Electron Helper runs 99% of CPU after last update.
+8961|Can not paste into terminal
+8962|Apps shut down/freezes after a while
+8963|Any way to run the event when any extenion / theme installed ?
+8964|Opening a new tab/untitled/unsaved file from text content
+8965|VSCode does not restore its window after minimized and called for open another file
+8966|package.json dependency hover can break with links
+8967|JS highlighting in certain situations involving strings and HTML tags is incorrect.
+8968|Weird scrollbar behavior
+8969|Command variables in debug adapter freeze VSCode
+8970|Fixes #7301: Set LANG for terminal process
+8971|Variable Substitution Relative Path
+8972|Closing a dirty split editor (existing OR untitled) should not affect the initial editor
+8973|Ubuntu extension manager not working properly
+8974|Have collapse phenomenon
+8975|Double tab tag closing removes one space from the tab
+8976|Chinese localization is not completed.(v1.3.0)
+8977|"[i18n] Incorrect French localization for ""rename symbol"""
+8978|Maximize current editor group (or temporarily hide other editor groups)
+8979|Extension host terminated unexpectedly. Please reload the window to recover.
+8980|Provide option to only show leading/trailing whitespace
+8981|How to open new tab with some formatted text from the extension API
+8982|Add support for rebinding Column Selection
+8983|JS: Symbols in command palette are truncated.
+8984|contextmenu
+8985|Markdown preview lost after updating to v1.3
+8986|VIM API Gaps
+8987|Installing C# extension fails
+8988|default error in debug
+8989|Feature Request: Bind mouse buttons
+8990|Mac: Move tabs down when moving mouse to the top in full screen mode
+8991|Emmet: Encode\Decode action & preferences
+8992|[php] Ability to turn off PHP autocompletion by VSCode
+8993|Allow to customize command palette via CSS
+8994|Fix sensitivity not always being applied.
+8995|changing ctrl+` shortcut doesn't toggle terminal when terminal is in focus
+8996|Upgrade VSCode to 1.3.0 and cannot load/install extensions
+8997|Tilde character ~ is not displayed in terminal using Belgian keyboard layout
+8998|No intellisense/autocomplete for class in a different JS file
+8999|RegExp substring replace does not work for new Global Search&Replace
+9000|[yaml] Syntax highlighting bug - escaped double quotes

@@ -1,0 +1,100 @@
+6101|Can't open more than one instance of vscode
+6102|Bracket auto-complete in markdown
+6103|Run Build Task not running on Linux
+6104|The files.insertFinalNewline setting doesn't work in the 1.1.0-insiders build
+6105|OSX <fstream> cannot be found in default CPP Include Path /usr/include
+6106|"Alway warn ""You seem to have git 1.9.4 installed. Code works best with git >=2.0.0."""
+6107|autofetch causes ssh-askpass to popup
+6108|"After set ""window.zoomLevel"": -1 or -2. the character on editor is blurred."
+6109|How to support experimentalObjectRestSpread ？
+6110|"[loc][Query][DevDiv] Please clarify ""code"""
+6111|"[loc][Query][DevDiv] Please clarify ""Contribute"""
+6112|"[loc][Query][DevDiv] Typo in Source ""run"""
+6113|"[oc][Query][DevDiv] Please clarify ""Debug"""
+6114|"[loc][Query][DevDiv] Please clarify ""Find telemetry for this"""
+6115|Empty folder with parent .git folder resulting in high cpu use on Mac
+6116|When renaming a file, rename it using git if in a repository
+6117|"Typescript hinting breaks on ""Find all references"""
+6118|Phantom build error when dbset name changed
+6119|Getting an error unable to cast COM object of type
+6120|C# not coloring syntax
+6121|Quick File Navigation as you type
+6122|Editor not working!
+6123|If I could able to scold project for supported languages it will be too good.
+6124|Allow choosing which local to use in the application.
+6125|Improve Open in Terminal in Mac
+6126|VS Code does not start sometimes
+6127|Extension search should allow quote operator
+6128|JavaScript IntelliSense missing on recreated file
+6129|Screen reader not reading some full keybindings
+6130|Window snap does not reopen Code at the same size
+6131|Allow adding non-workspace files from working files
+6132|Nothing's Happening
+6133|Support history of previous clipboard values
+6134|Inconsistent Peek Definition behavior
+6135|Quick open should not leak keyup into the editor after close
+6136|Inline diff view removed lines (red) are smaller font than changed (green) lines.
+6137|bug appears when open a special file
+6138|Auto-escape highlighted text for search and replace regex mode
+6139|Translation of `Change All Occurrences` to Chinese not correct
+6140|The border of scroll bar is ugly, and unclear under high dpi
+6141|Quick open can have duplicate entries with different path casing
+6142|Using is highlighted differently when adding inside and outside namespace.
+6143|fixed #6009
+6144|Editing around codelens results in garbled codelens position
+6145|syntax highlight of shorthand async functions in object literals
+6146|Cool but javascript has not autocompele
+6147|feature issue: saving Find/Replace options
+6148|Setting for revealing the debug console
+6149|Threads continue event
+6150|Allow reading from stdin
+6151|Git Extension Sidebar: Resource Blocking
+6152|IntelliSense: do not steal arrow keys if there is only one suggestion showing up
+6153|Breakpoints Ignored and Not Triggered
+6154|Copy Value on debug for Node JS project shortens the string
+6155|Search is including files outside of the project
+6156|Stacks
+6157|VS Code crashes when left running for several days
+6158|Quick fix: inherit font from workbench and do not set it
+6159|Parameter hints: inherit font from workbench and do not set it
+6160|Input box: inherit font from workbench and do not set it
+6161|Intellisense problems when project on network drive
+6162|"Running docker in the background gives ""Attribute 'program' does not exist ('path')"" when clicking launcher"
+6163|vscode python program output is not expected
+6164|Improve endgame to include creating a Release under GitHub
+6165|[css] Go to/Peek Definition and Find all References in CSS
+6166|Search is slow for network shares
+6167|Required extensions in workspace settings
+6168|No cloring for fields type in typescript interface.
+6169|Rename Symbol not translated
+6170|Crashes on Open
+6171|VScode unable to recognize whether JShint extension is installed or not.
+6172|Autocomplete is helpful while entering path of files
+6173|Same shortcut key for save and not save.
+6174|failed crash dump on exit in Linux when `wget` not installed
+6175|Not able to find special characters like \n, \r, \t
+6176|Unable to search for ^.*(regex).*$ in full text search until file is opened
+6177|"I am unable to press ""Shift+Alt+A"" to toggle a block comment"
+6178|emmet.triggerExpansionOnTab php variables to html tags
+6179|[feature request]: keep git message on undo last commit
+6180|please add enable emmet expand abbreviations in customlanguage
+6181|Improve OutputChannel API (discovery, appending, etc)
+6182|Question: Is there a way to hide the .vscode folder?
+6183|Bug: Font error when i change font size to 14
+6184|Folding in XML files doesn't work properly
+6185|VSCode is not per monitor DPI aware
+6186|Keyboard shortcut for copy of line doesn't work on Linux
+6187|Error Run 'Debug: Download .NETCore Debugger' in the Command Palette or open a .NET project directory to download the .NETCore Debugger
+6188|Output for IntelliSense
+6189|Ignoring tsconfig.json in Angular 2 CLI generated apps
+6190|DecorationRenderOptions / createTextEditorDecorationType doesn't support fontWeight?
+6191|git integration - Permission Denied (publickey)
+6192|Application window is stuck on top of other apps on Ubuntu 16 + VirtualBox(3D Accelerated)
+6193|Different color scheme for references modal
+6194|fix #6062 and #1064
+6195|[less] syntax highlight failed when value starts with decimal point
+6196|C# intellisense doesn't show return type
+6197|Read from OutputChannel in a vscode extension
+6198|isWatching/background task as preLaunchTask in launch.json
+6199|Tree twisty not alligned under Linux
+6200|Closing an unsaved file window is not showing the confirmation

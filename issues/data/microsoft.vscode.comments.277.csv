@@ -1,0 +1,100 @@
+27601|@rebornix if this is for June, please check it in by today.
+27602|@dbaeumer @jrieken -1 on this change, for me Cmd+P and Cmd+T are now quite unusable because for example all imports are showing up as results:  ![image](https://cloud.githubusercontent.com/assets/900690/16369623/3c256f22-3c39-11e6-8fa1-09929bfc1259.png)  At the very minimum, please restore how Cmd+P was working (use the filter only when the symbol handler is being used from the `openAnythingHandler.ts`.
+27603|@bpasero Kai told me he will merge this last time we synced so it's up to him which release he wants this change in, I don't get the privilege to check in yet.
+27604|Thanks!
+27605|Ok maybe you ask him in person, I am not sure he checks GH notifications.
+27606|**tl;dr;** enable tabs in VS Code [insiders build](http://code.visualstudio.com/Download#insiders) with `workbench.editor.showTabs: true`  We are closing for the June milestone during this week with our usual endgame testing. Tabs are on the test plan (https://github.com/Microsoft/vscode/issues/7854) and will get some coverage during the week. We still expect to do fixing on tabs for June and possibly refinements based on feedback post June. The majority of the work is done though, so I will close this issue.  From the description of this work item, @TurkeyMan asks for having tabs and a way to move a tab out of the workbench to open inside a new window. I have extracted the latter into https://github.com/Microsoft/vscode/issues/8171 since it is not related to the tabs work we did.  Please continue to file issues on tabs as you see them while trying them out. Thanks for helping in testing the insiders build!
+27607|> Looks like the hover is wrapping the last word  I fixed it locally by just adding to the calculations that `hoverWidget` makes :rose:
+27608|This can be closed as I have a workflow for easily exposing whatever internal I want as long as its shipped as a part of monaco :rose:
+27609|I've ported all the [alm](http://alm.tools/) CM actions to Monaco so this can be closed :rose:
+27610|I have it disabled in my code base. The official demo works fine so closing it :rose:
+27611|I see the latest api allows raw markdown so that does what ever I wanted to use the innerHTML for. So closing :rose:
+27612|JSON, CSS, LESS and SCSS are now contributed as monaco editor plugins. See https://github.com/Microsoft/monaco-editor
+27613|noice :rose:
+27614|Go the same problem here. For step 6, mine was using absolute directory of my g++ compiled binary.
+27615|Looking at the sample : https://microsoft.github.io/monaco-editor/index.html `css` no longer has the nice `color` inline widget that it used to. Should I create an issue?   ![image](https://cloud.githubusercontent.com/assets/874898/16371330/548fb46e-3c89-11e6-9461-7de5f3a075e7.png)
+27616|I opened https://github.com/electron/electron/issues/6251 as related upstream issue and hope that Electron can do something about it.
+27617|okay nice, sadly the Insiders Build Extension Functionality gets blocked by KES 10 :( So I cannot really use the Insiders build. The Stable one works btw. It's a known issue.
+27618|Pushed a change to treat *.asar as normal files and not directories. It is not 100% possible for us to prevent the locking because it seems a simple `fs.stat` or `fs.readdir` on such a file is sufficient to have it locked. But I went through our places of such calls and handle *.asar specially now. Let's see how it goes.  As a consequence you can no longer expand and browse in asar files. But that was also **never** the intent of VS Code to do so in the first place because these files are very special to Electron.
+27619|@con-ssc KES 10?
+27620|"Oh sorry for not explaining the acronym ""Kaspersky Endpoint Security 10"""
+27621|I will add this back ASAP. I'm waiting for some additional API
+27622|Dups #974 & #3550.
+27623|We're already getting telemetry for commands used by platform. This is sufficient for now.
+27624|Pushed a workaround. Moving to July.
+27625|I cannot reproduce this anymore.
+27626|"Please try add   ""launchOptionType"": ""Local"", into your launch.json file and try again. Solved my side. Should be version problem."
+27627|@sandy081 I am now doing this:  ![image](https://cloud.githubusercontent.com/assets/900690/16373260/a41b5638-3c51-11e6-8281-55c265eb442a.png)
+27628|I updated this issue because besides DND it works as you say.
+27629|Not trivial with our current model of handling dirty editors.
+27630|@wallverb would you be able to pull down https://github.com/sourcelair/xterm.js and check if you can reproduce on the [demo](https://github.com/sourcelair/xterm.js#demo)?
+27631|@bastienJS you should still be able to scroll using the mouse wheel and <kbd>ctrl</kbd>+<kbd>shift</kbd>+arrows/page up/page down.
+27632|From looking at how other editors behave I found mixed behaviours so I think a setting might be needed after all. I worry that changing this without setting might break expectations of other users.
+27633|The only interaction done with the file system by the terminal is by the cmd process. I tried to reproduce but could not get step 4 to repro.  @bastienJS some follow ups: - Are you using cmd within the terminal? - Is it reproducing 100% consistently? - Can you reproduce with a cmd window open?
+27634|@profabe you can edit the editor files on the OS in an editor that has admin access. You can always [build a developer build](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run-from-source), it may be more work getting it working though.
+27635|By analyzing the blame information on this pull request, we identified @egamma to be a potential reviewer
+27636|Hi **@gontadu**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+27637|@codymullins not being worked on right now, I'm guessing its a problem within the https://github.com/sourcelair/xterm.js code base though (or the oldish https://github.com/rprichard/winpty version it uses when hooked up with [pty.js](https://github.com/Tyriar/pty.js)).
+27638|@tadasdanielius can you see if this is happening using the Insiders build? https://code.visualstudio.com/insiders
+27639|Reopening as this was reverted.
+27640|@egamma assigning to you since you provided quite some support for people switching over to Salsa.
+27641|We are exploring on a TS project builder (see June milestone plan). Still needs some work but will come.
+27642|@wirecat do you have a C++ extension installed.
+27643|@sandy081 actually I think you should explicitly call openEditors() with the files to be replaced from the search land.
+27644|@carmeld999 I will close this issue assuming it got created by accident.
+27645|@carmeld999 I will close this issue assuming it got created by accident.
+27646|@alexandrudima assuming he is talking about word navigation in the editor.
+27647|@sandy081 starting with you to see if the view is stale. Reporting wise we should delete old errors and create new ones on a file rename.
+27648|@bpasero not sure who owns the settings service right now. May be it is @aeschli
+27649|For now you can Copy & Paste to get the same behaviour.
+27650|Not really sure what you mean? The `DefinitionProvider` is meant to aid users in navigating source code. Given a position, get the symbol, and return one or many locations where it is defined. Different commands and actions, like _go to definition_, _preview definition_ etc, use this _data provider_.  Is that you want to enrich the hover you see when doing `Ctrl+MouseOver` on a symbol? Generally all language features are also exposed as [commands](https://code.visualstudio.com/docs/extensionAPI/vscode-api-commands). Using `executeCommand` you can retrieve the same data the UI gets and use that to implement another data provider - like HoverProvider - tho there is no special gesture for `Ctrl+MouseOver` just the general hover provider.
+27651|I pushed the PR so todays the last development day for the June release. I fixed the tests.
+27652|Not sure if that fix is correct as it adds that first non-\ character to the matched range. Probably better to add another rule that matches to \
+27653|I removed the snippets from the built-in extension to clear the way for snippet extensions and give users the choice if which snippets to install. @CryZe It would be great if you could publish your snippets as extension. Let me know if I can help.
+27654|@gontadu Thanks for the pull request, can you also make this request against https://github.com/textmate/sql.tmbundle/ ? Thanks a lot!
+27655|@gontadu Please file this request to https://github.com/textmate/sql.tmbundle first. I'm not enough informed on sql and it's flavour to decide if it is a good idea to remove that rule.
+27656|It's starting a process that encapsulated the rendering
+27657|A dupe of #7066
+27658|I did not like the separator visually and I thought the extensions being on the end of the list is a clear enough of an indication. Thus I gave negatvie feedback to joao regarding the seperator. Not sure if that influenced his decision to remove it.  If you have strong feeling about it - I will bring it back
+27659|Not filtering in the UI is still the right thing to do. Leaving it up to @dbaeumer to teach TypeScript to exclude some items
+27660|PR's are welcome [Code pointer](https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/debug/browser/repl.ts#L56)
+27661|Ok - understood. Accepting a completion is the `acceptSelectedSuggestion` command that by default is bound to the <kbd>Tab</kbd> key. That means users might have configured a different key to trigger this action.   We have a request to send out event before and after a command has executed:  #1431. Closing this as duplicate.
+27662|Now the extension nicely shows that it is disabled when the user clicks enable the user is prompted for a restart - I like this experience so please check it out and let us know what you think.  ![enableextension](https://cloud.githubusercontent.com/assets/1926584/16376084/e55db606-3c5e-11e6-8f55-9783b847d6b6.gif)
+27663|Figured out - but not explained. Seams to be from git - when you delete a line. But should be something to explain on mouse over or else - but it's nothing.
+27664|This is because you have an inverted keyboard F keys on your mac which is the default behvaior. System preference > keyboard shortcuts > uncheck Use all F keys.... You can also do fn + F key
+27665|June to investigate
+27666|Sorry, but fell off the plan for June
+27667|Currently it is possible to just drag the header and adjust the size of each area. Or this is not the functionality you are looking for?  ![splitview](https://cloud.githubusercontent.com/assets/1926584/16376297/d1b5f2f2-3c5f-11e6-8c4c-769675b03123.gif)
+27668|Dup of #197
+27669|@JostCrow any search term you input does not procuce results? If you use the vscode stable release do you see any results when you search for the same terms using our old quick pick ui (F1 > ext install >)
+27670|@bpasero yeah let's look into this and #8060 together tomorrow / wednesday
+27671|Duplicate of https://github.com/Microsoft/vscode/issues/7062
+27672|Using css-variables for color values sounds like a good idea to me. It will help clarify the intend of every color und help us come up with a color system we should use across the workbench. Colors variables should have names like background_color, input_box_background, search_box_background, primary_foreground, secondary_foreground... (just to illustrate, I make up things here). I didn't see any color related functions (e.g. darken, lighten, mix) that we can use in css directly but we can do these in code and assign the result to a new variable. What's IMO the most important thing is to come up with a system of colors as described above.
+27673|This should be possible -> will investigate in debt week thus assigning to July
+27674|IMO the last 'component' that should do any filtering is the language server / service. The service is asked to provide all workspace symbols the service should exactly return that.  In the example @bpasero shows most of the errors are properties on interfaces. So I think we need different ways to show/ filter that view: by type (only classes, ....) and by scope (top level, nested).  This requires work in the UI and in the API. What do you think?
+27675|Dup of #7970 which Joao fixed on friday - I verified and it now looks good on win
+27676|Closing since we do have translation now for major language. The item still open is that we allow external contributions to the translation which we have on the backlog.
+27677|"You need to set the settings `""php.validate.executablePath""` to a path of the php executable. For example on Windows to: `""C:\\apps\\php\\php.exe""`"
+27678|Yes - forgot to reopen thanks!  Note to myself: this was reverted because the resizing of the workbench would mess with the layout. Thus we were not respecting the layout calls. In order for this to be done split view views need some serious refactoring -> backlog (will look into one of the debt weeks - maybe even july).
+27679|@zhengbli thanks. I will have a look.
+27680|@coreh this is actually possible. See the two node modules vscode-nls and vscode-nls-dev. And may be vscode-node-debug and an example on how to use them.
+27681|@kisstkondoros great to hear that you are still working on this!
+27682|This is coming from the node debug adapter thus forwarding to @weinand  Chrome dev tools behaves the same so I think this is desgined behavior but I'll let @weinand decide
+27683|@bpasero This issue is not specific to Search/Replace. It is also true for all bulk edit functionalities. Eg: Rename also does the same thing if auto save is enabled. I admit that behavior is not correct and not helpful especially if you want to undo. This again exposes the problem of global undo.  IMO, we should fix this in bulk edit infrastructure - to open edited files always. We can either leave this as is or change after we have global undo functionality.  @jrieken What do you say?
+27684|@aeschli I think that is the only solution that works consistently. If a service generates a marker then the service is responsible for removing it. If a linter stops validating closed files, then he removes it. But the linter could also decide to keep on validating and listening to file events to decide if a revalidation is necessary. What I could add to the language server protocol is to auto remove on close. But that must be an option which is false by default.
+27685|what ?
+27686|"@gdimauro please run this snippet and you will see that this behaviour is correct:  ``` js if (console.log(100) === undefined) {   console.log(""return value from console.log() is indeed undefined""); } ```"
+27687|@dbaeumer I checked that Problems view is working as expected and not stale. Looks like problem with the ts linter. Because, similar scenario with ts server works properly.
+27688|This issue was moved to Microsoft/vscode-tslint#58
+27689|+1
+27690|"@isidorn I have tried all kind of different inputs. for instance ""python""  in the stable version when I type ""ext install python"" after pressing F1 ![screenshot from 2016-06-27 12 41 43](https://cloud.githubusercontent.com/assets/390575/16377128/89dc2e06-3c64-11e6-9c0f-22cc972bb62b.png)  And in the insiders build you've now got the popular and recommended shortcuts. They also produce empty results."
+27691|@dbaeumer I actually think that its imports like `import * as errors from '...'` and in that case I would argue the usefulness  👍 for addition grouping - as in quick outline. The information should be available since both provider return arrays of `SymbolInformation`
+27692|I can not repro this on my mac / win / ubuntu. @aeschli can you please try this since you also have elementeryOS  I would think it is a proxy issue but it can't be that since you get results for VSCode stable
+27693|@bpasero That's a good input. But in case of replace preview, we would need leftie to be editable and rightie as replace preview. Switching them wont makes sense and I do not think these states are same as in git diff. Here we show now and after and in git it is before and now. IMO leftie state should be older than rightie.  Listing down the issues you mentioned  when making the leftie editable - Workbench support - Discoverability  - Dirty indication  I am disabling this in Search/Replace preview until we get this support from workbench
+27694|@jrieken I see this when opening the markdown file in source, not preview. I am aware of the delay when previewing.
+27695|@isidorn lets talk in the UX meeting.
+27696|"@isidorn reproduces when ""Opened Editors"" is hidden"
+27697|@isidorn no matter the outcome, I do think you should already add some prefix to the editor title at least.
+27698|@aeschli actually the fact that we cannot use `calc()` with colors worries me a bit. If we end up having to write JS code to compute derived colors from the base colors I wonder if we are not better off using LESS or SASS instead.  When I filed this issue I was not aware that you cannot compute a color from a CSS variable using CSS.   Still interested to hear what Brad has to say (who made this suggestion initially).
+27699|Nice!
+27700|+1 for opening all editors before doing the bulk edit, independent from how auto save is configured. this also allows the user to undo the change in each editor if needed.

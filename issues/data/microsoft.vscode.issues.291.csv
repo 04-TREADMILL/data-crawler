@@ -1,0 +1,100 @@
+29001|editor.mouseWheelScrollSensitivity has no effect
+29002|Serena Dimensions CM
+29003|"""window.enableMenuBarMnemonics"":false not working"
+29004|Devdependencies of built-in extension get pulled into user's machine when installing VS Code
+29005|Fix more Compiler Errors for TS 2.4 in the VSCode codebase
+29006|Fix TS 2.4 Compile Errors in taskConfiguration.ts
+29007|Cannot read property 'getRoot' of null
+29008|"[loc][query][VSCode] ""text mate"" -> ""TextMate"""
+29009|[loc][query][VSCode]  It seems that this sentence is not finished
+29010|Continue refactoring html content renderer
+29011|Shift+Drag file outside from tree open it in new window
+29012|Find all references highlights wrong thing
+29013|Crash After Opening and Closing Dev Tools a Few Times
+29014|Hot Exit Tests don't return useful errors
+29015|Search Widget in Terminal shouldn't be case sensitive
+29016|Provide css emmet abbr suggestions when inside style attribute in html files
+29017|A suggestion
+29018|[Tree View Explorer] Running the contributed command:'****' failed.
+29019|Code Insiders does not start without options
+29020|VSCode Consoles Get Killed and Restart
+29021|Cannot enter text in new file and cannot open settings
+29022|Terminal linking not working with styled file links
+29023|Cannot open preference or type in new file
+29024|Regex cannot be parsed - unrecognised escape sequence
+29025|php language server is crashed in version 1.13.1
+29026|Allow `command:` links in hover decorations
+29027|Layer breaker in: vs/workbench/services/themes/electron-browser/themeCompatibility.ts
+29028|Layer breaker in: vs/workbench/browser/parts/editor/editorStatus.ts
+29029|Layer breaker in: vs/workbench/electron-browser/shell.ts
+29030|Layer breakers from tasks experiments
+29031|[1.13.0 REGRESSION] Don't open every triggerFile for ConfigFileDiagnostic events
+29032|Allow links in hover decorations to be inside a <code> tag
+29033|view in browser option
+29034|Inconsistencies between find widget and find viewlet
+29035|workspaceStats: support multi root
+29036|sass文件保存自动格式化的问题
+29037|Disable screen reader detection?
+29038|unable to verify the first certificate
+29039|VSCode does not exit delve properly
+29040|Show warning/error for invalid encoding passed to ripgrep
+29041|[themes] Add `editor.findMatchForeground`
+29042|Shortcut key for editor.action.transformToUppercase not working on Ubuntu 17.04
+29043|Shift + Home / End moves cursor to original selection line
+29044|Activating extension `vscode.php` failed: Cannot read property 'workspaceValue' of undefined
+29045|Minimap dissapears when using references popup supplied by referencesCodeLens.enabled = true
+29046|Use List instead of Tree for the QuickPick
+29047|Selecting call stack entries does not move editor
+29048|Not localized
+29049|Unable to open extension view.
+29050|automatically back even after press spacebar
+29051|Vscode-insiders stopped respecting `typescript.tsdk` setting
+29052|getWordRangeAtPosition doesn't quite use the regex as expected
+29053|"The line will add ""//"" when I was typing"
+29054|快捷键 失效  格式化代码 快捷键 失效
+29055|Quick suggestions and emmet mismatch
+29056|BUG: Scrollbar moves by changing the files tab
+29057|Code-insider V is not opening
+29058|Coffeescript syntax doesn't highly string interpolation like in Typescript
+29059|Octicons supports on TreeItem
+29060|can you add ALT-SELECT ?
+29061|Terminal doesn't react to shortcuts
+29062|Lookahead and lookbehind don't work in sidebar search
+29063|Consider moving emmet completion provider for css to css language service
+29064|Enable language extensions to call emmet completion provider
+29065|VSCode pre-open files not updating when reopening VSCode
+29066|Vscode Go to Definition stopped working
+29067|PHP open tag suggestion in html script section
+29068|AccessibilityProvider getPosInSet and getSetSize
+29069|Editor model creation options do not honour folder scope yet
+29070|search results have a limit of 10000 items
+29071|wrong dpi for back arrow mouse cursor
+29072|Terminal context menu copy is incorrectly disabled
+29073|Emmet takes way too much disk space
+29074|Terminal middle click on Linux not working
+29075|Rename Show Recommendations to Show all recommendations
+29076|feature-request: possibility to change the size of description popup
+29077|Git: Provide overview of all changes in a commit
+29078|Allow either / or \ in open dialog for files on windows
+29079|autoIndent doesn't work properly for TS comments
+29080|update php grammar
+29081|Go to Definiton (F12)
+29082|tsserver is locking files
+29083|Feature-Request: Case sensistive replacements
+29084|Indentation Rule enhancement
+29085|Typescript syntax highlighting fails when generic type declaration spans many lines
+29086|HTML - p tag inside a p tag
+29087|Add npm-shrinkwrap and package-lock files from npm 5.0.3 (node 8.1.2)
+29088|Add git stashing
+29089|VSTS SCM Provider not shown on Switch SCM Provider
+29090|Perforce SCM Provider becomes active SCM Provider on install
+29091|Git merge conflict feature doesn't recognize git diff3 common-ancestor sections
+29092|Add option to show git untracked files in Git browser
+29093|Cannot open program by double-clicking icon
+29094|Test: Sublime Text Keymap Version 3
+29095|[WIP] Inline all decorations - attempt 3
+29096|Support custom snippets in new Emmet
+29097|Ctrl+ Shortcut does not open Integrated Terminal - it increases font size
+29098|Makefile syntax highlight bug, improper function colorization in dependency list
+29099|Fix escape to close terminal find widget
+29100|Change memento for Task Notification

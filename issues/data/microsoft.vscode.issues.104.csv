@@ -1,0 +1,100 @@
+10301|@deprecated support in TypeScript
+10302|File > Open > open a folder does not work on the first attempt
+10303|Unable to use dotnet CLI with ZSH
+10304|Unable to open the file because the associated text model is undefined ...
+10305|Implement terminal scroll bar
+10306|nodeJS version cannot be upgraded for debugger
+10307|Fix flipping axes behavior.
+10308|PS syntax highlighting broken on regex string
+10309|Intellisense needs filter configuration
+10310|Visual code 1.4 is crashing
+10311|Debug console: pressing tab no longer leaves input
+10312|Shortcuts to open left panel should close it if it's already opened
+10313|High CPU usage and poor performance using the integrated terminal on Windows
+10314|GIT login dialog does not show the remote anymore
+10315|Monaco uses outline-offset css which is not supported in IE/Edge
+10316|Cann't open more than 50Mb log and txt file
+10317|Add .bash_aliases to ShellScript extensions
+10318|Added bash_aliases to fileTypes
+10319|enable git submodules
+10320|Goto Next Error or Warning doesn't show up in F1 anymore
+10321|Non-ASCII characters get automatically replaced with other ones
+10322|Filter TypeScript errors for selected files
+10323|[json] Colorisation of JSON in VSC breaks part way down the file
+10324|bug: tabSize affects indentation
+10325|Explore open/install an extension from the Market Place
+10326|Breakpoints in extension debug can't be hit
+10327|Invisiable ASCII
+10328|Can't see how to create a second folder at top level
+10329|Make find widget toggles configurable settings
+10330|VScode unstable editing a very long CSS file
+10331|remote debugging isn't working
+10332|Dispose editors that get hidden to tackle context issues
+10333|No intellisense for languages for custom files.associations
+10334|TFS: File not found when setup VS Code as diff tool
+10335|Allow to compare folders to see changes to another folder
+10336|Does vscode support the ES6 module intelligent tips by d.ts file so far?
+10337|"VSCode gets stuck with ""The window has crashed"""
+10338|error：The terminal process terminated with exit code: 1
+10339|"Hijacks OSX ""paste without formatting"""
+10340|[json] Suggestions to upgrade package is not displayed if the cursor is on the letter
+10341|syntaxes: end pattern invalidating start pattern
+10342|Cannot close pane with cmd+w when tabs are disabled.
+10343|Hidden editors cause issues with keybinding contexts
+10344|Intellisense issue with NODE_PATH evnvironment variable
+10345|File rename can close editors
+10346|[scss] syntax does not support #{&}
+10347|Quick open widget and picker should use the same instance
+10348|Autocompletion error when adding #includes with C/C++ extension
+10349|Git synchronizer does not working after you execute git commands on the integrated terminal
+10350|Integrated Terminal Option+Arrow no longer jumps words
+10351|Extension details view should show extension contributions
+10352|Markdown extension doesn't support checkboxes
+10353|in the vscode'terminal,I can't use the history command
+10354|Intellisense in go does not work - creates high CPU go process
+10355|"""Change All Occurrences"" incorrectly accounting for the lack of spaces between matching strings."
+10356|Intellisense position issue
+10357|editor.wordBasedSuggestions should not be tied to select word (ctrl+D) behavior
+10358|How to integrate terminal whth babun on windows?
+10359|How to detect if a line is visible (in the Viewport)?
+10360|Spelling problem fixed...
+10361|Wrong editor focus when opening settings while code is minimized
+10362|Debug adapter process has terminated unexpectedly when trying to debug an extension
+10363|Tabs vanish when using diff view
+10364|Get the editor for a TextDocumentContentProvider provided content
+10365|VSCode Task runner should be able to read scripts from package.json
+10366|The follow up for the #10084
+10367|VS fails in code highlighting with many switch/case statements
+10368|Use different User-Agent header for Marketplace in OSS
+10369|Limit Marketplace queries to 200 chars
+10370|Only send GUIDs to Marketplace id queries
+10371|Pressing Cmd-F overwrites find text even if nothing is selected.
+10372|fix clearTimeout
+10373|Do not terminate active running task when running another
+10374|Duplicate autocomplete suggestions in latest monaco build
+10375|Opening multiple files from file explorer causes new VS code windows instead of files becoming tabs.
+10376|With some files, VS Code cannot find modules that exist
+10377|Can't access a local file in html when I call the API 'vscode.showPreview'
+10378|[Feature Request] Context menu on explorer 'Open folder in Vs Code'
+10379|Can't use debug with Powershell scripts using Powershell extension 0.6.1
+10380|"Pressing F12 - ""Go to Definition"" does not work"
+10381|Need to be able to set the size of the undo history
+10382|Delete a folder from the explorer pane doesn't work
+10383|Holding the down arrow key doesn't send repeated keypress to integrated terminal
+10384|ability to bind ctrl+shift+i and override other Chrome shortcuts
+10385|Suggestion: Automatically show the Problems panel if problems exist (and hide similarly)
+10386|How do I make a command that only appears in the command pallet when my extension is loaded?
+10387|\n replace with \n not recognized when regex replace
+10388|node debugger does not stop on 'debugger' keyword
+10389|Integrated terminal cannot scroll
+10390|Selected text in high contrast mode is not readable in Edge browser
+10391|The terminal process exited with code 1 - Can't open terminal
+10392|Chinese (and other languages) IME does not work correctly in Edge and IE11
+10393|Failed to save 'thefilename': A system error occured (ENOTSUP: operation not supported on socket, fdatasync)
+10394|Register Cmd+Up as cursor position change in editor history
+10395|Git commit using '--signoff'
+10396|and, or, ... keywords not highlighted
+10397|Go back should remember line / column
+10398|API to Open Quick Pick pre-filled
+10399|XML files never colorize
+10400|Uncaught ReferenceError: monaco is not defined (Integrating Editor)

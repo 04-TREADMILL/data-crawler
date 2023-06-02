@@ -1,0 +1,100 @@
+8101|Problem:You are not likely to find a line break symbol with VSCode.
+8102|Fix - instantiate was misspelled as instanciate
+8103|debugAdapter console intellisense Apis
+8104|VSCode debug console should support multiline input
+8105|"Windows integrated terminal dropdown has terminals named ""xterm"""
+8106|Terminal has display bugs with julia console
+8107|SetVariable doesn't trigger reevaluation of stale variables
+8108|@SkiftCreative cannot start Code because dormant instance running in background
+8109|"Typo in quick open error ""Unable to instanciate quick open handler"""
+8110|Extension preview Install button clipped at bottom
+8111|App detects a newer version but cannot update itself
+8112|"Quick Open ""ext"" and ""ext install"" not working"
+8113|Add update all extensions button/command
+8114|When hovering links in markdown, the cursor becomes a hand, not the regular text cursor
+8115|Tyriar/run selected text in terminal
+8116|Edit and continue [Node.js]
+8117|Consider adding run selected text in terminal to editor context menu
+8118|Get CompletionItemKind at position
+8119|Markdown preview does not toggle as expected in tabs
+8120|CompletionItemKind/SymbolKind starts at 1 in languageserver but 0 in vscode
+8121|Change Explorer Open In New Command Prompt Context Menu to use Integrated Terminal
+8122|vim extension issue with Chinese IME
+8123|Debug key shortcut does not work in Mac
+8124|vscode hangs by hitting <tab> in the editor (easily reproducible)
+8125|[emmet] The command `update tag` works incorrectly with single-line tag
+8126|Debug nodejs output - incorrect hyperlink
+8127|Workbench to support left hand side of diff editor to be editable
+8128|Integrated terminal no longer handles `exit` correctly
+8129|Integrated terminal does not recognize when a folder is deleted in the explorer
+8130|Cannot launch Electron apps from integrated terminal
+8131|Remove PTY* environment variables in terminal process
+8132|tasks.json - cwd property in task objects
+8133|"Incorrect HTML formatting with ""html.format.indentHandlebars"": false"
+8134|trimAutoWhitespace doesn'n work on Windows 7
+8135|Markdown preview incorrectly renders nested lists
+8136|Support using environment variables in settings.json
+8137|Extensions: Double scroll bar on Windows
+8138|Extensions: bring back the separator from debug to extensions viewlet
+8139|mixin less error
+8140|Explore to introduce CSS variables from themes and use in workbench
+8141|Renamed file still showing in newly-opened 'Problems' report
+8142|New cursor animation styles implemented
+8143|how to jump over symbol?
+8144|[emmet] Support all the features
+8145|Sd cars
+8146|Sd card
+8147|console.log outputs undefined
+8148|"Add ""Duplicate file"" command in file explorer right click menu"
+8149|"Error on Ubuntu trying to debug using GDB ""Invalid launch option type, is not supported"""
+8150|Compile errors are not supported by intellisense in real time
+8151|Make source map handling asynchronous
+8152|Loose IntelliSense for angularjs updating from 0.10.9
+8153|extension host debugging: remote source maps are not used
+8154|[Windows 10]Terminal:Chinese characters were overlapped
+8155|Chinese characters garbled in task output panel
+8156|OutputWorker: Cannot read property 'getWorkspace' of undefined
+8157|Problems: filter input box does not show blue outline when having focus
+8158|Search viewlet right padding is incorrect
+8159|Search & Replace: replace all icon is not using dark version in dark theme
+8160|Allow to control drag and drop operations out of the window for e.g. opening new windows
+8161|Missing standalone languages `css` (etc) + `json`
+8162|Noticeable delay opening a markdown file (source)
+8163|# ## Pound Hash signs should not be marked as comments in SQL
+8164|Whitespace symbols are missed in the middle of a text
+8165|Search / Replace: editors do not open when auto save is enabled
+8166|Provide an 'Extension: Install ' command in the palette
+8167|ext quick open handler throws an exception
+8168|Red points on editor
+8169|Double click explorer sash now does not work when explorer has focus
+8170|Toolbar in Tree view not screen readable
+8171|support mime-type when showing source from non-files in editor
+8172|Resolving absolute import path
+8173|Tests for Global Replace
+8174|Add global commands to move an editor one group to the left or right
+8175|Closing all editors (Cmd+Shift+W) restores editors when reopening
+8176|Tests: ReferenceError: Proxy is not defined
+8177|Highlighting in tsx seems broken
+8178|Do not show message to restart VSCode after uninstall extension
+8179|Test theme hint in previewHtml
+8180|Suggestions for command ids in keybinding.json
+8181|Test new Uri#with API
+8182|Test asynchronous source map handling of node-debug
+8183|Test title param in previewHtml
+8184|Test vscode.open API command
+8185|"Test ""attach to process"" picker and author another variable that is bound to a command"
+8186|Test menu contributions
+8187|Test Open in Terminal settings for OS X
+8188|Test 'Variable Type Hover'
+8189|Test 'UI support for TimeTravel Debugging'
+8190|Explore project wide builder for TS
+8191|Code folding lost when switching files with back/forward
+8192|Test 'Explore project wide builder for TS'
+8193|Test the Atom JavaScript grammar
+8194|Emmet: emmet actions are not atomically undoable
+8195|Error while installing .NET Core Debugger
+8196|Test new emmet features
+8197|Test the VS Code JSON Mode
+8198|"""Error: Cannot read property 'getContainer' of null"" when opening Integrated Terminal with Ctrl+Shift+`"
+8199|JSON in the monaco editor
+8200|When exiting an Integrated Terminal with `exit` the next Integrated Terminal should get focus

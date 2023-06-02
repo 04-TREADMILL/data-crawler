@@ -1,0 +1,100 @@
+13801|FormatOnSave distorts the HTML file.
+13802|Persist selected file icon theme to user config (`settings.json`)
+13803|Sidebar always comes back in empty workspaces
+13804|"Select and operate on multiple items in ""Explorer"" view"
+13805|Undo (Ctrl + z) not working
+13806|Allow to to hide folder arrows in explorer and padding tweaks
+13807|Don't show tab modified indicator if file isn't different than what's on disk (even if changes were made)
+13808|v1.6.1 can't recognize script code in vue file. This feature can work on 1.5 version.
+13809|Feature Request: support debugging ava tests
+13810|Support to launch debug adapter from extention
+13811|Support to launch debug adapter from extension
+13812|Built-in terminal runs with wrong LANG variable (leads to missing power line symbols in the prompt)
+13813|IntelliSense for packages in package.json show the suggestions several times
+13814|Apply format.space setting to more languages
+13815|Jump to def on references of a given symbol whose def we are in doesn't jump you to def
+13816|Chrome Debug Extension killing browser
+13817|HTML fast typing (with TAB) stopped working, instead hinting useless [abc] thing
+13818|'files.associations' doesn't work
+13819|auto align colons in object literals, variables, and equals like WebStorm
+13820|In the HTML file, the Emmet syntax for the CSS style tag is wrong.
+13821|"Highlighting in HTML breaks with extra "" (double quotes)"
+13822|Cannot read property 'heightInLines' of null
+13823|extension-specific setting for format on save
+13824|Cannot read property 'document' of undefined
+13825|Cannot read property 'getValue' of null
+13826|Cannot read property 'disposables' of undefined
+13827|Cannot read property 'symbols' of undefined
+13828|this.text.substring is not a function
+13829|Cannot read property 'style' of null
+13830|Cannot read property 'toString' of undefined
+13831|Cannot read property 'position' of null
+13832|Cannot read property 'on' of undefined
+13833|Cannot read property 'framesErrorMessage' of undefined
+13834|Cannot read property 'dispose' of null
+13835|Cannot read property 'cancel' of null
+13836|Cannot read property 'title' of undefined
+13837|Cannot read property 'length' of null
+13838|Cannot read property 'scopes' of null
+13839|Cannot convert undefined or null to object
+13840|Illegal argument: character must be positive
+13841|Use readonly #12732
+13842|Error telemetry: sort by machines by default
+13843|Uncaught TypeError: e.split is not a function
+13844|Cannot read property 'length' of null
+13845|Uncaught TypeError: e.indexOf is not a function
+13846|Uncaught TypeError: Cannot read property 'getLineLastNonWhitespaceColumn' of null
+13847|Uncaught TypeError: Cannot read property 'source' of null
+13848|Attached file won't open in vscode
+13849|Custom configuration with extension testing
+13850|Preserve past output after running Ctrl-L in terminal
+13851|Since last update all tags in html appear in red
+13852|Styling loss of entire file
+13853|VS Logo: do not animate if I am not seeing watermark
+13854|Cannot debug mocha/es6 tests
+13855|heuristic used in 'Add to Watch' does not always work
+13856|Implement variable paging for named slots
+13857|"fail to update v1.6.1 , show ""install package ruined ""（安装到1.6.1版本失败，显示安装包受损）"
+13858|enable/disable toggles for default formatters
+13859|Support for 'type' in SetVariableResponse
+13860|Hyper-V Windows VM: Hangs after updating to 1.6.1
+13861|Diagonal editor layout
+13862|Typescript grammar update
+13863|sort extensions list by name
+13864|Snippets in 'launch.json'
+13865|--extensionHomePath seems broken and contradictary on Windows
+13866|User user-friendly names for recommended extensions. @joao
+13867|Request: Outline view
+13868|LightBulb on top of line numbers when glyph margin disabled
+13869|No error message on failed plugin update in 1.5.1
+13870|JS code within HTML file does not comment correctly with 'editor.action.commentLine' key binding
+13871|Console should not say 'no suggestions' if the debug adapter doesn't support completions
+13872|Extension readmes and Markdown previews cut off on high-DPI monitor / with zoom
+13873|${fileBasename} with extension, any variable without extension?
+13874|VS Code consumes 99% CPU
+13875|Changes to JSON schema are not reflected
+13876|Toggle maximize panel should restore the old panel height not the default height
+13877|outlining doesn't work for non-standard file extension
+13878|C++ symbol search and other features not working on Linux install
+13879|Integrated terminal does not accept numbers [1-8] when in haskell's ghci
+13880|Mouse scroll wheel on tabs should switch tabs
+13881|Shortcut cw
+13882|Allow for triggering breakpoints when a watch condition is met
+13883|Middle mouse click on taskbar icon doesn't open a new window
+13884|Toggle maximize panel should go to its previous state when the editor is focused
+13885|1.6+ Version has problem hitting breakpoints on transpiled code (ES6/Babel)
+13886|Could you add a color picker?
+13887|Eagerly preview files in quickopen widgets
+13888|Close terminal should have visual indication
+13889|cmd-shift-num to change editor tab
+13890|Couldn't find a compatible version of MagicPython with this version of Code.
+13891|Can't save and next stop running
+13892|EPERM: operation not permitted
+13893|Even set `insertSpaces` true and set `detectIndentation` false, editor can't format html code with spaces
+13894|cannot disable editor.formatOnSave
+13895|html页面中，css和js注释错误
+13896|Code Fold
+13897|Custom file association breaks VSCode command line registry entry.
+13898|A system error occured (EPERM: operation not permitted, utime
+13899|"External terminal set to Cmder, ""Open in Command Prompt"" doesn't open in correct directory"
+13900|fix UI/UX regression

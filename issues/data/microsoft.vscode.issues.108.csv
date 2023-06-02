@@ -1,0 +1,100 @@
+10701|User Voice Issues to Migrate
+10702|Fixes #10650 - Increased matches count width, so that it accomodates zh-CN locale
+10703|Code Lens - Reference information for TypeScript
+10704|VSCode.ShipIt Service could not initialize xpcproxy
+10705|Javascript Intellisense
+10706|allow repositioning of the tooltips that pop up with code hints
+10707|Refactor integrated terminal code to allow the panel to exist without terminal instance(s)
+10708|Right click errors / warnings in output window
+10709|RenameProvider should be able to signal whether a location is valid for a rename
+10710|change the debugger controls from a floating toolbar to a more in-line one?
+10711|Allow scss files to optionally be used instead of css files
+10712|Exclude files based on .gitignore
+10713|[html] find/peek references to CSS
+10714|Multiple debuggers
+10715|Support Windows Narrator for screen reading
+10716|PowerShell on Mac OS X: error Debug adapter process has terminated unexpectedly
+10717|PowerShell on Mac OS X: Intellisense not working for cmdlets
+10718|Conflict detected, command `workbench.action.navigateForward` cannot be triggered by ctrl+shift+- due to workbench.action.zoomOut
+10719|Feature Request: HAML Live Resolution after Enter
+10720|Question about sort menu items
+10721|typescriptServiceClient using up cpu on mac
+10722|How to install extensions inside a WinRM/RS session?
+10723|Is there any way to have c# style guides suggesting proper styles? Newbie in c#. Will be very helpful!
+10724|Problem with including include path in vscode in Windows
+10725|Add option to remove tab close buttons
+10726|All using setting values inside tasks.json
+10727|How can I implement format-on-save?
+10728|Make task templates configurable
+10729|Open in command prompt opens console with lowercase Drive Letter on Windows
+10730|FEATURE REQUESTS: Occurrence editing
+10731|"""Code"" creates non-UTF8 file name on Linux with zero length of data"
+10732|[yaml] highlighting issue of single quotes in a value
+10733|Opening multiple files from Windows Explorer context menu opens multiple windows
+10734|Feature request: bold_folder_labels setting like Sublime's
+10735|Improve editor.trimAutoWhitespace or cursor navigation
+10736|CTRL to look for methods definitions not working properly
+10737|IntelliSense should remove already typed text
+10738|Full debug experience clinet/backend ASP.NET
+10739|Inconsistent vscode.Uri.fsPath values for the same document
+10740|"Cannot read property ""split"" of undefined, when pressing TAB"
+10741|Bring back unused variable highlight in JavaScript
+10742|communication between the extension.ts and javascript loaded by html
+10743|plz add opencl support, thx!
+10744|Support customization of the panel
+10745|installed some extensions
+10746|Unable to open file via context menu from other applications (Linux)
+10747|[scss] support cross file variable resulution
+10748|VSCode Executable file missed signature?
+10749|Bogus user input on the command line shouldn't result in an uncaught exception
+10750|Wrong indentation of JS/TS - return of object with methods
+10751|VS Code doesn't follow typescript@beta (2.0.0) update
+10752|cant install C#
+10753|marketplace disappear
+10754|VS Code displays wrong korean characters.
+10755|VS Code Locks Up While Changing User Settings
+10756|Large JS/JSON Files Lock Up VS Code
+10757|Moving Lines/Blocks Using ALT+Up/Down Arrow Combo Locks Up VS Code
+10758|What URLs does Code use for updates/extensions?
+10759|[decorators] Decoration types break each other
+10760|selecting a file to move in a scrolled explorer box shifts the selection to the previous file
+10761|Release/1.4
+10762|code issue
+10763|Mouse shortcuts
+10764|Tag translation/20160817.01 breaks npm installation
+10765|Uri#fsPath should be empty when there is no path but just an authority
+10766|After debug (of extension) file is not editable
+10767|[Feature Request] IntelliJ-style git gutter patch preview/operations (git checkout -p)
+10768|Windows: Code should run as same user after updating
+10769|Fixes 10754 - Using mode transition constructor so that modeId is available
+10770|Modify standard default highlighting rules
+10771|Debugger of Python's default setting failed
+10772|Fixes #10711 - Fixing warning while executing expand select action on an empty page
+10773|Feature Request: File Outline View for TypeScript
+10774|Markdown Preview not correct
+10775|Markdown should handle GFM links with parenthesis/special chars in URL
+10776|Feature: Ability to save regex Find/Replace patterns for future use
+10777|Typescript wrapping disable issue
+10778|Extension dev/debug: using vscode.workspace.findFiles
+10779|Restore cursor position for readonly files
+10780|Apply folding view state from untitled files to file when saved
+10781|Images are never reloaded
+10782|comment HTML syntax with ctrl + / in PHP File
+10783|启动终端出现问题
+10784|Replace with capturing groups is not working when find has regex lookahead
+10785|Debug console has light green background color
+10786|Add source to TextDocumentChangeEvent
+10787|Remote Pair Programming Idea
+10788|"Electron instance in debug mode remains ""undefined"""
+10789|[icon themes] File icon sets contribution point documentation
+10790|Out of Memory exception opening a workspace
+10791|Feature Suggestion: Go to implementation
+10792|Standard Keyboard Functionality: Shift + End/Home doesn't work
+10793|match html tags
+10794|How to tell if debugAdapter supports Exception breakpoints?
+10795|Integrated terminal: environment variables in launch path
+10796|New Feature link on repository page is broken and have a request for more user friendly FTP
+10797|update-grammer.js to change grammar name #2867
+10798|The debug button does not get disabled on click, when process is running
+10799|Weird auto-formatting while editing a twig template file.
+10800|GotoLine

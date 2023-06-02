@@ -1,0 +1,100 @@
+16001|VS Code shortcut is forgotten after an update
+16002|Test: compounds in launch.json
+16003|Cannot launch/attach debugger
+16004|Faster startup/improve startup time
+16005|JavaScript syntax highlighting not used for inline script in HTML files
+16006|Intellisense inserts completion on at first cursor
+16007|Debugger looses UI state on step
+16008|"How to config ""php.validate.executablePath"" when php is running in a Vagrant VM?"
+16009|Run commands when new terminal opens
+16010|[Question] File explorer jumps when closing files
+16011|Stop auto fetching if authentication fails repeatedly
+16012|Editor problems with latin symbols
+16013|multi-cursor can't work when type using snippets with placeholders
+16014|Customize Codelens Font
+16015|ES6 spread syntax in array is throwing errors
+16016|Dedupe identical suggestions
+16017|[java] JavaDoc syntax coloring doesn't work on closing tags
+16018|"selection highlight no longer shown in scrollbar (""overview ruler"")"
+16019|[ERROR]: C# Extension failed to install the debugger package
+16020|Split settings into two file!
+16021|Wildcard support for `onCommand` in `activationEvents` config
+16022|Fixed $fileBasenameNoExtension
+16023|I know its free and its Great BUT can you fix the middle click issue on Linux please?
+16024|Urgent! NEED  Alt + mouse Pointer  function  to edit multiple text lines at the same time. It's very unconvenient to format code.
+16025|Multiple „Do you want to save changes… ?“ dialogs
+16026|Hovers in JSON files is broken
+16027|JSON Language Server - [Error - 下午5:22:16] Request textDocument/completion failed.
+16028|Intellisense and hovers broken in JSON
+16029|Saving a file inside .vscode folder toggles off the rendering of whitespace
+16030|Provide auto-updates for linux
+16031|javascript auto format on save disable not working
+16032|Escaping in snippet text
+16033|Error when opening `settings.json`
+16034|Exception when opening editor with not having a folder
+16035|Debugger halts with vscode_backtrack: Internal Error
+16036|Typing should do the same for all cursors
+16037|Remove duplicate test code
+16038|end of central directory record signature not found
+16039|Autoindent line does not work on editor.action.insertLineAfter
+16040|Consider to introduce alternative syntax for ${command.xxx} variables
+16041|First https request is responsible for 18% of windows startup time
+16042|Blank lines in TS code cause breakpoints to move upon browser refresh.
+16043|inline values
+16044|Improve Angular2 integration
+16045|getMachineId has potential for being random
+16046|Chinese garbled in output -> task
+16047|Support arbitrary encodings for git buffers
+16048|""":"" trigger autocomplete in TS"
+16049|High CPU usage / Intellisense stops working
+16050|Changed brace matching style from full outlines to underlines
+16051|JSDoc: Add support for odd tabSize in onEnterRules
+16052|JSDoc. Wrong spaces after description, after pressing `Enter` when tabSize is 3
+16053|php code inside <script>
+16054|Feature Request: API to change individual line size
+16055|Gitlab support
+16056|Mac: No keyboard shortcut for opening the current file in Explorer
+16057|Default Live Preview. HTML. Not updated at change a attached files
+16058|[folding] retain folded state on copy/paste
+16059|The working space is wider than title bar
+16060|C/C++ extension causing extension host issue
+16061|Use touch pad scroll code is not very fluent  in my surface book ,but the mouse wheel is normal
+16062|vscode doesn't honor files.watcherExclude
+16063|The category of the markdown command `markdown.category` should not be translated
+16064|Show diff between files and folders inside code
+16065|Auto load last file
+16066|Exclude a subdirectory from the explorer using exact path does not work
+16067|Python syntax highlight defect
+16068|Links to the marketplace open in the browser
+16069|.git file/folder is hidden
+16070|Global symbol search hangs
+16071|VS CODE 1.7.2 Stop Working
+16072|angularjs goto definition is not work
+16073|CodeLens toggles on/off on each keystroke when attached to a blank line
+16074|Content provided by TextDocumentContentProvider times out even when visible in the peek UI
+16075|Diagnostics are displayed out of order in Problems panel
+16076|"Be able to ""git pull from"" different places like ""git push to"""
+16077|Cannot read property 'length' of undefined when expanding selection on an empty line
+16078|No javascript intellisense
+16079|[Groovy] file highlighting not correct for certain functions
+16080|Go to definition doesn't store the cursor location when the definition is in the same file
+16081|Debug console has a tooltip of its contents
+16082|Feature Request Automaticaly add Script tag also link tag for external libraries like for jquery,Bootstrap or our own external css/js etc
+16083|TypeScript debugger does not stop at breakpoint after blank line at the beginning of the file
+16084|Fix backslash is not escaped by define key binding
+16085|Fuzzy Match for word based suggestions
+16086|Feature request: Call Hierarchy
+16087|Variable substitution problem in tasks.json when Integrating with MATLAB Command Window
+16088|Debugging Socket.io failes
+16089|preview markdown, vscode crash
+16090|integrated terminal  Scroll bar error
+16091|bad formatting in typescript errors popup
+16092|Unable to drag and drop file/folder from outside vscode
+16093|can't find how to enable top menubar in VS code
+16094|Can't install extensions
+16095|vscode 1.8.0 throws Request CSS/colorSymbols failed with message: Cannot read property 'findColorSymbols' of undefined when launching in debug mode
+16096|Can't Deactivate Hover
+16097|Editor change decorations don't go away after committing those changes
+16098|The Problem With Code Folding
+16099|Code structure for the current file
+16100|Debug adapter process has terminated unexpectedly

@@ -1,0 +1,100 @@
+2701|Provide an option to disable fuzzy matching in file picker
+2702|build failed when running 'scripts\npm install' on windows server 2012
+2703|Cannot disable emmet vendor prefixes
+2704|Ctrl + Click navigating to files outside of the project folder does not work
+2705|Add -d --diff switch to open two files in diff view
+2706|In the Replace window tab from Find goes to Replace. Shift-tab from Replace goes to Close
+2707|High Contrast Support
+2708|` breaks TS coloring
+2709|Double click a file in explorer causes UI issues
+2710|extension tips
+2711|Breakpoints don't work in remote attach
+2712|Debug console does not handle newlines in DebugProtocol.EvaluateResponse correctly.
+2713|"""Define Keybindings"" is invalidating keybindings.json"
+2714|Git: Automatically insert line breaks in git commit messages
+2715|"""Cannot compile modules unless '--module' flag is provided"" error even when ""module"" property is specified in tsconfig.json"
+2716|debug console loses output
+2717|Cursor over variables does not work on members on current debugging line
+2718|change executable name to 'vscode' (or 'mscode' ?)
+2719|Open File unsnaps snapped window
+2720|Provide link to Insider-specific docs
+2721|Main menu does not handle Windows High Contrast mode switching well
+2722|Add launch option that allows run node project by npm script
+2723|python.configuration.json in extensions is not valid json
+2724|Method tooltips truncated on really long signatures
+2725|Comment/Uncomment with same shortcut
+2726|Format code strips space after anonymous function
+2727|Extension tips should dynamically show only when there is something to show
+2728|Auto dismiss messages
+2729|TypeScript - Find all references not working for default exports
+2730|Test extension tips
+2731|Focus tracking with 2 markdown previews is broken (fixes #2489)
+2732|Can no longer move editor focus when editor is not code editor
+2733|"[typescript]: ""implements"" keyword not highlighted properly"
+2734|Regexp character class closing bracket should't be part of his beginning match
+2735|activationEvents.workspaceContains doesn't fire for directory
+2736|Fix #2687: Stop capturing 'REM' as a keyword.command in Batch
+2737|[ExtensionDev] Expose API to get at file system locations
+2738|Reaching breakpoint shouldn't show the hidden side bar
+2739|Provide support to synchronize settings across machines
+2740|Disable intellisense when typing <?php
+2741|[Feature-request] Debug-hover variable when not at breakpoint
+2742|Warning when not returning value from `catch()` in ES6 Promises
+2743|Make rulers slightly less bright
+2744|Update OmniSharp extension message
+2745|Git diff remains open after leaving switching out of Git viewlett
+2746|Right Click > Open in Command Prompt state is not helpful
+2747|debugProtocol update: Add types for function breakpoints
+2748|PHP - Return type and scalar type parameters (flagged as error)
+2749|Node debugger stalls when using util.inspect
+2750|Provide a setting to add each opened file as pinned editor
+2751|Allow for empty editor panes
+2752|Generator Syntax Highlighting Broken
+2753|Adding a command bar
+2754|Is it possible to extend the colorizer for markdown in an extension?
+2755|Error to open an editor of different kind closes previous editor
+2756|Dark+/Light+: Please add color for keyword.operator
+2757|Renaming class file
+2758|Code Opens Behind File Explorer
+2759|Crash on startup on OSX 10.8.5
+2760|Crash on startup on OSX 10.8.5
+2761|Add posibility for a language to define indentation settings
+2762|Automatically Activate Markdown Preview
+2763|Cannot invoke an expression whose type lacks a call signature (require self)
+2764|Visual Studio Code PHP/HTML Intellisense Issue?
+2765|Fixed a bug where action-items in git-viewlet changes-view was vertic…
+2766|Feature request: command to hard wrap text block at certain column (Sublime Text: cmd+shift+Q)
+2767|Need API to for lines visible in viewport
+2768|Nested objects are not shown on JS debugger
+2769|Accents (´`¨^, others?) are inserted in the wrong position (Mac)
+2770|Unresponsive if open as root
+2771|Configure user task runner
+2772|How to tabify code?
+2773|ITextFileService#saveAs() should go through textFileEditorModel.save()
+2774|Can't pass in harmony flags in extension development.
+2775|Creating a file from Total Commander using VS Code as the editor can result in an hard-to-remove file
+2776|Run normally without debug
+2777|Replace-feature issues
+2778|Debug hover timeout should be the same as editor hover in general
+2779|LuaInterface support
+2780|[html] Add support for custom tag providers for HTML
+2781|Shared process died
+2782|Mac: wrong command shortcut for Hide Others
+2783|Salsa doesn't support AMD and we should warn users that AMD is not supported
+2784|files.exclude isn't respected by QuickOpen
+2785|Feedback: Missing Plugins
+2786|cannot remove breakpoint if breakpoint is on empty line
+2787|Test working files picker
+2788|Line highlighting not working with Find
+2789|[grammars] Pluggable syntax highlight engine for templating languages between backticks ``
+2790|Installer does not detect active installation
+2791|Installer asks whether to open vscode both before and after install
+2792|Adds sort lines (ascending and descending) command
+2793|Changing TextEditor.options issues
+2794|Navigate Soft Tabs As If They Are Hard Tabs
+2795|Can't debug C# apps on Windows
+2796|Intellisense does not apply to all cursors
+2797|Copying code that is highlighted in red as a conflict retains its red styling even after conflict is resolved.
+2798|Edge Browser Monaco editor cursor error
+2799|Please support source maps with inlined source code
+2800|Page after installation is a 404 not found

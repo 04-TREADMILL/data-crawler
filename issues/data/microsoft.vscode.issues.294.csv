@@ -1,0 +1,100 @@
+29301|[Feature request] Hide cursor while typing
+29302|Use sysnative cmd.exe for the default external terminal on Windows
+29303|Intellisense Completion doesn't respect space after equal sign (.html file)
+29304|Consider emmet completions from php extension
+29305|Powershell Debugger Exits
+29306|Add top-level task menu
+29307|The TypeScript language service died unexpectedly 5 times in the last 5 Minutes
+29308|python interpreter uses incorrect encoding when invoked by a task
+29309|Slow load time
+29310|persian font problem in integrated terminal
+29311|VS Code doesn't respond to Asus scroll gesture after hibernating and waking up the laptop
+29312|The PowerShell session has terminated due to an error / Debug adapter process has terminated unexpectedly
+29313|interface stubbing for anonymous implementations
+29314|/tmp cluttered with socket-files
+29315|"calling vscode from ""git commit -a"" while VScode is open causes error"
+29316|f9 setting breakpoints doesn't work
+29317|Running the contributed command:'extension.node-debug.startSession' failed.
+29318|"""End"" key should move to the real line end on first press"
+29319|Cursor position error
+29320|Application icon is incorrect in Ubuntu
+29321|auto One bug
+29322|word suggestion for variable is not coming.
+29323|Can't edit previous editor(edit not possible on closed editors).
+29324|Copy Paste bug
+29325|VS Code window auto top most when openning two or more window instances.
+29326|Stop the Misuse of the Pointing Hand Cursor
+29327|Shortcut [ctrl+k, ctrl+i] doesn't work correctly
+29328|"Hide ""Code Preview Bar"""
+29329|Linux system become unresponsive after keeping Zen mode opened for a long time, I have to forcefully restart my system.
+29330|Auto import of react components formats the whole import section
+29331|Expanded entry inside collapsed entry only shows children after collapsing & expanding (custom tree views)
+29332|VSCode 1.13.1 ships with insecure node.dll 7.4.0
+29333|Merge pull request #1 from Microsoft/master
+29334|Git origin/branches are not removed when removed from Github
+29335|Ctrl+Delete deletes whitespace plus token in VS Keymap
+29336|Allow customization of the pop-up documentation box during auto-complete
+29337|Don't re-render hovers if nothing has changed; Add telemetry on hovers
+29338|Re-rendering hover content DOM elements even when nothing changed
+29339|Extension failing to deploy due to svg's
+29340|Improved auto-indent breaks Allman style indent
+29341|Support moving the debugger cursor to another line
+29342|Feature Request: Optionally group editor tabs based on file type, color-coding the tab groups with muted colors
+29343|Editor.TokenColorCustomizations
+29344|<remove>
+29345|Typescript errors appearing out of nowhere, changing language mode back and forth makes them disappear
+29346|Extension doesn't recognize installation or updates
+29347|Best workflow for viewing PR in VSCode?
+29348|Suggestion: Allow 'local' color theme changes
+29349|Typescript imports for electron don't show suggestions for es6 import style
+29350|multi-cursor toggle modifier action has a confusing name
+29351|扩展主机意外终止。请重新加载窗口以恢复。
+29352|Integrated terminal: Selection not on the same position as displayed text when text is bold (causing copying more/different text than what appears selected)
+29353|Ability to format all files inside a directory.
+29354|VSCode insiders does not search files other than js/ts
+29355|[Feature] Allow to invoke search/find in files widget with query prefilled
+29356|babel-eslint - error with eslint
+29357|"Provide easier keybinding for ""Command Palette""/""Show All Commands"""
+29358|"F5 debug fails when directory path contains ""_"" (underscore)"
+29359|Blured texts in the app
+29360|IProgressService2.withProgress show with delay?
+29361|Monokai theme missing colorization for variables in template strings
+29362|Linux: Tasks not using $PATH from ~/.bashrc
+29363|"[go] Indentation for ""case"" lines in ""switch"" and ""select"""
+29364|"${command:PickProcess} not found after set ""protocol"":""inspector"" in launch.json"
+29365|Prevent http images and untrusted SVGs in browsable extension information
+29366|a problem of vscode tooltip
+29367|VSCode打开ionic文件夹后，经常莫名其妙的CPU占用率过高
+29368|after find or replace there comes some white sapce
+29369|Support multiple TypeScript projects with shared library
+29370|Can not find in files: no such file or directory(os error 2)
+29371|FontStyle not updating
+29372|Explorer: adding a root folder collapses my first folder
+29373|Error spam in the console when transitioning multi root folders
+29374|"Menu capitalization: ""Restart To Update"" -> ""Restart to Update"""
+29375|Provide support for non standard CSS properties and features in VSCode
+29376|Set TERM_PROGRAM environment variable on integrated shell
+29377|Task API feedback
+29378|Show dirty indicator close to file name if tabs are disabled
+29379|Trying to compile VS Code under Windows results in
+29380|Icon change
+29381|How to fix 'Could not install typings files for JavaScript language features' ?
+29382|There was something wrong while render file list
+29383|Test: Multi root does not leak in stable
+29384|Decide on multi root actions naming
+29385|Do not leak `workspace` setting in Stable
+29386|Implement conditional visibility for custom views
+29387|msbuild(vs2017)重定向输出的字符串到 vscode 的输出窗口， 其中的汉字变成了乱码
+29388|Not being notified when a settings file from a root folder (Other than first)  is changed
+29389|Certain ANSI sequences can cause integrated terminal to start showing bold text when it shouldn't
+29390|Specified code cause crash.
+29391|Touchpad scrolling doesn't work on Asus ux501v laptop
+29392|Test: Task customization
+29393|Decide on allowing children of a folder and their parent to be in same workspace
+29394|Suggest primary build task
+29395|Add a way to retrieve last commit message
+29396|Issue a error if version 2.0.0 defines global OS specific tasks.
+29397|Test: preLaunchTask in debug
+29398|Cannot read property 'on' of undefined
+29399|Test: Windows 64 bit
+29400|Slow startup

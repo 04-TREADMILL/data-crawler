@@ -1,0 +1,100 @@
+26201|@bpasero Here is the request to use keyboard for same functionalities as with mouse. Similar to https://github.com/Microsoft/vscode/issues/7183
+26202|@virtyaluk I wasn't able to reproduce your problem on Windows 10. Could it be that your filesystem at 'd:' is a shared filesystem that is also available via a UNC path? What version of node.js are you using?
+26203|Regarding the `/usr/bin/code` symlink, it seems to get created somehow. `rpm -qf /usr/bin/code` doesn't recognize it as being part of the package.
+26204|This issue was moved to Microsoft/TypeScript#9210
+26205|Thank you!
+26206|"Create a link to `/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code`.  You can add the following to your `.zshrc`:  ``` alias code=""/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code"" ```"
+26207|@lnicola https://github.com/Microsoft/vscode/pull/7350 should fix the /usr/bin/code issue.  @joaomoreno nothing comes to mind really... The environments are the only things that could potentially change between shells aren't they?
+26208|#646
+26209|Can you try http://code.visualstudio.com/Download#insiders if it works as you want?
+26210|From the description of the release notes, this appears like it will take care of the issue.  I will test it later today.
+26211|@Tyriar I updated the environment variables to match (at least as reported by `env`), but it didn't have any effect. It's strange..
+26212|https://github.com/Microsoft/vscode/issues/1043
+26213|@bkbonner I could still see the slowness sporadically, which indicates that our workaround not always works. In your case the debugger inside node.js sends a 3 MB json object (most likely a Buffer) over the wire as part of the callstack. This slows down stepping considerably.
+26214|So, in that shell what do you get with `echo $TMPDIR`?
+26215|Uh. @bpasero any ideas? Should the git contribution just reach out to the files contribution?
+26216|@joaomoreno it's not set. It works it I set it manually.
+26217|@joaomoreno that would be totally fine because you already depend on the file world. You could just let your IGitConfiguration interface for your settings (if you have such) extend from the files one in https://github.com/Microsoft/vscode/blob/master/src/vs/platform/files/common/files.ts#L433 which is API.
+26218|Thanks for the feedback. We settled on: - `workbench.editor.showTabs`: _Controls if opened editors should show in tabs or not_ - `workbench.editor.enablePreview`: _Controls if opened editors show as preview. Preview editors are reused until they are kept (e.g. via double click or editing)._ - `workbench.editor.enablePreviewFromQuickOpen`: _Controls if opened editors from quick open show as preview. Preview editors are reused until they are kept (e.g. via double click or editing)._ - `workbench.editor.openPositioning`: _Controls where editors open. Select 'left' or 'right' to open editors to the left or right of the current active one. Select 'first' or 'last' to open editors independently from the currently active one._
+26219|@isidorn let me know if you still see this with todays insider build.
+26220|@bpasero Thank you for your work!
+26221|This issue was moved to Microsoft/TypeScript-TmLanguage#189
+26222|@githubhero Can you describe what you are expecting?
+26223|This can be used as the default configuration?
+26224|@TerryFranguiadakis Expression you have to use in this case is `**/*.csproj`  For more info please click on the glob pattern button on the right  Thanks
+26225|I can see you've added  `feature-request` tag to this, so I guess this confirms it's not working at the moment.  We should carefully evaluate how to do this because the same two schemas will also be used outside of VS Code (deployed on the site where JSON documents validated by given schemas will be loaded) and should still work (I hope it can be done) unchanged.
+26226|@aeschli, I want highlighted: - console.log; - prototype.addClass; - document.createElement; - parentNode; - insertBefore; - etc.  Just compare the JS file you find at: https://github.com/wbkd/d3-extended/blob/master/d3-extended.js
+26227|"Add `""files.eol"": ""\n""` to your settings file."
+26228|Hold the phones. It is not the firewall but Kaspersky Security 10. -.-
+26229|This is the standard emmet behaviour and the problem repros in other emmet integrations in other editors. I suggest to file an issue against emmet.   As a work around you can disable emmet expansions on tab using the `emmet.triggerExpansionOnTab` setting.  Closing this issue as an upstream issue.
+26230|This is from **SublimeText**:  ![sublime](https://cloud.githubusercontent.com/assets/1677287/16113453/829e500c-33bc-11e6-89d0-62ef4e76e334.png)  This one is from **Atom**:  ![atom](https://cloud.githubusercontent.com/assets/1677287/16113463/8ab03ab2-33bc-11e6-8717-2b0f9e9743a3.png)  I hope this helps   :-)
+26231|"I think we could just make that part of the path, like `explorer/context/edit`.  Yet another _new_ thing that came up is how to handle things like `right click`, `cmd+left click` etc. Before, we could cmd+click the preview icon for Markdown to open the preview to the side. That isn't possible anymore. Similar to how keybindings have a `key` property, I believe we need to have a `mouse` property that goes like:  ``` json {   ""command"": ""foo.bar"",   ""mouse"": ""cmd+left"",   ""when"": ""markdown"",   ""where"": ""editor/secondary"" } ```  The default for `mouse` would be `left` but can have values like `cmd+right`, `right`, etc"
+26232|Thanks @Tyriar. Unfortunately that means giving up the syntax highlighting provided by the PostCSS syntax extension, which makes the files a mess of red errors.  Also, I didn't actually realise that the variables are not resolved across imports, which would naturally be my primary use case, as properties colocated in the same file are easy to find anyway. I will keep an eye out for that functionality :)  Keep up the awesome work, I am absolutely loving VSCode!
+26233|@alexandrudima I investigated this now, it appears that bug depends which layout is set on **opening of VSCode**: - If my lang is SR in OS X and I **open the VSCode**, when I switch to EN (I usually do programming with EN keyboard) it will use alternative shortcuts. Funny thing is that default, normal, shortcuts are active when your language is set to SR and alternative shortcuts are active when the EN is the language. It is up side down. - If EN lang is set on VS Code open, everything works as it should. When I switch to SR language alternative shortcuts are active and when I switch to EN normal shortcuts are active.  Yes, I do switch sometimes inside VSCode to local language to enter some string with local characters, but I done that before, then switch back to EN for programing and easier access to [] {} etc. that was not the problem until latest release. Even now it works fine if you open VSC with EN, and even now VCS active different shortcuts depending on kb layout, but if you open VSC with other kb active, shortcuts are messed up.  Edit: I usually open VSCode from command line with # code .
+26234|Dup of #4580 Currently in progress
+26235|Thank you for the tip `editor.renderWhitespace`.
+26236|As designed, please read this https://github.com/Microsoft/vscode/issues/7647
+26237|IMO if we are changing Cmd + number short cut to focus tabs, then we should not use the same to split group when in non tab modes.  Also under the Go To submenu the switch groups sub section is still showing the same keyboard actions in tabs/ non-tabs mode
+26238|Ping @edumunoz this has been pushed to master
+26239|"Works, thanks. I was searching the settings for ""LF"" and ""CRLF"", didn't think to search for \n"
+26240|'running' indicates state in this case - I have added a comment to the nls.call to make this clearer in the future
+26241|@roblourens great work - thanks a lot 🍻   I am making the DebugActionsWidget draggable so am rewriting parts of the code there - so I will try to make the actions toggling nicer - thanks for feedback.
+26242|Makes sense  - users who are passionare about cmd + 2 opening to the side can always bind a custom keybinding to it
+26243|Webcontrol, Mail-Anti-Virus and IM-Anti-Virus is blocking Visual Studio Insiders
+26244|@roblourens @isidorn works great, thanks!  @aruneshchandra the TimeTravel UI is available in the next VS Code Insider build.
+26245|I'd like to have it as default, as it's already muscle memory.  If you don't like it, I will suggest make Ctrl+Page Up and Ctrl + Page Down as the default way to navigate to tabs nearby. Just like Notepad++.
+26246|Also my 2 cents here that, IMO cmd + 1, cmd + 2, cmd + 3 are very familiar default keyboard short cuts for splitting and switching among groups. If majority of users (if it is true :)) are used to these actions I do not know if it will be really helpful to change them
+26247|VS Code shows snippet-suggestions as well as language suggestion in one window. The symbols like `Performance`, `onBefore` are suggestion computed by the JavaScript language service. Their actual type is shown by using a different icon. In you test case (2nd screen shot) you hit the unlucky case that the JavaScript language service doesn't work on unsaved/untitled buffers.
+26248|We have an issue about mixing snippet suggestion with other suggestions: #2343. Closing this as a duplicate.
+26249|"What info do you need? I'm talking about this keyboard shortcut:  ``` json { ""key"": ""cmd+k cmd+right"",       ""command"": ""workbench.action.compareEditor.nextChange"",                                      ""when"": ""textCompareEditorVisible"" }, ```  Even if the `when`-part is removed, it only works in the compare view and doesn't in the normal editor."
+26250|@weinand @isidorn @roblourens Thanx for a quick turnaround on this feature request!
+26251|Hi @jrieken, thanks for replying. But this is more complicated because in the 2nd screenshot the file _was_ actually saved on my desktop - albeit under the name `Untitled-1.js`.  So I don't understand why for two JS files, in one I get a ton of random suggested autocompletions, and in the other I only get the core snippets.
+26252|@te1 exactly. What's the point of putting `if` in the list if pressing <kbd>tab</kbd> does literally nothing? This is very annoying.   I see you also get my problem #7720 where a ton of irrelevant JS properties/variables are suggested before the core language snippets.
+26253|What is wrong about `Ctrl+Tab` as it works out of the box?  Note that Ctrl+PageUp and Down are behaving different: they navigate in spatial order where Ctrl+Tab navigates in MRU order.
+26254|I would probably try to simplify this to not talk about the key pressed while invoking the action but just the fact that a modifier is pressed.  Also note that someone might want to trigger an action using keyboard only and in that case we should also support the modifier even though it is not a click.  Finally, we currently cannot detect a modifier click if you click on an entry in the context menu.
+26255|There is a problem, we should limit about switching tab in separate columns(groups)?
+26256|Another idea: we could just enrich the context that gets passed into the command with these infos (e.g. a modifier key was pressed when invoking the command). Instead of making this all declarative.
+26257|@yisibl can you clarify what you mean? Ctrl+Tab only works in the active group and the other across groups.
+26258|I think `Views` can be used as a top leve menu.
+26259|Good to know we have a culprit.
+26260|"How about `node -p 'require(""os"").tmpdir()'`?"
+26261|![VSCode tabs demo](https://img.alicdn.com/tps/TB1RfMnKpXXXXXZXpXXXXXXXXXX-790-200.gif)  @bpasero I want to have an option to control only one side of the switch.
+26262|#7488
+26263|Does not work for me if we also have a `View` menu.
+26264|@yisibl so you want to navigate in spatial order until the end of the group is reached?
+26265|@bpasero Yeah, you can consider adding an option.
+26266|@joaomoreno I don't have `node` installed. Can somehow I test that with the `code` executable or do I have to install it?
+26267|"Sure, maybe this will work: `ATOM_SHELL_INTERNAL_RUN_AS_NODE=1 /usr/bin/code -p 'require(""os"").tmpdir()'`."
+26268|@yisibl I suggest you open a feature request on this.
+26269|With `/usr/share/code/code`, both `tmpdir()` and `tmpDir()` return `/tmp`. As I mentioned above, `/usr/bin/code` works fine. I also installed `nodejs` and I get the same path.
+26270|Also, it is an invisible one, no entries in any reports of Kasperski nor in the messages telling you it blocked something.
+26271|I had a `~/.git` _file_ for some unknown reason (it had `node_modules` as it's sole contents, so a .gitignore file creation gone wrong perhaps). Removing this file resolves the issue. I had not thought at all about ancestor search paths, thank you sir!
+26272|I can see them at https://github.com/Microsoft/monaco-languages and already have them being pulled in for alm automatically so all good from my side :heart:
+26273|Thanks for confirming!
+26274|OK, so the real problem seems to be the original lack of `/usr/bin/code`, leaving it to @Tyriar
+26275|"What about camel case?  |""commandCamelCase"": ""actions.find"" ""|commandCamelCase"": ""actions.find"" ""command|CamelCase"": ""actions.find"" ""commandCamel|Case"": ""actions.find"" ""commandCamelCase|"": ""actions.find"""
+26276|@sijad off course, why not I have issue to get last commit message from git!  `ممنون سجاد جان`
+26277|@lextm Thanks for the advice Lex - WireShark seems really useful. I can't work out thought - how can I filter packets to only analyse those coming from VSCode? There are so many packets when viewing it is impossible to distinguish by eye.   Is there perhaps an IP address which `Install Extensions` always makes a call to so that I can isolate?  Thanks again
+26278|Not really, but perhaps it's my fault. I downloaded the VSCode ZIP archive, extracted it, and it failed to start. Only yesterday I noticed that running `bin/code` works. Is this the expected behavior?
+26279|Delivered the change to support relative $refs, as seen [here](https://spacetelescope.github.io/understanding-json-schema/structuring.html). Resolving the relative URL also works in the workspace, just remember to save the content as the schemas are loaded from disk.
+26280|Regarding the file URL: You could also have used file URL, but file URL always need to contain the full path, e.g `file://C:/data/workspace/test/myschema.schema.json`. With the change now you can also use relative paths, which are evaluated against the location the schema was loaded.
+26281|"You have got to be kidding me 😄 Already done? Since I'm on insider, I should see this tomorrow? Y'all rule!  So how should it work? When I reference another schema, do I say ""./schema..."" or just ""/schema...""? What if schemas are deployed and loaded through HTTP? Is there a way to have one syntax work for both local files while editing in VS and also while validating while loading through HTTP?"
+26282|Nice idea! But I wonder how many times angle units are used.
+26283|Forgot to say but big thanks!
+26284|Ok, what you want is highlighting for references of variables and functions. Duplicate of https://github.com/Microsoft/TypeScript-TmLanguage/issues/149
+26285|I see this has been fixed : https://github.com/Microsoft/monaco-languages/commit/d40eeccae03ed48e4f31e5c4655477618f8084ec :rose: :heart:
+26286|"you can write `""$ref"": ""other.schema.json#/definition/blue""`, or `""./other.schema.json...""` np, you are welcome, thanks for the detailed bug report."
+26287|@aeschli Awesome, will try as soon as next build is out 😃
+26288|@weinand please notice that I started with just the context menu action with the 'Set Value' action. This action should only be enalbed for primitive values and only if the debug adapter supports set value. We can add this behavior on double click aslo if we want in future.  Try it out and let me know what you think.
+26289|@aeschli `document.createElement` is something built-in in JS (it's DOM programming), not custom code, anyway
+26290|Thanks for the pull request, @gravejester ! To run the colorizer tests, run ./scripts/test-integration.sh The tests will colorize a test input file and compare the result against the result of the last run, or fail if they differ. The new result will be written over the old result, so if you agree with the new result, you can just commit the updated file. For powershell, we have a test input file at https://github.com/Microsoft/vscode/blob/master/extensions/powershell/test/colorize-fixtures/test.ps1. To validate the coloring you can also just open that file in a updated VSCode. The result file is https://github.com/Microsoft/vscode/blob/master/extensions/powershell/test/colorize-results/test_ps1.json  Feel free to add more tests or modify the existing one.  Let me know if you want me to just update the test result, or if you want to have a look.
+26291|thanks @gontadu !
+26292|@Ikuyadeu First thanks for your work. Unfortunately we decided to not take the change. We have no guideline on how the colors in css are formatted and leave it up to every feature owner to use the style preferred.
+26293|It depends if you are in a browser or nodejs environment. But yes, I see what you mean. it's colorizing for standard library functions.
+26294|@aeschli Of course, yes. In this case, since _d3.js_ is a client library (it deals with SVG), it's client code
+26295|Thanks @jhasse !
+26296|I still see it with latest  ![screen shot 2016-06-16 at 16 40 53](https://cloud.githubusercontent.com/assets/1926584/16120810/2b2858ac-33e1-11e6-80be-2c38e8955d34.png)
+26297|"@joaomoreno I am still experiencing the same symptoms after adding `""git.enabled"" : false` to my settings.json and restarting VSC. I disabled some of the telemetry options and added the setting to exclude large files as well, here is the contents of my settings.json file:   > // Place your settings in this file to overwrite the default settings > { >     ""git.enabled"" : false, >     ""update.channel"": ""none"", >     ""telemetry.enableTelemetry"": false, >     ""telemetry.enableCrashReporter"": false, >     ""files.exclude"": { >         ""**/largeFolder"": true >     } > }"
+26298|It looks like progress is being made on this :)  https://code.visualstudio.com/updates#vscode ![image](https://cloud.githubusercontent.com/assets/5360920/16120972/730ebca6-33af-11e6-97a6-7520da3a7c78.png)
+26299|Thanks @codepo8, nice work!
+26300|Pushed something that maybe has an impact, please check tomorrow again in insiders.

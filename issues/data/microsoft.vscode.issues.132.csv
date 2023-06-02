@@ -1,0 +1,100 @@
+13101|"Git ""Clean All"" feature should display a confirmation dialog"
+13102|can't open folder (on sftp net drive)
+13103|Stale fwlink generated in extensions.json
+13104|With in half an hour have three times with out work when edit html
+13105|"""propfull"" snippet selected before ""prop"" snippet"
+13106|Request for features
+13107|TypeScript declaration files for Jasmine not found in Angular 2 project
+13108|Icons seem blurry
+13109|TypeScript decorators not recognized
+13110|Terminal window *incredibly* slow.
+13111|[Bug] VSCode window is blank
+13112|No intellisense in project.json from local nuget source
+13113|Add option for --list-extensions arg
+13114|test
+13115|testing 13132
+13116|(Suggestion on syntax highlighting) Offer a setting for comments to appear in italics
+13117|Intellisense doesn't work immediately for new .js file added via File -> New File (or Ctrl + N) but does for files added via Explorer
+13118|how to check command is completed or in progress via API
+13119|Inserting tabs causes Code to stop responding.
+13120|Support launching VS Code from Bash on Ubuntu on Windows
+13121|Excessive startup time (near-hang), then OK
+13122|Strange insiders crash
+13123|Buggy tabCompletion
+13124|Show message when detected encoding of file is non UTF
+13125|Activating extension xxx failed: Module version mismatch. Expected 49, got 48..
+13126|Cant download the installer, download link not working...
+13127|print out
+13128|can I change the User Settings path?
+13129|[javascript][highlighting] Parsing error on non latin characters
+13130|Flaky tests in extHostDocumentSaveParticipant.test.ts
+13131|Incorrect syntax highlighting for Markdown?
+13132|[i18n] Fix ru locale
+13133|Problems view should maintain scroll position
+13134|Failed to save 'httpd.conf': A system error occured (EACCES: permission denied, open
+13135|Command line option -g FILE:LINE not working
+13136|[Help wanted] Is there a keybinding for moving a specific number of lines up/down?
+13137|Support multi-line search for Global search
+13138|VS Code is difficult to use on a virtual file system over a network (gvfs)
+13139|Trim trailing whitespace only on changed lines
+13140|Problems under a file should be sorted by Problem type and then by line number
+13141|fix typo in type definition
+13142|Add Explorer right-click options to the file tab right-click options
+13143|VSCode not start the Windows command prompt.
+13144|how to cancel
+13145|"Switching to a ""comparison"" tab always puts the cursor back to the start of the file"
+13146|Force close all vscode instances to install update (reopening on previous state ofc)
+13147|[scss] !global flag marked as 'unknown keyword'
+13148|[themes] improvements expressions in template string
+13149|Default themes need to handle jsx evaluated code scopes for better coloring
+13150|Question: Minimum width for VS Code status bar icon
+13151|Enable terminal themes via tmTheme
+13152|enter key does not make new lines
+13153|Corporate Proxy Errors (Self Signed Certificate in Chain) (Everything used to work before)
+13154|Intellisense not picking up file move
+13155|[coffeescript] Syntax Support for 1.11.1 `import` and `export
+13156|Install from VSIX... has no Command Palette command, no entry in Default Keyboard Shortcuts
+13157|Dark text background not correct on color corrected OSX machine...
+13158|Opening a lot of files in a specified line in quick successions doesn't target the correct line
+13159|"HTML img tag is reformatted despite setting ""html.format.unformatted"""
+13160|Consider adding a tooltip to the in-product Extension details extension identifier
+13161|Consider adding a tooltip to the in-product Extension details install count
+13162|Could be unclear that in-product Extensions Details rating number is ratings count.
+13163|Files in folder not reloading after switching git branch
+13164|[snippets] Global snippet option
+13165|best way to use VSCode to view and edit a graphical file
+13166|VSCode with High Contrast mode
+13167|toml files icon in Seti theme
+13168|Format Code for JS file doesn't work with ESLint
+13169|Crash when opening a 35MB, 13.7MM lines txt file
+13170|Botframework samples unable to debug using f5 key
+13171|Linux: Unable to move file to trash upon delete
+13172|intellisense not working
+13173|Does travis not load the workspace anymore?
+13174|UI render Bug
+13175|[xml] XML colouring is incorrect when element names contain dots
+13176|I can't format the code like that in javascript file
+13177|Submit a bug link not working for Edge
+13178|Search: Extract close replace widget as an action
+13179|Undo last commit greyed out
+13180|Unbind alt+z
+13181|allow to contribute to the tab context menu
+13182|Terminal no vertical scrollbar with zsh on openSUSE
+13183|Filter debug variables
+13184|Unable to view entire error message in top drop down error bar
+13185|Enable select all with RegEx patterns
+13186|Show release notes automatically after an install @joaomoreno
+13187|[loc][Query][VSCode] Please clarify the placeholders
+13188|[loc][Query][VSCode] Please clarify the string
+13189|[loc][Query][VSCode] Please clarify string
+13190|[loc][Query][VSCode] Please clarify the string
+13191|VS Code froze when processing project the first time
+13192|Inconsistent Autoformatting Behavior
+13193|Test: breakpoint hit count
+13194|Feature-request for a gutter display option.
+13195|Add Electron support for theming MacOS titlebar
+13196|UX meeting agenda 5th October 2016
+13197|Fit watermark into code org (fixes #13069)
+13198|Destructuring fails as first line of Node program but not otherwise
+13199|A quality of life change: When opening an image in VSCode display dimensions
+13200|no option to use in command line for developers, had add it to env myself

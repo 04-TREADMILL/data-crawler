@@ -1,0 +1,100 @@
+24201|JS debugger showing wrong file when there are files with the same name
+24202|Баг в vscode
+24203|Markdown Preview Current Element Hover Indicator on Blockquote Shows Extra Bar
+24204|Extension Names in Extension Browser Should Display an  ... For Long Names
+24205|Unexpected behaviour of Ctrl + backspace
+24206|Extension Explorer: Rating and Download Count only Displayed If Full Name is displayed
+24207|Suggest the Angular Language Extension when a User Opens an Angular Project
+24208|Angular: unclear debug error message
+24209|No Error Displayed when Trying to Attach to an Invalid Debug Port in the Debugger
+24210|Git Ignored files showing up in Source Control tab after upgrade to 1.11
+24211|mac Flash back
+24212|Unable To open 'undefined': /undefined After editing Value Using Chrome Debugger
+24213|Feature request: Add context menu to branch name in lower left
+24214|Unclear error message in chrome debug
+24215|Blank VSCode window on upgrade to 1.11.x
+24216|Update bot for auto labeling issues, especially for extension development
+24217|Added missing commands to the Settings page
+24218|Linux Mint 1.11.1 - Extension library unreachable with http.proxy setting only in GUI.
+24219|Debugger breaks inappropriately
+24220|Code navigation highlights the folder inappropriately
+24221|Object Browser for AL language extension
+24222|Typescript formatting does not work with Ctrl + Shift + l
+24223|Auto save option isn't working
+24224|Hard to set up non-trivial problem matcher
+24225|[BUG / Improve / Feature Request] intellisense html, clickable links, end script tag.
+24226|Debugging UI gets crowded
+24227|"The ""Restart"" action will start in debug mode after the ""Start Without Debugging"" action"
+24228|Search issue with large file of single line
+24229|syntax coloring for .ejs files
+24230|Remapped Escape key doesn't work anymore with Linux / Ubuntu (Version 1.11)
+24231|No JSON IntelliSense for babelrc
+24232|MERN Starter Kit: Tests fail when run as task, passes when run in terminal
+24233|Request - show file path intellisense in *ignore files
+24234|Request  - Webpack IntelliSense
+24235|Extension Idea - MERN CLI
+24236|MERN Starter Kit: Error reporting is inconsistent
+24237|Extension Idea - Wrapper around Homebrew
+24238|Missing Nodemon.json validation
+24239|When no tasks.json, `Run BuildTask` gives unhelpful error message
+24240|MERN Starter kit: Relative file path not clickable in certain files
+24241|Debug hover does not work in some cases
+24242|"""restart"" for request type ""launch"" does a re-run instead of a re-attach"
+24243|terminating a debug session does not kill the launcher program but just the node process
+24244|Tweak HTML Preview Styling
+24245|Code asks users to choose the runtime twice if launch.json doesn't exist
+24246|If there is two launch tasks with the same name, we can't pick the correct one
+24247|Provide a easy way to get rid of the annoying git version warning
+24248|Skip minified files when searching
+24249|Variable type not used for IntelliSense of object literal when type is declared in comment
+24250|Control-K Chord key not recognized : Insiders 4-7-17
+24251|Error when running build command when no task runner configured
+24252|"""CMD +"" to zoom breaks page layout."
+24253|Tab switch with mouse wheel
+24254|Opening second instance of VSCode just gives me a blank editor
+24255|JSDoc Implementation Issue
+24256|fix Solarized Light theme highlighting  #24040
+24257|Error downloading from Xamarin server. Visual Studio for Mac Preview.
+24258|Case sensitive filename not match between tab and sidebar
+24259|[vue] add syntax highlighting out-of-the-box
+24260|Keyboard not working after Code install on Ubuntu 16.   PageUp/Down Line Up/Down Left/Right (and others) not working.  Going back to 1.10.2, keyboard works again.
+24261|Add support for commit to other branch
+24262|Debugger retrieves wrong <node internals> code using legacy protocol
+24263|Ripgrep: match not found when using match-case, match-word
+24264|Extension Host crashing vscode and forcing me to restart the vscode
+24265|Feature Request - Search with more mode
+24266|Copy with drag and drop not work in Ubuntu
+24267|Hide collapse icon if folder is empty
+24268|Bad dispaly path in Terminal with WSL(zsh)
+24269|How to read a file without using node native module.
+24270|Build task broken with new version: Cannot read property 'config' of undefined
+24271|Extension authoring - Live updates without saving
+24272|Debug Console sometimes ignores logging of empty lines
+24273|file explorer is not updated after a git pull
+24274|How close vscode's snippet hint
+24275|6 Updates for extensions indicated but there are no updates [closed: It just needs some space]
+24276|Debug console disapperas when exit last terminal
+24277|Strange terminal display after Windows update
+24278|The integrated terminal becomes disordered.
+24279|Can no longer create new git branch from VS Code
+24280|Just updated VSCode and now it is throwing errors
+24281|Markdown preview cuts off text when not at 100% zoom
+24282|Quick Open shows files that have been deleted
+24283|Add additional cursor through crtl+click somewhere
+24284|[question] Is it possible to run vscode in a browser?
+24285|[json] IntelliSense don't work for @angular in package.json
+24286|[html] wrong autocomplete HTML end tag
+24287|"[FIX / Improve] #17456 when tag script included atribute src, intellisense suggest JS code, but don't end tag ""</script>"""
+24288|"[Feature Request] #22625 support clickable (ctrl + L.click) on other ""links""."
+24289|Ubuntu - missing icon when using deb package but not when building from source
+24290|virtualenvironment not respected
+24291|Support 'code -rw' in running instance and wait until tab gets closed
+24292|Very bad design/behavior: vscode closes deleted files auomatically
+24293|Fonts look blurry
+24294|Cmd+C (Copy) breaks Undo/Redo history
+24295|Need to zoom only code, not all the interface
+24296|VS Code Error
+24297|Launch.json Error
+24298|"[duplicate] Cursor not blink when style ""line"" or """
+24299|[BUG] Cursor in terminal doesn't blink
+24300|[REQUEST] Open-In-Browser Package for Visual Studio Code

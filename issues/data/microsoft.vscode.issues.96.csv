@@ -1,0 +1,100 @@
+9501|Use require logic for typescript.tsdk
+9502|result of powershell command : help  can not be loaded to console
+9503|Slow scrolling and general usability
+9504|golang Find usage fail.
+9505|vscode not responding while editing
+9506|Change Installation Folder for extensions
+9507|Folder listing filter
+9508|Extension Host illegal argument
+9509|Code Suggestions Long Delay
+9510|Can't open new workspace from the command line
+9511|Autocomplete not work in multiline edit
+9512|Make history navigation aware of editor groups
+9513|vscode Extension with edge Problem
+9514|Newline break syntax highlighting with const { ... } = this.props
+9515|[theming] code --disable-extensions Resets color theme
+9516|Make command based variables available to task.json
+9517|[Feature Request] HTML Tag matching window
+9518|Can't remove unsaved files from a single open editor group
+9519|Test: Breakpoints updated only after save
+9520|窗口 (Persist window size and location across restarts)
+9521|Fixes #9482: AutoClosePair between tags
+9522|Implement lineViewTop, lineViewBottom, lineViewCenter
+9523|Support variable paging (aka chunked arrays)
+9524|Fix minor spelling mistake in comment: Iff > If
+9525|Visual Studio Code should update itself silently
+9526|(Duplicate) Request: Reveal in tree (In Open Editors context menu)
+9527|On Mac french keyboard layout the backslash '/' blocked by shortcuts
+9528|getLinesViewportData api in verticalObjects is returning range where start line and end line is not visible
+9529|Hint for task name on hover
+9530|Dynamic args for debug task
+9531|#55: Add performance test for QuickOpen
+9532|Asked to update twice
+9533|Unneeded menu separator under the More (...) menu
+9534|Visual studio does not start AS a normal user if it was started as a root user for first time
+9535|File explorer unresponsive, high cpu consumption
+9536|VSCode only waits for 1 second on disconnect
+9537|XML Formatting shortcuts no longer work
+9538|Blackout overwrote my file with empty data
+9539|Search and replace in workspace doesn't return all regex matches when using $
+9540|Improper tab auto completing of html tags
+9541|Markdown previewing a link can't have whitespace in-between [] and ()
+9542|Opening a single file should be almost be as quick as opening up in a basic text editor
+9543|Cannot select multiple files in workspace explorer
+9544|EXTENTIONS list empty
+9545|Cannot debug Node.js applications in development environment
+9546|Test: Provide ability to expose/share settings from settings.json to the launch.json
+9547|Gutter customization
+9548|the window Visual Studio Code doesnt show up when open file
+9549|there is NO Scrolling Bar in the Integrated Terminal Panel
+9550|Icons should have transparency.
+9551|Icons for toggled menu items.
+9552|vs code not responding after changing keyboard shortcut
+9553|Polish for the goto error peek
+9554|Scrollbar on tabs hides behind the active tab
+9555|Can not open the app
+9556|No support for baseUrl feature in TypeScript 2.0?
+9557|No emmet expansions when multiple cursors are used
+9558|Code - Insiders Helper CPU running high
+9559|Typings should not be included in search, go to file etx
+9560|"Internal files from Application folder shows up in ""Go to file"" (cmd + p)"
+9561|Preview Rename Symbol
+9562|Cursor jumps to first field when tabbing through Search sidebar fields/options
+9563|Adopt NLS changes due to code.iss move
+9564|"Getting Message after using few minutes VS Code ""The window is no longer responding"""
+9565|Support for TabCompletion
+9566|file menu flips to left screen in multiscreen environment
+9567|registerDocumentLinkProvider
+9568|Unable to close find widget using keyboard
+9569|runtimeExecutable for different operating systems
+9570|find action: support multiple cursors
+9571|Add option to install *.vsix files headless
+9572|Cannot reference regex group for find and replace in Search Panel
+9573|Feature request: support capturing groups for regular expressions in find/replace.
+9574|feature request: inline incremental search
+9575|Save: Flush to disk after writing to file
+9576|API hooks for existing find/replace UI
+9577|Cannot find name 'require' when set to language mode: javascript
+9578|High CPU Usage when typing (typescript project)
+9579|Moving a set of adjacent editor cursors does not move the editor's viewport to them
+9580|Editor prompts me to configure exclude
+9581|Replace deprecated __ language APIs with language-configuration alternative
+9582|Breakpoints are not resolved properly for symlinked files
+9583|vs-code dont popup new page
+9584|Debug problem
+9585|Webpack warnings cannot be matched
+9586|Tasks -> New Window (from Windows task bar) no-ops when running under Admin mode
+9587|Double click to find variable usages highlights non-exact matches
+9588|#55: Improve result sorting performance
+9589|Unable to open multiple visual studio code?
+9590|Indent Guides Have Breaks Where CodeLens UI is Rendered
+9591|Folding end pattern for C based languages
+9592|PHP and HTML don't mix
+9593|When auto formatting (Windows ctrl+alt+a), it jumps to the last line of code.
+9594|Function Keys don't work in Integrated Terminal
+9595|Implement Window/Page scroll commands
+9596|Editing powershell files bring up the powershell editor services process which takes cpu consumption to 100%
+9597|Key bindings issue after update
+9598|"Error message like ""No space left"" while open terminal"
+9599|Initial task loading is extremely slow with Gulp, even when using tasks.json
+9600|Ballistic scrolling on virtual widgets doesn't work when using touch

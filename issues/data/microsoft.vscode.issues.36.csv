@@ -1,0 +1,100 @@
+3501|Crash reporter crashes very silently very often
+3502|Can not navigate from error list to file
+3503|// Coment on last line produces error 'Invalid regular expression'
+3504|Smoke Test: Squiggles in bin/www
+3505|Smoke Test: Don't get cross file intellisense in JS
+3506|"Debug missing launch.json popup should say ""VSCode extension development"""
+3507|Smoke test: launch.json is populated with windows paths
+3508|Smoke test: Cannot navigate to error produced by task
+3509|Register the apt repository as a source for official .deb builds
+3510|Can't bring focus to any editor panel with image opened in it
+3511|Intellisense not working with TS and dynamic exports
+3512|"""replace all"" moves page/cursor/focus/scroll to the place of the last replacement"
+3513|Error message for mistype environment variable is confusing
+3514|Add ability to copy formatted code to clipboard
+3515|How do i configure a task to call a powershell script
+3516|OSX can't update as non-admin user
+3517|Syntax highlighting not available for .xhtml files
+3518|"Add please support for  ""suggestions"" for javascript lang based on all opened files in workspace."
+3519|Intellisense not working for Ember when using import statement
+3520|Wrong Intellisense editing css, scss, less
+3521|Show release notes info message after every update
+3522|Add support for subword navigation/editing
+3523|Keyboard navigation across word-boundaries doesn't feel right
+3524|debug.hoverWidget closes when hovering over debug console panel
+3525|No intellisense in C#
+3526|[handlebars] Bad link ctrl+click underline in handlebars file
+3527|Add text-decoration: none to intellisense
+3528|"False positive - ""Parsing error: Illegal import declaration (undefined)"""
+3529|Per-Syntax settings
+3530|Highlight CSS property values in Dark+
+3531|Associate .xhtml with HTML language mode
+3532|[handlebars] Inconsistent Handlebars highlighting within HTML comments
+3533|Fix css transition of folding icons
+3534|"Order of ""Cut, Copy, Paste"" in editor context menu is wrong"
+3535|reactNamespace makes tsconfig.json invalid for VSCode
+3536|Add updated extensions notification to status bar
+3537|Register code as an editor in Debian with update-alternatives
+3538|Add option to open preview in new editor from icon
+3539|Custom debugger adapter met serious error somtimes
+3540|Explore new icons to replace smiley
+3541|Do not hide interaction prompt when window loses focus.
+3542|"Re-implement ""open derived source"" feature"
+3543|setFunctionBreakpoints not mentioned in protocol docs on InitializedEvent
+3544|setFunctionBreakpoints request is coming in after launch request
+3545|Mac OS X :: 0.10.9 :: Regular Expression Replace / Substitution
+3546|Tasks should support specifying the output encoding
+3547|Indentation: make it clear that the change is temporary
+3548|Snippet Converted Not Working for literal Dollar Sign in Sublime Snippets
+3549|Get selected file/folder in the explorer view
+3550|When window.zoomLevel is set to non-0, context menu shows up on the wrong position
+3551|March Iteration Plan
+3552|Error trying to run a 'program' with the extension
+3553|Rename (refactor) parameter object doesn't rename the shape declaration
+3554|Non-documented required ordering of breakpoints in setBreakpoints response
+3555|C# folding error
+3556|Error updating on Windows
+3557|Add help/usage flags for CLI code command
+3558|Suggestion: collapse unchanged regions in diff
+3559|Improve git partial staging discoverability
+3560|Suggestion: git branch list sorted by most recent commit
+3561|Add the command line arguments mentioned in the docs to CLI's usage
+3562|"Request to add ""Close All Files Above / Below"" in Working Files list"
+3563|Simplify --goto's usage
+3564|Add Case sensitivity to editor.action.addSelectionToNextFindMatch
+3565|Folder explorer is faded for some reason
+3566|Suggestion: Allow customizing the css of the workbench
+3567|[0.10.10-insiders] Code folding for #region/#endregion
+3568|Opening folder in second window of VSCode opens in first window of VSCode in error
+3569|Multiple Cursors Copy & Paste Bug, Bottom to Top selection
+3570|"""Some projects have trouble loading"" error makes viewport smaller than entire editor"
+3571|Files are saved in UTF-8 without BOM
+3572|"Suggestion: Add theme description to Preferences | Color Theme list"
+3573|Add Ctrl+Right behavior option
+3574|Integrate node-debug in nls tooling
+3575|showInputBox should allow to change contents based on input
+3576|[folding] Allow to fold a specific level
+3577|Working files picker not discoverable
+3578|[folding] Code Folding in larger files slows down editor
+3579|Incorrect highlighting when using backslashes for line continuation in TypeScript
+3580|Option to turn off auto focus in file treeview
+3581|Recongize .xhtml files
+3582|High Contrast Theme: Accessibility instruction dialog (Alt+F1 on windows) isn't readable
+3583|Good First Bugs
+3584|Suggestion: Add option for Beautify / Format on Save
+3585|error thrown when enableBreakpointsFor...languageIds missing from package.json
+3586|Polish Indentation story
+3587|Show a link button in error notifications
+3588|Provide a command to restart VS Code
+3589|Empty extension - ghost logging
+3590|languages.filenamePatterns is ignored
+3591|Create rpm package
+3592|Scroll wheel click doesn't close working files
+3593|Allow both console and output to be displayed simultaneously
+3594|[folding] Provide a parameterized code folding command to be called from an extension
+3595|Emmet not working in vanilla VSCode install (0.10.x)
+3596|Vim Style Key binding
+3597|"Autocompletion box ""Loading..."" indefinitely, even when receiving data"
+3598|[folding] [lua] Weird code folding with Lua
+3599|Smoke test Red Hat Distros
+3600|Change Indentation Size is not enabled in the current context.

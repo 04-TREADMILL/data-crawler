@@ -1,0 +1,100 @@
+10001|@isidorn Is something not working with stack deminification?  @joaomoreno Not sure if I had to do something more to upload the sourcemaps for 0.10.9?
+10002|@dbaeumer The reason for function not beeing colored in the Default Visual Studio theme is https://github.com/Microsoft/TypeScript-TmLanguage/issues/44 (Please always append the code example to save some time on reproducing the issue)
+10003|@Nimzozo Thanks for reporting. The issues you are mentioning are mostly caused by https://github.com/Microsoft/TypeScript-TmLanguage/issues/37 We are working with the TypeScript team to get these fixed.
+10004|@tht13 Thanks for the PR. I fixed the issue.
+10005|@tht13 Thanks for the PR. I fixed the issue.
+10006|@aeschli The action id is also error. look https://github.com/f111fei/vscode/commit/5ef2035203c64c74bb1d76f546dc6100f34d38ea
+10007|@f111fei Thanks for spotting this!
+10008|I forgot we have a new version, I will upload the sourcemaps
+10009|You missed this line https://github.com/Microsoft/vscode/blob/fdd96243b3768909bab79da605c8982145efe2c6/src/vs/editor/contrib/folding/browser/folding.ts#L448 and line #L440 above it where the ID's are switched. I am not sure if they have any afect on the code but thought I would point it out :smile:
+10010|never mind I see you fixed it in 41640b87 :+1:
+10011|Thanks @isidorn
+10012|This is issue https://github.com/Microsoft/TypeScript-TmLanguage/issues/44
+10013|Thanks @egamma  & @felixfbecker, I will try the Salsa preview this weekend.
+10014|Same as #2415
+10015|Actually Joao will upload it. @alexandrudima feel free to close this
+10016|@dbaeumer  This is about completion in task.json, right? The mechanism for that are the default values in the task.json schema. The variable syntax ('{{..}}' is supported there as well. If what we have is not good enough, then we should rather extend the support there. Snippets are not context sensitive.
+10017|Don't close this.
+10018|The underlying issue is https://github.com/Microsoft/TypeScript-TmLanguage/issues/37
+10019|@aeschli it's not about default values for keys, it's for entire snippets, for example an entire task configuration for a build task that a language extension can contribute. Or simply snippets that only show up in specific files, see my examples.
+10020|@bobmajdakjr Bod, did you try switching to the Dark+ theme? It's FIle > Preferences > Color Theme.
+10021|Thanks @alexaubry !
+10022|+1 This would be awesome and allow me to use WallabyJS on VS Code how I used to use it on VS 2015!
+10023|"@onlyann Since your generated JavaScript lives in the `build`directory, you'll have to add this  ``` json ""outDir"": ""${workspaceRoot}/build"" ```  to your launch config. Without this, node-debug cannot map from the source to the generated file."
+10024|"Hi guy's. I think i have found a pattern. Here are the steps to reproduce: 1. You will need at least two files with unstaged changes. 2. In the git view, select the first unstaged file. 3. Make a selection containing all changes in the file 4. Select ""Stage selected lines"" from the menu. At this point all changes in this file have been staged, the file is moved to the ""staged changes"" section of the git view, the side-by-side view switches to the next file on the list. The selected area is retained from the previous file, although the content is changed. 5. If you make a new selection containing changes in the second file, the ""Stage selected lines"" option is incorrectly disabled."
+10025|I just published the sourcemaps for db71ac6, but it doesn't seem to have worked.  Moving to @SofianHn
+10026|Just published sourcemaps for db71ac6, but I still can't get a deminified stack in the service.
+10027|Duplicate of #3230
+10028|Ok, got the stack. Updated initial comment.  Not sure if should assign it to @SofianHn or @alexandrudima .
+10029|Ok, got it after all. Duplicate of #3231
+10030|Related to #3231?
+10031|@Tyriar Ah, you're right. I guess this could be closed. (Sorry, this slipped under my radar for quite a while!)
+10032|:+1:
+10033|@egamma Exactly the functionality I sought after. But as @felixfbecker mentioned, perhaps this issue is a separate one.
+10034|We can remove the NullService once we have removed all references to platformservice. For that I removed the old constructor APIs and migrated the remaining code (just the tests were remaining, in fact) I left in a console log to warn if there are still usages of the old style. That would have to be code written in JavaScript or using anys. I'll remove the old code and the NullService beginning next release
+10035|Thanks!
+10036|I am really afraid of touching this code, and @bpasero is out. No idea why this code is there... makes very little sense to me. E.g. what happens if we tried to open a folder with a dot at the end (`folder.`)?  Any way, @Tyriar can you give me more details here? Is this because the new launcher script behaves differently? Did you test this on Linux, OSX and Windows?
+10037|Dup of #1760
+10038|Those steps don't repro for me. Also, the part in which you mention  > the side-by-side view switches to the next file on the list  is incorrect. The side-by-side view switches to the index version of that file, instead of the working file version.
+10039|:+1:
+10040|Currently folding is done by indentation as that is generally the best language agnostic method to group code sections.   It would be nice to have an option to provide identifiers (i.e `{` and `}` ) for what should be folder. A contribution attribute already exists here `contributes.languages.configuration` which points to a languages configuration file. This could contain folding instructions
+10041|I agree that a keybinding for Save All is more useful than Save As, and have customized it for myself too. As for the question for what the default should be, the vscode team walk a difficult line between attracting Visual Studio users and Sublime or Atom or other users.  Maybe it should be a separate issue but I've wondered if vscode should have menu items to let a new user set all the applicable keyboard shortcuts to be the same as their previous/other editor of choice.
+10042|![image](https://cloud.githubusercontent.com/assets/22350/13222452/436e0468-d980-11e5-9095-f1f3c7de7a8b.png)
+10043|Fixed by f01ee9854050254fa55865c6380a50f56171700b
+10044|We have already updated a week ago and this seems to work now.
+10045|Fixed
+10046|@aeschli This is from version 0.10.9, if that helps. :smile:
+10047|Now that I look at how this is handled for other programming languages, I see that it is not a Java-specific issue but rather a discrepancy between how syntax highlighting is done in Visual Studio Code vs. regular Visual Studio.  If you open a C++ or C# file in Visual Studio, primitive data types are colored in dark blue as keywords, not in light blue like other types such as classes, enumerations, etc.  The behavior from Visual Studio Code is inconsistent.
+10048|Might be best to wait for @bpasero if you're concerned.  I've only tested on Linux, I don't see why trailing `.` character would want to be culled on OSX and Linux. AFAIK on Windows `somefile.` is equivalent to `somefile` which I guess explains why it's there?
+10049|I don't have access to that site/builds. I have the latest Insiders build but I don't think that's the same.  I can ask @daviwil if he has access to alpha builds.
+10050|Pushing back to March
+10051|Here's a direct link which you should have access to https://az764295.vo.msecnd.net/alpha/719730a346c842ea29d8a8fe99016e802e39a819/VSCodeSetup-alpha.exe
+10052|Thanks @tht13 for having an eye on it. Right, I first forgot it.
+10053|Yeah... duplicate of #66 :/
+10054|The multicursor support is nice, but it's a workaround for editing columns of text. On mac Ctrl+Alt+Down/Up writes a non-printable character instead of adding cursors. I have Command+Alt+Down/Up mapped with [Spectacle](https://github.com/eczarny/spectacle) for window management so that doesn't work either. The best I can do is Command+Click for new cursors. I'd like to be able to just Alt+Click/Drag to select an area of text for editing like Sublime.
+10055|Not being able to open `.` or `..` seems to me to be a much worse proposition than not being able to open `somefile.` on Windows only... I'd vote for removing that line altogether right now and let @bpasero speak up when he's back.  What do you think?
+10056|duplicate of #3048
+10057|Sounds good to me, I'll just remove it then.
+10058|Looks like the nuget server disabled JSON accesses
+10059|I can't reproduce on Ubuntu, node v4.2.6, npm 2.14.12 using the steps above. Seems to work for me. As workaround manually run `npm install` inside `extensions/json`
+10060|LGTM
+10061|:+1:
+10062|Problem is the flattening of the text mate scopes
+10063|Thanks. I didn't even know how to access the Command Palette, but now I've found it. I'd still suggest adding a default shortcut for toggling the menu bar, or some other affordance. But I added a keybinding (File -> Preferences -> Keyboard Shortcuts) to my custom set, and all's good.
+10064|Thanks @mkosieradzki !
+10065|@bgashler1 It is possible to write conditional browser selectors for ie or ff:  e.g.:  ``` css .monaco-editor.ff .inputarea, .monaco-editor.ie .inputarea {     width: 0;     height: 0; } ```
+10066|Date: Mon, 22 Feb 2016 08:13:39 -0800 From: notifications@github.com To: vscode@noreply.github.com Subject: Re: [vscode] High Contrast Support (#2711)  Closed #2711.  ― Reply to this email directly or view it on GitHub.
+10067|For verification:  BEFORE: ![line-select-before](https://cloud.githubusercontent.com/assets/5047891/13225082/9b7db58a-d98b-11e5-9889-d3ff1df35b67.gif)  **Notice how the first line select also selects EOL and subsequent ones go to column 1** AFTER: ![line-select-after](https://cloud.githubusercontent.com/assets/5047891/13225087/a0533454-d98b-11e5-9b3c-d32da2cc1f6a.gif)
+10068|@bpasero Since focus follows DOM order, I cannot do anything on my side as a general fix to make focus be reveal order dependent. Maybe you can give a specific use-case and sequence of steps and then we can see what we can do.
+10069|Perfect. Thank you very much :)
+10070|yup, there is more issues with this (: aka: #2966
+10071|"@groksrc The default keybindings on mac are `cmd+alt+down/up`.  Perhaps Spectacle eats them up and they never reach us. Please try to edit your `keybindings.json` to change them. Specifically insert different keybindings in the `key` fields below:  ``` [ { ""key"": ""ctrl+alt+up"",           ""command"": ""editor.action.insertCursorAbove"",                                      ""when"": ""editorTextFocus"" }, { ""key"": ""ctrl+alt+down"",         ""command"": ""editor.action.insertCursorBelow"",                                      ""when"": ""editorTextFocus"" } ] ```"
+10072|The change makes sense. It should however go against https://github.com/Microsoft/TypeScript-TmLanguage which is where the grammar is developped
+10073|@alexandrudima coolo, thanks
+10074|duplicate of #2780
+10075|@felixfbecker thanks for your great suggestions in #3209  (and sorry that I had to make your newer issue a duplicate of this older one...)
+10076|Closing, because no additional information provided.
+10077|@isidorn Thank you sir! :)  Cheers, Trevor Sullivan
+10078|Only half of the files are developed there. But I don't think it matters as commit 5598ee0 looks to have addressed the issue at a higher level. Thanks for following up.
+10079|Closing - Salsa will be the default for the February update and supports JSX.
+10080|I have the exact opposite. My login shell is bash, but it works with SHELL set to any other shell but bash. I also wrote a script that changed my SHELL when calling `code`.
+10081|:+1:  I've deleted the existing releases
+10082|0.10.9 still isn't tagged via git. I imagine that's something we still need to do? Since tagging versions is separate from uploading release artifacts.
+10083|"Thanks! I'll switch over to Salsa, looking forward to trying it out. Love the work you guys are doing with Code. On Feb 22, 2016 12:30 PM, ""Erich Gamma"" notifications@github.com wrote:  > Closed #140 https://github.com/Microsoft/vscode/issues/140. >  > — > Reply to this email directly or view it on GitHub > https://github.com/Microsoft/vscode/issues/140#event-560020709."
+10084|@weinand my bad for not searching enough first ;)
+10085|"Gonna repost what I said:  > In Visual Studio, you can press Ctrl+F5 to launch the application without a debugger attached, which i befinicial for performance reasons. For VS Code this would be very helpful, because you don't always want to actually debug a file or actually cannot because there is no debug adapter extension out there yet. Currently, you have to define a ""launch"" task, which cannot get a keyboard shortcut. Having ""Launch without debugging"" would be much more semantically correct. > - Introduce a new action in command palette ""Launch without debuggin"" with keyboard shortcut Ctrl+F5 > - If the currently selected configuration has `type` set, send the debug adapter a ~~`launchRequest` with the additional argument `debug: false`~~ `runRequest` > - Make the debug setting `type` optional. If a configuration does not have a `type`, it can only be launched without debugging: >   - If `runtimeExecutable` is set, spawn the runtime executable (java, bash, ...) with the `runtimeArguments`, `program` and `args`.   >     Otherwise spawn `program` with `args` directly (like a .exe or .bat) >   - `program` should be allowed to drop the file extension (java needs this for example) >   - Put stdout on the debug console and send input on the debug console to stdin >   - If `externalConsole` is true, run the script in an external console >   - Support `preLaunchTask` >  > Examples: >  > ``` json > { >   ""name"": ""Run currently open script"", >   ""runtimeExecutable"": ""bash"", >   ""program"": ""${file}"" > } > ``` >  > ``` json > { >   ""name"": ""Launch"", >   ""runtimeExecutable"": ""java"", >   ""program"": ""${workspaceRoot}/MyClass"", >   ""preLaunchTask"": ""compile"" > } > ```  However, I also prefer the idea of having a `runRequest` instead of my initial idea with `launchRequest` with `debug: false`, because adapters that do not implement this simply error instead of behaving unexpectedly."
+10086|"@felixfbecker one problem with the 'un-typed' approach is that there are no ""well known"" attributes such as `runtimeArguments`, `program` and `args`. All launch attributes are contributed by different schemas.  So probably we will go with the `noDebug` attribute approach first. We will add `noDebug` as a predefined attribute and the UI will pass it automatically  if a ""Run"" action was used."
+10087|I'm the maintainer of Python Improved, and I have no issues at all with your using it to supplement or replace the TextMate syntax definition in VSCode. One issue I've found with Magic Python is that a number of the scopes are rather different than the TM/Sublime Text originals, so switching to that could cause issues with color schemes that aren't compatible with MP. Those of us working on PI with me have tried to maintain compatibility with the original scopes as much as possible (or, at least, as much as makes sense), so it should work with a broader array of color schemes. I've tailored my [Neon Color Scheme](https://github.com/MattDMo/Neon-color-scheme) to work with all the new scopes in PI, in case you want to include that as well.  Let me know what you think, or if I can help in any way. Alternatively, I can add PI and Neon to the VSCode store if you think that would be a better option.
+10088|Tagged.
+10089|Thanks!
+10090|Perhaps @aeschli can offer advice on a path to take (I'm just a random user), but I would guess a solid first step would be to make PythonImproved available as a VS Code extension and then take it from there.
+10091|:+1:
+10092|:+1:
+10093|I think you got the wrong sofian, sorry.
+10094|@romu70 the workaround for this is to either select a folder in `P` or right click the empty area below the files (if there is room) and select new folder from the context menu.  Resolving this in favor of https://github.com/Microsoft/vscode/issues/1043 which highlights this plus another issue with the UX.
+10095|@bgashler1 Don't forget to add details of this test plan item, for us to test tomorrow.
+10096|"@weinand I just think for ""just running"" there should be no debug adapter needed, so it should work even if such an extension doesn't exist (yet)."
+10097|You are correct, Spectacle is eating them so they aren't reaching the editor. So these keybindings do work, but this still feels like a workaround. It's a lot of keystrokes to select something that's say 4 columns wide and 50 lines long.  Also, say you do something like add 4 cursors and select to the end of the line. Unless all of the lines are the same length your cursors are now in different columns. This is usually not what you want when doing columnar editing.
+10098|Thanks @joaomoreno. Will do this right now.
+10099|Yes it should, since Salsa is less 'aggressive' than the current infrastructure.
+10100|ping @bpasero

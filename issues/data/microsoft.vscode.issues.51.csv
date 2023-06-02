@@ -1,0 +1,100 @@
+5001|Uncaught Error: ENOENT: no such file or directory
+5002|Cannot read property 'fsPath' of null
+5003|Cannot read property 'match' of undefined
+5004|Cannot read property 'unshift' of null
+5005|Unexpected token ]
+5006|Broken editor title color
+5007|Cannot read property 'then' of null
+5008|Cannot read property '_acceptIsDirty' of undefined
+5009|Not an extension entry. Found quickOpenService,openOnPreview,groupLabel,... instead.
+5010|Broken editor drag and drop
+5011|spawn osascript ENOENT
+5012|Save as isn't translated in command palet
+5013|source: property 'sourceReference' is missing
+5014|TypeError: Cannot read property 'document' of undefined
+5015|Uncaught Error: Can't open this git resource.
+5016|Telemetry error log is flooded
+5017|Use javascript not  AutoComplete?
+5018|Uncaught TypeError: Cannot read property 'length' of undefined
+5019|Cannot read property 'startLineNumber' of null
+5020|Maximum call stack size exceeded
+5021|Uncaught TypeError: Cannot read property 'setValue' of undefined
+5022|VSCode exits when launching extension tests
+5023|Joh/webview
+5024|Refreshing the window in light theme causes bad flicker
+5025|Scrolling a Markdown document eats 100% cpu, spawns empty cmd.exe processes,
+5026|fix missing semi colon, and remove double task terminateProcess
+5027|Command line open a same file twice, generate two windows
+5028|Themes: switching between light and dark theme shows weird artefacts over editor
+5029|Run tests from extension closes my main window
+5030|Webview: Background not applied?
+5031|Webview: very hard to resize editor
+5032|Linux update notifications
+5033|Can't view missing module name when path is too long
+5034|Salsa does not warn undeclared variable
+5035|Keeping arrow down in editor is not very fluid
+5036|Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+5037|Printing support
+5038|Files with .es6 suffix are treated as TypeScript files
+5039|Support to scroll markdown preview with source scrolling
+5040|"Automatically fill ""files to include"" when opening search"
+5041|[Errors on OS X] - Error from the extension host: channel closed AND Extension host terminated unexpectedly. Please reload to recover.
+5042|Cannot validate php file Info popup should have option to open settings
+5043|Intellisense activating inside of strings
+5044|Search highlighting in some themes could be improved
+5045|Build task is not saving the changes before building the project.
+5046|Related to JS #3509 Javascript Completion fails if 'exports' is qualified with 'module'
+5047|ES6 error property declarations
+5048|diffEditor.renderSideBySide false shows two columns of line numbers
+5049|Paste whole line after a bracket does not correctly indent
+5050|Convert to Tab/Spaces toggles render whitespace after saving
+5051|Close button is not visible all the time in side by side editing.
+5052|Rearrange split view files only working if grabbing the title
+5053|Trying to rearrange open files causes odd selection
+5054|Test: running vscode with gksudo or sudo permission
+5055|Calls to shell.openExternal hang vscode when running as root user
+5056|Can't run electron from vscode due to ATOM_SHELL_INTERNAL_RUN_AS_NODE=1
+5057|Add support for signing commits with GPG
+5058|Filename number sort in explorer
+5059|Disable welcome page when user is root
+5060|Debug console window should go away when user perform build with CTRL+SHIFT+B
+5061|Snippets are being displayed in auto-complete while inside of a comment
+5062|Webview: focus tracking not working
+5063|Intelligence works only for first open files in typescript project
+5064|Keyboard Shortcuts message is incorrect.
+5065|Connect theme browsing to theme acquisition
+5066|Extension management in editor part
+5067|Find all references window out of sync
+5068|[html] format javascript in html
+5069|Do not use query strings when creating web workers
+5070|editor.addAction should validate that all the required properties are passed in
+5071|Duplicating files loses track of references or even crashes VS Code
+5072|Fixed wrong reference in config description
+5073|Windows 7: tasks.json changes not detected until VS Code restarted
+5074|"Absolute path in sourcemap ""sources"" not working (when relative does)"
+5075|Windows 7: New files not automatically displayed in explorer (.NET 4.5 required)
+5076|HoverProvider text using Markdown, URL to file + Line number?
+5077|weird highlight on javascript
+5078|JavaScript formatting error
+5079|"In JS/TS mode, variable names starting with ""var"" incorrectly highlighted"
+5080|File opened in Git View not added to Working Files list
+5081|How can an extension use path variables in a settings string that specifies a path?
+5082|Template literal as second assignment expression in ternary breaks highlighting
+5083|Exception in console when terminating the application while in debug session
+5084|clicking readme on the install menu closes installation pane
+5085|JetBrains like Typescript file organization
+5086|TypeError: Cannot read property 'version' of null
+5087|Improve the Code Organization Documentation
+5088|TypeScript syntax highlighting error in for-loop
+5089|Intellisense doesn't work with NVM installed
+5090|enrich DiagnosticsCollection, pass on the actual Diagnostic-objects
+5091|Ruler's border is not consistent
+5092|Cancellation token passed to `provideReferences` is never cancelled
+5093|"intelisense does not work shown ""any"" for everything"
+5094|F11 (step in) on mac conflicts with show desktop
+5095|Launch options not getting read after changes
+5096|Debugging Python loading indefinitely
+5097|Copy / Paste between open files does not work as expected
+5098|Implement open recently closed file(s) action
+5099|"debugger always fails to ""restore"""
+5100|Data inspection for large ES6 Map/Set not expanding correctly

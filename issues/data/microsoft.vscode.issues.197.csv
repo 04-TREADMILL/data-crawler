@@ -1,0 +1,100 @@
+19601|"ES2017 Object rest spread yields ""Property assignment expected"" validation error when used in JS embedded in HTML"
+19602|Nashorn debug plugin
+19603|Python REPL fails to open
+19604|Could you facilitate dragging an image to a readme file line (from the explorer to intended line) for the relative link to be added automatically please?
+19605|Emmet parser deletes invalid blocks
+19606|Auto close main window when last tab closed. Useful when used as git commit core.editor
+19607|Back up service should use end of line from Model as Marker instead of hardcoding
+19608|move debug adapter protocol to separate repository
+19609|macOS: trackpad zoom gesture should not scroll the editor
+19610|Update Git name from the view menu and assign function when you click.
+19611|Support Fragments for intra document markdown editor links
+19612|xterm.js' animation frame should be turned off when idle
+19613|Added command for selecting ts version
+19614|Allow per-language settings for addons.
+19615|FR Bunyan debug console enhancement
+19616|"Cursor does not go to the end of line when pressing ""End"" with word wrap enabled"
+19617|Fix Detected Link Style For Links With Underscores
+19618|"Make ""Terminate Running Task"" Automatically Start Requested Task"
+19619|invisibles tmTheme global setting does not work
+19620|the typescript language service died unexpectedly 5 times in the last 5 minutes
+19621|can't open new editor if current directory at startup was deleted
+19622|Prepare for node -> node2 transition
+19623|xterm.js exception in eraseRight
+19624|"VS code does not load commit text when called from Windows git shell ""commit"""
+19625|Remove unneeded d.ts files from extensions
+19626|vscode.previewHtml command failing - promise not resolving if preview tab exists in Insiders build
+19627|Use patched emmet to support svg and orphaned quote bug
+19628|Flag errors in TSconfig.json
+19629|Bump bundled extension TS version to 2.1.5
+19630|TS highlight: 'path'
+19631|Deselect multiple cursors
+19632|Performance Report
+19633|Use important for vs-whitespace
+19634|Do not expect app.getPath('userData') to be there before app.once('ready')
+19635|Error in Settings editor
+19636|Operation not permitted when running bash script from task
+19637|Terminal: broken text layout
+19638|Inline styles break document formatting for HTML
+19639|Fix explorer selection state when drag ends
+19640|[Debug] Make configurable attach timeout for chrome debugging
+19641|Image in extension folder does not display with previewHtml a TextDocumentContentProvider
+19642|Debugging a .ts file with Chrome Debugger installed defaults to Chrome Debugging
+19643|Interactive playground shows ESLint errors
+19644|Go to definition doesn't work
+19645|Monokai Theme bad-highlighting in  line wrap.
+19646|Format Document on HTML with inline styles
+19647|Add button to close scope inspector
+19648|[Debug] Execution stops in a TypeScript source file at a code line without a breakpoint and debugger statement
+19649|[Debug] Wrong launch configuration is selected when trying to launch a compound configuration when launch.json become opened in editor
+19650|slow down when lots of output is written to debug console.
+19651|Hit and miss showing selected object on right bar
+19652|Wrong template formating
+19653|[Debug] Cannot launch node2 debug configuration for electron application
+19654|VS code thinks a file is read only when it is not
+19655|Cannot connect to SQL Server
+19656|View SCM command shown twice in Command Palette
+19657|Reload extension button never goes away
+19658|[editor] Comment line also includes surrounding embedding language
+19659|VS Code quits on launch
+19660|Extension Icons missing
+19661|[WelcomeUX] Don't open Untitled file when Welcome page is opened
+19662|[folding] show folding lines
+19663|Display Welcome Page only when opening a new Window
+19664|Use @types/node in extensions for node typings
+19665|Respect telemetry.enableTelemetry Setting for TypeScript Telemetry
+19666|Inconsistent handling of multiple TextEdits on the same line
+19667|Extension list does not always load
+19668|Don't start ts server with enable telemetry if user has disabled telemetry
+19669|Can't set Ctrl+Backspace in Terminal to deleteWordLeft
+19670|Menus do not work on Windows 10 build 15025.rs_prerelease
+19671|Add Type Definition Provider API
+19672|Cannot use Visual Studio Code (mssql extension) to connect to Azure SQL Data Warehouse
+19673|Highlight matching tags
+19674|CPU Usage spikes with Antimalware Service Executable
+19675|"Add "" ctrl + shift + T "" , shortcut to reopen recently closed files, like in chrome and sublime text."
+19676|Can't download C/C++ plus
+19677|Thick Consolas Font
+19678|Cannot read property 'startsWith' of undefined
+19679|"Add ""(Administrator)"" suffix to window title when running as administrator in Windows"
+19680|add linux bash support in inbuilt terminal of VSCoDE
+19681|Add clipboard ring
+19682|[html] URI malformed in console
+19683|when viewing one document and switching to another is replacing the content and removing the actual content
+19684|A single top level task isn't marked as build tasks anymore
+19685|"Add right-click menu option ""collapse children"""
+19686|Settings override don't working
+19687|HTML/JS/TS/SCSS/etc. class/id definition peeking
+19688|Code folding click on elipsis does not expand
+19689|Implement modal message API
+19690|Make extension resources uniformely available in the app
+19691|Typos in TypeScript extension settings
+19692|#19719 - fixed typos in TypeScript extension settings keyword descriptions
+19693|Fedora: @recommended extensions are not showing
+19694|Is Visual Studio Code eventually going to replace Visual Studio?
+19695|Trigger willSave even if file is not dirty to support code formatters
+19696|How to handle empty CodeLenses?
+19697|My extension is ignoring http.proxyStrictSSL config setting
+19698|[WelcomeUX] Wrongly “unbound” shortcuts in playground
+19699|"html.format.wrapAttributes: ""force"" and ""force-align"" breaks indentation"
+19700|Use NPM chokidar.

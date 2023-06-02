@@ -1,0 +1,100 @@
+7201|Debugger start failing. Not recognizing launch.json file.
+7202|"""Change All Occurrences"" could be limited to the variable's scope"
+7203|Launching from the command line fails when the file path has a space in it
+7204|Terminal as tab
+7205|Color emoji support
+7206|StringEditorInput cache of DebugService is seriously flawed
+7207|Backspace does not handle certain emoji correctly
+7208|Jumpy equivalent as vscode extension ?
+7209|--help formatting is bad after localization
+7210|Editor renders itself incorrectly while composing Korean character
+7211|VS code never opens again after crashing on opening large files
+7212|Opened editors: selection not updating in all cases properly
+7213|No initial suggestions for the object's keys in autocompletion for JSON (e.g. tsconfig.json)
+7214|TM coloring does not work anymore because path.join and path.normalize have changed
+7215|Request Feature: Paths mapping support in TypeScript (Intellisense, Errors and Warnings, Go to Definition)
+7216|[question] windows installer
+7217|Select + Delete causes unexpected selection
+7218|getColumnAtBeginningOfLine cursorHome keybinding behavior
+7219|Debug console window formatting : missing leading spaces
+7220|Running scripts\npm.bah install on Ubuntu fails
+7221|[question] Does editor have API to expose markers?
+7222|Make prefix sorting in quick open aware of used language
+7223|path.join fails on './'
+7224|Rename action to `View: Toggle Problems`
+7225|Add `Restart Build Task` action
+7226|Output should not scroll beyond the last line
+7227|Extension host terminated unexpectedly
+7228|show error tips for arrow function in class
+7229|[terminal] (⌘K) was pressed. Waiting for second key of chord...
+7230|Debug: Fix setConfiguration error when name is null or undefined
+7231|Letterpress background image in editor area should be SVG
+7232|i can't run as root though i specify an alternate user data directory with the --user-data-dir argument
+7233|Errors in Untitled files stay around
+7234|Syntax highlighting broken for PHP
+7235|Make hover scrollable when large contents are displayed (overflow case)
+7236|Problem view should show source information
+7237|Problems view should allow to scope list to file. Currently on workspace scope is supported.
+7238|Would like to see errors in explorer
+7239|Monaco API request : CommonEditorRegistry
+7240|Changing the Color Theme breaks Terminal
+7241|JSON: no warning shown when typing setting with invalid casing
+7242|June Iteration Plan
+7243|VSCode crashes when opening any minified Javascript file
+7244|Support Mac movement/navigation conventions
+7245|"Fix ""Test soft idle start/stop events"" test"
+7246|Provide setting to disable focusing editor when selecting a file in the explorer
+7247|Pressing right arrow on an open folder in the explorer should send focus to the directories first child
+7248|workbench.files.action.focusFilesExplorer can focus open editors
+7249|PHP syntax is half highlighted
+7250|Initial implementation of quick-fix support for typescript
+7251|Function breakpoints should have glyphs
+7252|Allow integrated terminal to run as login shell
+7253|Expand javascript.format options in settings
+7254|eslint.fixAllProblems introduced in vscode v1.2 not fixing all problems
+7255|terminal.integrated.shell does not support parameters
+7256|integrated terminal npm Error: This socket is closed
+7257|Integrated Terminal does not support font ligatures
+7258|F1 and keybinding customization doesn't work in the integrated terminal
+7259|Wrongly colored perl expression
+7260|Use keyboard to open method information
+7261|Support cross file undo stack after saving all
+7262|IntelliSense should be more context aware
+7263|Allow repositioning of the debug control panel
+7264|Arrow function parameter syntax highlighting does not work
+7265|Does vscode-node-debug support Sourcemap section?
+7266|Multi-byte characters are corrupted in integrated terminal.
+7267|Allow to compare project file with clipboard
+7268|~/.bash_profile not compatible?
+7269|ESC closes terminal.
+7270|Intergrated Terminal LetterSpace Of Chinese Words
+7271|Can we have editor.acceptSuggestion as list of keys?
+7272|Develop kits` wrong
+7273|disconnectRequest never called
+7274|Selections in terminal should invert colors like in bash
+7275|Git bash shell was opened in a standalone window instead of integrated on Windows
+7276|Support terminal theme on colors 16-255
+7277|Tyriar/xtermjs terminal
+7278|version number in .rpm file name
+7279|`gulp compile-build` failing
+7280|Please set up the launch configuration file for your application
+7281|Find all references in CSS cuts off before hyphen in property name
+7282|`Error: end of central directory record signature not found` on Linux Travis tests
+7283|XDebug dissapear after click on Step Over (F10) button after updating to Version 1.2.0
+7284|Terminal Disappears on Esc key while using Vim
+7285|Markdown syntax highlighing confused by backslashes and quotes
+7286|API request : Allow the language mode to provide `indent` information
+7287|Chinese characters displayed overlapped.
+7288|[CSS] Add specificity to hover
+7289|Suggestion / parameter hints rendering issues
+7290|Set locale variables automatically for the integrated terminal
+7291|Terminal actions need cleanup
+7292|The new terminal
+7293|Add Productivity into extension categories
+7294|Cannot launch debug target (spawn node ENOENT).
+7295|Broken TAB spacing in less after variables
+7296|Default settings contains warnings for Integrated terminal configuration options
+7297|Migrate existing tool(s) for .zip -> .tar.gz transition
+7298|Search in all files, including files and folders excluded through settings
+7299|Go To Definition opens first match
+7300|Add Live Account synchronization for settings

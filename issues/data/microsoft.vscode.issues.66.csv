@@ -1,0 +1,100 @@
+6501|some js keyword in solarized heme is distinguishable with variable
+6502|Add custom vscode wiki footer
+6503|Editor is closing opened file when try to open a new file.
+6504|JavaScript syntax highlighter mistakes
+6505|Unstage and clean selected lines short cut
+6506|only CSharp extension cannot install.
+6507|How to set the output directory with tasks.json
+6508|Reuse FileEditorInput instead of always creating new
+6509|Adopt IDisposable over ListenerUnbind (e.g. WorkbenchComponent)
+6510|shortcut name: might goToDefinition be better than goToDeclaration?
+6511|storageService is not available in standalone editor
+6512|npm packages do not refresh after 'npm install' or 'npm update' is ran on the folder
+6513|Automatically pull in references in like in Eclipse or Visual Studio
+6514|Linux CLI fails to open files with spaces in filename
+6515|empty string should be a valid value for a virtual document
+6516|[loc][Query][DevDiv] Please clarify placeholder
+6517|select text - equals are highlighted only to 1000 rows
+6518|Support mathJax formula preview in markdown
+6519|source maps don't work if drive letter case does not match
+6520|Conflict decorators do not appear if file is opened
+6521|Open file (Ctrl+O) should use directory of currently edited file as starting point
+6522|add support for file:///-links
+6523|gulp not found for tasks when using custom location for global installs
+6524|Take care of disposing embedded models in editors
+6525|Test: Editor stacks
+6526|Bug fix 3077
+6527|Support file problem markers in tasks.json
+6528|Better default position for message in problem matchers
+6529|"Unable to open a file with right click and ""open with""> ""Visual Studio Code"" in a folder with spaces in the name."
+6530|Debugging Node issue Assertion failed: (object->InternalFieldCount()) > (0)
+6531|extensions: Ensure make uses tab instead of space.
+6532|git authentication window always on top?
+6533|Move editor history from quick open into history service
+6534|Include glibc version check in rpm
+6535|Add el7 to rpm name to be more explicit on supported version
+6536|"Consider renaming rpm and deb packages as ""code"" to match command name"
+6537|VSCode wont capture clicks trough TeamViewer
+6538|breakpoint problem with files in a directory with /src as name
+6539|Allow configurable key bindings to any task
+6540|Packaged integrated terminal no longer works
+6541|Visual Studio Code freezes on startup on CentOS 7
+6542|Gutter icon background size limited
+6543|Watch for deletes in files opened outside workspace
+6544|How do I get Electron/Chromium logs from a production build?
+6545|--verbose on bin command should wait for output
+6546|"Invalid syntax highlight in clojure language with #""\\"" regexp"
+6547|Run Build Task should report if there are no errors
+6548|Include link to Linux FAQ in deb and rpm package description
+6549|Allow to open different windows with different permissions
+6550|Cmd+D doesn't select multilines as expected
+6551|[Go] Command not available warning messages displaying after installing
+6552|[folding] Make hiding of the folding gutter configurable
+6553|VSCode's menu seems  incorrect
+6554|[html] svg tags are not formatted
+6555|Allow to copy paste files from native explorer into Code explorer
+6556|console
+6557|Fix Jade syntax highlighting issues
+6558|Add debugging attach support to VS Code
+6559|Move history service functionality into stacks model
+6560|Error while debugging multi-threaded C# application with F10
+6561|Terminating debug session doesn't shutdown extension host on Windows
+6562|Sandy/css variables
+6563|Problem when renaming file
+6564|Adding extra file extensions/names to ini and shell script extensions
+6565|Task output file links not working
+6566|Revisit the need for editor-input-changing and changed event
+6567|task.json: whenActive property
+6568|Task not executing bash, yet echoed command works fine in cmd
+6569|Test: language server protocol trace option
+6570|Test: ESLint fix all command
+6571|css的 filter: alpha(opacity: 50);参数报错
+6572|Accessibility improvements
+6573|"Deadly need the ""git view file history"" functionnality"
+6574|"Default thread name is displaying ""<No Name>"" in call stack."
+6575|Unable to run extension unit tests via gulp (cannot find module 'vscode')
+6576|Include version number in deb/rpm packages
+6577|Have --verbose work on the bin command
+6578|markdown snippet link link and image don't work out of the code block
+6579|externalTerminal setting doesn't work with paths containing spaces
+6580|[perl] wrong coloring when space after regexp
+6581|ERROR:Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+6582|Two desktop entries appear on Ubuntu sometimes
+6583|Investigate whether shell.openExternal still hangs under sudo
+6584|about Document Localization
+6585|Simplify context menu actions on editor/group actions
+6586|Forward command does not reset after changing files
+6587|Editor Stacks: 2 preview editors possible in same group
+6588|Find all references list reacts strange to adjusting size when comparing files
+6589|Nested ternary condition containing link breaks syntax highlighting
+6590|Some problems of personal habits
+6591|Add scroll bar to integrated terminal
+6592|Terminal: provide an action to clear the terminal
+6593|Allow to use editor options interface without creating EditorOptions instance
+6594|Stacks & Tabs: Added or changed commands
+6595|"Vs code 1.1.1 crashes Error message ""We are sorry for the inconvienience......"""
+6596|Update icon
+6597|Opening VS Code from 'cmd.exe' and then trying to immediately exit command window fails.
+6598|Change keybinding for 'fold all' / 'unfold all'
+6599|Make un-pushed changes more obvious
+6600|[rust] The keyword `where` can't be highlighted like others

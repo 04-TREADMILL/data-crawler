@@ -1,0 +1,100 @@
+801|[html] Remove dead code in html.ts
+802|Auto Formatting SCSS or JSX files does not work
+803|Question: What version of HTML does vscode intend to support?
+804|unit tests pass on Ubuntu but fail pass but exit with 1
+805|./test/run.sh passing output is noisy
+806|Once released new version, please tag it. like 0.10.2
+807|Extension commands are displayed to user before extension is activated
+808|Linting and file format issue with #!/usr/bin/env node
+809|No Intellisense with typescript
+810|when wrappingColumn not 0, this function is invalid
+811|Navigating from and to a file stacks the errors instead of overwriting the same error.
+812|How to embed the Monaco editor with TS service in your own HTML page?
+813|[html] Autocomplete html tags
+814|International keyboard layouts not being correctly recognised for shortcuts?
+815|Typescript import statements
+816|XML color highlight appears to be broken
+817|[xml] entities are not highlighted
+818|Context menu is positioned wrongly when zoomed in
+819|Need to support app mutexes
+820|Gallery should only install compatible extensions based on VSCode's version
+821|Provide encoding-related APIs for editor extensions
+822|No Intellisense with Javascript React
+823|Adopt latest Electron build
+824|Support Windows mutexes
+825|Add setting in product.json for customDataDirectory
+826|[js] TypeError: e.split is not a function
+827|Cannot read property 'getLineCount' of null
+828|TypeError: Cannot read property 'getRangeFromSpan' of undefined
+829|Ctrl+Del behaviour is different from other editors
+830|Fixed mime-type detection because of different capitalization
+831|No 'File Open' dialog is displayed when attempting to open a folder
+832|No intellisense for some typings until tsconfig.json created
+833|Adopt TypeScript 1.7
+834|Adopt latest version of OmniSharp
+835|warn about duplicate debug type ids
+836|Wordwrap (Wrapcolumn) at specific character [plugin]
+837|Core dump: Windows 10 machine running Xming as an X server
+838|Annoying bar
+839|Long line of hover text gets cut off instead of line wrapping
+840|Error message text cannot be multiline
+841|default encoding
+842|Command prompt width & autowrap setting suggestion
+843|Cannot validate the php file. The php program was not found.
+844|Need VIM Mode
+845|[c#] No syntax colors in C# for usings out of namespace
+846|[c#] Unexpected syntax color for nested namespace declarations
+847|'install extension' should be more clear which extensions are already installed
+848|Provide ability to define workspace specific settings from outside the workspace
+849|activate-power-mode
+850|File-Version and Product-Version differ
+851|Adopt latest Electron build (#826)
+852|do not try to reconnect on real quit
+853|Run tasks in a particular working directory
+854|Go code completion of functions/methods should include parameters
+855|[xml] Add Windows Workflow (.xoml) extension.
+856|consider to make breakpoints know their debug engine
+857|Flag to skip starting VSCode after installation
+858|isWatching confusion
+859|Unable to start Code on Ubuntu
+860|Request: Git features should be available when working on a project that's below the git repo root
+861|Report unverified breakpoints back to user
+862|Cluster debugging is annoying because you have to create multiple instances of VSCode in order for it to work
+863|Debugger variables UI should highlight changed variable values
+864|[shaderlab] Support Shaderlab Highlighting for .cginc (Include files)
+865|Persist zoom settings
+866|Exclude all files except for...
+867|Joh/commands
+868|Macro like keybindings
+869|Improve error message when no command is bound to a command contribution
+870|cant update. Setup files corrupted
+871|Replace quotes instead of wrapping them
+872|User configurable maximum *.d.ts file-size
+873|Add ability to specify whether new tab should get focus
+874|[html] tag auto close on intellisense
+875|DocumentFilter does not work for dockerfiles
+876|Party!
+877|ESLint: unexpected reserved word (ES6)
+878|[json] VS Code suggests another property when a property's casing is not correct.
+879|Update icon to match Visual Studio 2015 Update 1
+880|[vb] Syntax Highlighting for Roku's BrightScript Language
+881|How to open the lightbulb via shortcut?
+882|Confusing error prevents mocha tests from running yet it still passes
+883|Azure Resource Manager (ARM) JSON Template is not validating :: Invalid Resource Type specified
+884|Add extension point for auto-detecting tasks.
+885|Intellisense help text is truncated
+886|vscode.Uri constructor takes no arguments
+887|Not possible to implement WorkspaceSymbolProvider with only offset information?
+888|Extension API: vscode.workspace.findFiles() documentation needs to be updated
+889|blackbox/ignore modules for debugging in node
+890|cannot connect to runtime process (timeout after 3000ms)
+891|Support to search for non file editors in quick open
+892|Failed to update from 0.10.2 to 0.10.3 on Windows 10
+893|Input sources panel's position is wrong when begin to type
+894|Merge conflict text decorations not getting properly cleared
+895|Format code doesn't work for C# code
+896|Using shebangs in TypeScript are generating errors.
+897|[C#] syntax coloring breaks down with interpolated strings
+898|Bug: Code + Git = deleted files
+899|"""source is not available"" when i use http module in vscode plugin"
+900|anyone can give me an sample to call web api in vscode plugin?

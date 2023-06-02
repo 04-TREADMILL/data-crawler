@@ -1,0 +1,100 @@
+19101|format broken
+19102|No scrollbar visible in the Markdown preview when having a vertical editor layout
+19103|Launches are not shown
+19104|Selecting in the markdown preview with the mouse should set the selection in the .md editor
+19105|panel switcher and high contrast
+19106|Synchronized scrolling should follow selection.active and not selection.start
+19107|Auto wrapping too much when using non-monospace font
+19108|Cannot open settings in non-folder mode
+19109|Inserted user settings badly indented
+19110|Unhelpful description of 'hotExit' setting values
+19111|Test: output scroll lock
+19112|Inserting language sepcific setting uses unusal formatting
+19113|'reindent all lines' and formatter have different formatting strategies
+19114|Broken permissions of an extensions install folder can lock up uninstallation of all other extensions
+19115|'reindent all lines' removes leading space in comment
+19116|Not getting screen reader feedback as I am filtering through settings
+19117|Change the command behind Open Settings to Open User Settings
+19118|Right click on tab close button immediatly closes the tab
+19119|Why does Configure language specific settings open the settings.json file and not the new settings editor
+19120|"I would expect tab area to shrink when tabCloseButton: ""off"""
+19121|Clicking on user settings / workspace settings should focus the editor, not the search bar
+19122|No language setting code assist when editing workspace setting manually
+19123|'reindent all lines': wrong indent with object literal
+19124|Quote blocks should be highlighted in Markdown too
+19125|Replace in Settings introduces spaces in file indented with tabs
+19126|Double clicking the Markdown preview shouldn't scroll unnecessarily
+19127|Replace in settings shows wrong search decoration
+19128|"Mocha launch config: suggest to use ""test"" as folder"
+19129|Search results do not update when the settings.json file is edited
+19130|Debugger behaves weird in this case
+19131|Built-in JavaScript extension gets disabled by disabling an extension that depends on it
+19132|Debugging yeoman: no breakpoint is hit
+19133|editor.formatOnPaste wording
+19134|Unable to write to dirty settings file
+19135|[WelcomeUX] Do not open browser if welcome is showing
+19136|[WelcomeUX] Shows up in command palette but not Help  menu
+19137|[WelcomeUX] Linux overlay has a bug with keybindings in the lower left corner
+19138|Welcome: overlay is not in sync with what is going on in the workbench
+19139|[css] provide css formatter
+19140|[WelcomeUX] Page is not localizable
+19141|Weird wording: Toggle skipping this file
+19142|"[WelcomeUX] ""Rename Refactoring"" link does nothing"
+19143|[WelcomeUX] Many unbound commands on Linux?
+19144|[WelcomeUX] lots of errors from ESLint in welcome playground
+19145|[WelcomeUX] Quick links uses two different fonts
+19146|Sass error: '} expected'
+19147|Cannot undo skipping of file
+19148|Welcome: shorten home path with ~ (Linux, macOS)
+19149|Switching workspaces produces error in extension host
+19150|[WelcomeUX] Clicking into welcome editor does not make it active
+19151|[WelcomeUX] Typos in Interactive Playground
+19152|Settings: find it weird to see 2 edit icons at the same time
+19153|Don't show skip file action for programs
+19154|Settings and panel: font sizes differ
+19155|Show the selected header in the preview at the same view prot height as the header in the editor
+19156|Font ligatures and Haxe function types
+19157|Multiple sessions (context) save/restore support.
+19158|Problem with `setBreakPointsRequest`
+19159|Editor flickers while double clicking a header in the preview
+19160|Double click in preview does not show the corresponding section at same position always
+19161|Error: listen EADDRINUSE /var/folders/rp/xjpqwtvs1q1gg1bb8ww0mtxr0000gn/T/vscode-b77.sock
+19162|Settings: cannot drag scrollbar in some cases
+19163|Cursor should be on the selected section in main editor when double clicking in the preview
+19164|Terminal: some tokens not light theme aware?
+19165|Rename `scrollPreviewWithEditorSelection`?
+19166|Terminal: interesting behaviour when setting terminal.integrated.scrollback to 10
+19167|Terminal: no more command to clear output?
+19168|TypeScript doesn't react to referencesCodeLens config change
+19169|Clicking on move to top button in preview has inconsistent scrolling on the main editor page
+19170|Rename `typescript.referencesCodeLens.enabled`
+19171|Preview flickers while editing
+19172|Debounce F4/shift F4
+19173|Links in the preview are broken
+19174|Shift F4 on the first search result deselects it
+19175|Drop of .vsix into extensions viewlet should install it
+19176|Stop doesn't kill debugged `restart` app
+19177|Terminal: focus border in HC theme could get some offset
+19178|Diff editor shows the spaces diff after when all diffs are removed
+19179|[html] disable formatter for cshtml
+19180|Link in Monokai is not rendered correctly
+19181|highlighted count in the status bar
+19182|Chrome debug process left lying around
+19183|Glob `<node_internals>/**/fs.js` in skipFiles doesn't seem to work
+19184|Color settings for selected text (single-click, double-click)
+19185|Inline values are not shown when adding variables and refreshing the debugger
+19186|Small typos for new security settings
+19187|Annoying behavior while opening files with some settings behind
+19188|Inline values are shown for a variable in different scope if it has same name in current scope
+19189|Inline values are not shown for a variable assignment from a function
+19190|Multiline search using regex fails to return all results
+19191|Highlighted character jumps around when highlighting text.
+19192|Language specific settings overwrite all or nothing from User to Workspace
+19193|Config edit service: Remove the setting when it has the default value
+19194|"How to get around ""JS"" debugging output limit?"
+19195|standalone editor in Safari: cursor off at the end of long lines
+19196|Error dialog when reindenting JSON file
+19197|standalone editor in Safari: changing font has no effect
+19198|Multiline searches in CRLF files are weird
+19199|Pin Tabs
+19200|Reindent command should not modify HEREDOC

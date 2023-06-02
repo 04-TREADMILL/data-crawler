@@ -1,0 +1,100 @@
+29401|Test: SVG usage in vsce
+29402|Emmet abbreviations interfere with CSS Intellisense
+29403|Settings writer looses comments
+29404|Tasks: Multi Root Support
+29405|Multi root: decide where to store workspace information
+29406|Support workspace settings in multi root environment
+29407|Move line up drops a line
+29408|Support files.association as folder setting
+29409|vscode delete ftp file when dragging ftp file onto it and vscode would not open that file.
+29410|Get rid of legacy workspace calls (getWorkspace, toResource)
+29411|Syntax highlighting fails when a html tag is inside a data attribute
+29412|Multi root: indicate unsupported settings on a folder level visually
+29413|UX: finalize multi root SCM design
+29414|Multi root: language servers adoption
+29415|Remove translate3d from list and use css will-change property
+29416|Test Settings
+29417|"More direct ""Download Now"" button link"
+29418|Wrong docs for snippets in suggestion list
+29419|Cannot read property 'id' of undefined
+29420|Test proposed multi root workspace API
+29421|Test: Windows executables are found even if no extension is specified
+29422|Indentation should not change when typing
+29423|Emmet fuzzy matching is aggressive to the point where it is counter intuitive
+29424|"Untitled file on launch should be a ""preview"" tab"
+29425|open dir from cli won't open when already open
+29426|Test: Recipe Chrome Debugging with Angular CLI
+29427|Typescript auto completes on open parenthesis
+29428|Test: New multi-root aware file watcher
+29429|Test: Find in terminal
+29430|Test: Rename terminal session
+29431|Render tokens background color (as defined by TM themes)
+29432|Select all should be in the terminal context menu
+29433|Test: Improved terminal selection
+29434|Scrollbar in debug hover
+29435|Hitting ⌘0 brings up left panel but does not hide it.
+29436|Test: protocol autodetection when node is put into debug mode late
+29437|ECONNRESET on last build-step
+29438|Search box stays on and pushes down editor's content
+29439|Why is VSCode uploading every HTTP request to Microsoft servers?
+29440|"Test: introduce ""DidTerminateDebugSession"" event"
+29441|Format the extension download count with commas
+29442|Test: Auto Indent on moving lines
+29443|Test: Auto Indent when Type
+29444|Test: Auto Indent when paste content
+29445|Keyboard binding is messed up
+29446|Test diff review panel accessibility
+29447|Disable breakpoint checkbox while breakpoint requests are pending
+29448|Whitespace characters are not rendered even when setting is switched to 'boundary'
+29449|Terminal links should support folders
+29450|Test Plan for Emmet 2.0
+29451|Extension host terminated unexpectedly. Window Reload
+29452|nativescript with angular html conditional value
+29453|Go to declaration change of behavior for mouse events.
+29454|Querying the Git depot of an open folder crashes Code
+29455|Clean up multiroot exclude glob handling
+29456|Task experiment 1.5
+29457|Test: Github extension
+29458|Test: Remote image security
+29459|Various kinds of sorting in explorer
+29460|Search in multiroot workspaces
+29461|Test: Images in browsable extension information
+29462|Extension host terminated unexpectedly. Please reload the window to recover
+29463|VS Code and Git Sync Issues.
+29464|not displaying the OneDrive online only files
+29465|Ryby User Path
+29466|扩展主机意外终止。请重新加载窗口以恢复。
+29467|Code no longer opens directories via cmd/PowerShell or Explorer in a Onedrive Directory
+29468|June endgame
+29469|why vscode doesn't support large file?
+29470|History: files.exclude no longer applies
+29471|Copy-paste selection cutoff from debug-console
+29472|Windows 7: latest update shows error box right away
+29473|Integrated terminal converts tab characters to spaces
+29474|Settings: there are more supported settings on a folder scope
+29475|"Explorer: show ""Folders"" as title when in multi root"
+29476|Explorer: use files.exclude for filterToAddRemovedOnWorkspacePath
+29477|[json] schema validation should support defining the problem severity
+29478|Can not open files saved on onedrive.
+29479|Your repository has no remotes configured to push to
+29480|Ruler: depending on the size of the file tree, the ruler can be 1px or 2px wide
+29481|Closing vscode while a  process is running in the terminal causes the process to stay alive forever
+29482|Option to show emmet suggestions in languages that are not pure mark up or stylesheet like
+29483|Commit options are clickable when there is nothing to commit
+29484|Please implement source control status in the File Explorer
+29485|Enable light update for macOS
+29486|[html] Please add native syntax highlighting for 'template/text' logic-less code
+29487|Windows 64: Dialog to prevent 64bits install over 32bits could show a little more
+29488|Search: Files excluded through settings is not updated on Settings change
+29489|Debugging ng test doesn't work
+29490|Native Exception in winpty
+29491|Terminal should honour altCmdClick setting
+29492|Align link hovers
+29493|Stale selection in terminal
+29494|Sublime Extension does not handle error while writing to user settings
+29495|Sublime Extension wording is weird
+29496|Sublime Extension prompt shown should not be stored in user settings
+29497|Multi thread debugging: wrong Paused on Breakpoint label
+29498|search.useIgnoreFilesByDefault is not having any impact in Single root workspace
+29499|Multi thread debugging should support stopping thread and stopping VM/Program
+29500|Adopt settings in search to be folder scoped

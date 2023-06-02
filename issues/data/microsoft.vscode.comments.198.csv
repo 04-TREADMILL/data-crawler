@@ -1,0 +1,100 @@
+19701|Create your own extension and start with `vscode/extensions/theme-defaults/themes/dark_vs.json`. If you like the colorful dark them add the rules from `vscode/extensions/theme-defaults/themes/dark_plus.json` in there.
+19702|"Verify that ""Open New Terminal"" works for when you do not have a folder open and it takes the parent folder of the currently active file if any."
+19703|Well yeah, sucks. You need to resolve the input to my model and then get Alex model from it (https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/common/editor/textEditorModel.ts#L51)
+19704|@anyong Love the bug report gif! This could be caused by a Chromium bug that would hit us also when writing Thai.
+19705|Repros in Command Prompt and Powershell. Repros if I run with full Program files path. Are you not able to repro this output? I couldn't repro this on Linux (Ubuntu 14.04) and I haven't tried on a Mac (don't have one).
+19706|@isidorn actually I noticed that I do have code in to prevent this from happening, here are my steps: - open a workspace on a hello-world extension - run the extension and open a folder A in there - close extension - open another window and open folder A in there - run extension again   => it should now open with empty folder  Same works for me when I explicitly pass a folder over in the launch.json.  Please reopen with steps to reproduce!
+19707|I have revert the change and I am opting to move this to May cos this is too much controversy for an endgame fix.
+19708|@FranklinWhale good point. I pushed a change to actually exclude it from the explorer too (same as the .git folder).
+19709|@jsloyer they should be present out of the box, otherwise please file a bug.  @joaomoreno fyi
+19710|happens when you run with only a file not a folder open
+19711|@jsloyer is that Windows Server 2012?
+19712|@bpasero yeah
+19713|@rojorojo does `Revert File` work?
+19714|I do not think we support that platform. @joaomoreno right?
+19715|Thanks!
+19716|@bpasero is windows server 2008 supported?  Also it might be good to update the wiki on what Windows versions are supported.
+19717|Hi **@jsloyer**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         In order for us to evaluate and accept your PR, we ask that you sign a contribution license agreement. It's all electronic and will take just minutes. I promise there's no faxing. https://cla.microsoft.com.     </span>  TTYL, MSBOT;
+19718|**@jsloyer**, Thanks for signing the contribution license agreement so quickly! Actual humans will now validate the agreement and then evaluate the PR. <br />Thanks, MSBOT;
+19719|@aeschli yeah, our definitions are wrong. The new definitions come from the spec, but I believe these must be original descriptions that were imported. I guess I didn't spot those when making a bunch of them more concise.
+19720|"They need changing more than this PR as each one is the shorthand description. It should just say something like ""Sets the width of the left side of the margin area"" or some such for margin-left, and so on."
+19721|"Yes it works perfectly. But the prompt still remains on the top of the screen. I think adding an ""X"" or ""CLOSE"" next to the compare button would solve the problem I am trying to describe."
+19722|awesome yeah that worked.  I was trying to get them through the contextservice but calling `process.env` works with those vars
+19723|"I also think the shorthand text is confusing as when it is saying ""if right is omitted it is same as top"" it really saying ""if you specify one value all sides use that value"". The actual definition is:  ""If there is only one component value, it applies to all sides. If there are two values, the top and bottom margins are set to the first value and the right and left margins are set to the second. If there are three values, the top is set to the first value, the left and right are set to the second, and the bottom is set to the third. If there are four values, they apply to the top, right, bottom, and left, respectively.""  But that isn't concise enough to give something useful before expanding."
+19724|@quasilatent thanks for your suggestion.  I have some additional questions regarding this to help me understand where you're coming from. 1. For projects using Git, the _quick diff_ in the editor already offers the ability of seeing what you've modified (blue and green).  In what ways is this not meeting your needs? 2. Are you using Git in the files you are working on where you need to see the modifications?
+19725|This is very consistent.  I've seen it on every Windows machine I've tested it on.
+19726|Does the editor show the correct language type in the corner?  ![image](https://cloud.githubusercontent.com/assets/1486634/14863863/79221800-0c85-11e6-9b39-b92023257480.png)
+19727|My feeling tells me that none of Windows Server is supported to build from.
+19728|I think the right thing is to close the message once you revert.
+19729|Well actually we could just have the revert action in the message :)
+19730|Ok thanks, closing and will try building on windows 10.
+19731|Closing as duplicate of #2686
+19732|Closing as duplicate of #2686
+19733|You mean #2686 is a duplicate of this?
+19734|https://github.com/Microsoft/vscode/issues/396
+19735|https://github.com/Microsoft/vscode/issues/396
+19736|Sorry, I misread the description and reopened this one.
+19737|Strings that are roughly 4,000 or more are being proportionally truncated when using console.log(string) in Linux. A string that is 4069 characters is being output with only 4047 characters. A string that is 9922 characters outputs only 9504 characters.
+19738|In my case I didn't want to take any action on the file (but the message was forcing me to). I just wanted to close and reopen it.
+19739|@rojorojo how would that work though, there are changes you did and changes on disk.
+19740|I do not think we can overwrite any of the OS taken keys. @alexandrudima ?
+19741|@10098 does it reproduce with our insiders build?  You can give it a try from our insiders release today: http://code.visualstudio.com/Download#insiders
+19742|Never seen this error before. Almost seems to me the spawning via Electron just fails with this error.
+19743|I haven't tried that build. I'll download it today and let you know tomorrow how it goes.
+19744|@jasonshaw do you maybe have an extension installed that takes over the ctrl+/ command?
+19745|@10098 thanks!
+19746|@jsloyer can I ask what the scenario for this is?
+19747|@aeschli Works fine with 1.0.1
+19748|@bpasero We are building custom viewlets for an inhouse tool and thought it could be of use in the future
+19749|I see. I am not thinking we would merge code into master that is not being used anywhere though. I hope that makes sense.
+19750|@isidorn you as a client of select boxes (debug viewlet, output), maybe could comment if this change is useful to you?
+19751|Might be useful, let me put it to May and I can try to adopt it in debt week. If it looks good I will merge it in, if it does not add nice value on top of what we have I will reject. Hope that makes sense.
+19752|Ok. i have last question. How can i fix that problem ? when i open Visual Studio i see this problem and i cant edit any code. Right now i just open and close visual studio few times and problem solved but its  temporary solution.
+19753|Thanks to the update to Electron 0.37.6 that brings in Chromium 49, we get the fix from Chromium. I have verified this is fixed on master.
+19754|"Each desktop environment ""eats"" different keybindings, it is almost impossible for us to have defaults that work in all Linux desktop environments.  @10098 I recommend customizing the keybindings via `File > Preferences > Keyboard Shortcuts`"
+19755|The code for that is here https://github.com/Microsoft/vscode/blob/849abd65ebf3e8c0f807e05639e723d16f8e6e3a/src/vs/workbench/parts/execution/electron-browser/terminal.ts#L9, it should yield gnome-terminal if it uses gnome (not sure if Fedora has other flavors).   I created this to improve the defaults later though I expect it to work https://github.com/Microsoft/vscode/issues/5780
+19756|Hi,  I can jump in.  As an extension you certainly could add your own custom telemetry code - leveraging GA or other tools - we use Application Insights.  However, there is no set of best practices established today for community extensions.  We would be interested in anything you come up with.  I'll close this issue for now - but please fell free to re-open.  Sean
+19757|"@weinand @isidorn Wanted to ping to see if this feature can make it to a sprint.  We need this feature to support the following scenario -   User has a ReactNative app running, and selects ""Debug JS"". This action starts up the ReactNative VSCode extension and we need to set the debugging mode. We would like to select launch configuration when such a command is issued."
+19758|"Imo stderr output of debug adapters should continue to appear in the dev console for getting stack traces when it crashes (aka ""debug adapter terminated unexpectedly"")."
+19759|To add what @jrieken has, you can use the eslint plugin to have eslint run, it will catch most of the same errors, but may miss some.  I'm just ignoring these for now, still annoying.
+19760|#1751
+19761|Excellent, when will this be in insider build?
+19762|This happened to @bgashler1, see https://github.com/Microsoft/vscode/issues/4922 for more context.  Apparently just a run of `sudo apt-get update` will fix it, or checking download software while installing Ubuntu should do it too. It's a trade off, remove the dependency and git doesn't work out of the box, keep it and this happens if the user hasn't fetched packages (which the software updater does periodically anyway).
+19763|@felixfbecker That's great! Do you have a link to the extension?
+19764|It would be pretty easy to change the logic to include `gnome-classic` as well to prevent a possible regression in April if you want to do that @joaomoreno, https://github.com/Microsoft/vscode/issues/5780 is planned to improve upon this in the long term.
+19765|"Also hashes:  ``` html <input #myinput (click)=""someMethod(myinput.value)""/> ```"
+19766|I think I've experienced this where the installer didn't work, it seemed like the installer's issue to me. It happened to me pretty consistently whenever I tried to install a second thing. Fresh restart and using it always seemed to work.
+19767|@thuey Currently trying to extend PHPParser so it can parse incomplete PHP documents so I can get AST nodes all the way up to the cursor position, even if it is not terminated by a semicolon yet: https://github.com/nikic/PHP-Parser/issues/262
+19768|@Tyriar Is there no way to run a hook on the first run of VS Code where it checks for things that aren't available (like Git) and then installs them very quickly (or to run a hook as part of the deb/rpm package installation). That way, we don't block installation, but also everything works on the first run as well?
+19769|"Doc Feedback verbatim request: ""I need to disable an extension without uninstalling it."""
+19770|Didn't we modify the documentation to say run update of you're  having issues? If not that solves the problem imo. We can also say run it before installing via command line too.
+19771|"Considering that the English version is the ""primary"" one, at least for CJK languages, I think it makes sense for that to come first. This may not be the same for languages that don't use an IME though."
+19772|By the way,can I change font sizes? I want to make primary keywords bigger than secondary ones.
+19773|@SamVerschueren Wenderful! It is the reason! Thank you very much! @Tyriar I think the official sample MDTools should also fix this bug. ha ha ha.
+19774|@bpasero Thanks for your reply.  Now I'm trying the insider version today and will update later.
+19775|does it reproduce with our latest insider build?  You can give it a try from our insiders release today: http://code.visualstudio.com/Download#insiders
+19776|F1 -> Format Code exists for languages that support it.
+19777|#55
+19778|@lucamorelli please report against Omnisharp.
+19779|how can i comment out the codes in html css js php and so on without any extensions
+19780|Can you try to run VS Code without extensions? From the command line, execute: `code --disable-extensions`
+19781|from the command line, it works, it seems that the problem is caused by some extension, but how to dig it out？
+19782|@jasonshaw what extensions do you have installed?
+19783|@axemclion we can investigate to introduce it in may - so the next sprint. This sprint we are already in endgame and are no longer adding new features
+19784|:+1:
+19785|It should build in Windows Server, our build machines are on that OS.  Update to Node 5.10 and npm 3 and retry.
+19786|Then we should maybe consider doing this at the diff editor level somehow? Eg: if the left hand side input's mimetype is inconclusive (which happens to be my case), the diff editor should open it with the same mime as the right hand side's model mime. What do you think?
+19787|We use [rcedit](https://github.com/atom/node-rcedit/tree/master/bin) to patch the icon. Make sure it executes in your machine.
+19788|This might be related to updating from an old version. Can you try testing it on a machine in which you install Code afresh?
+19789|Not critical, no.
+19790|I can confirm that Atom behaves the same, so it probably is upstream.
+19791|I just haven't found a server API yet that would give me all versions. https://github.com/bower/registry/issues/26 is talking about that. Duplicate of #4630
+19792|I just haven't found a server API yet that would give me all versions. bower/registry#26 is talking about that.
+19793|Stable will not roll out with those changes in May. Experience is still being polished.
+19794|Can we make it configurable?
+19795|That go fixed in the latest with the update of the C++ grammar.
+19796|Yes, that's a good idea. Let me reopen this and rename the issue.
+19797|@bpasero   Hi,  I've installed VSCode (Version: 1.1.0-insider) today and the UI freeze again just now.  Installed extension: - jshint (0.10.10) - One Dark Theme (0.2.5)
+19798|@chrisdias need some convincing here :)
+19799|I still have the problem that @alexandrudima described. Using `Version 1.1.0-insider (1.1.0-insider)` and `typescript@1.9.0-dev.20160427`.  ![apr -28-2016 09-07-43](https://cloud.githubusercontent.com/assets/1742426/14877986/dde075ca-0d20-11e6-9853-b2702461e3ef.gif)
+19800|@joaomoreno I think the mime type is a bit of legacy that does not play a big role here, it was used only at construction time, but in this case the user changed the mode and that change is not reflected in the mime type anywhere. In fact I even have a debt item to remove the concept of mime from the workbench.  I am not sure if we could say that the diff editor should always take the same mode for both sides because there is a use case where each side needs to use its own mode: when you compare 2 files of different extensions.  For the git case though I would not think there is any use case where you would want the left hand side to color differently from the right hand side. So maybe in that case the diff editor widget needs to always pick up the same mode for both sides?

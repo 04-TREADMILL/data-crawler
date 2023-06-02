@@ -1,0 +1,100 @@
+7401|For Bower we never had an API that would give all versions. But for project.json we had and it seems that the web service that provided us the results is not working anymore.
+7402|But doesn't the debug adapter talk to some component inside VSCode in any way?
+7403|Verify that dirty indicators show up unless auto save is configured 1s and below. Verify no data loss, also when quitting the app while you have dirty around (we automatically save instantly in that case).
+7404|:heart:
+7405|"This is how it looks when we use the file icon (our other candidate is used for enum btw)  <img width=""331"" alt=""screen shot 2016-01-27 at 12 46 10"" src=""https://cloud.githubusercontent.com/assets/1794099/12612590/1c459fcc-c4f4-11e5-83b2-3c202142a179.png""> @egamma"
+7406|It is meant as proposal for Vs Code.There is an extension Floobits for Atom! RegardsHans  Date: Wed, 27 Jan 2016 00:40:06 -0800 From: notifications@github.com To: vscode@noreply.github.com CC: hans.schenker@windowslive.com Subject: Re: [vscode] Remote Pair Programming with Floobits (#2411)  We are not aware of such an extension, sorry.  — Reply to this email directly or view it on GitHub.
+7407|Giving this a bug label so it gets verified
+7408|"@joaomoreno communication between VSCode and the debug adapter only uses the ""debug protocol"". There is no backdoor/side path whatsoever.  But we could extend the protocol to pass the workspaceRoot on initialisation. But this would ""leak"" a VSCode concept to the debug adapter (something we were able to avoid until now)."
+7409|"I've tried this setting `""typescript.tsdk"": ""./node_modules/typescript/lib""`, but it doesn't work."
+7410|Be nice if we had a memorized user preference filter that hides or shows different suggestion types. i.e.  ![image](https://cloud.githubusercontent.com/assets/1727302/12613081/318560aa-c532-11e5-9e72-1993f44c7ff8.png)  and maybe on top have a drag and drop of the icons as an ordering preference .
+7411|@jrieken can you tell me more? Why shouldn't it show the x? What sort of indication did you have in mind? What does the x make you think of and how is the behaviour not consistent with your expectations?
+7412|"Hmmm...In the Working Files area is a list of my currently ""active"" documents. If I'm on the third one in the list, and I push cmd-1, I want the one at the top of the list to show up in place of the one I am currently on. If I hit cmd-2, then the 2nd from the top of the list of files shows up. This would be similar to what happens when I hit this key combination in Firefox - cmd-1 shows the left-most window, cmd-2 shows the one to the right of that, etc.  I hope this screenshot is ok, since I'm not doing so well with the words.  ![image](https://cloud.githubusercontent.com/assets/12577765/12613571/a2971f78-c4c8-11e5-88e6-eefcb64812ef.png)"
+7413|+1
+7414|+1  I really think that indent guide (vertical lines) would be useful.
+7415|@bpasero Nice! Thank you
+7416|"+1 same here. ""end of central directory record signature not found""  Version 0.10.6"
+7417|It might be a nice feature, it wouldn't help me too much because I only use git for one or two projects at a time and it is easy to keep track of. I just thought it would make a confirmation dialog a little more appealing/useful.  If you don't mind me asking, why don't you like the idea of a confirmation dialog there?
+7418|Ok I see, that is different then from what I thought.
+7419|@rhires maybe you can get used to Cmd+Tab?
+7420|Also interesting: suggestions on `console.` shows them as methods which is good:  ![image](https://cloud.githubusercontent.com/assets/5047891/12614667/b0f6a7bc-c501-11e5-988f-9f9099ba0871.png)  But suggestions on a commonjs module shows everything again using the blue brick icon:  ![image](https://cloud.githubusercontent.com/assets/5047891/12614689/c9dca5d8-c501-11e5-977f-6fd9ca45201a.png)
+7421|How about instead of leaking a `workspaceRoot` value you would give it a `defaultLocalRoot` value?
+7422|Ok. We're in the middle of releasing 0.10.7. Please give it a try with that release and let's tackle it then if not fixed.
+7423|Because most people would dislike having to click twice for such a common action.
+7424|No, cmd+tab shows me the last 10 open files, _not_ the working files. It'd be great to have a tabbed structure for this, either this or cmd+tab should show between only the _working_ files. Am I making sense?
+7425|It looks like the hover result ('undefined') is lost in the language server. I verified that the it is returned by the JSON language server and is not appearing in the extension host.
+7426|The behavior for <script> is different as for content inside we switch to JavaScipt. The JavaScript engine doesn't (yet) know it I embedded.
+7427|https://github.com/Microsoft/vscode/issues/441
+7428|Now with the JSON language in an extension this won't happen in VS code anymore. However, other legacy modes Monaco might be impacted  The JSON worker gets the mirrorModel from the resourceService. It always gets it new on every 'validate', so it looks like a bug in the resourceService that it would hand over a disposed model.
+7429|Thanks, that makes sense. Is that something that could be added as an extension with the current API?
+7430|The same is true regarding other flagged errors that should only be errors in strict mode:  ![image](https://cloud.githubusercontent.com/assets/5047891/12615440/0151d5de-c506-11e5-901b-abf23f3a7263.png)
+7431|Close for now, will also do some testing on OS X.
+7432|I see your point, but not sure why this is important. I didn't want to add workbench specific knowledge in the ThemeService. Right now it's stateless and just help loading and apply themes.   No action planned.
+7433|Actually closing in favor of #2414
+7434|This came to my mind when we said it not proper for  suggest details and then I see that viewlets don't have it but editors do. Since I can do the drag-down-to-hide-gesture an icon indicating that is maybe more applicable?
+7435|This never bothered me. I agree the animation is a bit slow and could be sped up.
+7436|@aeschli Are you saying there should be no easy way to get the current used theme or are you saying it doesn't make sense to have that in the theme service?
+7437|duplicate of #2234
+7438|Joao had the idea that we show some icon which could also go to the status bar once this is hidden. Clicking on that would open the panel again. The good thing about the icon in the status bar is that we could indicite if more output comes and not spam the user with opening the panel again.  Something similiar to this guy in chrome dev tools  ![screen shot 2016-01-27 at 15 03 07](https://cloud.githubusercontent.com/assets/1926584/12615647/34a03cea-c507-11e5-98ea-78b943be928a.png)
+7439|saw the same on OS X
+7440|Closing as fixed. The new themes will be part of VSCode in the January build. It is no longer needed to install the themes extensions from the marketplace. In fact, everybody who has installed them can uninstall the extensions to avoid duplicated entries in the theme selection dialog.
+7441|Closing as fixed. The colorful default themes will be part of VSCode in the January build. It is no longer needed to install these themes as extensions from the marketplace. In fact, everybody who has installed them can uninstall the extensions to avoid duplicated entries in the theme selection dialog.
+7442|Yes, we have the marketplace where you can publish such theme and snippets
+7443|ping @alexandrudima @chrisdias @egamma
+7444|This issue was moved to Microsoft/TypeScript-TmLanguage#59
+7445|This issue was moved to Microsoft/TypeScript-TmLanguage#60
+7446|Unfortunately not... we'd have to do it in-product. ;)
+7447|duplicate of #2343
+7448|This issue was moved to Microsoft/TypeScript#6643
+7449|@alexandrudima tried a while now to see if I can prevent keyboard to navigate into the body element and failed to find anything useful. The only super hack I can come up with is to listen globally to Tab-KeyUp and find out if the active element is the body and then move focus to some element within.  If anyone has ideas, they are most welcome.
+7450|I have changed the replace one to be cltr+shift+1 - which i think is intuitive Replace toggle consoly to ctrl+shift+Y so it is next to ctrl+shift+U for toggling output
+7451|I have no clue what is going on, but I can reproduce when I just have 1 element in the search box:  ![hover](https://cloud.githubusercontent.com/assets/900690/12616673/9c03629a-c50c-11e5-81fc-decf6d9afe78.gif)  @joaomoreno any ideas? I am using the DefaultController in tree.
+7452|@jrieken For the given example, the hover has content: Workbench.registerEmitters(): void  That's not a valid TypeScipt syntax, that's why 'void' and 'registerEmitters' aren't colorized. I don't think the tokenizer can be blamed for that. Looks like a the hover needs to use a different snippet such as `function registerEmitters(): void` or `class Workbench { registerEmitters(): void }` Also note that the TypeScript grammar is somewhat context sensitive, so you can just feed it some tokens and hope for a consistenly colored content.
+7453|This issue was moved to Microsoft/TypeScript-TmLanguage#61
+7454|I can reproduce when I click into the explorer, but not when clicking anywhere else. It seems the tree is disposing the input box when this happens and only after the dispose, the input box looses focus and wants to commit its changes, but it does not because it was already disposed.  The check is: https://github.com/Microsoft/vscode/blob/master/src/vs/workbench/parts/files/browser/views/explorerViewer.ts#L322  @joaomoreno looks like your code in this area.
+7455|If there is a request to have such an API then I can add it. Unless there isn't, no action planned.
+7456|@bpasero yes, only clicking in the area of the tree triggers the problem.
+7457|Any timeframe on availability of VSCode January build? I see nothing even on insiders channel. Thanks!
+7458|Thanks everyone for taking a good look at this.  Are we targeting the February milestone to update this? **_EDIT:**_ Just noticed we are.  Ok, I'll be working on some new design proposals starting after end game week based off the feedback and this discussion.
+7459|Tested Linux -> Windows
+7460|please understand this bug as such a request
+7461|I would totally blame the TypeScript grammar for this because it makes no sense to be context sensitive when tokenising. The 'fix' would be for TypeScript to not use this feature but have their source unhighlighted.
+7462|@dbaeumer In the hover provider basically don't mark something as code but just return plain text
+7463|awesome
+7464|I verified on Linux with Joao's example
+7465|@weinand @isidorn Please test from the bottom up, I got too tired to keep on going and I didn't cover React/JSX, ReactNative or Down level compilation
+7466|@bpasero 'focus' listener on `<body>` ?
+7467|or there was another one 'focusin' - I forgot the exact difference. You can check if the `e.target === body`
+7468|Nice! Thank you!
+7469|"That makes sense, tho the parent-child metaphor is little harder to explain when it comes to things like Omnisharp or Task output.   TBH my motivation is that even with the redesign it's painful to switch between output and debug (it's even worst cos they aren't in editor history anymore) and if we keep adding stuff like errors&warnings it won't get better.   When using the full width of the window I see how we could use the side bar to put in a different set of switcher icons - which then would act as parent for that panel.  <img width=""1019"" alt=""screen shot 2016-01-27 at 16 25 14"" src=""https://cloud.githubusercontent.com/assets/1794099/12618617/ed0bfcd0-c514-11e5-92b7-f2b7ffe07c8b.png"">"
+7470|Btw my choice of color are shown here: https://github.com/Microsoft/vscode/issues/1875#issuecomment-175694616
+7471|@alexandrudima best I can come up with is this:  ``` window.document.body.addEventListener('blur', function(e) {    setTimeout(function() { console.log(document.activeElement);}); }, true); ```  I do not get any focus event on the body element, so listen on blur in the capture phase and use timeout because without, activeElement is === body. Still a bit ugly.
+7472|Nah, it is good, it is just that the node debug adapter cuts the string. If you use make the window smaller you will see that it is nicely wrapped. We are aware of the node debug adapter cutting the string thus closing this
+7473|Thanks, that was one of the designs we tried too. One of the key things we want to ensure with this design is that we maintain the lightweight feel of the overall product and optimise the real estate for code and related assets. The design you've suggested above was one of the ones we considered but we don't want to start to litter the activity bar (and status bar, another design we considered) with buttons that toggle the visibility of a UI panel.  So why have them in the activity bar then for explorer, debug, search and git you might ask? The activity bar provides access to the main activities that a developer performs. It's not simply a place for buttons which turn panels on and off. We didn't feel that the output button and debug console were on the same level as the other buttons in the activity bar hence we didn't go for this one. On top of this, we were not keen on the full width panel for the reasons I listed above.  We tried another design with these two buttons and the panel taking the width of the editor but that still falls foul of the principle laid out above (and doesn't look good).  We have added actions with keybindings for switching between the panels, is that something that you might get used to using? What do you think about the shortcuts, are they memorable? We also have a shortcut for toggling the whole panel (Ctrl-J) which brings the panel up in the same state it was in when it was closed (ie, showing debug or output).  We've considered all sorts of ways in which we provide visible UI affordances to toggle the visibility of this panel but we ended up backing away from them all because of the risk that the UI becomes cluttered and we end up losing the lightweight feel of the whole product.  For errors and warnings the design we propose is that the errors and warnings status area in the status bar when clicked, will open the panel with the list of errors and warnings.
+7474|@alexandrudima sorry, but I already started at the top as well and I do not intend to continue testing much longer.
+7475|@alexandrudima same here
+7476|The x closes the panel and is different from the action that collapses the panel down into the status bar. When we worked on the design we tried different options that placed a button in the status bar that would toggle the visibility of the panel. We didn't like that design due to the fact that the status and activity bars could become cluttered with all sorts of buttons to show UI. So we backed off that design.  However, the capability to drag the panel down into the status bar was not part of the original design. In fact, the design that we ended up with called for setting a minimum height of the panel. If we support the ability to drag the panel down into the status bar we may need to reconsider this but I really do worry about the precedent that will set and the risk of adding more UI to the product (even just one button in this particular case).  It would be interesting to know if toggling the panel with the menu commands and keybindings would work just as well. It's more efficient. Pressing Ctrl-U causes the panel to disappear and pressing it again causes it to come back up in the exact same state. In everything we do, we want to enable the user to spend as little time manipulating the UI of the product and as much time working on their code.
+7477|> as a workaround, do not cd into the folder but instead open the folder from its parent director  good idea, thx!
+7478|This is tracked by https://github.com/Microsoft/TypeScript/issues/6552
+7479|closing
+7480|@jrieken What's your use case?
+7481|Provided temporary fix.
+7482|Very likely because of https://github.com/Microsoft/vscode/issues/2329
+7483|"Correct. We explicitly decided to give no warnings/errors other than syntax errors for JavaScript code. If warnings on incorrect type usage are required, we'd need to spec how and when these would occur in JavaScript, else being based on TypeScript, code such as the below would also be a type error:  ``` var x = 10; x = ""ten"";  var y = {a:true}; y.b = false; ```"
+7484|This issue was moved to Microsoft/TypeScript#6644
+7485|We categorize the properties by value type: array, string and number in this case.
+7486|This issue was moved to Microsoft/TypeScript#6645
+7487|Duplicate of #2169
+7488|This issue was moved to Microsoft/TypeScript#6646
+7489|This issue was moved to Microsoft/TypeScript#6647
+7490|I have raised that issue as well :smile: But that issue was regarding cmd+tab, this is regarding the nonavailability of a tabbed task bar to show a list of active files. Showing a list of active files hidden in the sidebar isn't really useful as far as UX is concerned because it totally fails when the sidebar is closed.
+7491|This issue was moved to Microsoft/TypeScript#6648
+7492|This issue was moved to Microsoft/TypeScript#6649
+7493|This issue was moved to Microsoft/TypeScript#6650
+7494|This issue was moved to Microsoft/TypeScript#6651
+7495|This issue was moved to Microsoft/TypeScript#6652
+7496|This issue was moved to Microsoft/TypeScript#6653
+7497|This issue was moved to Microsoft/TypeScript#6654
+7498|@stevencl currently we use the same style as the titles in the viewlet. What do you think here? Shoud it be more compact, should it be vertically centered?
+7499|If you ask for tabs, there is another issue for that.
+7500|looks like a consquence of #2455

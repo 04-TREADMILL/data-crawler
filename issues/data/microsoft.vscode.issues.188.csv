@@ -1,0 +1,100 @@
+18701|Replace does not work if replace string is empty
+18702|typingsInstaller/telemetry process causing high CPU usage
+18703|"from [vscode-cpptools]: ""Switch header/source"" in split view opens file always in left view."
+18704|Shortcuts mentioned in the menu are not in sync with the actual shortcuts
+18705|Redo is not working
+18706|Dragging a tab can show visual glitch when tab not fully visible
+18707|Debug Console lineheight looks like an extra blank line per line printed
+18708|Keep the history of find and replace strings
+18709|Get parsed launch.json or parse it in the extension
+18710|SCM fails to show changes
+18711|Add Tab Icons for open file tabs across the top
+18712|VSCode 1.8.1. HTML bad automatic identation
+18713|Autocomplete gets in the way
+18714|Error while commiting not surfaced to user and commit simply ignored
+18715|"Quick Open show the ""..."" to the left or center to not hide important segments"
+18716|Cannot type backslash on German keyboard in Editor
+18717|Get listed on the JSON Schema website as a compatible editor
+18718|Add option to disable bracket matching
+18719|Build shortcut not working on Mac
+18720|Open new file buffer via API
+18721|My settings editor.tabSize: 2, doesn't work
+18722|Commit button is lost
+18723|Integrated terminal doesn't seem to be working at all
+18724|Accepting a suggestion in the repl submits the whole input
+18725|JSX components have identical color as standard HTML tags.
+18726|SCM doesn't ask to initiallize repos
+18727|Formatting on the fly to give Developer consistent formatting options across projects
+18728|"""meta.group.regexp"" scope not highlighted anymore"
+18729|yo code fails immediately
+18730|Fix #17645.
+18731|Hard crash (of everything) when debugging nodejs
+18732|Fixed named headers for markdown preview
+18733|Maintain Markdown Preview Scroll Position on Window Resize
+18734|Call stack context menu option sends internal URL
+18735|Prototyping Markdown Preview Synchronization With Editors
+18736|Investigate to show combined confirm dialog for all close actions
+18737|Walk-through: Avoid creating temporary files
+18738|"Don't translated ""Synchronize changes"""
+18739|Not rotating icon while updating SCM
+18740|Suggest to add new panel for Peek Definition
+18741|Add Toggle Output Scroll Lock action
+18742|Test: new panel switcher bar
+18743|Print
+18744|Test: new tabCloseButton setting
+18745|Two error notifications when starting debug adapter on non-existing program
+18746|Debugger gets stuck when starting debug adapter on non-existing runtime executable
+18747|VSCode Typescript Intellisense slows to crawl after 5-10 minutes
+18748|VSCode starts a lot of git process at the same time and doesn't stopped them
+18749|Add launch config snippets for common node scenarios
+18750|[handlebars] validation issue in Handlebars file
+18751|Cannot use PHP snippets with $this
+18752|Strange behaviours of formatting for double spans
+18753|ata progress reporting
+18754|what's wrong with this ? errors : bugs
+18755|SignatureHelpProvider gets confused with similar parameter labels
+18756|Debugger not showing value of variables
+18757|"Unjustified ""git push"""
+18758|Prevent opening new editor group when using focusNextGroup
+18759|Classes for styling - incompatible changes.
+18760|"Cannot collapse ""Regions"" or ""Here Strings"" in VC Code when working with the Microsoft PowerShell extension"
+18761|Cannot copy all content from debug console, only visible selected output is copied.
+18762|VS Code won't open
+18763|Git: bring back modal dialog when asking for confirmation
+18764|"SearchViewlet is missing multi-line ""surrounding context"""
+18765|TypeScript busy/blocked when typing a new import
+18766|Quick Pick layout has changed
+18767|eslint problems that don't exist showing up in problem log, but not UI
+18768|Possible bug with highlighting current line
+18769|Feature Request: Restrict find in files to only loaded files
+18770|Getting `setDecorations on invisible editor` warning
+18771|Some feedback for SCM
+18772|jamiepg3
+18773|Cannot install extensions behind a Secure Web Gateway that enforces certificate checking
+18774|Settings UI - Gutter color doesn't adapt to theme change unless you reload
+18775|SCM use real alerts instead of quick pick
+18776|Lack of lines or background color changes on panel/viewlet make it difficult to resize panes
+18777|"Panel: weird behaviour with ""Debug Console"""
+18778|[folding] Fold selection
+18779|Gate TS go to implementation feature to TS 2.2+
+18780|Ability to configure long commit warning length
+18781|vscode.ExtensionContext.storagePath is undefined the 1st time an extension is activated for a workspace
+18782|"""Clear Output"" Content Menu Item Missing in Output Panel"
+18783|SCM: new git is leaking git processes.
+18784|[Proposal] Fractional Line Number Locations
+18785|Commenting shortcut
+18786|VSCode not attaching to ES6 files from sourcemaps when debugging mocha
+18787|Searching for a setting returns hits on non-contiguous letters
+18788|Extend revealLine command to Support Reveal Line of Unfocused Editor
+18789|Improve markdown preview to editor mapping
+18790|Find can't find \n when it's preceded by anything
+18791|Feature request: multiple cursors case retaining editing
+18792|Git side-by-side diff functionality does not show the whitespace
+18793|#18467 Preserve panel maximization on zoom
+18794|Add Markdown Document Link Provider To Support Local Links
+18795|Port User Settings functionality to Keyboard Shortcuts
+18796|保存.vue文件出现死循环，文件内容变成null
+18797|Support Local File Links from the Markdown Preview
+18798|inconsistent behaviour of delete command in debug console under nodejs
+18799|Code --uninstall-extension shows Cancelled
+18800|Feature Request : use nodegit instead of relying for a local git installation for Git Operations

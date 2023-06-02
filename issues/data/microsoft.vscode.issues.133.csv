@@ -1,0 +1,100 @@
+13201|"Debugger fails with ""dotnet cli is too old"""
+13202|VS Code does not recognize git repo it did not create
+13203|Word Wrap disabled when saving a new file
+13204|Getting 404s for JSs and CSSs while debugging default website from Visual Studio Code
+13205|"Make the Explorer Level ""Create File"" and ""Create Folder"" available so that keybindings can be assigned"
+13206|file associations documentation
+13207|Add user setting to swap sides for the diffEditor when viewing git changes
+13208|Return key is ignored a couple of times before being accepted.
+13209|Terminal not scrolling to current line when reopening
+13210|When opening two editors with medium size projects the disk usage is too high
+13211|Terminal breaks layout when status bar is hidden if the IME is triggered at the bottom of the viewport
+13212|Line height affects IME composition view wrong in terminal
+13213|TextEditorSelectionChangeKind is sometimes undefined when using onDidChangeTextEditorSelection
+13214|"Support for () and || for ""when"" expression in keybindings.json"
+13215|Save all files shortcut
+13216|Extension comes back after uninstall
+13217|[Bug] The 'Open' button in the open file dialog can open a workspace, not a file, if you enter a path
+13218|Open a previewEditor while navigating files through QuickOpen
+13219|Format On Save triggers infinite loop for JSON documents
+13220|Headings outline for markdown
+13221|Render non-breaking space when renderWhitespace is active
+13222|Improve load time of Electron app
+13223|Improve overflowing widgets layout
+13224|"Using ""<"" and "">"" in CodeLens Command tilte"
+13225|JSDoc optional param forms will not display parameter info.
+13226|Fix #13242 - Escape command title for CodeLens
+13227|Output channel does not handle spaces in link detection
+13228|Getting blank Editor window for  files with content in it and needs a close and start vs code to work properly
+13229|JavaScript broken highlight
+13230|Would it be helpfull using Tabs instead of dropdown for  Integrated Terminal windows And feature for switching between the tabs.
+13231|proxy - connect ECONNREFUSED 191.238.172.191:443
+13232|Replace All: search results are not cleared anymore
+13233|Terminal PS Cmd Prints Output on Same Line as the Cmd Itself
+13234|When using multicursor, Home and End keys do not scroll.
+13235|Console Windows as tabs rather than a drop down.
+13236|Scrolling to the warning when the user tries to edit far away from the warning
+13237|Call AllowSetForegroundWindow before sending IPC
+13238|In product release notes always reloaded upon tab switching
+13239|Noticeable delay each time in-product release notes editor is made active.
+13240|Zen Mode
+13241|Dragging in-product release notes to start a new editor group, closes notes and goes to web
+13242|Drag and drop in explorer has visual artifacts on Linux
+13243|"Bad string substitution ""Problem loading theme: {0}"""
+13244|Grouping files by name
+13245|Cannot read property 'uri' of null fix
+13246|keyboard navigation doesn't work initially with in-product release notes
+13247|Task problemMatcher works as 'build' but not as 'watch'
+13248|TSC version mismatch shouldn't be shown for JavaScript
+13249|Allow extensions to access all terminals via API
+13250|VSCode Extension Issue: Copying file(s) via the scripts fields in the package.json fails.
+13251|Disable Extension through api
+13252|"[Bug|Feat?] Regexp end of string lacking or not working"
+13253|Red theme: xml and ascx files are too red.
+13254|vscode v1.5.3 make root partition remounted read-olny
+13255|Visual Studio Code window is not responding on startup
+13256|My Typescript syntax color doesn't work for Angular 2
+13257|Error running build from source
+13258|Extensions don't appear as `preview` in product
+13259|code will become same while switching two files
+13260|code indention doesn't work somtimes
+13261|Preserves the saved whitespace setting on toggle
+13262|Markdown preview does not always refresh
+13263|[feature] Add a way to tell where a configuration setting exists (user vs workspace)
+13264|TS definition: ExtensionContext.subscriptions is not defined as array
+13265|FileEditorInput leaks and can cause render freezes
+13266|Text gets cut off for TS version mismatch error
+13267|Display multi-line errors in panel list
+13268|Remove the error list zone widget
+13269|remove code actions from F8 widget
+13270|No indent guides for these lines
+13271|Add mouse gesture/button binding for back/forward feature
+13272|"Unable to open VS Code 1.5 with ""-g"" option on Windows"
+13273|How to open previewHtml as popup in vscode editor
+13274|[enhancement] Be able to set extension loading order
+13275|Visual Studio freeze after start
+13276|Code helper eat 100% and intellisense not working
+13277|Brace matching for angle brackets gives wrong match
+13278|Changing selected launch configuration is not regarded when application is already running
+13279|Failed to execute git
+13280|Files starting with a '.' are out of order
+13281|choiceService warning when installing extension via CLI
+13282|MYVAR should trigger autocomplete for MY_VARIABLE
+13283|Debug actions should be included in `terminal.integrated.commandsToSkipShell`
+13284|Support Proxy-Authenticate: Negotiate
+13285|Extension update visible but not installable due to `engines`
+13286|infinity symbol in .less comments caused a crash, and now shows warnings
+13287|Hot Exit: Support multiple folder restore
+13288|stepping over breakpoint appears to resume execution fully, vs stepping.
+13289|JSDoc Support - @template doesn't work in prototype definition
+13290|Feature: Silently update VS Code
+13291|Indentation affects which blocks are collapsible
+13292|Enter key does not work; ctrl+enter does
+13293|Code Helper is consuming most of the CPU
+13294|Using capslock in a keybinding still toggles capslock
+13295|Enable git.confirmSync by default (fixes #8655)
+13296|git hide left diff pane button
+13297|Enter button does not go to new line
+13298|Bind Save All to Alt+Ctrl+S (fixes #11433)
+13299|Make searching # symbols better
+13300|Add scrolling to integrated terminal

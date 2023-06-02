@@ -1,0 +1,100 @@
+1001|[ruby] Add Gemfile to supported filenames
+1002|[html] add css intellisense for styles
+1003|[debt] improve the internals of the suggestion contribution
+1004|Quickopen not finding all files
+1005|Extensions: Install Extension is slow
+1006|Version 0.10.3 uses a full core on CPU
+1007|Diagnostic should support source field
+1008|Ctrl + click on quick open does not work
+1009|Insert key doesn't switch to overtype/overwrite mode
+1010|Highlight arrow function parameters
+1011|Try to render keybindings with their physical labels
+1012|changes to tackle #703
+1013|Request: Colourise text in Output Channel
+1014|Triple click selection seems to render a single line's selection twice
+1015|"""Open with Code"" in Context of Desktop causes Error"
+1016|Can't download for Linux x64
+1017|[js] template string highlighting not working
+1018|Autocomplete should insert parenthesis for methods
+1019|Settings file cannot be a symlink
+1020|Implement multi-select in left-panel file tree
+1021|namespace name Stack could not be found
+1022|After left panel tree view delete, focus should go on the last file or the file that took its place
+1023|Editor basics doc say `kbstyle()` instead of Cmd for Mac keyboard shortcuts
+1024|Suppress display of end-of-file newline as blank line
+1025|Not possible to specify quoted arguments in tasks
+1026|Debug start button gets hidden when the sidebar is too narrow
+1027|Syntax highlighting stops working when TypeScript keywords appear as object keys
+1028|Feature Request: Chromebook support
+1029|Please don't lock the tsconfig.json file
+1030|Locally exported environment variables are overwritten by ~/.bash_profile when using `code .`
+1031|JavaScript language support reports assignment to function as error instead of warning
+1032|Codelens feature causing unexpected diff areas in git diff view
+1033|[ISSUE #226] Fix debug console word wrapping
+1034|Integrate bash
+1035|"the file ""src/vs/workbench/parts/debug/browser/debugActions.ts"" misplaced"
+1036|cant run the app from within the Applications folder on my Mac.
+1037|Can you add a vs2015 like ctrl+K+D to automatically arrange code?
+1038|JS: default object functin param show error in editor
+1039|VSCode Marketplace Theme moderation?
+1040|Difficult to create folder in left panel file view if the open folder only contains folder
+1041|Open last active file when closing a file
+1042|Support `preserveFocus` flag when opening editors or an output channel
+1043|Support to drag and drop selected text
+1044|Typescript: breakpoints on the first statement of a static method don't work
+1045|html, editor.autoClosingBrackets doesn't work well
+1046|Can't save file in another HDD partition
+1047|autocomplete & emmett not working when in Multi-cursor mode?
+1048|issue #527 with optional cursor scroll
+1049|Incorrect error in TypeScript code
+1050|tsconfig/jsconfig exclude doesn't work with '.' directories
+1051|why cannot format xml file in the latest version??????
+1052|Add delay to autosave
+1053|Support RHEL Linux platform
+1054|JavaScript for loop template completion needs more context
+1055|Crashing on OS X 10.8.3
+1056|Feature request: Event onWillSaveTextDocument()
+1057|Is there vertical selection? Is there documentation?
+1058|Gopath in Extension Development Host
+1059|Build release?
+1060|[js] ES6 template string can't include '/*'
+1061|closing semicolon emmet expansion SCSS
+1062|Allow to match on paths in quick open
+1063|alt-gr meta key not available?
+1064|Question: Cross platform Win/VS2015 and OSX/VSCode
+1065|Configuring an ES6 project using .d.ts files
+1066|Allow to match on paths in quick open (fixes #1065)
+1067|Workbench services should be all in /common/ layer
+1068|Build broken on OS X
+1069|Allow building binary on Linux ARM.
+1070|Different `wrappingColumn` settings based on language mode.
+1071|Theme: Background color at line-numbers
+1072|[css] Add syntax highlighting for additional CSS units
+1073|Ignoring some C# warnings of OmniSharp
+1074|Message when plugins have been updated
+1075|Debug mode, the value of the variable error
+1076|Suggest cleanup
+1077|Wrong string interpolation parsing when string contains quotes
+1078|No intellisense for typings even with jsconfig.json created
+1079|Show Installed Extensions empty if two extensions with the same name
+1080|error while processing request ' _request ' (exception exception )
+1081|No permalink to latest VSCode distributable
+1082|Add Subword Navigation
+1083|Colorize files/folders based on .gitignore
+1084|"Add ""Beta"" flag to mobile site"
+1085|[ruby] Added .rake extension to use ruby syntax
+1086|Add an option to hide/show menu bar.
+1087|"// Place your settings in this file to overwrite the default settings {""javascript.validate.lint.tripleSlashReferenceAlike"": ""warni //""""editor.wrappingColumn"": 300"
+1088|[xml] Associate .atom with XML
+1089|[c#] wrong colorization for unsafe code pointer
+1090|Mac: TypeScript language service fails
+1091|Failed to install an extension with EPERM exception (operation not permitted, write)
+1092|December Test Plan
+1093|Update editor mode while changing buffer
+1094|Cmd+O proposes wrong folder
+1095|`question` How auto-updates working with electron
+1096|Allow setting TSServer trace via env variable
+1097|add addApiCommand call which can be found by a doc tool
+1098|Alternative fuzzy searching
+1099|Cant display Images with *.JPG
+1100|Add variable to tasks.json for filename without extension

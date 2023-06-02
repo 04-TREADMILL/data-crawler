@@ -1,0 +1,100 @@
+26401|Could not install typings files for JavaScript language features. Please ensure that NPM is installed and is in your PATH
+26402|ESlint extension stopped working and will not install
+26403|Markdown: Capture right parenthesis as part of url
+26404|Indent error with terminal
+26405|Research project on OSS motivation - would appreciate help for my master thesis
+26406|When I paste some words from Bing directory, the VSCode will crash.
+26407|Font size issue, seems to default to 72 dpi instead of 96 dpi
+26408|Auto indentation doesn't preserve space
+26409|Case-preserving find and replace
+26410|Multiline copy paste from terminal is awful
+26411|Suggest widget is not placed close to the cursor
+26412|Global search losses track of current match after editing a file
+26413|Cannot install Prettier - ESLint
+26414|Go To Implementation for React Components in JSX files no longer working
+26415|'Go to Implementation' is missing from the `Go` menu
+26416|Running foundation CLI in the integrated terminal
+26417|java lombok?
+26418|Running the contributed command:'markdown.showPreviewToSide' failed.
+26419|Go to definition doesn't work when a language server returns a text range that includes the current cursor position
+26420|Types info for 'Karma (Jasmine)' available only if 'karma.conf.js' is opened
+26421|Theming: allow list.focusForeground
+26422|Error when closing the settings editor
+26423|Terminal crash after some appication commands
+26424|Where to place generated theme.json file
+26425|SCM diffs no longer open in preview mode
+26426|Imports using path aliases throwing error for
+26427|Ctrl Shift S should be save all (default), not save as
+26428|Missing wordHighlightForeground
+26429|Hide the path of the current directory in terminal
+26430|settings cant be changed
+26431|Catastrophic failure opening certain folders
+26432|IDE crashing on response redirects
+26433|Failed for adding C++ headers' path using Bash on windows 10
+26434|Add setting to turn off the debugger peek UI
+26435|Add a file picker that reveals file in explorer
+26436|Keyboard layout Portuguese (Brazil) win10 pro Toggle Line Comment (ctrl + unknown) and Split Editor (ctrl+oem_102)
+26437|Go to current file from viewing diff.
+26438|Command Prompt `getmac` run every time I launch VSCode on Windows 10
+26439|Bad syntax highlighting on multi-line typescript generics
+26440|Regression in React type inference in JavaScript
+26441|Option to make script executable
+26442|Suggest widget layout should close when you press Ctrl + S.
+26443|Regex Search/Replace: Transform group to lowercase
+26444|Settings and Keybindings editor do not retain filters when moved across editor groups
+26445|Multiline Snippets are non-functional
+26446|"Wrong Japanese localization for ""reloadAction"""
+26447|Suggestion should align to bottom when it's above the cursor
+26448|Cannot select multiple files in explorer pane
+26449|"Character  ""<"" (Less-Than sign)  color becoming red incorrectly on HTML document comment sections"
+26450|TypeScript non-null assertion operator breaks subsequent syntax highlighting
+26451|Can you make it potarble？
+26452|Find Widget UI enhancement
+26453|OmniSharp do not gets to load .csproj created by Unity3d 5.6
+26454|Select Folder Dialog. Crash on create new folder
+26455|Bug in using Ctrl+D to select same words or characters
+26456|Incorrect encoding when using DEBUG(node.js inside vscode), it will affect extensions result.
+26457|Don't enter a newline when pressing return on an auto-completion keyword which has been completed
+26458|Useful error message should be given when uninstall extension
+26459|"Wrongly shows error - ""expected '}'"""
+26460|"Keybinding for ""Toggle Integrated Terminal"" keeps resetting to Ctrl+^"
+26461|vscode占用的cpu太高
+26462|Cannot read property 'uri' of null
+26463|Uncaught Error: Could not call remote function 'setZoomFactor'. Check that the function signature is correct. Underlying error: Object has been destroyed
+26464|c._currentCancelInput is not a function
+26465|Cannot set property '1' of undefined
+26466|Object has been destroyed
+26467|Cannot read property 'push' of undefined
+26468|Uncaught TypeError: Cannot read property 'style' of undefined
+26469|Cannot read property 'toLowerCase' of undefined
+26470|Cannot read property 'fromCache' of undefined
+26471|Cannot read property 'type' of null
+26472|Always Show File Names in Symbol Search Results
+26473|Cannot read property 'getChildren' of undefined
+26474|Cannot read property 'isFullScreen' of null
+26475|Cannot read property 'push' of undefined
+26476|Cannot read property 'startLineNumber' of null
+26477|Cannot read property 'iconUrl' of undefined
+26478|t.toLowerCase is not a function
+26479|Cannot read property 'className' of null
+26480|File icons were not updated
+26481|Input error in Chinese input method
+26482|Disable auth in auto git fetch
+26483|Cursor Position changed after switching open file
+26484|Theming: introduce border colors for individual components to override contrastBorder
+26485|While use this shortcut key to show terminal console, strange code display.
+26486|"Spanish Translation: wrong message ""Recomineda"""
+26487|Restore hot-exit files to the correct instance when renaming workspace folder
+26488|Syntax highlight inside HTML <script> tag is broken
+26489|Why Not Support C/C++ Semantic Analysis?
+26490|"Show ""You cannot rename this element"" *before* letting the user write a new name"
+26491|Node2 not respecting startFrame
+26492|Could not install typings files for JavaScript language features.
+26493|"""Format Selection"" not working in XML files"
+26494|Duplicate tasks in quick pick when there is a user defined task
+26495|JSDoc @deprecated tag works with a little flaw
+26496|Add translation for Thai into Transifex VS Code projects
+26497|Fix php function highlight
+26498|TextDocument extensionAPI documentation gives error
+26499|VS Code recreates deleted folder
+26500|Hide unusable SCM controls when SCM not active

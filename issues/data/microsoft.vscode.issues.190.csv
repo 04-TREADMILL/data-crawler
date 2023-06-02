@@ -1,0 +1,100 @@
+18901|[WelcomeUX] Consider going to Stack Overflow vscode sorted by votes
+18902|[WelcomeUX] Pressing F8 to jump to next error in embedded editor loses place in walkthrough
+18903|[WelcomeUX]  Doc typo
+18904|[WelcomeUX] Should the first editor in walkthrough not be focused for accessibility?
+18905|Cursor and typed words does not match positions in the editor
+18906|Unable to open 'settings.json': t.toLowerCase is not a function.
+18907|[WelcomeUX] Interface overview: The pointers are not pointing to the right place
+18908|Markdown preview doesn't honor editor font-size (or have a way to bump up its font size)
+18909|file is very large ....
+18910|Multiline object previews in console
+18911|[WelcomeUX] Editor Theme, also tell me how do get there myself?
+18912|[WelcomeUX]  Accessibilty for Welcome Page
+18913|[WelcomeUX] In lighter themes, need better color for the recent folder paths
+18914|[WelcomeUX] When overlay appears, can we get a blank editor behind it?
+18915|Multiline object values in console increase the console item's height
+18916|[WelcomeUX] Create new file should make the overlay disappear
+18917|[WelcomeUX] Better grouping for actions that customize experience
+18918|[WelcomeUX] Interactive Playground: Click on File explorer, recent file opens
+18919|Markdown view sync thrown off by frontmatter
+18920|Problem with unreadable texts in tabs due to low contrast, brightness
+18921|Fix markdown view sync for frontmatter
+18922|Shortcuts with Italian key layout work randomly
+18923|[WelcomeUX] Abbreviate user home directory?
+18924|Cleanup markdown extension impl
+18925|Terminal tab stops broken after resize
+18926|Prompts aren't focused for keyboard selection.
+18927|Editor selection jitters every 2nd character selected
+18928|[WelcomeUX] Welcome page should not show up when files are restored
+18929|"""jump to bracket"" doesn't scroll to reveal cursor"
+18930|New tasks.json variable request for re-running tasks.
+18931|Reindent all lines
+18932|Fixes md preview to editor sync when before first element in preview
+18933|Cannot connect to runtime process (reason: getaddrinfo ENOTFOUND localhost undefined:32974)
+18934|Total x settings in settings search bar needs centering
+18935|Indent not behaving when adding \n to /** */
+18936|Context based user snippet priority
+18937|VS Code rendering problem causing low mouse accuracy...
+18938|Keep scroll position stable when closing an inactive tab
+18939|Missing autocomplete for hashmap
+18940|Copy-Paste broken into VSCode Integrated Terminal
+18941|missing dependency on 'libxss1' for Debian/Ubuntu package
+18942|auto-formatting seems to be broken with svg style attribute
+18943|Extension tab is closed and marketplace search lost upon reload
+18944|New titlebar doesn't work with hyperdock on mac
+18945|Support undo and redo in input fields (fixes #151)
+18946|Improve multicursor experience
+18947|Add sticky header for programming langs
+18948|Cursor Position is wrong after resizing text in editor and jumping to end of line
+18949|multicursor paste distributes by newline to multiple cursors
+18950|Feature request: add API to add custom icons and functionality behind it to left bar.
+18951|[json] Quick Suggestions support for locally installed NPM Modules
+18952|In JS files, the function call buffer() is not colored
+18953|Fixes #17701 - Integrated Terminal Context Menu is triggered via contextmenu event instead of mousedown
+18954|"Allow the ability to ""preview"" large files"
+18955|Menu bar text too large?
+18956|[WelcomeUX]  Misaligned keyboard Shortcut in Interface Overview
+18957|[WelcomeUX] Interactive Walkthrough CSS
+18958|Running bash in the integrated terminal fails to delete characters
+18959|Please expose TerminalInstance.onClose on ITerminalInstance
+18960|Allow pinch to zoom when displaying an image
+18961|ITerminalInstance.onData and onExit should return a IDisposable so that the listeners can be unregistered.
+18962|Tab title switches to English on click
+18963|Shutdown terminal pty process more gracefully
+18964|[feature request] yarn tasks & launch support
+18965|code still formats on save even if formatOnSave is disabled
+18966|fix #18962. Honor enter rules
+18967|Code should be able to fold on braces instead of indents.
+18968|how select multi file from explorer
+18969|Terminal close but keep panel open
+18970|Add Markdown Preview to Editor Scroll Syncronization
+18971|Trimming trailing spaces based on file type
+18972|Add .npmignore as a known file type
+18973|split panel
+18974|"Triggering random filechanges for "".gitignore"" file"
+18975|Add 'Extension Pack' as a supported category
+18976|macOS: Cmd+A does not work in menu help input field
+18977|"[Request] Make findFiles ""include"", ""exclude"" an array of strings"
+18978|Git Bash integrated terminal odd behaviour
+18979|configuration.update doesn't do anything on malformed json
+18980|Why is it showing red lines under these pieces of code?
+18981|createTextEditorDecorationType doesn't display text in single quotes
+18982|Hope to Adding features
+18983|Cannot find module 'jsdom'
+18984|win10 alt + key for menu bar not working when scroll lock is on
+18985|webpack command works in Terminal but doesn't work in task run.
+18986|Search & Replace text with blank string does not work
+18987|Editors are identified case-sensitively on case-insensitive file systems leading to multiple editors for the same underlying file
+18988|#9003 Provide temporary option to disable the built-in PHP completion provider
+18989|每次打开vs都要下载这些
+18990|The replace string should support additional escape char sequences
+18991|problems in opened files setting
+18992|Customizable Explorer model
+18993|[folding][general] New option for Code Folding Indicator [+]/[-]
+18994|Double edit action in settings
+18995|Style misalignment between settings search no results and find widget
+18996|Style misalignment between search widget input box and settings input box
+18997|Style misalingment between settings tabs and panel tabs
+18998|Background color in settings number of results not needed IMHO
+18999|ITerminalInstance.onDisposed can fire multiple times for a single instance
+19000|"Space inserted before ""!"" in .ts file"

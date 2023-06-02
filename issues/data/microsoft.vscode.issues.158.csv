@@ -1,0 +1,100 @@
+15701|VSCode incorrectly treats a division as part of a regexp
+15702|Event Loop: Socket callback being ignored
+15703|Better UI for Multiline Search & Replace in a single file
+15704|Quickfix doesn't work
+15705|Can not open large files
+15706|Open folder in new window
+15707|Angular2 templates : use () and [] to surround text
+15708|Unable to change variables in debug mode of PowerShell
+15709|Peek window doesn't allow ctrl-s to save
+15710|Conflict detected, command `workbench.action.debug.stepOut` cannot be triggered by shift+f11 due to workbench.action.toggleFocusMode
+15711|Go to definition messes up cursor history stack (go back)
+15712|Use IWindowsService to get window count
+15713|Consistently use utf-8 for backup encoding
+15714|Setting to disable TS Service functionality
+15715|Javascript Colouring in Editor
+15716|Easy way to see new available settings
+15717|Allow code to open directories in nautilus file manager
+15718|Ctrl/Cmd+Shift+C should opens workspace instead of the folder containing current file in terminal
+15719|Typing Enter is very slow in checker.ts
+15720|Folders not refreshed after some changes to folder through command line
+15721|copy html code have problem
+15722|JavaScript Syntax Error for valid syntax: new.target
+15723|Users need the ability to blacklist extensions
+15724|Backup not deleted when doing explicit save action
+15725|Potential data loss for files that changed on disk meanwhile after a backup was made
+15726|Space 2 in the right bottom, but Ctrl+Alt+F(Fomat) will use 4 spaces to format code.
+15727|Conflict detected, command `workbench.action.debug.stepOut` cannot be triggered by shift+f11 due to workbench.action.toggleFocusMode
+15728|Error telemetry: always start to deminify stacks
+15729|Command palette reveals commands in a bad way when typing
+15730|Crash reporting: include crash details
+15731|All-In-One Package for PL Syntax Highlighting & Code Completeion
+15732|Allow extensions to publish beta releases and users to opt-in to them
+15733|shell open vscode
+15734|API: Expose decorations stickiness to extensions
+15735|Editor option for more strict highlighting
+15736|DEbug console link detection
+15737|Cursor doesn't move in a redo operation
+15738|"on Print ""123"""
+15739|Preview window not expanding to available space
+15740|How to setup Python to compile using Windows Bash
+15741|When entering Japanese with an editor and breaking the line, the last typed characters are duplicated
+15742|I'd like a shortcut to find open editors.
+15743|In markdown ligature works for `<-` only if it is backtick quoted.
+15744|The integrated terminal can't input a character continuously by pressing and holding a key
+15745|Use tab to select next snippet in complete list
+15746|gbk to utf-8
+15747|can't ctrl+v to console on win10 onscreen keyboard
+15748|doubling of accented foreign characters
+15749|Copy lines (Up/Down) doesn't work on Ubuntu for me !
+15750|Use editor.wordSeparators for Ctrl+D multicursor
+15751|Display gitignored files/folders in gray (inactive) color (in left explorer tree)
+15752|[css] option to hide all CSS vendor prefixes in intellisense
+15753|django supported ?
+15754|Find and replace limited to 999 lines?
+15755|"Reopen files after a restart (same as for ""window.reopenFolders"")"
+15756|Feature Request: A Singular Configuration Definition
+15757|Downloading package 'Mono Framework Assemblies' Failed at stage: downloadPackages
+15758|Improper rendering of unicode surrogate pairs in terminal
+15759|I called two quickOpenService.input methods in sequence. But only the first appeared.
+15760|Multiple workspaces not restored : OSX
+15761|Allow editing the git index
+15762|Can I set the app's user language to English while system Language is Chinese?
+15763|Add missing Sublime/Atom commands
+15764|Move delete all left action to contrib
+15765|autocomplete :Stdout maxBuffer exceeded
+15766|[Linux] EACCES on temporary socket with custom temp dir
+15767|Suggest to allow specific the file type manually
+15768|[php] Syntax highlighting breaks for <?php ?> between <script></script> tags
+15769|Moving a file to trash that is in use does not indicate error
+15770|Only resolve paths in REPL if path is relative
+15771|Allow markdown preview to scroll past content
+15772|Support objects when sending output to debug console
+15773|Reference counted (workbench) text models
+15774|Long delay when previewing Markdown files
+15775|Current line decoration bleeds onto line numbers
+15776|Contributable dirtydiff
+15777|Less verbose CI build
+15778|Create file and nested directories at once
+15779|Opening links ability from integrated terminal
+15780|"[Feature Request] Debugger - add restart option to request:""launch"""
+15781|"The ""godoc"" command is not available"
+15782|Test: custom window title (Mac)
+15783|Test: new option to insert final new line
+15784|Test: new option to show full path in window title
+15785|Test: Support arguments when defining keybindings
+15786|Test: new setting to remove tab close buttons
+15787|Test: Electron Update 1.4.x
+15788|Test: hide the activity bar
+15789|[php] Provide a formatter that also handles HTML
+15790|Error when opening TSX file: Cannot use JSX unless '--jsx' flag is provided
+15791|Avoid ImmortalReference (file models, untitled models)
+15792|While Publishing Csharp snippet getting error
+15793|"Conflict between ""editor.quickSuggestionsDelay"" and Emmet"
+15794|PHP parser explorations
+15795|Investigate return to open on mouse-down
+15796|Explore what it takes to ship VS Code as a UWP application
+15797|Add opening & closing parens in gutter (contextual)
+15798|Renaming file closes open editors when Kaspersky endpoint security is running
+15799|Recently opened file list in pallet includes deleted files
+15800|Feature: Git: option for open editor windows to change with branch

@@ -1,0 +1,100 @@
+19401|@jrieken assigning back to you to retest this scenario with a newer Alpha build that includes our node-debug fix to actually enable debug injection for Electron.
+19402|@jrieken assigning back to you to retest this scenario with a newer Alpha build that includes our node-debug fix to actually enable debug injection for Electron.
+19403|@jrieken assigning back to you to retest this scenario with a newer Alpha build that includes our node-debug fix to actually enable debug injection for Electron.
+19404|@jrieken assigning back to you to retest this scenario with a newer Alpha build that includes our node-debug fix to actually enable debug injection for Electron.
+19405|Pushed a fix for this today.
+19406|@chrisdias can you chime in?
+19407|@alexxx537 what language is this?
+19408|@alexxx537 is this with the C# extension?
+19409|Wow. Does it look better with your latest insider release?  You can give it a try from our insiders release today: http://code.visualstudio.com/Download#insiders
+19410|Just tested it (same locations) and it doesn't occur there. Could it be that some kind of extension or setting is causing this, and is there an easy way for me to test this without removing all from my normal install? Sort of a chrome-incognito mode?  Another interesting facet: When the dev tools are opened, it doesn't happen.
+19411|Thanks a lot for this investigation, will use a counter
+19412|disagree. we should not even have code that shows such a message, but it should truncate
+19413|I can go with option #1
+19414|Hi **@umpox**, I'm your friendly neighborhood Microsoft Pull Request Bot (You can call me MSBOT). Thanks for your contribution!     <span>         This seems like a small (but important) contribution, so no Contribution License Agreement is required at this point. Real humans will now evaluate your PR.     </span>  TTYL, MSBOT;
+19415|fixed with latest changes
+19416|fixed with latest changes
+19417|It is C language. I am using C/C++ extension.
+19418|Can not repro with latest alpha. We were always behaving like this, not a regression, removing important tag Truncation is coming from [here](https://github.com/Microsoft/vscode/blob/master/src/bootstrap.js#L65) @bpasero not sure if I can do something smarter there
+19419|No, it is C/C++ extension.
+19420|"@isidorn next time please run with ""code-alpha --verbose"" so that we can see the raw file events."
+19421|No, it is the large update coming with insiders from Chrome 45 => Chrome 49.
+19422|works with latest chances
+19423|Please report this to the C/C++ extension repository, thanks!
+19424|@alexandrudima this seems to fail compiling native-keymap.
+19425|@isidorn @weinand fyi
+19426|Please re-try this with latest alpha, there were issues with extensions debugging
+19427|only after a first Step it reveals the callstack
+19428|Fixed this morning by Ben and me. Works for me now
+19429|Verified it works now
+19430|I can not reproduce on Mac, but on Windows. I can also not reproduce with a standalone node.js snippet with the same code using node.js 5.11.0.
+19431|":white_check_mark: ""Code - OSS Dev"" when running in dev mode"
+19432|I see this when I step through quickly, no idea if this is us or omnisharp
+19433|might be my bad cos I missed a build in dot net cli
+19434|We did a decision today in the team to show the localized command first and the english one below. @stevencl @bgashler1 @chrisdias fyi
+19435|@helio-frota Have you installed [all the necessary prerequisites at the minimum specified versions](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run-from-source) ?  It is possible native-keymap fails because it is the first native node module encountered by npm.
+19436|@bpasero So, re-enable keywords?
+19437|"This was working with @joaomoreno 's fix a long time ago, but something broke it again along the way, and seems to be worse. Through an NTLM negotiated proxy, none of these work-arounds seem to work.  I'm on Windows 7, VSCode Insiders v1.0.1-insider.   I have the following set (and have tried with/without each of them):  ```   ""http.proxy"": ""http://myproxyhost:11111"",   ""https.proxy"": ""http://myproxyhost:11111"",   ""http.proxyStrictSSL"": false ```  Extensions never list when using `ext install`, and the bar just disappears. No error message like before."
+19438|This was like this since the beggining of time - I also see it in stable. Forwarding to @weinand since the debug adapter does not send a terminate signal - it probably does not arrive from node
+19439|nope
+19440|ok, let me know if you can repro. Also the thread order is coming from the adapter - so if you did not misbuilt then it is an issue in the c# debug adapter I believe
+19441|No, you can still search for english labels:  ![image](https://cloud.githubusercontent.com/assets/900690/14819476/a05dfc5e-0bc2-11e6-96a6-86343a27054c.png)
+19442|@Barryrowe I have the same issue using VSCode Insiders. Which file do you have these settings?
+19443|@Barryrowe @ranjith86 Can you test with the latest stable 1.0.0 and let me know if it is broken there as well?
+19444|@ranjith86 they are in my settings.json It looks like this is an ongoing issue and being worked on #5596    @joaomoreno I will check, and move discussion to the open issue
+19445|Oh translated and English is in same size That's good
+19446|+1  While performing Windows tests, test it with ConEmu application also. It's very powerful multitab terminal emulator. Please & Thanks.
+19447|Just reply here.
+19448|@alexandrudima sorry:  python --version Python 2.7.10 node --version v5.11.0 npm --version 3.8.6 gcc --version gcc (GCC) 5.3.1 20151207 (Red Hat 5.3.1-2)
+19449|@joaomoreno where can I put a try catch in order to catch this? The crash happens before vscode is even started
+19450|@marcpoggi Set `http.proxy` to `https://localhost:7124`.
+19451|Rewrote my comment.
+19452|"@joaomoreno for what ever reason, I can't open VS code on my machine. Only VSCode Insiders works. My settings.json file is as below, it is currently in my project folder.... is that right location?  ``` {   ""http.proxy"": ""http://localhost:8888"",   ""https.proxy"": ""http://localhost:8888"",   ""http.proxyStrictSSL"": false } ```"
+19453|The right location can be found with:  ![image](https://cloud.githubusercontent.com/assets/22350/14820066/2e250058-0bc5-11e6-8512-e75e36a1e255.png)
+19454|I explicitly decided against that because it would make the other reveal action be #2 which imho has a lot more users.
+19455|Never saw it on mac
+19456|@joaomoreno thanks, that worked. The location of settings.json was wrong in my case.
+19457|@bpasero @alexandrudima thanks it worked with:  ``` sudo dnf install libX11-devel.x86_64 ```
+19458|I'm getting similar behavior in stable v1.0.0.  The difference is that the blue loading bar doesn't scroll across the bottom of the console input.  It still just disappears without an error message.  if I completely remove the http.\* settings, the blue loading bar shows, and I do get a ETIMEDOUT error. So it seems the VS code is talking to the proxy when configured, but the response might be empty for some reason coming back.
+19459|I could fix it by running `sudo rpm -ev code-alpha` and reinstalling the `rpm` package.
+19460|I can reproduce.  ![image](https://cloud.githubusercontent.com/assets/900690/14820577/86906abe-0bc7-11e6-9cc2-a70e5534d961.png)
+19461|Alright, that sounds like #5596 then. Any chance I can use your proxy, btw?
+19462|@scottrudy so what does happen when you try to resize?
+19463|This is coming from the debug adapter, please file it against the extension.
+19464|This is coming from the debug adapter, they are loging that on the stderr - please file it agains the extension. We are forwarding that data to the console because it helps adapter developers to investigate errors while developing fyi @weinand
+19465|"Setting `""externalTerminal.linuxExec"": ""gnome-terminal""` works."
+19466|@jrieken can you please copy/paste your example code - thanks!
+19467|@helio-frota Thank you. I have updated the [wiki](https://github.com/Microsoft/vscode/wiki/How-to-Contribute) to make this clear:  ![image](https://cloud.githubusercontent.com/assets/5047891/14820851/aa3d190c-0bc8-11e6-974f-678ab2b53089.png)
+19468|Sorry I didn't reply earlier on this PR, I was on vacation for a couple of weeks. I think @jrieken owns the experience in this area more than I do.
+19469|It's okay. Vacation is important :)
+19470|@hungys Sorry for taking so long to answer, I was on vacation the past couple weeks.  I do not think it is a good idea to make all non-ASCII characters terminators by default. For example, the text `https://en.wikipedia.org/wiki/Zürich` gets detected as a link today and it is clickable and opens the right wikipedia page.   I think it would not be detected as a link after the proposed change, since `'ü'.charCodeAt(0) = 252`. I am much more in favour of extending the two character classes with additional non-ASCII terminators. For example, see https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/viewModel/characterHardWrappingLineMapper.ts#L20 which implements a character classifier (that is fast for ASCII tests - compact array and slower for non-ASCII tests - sparse set) that is used together with sensible defaults in https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/config/defaultConfig.ts#L57  So, I'm suggesting enhancing the current `FORCE_TERMINATION_CHARACTERS` and `CANNOT_END_WITH_CHARACTERS` with non-ASCII common punctuation characters and perhaps using the ideas captured in `CharacterClassifier` to make it fast.
+19471|@owt5008137 clang-format seems to have a line-based mode. http://clang.llvm.org/docs/ClangFormat.html  any special reasons you don't use 'lines' for what you want to achieve?
+19472|@alexandrudima Thanks for such good suggestion. Indeed, I think the best compromised way is to enumerate all potential cases and enhance the current `FORCE_TERMINATION_CHARACTERS` and `CANNOT_END_WITH_CHARACTERS`, but I didn't notice there is similar thing existing in config file and other component until you respond to me. Maybe I can try it :)
+19473|@jrieken can you give an example for how a link needs to look like if you want to execute a command?
+19474|"Nevermind, found it! E.g. ""a href='command:workbench.action.zoomIn'"""
+19475|Setting important due to regression
+19476|I also see this behavior in stable 1.0.0 and I think it was like this forever. I do not think it is imporant and I also think dup of #5831 Let me know if you disagree and I will reopen
+19477|Still happening. Idea is to provide a flag to bring file watcher into debug mode so that we can debug this. (e.g. ['--debug=6878'])
+19478|It looks like VSCode tries to preserve the _physical_ shortcut key. The toggle line comment shortcut is `cmd+/`. If you press the physical `/` key on a QWERTY keyboard that uses the Dvorak layout you get `z`. VSCode tries to map the shortcut to `cmd+z`, which doesn't even work since Undo binds higher.  This is why rebinding to `cmd+[` works. On a physical QWERTY keyboard `[` is mapped to `/`. By mapping the physical `[` key I get the desired shortcut (`cmd+/`).  I don't think the shortcuts should reflect the physical keyboard. They should match the keyboard layout. I know what physical key to press to trigger a `/`. This is how Atom behaves.
+19479|@isidorn Surely this hasn't been like this forever. If a program is done, it's done, and the debugger used to quit debugging. Now I just think the program is still alive when it isn't.  It's especially bad if you are debugging a node server which crashes. The debugger shows the user that it is still running but you cannot hit it with the web browser...
+19480|I am blocked on this since none of the queries I input [here](https://analytics.applicationinsights.io/subscriptions/dec3cbaa-81bb-4ea0-8a37-e27a20ef4089/resourcegroups/Ticino-AppInsights-Group/components/ticino#/discover/query/?_g=%28%29) give back any result - they just say loading for forever  @seanmcbreen @jrieken do you see the same? Or the kusto dashboard works for you  ![screen shot 2016-04-26 at 16 57 09](https://cloud.githubusercontent.com/assets/1926584/14822712/f1e791f4-0bcf-11e6-9936-08189c8b13bd.png)
+19481|Thanks for the sample script...
+19482|@joaomoreno I remember this was like this since at least 6 months, but I think since day 1. This is how node behaves @weinand can correct me here For debugging other languages once they are done we exit the debugging session because their program terminates and the adapter sends the appropriate signal to vscode
+19483|``` javascript function fib(t) {      if (t < 2) {          return 1;     }      return fib(t - 1) + fib(t - 2); }  fib(50) ```
+19484|Any chance this is going to be considered? :)
+19485|No it's not.  Node stops executing when there is nothing more to execute; it continues executing otherwise (e.g. when a `setTimeout` or `setInterval` is still pending, or waiting for IO).  If a script contains  ``` javascript console.log('goodbye') ```  What you get by running `node script.js` is `goodbye` and the process exits.
+19486|@joaomoreno makes good sense. I've also updated the April plan.
+19487|Touched all these areas today through self-hosting
+19488|It's still us printing to the console. If it's required for dev we should give them an output channel
+19489|We will only deliver this in May.
+19490|@isidorn Why is rendered prominently my face? Is that the extension?
+19491|Thanks!
+19492|Works fine in standalone node:  ![image](https://cloud.githubusercontent.com/assets/900690/14823754/f141c482-0bd3-11e6-8d94-f7f1cbc06bc9.png)
+19493|Forwarding to @weinand to decide how we want to procide with this. I do not have a strong opinion here
+19494|We have explicitly decided on the explicit action, if you have concerns please comment here  https://github.com/Microsoft/vscode/issues/4792  Thanks for offering tips though :)
+19495|"Is not the **:** inside quotes, and remove it doesn't fix it. Actually there's a bug when using ""lower-than"" symbol without spaces... This is the code @DeDuckProject posted, but indented (even with indentation, the issue persists):  <img width=""497"" alt=""screen shot 2016-04-26 at 12 19 33"" src=""https://cloud.githubusercontent.com/assets/3427344/14823530/4965d854-0ba9-11e6-83a3-896d2596cb20.png"">  With one space each side, the syntax highlight works fine throughout the code!  <img width=""509"" alt=""screen shot 2016-04-26 at 12 22 13"" src=""https://cloud.githubusercontent.com/assets/3427344/14823690/ce6560b0-0ba9-11e6-85d8-ea79c8323514.png"">"
+19496|Very unlikely that we merge this. As already [mentioned](https://github.com/Microsoft/vscode/pull/5121#issuecomment-214381597) people are very sensitive to this and changing the sort order to boost snippets isn't what everyone wants.   I can think of a special command that only suggest snippets or an extension that does that.
+19497|"``` using System; using System.Threading.Tasks;  namespace ConsoleApplication {     public class Program     {         public static void Main(string[] args)         {             Console.WriteLine(""Hello World!"");              var rnd = new Random();              Action a = () =>             {                 while (true)                 {                     var n = rnd.Next();                     var v = CheckPime(n);                     Console.WriteLine(string.Format(""isPrime({0})?${1}"", n, v));                 }             };              var t1 = Task.Factory.StartNew(a);              var t2 = Task.Factory.StartNew(() => {                 while(true) {                     var n = rnd.Next();                     var v = CheckPime(n);                     Console.WriteLine(string.Format(""IS_PRIME({0})?${1}"", n, v));                  }             });              Console.ReadLine();         }          private static bool CheckPime(int n)         {              for (var i = 2; i < n - 1; i++)             {                 float b = n / i;                 if (b == (int)b)                 {                     return false;                 }             }             return true;         }     } } ```"
+19498|and scaffold an app using `dotnet new`
+19499|fyi @isidorn
+19500|hm, I intercept click event on A tag with href, but this is an IMG...

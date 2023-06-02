@@ -1,0 +1,100 @@
+25501|Cannot create untitled document when having a host component
+25502|Feature Request: More infos about an import on hover
+25503|Add partial staging actions to diff editor context menu
+25504|Global launch config conflicts with local launch.json
+25505|vscode loads all files from computer in source control when there's not explicit git configuration for the folder/project.
+25506|Theming: diff colors should be more specific
+25507|Hi , Visual Studio just stopped showing  puppet code Please suggest ?
+25508|Detect more def* forms in Clojure syntax
+25509|Support symlinked files and folders
+25510|Define keybinding shouldn't be in command palette
+25511|Terminal output on wrong line
+25512|Capture regexp begin/end as punctuation in Clojure syntax
+25513|Strange error when searching in `./*`
+25514|Can't find any matches with `./`
+25515|Git Extension: Choose branches and get a list of changed files
+25516|HTML Wrap attributes doesn't work
+25517|Exception Peek UI no longer shows stacktrace
+25518|"""inspector"" based debugging fails for node v6.5"
+25519|Add setting to allow the tab bar to be shown only if there is more than one tab
+25520|Small comment fix
+25521|TS version selector coming up after opening a newly clones folder
+25522|window.zoomLevel negatively affects tab size
+25523|A rendering bug when typing Arabic after an English word
+25524|[bug] insertFinalNewline not work
+25525|Feature Suggestion: Ctrl+d for duplicate files on explorer view
+25526|Problems listed in the problem pane do not show error code
+25527|Customise two finger swipe gesture with modifier keys
+25528|Pasting R code into the integrated terminal is broken
+25529|mac tabSize invalid！！
+25530|Multiple editors open for the same file
+25531|For changed file, save time not updated in windows Explorer
+25532|Use Chromium's new system-ui font alias
+25533|[typescript] rename fails with 'no result'
+25534|Please add search ability for Pull Requests
+25535|Remove unnecessary parentheses
+25536|Indent markdown headings in Go to Symbols menu
+25537|Add a Git Tag Feature
+25538|[WIP] Use WSL PHP for validation
+25539|The ordinal 345 could not be located in the dynamic link library
+25540|Typo in source string - vs_workbench_parts_files
+25541|Cannot Theme the 'No Definition Found' Popup
+25542|Every now and then ctrl+alt+click does not open the editor
+25543|Tree: Collapse All is not performant
+25544|CSS Color Preview is The Wrong Color on High Contrast Theme With Color Customizations
+25545|[WelcomeUX] Add 'more' to the Recent section
+25546|Fix typo
+25547|Tomorrow Night Blue - Editor Find Box needs Attention
+25548|Mac Close File Confirm Dialog Does not Prevent Workbench Keyboard Actions From Being Queued
+25549|Route emmet actions to extension
+25550|Quite Light Theme - Notifications are Dark
+25551|Red Color Theme - Debugger Controls Need More Red
+25552|"""LXSS"" section dedicated in plugin configuration files"
+25553|'Add import .. from' with keyboard
+25554|save file then file tab not stop flash
+25555|Very same file being displayed with different names (case insensitive file names)
+25556|Only get 20 stack frames in chrome debugger
+25557|Why con't search 'ctrl' in Keyboard Shortcuts ?
+25558|Feature request: setting to make ctrl+tab switch tabs sequentially
+25559|vscode pylint bug
+25560|Save file with slash does not save to folder, but creates file with colon [OSX]
+25561|Monokai UI theme - first pass for #25327
+25562|Show a message when we fail to open a directory as link into the editor
+25563|Debugger display variables in alternate formats
+25564|git dosen't work
+25565|Emmet Abbreviation expansion is broken in this release.
+25566|Following links in Terminal tab that go off-screen are substringed to only the visible part
+25567|Allowing to step over before loading a call stack and variables
+25568|Oh no
+25569|Allow to target an editor group from quick open via keybinding
+25570|Indentation fails for ruby files
+25571|-n and --new-window flags do not seem to be working
+25572|Please support large files in VS Code editor
+25573|Could not run on CentOS 7 with x2go
+25574|Make use of tslib
+25575|Don't load mocha from a CDN
+25576|Same experience for SCM repository init as in Explorer view with no folder
+25577|Fold Level 2 doesn't always work
+25578|OS no response on Ubuntu 16.04 linux
+25579|On linux ubuntu 16. when i mount my other partitions. It tends to be very slow. Git dont work properly and Intellisense stops!
+25580|Support to attach to an electron spawned node process using the picker
+25581|Windows: Select box background flickers when opened
+25582|[SCSS] Reporting errors when code is correct
+25583|Consider to use dots instead of camel-case (fixes #25428)
+25584|Force Git as an extension for 1.12
+25585|Error running rename in CSS
+25586|Suggestion: option to disable lines break within words when wrapping
+25587|Diff editor: avoid hardcoded modified-side shadow
+25588|Copy line up/down does not respond
+25589|Links wrapped over multiple lines don't work
+25590|Debug multiple ASP.NET Core projects in Visual Studio Code
+25591|Intellisense ranking issue
+25592|Configurable extensions server (feature request)
+25593|Word Wrap Not Staying Enabled
+25594|'Checking For Updates...' is grayed out and an update message is never shown on Windows
+25595|[theming] when completing color keys in settings, fill in current value
+25596|List: bad color when focus moves out of selection and hovering
+25597|When multiple instances are opened on different git repos, only one will enable the git features.
+25598|Pass results limit
+25599|'Split Editor' Command Does Nothing In Diff View
+25600|JSON error doesn't allow me to open VS code from a terminal prompt

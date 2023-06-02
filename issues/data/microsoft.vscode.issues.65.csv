@@ -1,0 +1,100 @@
+6401|format php code problem
+6402|Ugly brackets in the menu
+6403|Leaving a right-click menu open for about 30 seconds causes a This Window Is No Longer Responding error
+6404|Cannot fold region if indented in C#
+6405|Insiders Build: Add message to switch over to the alpha build
+6406|Crash when launching / out of standby
+6407|When using multiple carets, smart additions get in the way
+6408|Code Formating : HTML does not work as expected
+6409|Cannot read property 'getActiveEditor' of undefined
+6410|Cannot read property 'getActiveEditor' of undefined
+6411|Cannot read property 'disposables' of undefined
+6412|Uncaught Error: Not an extension entry. Found quickOpenService,openOnPreview,... instead.
+6413|I hope vscode can open files by mutiple windows such as sublime text
+6414|Add `vscode.startDebugWithoutDebugging`
+6415|Launching in powershell creates crash report
+6416|fix #5918
+6417|Problems with Cut/Paste shortcut
+6418|Layer breaks: workbench depends on ITextFileService
+6419|Add lots of useful Rust Snippets
+6420|Searching for newline characters in regex mode doesn't find any results
+6421|Unity desktop entry not installed immediately after installation
+6422|Toggle Word Wrap does not use user setting editor.wrappingColumn
+6423|Hover variables window not showing in Extension Development Host
+6424|[themes] Change color of the line number
+6425|A suggestion to Erich Gamma
+6426|Switching theme while Integrated terminal is focused doesn't work
+6427|Error while launching an extension
+6428|Color syntax loss when moving parenthesis
+6429|Improve the watcher for out of workspace files
+6430|Feedback popup window has no border for High Contrast/Quiet Light themes
+6431|Official Support for ARM/Raspberry Pi Linux (armhf, arm64)
+6432|"Code ""touches"" the .gitignore file constantly"
+6433|Can't modify each file when comparing two different files
+6434|Extension-development-host is not terminating when closing debug session from main process.
+6435|Integrated terminal can screw up the vscode viewport
+6436|Editor indentation autodetection not working and manually set indentation keeps getting reset
+6437|cs templates
+6438|vscode.d.ts version 1.1.0 not available (empty)?
+6439|Allow custom integrated terminal background and foreground colors
+6440|Support copy and paste via keyboard on integrated terminal
+6441|Add toggle terminal to View menu
+6442|Support and test basics of integrated terminal on Windows
+6443|Investigate integrated terminal cmd support
+6444|Should escape be consumed by the integrated terminal?
+6445|Determine terminal character size in a font-agnostic way
+6446|vim overrides the terminal color scheme
+6447|Support multiple integrated terminals
+6448|Reflect integrated terminal's current process title in UI
+6449|Do something smarter when the integrated terminal is exited
+6450|Wrong type of comments for React code
+6451|Allow accepting `--ours` or `--theirs` when resolving merge conflicts
+6452|CSS Color indicator doesn't have a border on the high contrast theme
+6453|Fix feedback form styles in high contrast theme
+6454|Feedback smiles are off-center in high contrast theme
+6455|Open in Command Prompt doesn't open cwd when using cmder
+6456|Terminal: bad background color in HC theme
+6457|Terminal: indent content to be aligned with header
+6458|Terminal: constant high CPU usage once terminal is open
+6459|Allow decorations on empty characters
+6460|Quick open is not displaying all the matching files.
+6461|[folding] Shift-Click to Unfold All Nested
+6462|Usage message for search should be updated.
+6463|VS Code fails to open big files (60MB)
+6464|Escape key does not cancel the move to trash dialog
+6465|"Smile face and frown face have different ""characters left"" number"
+6466|Python error: NotImplementedError: cannot determine number of cpus
+6467|Keyboard events should stop dragging
+6468|Detection of duplicate javascript function names !!
+6469|custom user agent string for marketplace downloads
+6470|don't bind cmd+` for the terminal
+6471|Application locks up when pasting 'large' body of text
+6472|VS Code doesn't appear a content of the object in debug mode
+6473|Command line argument documentation and a '--help' option
+6474|Typescript autocomplete crash over time
+6475|Prevent accidentally dragging in tree via hysteresis
+6476|Provide configuration option for the open in terminal action to use the integrated terminal
+6477|Install extension of different versions into same path
+6478|RPM fails to install on opensuse
+6479|EDITOR_INPUT_STATE_CHANGED is a spammer
+6480|Screen reader not announcing when setting breakpoints
+6481|Screen reader does not read combo-box list items
+6482|VSCode's tmLanguage support cannot match zero-width `begin` and `end` correctly.
+6483|Transpiled JS file in same DIR is not found in explorer
+6484|Provide .tar.gz/xz Linux package instead of .zip
+6485|Feature request: Override command at task level
+6486|Feature request: CommandOptions at task level in tasks.json
+6487|JSX Auto-format adds unnecessary space in attributes
+6488|Unable to see intellisense on C/C++ file.
+6489|Do not steal Cmd + ` shortcut on Mac
+6490|spelling errors in .md files
+6491|Apply excludes to editor history quick open too
+6492|No apparent way to know whether an output channel is shown
+6493|"""-"" character doesn't work for triggering snippets"
+6494|Integrated terminal should default to the theme's background color
+6495|Getting error message when adding file to explorer and performing move, rename and delete operations.
+6496|After opening a file it should remain in working files even though its not edited
+6497|[Suggestion] GoTo->SwitchGroup->NextGroup and PreviousGroup should work in round-robin.
+6498|Default background img is not displaying and UI looks odd when opening new folder.
+6499|[css] Typo for pseudo-selector ::-webkit-outer-spin-button (::-webkit-ouer-spin-button) in intellisense
+6500|Split editor control is not working with Markdown preview.

@@ -1,0 +1,100 @@
+8701|Bail out of tokenization if too many states are pushed and not popped
+8702|Support to navigate up to out of workspace files from links inside the editor
+8703|marker list doesn't reuse editor
+8704|"Introduce a context for opened editors and use for ""Close Editor"""
+8705|Failed tsserver request should show some message in the UI
+8706|No ANSI output from 'tsc --pretty' task
+8707|Show Explorer count and File editors in sync with save/do not save action
+8708|Closing a file without saving is not cleaning markers
+8709|Syntax highlighting gets confused if return type ends with a number
+8710|can vscode run in a browser window ?
+8711|VS Code intellisense does not suggest members of js object.
+8712|VS Code allows to open *.asar file from the command line
+8713|[json] schema changes are not reflected hot if schema is referenced relative
+8714|TS errors leak on git undo
+8715|Regression: lost ability to drop a folder into Code to open it
+8716|"Debug: opened ""launch.json"" after clicking ""Configure"" should be pinned"
+8717|Tabs: hover improvements
+8718|Default language mode when new file opened
+8719|[powershell] Line comment block not recognized in PowerShell when in attribute definition scope
+8720|Inconsistent behaviour of 'Run to Cursor'
+8721|IMHO Display Language is too thin to get its own page under Customization
+8722|Split Editor asks if I want to save the file
+8723|shut up asar
+8724|Please add Do not show again button to php error message
+8725|Question: are new downloads in the extension folder deleted at extension update/removal?
+8726|We started to expose token types in the API
+8727|[javascript] No intellisense for javascript objects created with new?
+8728|[php] Bad syntax highlight with single line <?php ?> statements
+8729|Shrinking and growing the terminal horizontally breaks scrolling in the resized area
+8730|How can I references too many projects (folders) in Visual Studio Code?
+8731|command variables severely broken
+8732|cannot delte some folder/files in work place after VS code opened.
+8733|Saving huge files flashes the dirty circle indicator in open editors rapidly until it is saved to disk
+8734|Git operations in VSCode prevent git operations in other applications.
+8735|Fix did not removed css class dropfeedback
+8736|Better JavaScript completion thru JSDOC
+8737|Bug when dragging folder or extension file into vscode
+8738|we have the unused outlineMarkers
+8739|Auto-hide sidebar
+8740|Configured debug type 'chrome' is not supported.
+8741|Breakpoints disabled when debugging extensions
+8742|June Issue Review
+8743|Consolidate variable substitution between debug and tasks
+8744|Autoformat multiple exports
+8745|Menu items aren't sorted properly
+8746|schema include $ref not working (even with insiders version 1.3.0)
+8747|Something is severely different with intellisense and snippets
+8748|Update animated gif in repo entry page
+8749|July Iteration Plan
+8750|Generic type in interface breaks TSX syntax highlighting
+8751|Debug: hover could get some polish in this case
+8752|Git Fetch / Rebase
+8753|Typescript definition files sometimes not picked correctly
+8754|Python input problem
+8755|resourceScheme not available for editor/context
+8756|html.format.endWithNewline not working
+8757|IntelliSense doesn't work with multiple cursors
+8758|Eliminate all schema based attributes from IEnvConfig
+8759|Fixes #6938: Integrated terminal non-falsey shell exit codes should be reported to the UI, not just the console
+8760|Cannot fullscreen when opening with `code .` from terminal
+8761|Feature request: Classify User and Workspace settings
+8762|Window size and placement only remembered on first copy of vscode
+8763|complex command executeCodeLensProvider comment is incorrect
+8764|Auto-detected URLs in Markdown include trailing period
+8765|"Expected ""array"" green squiggles when passing array JSON ARM"
+8766|Highlight error for function named 'delete'
+8767|mouseWheelZoom doesn't resize deleted source when rendering diff inline
+8768|Local commands for editors need to be visible with Tabs enabled
+8769|UX meeting agenda July 5, 2016
+8770|Use CLS can not clear the prompt screen.
+8771|Terminal cannot display zh_CN properly.
+8772|ctrl+n/p doesn't work which works in sublime line
+8773|replace settings variables in debugger config #8042
+8774|Autoformat stops working
+8775|Fix extension install when drop into code
+8776|Suggestion: Add ability to Find/Replace in selection
+8777|Weird tabs auto scrolling behaviour?
+8778|Go To Symbol does not display types
+8779|[razor] Property indexer mess up code highlighting
+8780|Errors/warnings only shown for open files
+8781|Update OSS for Electron update
+8782|Path must be a string. Received null
+8783|Make it possible to use drag and drop in a webview
+8784|Extension UI allows duplicate updates
+8785|scripts\npm.bat install no longer installs extensions's deps
+8786|Fixes #8794
+8787|Shortcut doesn't work
+8788|Duplicate, ever-increasing, non-resetting error count
+8789|vs/editor/common drags in vs/editor/browser
+8790|Powershell PSScriptAnalyser not working in Insiders builds
+8791|vs/workbench/parts/output/common drags in /browser dependency
+8792|vs/workbench/parts/debug/common drags in /browser
+8793|vs/workbench/parts/git/common drags in /browser
+8794|Tab key deletes selection if line wraps over two lines
+8795|Lots of dependencies from /browser to /electron-browser
+8796|Opened editors: Some dependencies to electron-browser from /browser
+8797|Hover does not adress Language Servers Correct
+8798|Layer breakers from code/electron-main to vs/workbench
+8799|Vs code delete ; for my js file and setup 2spaces as a tab for one file
+8800|[suggestion] phpDoc Parser? Understanding PHP?

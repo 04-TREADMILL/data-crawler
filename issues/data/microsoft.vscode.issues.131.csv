@@ -1,0 +1,100 @@
+13001|Feature Request: Selection within words
+13002|Full file path to clipboard
+13003|Extra letter-spacing only on OSX (fixes #13017)
+13004|Can't highlight lua standard function in the default dark theme
+13005|Do not wrap in watermark (fixes #12980)
+13006|Win7: CPU usage at 100% when opening huge files
+13007|Put privacy link behind FWD link
+13008|invalid marker service state
+13009|Cannot read property 'uri' of null
+13010|Changed Insider Builds messaging
+13011|Can't sort files by date modified in open folder
+13012|Text typed in left editor is inserted in right editor when focused (HTML files)
+13013|Duplicate definition warning for Interface defined in same file - C#
+13014|Dark+ theme needs some improvements for 'support' scope
+13015|Dark+ theme needs some improvements for 'keyword.operator' scope
+13016|In TS 2.0.5 allowSyntheticDefaultImports is true in jsconfig.json -> adapt the generated jsconfig.json
+13017|Disable experimental auto build setting
+13018|Add option to enable listing of files only from current working folder when using quick search
+13019|Support msys git
+13020|Hang in file dialog when trying to save untitled file
+13021|No div completion on Template literals inside of ES6/TS files
+13022|Unpublish test extensions
+13023|New action search.focus.previousInputbox should be search.focus.previousInputBox
+13024|Files Opening Behind Other Applications
+13025|New up/down search input box keybindings are not symmetric
+13026|Dark+ theme needs some improvements for 'variable.language' scope
+13027|"editor.lineNumbers description needs to be updated for ""on"", ""off"", ""relative"""
+13028|Dark+ theme needs some improvements for type, cast and return type annotations
+13029|Support variables in snippets
+13030|Closing Developer Tools closes entire application and skips unsaved changes prompt
+13031|In product release notes lacks syntax highlighting
+13032|Can not open in product release notes more than once.
+13033|Consistently access config values in launch.config
+13034|Correctly Support accessing config values in launch.config
+13035|Maintain cursor position when toggle Open Markdown Preview
+13036|URL opener does not bring window to top on Windows
+13037|Code screen scrolls with output screen
+13038|Output to the debug console from a PowerShell script stops at some random point
+13039|Wrong language with definition preview hover
+13040|Auto add import statements as part of code completion
+13041|VSCode isn't working
+13042|VScode editor .xml file extension to show html file inside editor
+13043|If eval is evil, then what is new Function()?
+13044|'Extension not found' error when lacking 'main'
+13045|Double-click a file in the Explorer error
+13046|Internal terminal buffersize too small
+13047|simplify configuration resolver
+13048|Allow to open multiple project folders in the same window
+13049|Repl: cursor looks off in repl compared to editor
+13050|Project Search/Replace with RegExp with \n only searches in currently open file
+13051|Watermark: layerbreaks
+13052|Hover could be more readable in this case
+13053|Unable to update a config value with this syntax
+13054|Trigger signature help after completion
+13055|[folding] Expand folded section when entering text on first line
+13056|getaddrinfo ENOTFOUND marketplace.visualstudio.com
+13057|Markdown preview loses scrollbar on edit
+13058|VSCode extensions can lock asar files
+13059|Syntax highlighting fails after opening bracket on the new line
+13060|Maximize of VSCode window is not working with Actual Window Manager
+13061|Ver 1.5.3 Hanging
+13062|Order command palette by usage
+13063|Fix spanish menu typo
+13064|Error installing VSCode on Microsoft Surface Pro 3
+13065|Page-Up / Page-Down in git commit text box scrolls entire page up a little
+13066|[loc][Query][VSCode] Please clarify translatability
+13067|C syntax highlighter uses wrong colors after some macro definitions.
+13068|"Right click ""find definition and Peek does not work with files in open folder"
+13069|Custom ANSI colors in integrated terminal
+13070|Multi select option for the file explorer
+13071|Missing dependencies in debian package
+13072|Multiple cursors and using tab completion of HTML elements not working?
+13073|Can't edit multiple lines of HTML without deleting the block of code
+13074|[themes] Dark+ theme can possibly have different colors for properties and variables
+13075|Emoji keyboard opens in the wrong place
+13076|Need to save twice for json, js and css files to save changes
+13077|Diff editor does not ask to save when closing
+13078|Debug step out continues
+13079|vs vode just can't find the git
+13080|Report Issue Menu Item Broken on Edge
+13081|Files changing...
+13082|Jsdoc type intellisense not working when using custom file extension
+13083|Can't install VSIX into VS Code Insiders
+13084|Tooltips/Comments not localized in settings.json for settings from built-in extensions
+13085|Missing localizations in 1.6
+13086|Windows: selected tree item not accessible
+13087|Double clicking Release Notes preview mode tab closes editor and goes to website
+13088|"File starting with ""hidden "" doesn't appear in file explorer"
+13089|Avoid backticks (fixes #13098)
+13090|Logo above watermark commands animates every time it becomes visible
+13091|Cannot disable syntax highlighter
+13092|[Question]Disable extensions is not working anymore in Windows?
+13093|Intellisense doesn't update on tsconfig.json setting changing
+13094|[html] syntax highlighting broken if there is a syntax error in the style tag
+13095|Add an indicator for the current window
+13096|Bundled icon theme should be a Visual Studio icon theme
+13097|That is not possible to copy information from Problems window
+13098|Automatic bug fix suggestions
+13099|Not recognising Typescript 2.0 npm/@types definitions in code highlighting
+13100|lua syntax highlighting bug

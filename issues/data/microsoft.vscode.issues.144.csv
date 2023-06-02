@@ -1,0 +1,100 @@
+14301|"Contributions showing ""unknown"" for keybindings"
+14302|"Product needs to be renamed to remove ""visual studio"" from name to make web searches more meaningful."
+14303|Large minified JavaScript files cause VSCode to lockup and then crash
+14304|Visible whitespace disappears when `editor.renderIndentGuides` is true
+14305|Test failure: Cannot find module '../bin/linux/x64.m49.node'
+14306|Test: JavaScript intellisense is available without the need for configuration
+14307|Markdown Preview not filling buffer when zooming on UI
+14308|Hot exit: Reloading the window should restore all files in the window
+14309|Bgashler1/issue/13529/no animation watermark
+14310|Multi-target debugging - Breakpoints show as unbound, but execution still pauses there
+14311|Pause button shows up instead of Play while debugging multiple processes
+14312|Multi-target debugging - Can trigger commands with keyboard but not buttons, or vice-versa
+14313|Linting errors on the composite configuration suggesting missing request and cwd attributes
+14314|"configurationNames property should not be allowed on launch configurations other than ""composite"""
+14315|quick pick cursor will not move to the right
+14316|Support launching multiple launch configs manually?
+14317|Test: node2 - smartStep
+14318|Test: node2 - debug console completions
+14319|Test: node2 - General bugbash
+14320|Keybinding for recently opened projects / folders functionality
+14321|connect ETIMEDOUT 191.238.172.191:443
+14322|intellisense in debug console adds extra character
+14323|Errors stay in files even after you delete them
+14324|Python fold also collapses vertical white space
+14325|Notify users of extensions when opening unknown file type
+14326|Test: Extensions recommendations per language mode
+14327|Tests in TextFileEditorModelManager are flaky
+14328|Open in background hotkey should only activate if cursor is at end of line
+14329|Breakpoints should render snippet of code line
+14330|Stack frame title should be rendered using a mono space font
+14331|Cannot change python image file name to save.
+14332|very ugly search syntax
+14333|Debug stop icon changes to attach when pressing play
+14334|Bad wording for setting
+14335|cannot remove breakpoint
+14336|Debug: show expression or hit count based on relevancy
+14337|Debug: hover on breakpoint should show expression and hit count
+14338|Output: shows ugly highlight on empty line now
+14339|Debug: inform user how to enable expression/hit-count breakpoint
+14340|Variable not updating in variables view after setValue
+14341|Debug: help the user what to put into breakpoint hit count expression
+14342|Debug: validate user input for breakpoint hit-count
+14343|Variables view and watch view are not in sync
+14344|Skip keybindings that are not defined for the current platform in package.json
+14345|When I save my js file, vs code format my source code,It is so bad
+14346|Array preview shows duplicates if the array length is < 3
+14347|Debug: setting expression and hit-count at the same time does not hit anything
+14348|Terminal scroll commands on OS X should be preceded with Cmd
+14349|Issues with Sublime Text Keymap
+14350|Extensions: disablement state needs to be communicated across windows
+14351|Do not show dropdown for disabled extension if there is only one choice enabled
+14352|Terminal scrollbar width is 4px thinner than editor's scrollbar
+14353|"[scss] ""semi-colon expected"" error for pattern of ""url(foo())"""
+14354|Extensions: Show more info on Reload button
+14355|Flaky test: WorkspaceConfigurationEditingService - Node write one setting - empty file
+14356|Compile errors when setting engines.vscode to *
+14357|UX of Disable and Uninstall feels weird to me
+14358|Extension: disablement state not cleared when uninstalling and reinstalling
+14359|Extensions: Disable All (workspace) followed by Disable All behaves weird
+14360|Too many editor group layout actions
+14361|Middle vs Center labels
+14362|UX of extensions menu
+14363|Help extension authors through TypeScript 2.0 adoption in `compile` script
+14364|Extension: Reload button jumps from index 1 to 2 in this case
+14365|'defaultSideBySideLayout' naming
+14366|Improve fix on save setting doc
+14367|Ctrl + alt keybindings should not be used by default under Windows
+14368|[Request] Move line alt+up/down should autoindent
+14369|Format Selection and Format Document don't do anything for JavaScript
+14370|code --show-versions is bogus
+14371|R language support
+14372|'tslint failure' is harsh wording
+14373|node2: running mocha tests shows empty lines on debug console
+14374|Too many quotes?
+14375|Disable all is quite broken if repeated
+14376|"node2: error message ""Exception evaluating `process.pid`: . Will try again later."""
+14377|name quick fixes that should run on save
+14378|[Node 2] Previews for objects and arrays are not shown in Debug console
+14379|node-debug: use square brackets in array preview
+14380|Output highlights the empty line
+14381|Sometimes can't start debugging before the debug viewlet is visible
+14382|node-debug: preview does not trigger getters
+14383|debug repl: sometimes intellisense comes into my way...
+14384|Method invocations are coloured differently in Monokai theme
+14385|Bad wrapping of inline error widget and narrow editors
+14386|Method definitions have inconsistent colours in Javascript (Monokai theme)
+14387|Extension pack wants to uninstall after installing
+14388|Rename experimentalAutomaticTypeAcquisition to disableAutomaticTypingAcquisition
+14389|Can't install theme suicide-squad in Windows
+14390|Extra confirmation message seems weird
+14391|Unhelpful error message when uninstalling extension pack
+14392|Bad clicking when trying to uninstall
+14393|Reload button overkill
+14394|Work items from visualstudio.com should not be visible when they are in a resolved or fixed state.
+14395|Extension host debugging: reloading EH window doesn't restart debug session
+14396|Intellisense Works With White Space
+14397|"Irrelevant ""information"" message when using missing identifier for composite debugging"
+14398|Input box for hit count condition misaligned
+14399|Hit count input box could provide hint about expression syntax
+14400|Threads/programs should always show whether they are running or otherwise

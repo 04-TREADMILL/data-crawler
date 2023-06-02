@@ -1,0 +1,100 @@
+3401|Close other files does not close diff editor, md previews
+3402|Bad Funktion label
+3403|Impossible to disconnect from nodemon seassion
+3404|"Continuing debugging should narrate ""Debugging continued"""
+3405|Close all files: Cannot read property getEol of null
+3406|"""Program started"" should be ""Debugging started"" in VoiceOver"
+3407|Shift tab should only outdent when at the beginning of the line
+3408|extension install shows non-applicable versions
+3409|Revert snippet support for tasks.json
+3410|Show image dimensions
+3411|JavaScript snippets don't work in JavaScript React
+3412|Polish task snippets
+3413|The reload Typescript action also applies to JavaScript
+3414|Add functionality for autoclosing single quotes and double quotes
+3415|File types associated with VS Code are all given the same label in File Explorer
+3416|Extension Development Host not activating development extension
+3417|Users do not know how to get the menu bar back
+3418|[folding] language-aware folding
+3419|Git out of sync on mounted drive
+3420|404 when publishing an extension
+3421|[folding] Incorrect indent level being folded
+3422|tasks.json seeming to cause weird error
+3423|change ms-vscode.omnisharp to ms-vscode.csharp
+3424|--allowUnreachableCode in tsconfig.json breaks in editor
+3425|[themes] Themes don't support background styling
+3426|Improve JavaScript language service prompt
+3427|Command-E on Mac behaves differently from other applications
+3428|JSDoc @constructor shows up in IntelliSense
+3429|Files explorer : *Properties* command in the context menu
+3430|Have to reload vscode in order to pick up jsconfig.json
+3431|Extension [install] Version not Working
+3432|Opening settings.json adds permanent warnings to status bar.
+3433|Improve preLaunch task error message and prompts
+3434|Error message tweak when no task exists for preLaunch
+3435|I want to be able to just close things consistently without worrying about what type of thing it is
+3436|Is there anyway to hide the twitter feedback icon?
+3437|swap order of links in command palette for installing extensions
+3438|[JS coloring] same ‘var’ has different color
+3439|Undo stack lost at random times.
+3440|Python UnicodeEncodeError in output window
+3441|Red warning line while editing file with the git control panel
+3442|Add tips to the extension tips list
+3443|Value.replace is not a function
+3444|support to pass a 'More Information' url from the debug adapter to the frontend
+3445|JavaScript - Salsa Preview doesn't work at all
+3446|High contrast theme bleeds into other themes in search viewlet
+3447|VS Code not working on Ubuntu when connected using XRDP.
+3448|Search results highlights in viewlet look like they come from High Contrast in light theme?
+3449|Markdown preview is hard to read in the latest
+3450|VSCode Auto Save untitled files and open those files when opens again like Notepad++
+3451|When writing a custom debug adapter, variables are not shown on the test client
+3452|mark extention as installed
+3453|Revise wording on deb package
+3454|c# files do not start at top?
+3455|Window not really maximize on startup (Debian 8 XFCE)
+3456|unsupported debug type message: add single quotes around debug type
+3457|Investigate use of ELECTRON_NO_ATTACH_CONSOLE for forked Electron processes in Windows
+3458|no whitespace shown at the end of a decorated line
+3459|pressing tab adds spaces, but not as many as for a tab
+3460|Screen cheese in suggest window
+3461|intellisense doesn't work.no auto completion with inline javascript code in the .html file
+3462|"Ionic project: Error Debug adapter process has terminated unexpectedly, when ""Run on Android device"""
+3463|"Consider changing ""files.autoSave"": ""afterDelay"" to ""on"""
+3464|Support roslyn analyzers and code fixes
+3465|Cannot modify `editor.insertSpaces` setting anymore
+3466|Reinstalling an extension that is on the 'delete' list silently fails and is very confusing.
+3467|Overview ruler should have again a top border?
+3468|[folding] NPE when closing an editor
+3469|Recents not showing in task bar on windows 10
+3470|Code does not work when using new session switch (-n)
+3471|[folding] Folding should not try to do any revealing if using mouse
+3472|underscore is indistinguishable in links
+3473|Version in vscode.d.ts docstring is confusing
+3474|"Typo in code folding comment ""wheter"" should ""whether""."
+3475|NWJS Debugging Support
+3476|Remove Omnisharp deps from root OSSREADME.json?
+3477|[css] highlighting within @keyframes is messed up
+3478|not able to set up the code
+3479|Breakpoint actions should only be enabled when there are breakpoints to reapply/deactivate
+3480|[folding] Expand action should restore cursor position inside folded region iff cursor didn't change since fold action
+3481|json autocomplete does not escape \ in strings?
+3482|Resizing wrapped editor unfolds all folded regions
+3483|EOL status bar contribution lingers after last editor is closed
+3484|Compat modes no longer get configured on instantiation
+3485|Unable to target CoreCLR from Visual Studio Code
+3486|Save the splitted screens widths
+3487|Allow editing shortcuts that include mouse buttons
+3488|Cant install extensions. Error: unable to get local issuer certificate
+3489|Provide outline information for Markdown files
+3490|[snippets] [debt] don't allow snippet syntax in default values
+3491|Adds custom terminal launch settings
+3492|Mac OS X :: 0.10.9 :: No Intellisense for PowerShell variables
+3493|Mouse selection broken
+3494|'Revert File' in working files context menu
+3495|Large object variables can not be expanded
+3496|Notification handler failed with message 'argument must be positive'
+3497|no whitespace shown after typing
+3498|Variable highlight looks broken in dark theme
+3499|What's up with Tabs being under review? seriously...
+3500|Cannot find name 'require'
