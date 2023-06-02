@@ -24,6 +24,7 @@ id|text|mark
 
 - 利用 stackoverflow 和 github 开放的 apis 获取数据
 - 利用多线程技术加速爬取速度
+- 利用爬虫代理 IP 池规避 api 限流
 - 爬取结果
   - stackoverflow titles 25000 条
   - github issue titles 30000 条
